@@ -7,6 +7,9 @@
 
 #bloglist li {
   font-family: "calluna",serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
 }
 
 /* Blog Post */
