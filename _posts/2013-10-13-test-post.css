@@ -2,5 +2,6 @@
 layout: default
 title: Test post, please ignore
 ---
-
-Hello world!
+<div class="container-narrow">
+<h1>Hey there</h1>
+</div> <!-- /container-narrow -->
