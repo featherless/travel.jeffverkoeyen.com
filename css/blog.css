@@ -5,8 +5,13 @@
   text-align:justify;
 }
 
+#bloglist li {
+  font-family: "calluna",serif;
+}
+
 /* Blog Post */
 
 #blogpost p {
   text-align:justify;
 }
+
