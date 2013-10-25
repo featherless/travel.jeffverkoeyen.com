@@ -18,3 +18,32 @@
   text-align:justify;
 }
 
+#navigation {
+  clear: both;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+#navigation a,
+#post-title {
+  font-family: "nimbus-sans",sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+#post-title {
+  font-size: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#navigation .next {
+  float: right;
+  margin-right: -12px;
+}
+
+#navigation .previous {
+  float: left;
+  margin-left: -12px;
+}

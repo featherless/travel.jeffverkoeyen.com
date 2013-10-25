@@ -1,0 +1,21 @@
+<div id="navigation" class="container-narrow">
+{% for post in site.posts %}
+    {% if post.title == page.title %}
+        {% unless forloop.last %}
+            {% assign next = site.posts[forloop.index] %}
+            <div class="previous">
+            <a href="{{ next.url }}">&laquo; {{ next.title }}</a>
+            </div>
+        {% endunless %}
+        {% unless forloop.first %}
+            <div class="next">
+            <a href="{{ prev.url }}">{{ prev.title }} &raquo;</a>
+            </div>
+        {% endunless %}
+    {% endif %}
+    {% assign prev = post %}
+{% endfor %}
+<div class="clearfix"></div>
+</div>
+
+<div id="post-title" class="container-narrow">{{ page.title }}</div>
