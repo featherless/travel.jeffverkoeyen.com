@@ -6,7 +6,7 @@ title: Blog
 <div id="bloglist" class="container-narrow">
 	<ul class="posts">
 		{% for post in site.posts %}
-		<li><a href="{{ post.url }}">{{ post.title }}</a> <span class="separator">~</span> <span>{{ post.date | date_to_string }}</span></li>
+		<li><a href="{{ post.url }}">{{ post.title }} <span class="separator">~</span> <span>{{ post.date | date_to_string }}</span></a></li>
 		{% endfor %}
 	</ul>  
 </div> <!-- /container-narrow -->

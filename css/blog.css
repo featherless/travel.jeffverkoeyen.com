@@ -14,8 +14,19 @@
 
 /* Blog Post */
 
+#blogpost iframe {
+  border: 0;
+}
+
 #blogpost p {
   text-align:justify;
+}
+
+#blogpost .tooltip-inner {
+  font-family: "calluna",serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 18px;
 }
 
 #navigation {
@@ -25,16 +36,21 @@
 }
 
 #navigation a,
-#post-title {
+#post-header .title,
+#post-header .date {
   font-family: "nimbus-sans",sans-serif;
   font-weight: 300;
   font-size: 16px;
   line-height: 24px;
 }
 
-#post-title {
+#post-header .title {
   font-size: 20px;
-  margin-bottom: 20px;
+  text-align: center;
+}
+
+#post-header .date {
+  font-size: 14px;
   text-align: center;
 }
 
@@ -46,4 +62,40 @@
 #navigation .previous {
   float: left;
   margin-left: -12px;
+}
+
+/* TODO: Move to portfolio.css */
+.narrow-top-space {
+  padding-top: 20px;
+}
+
+.opposite-align h1,
+.opposite-align h2 {
+  text-align: right;
+}
+
+.lessons {
+  background-color: #FFF6F2;
+}
+
+#geomap {
+  background: #FFF url('http://jeffverkoeyen.com/gfx/gmm_background_tile.png') repeat left top;
+  background-size: 40px 40px;
+}
+
+.geomap-frame {
+  width: 100%;
+  height: 400px;
+}
+
+@media (max-width: 767px) {
+  .geomap-frame {
+    height: 300px;
+  }
+}
+
+@media (max-width: 480px) {
+  .geomap-frame {
+    height: 200px;
+  }
 }
