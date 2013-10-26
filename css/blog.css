@@ -74,8 +74,12 @@
   text-align: right;
 }
 
-.lessons {
-  background-color: #FFF6F2;
+.lessons_green {
+  background-color: #F2FFF2;
+}
+
+.lessons_orange {
+  background-color: #FFFAF2;
 }
 
 #geomap {

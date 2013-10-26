@@ -19,7 +19,7 @@ title: "Traveling in Panama: Panama City"
 </div>
 </div>
 
-<div class="lessons page">
+<div class="lessons_green page">
   <div class="container">
     
     <div class="row-fluid">
@@ -71,6 +71,44 @@ title: "Traveling in Panama: Panama City"
           <em data-toggle="tooltip" title="Can I withdraw money?">&iquest;puedo retirar dinero?</em>,
           after which they took my passport, asked how much I wanted to take out, and then gave me
           the cash and a receipt.
+        </p>
+      </div>
+    </div> <!-- /row-fluid -->
+
+  </div> <!-- /container -->
+</div> <!-- /#geomap -->
+
+<div class="lessons_orange page">
+  <div class="container">
+    
+    <div class="row-fluid">
+      <div class="span5">
+        <h1>Local SIM cards</h1>
+      </div>
+      <div class="span7">
+        <p>What <strong>not</strong> to do: plug the SIM in and wait.<br/>
+        What <strong>to</strong> do: connect to the wifi, turn off the phone, replace the SIM, then
+        reboot and re-activate the phone through Apple.</p>
+      </div>
+    </div>
+
+    <div class="row-fluid container-narrow">
+      <div class="span12">
+        <p>
+          I went to a cell phone shop called Claro's near the Los Mostros hostel to get a SIM card.
+          They were friendly, spoke English, and quickly got me a SIM card to test in my phone.
+          After putting the SIM card in, however, the phone didn't seem to be finding the network.
+          My phone was unlocked so it should have been connecting, but the staff didn't know what
+          the problem was.
+        </p>
+        <p>
+          Turns out SIM card activation on unlocked phones has to be done through Apple and this
+          requires a wifi connection to the internet. Once we connected to the store's wifi the
+          activation was quick and painless. Learning this required a walk back home, a call to
+          Verizon, and them informing me of the process.
+        </p>
+        <p>
+          The data plans here give you unlimited data for under $1 a day.
         </p>
       </div>
     </div> <!-- /row-fluid -->
