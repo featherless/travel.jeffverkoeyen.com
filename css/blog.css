@@ -98,4 +98,13 @@
   .geomap-frame {
     height: 200px;
   }
+  
+  #navigation .next {
+    margin-right: 0;
+  }
+
+  #navigation .previous {
+    margin-left: 0;
+  }
+
 }
