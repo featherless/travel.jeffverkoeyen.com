@@ -36,7 +36,7 @@ title: "Traveling in Panama: Panama City"
     <div class="row-fluid container-narrow">
       <div class="span12">
         <p>
-          The first time I tried to take money ($200) out of an ATM I was surprised to have my
+          The first time I tried to take cash ($200) out of an ATM I was surprised to have my
           transaction seemingly "canceled" right at the last second. Thinking this to be a fluke, I
           attempted another transaction with the same results. I had notified my bank of my travel
           plans so my card shouldn't have been getting blocked. After going to another bank and
