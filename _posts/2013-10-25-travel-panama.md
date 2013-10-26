@@ -9,7 +9,7 @@ title: "Traveling in Panama: Panama City"
   I want to learn Spanish before beginning a long-term trip around South America. In an effort to
   immerse myself, I've flown to Panama City as a staging ground. Panama's canal is the "crossroads
   of the world" so it seemed like a fitting place to begin my adventures (and to geek out over one
-  of the world's engineering marvels).
+  of Earth's engineering marvels).
 </p>
 <p>
   It's my first time backpacking and I've already had a number of hard-earned lessons. I'm
