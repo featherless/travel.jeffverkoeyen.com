@@ -23,13 +23,13 @@ title: "Traveling in Panama: Panama City"
   <div class="container">
     
     <div class="row-fluid">
-      <div class="span5">
-        <h1>Getting Cash</h1>
-      </div>
       <div class="span7">
         <p>What <strong>not</strong> to do: use the ATMs.<br/>
         What <strong>to</strong> do: go inside and speak with a teller directly. Bring your
         passport.</p>
+      </div>
+      <div class="span5">
+        <h1>Getting Cash</h1>
       </div>
     </div>
 
