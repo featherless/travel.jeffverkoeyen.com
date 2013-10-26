@@ -59,7 +59,7 @@ title: "Traveling in Panama: Panama City"
         </p>
         <h2>How to actually get cash</h2>
         <p>
-          After talking with the banks I decided to find a bank and try to go inside to speak with a
+          After talking with BoA I decided to find a bank and try to go inside to speak with a
           teller directly. My ability to speak spanish was non-existent so I used the Google
           Translate app (which uses <a href="http://jeffverkoeyen.com/portfolio">Nimbus</a>, by the
           way!) to translate a bunch of key phrases and save them to my phone.
