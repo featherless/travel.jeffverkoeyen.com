@@ -98,7 +98,9 @@
   .geomap-frame {
     height: 200px;
   }
-  
+}
+
+@media (max-width: 320px) {
   #navigation .next {
     margin-right: 0;
   }
