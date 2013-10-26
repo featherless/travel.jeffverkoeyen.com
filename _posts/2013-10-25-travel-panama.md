@@ -101,11 +101,11 @@ title: "Traveling in Panama: Panama City"
     
     <div class="row-fluid">
       <div class="span6">
-        <h1>Date Arrived</h1>
+        <h1>Arrival</h1>
         <h2>October 22, 2013</h2>
       </div>
       <div class="span6 opposite-align">
-        <h1>Date Left</h1>
+        <h1>Departure</h1>
         <h2>TBD</h2>
       </div>
     </div>
