@@ -57,6 +57,12 @@ title: "Traveling in Panama: Panama City"
           Thankfully after a quick call to BoA they said they'd file a claim and I'd have my money
           back within 48 hours.
         </p>
+        <p>
+          I also attempted to take cash out with my CIBC account. They required a complete
+          cancellation of my card in order to file the fraud report. This definitely wasn't as
+          convenient, so I'd have to wait until I figure out a place where I'll be a few weeks ahead
+          of time.
+        </p>
         <h2>How to actually get cash</h2>
         <p>
           After talking with BoA I decided to find a bank and try to speak with a teller directly.
