@@ -82,6 +82,10 @@
   background-color: #FFFAF2;
 }
 
+.lessons_grey {
+  background-color: #F5F5F4;
+}
+
 #geomap {
   background: #FFF url('http://jeffverkoeyen.com/gfx/gmm_background_tile.png') repeat left top;
   background-size: 40px 40px;

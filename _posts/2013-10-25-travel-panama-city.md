@@ -19,7 +19,50 @@ title: "Traveling in Panama: Panama City"
 </div>
 </div>
 
-<div class="lessons_green page">
+<div id="losmostros" class="page lessons_grey">
+  <div class="container">
+    
+    <div class="row-fluid container-narrow">
+      <div class="span12">
+        <h1 style="text-align: center">Hostel Los Mostros</h1>
+        <p><img src="/gfx/losmostros.jpg" />
+          <small>Image from the <a href="http://www.losmostroshostel.com/">Hostel Los Mostros website</a></small>.
+        </p>
+      </div>
+    </div>
+
+    <div class="row-fluid container-narrow">
+      <div class="span12">
+        <p>
+          I found <a href="http://www.losmostroshostel.com/">Hostel Los Mostros</a> through
+          Hostel World (<a href="http://www.hostelworld.com/hosteldetails.php/Los-Mostros-Hostel/Panama-City/69723">listing</a>).
+          As of this writing they have the best rating in the city at 91% and my experience here
+          thus far definitely validates this.
+        </p>
+        <p>
+          All of the staff are incredibly friendly and always willing to help out if you have
+          questions. They're constantly cleaning everything, with seemingly 3x daily mopping of the
+          floors and regular sweeping of the pool. Everyone in the staff seems equally invested in
+          Los Mostros which makes for a really warm feeling to the place.
+        </p>
+        <p>
+          I've been staying at Los Mostros for about a week now, with another week extended ahead of
+          me. The travellers that come through have mostly been from Europe or South America so far
+          and nearly all are remarkably friendly. Given that I don't speak Spanish there are a few
+          travellers that I can't connect with that well, but I'm working on it.
+        </p>
+        <p>
+          The one downside that I can think of is that it does get abnormally warm during the day
+          due to the lack of breezes into the property, but this is more of a reflection on the
+          weather in Panama than anything else.
+        </p>
+      </div>
+    </div> <!-- /row-fluid -->
+
+  </div> <!-- /container -->
+</div> <!-- /#losmostros -->
+
+<div id="atms" class="lessons_green page">
   <div class="container">
     
     <div class="row-fluid">
@@ -82,9 +125,9 @@ title: "Traveling in Panama: Panama City"
     </div> <!-- /row-fluid -->
 
   </div> <!-- /container -->
-</div> <!-- /#geomap -->
+</div> <!-- /#atms -->
 
-<div class="lessons_orange page">
+<div id="localsims" class="lessons_orange page">
   <div class="container">
     
     <div class="row-fluid">
@@ -120,7 +163,7 @@ title: "Traveling in Panama: Panama City"
     </div> <!-- /row-fluid -->
 
   </div> <!-- /container -->
-</div> <!-- /#geomap -->
+</div> <!-- /#localsims -->
 
 <div id="geomap" class="page">
   <div class="container">
