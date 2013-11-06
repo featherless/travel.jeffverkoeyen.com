@@ -39,7 +39,7 @@ title: "Traveling in Panama: Panama City"
       <div class="span6 opposite-align">
         <h1>Departure</h1>
         <h2>Nov 5, 2013</h2>
-        <h3><small>to</small> Bocas del Toro, Panama</h3>
+        <h3><small>to</small> <a href="/2013/11/06/travel-bocas/">Bocas del Toro, Panama</a></h3>
       </div>
     </div>
 
