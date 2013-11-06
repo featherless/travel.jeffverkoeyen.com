@@ -1,0 +1,5 @@
+---
+layout: textpost
+title: Life
+---
+

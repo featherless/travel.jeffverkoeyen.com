@@ -70,7 +70,8 @@
 }
 
 .opposite-align h1,
-.opposite-align h2 {
+.opposite-align h2,
+.opposite-align h3 {
   text-align: right;
 }
 

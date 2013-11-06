@@ -1,0 +1,530 @@
+/* Common Styles */
+h1 {
+  font-family: "museo-sans",sans-serif;
+  font-weight: 100;
+}
+h2, h3, h4 {
+  font-family: "nimbus-sans",sans-serif;
+  font-weight: 300;
+}
+p {
+  font-family: "calluna",serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+}
+p b {
+  font-weight: 400;
+}
+p a {
+  color: #66A;
+}
+p a:hover {
+  text-decoration: underline;
+}
+hr {
+  border-top: 1px solid #DDD;
+  margin: 40px 0;
+}
+.container-narrow {
+  margin: 0 auto;
+  max-width: 480px;
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+.twitter {
+  background-image: url('/gfx/twitter.png');
+  background-size: 40px 40px;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  vertical-align: text-top;
+  margin-top: -5px;
+}
+@media (max-width: 480px) {
+  p {
+    font-size: 16px;
+  }
+  h3 {
+    font-size: 18px;
+    margin-bottom: 0;
+  }
+  hr {
+    margin: 5px 0;
+  }
+  .container-narrow {
+    margin: 0 auto;
+    max-width: 300px;
+  }
+}
+
+/* Landing Page */
+#landing .jumbotron {
+  margin: 0;
+  text-align: right;
+}
+#landing .jumbotron h1 {
+  background: transparent url('/gfx/feather.svg') no-repeat left top;
+  background-size: 256px 256px;
+  padding-left: 100px;
+  padding-top: 126px;
+  font-size: 48px;
+  line-height: 1;
+  color: #111;
+}
+#landing .toc {
+  margin-left: 36px;
+}
+#landing .toc h2 {
+  text-align: center;
+}
+#landing .toc .middle {
+  padding-left: 16px;
+}
+#landing .toc a {
+  color: #111;
+  padding: 10px;
+}
+#landing .toc a:hover,
+.toc a:focus {
+  color: #111;
+  text-decoration: none;
+  border-bottom: 1px solid #CCC;
+}
+@media (max-width: 767px) {
+  #landing .toc .middle {
+    padding-left: 0;
+  }
+}
+@media (max-width: 480px) {
+  #landing [class*="span"],
+  #landing .uneditable-input[class*="span"],
+  #landing .row-fluid [class*="span"] {
+    display: block;
+    float: none;
+    width: 100%;
+    margin-left: 0;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  #landing .jumbotron h1 {
+    background-size: 128px 128px;
+    padding-top: 54px;
+    padding-left: 0;
+    font-size: 28px;
+    font-weight: 100;
+    padding-bottom: 10px;
+    margin-bottom: 0;
+    margin-left: 33px;
+    margin-top: 40px;
+  }
+  #landing .toc h2 {
+    text-align: right;
+    margin-right:37px;
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 36px;
+  }
+  #landing .toc a {
+    padding: 5px 0;
+  }
+}
+
+/* Masthead */
+.masthead h3 {
+  background: transparent url('/gfx/feather.svg') no-repeat left top;
+  background-size: 96px 96px;
+  padding-left: 51px;
+  padding-top: 44px;
+  font-family: "museo-sans",sans-serif;
+  font-weight: 300;
+  margin-top: 0;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: right;
+}
+
+.masthead .nav-pills {
+  padding-top: 56px;
+  margin-left: -6px;
+}
+
+.masthead .nav-pills > li > a {
+  font-family: "nimbus-sans",sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  padding: 10px 5px;
+  margin: 0;
+  margin-right: 20px;
+  border-bottom: 1px solid #fff;
+}
+
+.masthead .nav > li > a:hover,
+.masthead .nav > li > a:focus {
+  background-color: transparent;
+  color: #111;
+  border-bottom: 1px solid #CCC;
+}
+
+.masthead .nav-pills > .active > a {
+  background-color: transparent;
+  color: #111;
+  border-bottom: 1px solid #999;
+}
+
+.masthead .nav-pills > .active > a:hover,
+.masthead .nav-pills > .active > a:focus {
+  color: #111;
+  border-bottom: 1px solid #999;
+}
+
+@media (max-width: 480px) {
+  .masthead .nav-pills {
+    padding-top: 0;
+  }
+  .masthead .nav-pills > li {
+    float: none;
+    width: 150px;
+  }
+  .masthead .nav-pills > li > a {
+    font-size: 14px;
+    line-height: 18px;
+    padding-top: 8px;
+    padding-bottom: 2px;
+  }
+}
+
+/* About */
+
+#about p {
+  text-align:justify;
+}
+
+/* Contact */
+
+#contact h3 {
+  text-align: center;
+}
+
+@media (max-width: 480px) {
+  #contact [class*="span"],
+  #contact .uneditable-input[class*="span"],
+  #contact .row-fluid [class*="span"] {
+    display: block;
+    float: none;
+    width: 100%;
+    margin-left: 0;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  
+  #contact .twitter {
+    background-image: url('/gfx/twitter.png');
+    background-size: 31px 31px;
+    width: 31px;
+    height: 31px;
+    display: inline-block;
+    vertical-align: text-top;
+    margin-top: -4px;
+  }
+}
+
+/* Portfolio Pages */
+
+.page {
+  padding: 60px 0;
+  border-bottom: 1px solid #DDD;
+}
+
+.page h1,
+.page h2 {
+  font-family: "museo-sans",sans-serif;
+  font-weight: 100;
+}
+
+.page .centered-headers h1,
+.page .centered-headers h2 {
+  text-align: center;
+}
+
+.page .appstore {
+  background: transparent url('/gfx/appstore.svg') no-repeat right center;
+  background-size: 150px 42px;
+  height: 60px;
+  margin-right: -2px;
+}
+
+.page .timeline,
+.page .timeline-right {
+  font-size: 20px;
+  color: #999;
+  font-family: "museo-sans",sans-serif;
+  font-weight: 100;
+  margin: 10px 0;
+}
+
+.page .timeline-right {
+  text-align: right;
+}
+
+@media (max-width: 767px) {
+  .page .appstore {
+    background-size: 100px 29px;
+    height: 30px;
+    margin-right: 0;
+    margin-top: 5px;
+    background-position-x: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .page {
+    padding: 20px 0;
+  }
+  .page .appstore {
+    background-position: center center;
+    margin-bottom: 15px;
+  }
+}
+
+/* Google Maps */
+
+#googlemaps {
+  border-top: 1px solid #DDD;
+  background: #FFF url('/gfx/gmm_background_tile.png') repeat left top;
+  background-size: 40px 40px;
+}
+
+#googlemaps h1 {
+  margin-top: 0;
+}
+
+#googlemaps .tight-headers h1,
+#googlemaps .tight-headers h2,
+#googlemaps .tight-headers h3 {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+#googlemaps .gmm_icon {
+  background: transparent url('/gfx/gmm_icon.png') no-repeat right top;
+  background-size: 146px 146px;
+  height: 146px;
+}
+
+#googlemaps .webby {
+  background: transparent url('/gfx/webby.png') no-repeat center top;
+  background-size: 178px 178px;
+  height: 178px;
+}
+
+#googlemaps h1 small,
+#googlemaps h2 small {
+  font-weight: 100;
+  white-space: nowrap;
+}
+
+@media (max-width: 767px) {
+  .page p {
+    text-align:justify;
+  }
+  .page .container {
+    padding: 0 20px;
+  }
+  .page h1 {
+    font-size: 30px;
+    line-height: 34px;
+  }
+  .page h1 small {
+    font-size: 20px;
+  }
+  .page h2 {
+    font-size: 24px;
+    line-height: 24px;
+    margin: 10px 0;
+  }
+  #googlemaps .gmm_icon {
+    background-size: 100px 100px;
+    height: 100px;
+    background-position-x: center;
+  }
+  #googlemaps .webby {
+    background-size: 100px 100px;
+    height: 100px;
+  }
+}
+
+@media (max-width: 480px) {
+  #googlemaps .gmm_icon {
+    background-position: center top;
+    margin-bottom: 10px;
+  }
+  #googlemaps [class*="span"],
+  #googlemaps .uneditable-input[class*="span"],
+  #googlemaps .row-fluid [class*="span"] {
+    display: block;
+    float: none;
+    width: 100%;
+    margin-left: 0;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio : 2), only screen and (min-device-pixel-ratio : 2) {
+  #googlemaps {
+    background-image: url('/gfx/gmm_background_tile@2x.png');
+  }
+  #googlemaps .gmm_icon {
+    background-image: url('/gfx/gmm_icon@2x.png');
+  }
+}
+
+/* Nimbus */
+
+#nimbus {
+  background-color: #FFFAF2;
+}
+
+#nimbus .nimbus_icon {
+  background: transparent url('/gfx/nimbus128.png') no-repeat left top;
+  background-size: 128px 128px;
+  height: 128px;
+}
+
+@media (max-width: 767px) {
+  #nimbus .nimbus_icon {
+    background-size: 96px 96px;
+    height: 96px;
+    background-position: right top;
+  }
+  
+  #nimbus .statistics h4 {
+    text-align: right;
+  }
+}
+
+@media (max-width: 480px) {
+  #nimbus [class*="span"],
+  #nimbus .uneditable-input[class*="span"],
+  #nimbus .row-fluid [class*="span"] {
+    display: block;
+    float: none;
+    width: 100%;
+    margin-left: 0;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  #nimbus .nimbus_icon {
+    background-position: center top;
+  }
+  #nimbus .statistics h4 {
+    text-align: center;
+  }
+}
+
+/* Facebook */
+
+#facebook {
+  background-color: #FAFBFB;
+}
+
+@media (max-width: 480px) {
+  #facebook [class*="span"],
+  #facebook .uneditable-input[class*="span"],
+  #facebook .row-fluid [class*="span"] {
+    display: block;
+    float: none;
+    width: 100%;
+    margin-left: 0;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+}
+
+/* Pixel Heart */
+
+#pixelheart {
+  background-color: #111;
+}
+
+#pixelheart h1,
+#pixelheart h2,
+#pixelheart p {
+  color: #FFF;
+}
+
+#pixelheart p {
+  letter-spacing: 1px;
+}
+
+#pixelheart hr {
+  border-top: 1px solid #666;
+  border-bottom: none;
+}
+
+#pixelheart .pixelheart_logo {
+  background: transparent url('/gfx/pixelheart.png') no-repeat center top;
+  background-size: 484px 324.5px;
+  height: 324.5px;
+}
+
+#pixelheart .techspec {
+  color: #FFF;
+  font-family: "nimbus-sans",sans-serif;
+  font-weight: 300;
+}
+
+#pixelheart .pixelheart_animation1,
+#pixelheart .pixelheart_animation2,
+#pixelheart .pixelheart_animation3,
+#pixelheart .pixelheart_animation4 {
+  background-size: 48px 32px;
+  height: 32px;
+  width: 48px;
+  display: block;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+#pixelheart .pixelheart_animation1 {
+  background: transparent url('/gfx/pixelheart_anim1.gif') no-repeat center top;
+}
+
+#pixelheart .pixelheart_animation2 {
+  background: transparent url('/gfx/pixelheart_anim2.gif') no-repeat center top;
+}
+
+#pixelheart .pixelheart_animation3 {
+  background: transparent url('/gfx/pixelheart_anim3.gif') no-repeat center top;
+}
+
+#pixelheart .pixelheart_animation4 {
+  background: transparent url('/gfx/pixelheart_anim4.gif') no-repeat center top;
+}
+
+@media (max-width: 480px) {
+  #pixelheart [class*="span"],
+  #pixelheart .uneditable-input[class*="span"],
+  #pixelheart .row-fluid [class*="span"] {
+    display: block;
+    float: none;
+    width: 100%;
+    margin-left: 0;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  #pixelheart .pixelheart_logo {
+    background-size: 242px 162.25px;
+    height: 162.25px;
+  }
+}

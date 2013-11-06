@@ -16,7 +16,34 @@ title: "Traveling in Panama: Panama City"
   documenting them here for posterity though more experienced travellers will likely find some
   things redundant.
 </p>
+<h3>Notes</h3>
+<ul>
+  <li><a href="#losmostros">Los Mostros</a></li>
+  <li><a href="#duolingo">Duolingo</a></li>
+  <li><a href="#atms">ATMs</a></li>
+  <li><a href="#localsims">Local SIM Cards</a></li>
+  <li><a href="#geomap">Geo Notes</a></li>
+</ul>
 </div>
+</div>
+
+<div class="page">
+  <div class="container">
+    
+    <div class="row-fluid">
+      <div class="span6">
+        <h1>Arrival</h1>
+        <h2>Oct 22, 2013</h2>
+        <h3><small>from</small> Montreal, Canada</h3>
+      </div>
+      <div class="span6 opposite-align">
+        <h1>Departure</h1>
+        <h2>Nov 5, 2013</h2>
+        <h3><small>to</small> Bocas del Toro, Panama</h3>
+      </div>
+    </div>
+
+  </div> <!-- /container -->
 </div>
 
 <div id="losmostros" class="page lessons_grey">
@@ -61,6 +88,34 @@ title: "Traveling in Panama: Panama City"
 
   </div> <!-- /container -->
 </div> <!-- /#losmostros -->
+
+<div id="duolingo" class="page">
+  <div class="container">
+    
+    <div class="row-fluid container-narrow">
+      <div class="span12">
+        <h1>Duolingo</h1>
+        <p>
+          During my stay in Panama City I've focused my Spanish studies completely on playing
+          Duolingo as an experiment. Overall I'll say that it has certainly helped me to build my
+          vocabulary, but the priorities that Duolingo has seem somewhat misguided for gaining
+          practical Spanish abilities.
+        </p>
+        <p>
+          For example, I've learned over 500 words now but have yet to get to a lesson that teaches
+          numbers, something that I've needed more than a few times so far (cabs, food, hotels).
+          My comprehension of the language has certainly gone up, though, and I've been able to
+          start asking basic questions and understand a few responses (gesturing helps).
+        </p>
+        <p>
+          I'll continue playing Duolingo because it's free and I'm competing with the girl, but I'll
+          definitely need to supplement it with some proper lessons soon.
+        </p>
+      </div>
+    </div>
+
+  </div> <!-- /container -->
+</div> <!-- /#duolingo -->
 
 <div id="atms" class="lessons_green page">
   <div class="container">
@@ -182,20 +237,3 @@ title: "Traveling in Panama: Panama City"
 
   </div> <!-- /container -->
 </div> <!-- /#geomap -->
-
-<div class="page">
-  <div class="container">
-    
-    <div class="row-fluid">
-      <div class="span6">
-        <h1>Arrival</h1>
-        <h2>Oct 22, 2013</h2>
-      </div>
-      <div class="span6 opposite-align">
-        <h1>Departure</h1>
-        <h2>TBD</h2>
-      </div>
-    </div>
-
-  </div> <!-- /container -->
-</div>
