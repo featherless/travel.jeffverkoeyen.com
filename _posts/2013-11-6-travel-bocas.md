@@ -155,3 +155,18 @@ title: "Traveling in Panama: Bocas del Toro"
 
   </div> <!-- /container -->
 </div> <!-- /#overnightbus -->
+
+<div id="geomap" class="page">
+  <div class="container">
+    
+    <div class="row-fluid">
+      <div class="span4">
+        <h1>Geo Notes</h1>
+      </div>
+      <div class="span8">
+        <iframe class="geomap-frame" src="http://mapsengine.google.com/map/embed?mid=zMfxYk_GMjOw.kFLtfikD2gjg" width="100%" height="400px"> </iframe>
+      </div>
+    </div> <!-- /row-fluid -->
+
+  </div> <!-- /container -->
+</div> <!-- /#geomap -->

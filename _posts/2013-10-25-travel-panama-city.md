@@ -226,9 +226,6 @@ title: "Traveling in Panama: Panama City"
     <div class="row-fluid">
       <div class="span4">
         <h1>Geo Notes</h1>
-        <p>
-          I'll update this map periodically as I explore the city.
-        </p>
       </div>
       <div class="span8">
         <iframe class="geomap-frame" src="http://mapsengine.google.com/map/embed?mid=zMfxYk_GMjOw.kj37ep-HdVZM" width="100%" height="400px"> </iframe>
