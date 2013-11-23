@@ -33,6 +33,37 @@ title: "Traveling in Panama: Bocas del Toro"
   </div> <!-- /container -->
 </div>
 
+<div id="overnightbus" class="page lessons_green">
+  <div class="container">
+    
+    <div class="row-fluid container-narrow">
+      <div class="span12">
+        <h1 style="text-align: center">The Night Bus</h1>
+        <p>
+          The bus from Panama City to Bocas was taxing. You board a bus from Albrook mall at 8PM
+          sharp and then arrive in Bocas 10 hours later, your back sore and the sun peeking over
+          the horizon.
+        </p>
+        <p>
+          I made the rather dull decision when I boarded to keep my backpack with me on the bus. In
+          my defence, I assumed that I'd be able to put the bag between my legs. Well, now I've
+          learned what it's like to have 30 pounds on your lap for 10 hours.
+        </p>
+        <p>
+          The bus drops everyone off in Almirante. From here you're shuffled into a nearby taxi who,
+          I swear, was trying to go back to the future. Without the necessary jig-a-watts however we
+          merely arrived at the water taxis and paid our cabby $1 each.
+        </p>
+        <p>
+          Inside the water taxi terminal you hand the lady your passport and $5 and she lets you on
+          to the sardine boat that makes its way to the isle of Bocas.
+        </p>
+      </div>
+    </div> <!-- /row-fluid -->
+
+  </div> <!-- /container -->
+</div> <!-- /#overnightbus -->
+
 <div id="islacolon" class="page lessons_orange">
   <div class="container">
     
@@ -102,6 +133,29 @@ title: "Traveling in Panama: Bocas del Toro"
   </div> <!-- /container -->
 </div> <!-- /#islacolon -->
 
+<div id="grankahuna" class="page lessons_grey">
+  <div class="container">
+    
+    <div class="row-fluid container-narrow">
+      <div class="span12">
+        <h1 style="text-align: center">Gran Kahuna Hostel</h1>
+        <p>
+          I spent about one week at the Gran Kahuna hostel on Isla Caranero and loved it for its
+          tranquil escape from everything. It's a fairly big hostel with dorm beds, a bar, and food
+          to order and the staff are wonderfully friendly.
+        </p>
+        <p>
+          The sand flies on Isla Carenero, however, make the stay here somewhat frustrating. These
+          tiny little flies (nicknamed "noseeums") will land on your skin, puke on you, and then
+          leave a rash that itches for days. After a few days my legs were covered in marks making
+          it increasingly uncomfortable to sit out at the bar or anywhere near the sand.
+        </p>
+      </div>
+    </div> <!-- /row-fluid -->
+
+  </div> <!-- /container -->
+</div> <!-- /#grankahuna -->
+
 <div id="bahiadelsol" class="page lessons_grey">
   <div class="container">
     
@@ -152,60 +206,6 @@ title: "Traveling in Panama: Bocas del Toro"
 
   </div> <!-- /container -->
 </div> <!-- /#bahiadelsol -->
-
-<div id="grankahuna" class="page lessons_grey">
-  <div class="container">
-    
-    <div class="row-fluid container-narrow">
-      <div class="span12">
-        <h1 style="text-align: center">Gran Kahuna Hostel</h1>
-        <p>
-          I spent about one week at the Gran Kahuna hostel on Isla Caranero and loved it for its
-          tranquil escape from everything. It's a fairly big hostel with dorm beds, a bar, and food
-          to order and the staff are wonderfully friendly.
-        </p>
-        <p>
-          The sand flies on Isla Carenero, however, make the stay here somewhat frustrating. These
-          tiny little flies (nicknamed "noseeums") will land on your skin, puke on you, and then
-          leave a rash that itches for days. After a few days my legs were covered in marks making
-          it increasingly uncomfortable to sit out at the bar or anywhere near the sand.
-        </p>
-      </div>
-    </div> <!-- /row-fluid -->
-
-  </div> <!-- /container -->
-</div> <!-- /#grankahuna -->
-
-<div id="overnightbus" class="page lessons_green">
-  <div class="container">
-    
-    <div class="row-fluid container-narrow">
-      <div class="span12">
-        <h1 style="text-align: center">The Night Bus</h1>
-        <p>
-          The bus from Panama City to Bocas was taxing. You board a bus from Albrook mall at 8PM
-          sharp and then arrive in Bocas 10 hours later, your back sore and the sun peeking over
-          the horizon.
-        </p>
-        <p>
-          I made the rather dull decision when I boarded to keep my backpack with me on the bus. In
-          my defence, I assumed that I'd be able to put the bag between my legs. Well, now I've
-          learned what it's like to have 30 pounds on your lap for 10 hours.
-        </p>
-        <p>
-          The bus drops everyone off in Almirante. From here you're shuffled into a nearby taxi who,
-          I swear, was trying to go back to the future. Without the necessary jig-a-watts however we
-          merely arrived at the water taxis and paid our cabby $1 each.
-        </p>
-        <p>
-          Inside the water taxi terminal you hand the lady your passport and $5 and she lets you on
-          to the sardine boat that makes its way to the isle of Bocas.
-        </p>
-      </div>
-    </div> <!-- /row-fluid -->
-
-  </div> <!-- /container -->
-</div> <!-- /#overnightbus -->
 
 <div id="geomap" class="page">
   <div class="container">
