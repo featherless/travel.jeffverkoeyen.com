@@ -108,7 +108,7 @@ title: "Traveling in Panama: Panama City"
           start asking basic questions and understand a few responses (gesturing helps).
         </p>
         <p>
-          I'll continue playing Duolingo because it's free and I'm competing with the girl, but I'll
+          I'll continue playing Duolingo because it's free and I'm competing with Laurence, but I'll
           definitely need to supplement it with some proper lessons soon.
         </p>
       </div>

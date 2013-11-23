@@ -33,7 +33,7 @@ title: "Traveling in Panama: Bocas del Toro"
   </div> <!-- /container -->
 </div>
 
-<div id="overnightbus" class="page lessons_orange">
+<div id="islacolon" class="page lessons_orange">
   <div class="container">
     
     <div class="row-fluid container-narrow">
@@ -88,7 +88,7 @@ title: "Traveling in Panama: Bocas del Toro"
           sure I had an even covering of urchins and reef cuts all over my body.
         </p>
         <p>
-          Needless to say I didn't get much surfing done that day.
+          I didn't get much surfing done that day, haha.
         </p>
       </div>
     </div> <!-- /row-fluid -->
@@ -100,9 +100,62 @@ title: "Traveling in Panama: Bocas del Toro"
     </div> <!-- /row-fluid -->
 
   </div> <!-- /container -->
-</div> <!-- /#overnightbus -->
+</div> <!-- /#islacolon -->
 
-<div id="overnightbus" class="page lessons_grey">
+<div id="bahiadelsol" class="page lessons_grey">
+  <div class="container">
+    
+    <div class="row-fluid container-narrow">
+      <div class="span12">
+        <h1 style="text-align: center">Bahia del Sol</h1>
+      </div>
+    </div> <!-- /row-fluid -->
+    
+    <div class="row-fluid">
+      <div class="span6">
+        <p>
+          What a surprise this was. I'd been staying in hostels for a few weeks and gotten used to
+          having my expectations set pretty low. From the moment I set foot in Bahia del Sol's
+          ocean-view room I knew it was going to be an unforgettable stay.
+        </p>
+        <p>
+          The first thing you notice when entering the ocean-front room is the enormous draped bed.
+          From there your eyes scan across to the doorway leading to the balcony complete with
+          outdoor shower and jacuzzi bath adjacent to a hammock and reclining chairs for watching
+          the sun set over the water. This place is right out of a romance novel.
+        </p>
+        <p>
+          <img src="/gfx/bahiadelsol2.jpg" />
+        </p>
+      </div>
+      <div class="span6">
+        <p>
+          <img src="/gfx/bahiadelsol1.jpg" />
+        </p>
+        <p>
+          To top it off the owners, Jack and Lee, are the most heart-warming people I've had the
+          privilege of meeting thus far on my travels. Both will gladly sit on the porch with you as
+          the water lazily laps against the docks and shoot the breeze, sharing stories of
+          lives-well-lived while curiously exploring your own adventures.
+        </p>
+        <p>
+          After sleeping in the next morning until noon, we were completely surprised to find that
+          Jack had left portions of the morning breakfast aside for us! We were delighted to enjoy
+          delicious eggs and sausage with slices of fresh fruit and tea. Jack's thoughtfulness was
+          wonderfully appreciated after Laurence's long multi-day trek from Montreal.
+        </p>
+        <p>
+          <em>For booking Bahia del Sol I highly recommend doing so directly through their
+          <a href="http://www.bocasbahiadelsol.com/">website</a> as it will allow Jack and Lee to
+          contact you directly.</em>
+        </p>
+      </div>
+    </div> <!-- /row-fluid -->
+
+  </div> <!-- /container -->
+</div> <!-- /#bahiadelsol -->
+
+<div id="grankahuna" class="page lessons_grey">
   <div class="container">
     
     <div class="row-fluid container-narrow">
@@ -123,7 +176,7 @@ title: "Traveling in Panama: Bocas del Toro"
     </div> <!-- /row-fluid -->
 
   </div> <!-- /container -->
-</div> <!-- /#overnightbus -->
+</div> <!-- /#grankahuna -->
 
 <div id="overnightbus" class="page lessons_green">
   <div class="container">
