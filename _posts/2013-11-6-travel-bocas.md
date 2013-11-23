@@ -199,7 +199,8 @@ title: "Traveling in Panama: Bocas del Toro"
         <p>
           <em>For booking Bahia del Sol I highly recommend doing so directly through their
           <a href="http://www.bocasbahiadelsol.com/">website</a> as it will allow Jack and Lee to
-          contact you directly in the event of any changes to their bookings.</em>
+          contact you directly in the event of any changes to their bookings.</em> Photos are from
+          <a href="http://www.bocasbahiadelsol.com/photos">Bahia del Sol's photo album</a>.
         </p>
       </div>
     </div> <!-- /row-fluid -->
