@@ -12,6 +12,14 @@ title: "Traveling in Panama: Bocas del Toro"
   nearby, friendly people, and having to get places by water taxi. I feel like I'm at Fisherman's
   Horizon (<a href="http://www.youtube.com/watch?v=ZLwtYlaqWaU">obligatory background music</a>).
 </p>
+<h3>Notes</h3>
+<ul>
+  <li><a href="#overnightbus">The Night Bus</a></li>
+  <li><a href="#islacolon">Isla Colon Adventuring</a></li>
+  <li><a href="#grankahuna">Gran Kahuna Hostel</a></li>
+  <li><a href="#bahiadelsol">Bahia del Sol</a></li>
+  <li><a href="#geomap">Geo Notes</a></li>
+</ul>
 </div>
 </div>
 
@@ -51,12 +59,14 @@ title: "Traveling in Panama: Bocas del Toro"
         </p>
         <p>
           The bus drops everyone off in Almirante. From here you're shuffled into a nearby taxi who,
-          I swear, was trying to go back to the future. Without the necessary jig-a-watts however we
-          merely arrived at the water taxis and paid our cabby $1 each.
+          I swear, was trying to go back to the future. Without the necessary jig-a-watts we
+          merely arrived at the water taxis and paid our cabby $1 each (a common transaction in
+          Bocas).
         </p>
         <p>
           Inside the water taxi terminal you hand the lady your passport and $5 and she lets you on
-          to the sardine boat that makes its way to the isle of Bocas.
+          to the sardine boat that makes its way to the isle of Bocas. I forgot to ask for an
+          open-ended round-trip fare at $7, so I'll likely have to pay $5 to get back.
         </p>
       </div>
     </div> <!-- /row-fluid -->
