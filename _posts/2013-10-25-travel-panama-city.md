@@ -1,6 +1,9 @@
 ---
 layout: post
 title: "Traveling in Panama: Panama City"
+tags:
+- Panama
+- Panama City
 ---
 
 <div class="page narrow-top-space">

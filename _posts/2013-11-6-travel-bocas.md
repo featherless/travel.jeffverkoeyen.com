@@ -1,7 +1,14 @@
 ---
 layout: post
 title: "Traveling in Panama: Bocas del Toro"
+tags:
+- Panama
+- Bocas del Toro
 ---
+
+{% for dayone in page.dayones %}
+<li><img src="{{ dayone.pic_url }}" /></li>
+{% endfor %}
 
 <div class="page narrow-top-space">
 <p><img src="/gfx/bocas.jpg" /></p>
