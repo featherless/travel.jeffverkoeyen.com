@@ -102,19 +102,26 @@ module Dayone
         
         # Clean up the markup
         entry_text = doc['entry_text']
-        
-        # Headerize the first sentence.
+        title_text = nil
+
+        # Get the title.
         loc_firstperiod = entry_text.index(".")
         loc_firstnewline = entry_text.index("\n")
         if not loc_firstnewline.nil? and not loc_firstperiod.nil? then
           # Newline before the first period or directly after it.
-          if loc_firstnewline < loc_firstperiod or loc_firstperiod == loc_firstnewline - 1 then
-            entry_text = '# ' + entry_text
+          if loc_firstnewline < loc_firstperiod then
+            title_text = entry_text[0, loc_firstnewline]
+            entry_text = entry_text[loc_firstnewline..entry_text.length]
+          elsif loc_firstperiod == loc_firstnewline - 1 then
+            title_text = entry_text[0, loc_firstperiod]
+            entry_text = entry_text[loc_firstperiod..entry_text.length]
           end
-        elsif not loc_firstnewline.nil? and loc_firstperiod.nil? then
-          entry_text = '# ' + entry_text
+        elsif not loc_firstnewline.nil? and loc_firstperiod.nil? then  
+          title_text = entry_text[0, loc_firstnewline]
+          entry_text = entry_text[loc_firstnewline..entry_text.length]
         end
         doc['entry_text'] = entry_text
+        doc['title_text'] = title_text
         
         node = findtagkeynode(tagkey_map, doc['tags'])
         if node.nil? or not node.has_key?('post') then
