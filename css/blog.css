@@ -97,6 +97,13 @@
   height: 400px;
 }
 
+#dayone_preamble {
+  background-image: url('/gfx/dayone_ribbon.png');
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: -10px;
+}
+
 #dayone_preamble .dayone_content {
   text-align: center;
 }
@@ -107,6 +114,8 @@
 
 .dayone h1 {
   margin-bottom: 0;
+  line-height: 50px;
+  margin-top: 0;
 }
 
 .dayone .timestamp {
@@ -151,5 +160,8 @@
     -webkit-box-sizing: border-box;
        -moz-box-sizing: border-box;
             box-sizing: border-box;
+  }
+  #dayone_preamble {
+    background-position-y: -30px;
   }
 }

@@ -1,22 +1,41 @@
+# This is a Jekyll plugin for the Day One journaling app. It reads
+# Day One entries from a folder and exposes them to the Liquid
+# templating system.
+#
+# Author::    Jeff Verkoeyen  (mailto:jverkoey@gmail.com)
+# Copyright:: Copyright (c) 2013 Featherless Software Design
+# License::   Apache 2.0
+
+# Day One entries are stored in the plist format.
 require 'plist'
 
+# The Jekyll Day One module. Being a Generator allows this plugin
+# to inject the Day One entries into Liquid before the pages get
+# rendered. Day One entries will be made accessible via
+# `page.dayones`.
 module Dayone
   class Generator < Jekyll::Generator
-    def generatetagkeywalk(array)
-      if array.nil? or not array.any? then
-        return nil
-      end
 
-      # Sort, lowercase.
-      return array.map{|tag| tag.downcase.strip}.sort
-    end
-
-    def blazetagkeynode(tagkey_map, tags)
+    # Takes an array of tags and returns an array that may be
+    # used to walk a tag tree efficiently. The resulting array
+    # is ordered and each tag is standardized (lowercased,
+    # etc...).
+    # Params:
+    # +tags+:: An Array of tag Strings.
+    def generatetagkeywalk(tags)
       if tags.nil? or not tags.any? then
         return nil
       end
 
+      # Sort, lowercase.
+      return tags.map{|tag| tag.downcase.strip}.sort
+    end
+
+    def blazetagkeynode(tagkey_map, tags)
       tagkeywalk = generatetagkeywalk(tags)
+      if tagkeywalk.nil? then
+        return nil
+      end
       
       # Walk the tagkeys.
       node = tagkey_map
@@ -31,12 +50,11 @@ module Dayone
     end
 
     def findtagkeynode(tagkey_map, tags)
-      if tags.nil? or not tags.any? then
+      tagkeywalk = generatetagkeywalk(tags)
+      if tagkeywalk.nil? then
         return nil
       end
 
-      tagkeywalk = generatetagkeywalk(tags)
-      
       # Walk the tagkeys.
       node = tagkey_map
       tagkeywalk.each do |tag|

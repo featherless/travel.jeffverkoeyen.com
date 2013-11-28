@@ -1,10 +1,9 @@
 {% if page.dayones.size > 0 %}
-<div id="dayone_preamble" class="page lessons_grey">
+<div id="dayone_preamble" class="page">
   <div class="container">
     <div class="row-fluid">
       <div class="dayone_content">
-        <img src="/gfx/dayone-folder.png" />
-        <h1>Entries written in Day One</h1>
+        <h1>Day One Entries</h1>
       </div>
     </div>
   </div>
@@ -31,10 +30,12 @@
         <div class="timestamp">{{dayone.creation_date | date: "%A, %B %d, %Y"}}</div>
         {{ dayone.entry_text | markdownify }}
       </div>
-
+      
+{% if dayone.pic_url %}
       <div class="span12">
         <img src="{{ dayone.pic_url }}" />
       </div>
+{% endif %}
     </div> <!-- /row-fluid -->
 
   </div> <!-- /container -->
