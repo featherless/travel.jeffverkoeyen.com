@@ -1,0 +1,17 @@
+{% for dayone in page.dayones %}
+<div id="dayones" class="page lessons_{% cycle 'gray', 'green', 'orange' %}">
+  <div class="container">
+    
+    <div class="row-fluid container-narrow">
+      <div class="span12">
+        {{ dayone.entry_text | markdownify }}
+      </div>
+
+      <div class="span12">
+        <img src="{{ dayone.pic_url }}" />
+      </div>
+    </div> <!-- /row-fluid -->
+
+  </div> <!-- /container -->
+</div> <!-- /#dayones -->
+{% endfor %}

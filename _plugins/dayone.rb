@@ -48,6 +48,21 @@ module Dayone
 
       return node
     end
+    
+    def sanitizekeys(hash)
+      hash.each do |key,value|
+        sanitized_key = key.downcase.tr(" ", "_")
+        if sanitized_key == key then
+          next
+        end
+        
+        hash[sanitized_key] = value
+        hash.delete(key)
+        if value.class == Hash then
+          sanitizekeys(value)
+        end
+      end
+    end
 
     def generate(site)
       # Load the server settings so that we can find the day one path.
@@ -82,14 +97,26 @@ module Dayone
           doc['pic_url'] = "/gfx/dayone/" + doc['UUID'] + ".jpg"
         end
         
-        doc['text'] = doc['Entry Text']
-        doc.delete('Entry Text')
-        doc['creation_date'] = doc['Creation Date']
-        doc.delete('Creation Date')
-        doc['tz'] = doc['Time Zone']
-        doc.delete('Time Zone')
+        # Cleans the doc by replacing spaces with underscores and lower-casing all key names.
+        sanitizekeys(doc)
         
-        node = findtagkeynode(tagkey_map, doc['Tags'])
+        # Clean up the markup
+        entry_text = doc['entry_text']
+        
+        # Headerize the first sentence.
+        loc_firstperiod = entry_text.index(".")
+        loc_firstnewline = entry_text.index("\n")
+        if not loc_firstnewline.nil? and not loc_firstperiod.nil? then
+          # Newline before the first period or directly after it.
+          if loc_firstnewline < loc_firstperiod or loc_firstperiod == loc_firstnewline - 1 then
+            entry_text = '# ' + entry_text
+          end
+        elsif not loc_firstnewline.nil? and loc_firstperiod.nil? then
+          entry_text = '# ' + entry_text
+        end
+        doc['entry_text'] = entry_text
+        
+        node = findtagkeynode(tagkey_map, doc['tags'])
         if node.nil? or not node.has_key?('post') then
           next
         end
@@ -101,6 +128,10 @@ module Dayone
           data['dayones'] = Array.new
         end
         data['dayones'].concat([doc])
+
+        # Sort the posts as we add them.
+        # TODO(perf): Walk the tagkey_map and sort all of the terminal nodes once.
+        data['dayones'].sort! { |a,b| a['creation_date'] <=> b['creation_date'] }
       end
       
       print "\n          - Done\n                    "
@@ -109,42 +140,42 @@ module Dayone
 end
 
 # Sample Day One entry
-# Weather: 
-#   Celsius: "30"
-#   Sunrise Date: 2013-11-25T11:31:14+00:00
-#   Wind Bearing: 40
-#   Service: HAMweather
-#   Relative Humidity: 70
-#   Sunset Date: 2013-11-25T23:07:43+00:00
-#   IconName: fair.png
-#   Wind Speed KPH: 11
-#   Fahrenheit: "86"
-#   Pressure MB: 1009
-#   Description: Partly Cloudy
-#   Wind Chill Celsius: 30
-# Location: 
-#   Place Name: Flip Flop
-#   Foursquare ID: 4e230211d22d0a3f5a07bb80
-#   Administrative Area: Limon
-#   Latitude: 9.65710685442079
-#   Longitude: -82.7546278630418
-#   Country: Costa Rica
-# Creator: 
-#   Device Agent: iPhone/iPhone4,1
-#   Software Agent: Day One iOS/1.12
-#   Host Name: swift
-#   OS Agent: iOS/7.0.3
-#   Generation Date: 2013-11-25T20:32:22+00:00
-# Time Zone: America/Costa_Rica
-# UUID: 422C23B4BDD84A0B80904F88F8316459
-# Tags: 
-# - Restaurants
-# - Costa rica
-# - Puerto Viejo
-# Entry Text: |-
-#   Flip Flop Burgers
+# location: 
+#   place_name: Bahia Del Sol Hotel
+#   locality: Bocas del Toro
+#   administrative_area: Panama
+#   longitude: -82.2414207458496
+#   latitude: 9.33639517750777
+#   foursquare_id: 4c8ffc2f5fdf6dcb9fef2c91
+#   country: Panama
+# starred: false
+# entry_text: |-
+#   Bahia del Sol
 #   
-#   Weren't full from Veronica's so we wandered around in search of other foods. Stumbled upon Flip Flop for some cheap hamburguesas!
-# Starred: false
-# Creation Date: 2013-11-25T20:32:22+00:00
-# Activity: Eating
+#   $130
+# weather: 
+#   pressure_mb: 1007.46
+#   description: Partly Cloudy
+#   fahrenheit: "80"
+#   wind_bearing: 279
+#   iconname: cloudyn.png
+#   visibility_km: 14.56
+#   celsius: "26"
+#   relative_humidity: 76.0
+#   wind_speed_kph: 9.61
+#   service: Forecast.io
+# creation_date: 2013-11-16T02:00:00+00:00
+# activity: Stationary
+# uuid: F094F6DF8F314A99B613C0D552076496
+# time_zone: America/Costa_Rica
+# tags: 
+# - Panama
+# - Bocas del Toro
+# - Bed and Breakfast
+# has_pic: false
+# creator: 
+#   generation_date: 2013-11-26T17:00:13+00:00
+#   host_name: swift
+#   software_agent: Day One iOS/1.12
+#   os_agent: iOS/7.0.4
+#   device_agent: iPhone/iPhone4,1

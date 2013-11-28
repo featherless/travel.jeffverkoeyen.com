@@ -6,6 +6,10 @@ tags:
 - Puerto Viejo
 ---
 
-{% for dayone in page.dayones %}
-<li><img src="{{ dayone.pic_url }}" /></li>
-{% endfor %}
+<div class="page narrow-top-space">
+<div class="container-narrow">
+<p>
+  Travel to Puerto Viejo.
+</p>
+</div>
+</div>
