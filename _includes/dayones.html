@@ -1,10 +1,34 @@
+{% if page.dayones.size > 0 %}
+<div id="dayone_preamble" class="page lessons_grey">
+  <div class="container">
+    <div class="row-fluid">
+      <div class="dayone_content">
+        <img src="/gfx/dayone-folder.png" />
+        <h1>Entries written in Day One</h1>
+      </div>
+    </div>
+  </div>
+</div>
+
 {% for dayone in page.dayones %}
-<div id="dayones" class="page lessons_{% cycle 'gray', 'green', 'orange' %}">
+
+  {% if dayone.tags contains "Hostels" %}
+    {% continue %}
+  {% endif %}
+  {% if dayone.tags contains "Bed and Breakfasts" %}
+    {% continue %}
+  {% endif %}
+  {% if dayone.tags contains "Hotels" %}
+    {% continue %}
+  {% endif %}
+
+<div id="dayones" class="dayone page lessons_{% cycle 'green', 'orange' %}">
   <div class="container">
     
     <div class="row-fluid container-narrow">
       <div class="span12">
         <h1 style="text-align: center">{{dayone.title_text}}</h1>
+        <div class="timestamp">{{dayone.creation_date | date: "%A, %B %d, %Y"}}</div>
         {{ dayone.entry_text | markdownify }}
       </div>
 
@@ -16,3 +40,4 @@
   </div> <!-- /container -->
 </div> <!-- /#dayones -->
 {% endfor %}
+{% endif %}

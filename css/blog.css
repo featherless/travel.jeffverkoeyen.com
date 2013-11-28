@@ -97,6 +97,26 @@
   height: 400px;
 }
 
+#dayone_preamble .dayone_content {
+  text-align: center;
+}
+
+#dayone_preamble h1 {
+  color: #666;
+}
+
+.dayone h1 {
+  margin-bottom: 0;
+}
+
+.dayone .timestamp {
+  font-family: "nimbus-sans",sans-serif;
+  font-weight: 300;
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
 @media (max-width: 767px) {
   .geomap-frame {
     height: 300px;
