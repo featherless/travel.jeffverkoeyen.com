@@ -90,7 +90,7 @@ tags:
     </div> <!-- /row-fluid -->
 
   </div> <!-- /container -->
-</div> <!-- /#losmostros -->
+</div> <!-- /losmostros -->
 
 <div id="duolingo" class="page">
   <div class="container">
@@ -118,7 +118,7 @@ tags:
     </div>
 
   </div> <!-- /container -->
-</div> <!-- /#duolingo -->
+</div> <!-- /duolingo -->
 
 <div id="atms" class="lessons_green page">
   <div class="container">
@@ -183,7 +183,7 @@ tags:
     </div> <!-- /row-fluid -->
 
   </div> <!-- /container -->
-</div> <!-- /#atms -->
+</div> <!-- /atms -->
 
 <div id="localsims" class="lessons_orange page">
   <div class="container">
@@ -221,7 +221,7 @@ tags:
     </div> <!-- /row-fluid -->
 
   </div> <!-- /container -->
-</div> <!-- /#localsims -->
+</div> <!-- /localsims -->
 
 <div id="geomap" class="page">
   <div class="container">
@@ -236,4 +236,4 @@ tags:
     </div> <!-- /row-fluid -->
 
   </div> <!-- /container -->
-</div> <!-- /#geomap -->
+</div> <!-- /geomap -->

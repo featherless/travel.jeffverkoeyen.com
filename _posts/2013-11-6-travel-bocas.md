@@ -76,7 +76,7 @@ tags:
     </div> <!-- /row-fluid -->
 
   </div> <!-- /container -->
-</div> <!-- /#overnightbus -->
+</div> <!-- /overnightbus -->
 
 <div id="islacolon" class="page lessons_orange">
   <div class="container">
@@ -145,7 +145,7 @@ tags:
     </div> <!-- /row-fluid -->
 
   </div> <!-- /container -->
-</div> <!-- /#islacolon -->
+</div> <!-- /islacolon -->
 
 <div id="grankahuna" class="page lessons_grey">
   <div class="container">
@@ -168,7 +168,7 @@ tags:
     </div> <!-- /row-fluid -->
 
   </div> <!-- /container -->
-</div> <!-- /#grankahuna -->
+</div> <!-- /grankahuna -->
 
 <div id="bahiadelsol" class="page lessons_grey">
   <div class="container">
@@ -220,7 +220,7 @@ tags:
     </div> <!-- /row-fluid -->
 
   </div> <!-- /container -->
-</div> <!-- /#bahiadelsol -->
+</div> <!-- /bahiadelsol -->
 
 <div id="geomap" class="page">
   <div class="container">
@@ -235,4 +235,4 @@ tags:
     </div> <!-- /row-fluid -->
 
   </div> <!-- /container -->
-</div> <!-- /#geomap -->
+</div> <!-- /geomap -->
