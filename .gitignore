@@ -2,3 +2,4 @@ _site
 css/pygments.css
 .DS_Store
 gfx/dayone
+_serverconfig.yml
