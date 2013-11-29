@@ -81,6 +81,53 @@ module Dayone
         end
       end
     end
+    
+    def orinclude?(haystack, needles)
+      needles.each do |needle|
+        if haystack.include?(needle)
+          return true
+        end
+      end
+      return false
+    end
+    
+    def cleanpost(post)
+      data = post.data
+      if data.has_key?('dayones') then
+        data['dayones'].sort! { |a,b| a['creation_date'] <=> b['creation_date'] }
+        
+        dayones = data['dayones']
+        dayone_lodging = Array.new
+        dayone_eating = Array.new
+        dayone_notes = Array.new
+
+        dayones.each do |dayone|
+          if orinclude?(dayone['tags'], ["Bed and Breakfasts", "Hostels", "Hotels"])
+            dayone_lodging.concat([dayone])
+          elsif orinclude?(dayone['tags'], ["Restaurants", "Food"])
+            dayone_eating.concat([dayone])
+          else
+            dayone_notes.concat([dayone])
+          end
+        end
+        
+        data['dayone_lodging'] = dayone_lodging
+        data['dayone_eating'] = dayone_eating
+        data['dayone_notes'] = dayone_notes
+      end
+    end
+    
+    def walktree(node)
+      node.each do |key,value|
+        if value.class == Hash then
+          if value.has_key?('post') then
+            cleanpost(value['post'])
+          else
+            walktree(value)
+          end
+        end
+      end
+    end
 
     def generate(site)
       # Load the server settings so that we can find the day one path.
@@ -141,6 +188,7 @@ module Dayone
         doc['entry_text'] = entry_text
         doc['title_text'] = title_text
         
+        # In order to parse the data in Liquid we have to convert the DateTime object to a string.
         doc['creation_date'] = doc['creation_date'].to_s
         
         node = findtagkeynode(tagkey_map, doc['tags'])
@@ -155,11 +203,9 @@ module Dayone
           data['dayones'] = Array.new
         end
         data['dayones'].concat([doc])
-
-        # Sort the posts as we add them.
-        # TODO(perf): Walk the tagkey_map and sort all of the terminal nodes once.
-        data['dayones'].sort! { |a,b| a['creation_date'] <=> b['creation_date'] }
       end
+      
+      walktree(tagkey_map)
       
       print "\n          - Done\n                    "
     end

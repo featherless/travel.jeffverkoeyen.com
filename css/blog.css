@@ -112,6 +112,15 @@
   color: #666;
 }
 
+#dayone_eating .dayone_header {
+  text-align: center;
+  color: #666;
+}
+
+#dayone_eating .row-fluid {
+  margin-bottom: 40px;
+}
+
 .dayone h1 {
   margin-bottom: 0;
   line-height: 50px;

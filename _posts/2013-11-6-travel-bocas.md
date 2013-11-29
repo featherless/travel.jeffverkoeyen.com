@@ -37,7 +37,8 @@ tags:
       </div>
       <div class="span6 opposite-align">
         <h1>Departure</h1>
-        <h2>TBD</h2>
+        <h2>Nov 25, 2013</h2>
+        <h3><small>to</small> <a href="/2013/11/27/travel-puerto-viejo/">Puerto Viejo, Costa Rica</a></h3>
       </div>
     </div>
 

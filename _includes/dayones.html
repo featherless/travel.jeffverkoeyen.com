@@ -9,19 +9,85 @@
   </div>
 </div>
 
-{% for dayone in page.dayones %}
+  {% if page.dayone_eating.size > 0 %}
+  <div id="dayone_eating" class="dayone page lessons_green">
+    <div class="container">
+      <div class="row-fluid">
+        <p>
+          <h1 class="dayone_header">Noms</h1>
+        </p>
+      </div>
+    {% assign rowCounter = "0" %}  
+    {% assign alternator = false %}
+    {% for dayone in page.dayone_eating %}
 
-  {% if dayone.tags contains "Hostels" %}
-    {% continue %}
-  {% endif %}
-  {% if dayone.tags contains "Bed and Breakfasts" %}
-    {% continue %}
-  {% endif %}
-  {% if dayone.tags contains "Hotels" %}
-    {% continue %}
+      {% if rowCounter == "0" or dayone.pic_url %}
+        {% assign rowCounter = 2 %}
+
+        {% if forloop.index0 > 0 %}
+      </div> <!-- .row -->
+        {% endif %}
+      <div class="row-fluid">
+        {% assign isNewRow = true %}
+      {% else %}
+        {% assign isNewRow = false %}
+      {% endif %}
+
+      {% if dayone.pic_url %}
+        {% if alternator == true %}
+        <div class="span6">
+          <img src="{{ dayone.pic_url }}" />
+        </div>
+        {% endif %}
+
+        <div class="span6">
+          <h1 style="text-align: center">{{dayone.title_text}}</h1>
+          <div class="timestamp">{{dayone.creation_date | date: "%A, %B %d, %Y"}}</div>
+          {{ dayone.entry_text | markdownify }}
+        </div>
+
+        {% if alternator == false %}
+        <div class="span6">
+          <img src="{{ dayone.pic_url }}" />
+        </div>
+        {% endif %}
+
+        {% assign rowCounter = "0" %}
+
+        {% if alternator == true %}
+          {% assign alternator = false %}
+        {% else %}
+          {% assign alternator = true %}
+        {% endif %}
+      {% else %}
+        {% if forloop.last or page.dayone_eating[forloop.index].pic_url %}
+        <div class="container-narrow">
+        <div class="span12">
+        {% else %}
+        <div class="span6">
+        {% endif %}
+          <h1 style="text-align: center">{{dayone.title_text}}</h1>
+          <div class="timestamp">{{dayone.creation_date | date: "%A, %B %d, %Y"}}</div>
+          {{ dayone.entry_text | markdownify }}
+        </div>
+        
+        {% if forloop.last or page.dayone_eating[forloop.index].pic_url %}
+        </div> <!-- .container-narrow -->
+        {% endif %}
+
+        {% capture temp %}{{ rowCounter | minus: 1 }}{% endcapture %}
+        {% assign rowCounter = temp %}
+      {% endif %}
+
+    {% endfor %}
+    
+      </div> <!-- /row-fluid -->
+    </div> <!-- /container -->
+  </div> <!-- /#dayones -->
   {% endif %}
 
-<div id="dayones" class="dayone page lessons_{% cycle 'green', 'orange' %}">
+{% for dayone in page.dayone_notes %}
+<div id="dayones" class="dayone page lessons_{% cycle 'orange', 'green' %}">
   <div class="container">
     
     <div class="row-fluid container-narrow">
@@ -41,4 +107,5 @@
   </div> <!-- /container -->
 </div> <!-- /#dayones -->
 {% endfor %}
+
 {% endif %}
