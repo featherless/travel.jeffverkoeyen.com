@@ -1,2 +1,2 @@
 pygmentize -S default -f html > css/pygments.css
-jekyll serve --drafts --watch
+jekyll serve --drafts #--watch

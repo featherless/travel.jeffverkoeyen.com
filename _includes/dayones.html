@@ -40,7 +40,7 @@
         </div>
         {% endif %}
 
-        <div class="span6">
+        <div id="{{dayone.uuid}}" class="span6">
           <h1 style="text-align: center">{{dayone.title_text}}</h1>
           <div class="timestamp">{{dayone.creation_date | date: "%A, %B %d, %Y"}}</div>
           {{ dayone.entry_text | markdownify }}
@@ -62,9 +62,9 @@
       {% else %}
         {% if forloop.last or page.dayone_eating[forloop.index].pic_url %}
         <div class="container-narrow">
-        <div class="span12">
+        <div id="{{dayone.uuid}}" class="span12">
         {% else %}
-        <div class="span6">
+        <div id="{{dayone.uuid}}" class="span6">
         {% endif %}
           <h1 style="text-align: center">{{dayone.title_text}}</h1>
           <div class="timestamp">{{dayone.creation_date | date: "%A, %B %d, %Y"}}</div>
@@ -88,7 +88,7 @@
 
 {% for dayone in page.dayone_notes %}
 <div id="dayones" class="dayone page lessons_{% cycle 'orange', 'green' %}">
-  <div class="container">
+  <div id="{{dayone.uuid}}" class="container">
     
     <div class="row-fluid container-narrow">
       <div class="span12">
