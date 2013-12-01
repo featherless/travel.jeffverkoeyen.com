@@ -26,10 +26,10 @@ for photo_path in os.listdir(dropbox_photos_path):
     thumb.save(os.path.join(thumb_path, photo_path))
     
     if img.size[0] > img.size[1] * 4 or img.size[0] * 4 > img.size[1]:
-      img.thumbnail((3000,3000), Image.ANTIALIAS)
+      img = img.thumbnail((3000,3000), Image.ANTIALIAS)
       img.save(os.path.join(large_path, photo_path))
     else:
-      img.thumbnail((938,938), Image.ANTIALIAS)
+      img = img.thumbnail((938,938), Image.ANTIALIAS)
       img.save(os.path.join(large_path, photo_path))
 
 print "Done."
