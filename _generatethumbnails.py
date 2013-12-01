@@ -25,7 +25,7 @@ for photo_path in os.listdir(dropbox_photos_path):
     thumb = ImageOps.fit(img, (100,100), Image.ANTIALIAS)
     thumb.save(os.path.join(thumb_path, photo_path))
     
-    if img.size[0] > img.size[1] * 4 or img.size[0] * 4 > img.size[1]:
+    if img.size[0] > img.size[1] * 4 or img.size[0] * 4 < img.size[1]:
       img.thumbnail((3000,3000), Image.ANTIALIAS)
       img.save(os.path.join(large_path, photo_path))
     else:
