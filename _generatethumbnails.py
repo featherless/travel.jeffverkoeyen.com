@@ -24,9 +24,14 @@ if os.path.isfile(last_generated_path):
 else:
   lastgentime = 0
 
+print time.ctime(lastgentime)
+
+latestgentime = 0
+
 for photo_path in os.listdir(dropbox_photos_path):
   full_photo_path = os.path.join(dropbox_photos_path, photo_path)
-  if os.path.isfile(full_photo_path) and os.path.getmtime(full_photo_path) > lastgentime:
+  latestgentime = max(latestgentime, os.path.getmtime(full_photo_path))
+  if os.path.isfile(full_photo_path) and (os.path.getmtime(full_photo_path) > lastgentime or not os.path.isfile(os.path.join(thumb_path, photo_path))):
     print full_photo_path
     img = Image.open(full_photo_path)
 
@@ -42,6 +47,6 @@ for photo_path in os.listdir(dropbox_photos_path):
 
 # Touch the lastmodified file
 with open(last_generated_path, 'a'):
-  os.utime(last_generated_path, None)
+  os.utime(last_generated_path, (latestgentime, latestgentime))
 
 print "Done."
