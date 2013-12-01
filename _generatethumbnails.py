@@ -19,6 +19,8 @@ for photo_path in os.listdir(dropbox_photos_path):
     img.thumbnail((938,938), Image.ANTIALIAS)
     img.save(os.path.join(large_path, photo_path))
     
+    # TODO: Use ImageOps to create square thumbnails.
+    # http://stackoverflow.com/questions/1386352/pil-thumbnail-and-end-up-with-a-square-image
     img = Image.open(full_photo_path)
     img.thumbnail((100,100), Image.ANTIALIAS)
     img.save(os.path.join(thumb_path, photo_path))
