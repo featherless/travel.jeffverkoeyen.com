@@ -15,6 +15,8 @@ if not os.path.exists(large_path):
 if not os.path.exists(thumb_path):
   os.makedirs(thumb_path)
 
+print "Generating thumbnails..."
+
 for photo_path in os.listdir(dropbox_photos_path):
   full_photo_path = os.path.join(dropbox_photos_path, photo_path)
   if os.path.isfile(full_photo_path):
@@ -29,3 +31,5 @@ for photo_path in os.listdir(dropbox_photos_path):
     else:
       img.thumbnail((938,938), Image.ANTIALIAS)
       img.save(os.path.join(large_path, photo_path))
+
+print "Done."
