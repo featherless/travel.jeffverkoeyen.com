@@ -1,4 +1,5 @@
 # Generates thumbnails for the blog.
+# By Jeff Verkoeyen.
 
 import Image
 import ImageOps
