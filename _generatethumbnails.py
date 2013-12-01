@@ -10,8 +10,8 @@ config = yaml.load(open("_serverconfig.yml", "r"))
 
 dropbox_photos_path = os.path.join(config['dayonepath'], 'photos/')
 
-large_path = "_site/gfx/dayone_large"
-thumb_path = "_site/gfx/dayone_thumb"
+large_path = ".thumbs/dayone_large"
+thumb_path = ".thumbs/dayone_thumb"
 last_generated_path = ".lastgen"
 
 if not os.path.exists(large_path):
