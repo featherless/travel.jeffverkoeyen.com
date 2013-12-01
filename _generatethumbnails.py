@@ -1,3 +1,5 @@
+# Generates thumbnails for the blog.
+
 import Image
 import ImageOps
 import yaml
