@@ -159,7 +159,9 @@ module Dayone
         doc = Plist::parse_xml(dayone_entry)
         doc['has_pic'] = File.exist?(dayonepath + "/photos/" + doc['UUID'] + ".jpg")
         if doc['has_pic'] then
-          doc['pic_url'] = "/gfx/dayone/" + doc['UUID'] + ".jpg"
+          doc['pic_url'] = "/gfx/dayone_large/" + doc['UUID'] + ".jpg"
+          doc['thumb_url'] = "/gfx/dayone_thumb/" + doc['UUID'] + ".jpg"
+          doc['original_pic_url'] = "/gfx/dayone/" + doc['UUID'] + ".jpg"
         end
         
         # Cleans the doc by replacing spaces with underscores and lower-casing all key names.
