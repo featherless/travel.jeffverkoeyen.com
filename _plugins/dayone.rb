@@ -68,18 +68,17 @@ module Dayone
     end
     
     def sanitizekeys(hash)
+      new_hash = Hash.new
       hash.each do |key,value|
         sanitized_key = key.downcase.tr(" ", "_")
-        if sanitized_key == key then
-          next
-        end
-        
-        hash[sanitized_key] = value
-        hash.delete(key)
+
         if value.class == Hash then
-          sanitizekeys(value)
+          new_hash[sanitized_key] = sanitizekeys(value)
+        else
+          new_hash[sanitized_key] = value
         end
       end
+      return new_hash
     end
     
     def orinclude?(haystack, needles)
@@ -165,7 +164,7 @@ module Dayone
         end
         
         # Cleans the doc by replacing spaces with underscores and lower-casing all key names.
-        sanitizekeys(doc)
+        doc = sanitizekeys(doc)
         
         # Clean up the markup
         entry_text = doc['entry_text']

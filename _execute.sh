@@ -1,1 +1,1 @@
-pygmentize -S default -f html > css/pygments.css;jekyll serve --watch
+pygmentize -S default -f html > css/pygments.css;jekyll serve --watch --trace

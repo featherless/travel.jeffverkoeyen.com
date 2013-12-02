@@ -41,9 +41,7 @@
         {% endif %}
 
         <div id="{{dayone.uuid}}" class="span6">
-          <h1 style="text-align: center">{{dayone.title_text}}</h1>
-          <div class="timestamp">{{dayone.creation_date | date: "%A, %B %d, %Y"}}</div>
-          {{ dayone.entry_text | markdownify }}
+          {% include dayone_content.html %}
         </div>
 
         {% if alternator == false %}
@@ -66,9 +64,7 @@
         {% else %}
         <div id="{{dayone.uuid}}" class="span6">
         {% endif %}
-          <h1 style="text-align: center">{{dayone.title_text}}</h1>
-          <div class="timestamp">{{dayone.creation_date | date: "%A, %B %d, %Y"}}</div>
-          {{ dayone.entry_text | markdownify }}
+          {% include dayone_content.html %}
         </div>
         
         {% if forloop.last or page.dayone_eating[forloop.index].pic_url %}
@@ -92,9 +88,7 @@
     
     <div class="row-fluid container-narrow">
       <div class="span12">
-        <h1 style="text-align: center">{{dayone.title_text}}</h1>
-        <div class="timestamp">{{dayone.creation_date | date: "%A, %B %d, %Y"}}</div>
-        {{ dayone.entry_text | markdownify }}
+        {% include dayone_content.html %}
       </div>
       
 {% if dayone.pic_url %}
