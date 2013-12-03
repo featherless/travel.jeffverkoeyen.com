@@ -6,19 +6,17 @@
 
 {% for dayone in page.dayones %}
 
-{% capture entry_size %}{{ dayone.entry_text | size | minus:500 }}{% endcapture %}
 {% if forloop.last %}
   {% assign flushThisRow = true %}
 {% else %}
   {% if page.dayones[forloop.index].pic_url %}
     {% assign flushThisRow = true %}
   {% else %}
-    {% capture next_entry_size %}{{ page.dayones[forloop.index].entry_text | size | minus:500 }}{% endcapture %}
-    {% unless next_entry_size contains '-' %}
+    {% if page.dayones[forloop.index].is_long_post == true %}
       {% assign flushThisRow = true %}
     {% else %}
       {% assign flushThisRow = false %}
-    {% endunless %}
+    {% endif %}
   {% endif %}
 {% endif %}
 
@@ -27,10 +25,10 @@
 {% else %}
   {% assign hasPic = false %}
 {% endif %}
-{% if entry_size contains '-' %}
-  {% assign isLongPost = false %}
-{% else %}
+{% if dayone.is_long_post == true %}
   {% assign isLongPost = true %}
+{% else %}
+  {% assign isLongPost = false %}
 {% endif %}
 {% if hasPic == true or isLongPost == true or rowCounter == "0" %}
   {% assign isNewRow = true %}

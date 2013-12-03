@@ -200,6 +200,12 @@ module Dayone
           end
           doc['entry_text'] = entry_text
           doc['title_text'] = title_text
+          
+          if entry_text.length > 500 or entry_text.lines.count > 10
+            doc['is_long_post'] = true
+          else
+            doc['is_long_post'] = false
+          end
         end
         
         # In order to parse the data in Liquid we have to convert the DateTime object to a string.
