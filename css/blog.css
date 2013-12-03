@@ -97,19 +97,17 @@
   height: 400px;
 }
 
-#dayone_preamble {
+#dayone_toc {
   background-image: url('/gfx/dayone_ribbon.png');
   background-repeat: no-repeat;
   background-position-x: center;
   background-position-y: -10px;
 }
 
-#dayone_preamble .dayone_content {
+#dayone_toc .toc_header {
   text-align: center;
-}
-
-#dayone_preamble h1 {
   color: #666;
+  margin-bottom: 30px;
 }
 
 #dayone_eating .dayone_header {
@@ -119,20 +117,6 @@
 
 #dayone_eating .row-fluid {
   margin-bottom: 40px;
-}
-
-.dayone h1 {
-  margin-bottom: 0;
-  line-height: 50px;
-  margin-top: 0;
-}
-
-.dayone .timestamp {
-  font-family: "nimbus-sans",sans-serif;
-  font-weight: 300;
-  text-align: center;
-  font-size: 16px;
-  margin-bottom: 10px;
 }
 
 #dayone_toc li {
@@ -152,6 +136,10 @@
   margin: 10px;
   margin-top: -5px;
   margin-right: 20px;
+}
+
+#dayone_toc ul {
+  margin: 0;
 }
 
 #dayone_toc li .toc_thumbnail,
@@ -174,6 +162,20 @@
   background-image: url("/gfx/dot.png");
   background-repeat: repeat-y;
   background-position-x: 35px;
+}
+
+.dayone h1 {
+  margin-bottom: 0;
+  line-height: 50px;
+  margin-top: 0;
+}
+
+.dayone .timestamp {
+  font-family: "nimbus-sans",sans-serif;
+  font-weight: 300;
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 10px;
 }
 
 @media (max-width: 767px) {
@@ -211,7 +213,13 @@
        -moz-box-sizing: border-box;
             box-sizing: border-box;
   }
-  #dayone_preamble {
+  #dayone_toc {
     background-position-y: -30px;
+  }
+  #dayone_toc h1 {
+    margin-bottom: 20px;
+  }
+  #dayone_toc ul {
+    margin-left: 0;
   }
 }
