@@ -93,7 +93,7 @@ module Dayone
     def cleanpost(post)
       data = post.data
       if data.has_key?('dayones') then
-        data['dayones'] = data['dayones'].sort_by! { |k| k['creation_date'] }
+        data['dayones'].sort! { |a,b| a['creation_date'] <=> b['creation_date'] }
 
         dayones = data['dayones']
         dayone_lodging = Array.new
