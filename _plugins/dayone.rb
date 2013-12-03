@@ -93,12 +93,14 @@ module Dayone
     def cleanpost(post)
       data = post.data
       if data.has_key?('dayones') then
-        data['dayones'].sort! { |a,b| a['creation_date'] <=> b['creation_date'] }
-        
+        data['dayones'] = data['dayones'].sort_by! { |k| k['creation_date'] }
+
         dayones = data['dayones']
         dayone_lodging = Array.new
         dayone_eating = Array.new
         dayone_notes = Array.new
+
+        preamble_dayone = nil
 
         dayones.each do |dayone|
           if orinclude?(dayone['tags'], ["Bed and Breakfasts", "Hostels", "Hotels"])
@@ -108,8 +110,17 @@ module Dayone
           else
             dayone_notes.concat([dayone])
           end
+          
+          if dayone['tags'].include?('Preamble')
+            preamble_dayone = dayone
+          end
         end
         
+        if preamble_dayone
+          dayones.delete(preamble_dayone)
+        end
+        
+        data['dayone_preamble'] = preamble_dayone
         data['dayone_lodging'] = dayone_lodging
         data['dayone_eating'] = dayone_eating
         data['dayone_notes'] = dayone_notes
