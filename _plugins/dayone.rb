@@ -178,7 +178,7 @@ module Dayone
         doc = sanitizekeys(doc)
         
         # Clean up the markup
-        entry_text = doc['entry_text']
+        entry_text = doc['entry_text'].strip
         title_text = nil
 
         # Get the title.
