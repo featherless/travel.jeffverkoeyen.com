@@ -180,25 +180,27 @@ module Dayone
         # Clean up the markup
         entry_text = doc['entry_text'].strip
         title_text = nil
-
-        # Get the title.
-        loc_firstperiod = entry_text.index(".")
-        loc_firstnewline = entry_text.index("\n")
-        if not loc_firstnewline.nil? and not loc_firstperiod.nil? then
-          # Newline before the first period or directly after it.
-          if loc_firstnewline < loc_firstperiod then
+        
+        if not doc['tags'] or not doc['tags'].include?('Preamble') then
+          # Get the title.
+          loc_firstperiod = entry_text.index(".")
+          loc_firstnewline = entry_text.index("\n")
+          if not loc_firstnewline.nil? and not loc_firstperiod.nil? then
+            # Newline before the first period or directly after it.
+            if loc_firstnewline < loc_firstperiod then
+              title_text = entry_text[0, loc_firstnewline]
+              entry_text = entry_text[loc_firstnewline + 1..entry_text.length]
+            elsif loc_firstperiod == loc_firstnewline - 1 then
+              title_text = entry_text[0, loc_firstperiod]
+              entry_text = entry_text[loc_firstperiod + 1..entry_text.length]
+            end
+          elsif not loc_firstnewline.nil? and loc_firstperiod.nil? then  
             title_text = entry_text[0, loc_firstnewline]
-            entry_text = entry_text[loc_firstnewline + 1..entry_text.length]
-          elsif loc_firstperiod == loc_firstnewline - 1 then
-            title_text = entry_text[0, loc_firstperiod]
-            entry_text = entry_text[loc_firstperiod + 1..entry_text.length]
+            entry_text = entry_text[loc_firstnewline+1..entry_text.length]
           end
-        elsif not loc_firstnewline.nil? and loc_firstperiod.nil? then  
-          title_text = entry_text[0, loc_firstnewline]
-          entry_text = entry_text[loc_firstnewline+1..entry_text.length]
+          doc['entry_text'] = entry_text
+          doc['title_text'] = title_text
         end
-        doc['entry_text'] = entry_text
-        doc['title_text'] = title_text
         
         # In order to parse the data in Liquid we have to convert the DateTime object to a string.
         doc['creation_date'] = doc['creation_date'].to_s
