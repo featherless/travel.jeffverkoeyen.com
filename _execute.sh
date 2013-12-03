@@ -1,4 +1,4 @@
-jekyll build
+jekyll build --trace
 cd _site
 pygmentize -S default -f html > ../css/pygments.css
 ln -s /Users/featherless/ServerDropbox/Dropbox/Apps/Day\ One/Journal.dayone/photos /Users/featherless/www/blog/_site/gfx/dayone

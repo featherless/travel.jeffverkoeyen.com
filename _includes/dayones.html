@@ -10,69 +10,115 @@
 </div>
 
   {% if page.dayones.size > 0 %}
-    {% assign rowCounter = "0" %}  
+    {% assign rowCounter = "0" %}
     {% assign alternator = false %}
 
     {% for dayone in page.dayones %}
 
-      {% if rowCounter == "0" or dayone.pic_url %}
-        {% assign rowCounter = 2 %}
+{% capture entry_size %}{{ dayone.entry_text | size | minus:500 }}{% endcapture %}
+{% if forloop.last %}
+  {% assign flushThisRow = true %}
+{% else %}
+  {% if page.dayones[forloop.index].pic_url %}
+    {% assign flushThisRow = true %}
+  {% else %}
+    {% capture next_entry_size %}{{ page.dayones[forloop.index].entry_text | size | minus:500 }}{% endcapture %}
+    {% unless entry_size contains '-' %}
+      {% assign flushThisRow = true %}
+    {% else %}
+      {% assign flushThisRow = false %}
+    {% endunless %}
+  {% endif %}
+{% endif %}
 
-        {% if forloop.index0 > 0 %}
+{% if dayone.pic_url %}
+  {% assign hasPic = true %}
+{% else %}
+  {% assign hasPic = false %}
+{% endif %}
+{% if entry_size contains '-' %}
+  {% assign isLongPost = false %}
+{% else %}
+  {% assign isLongPost = true %}
+{% endif %}
+{% if hasPic == true or isLongPost == true or rowCounter == "0" %}
+  {% assign isNewRow = true %}
+{% else %}
+  {% assign isNewRow = false %}
+{% endif %}
+
+<!-- state: hasPic:{{ hasPic }} isLongPost: {{ isLongPost }} isNewRow: {{ isNewRow }} flushThisRow: {{ flushThisRow }} -->
+
+{% if isNewRow == true %}
+  {% assign rowCounter = 2 %}
+
+  {% if forloop.index0 > 0 %}
       </div> <!-- .row -->
     </div> <!-- .container -->
   </div> <!-- .dayone -->
-        {% endif %}
+  {% endif %}
 
   <div class="dayone page">
     <div class="container">
       <div class="row-fluid">
-        {% assign isNewRow = true %}
-      {% else %}
-        {% assign isNewRow = false %}
-      {% endif %}
+{% endif %}
 
-      {% if dayone.pic_url %}
-        {% if alternator == true %}
-        <div class="span6">
-          <img src="{{ dayone.pic_url }}" />
-        </div>
-        {% endif %}
-
-        <div id="{{dayone.uuid}}" class="span6">
-          {% include dayone_content.html %}
-        </div>
-
-        {% if alternator == false %}
-        <div class="span6">
-          <img src="{{ dayone.pic_url }}" />
-        </div>
-        {% endif %}
-
-        {% assign rowCounter = "0" %}
-
-        {% if alternator == true %}
-          {% assign alternator = false %}
-        {% else %}
-          {% assign alternator = true %}
-        {% endif %}
-      {% else %}
-        {% if isNewRow == true and (forloop.last or page.dayones[forloop.index].pic_url) %}
+{% if hasPic == true %}
+  {% if isLongPost == true %}
         <div class="container-narrow">
-        <div id="{{dayone.uuid}}" class="span12">
-        {% else %}
-        <div id="{{dayone.uuid}}" class="span6">
-        {% endif %}
-          {% include dayone_content.html %}
+          <div id="{{dayone.uuid}}" class="span12">
+  {% else %}
+    {% if alternator == true %}
+        <div class="span6">
+          <img src="{{ dayone.pic_url }}" />
         </div>
-        
-        {% if isNewRow == true and (forloop.last or page.dayones[forloop.index].pic_url) %}
-        </div> <!-- .container-narrow -->
-        {% endif %}
+    {% endif %}
+        <div id="{{dayone.uuid}}" class="span6">
+  {% endif %}
 
-        {% capture temp %}{{ rowCounter | minus: 1 }}{% endcapture %}
-        {% assign rowCounter = temp %}
-      {% endif %}
+          {% include dayone_content.html %}
+
+  {% if isLongPost == true %}
+    {% if hasPic == true %}
+            <img src="{{ dayone.pic_url }}" />
+    {% endif %}
+          </div> <!-- .span12 -->
+        </div> <!-- .container-narrow -->
+  {% else %}
+        </div> <!-- .span6 -->
+    {% if alternator == false %}
+        <div class="span6">
+          <img src="{{ dayone.pic_url }}" />
+        </div>
+    {% endif %}
+  {% endif %}
+
+  {% assign rowCounter = "0" %}
+  {% if alternator == true %}
+    {% assign alternator = false %}
+  {% else %}
+    {% assign alternator = true %}
+  {% endif %}
+{% else %}
+  {% if isNewRow == true and flushThisRow %}
+        <div class="container-narrow">
+          <div id="{{dayone.uuid}}" class="span12">
+    {% assign rowCounter = "0" %}
+
+  {% else %}
+        <div id="{{dayone.uuid}}" class="span6">
+  {% endif %}
+
+    {% include dayone_content.html %}
+        </div>
+  
+  {% if isNewRow == true and flushThisRow %}
+        </div> <!-- .container-narrow -->
+  {% endif %}
+
+  {% capture temp %}{{ rowCounter | minus: 1 }}{% endcapture %}
+  {% assign rowCounter = temp %}
+{% endif %}
 
     {% endfor %}
     
