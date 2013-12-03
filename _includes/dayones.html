@@ -1,3 +1,5 @@
+{% include dayone_toc.html %}
+
 {% if page.dayones.size > 0 %}
 <div id="dayone_preamble" class="page">
   <div class="container">
@@ -9,11 +11,10 @@
   </div>
 </div>
 
-  {% if page.dayones.size > 0 %}
-    {% assign rowCounter = "0" %}
-    {% assign alternator = false %}
+{% assign rowCounter = "0" %}
+{% assign alternator = false %}
 
-    {% for dayone in page.dayones %}
+{% for dayone in page.dayones %}
 
 {% capture entry_size %}{{ dayone.entry_text | size | minus:500 }}{% endcapture %}
 {% if forloop.last %}
@@ -120,11 +121,10 @@
   {% assign rowCounter = temp %}
 {% endif %}
 
-    {% endfor %}
-    
-      </div> <!-- /row-fluid -->
-    </div> <!-- /container -->
-  </div> <!-- /dayones -->
-  {% endif %}
+{% endfor %}
+
+    </div> <!-- /row-fluid -->
+  </div> <!-- /container -->
+</div> <!-- /dayones -->
 
 {% endif %}

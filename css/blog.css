@@ -135,6 +135,47 @@
   margin-bottom: 10px;
 }
 
+#dayone_toc li {
+  list-style-type: none;
+  font-family: "calluna",serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 5px;
+}
+
+#dayone_toc .toc_thumbnail {
+  float: left;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #ddd;
+  margin: 10px;
+  margin-top: -5px;
+  margin-right: 20px;
+}
+
+#dayone_toc li .toc_thumbnail,
+#dayone_toc li .toc_thumbnail img {
+  -webkit-border-radius: 25px;
+     -moz-border-radius: 25px;
+          border-radius: 25px;
+}
+
+#dayone_toc li .timestamp {
+  color: #999;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+#dayone_toc li .dots {
+  height: 32px;
+  margin-top: -2px;
+  margin-bottom: 8px;
+  background-image: url("/gfx/dot.png");
+  background-repeat: repeat-y;
+  background-position-x: 35px;
+}
+
 @media (max-width: 767px) {
   .geomap-frame {
     height: 300px;

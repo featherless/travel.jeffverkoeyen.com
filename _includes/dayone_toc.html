@@ -1,0 +1,33 @@
+{% if page.dayones.size > 0 %}
+<div id="dayone_toc" class="page">
+  <div class="container">
+    <div class="row-fluid">
+      <div class="container-narrow">
+        <div class="span12">
+
+<ul>
+{% for dayone in page.dayones %}
+
+<li>
+  <div class="toc_row">
+    <div class="toc_thumbnail"><a href="#{{ dayone.uuid}}"><img src="{{ dayone.thumb_url }}" width="50" height="50" /></a></div>
+    <div class="toc_content">
+      <a href="#{{ dayone.uuid}}">{{ dayone.title_text}}</a>
+      <div class="timestamp">{{ dayone|local_time }}</div>
+    </div>
+    <div class="clearfix"></div>
+  </div>
+  {% if forloop.last == false %}
+  <div class="dots"></div>
+  {% endif %}
+</li>
+
+{% endfor %}
+</ul>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endif %}
