@@ -23,7 +23,7 @@
     {% assign flushThisRow = true %}
   {% else %}
     {% capture next_entry_size %}{{ page.dayones[forloop.index].entry_text | size | minus:500 }}{% endcapture %}
-    {% unless entry_size contains '-' %}
+    {% unless next_entry_size contains '-' %}
       {% assign flushThisRow = true %}
     {% else %}
       {% assign flushThisRow = false %}
