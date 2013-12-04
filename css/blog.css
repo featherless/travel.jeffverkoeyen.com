@@ -125,7 +125,7 @@ li {
   font-weight: 300;
   font-size: 16px;
   line-height: 24px;
-  margin-top: 5px;
+  margin-top: 3px;
 }
 
 #dayone_toc .toc_thumbnail {
@@ -134,7 +134,7 @@ li {
   height: 50px;
   border: 1px solid #ddd;
   margin: 10px;
-  margin-top: -5px;
+  margin-top: -3px;
   margin-right: 20px;
   text-align: center;
 }
