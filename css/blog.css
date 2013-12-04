@@ -136,6 +136,30 @@ li {
   margin: 10px;
   margin-top: -5px;
   margin-right: 20px;
+  text-align: center;
+}
+
+#dayone_toc .toc_thumbnail svg {
+  margin-top: 9px;
+  margin-left: 2px;
+}
+
+.svg_icon {
+  fill: #666;
+}
+
+.svg_container {
+  width: 30px;
+  height: 30px;
+}
+
+#dayone_toc .default_svg {
+  width: 50px;
+  height: 50px;
+}
+
+#dayone_toc .toc_thumbnail .default_svg {
+  margin: 0;
 }
 
 #dayone_toc ul {
@@ -161,7 +185,7 @@ li {
   margin-bottom: 8px;
   background-image: url("/gfx/dot.png");
   background-repeat: repeat-y;
-  background-position-x: 35px;
+  background-position-x: 34px;
 }
 
 .dayone h1 {

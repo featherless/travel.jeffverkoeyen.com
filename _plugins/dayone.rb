@@ -82,6 +82,10 @@ module Dayone
     end
     
     def orinclude?(haystack, needles)
+      if haystack.nil? or needles.nil? then
+        return false
+      end
+
       needles.each do |needle|
         if haystack.include?(needle)
           return true
@@ -167,15 +171,50 @@ module Dayone
       # Remove the corresponding tags from each post.
       Dir.glob(dayonepath + "/entries/*.doentry") do |dayone_entry|
         doc = Plist::parse_xml(dayone_entry)
-        doc['has_pic'] = File.exist?(dayonepath + "/photos/" + doc['UUID'] + ".jpg")
-        if doc['has_pic'] then
-          doc['pic_url'] = "/gfx/dayone_large/" + doc['UUID'] + ".jpg"
-          doc['thumb_url'] = "/gfx/dayone_thumb/" + doc['UUID'] + ".jpg"
-          doc['original_pic_url'] = "/gfx/dayone/" + doc['UUID'] + ".jpg"
-        end
         
         # Cleans the doc by replacing spaces with underscores and lower-casing all key names.
         doc = sanitizekeys(doc)
+
+        doc['has_pic'] = File.exist?(dayonepath + "/photos/" + doc['uuid'] + ".jpg")
+
+        if doc['has_pic'] then
+          doc['pic_url'] = "/gfx/dayone_large/" + doc['uuid'] + ".jpg"
+          doc['thumb_url'] = "/gfx/dayone_thumb/" + doc['uuid'] + ".jpg"
+          doc['original_pic_url'] = "/gfx/dayone/" + doc['uuid'] + ".jpg"
+          doc['thumb_html'] = "<img src=" + doc['thumb_url'] + " width=\"50\" height=\"50\" />"
+        else
+          # Determine which icon to use.
+          svg_name = nil
+          if orinclude?(doc['tags'], ["Restaurants"]) then
+            svg_name = "restaurant"
+          elsif orinclude?(doc['tags'], ["Food"]) then
+            svg_name = "food"
+          elsif orinclude?(doc['tags'], ["Bed and Breakfasts", "Hostels", "Hotels"]) then
+            svg_name = "hotel"
+          elsif orinclude?(doc['tags'], ["Hikes"]) then
+            svg_name = "walking"
+          elsif orinclude?(doc['tags'], ["Bussing"]) then
+            svg_name = "bussing"
+          elsif doc['activity'] == "Walking" then
+            svg_name = "walking"
+          elsif doc['activity'] == "Automotive" then
+            svg_name = "driving"
+          else
+            svg_name = "default"
+          end
+          
+          # Read the SVG markup.
+          thumb_html = nil
+          if svg_name then
+            svg_path = "gfx/icons/" + svg_name + ".svg"
+            if File.exist?(svg_path) then
+              file = File.open(svg_path, "r")
+              thumb_html = file.read
+            end
+          end
+
+          doc['thumb_html'] = thumb_html
+        end
         
         # Clean up the markup
         entry_text = doc['entry_text'].strip
