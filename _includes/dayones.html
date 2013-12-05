@@ -49,6 +49,9 @@
 
   <div class="dayone page">
     <div class="container">
+{% if hasPic == true %}
+      <div class="dayone_icon">{{ dayone.icon_html }}</div>
+{% endif %}
       <div class="row-fluid">
 {% endif %}
 
@@ -92,10 +95,12 @@
   {% if isNewRow == true and flushThisRow %}
         <div class="container-narrow">
           <div id="{{dayone.uuid}}" class="span12">
+            <div class="dayone_icon">{{ dayone.icon_html }}</div>
     {% assign rowCounter = "0" %}
 
   {% else %}
         <div id="{{dayone.uuid}}" class="span6">
+          <div class="dayone_icon">{{ dayone.icon_html }}</div>
   {% endif %}
 
     {% include dayone_content.html %}

@@ -162,44 +162,52 @@ module Dayone
         doc = sanitizekeys(doc)
 
         doc['has_pic'] = File.exist?(dayonepath + "/photos/" + doc['uuid'] + ".jpg")
+        doc['thumb_html'] = nil
 
         if doc['has_pic'] then
           doc['pic_url'] = "/gfx/dayone_large/" + doc['uuid'] + ".jpg"
           doc['thumb_url'] = "/gfx/dayone_thumb/" + doc['uuid'] + ".jpg"
           doc['original_pic_url'] = "/gfx/dayone/" + doc['uuid'] + ".jpg"
           doc['thumb_html'] = "<img src=" + doc['thumb_url'] + " width=\"50\" height=\"50\" />"
-        else
-          # Determine which icon to use.
-          svg_name = nil
-          if orinclude?(doc['tags'], ["Restaurants"]) then
-            svg_name = "restaurant"
-          elsif orinclude?(doc['tags'], ["Food"]) then
-            svg_name = "food"
-          elsif orinclude?(doc['tags'], ["Bed and Breakfasts", "Hostels", "Hotels"]) then
-            svg_name = "hotel"
-          elsif orinclude?(doc['tags'], ["Hikes"]) then
-            svg_name = "walking"
-          elsif orinclude?(doc['tags'], ["Bussing"]) then
-            svg_name = "bussing"
-          elsif doc['activity'] == "Walking" then
-            svg_name = "walking"
-          elsif doc['activity'] == "Automotive" then
-            svg_name = "driving"
-          else
-            svg_name = "default"
-          end
-          
-          # Read the SVG markup.
-          thumb_html = nil
-          if svg_name then
-            svg_path = "gfx/icons/" + svg_name + ".svg"
-            if File.exist?(svg_path) then
-              file = File.open(svg_path, "r")
-              thumb_html = file.read
-            end
-          end
+        end
 
-          doc['thumb_html'] = thumb_html
+        # Determine which icon to use.
+        svg_name = nil
+        if orinclude?(doc['tags'], ["Restaurants"]) then
+          svg_name = "restaurant"
+        elsif orinclude?(doc['tags'], ["Food"]) then
+          svg_name = "food"
+        elsif orinclude?(doc['tags'], ["Bed and Breakfasts", "Hostels", "Hotels"]) then
+          svg_name = "hotel"
+        elsif orinclude?(doc['tags'], ["Hikes"]) then
+          svg_name = "walking"
+        elsif orinclude?(doc['tags'], ["Bussing"]) then
+          svg_name = "bussing"
+        elsif orinclude?(doc['tags'], ["SCUBA"]) then
+          svg_name = "scuba"
+        elsif doc['activity'] == "Walking" then
+          svg_name = "walking"
+        elsif doc['activity'] == "Automotive" then
+          svg_name = "driving"
+        elsif doc['activity'] == "Airplane" then
+          svg_name = "flying"
+        else
+          svg_name = "default"
+        end
+        
+        svg_html = nil
+        if svg_name then
+          svg_path = "gfx/icons/" + svg_name + ".svg"
+          if File.exist?(svg_path) then
+            file = File.open(svg_path, "r")
+            svg_html = file.read
+            
+          end
+        end
+        doc['icon_html'] = svg_html
+
+        if doc['thumb_html'].nil?
+          doc['thumb_html'] = svg_html
         end
         
         # Clean up the markup

@@ -153,6 +153,7 @@ li {
   height: 30px;
 }
 
+.dayone .default_svg,
 #dayone_toc .default_svg {
   width: 50px;
   height: 50px;
@@ -164,6 +165,21 @@ li {
 
 #dayone_toc ul {
   margin: 0;
+}
+
+.dayone_icon {
+  margin-top: -45px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.dayone .default_svg {
+  margin-top: -10px;
+  margin-bottom: -10px;
+}
+
+.dayone_icon svg .svg_icon {
+  fill: #999;
 }
 
 #dayone_toc li .toc_thumbnail,
@@ -245,5 +261,11 @@ li {
   }
   #dayone_toc ul {
     margin-left: 0;
+  }
+  
+  .dayone_icon {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
   }
 }
