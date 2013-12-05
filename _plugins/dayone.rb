@@ -9,7 +9,7 @@
 # Day One entries are stored in the plist format.
 require 'plist'
 
-# The Jekyll Day One module. Being a Generator allows this plugin
+# The Day One Jekyll module. Being a Generator allows this plugin
 # to inject the Day One entries into Liquid before the pages get
 # rendered. Day One entries will be made accessible via
 # `page.dayones`.
@@ -31,25 +31,7 @@ module Dayone
       return tags.map{|tag| tag.downcase.strip}.sort
     end
 
-    def blazetagkeynode(tagkey_map, tags)
-      tagkeywalk = generatetagkeywalk(tags)
-      if tagkeywalk.nil? then
-        return nil
-      end
-      
-      # Walk the tagkeys.
-      node = tagkey_map
-      tagkeywalk.each do |tag|
-        if not node.has_key?(tag) then
-          node[tag] = Hash.new
-        end
-        node = node[tag]
-      end
-
-      return node
-    end
-
-    def findtagkeynode(tagkey_map, tags)
+    def walktagkeymap(tagkey_map, tags, shouldgenerate)
       tagkeywalk = generatetagkeywalk(tags)
       if tagkeywalk.nil? then
         return nil
@@ -59,7 +41,11 @@ module Dayone
       node = tagkey_map
       tagkeywalk.each do |tag|
         if not node.has_key?(tag) then
-          next
+          if shouldgenerate then
+            node[tag] = Hash.new
+          else
+            next
+          end
         end
         node = node[tag]
       end
@@ -161,7 +147,7 @@ module Dayone
           next
         end
         
-        node = blazetagkeynode(tagkey_map, post.tags)
+        node = walktagkeymap(tagkey_map, post.tags, shouldgenerate = true)
         node['post'] = post
       end
       
@@ -250,7 +236,7 @@ module Dayone
         # In order to parse the data in Liquid we have to convert the DateTime object to a string.
         doc['creation_date'] = doc['creation_date'].to_s
         
-        node = findtagkeynode(tagkey_map, doc['tags'])
+        node = walktagkeymap(tagkey_map, doc['tags'], shouldgenerate = false)
         if node.nil? or not node.has_key?('post') then
           next
         end
