@@ -70,11 +70,17 @@ module Dayone
     end
     
     # Recursively walks a hash tree and sanitizes each key
-    # so that they can be used in Liquid templates.
-    # Returns the sanitized hash.
+    # so that they can be used in Liquid templates. Spaces
+    # will be replaced with "_" characters and all
+    # characters will be lowercased.
     #
+    # Day One Note:
     # Day One keys tend to have spaces, making it difficult
-    # to access certain properties of each dayone entry.
+    # to access certain properties of each dayone entry in
+    # Liquid templates.
+    #
+    # Returns:
+    # The sanitized hash.
     def sanitize_keys(hash)
       new_hash = Hash.new
       hash.each do |key,value|
@@ -89,6 +95,7 @@ module Dayone
       return new_hash
     end
     
+    # Tests if haystack includes any of the needles.
     def orinclude?(haystack, needles)
       if haystack.nil? or needles.nil? then
         return false
@@ -103,26 +110,14 @@ module Dayone
     end
     
     def cleanpost(post)
-      data = post.data
-      if data.has_key?('dayones') then
-        data['dayones'].sort! { |a,b| a['creation_date'] <=> b['creation_date'] }
+      if post.data.has_key?('dayones') then
+        dayones = post.data['dayones']
 
-        dayones = data['dayones']
-        dayone_lodging = Array.new
-        dayone_eating = Array.new
-        dayone_notes = Array.new
+        dayones.sort! { |a,b| a['creation_date'] <=> b['creation_date'] }
 
         preamble_dayone = nil
 
         dayones.each do |dayone|
-          if orinclude?(dayone['tags'], ["Bed and Breakfasts", "Hostels", "Hotels"])
-            dayone_lodging.concat([dayone])
-          elsif orinclude?(dayone['tags'], ["Restaurants", "Food"])
-            dayone_eating.concat([dayone])
-          else
-            dayone_notes.concat([dayone])
-          end
-          
           if dayone['tags'].include?('Preamble')
             preamble_dayone = dayone
           end
@@ -132,10 +127,7 @@ module Dayone
           dayones.delete(preamble_dayone)
         end
         
-        data['dayone_preamble'] = preamble_dayone
-        data['dayone_lodging'] = dayone_lodging
-        data['dayone_eating'] = dayone_eating
-        data['dayone_notes'] = dayone_notes
+        post.data['dayone_preamble'] = preamble_dayone
       end
     end
     
