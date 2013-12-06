@@ -16,32 +16,42 @@ require 'plist'
 module Dayone
   class Generator < Jekyll::Generator
 
-    # Takes an array of tags and returns an array that may be
-    # used to walk a tag tree efficiently. The resulting array
-    # is ordered and each tag is standardized (lowercased,
-    # etc...).
+    # Takes an array of tag strings and returns an array that
+    # can be used to walk a tag tree efficiently. The
+    # resulting array is ordered and each tag is standardized
+    # (lowercased, etc...).
     # Params:
-    # +tags+:: An Array of tag Strings.
-    def generatetagkeywalk(tags)
+    # +tags+:: An Array of Strings.
+    # Returns:
+    # An Array of Strings, sorted alphabetically and
+    # standardized.
+    def generate_tagkey_walk(tags)
+      # Am I missing a cleaner way to bail out for nil args?
       if tags.nil? or not tags.any? then
         return nil
       end
 
-      # Sort, lowercase.
+      # Lowercased sort to standardize tag names between
+      # Day One and Jekyll. Not doing this would lead to
+      # capitalization differences causing Day One posts
+      # not to match up to their Jekyll counterparts.
       return tags.map{|tag| tag.downcase.strip}.sort
     end
 
-    def walktagkeymap(tagkey_map, tags, shouldgenerate)
-      tagkeywalk = generatetagkeywalk(tags)
-      if tagkeywalk.nil? then
+    # Walks (and optionally generates) a tag key tree that
+    # efficiently allows us to find Jekyll posts with a set
+    # of tags.
+    def walk_tagkey_tree(tagkey_tree, tags, should_generate)
+      tagkey_walk = generate_tagkey_walk(tags)
+      if tagkey_walk.nil? then
         return nil
       end
 
       # Walk the tagkeys.
-      node = tagkey_map
-      tagkeywalk.each do |tag|
+      node = tagkey_tree
+      tagkey_walk.each do |tag|
         if not node.has_key?(tag) then
-          if shouldgenerate then
+          if should_generate then
             node[tag] = Hash.new
           else
             next
@@ -50,16 +60,28 @@ module Dayone
         node = node[tag]
       end
 
-      return node
+      # If we're searching for a node we don't want to
+      # return the root node.
+      if node == tagkey_tree and not should_generate then
+        return nil
+      else
+        return node
+      end
     end
     
-    def sanitizekeys(hash)
+    # Recursively walks a hash tree and sanitizes each key
+    # so that they can be used in Liquid templates.
+    # Returns the sanitized hash.
+    #
+    # Day One keys tend to have spaces, making it difficult
+    # to access certain properties of each dayone entry.
+    def sanitize_keys(hash)
       new_hash = Hash.new
       hash.each do |key,value|
         sanitized_key = key.downcase.tr(" ", "_")
 
         if value.class == Hash then
-          new_hash[sanitized_key] = sanitizekeys(value)
+          new_hash[sanitized_key] = sanitize_keys(value)
         else
           new_hash[sanitized_key] = value
         end
@@ -141,13 +163,13 @@ module Dayone
       
       print "\n          - Building tag map... "
       # Run through all of the posts to find the tag groups for Day One posts we care about.
-      tagkey_map = Hash.new
+      tagkey_tree = Hash.new
       site.posts.each do |post|
         if not post.tags.any? then
           next
         end
         
-        node = walktagkeymap(tagkey_map, post.tags, shouldgenerate = true)
+        node = walk_tagkey_tree(tagkey_tree, post.tags, should_generate = true)
         node['post'] = post
       end
       
@@ -159,7 +181,7 @@ module Dayone
         doc = Plist::parse_xml(dayone_entry)
         
         # Cleans the doc by replacing spaces with underscores and lower-casing all key names.
-        doc = sanitizekeys(doc)
+        doc = sanitize_keys(doc)
 
         doc['has_pic'] = File.exist?(dayonepath + "/photos/" + doc['uuid'] + ".jpg")
         doc['thumb_html'] = nil
@@ -189,7 +211,7 @@ module Dayone
           svg_name = "walking"
         elsif doc['activity'] == "Automotive" then
           svg_name = "driving"
-        elsif doc['activity'] == "Airplane" then
+        elsif doc['activity'] == "Flying" then
           svg_name = "flying"
         else
           svg_name = "default"
@@ -244,7 +266,7 @@ module Dayone
         # In order to parse the data in Liquid we have to convert the DateTime object to a string.
         doc['creation_date'] = doc['creation_date'].to_s
         
-        node = walktagkeymap(tagkey_map, doc['tags'], shouldgenerate = false)
+        node = walk_tagkey_tree(tagkey_tree, doc['tags'], should_generate = false)
         if node.nil? or not node.has_key?('post') then
           next
         end
@@ -258,7 +280,7 @@ module Dayone
         data['dayones'].concat([doc])
       end
       
-      walktree(tagkey_map)
+      walktree(tagkey_tree)
       
       print "\n          - Done\n                    "
     end
