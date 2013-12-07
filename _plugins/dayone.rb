@@ -189,6 +189,41 @@ module Dayone
         end
       end
     end
+    
+    def extract_title(doc)
+      entry_text = doc['entry_text'].strip
+      title_text = nil
+
+      # Get the title.
+      loc_firstperiod = entry_text.index(".")
+      loc_firstnewline = entry_text.index("\n")
+      if not loc_firstnewline.nil? and not loc_firstperiod.nil? then
+        # Newline before the first period or directly after it.
+        if loc_firstnewline < loc_firstperiod then
+          title_text = entry_text[0, loc_firstnewline]
+          entry_text = entry_text[loc_firstnewline + 1..entry_text.length]
+        elsif loc_firstperiod == loc_firstnewline - 1 then
+          title_text = entry_text[0, loc_firstperiod]
+          entry_text = entry_text[loc_firstperiod + 1..entry_text.length]
+        end
+      elsif not loc_firstnewline.nil? and loc_firstperiod.nil? then  
+        title_text = entry_text[0, loc_firstnewline]
+        entry_text = entry_text[loc_firstnewline+1..entry_text.length]
+      end
+      doc['entry_text'] = entry_text
+      doc['title_text'] = title_text
+    end
+    
+    # Returns a Boolean indicating whether or not the title should
+    # be extracted from the first line of the given Day One entry.
+    def should_extract_title(doc)
+      # TODO: Always return YES in default implementation.
+      if not doc['tags'] or not doc['tags'].include?('Preamble')
+        return true
+      else
+        return false
+      end
+    end
 
     # The Jekyll entry-point for implementing this plugin.
     def generate(site)
@@ -201,111 +236,39 @@ module Dayone
       raise "Missing dayonepath key in " + DAYONE_CONFIG_PATH if dayonepath.nil?
       raise "dayonepath must point to an existing path" if not File.directory?(dayonepath)
       
-      print "\n          - Building tag map... "
-      # Run through all of the posts to find the tag groups for Day One posts we care about.
+      print "\n          - Building tag tree... "
+
+      # Build the tag tree from Jekyll's posts. We'll use the Day One entry
+      # tags to find which post to attach each to later.
       tag_tree = Hash.new
       site.posts.each do |post|
         if not post.tags.any? then
           next
         end
-        
+
         node = build_tag_tree(tag_tree, post.tags)
         node[TAG_TREE_POST_KEY] = post
       end
-      
-      print "\n          - Correlating Day One entries with posts... "
-      # Run through every Day One entry and generate its tag key using the method above.
-      # Use the generated tag key to add it to each post.
-      # Remove the corresponding tags from each post.
+
+      print "\n          - Correlating Day One entries with Jekyll posts... "
+
       Dir.glob(dayonepath + "/entries/*.doentry") do |dayone_entry|
         doc = Plist::parse_xml(dayone_entry)
-        
+
         # Cleans the doc by replacing spaces with underscores and lower-casing all key names.
         doc = sanitize_keys(doc)
 
         doc['has_pic'] = File.exist?(dayonepath + "/photos/" + doc['uuid'] + ".jpg")
-        doc['thumb_html'] = nil
-
-        if doc['has_pic'] then
-          doc['pic_url'] = "/gfx/dayone_large/" + doc['uuid'] + ".jpg"
-          doc['thumb_url'] = "/gfx/dayone_thumb/" + doc['uuid'] + ".jpg"
-          doc['original_pic_url'] = "/gfx/dayone/" + doc['uuid'] + ".jpg"
-          doc['thumb_html'] = "<img src=" + doc['thumb_url'] + " width=\"50\" height=\"50\" />"
-        end
-
-        # Determine which icon to use.
-        svg_name = nil
-        if orinclude?(doc['tags'], ["Restaurants"]) then
-          svg_name = "restaurant"
-        elsif orinclude?(doc['tags'], ["Food"]) then
-          svg_name = "food"
-        elsif orinclude?(doc['tags'], ["Bed and Breakfasts", "Hostels", "Hotels"]) then
-          svg_name = "hotel"
-        elsif orinclude?(doc['tags'], ["Hikes"]) then
-          svg_name = "walking"
-        elsif orinclude?(doc['tags'], ["Bussing"]) then
-          svg_name = "bussing"
-        elsif orinclude?(doc['tags'], ["SCUBA"]) then
-          svg_name = "scuba"
-        elsif doc['activity'] == "Walking" then
-          svg_name = "walking"
-        elsif doc['activity'] == "Automotive" then
-          svg_name = "driving"
-        elsif doc['activity'] == "Flying" then
-          svg_name = "flying"
-        else
-          svg_name = "default"
-        end
-        
-        svg_html = nil
-        if svg_name then
-          svg_path = "gfx/icons/" + svg_name + ".svg"
-          if File.exist?(svg_path) then
-            file = File.open(svg_path, "r")
-            svg_html = file.read
-            
-          end
-        end
-        doc['icon_html'] = svg_html
-
-        if doc['thumb_html'].nil?
-          doc['thumb_html'] = svg_html
-        end
-        
-        # Clean up the markup
-        entry_text = doc['entry_text'].strip
-        title_text = nil
-        
-        if not doc['tags'] or not doc['tags'].include?('Preamble') then
-          # Get the title.
-          loc_firstperiod = entry_text.index(".")
-          loc_firstnewline = entry_text.index("\n")
-          if not loc_firstnewline.nil? and not loc_firstperiod.nil? then
-            # Newline before the first period or directly after it.
-            if loc_firstnewline < loc_firstperiod then
-              title_text = entry_text[0, loc_firstnewline]
-              entry_text = entry_text[loc_firstnewline + 1..entry_text.length]
-            elsif loc_firstperiod == loc_firstnewline - 1 then
-              title_text = entry_text[0, loc_firstperiod]
-              entry_text = entry_text[loc_firstperiod + 1..entry_text.length]
-            end
-          elsif not loc_firstnewline.nil? and loc_firstperiod.nil? then  
-            title_text = entry_text[0, loc_firstnewline]
-            entry_text = entry_text[loc_firstnewline+1..entry_text.length]
-          end
-          doc['entry_text'] = entry_text
-          doc['title_text'] = title_text
-          
-          if entry_text.length > 500 or entry_text.lines.count > 10
-            doc['is_long_post'] = true
-          else
-            doc['is_long_post'] = false
-          end
-        end
-        
         # In order to parse the data in Liquid we have to convert the DateTime object to a string.
         doc['creation_date'] = doc['creation_date'].to_s
-        
+
+        if should_extract_title(doc) then
+          extract_title(doc)
+        end
+
+        process_entry(doc)
+
+        # Find all of the posts that this Day One's tags match to.
         posts = get_tag_tree_posts(tag_tree, doc['tags'])
         if posts.nil? or posts.length == 0 then
           next
@@ -314,6 +277,7 @@ module Dayone
         posts.each do |post|
           data = post.data
 
+          # Attach this Day One entry to the post.
           if not data.has_key?('dayones') then
             data['dayones'] = Array.new
           end
@@ -321,18 +285,34 @@ module Dayone
         end
       end
 
+      print "\n          - Sorting Day One entries... "
+      # Once we've added all Day One entries, we run a final pass to
+      # sort them.
       post_enumerator_from_tag_tree(tag_tree).each do |post|
         if post.data.has_key?('dayones') then
           post.data['dayones'].sort! { |a,b| a['creation_date'] <=> b['creation_date'] }
         end
 
-        # TODO: Move this to personal implementation.
-        extract_preamble(post)
+        process_post(post)
       end
       
       print "\n          - Done\n                    "
     end
-    
+
+    # For processing a Jekyll post after all Day One entries
+    # have been added and before the post is passed to
+    # Liquid.
+    def process_post(post)
+      # TODO: Move this to personal implementation.
+      extract_preamble(post)
+    end
+
+    # For processing a Day One entry.
+    def process_entry(entry)
+      # TODO: Move to personal implementation.
+      calculate_long_entry(entry)
+      determine_images(entry)
+    end
     
     # TODO: Move this to personal implementation.
     def extract_preamble(post)
@@ -352,6 +332,65 @@ module Dayone
         end
         
         post.data['dayone_preamble'] = preamble_dayone
+      end
+    end
+    
+    # TODO: Move to personal implementation.
+    def calculate_long_entry(doc)
+      entry_text = doc['entry_text']
+      if entry_text.length > 500 or entry_text.lines.count > 10
+        doc['is_long_post'] = true
+      else
+        doc['is_long_post'] = false
+      end
+    end
+    
+    # TODO: Move to personal implementation.
+    def determine_images(doc)
+      if doc['has_pic'] then
+        doc['pic_url'] = "/gfx/dayone_large/" + doc['uuid'] + ".jpg"
+        doc['thumb_url'] = "/gfx/dayone_thumb/" + doc['uuid'] + ".jpg"
+        doc['original_pic_url'] = "/gfx/dayone/" + doc['uuid'] + ".jpg"
+        doc['thumb_html'] = "<img src=" + doc['thumb_url'] + " width=\"50\" height=\"50\" />"
+      end
+
+      # Determine which icon to use.
+      svg_name = nil
+      if orinclude?(doc['tags'], ["Restaurants"]) then
+        svg_name = "restaurant"
+      elsif orinclude?(doc['tags'], ["Food"]) then
+        svg_name = "food"
+      elsif orinclude?(doc['tags'], ["Bed and Breakfasts", "Hostels", "Hotels"]) then
+        svg_name = "hotel"
+      elsif orinclude?(doc['tags'], ["Hikes"]) then
+        svg_name = "walking"
+      elsif orinclude?(doc['tags'], ["Bussing"]) then
+        svg_name = "bussing"
+      elsif orinclude?(doc['tags'], ["SCUBA"]) then
+        svg_name = "scuba"
+      elsif doc['activity'] == "Walking" then
+        svg_name = "walking"
+      elsif doc['activity'] == "Automotive" then
+        svg_name = "driving"
+      elsif doc['activity'] == "Flying" then
+        svg_name = "flying"
+      else
+        svg_name = "default"
+      end
+      
+      svg_html = nil
+      if svg_name then
+        svg_path = "gfx/icons/" + svg_name + ".svg"
+        if File.exist?(svg_path) then
+          file = File.open(svg_path, "r")
+          svg_html = file.read
+          
+        end
+      end
+      doc['icon_html'] = svg_html
+
+      if doc['thumb_html'].nil?
+        doc['thumb_html'] = svg_html
       end
     end
 
