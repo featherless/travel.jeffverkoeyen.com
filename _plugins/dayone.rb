@@ -134,8 +134,8 @@ module Dayone
     def walktree(node)
       node.each do |key,value|
         if value.class == Hash then
-          if value.has_key?('post') then
-            cleanpost(value['post'])
+          if value.has_key?('_post_') then
+            cleanpost(value['_post_'])
           else
             walktree(value)
           end
@@ -162,7 +162,7 @@ module Dayone
         end
         
         node = walk_tagkey_tree(tagkey_tree, post.tags, should_generate = true)
-        node['post'] = post
+        node['_post_'] = post
       end
       
       print "\n          - Correlating Day One entries with posts... "
@@ -259,11 +259,11 @@ module Dayone
         doc['creation_date'] = doc['creation_date'].to_s
         
         node = walk_tagkey_tree(tagkey_tree, doc['tags'], should_generate = false)
-        if node.nil? or not node.has_key?('post') then
+        if node.nil? or not node.has_key?('_post_') then
           next
         end
         
-        data = node['post'].data
+        data = node['_post_'].data
 
         # The tagkey walk found a post, let's add this Day One entry to it.
         if not data.has_key?('dayones') then
