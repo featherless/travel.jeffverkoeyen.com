@@ -1,6 +1,42 @@
 # This is a Jekyll plugin for the Day One journaling app. It reads
 # Day One entries from a folder and exposes them to the Liquid
-# templating system.
+# templating system via `page.dayones`.
+#
+# Day One entries are matched to Jekyll posts using tags from each
+# system. A Jekyll post's tags define the minimum tags required by
+# a Day One entry for it to be included in the Jekyll post.
+#
+# For example, a Jekyll post with the tags
+#   ["Costa Rica", "Monteverde"]
+# would include any Day One post that has *at least* "Costa Rica"
+# and "Monteverde" in its set of tags.
+#
+# # Installation
+#
+# - Add this file to the _plugins directory in your Jekyll site.
+# - Create a _dayoneconfig.yml file in your Jekyll site's root
+#   path, i.e. the same path where _config.yml is located.
+# - Specify the absolute path to your Journal.dayone folder.
+#    dayonepath: "/path/to/Dropbox/Apps/Day One/Journal.dayone"
+# - Optional: Add _dayoneconfig.yml to your .gitignore so that
+#   you can have a different path in dev vs production.
+# - You're good to go!
+#
+# # Accessing Day One Entries in your Jekyll Posts
+#
+# Jekyll posts will be provided with a subset of Day One entries
+# via `page.dayones`. This subset is determined by the tags
+# specified in each Jekyll post. You can specify tags in a Jekyll
+# post by including a list of tags in the yml preamble. For
+# example:
+#
+#     title: "Costa Rica: Monteverde"
+#     tags:
+#     - Costa Rica
+#     - Monteverde
+#
+# Any Day One post that includes *at least* those tags will then
+# be provided via `page.dayones`.
 #
 # Author::    Jeff Verkoeyen  (mailto:jverkoey@gmail.com)
 # Copyright:: Copyright (c) 2013 Featherless Software Design
@@ -17,16 +53,17 @@ module Dayone
   class Generator < Jekyll::Generator
 
     # Takes an array of tag strings and returns an array that
-    # can be used to walk a tag tree efficiently. The
-    # resulting array is ordered and each tag is standardized
-    # (lowercased, etc...).
+    # can be used to walk a tag tree. The resulting array is
+    # ordered and each tag is standardized (lowercased,
+    # etc...).
     # Params:
     # +tags+:: An Array of Strings.
     # Returns:
     # An Array of Strings, sorted alphabetically and
     # standardized.
     def generate_tag_walk(tags)
-      # Am I missing a cleaner way to bail out for nil args?
+      # Note(featherless): Am I missing a cleaner way to
+      # bail out for nil args?
       if tags.nil? or not tags.any? then
         return nil
       end
@@ -38,15 +75,13 @@ module Dayone
       return tags.map{|tag| tag.downcase.strip}.sort
     end
 
-    # Builds a tag key tree that efficiently allows us to
-    # find Jekyll posts with a set of tags.
+    # Builds a tag tree from an array of tag strings.
     def build_tag_tree(tag_tree, tags)
       tag_walk = generate_tag_walk(tags)
       if tag_walk.nil? then
         return nil
       end
 
-      # Walk the tags.
       node = tag_tree
       tag_walk.each do |tag|
         if not node.has_key?(tag) then
@@ -58,6 +93,9 @@ module Dayone
       return node
     end
 
+    # Walks the tag tree with the given tags and
+    # returns an array of posts that were attached
+    # to any touched nodes.
     def get_tag_tree_posts(tag_tree, tags)
       tag_walk = generate_tag_walk(tags)
       if tag_walk.nil? then
@@ -66,11 +104,17 @@ module Dayone
 
       posts = Array.new
 
+      # Typical breadth-first search using the
+      # existence of a branch in the tag_walk to
+      # determine whether a node is traversed.
+
       queue = [tag_tree]
 
       while queue.length > 0
         node = queue.shift
 
+        # We return every touched node's post, if
+        # it has one.
         if node.has_key?('_post_') then
           posts.push(node['_post_'])
         end
@@ -125,7 +169,7 @@ module Dayone
       end
       return false
     end
-    
+
     def cleanpost(post)
       if post.data.has_key?('dayones') then
         dayones = post.data['dayones']
@@ -163,11 +207,11 @@ module Dayone
     def generate(site)
       # Load the server settings so that we can find the day one path.
       print "\n          Building Day One Posts:"
-      serverconfig = YAML::load(File.open('_serverconfig.yml'))
+      serverconfig = YAML::load(File.open('_dayoneconfig.yml'))
 
       # We have the server config YAML loaded, find the Day One path.
       dayonepath = serverconfig['dayonepath']
-      raise "Missing dayonepath key in _serverconfig.yml" if dayonepath.nil?
+      raise "Missing dayonepath key in _dayoneconfig.yml" if dayonepath.nil?
       raise "dayonepath must point to an existing path" if not File.directory?(dayonepath)
       
       print "\n          - Building tag map... "

@@ -3,5 +3,6 @@ css/pygments.css
 .DS_Store
 gfx/dayone
 _serverconfig.yml
+_dayoneconfig.yml
 .lastgen
 .thumbs
