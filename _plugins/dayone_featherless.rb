@@ -1,5 +1,3 @@
-require_relative 'dayone.rb'
-
 module Dayone
   class FeatherlessProcessor < Dayone::Processor
     def should_extract_title(doc)

@@ -1,5 +1,3 @@
-require_relative 'dayone.rb'
-
 module Dayone
   class Generator < Jekyll::Generator
     def generate(site)
