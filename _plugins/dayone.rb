@@ -217,7 +217,7 @@ module Dayone
     # Returns a Boolean indicating whether or not the title should
     # be extracted from the first line of the given Day One entry.
     def should_extract_title(doc)
-      # TODO: Always return YES in default implementation.
+      # TODO: Always return true in default implementation.
       if not doc['tags'] or not doc['tags'].include?('Preamble')
         return true
       else
