@@ -25,7 +25,7 @@ module Dayone
     # Returns:
     # An Array of Strings, sorted alphabetically and
     # standardized.
-    def generate_tagkey_walk(tags)
+    def generate_tag_walk(tags)
       # Am I missing a cleaner way to bail out for nil args?
       if tags.nil? or not tags.any? then
         return nil
@@ -40,15 +40,15 @@ module Dayone
 
     # Builds a tag key tree that efficiently allows us to
     # find Jekyll posts with a set of tags.
-    def build_tagkey_tree(tagkey_tree, tags)
-      tagkey_walk = generate_tagkey_walk(tags)
-      if tagkey_walk.nil? then
+    def build_tag_tree(tag_tree, tags)
+      tag_walk = generate_tag_walk(tags)
+      if tag_walk.nil? then
         return nil
       end
 
-      # Walk the tagkeys.
-      node = tagkey_tree
-      tagkey_walk.each do |tag|
+      # Walk the tags.
+      node = tag_tree
+      tag_walk.each do |tag|
         if not node.has_key?(tag) then
           node[tag] = Hash.new
         end
@@ -58,27 +58,24 @@ module Dayone
       return node
     end
 
-    def get_tagkey_tree_posts(tagkey_tree, tags)
-      tagkey_walk = generate_tagkey_walk(tags)
-      if tagkey_walk.nil? then
+    def get_tag_tree_posts(tag_tree, tags)
+      tag_walk = generate_tag_walk(tags)
+      if tag_walk.nil? then
         return nil
       end
 
       posts = Array.new
 
-      queue = [tagkey_tree]
+      queue = [tag_tree]
 
       while queue.length > 0
         node = queue.shift
 
-        # Does this node have a post attached?
         if node.has_key?('_post_') then
           posts.push(node['_post_'])
         end
 
-        # Find all keys that are in the taglist and
-        # queue their corresponding nodes.
-        tagkey_walk.each do |tag|
+        tag_walk.each do |tag|
           if node.has_key?(tag) then
             queue.push(node[tag])
           end
@@ -175,13 +172,13 @@ module Dayone
       
       print "\n          - Building tag map... "
       # Run through all of the posts to find the tag groups for Day One posts we care about.
-      tagkey_tree = Hash.new
+      tag_tree = Hash.new
       site.posts.each do |post|
         if not post.tags.any? then
           next
         end
         
-        node = build_tagkey_tree(tagkey_tree, post.tags)
+        node = build_tag_tree(tag_tree, post.tags)
         node['_post_'] = post
       end
       
@@ -278,7 +275,7 @@ module Dayone
         # In order to parse the data in Liquid we have to convert the DateTime object to a string.
         doc['creation_date'] = doc['creation_date'].to_s
         
-        posts = get_tagkey_tree_posts(tagkey_tree, doc['tags'])
+        posts = get_tag_tree_posts(tag_tree, doc['tags'])
         if posts.nil? or posts.length == 0 then
           next
         end
@@ -293,7 +290,7 @@ module Dayone
         end
       end
       
-      walktree(tagkey_tree)
+      walktree(tag_tree)
       
       print "\n          - Done\n                    "
     end
