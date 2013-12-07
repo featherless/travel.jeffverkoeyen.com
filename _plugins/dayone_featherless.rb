@@ -1,3 +1,6 @@
+$LOAD_PATH.unshift File.dirname(__FILE__)
+require 'dayone.rb'
+
 module Dayone
   class FeatherlessProcessor < Dayone::Processor
     def should_extract_title(doc)

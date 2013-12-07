@@ -1,3 +1,6 @@
+$LOAD_PATH.unshift File.dirname(__FILE__)
+require 'dayone_featherless.rb'
+
 module Dayone
   class Generator < Jekyll::Generator
     def generate(site)
