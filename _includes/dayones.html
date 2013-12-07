@@ -61,25 +61,27 @@
           <div id="{{dayone.uuid}}" class="span12">
   {% else %}
     {% if alternator == true %}
-        <div class="span6">
+        <div class="span7">
           <img src="{{ dayone.pic_url }}" />
         </div>
     {% endif %}
-        <div id="{{dayone.uuid}}" class="span6">
+        <div id="{{dayone.uuid}}" class="span5">
   {% endif %}
 
           {% include dayone_content.html %}
 
   {% if isLongPost == true %}
-    {% if hasPic == true %}
-            <img src="{{ dayone.pic_url }}" />
-    {% endif %}
           </div> <!-- .span12 -->
-        </div> <!-- .container-narrow -->
+        </div> <!-- .container-narrow -->  
+    {% if hasPic == true %}
+        <div class="dayone_pic">
+          <img src="{{ dayone.pic_url }}" />
+        </div>
+    {% endif %}
   {% else %}
         </div> <!-- .span6 -->
     {% if alternator == false %}
-        <div class="span6">
+        <div class="span7">
           <img src="{{ dayone.pic_url }}" />
         </div>
     {% endif %}

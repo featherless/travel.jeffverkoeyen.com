@@ -210,6 +210,10 @@ li {
   margin-top: 0;
 }
 
+.dayone .dayone_pic {
+  text-align: center;
+}
+
 .dayone .timestamp {
   font-family: "nimbus-sans",sans-serif;
   font-weight: 300;
@@ -219,10 +223,11 @@ li {
 }
 
 .dayone table {
-  width: 100%;
   font-family: "nimbus-sans",sans-serif;
   font-weight: 300;
   font-size: 16px;
+  margin: 0 auto;
+  margin-bottom: 10px;
 }
 
 .dayone table thead {
@@ -231,6 +236,7 @@ li {
 
 .dayone table td {
   border-right: 1px solid #EEE;
+  padding: 5px;
 }
 
 .dayone table tr td:last-child {
