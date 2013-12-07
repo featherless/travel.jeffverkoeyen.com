@@ -1,5 +1,5 @@
 $LOAD_PATH.unshift File.dirname(__FILE__)
-require 'dayone.rb'
+require File.join(File.dirname(__FILE__), '..', '_dayone/dayone.rb')
 
 module Dayone
   class FeatherlessProcessor < Dayone::Processor

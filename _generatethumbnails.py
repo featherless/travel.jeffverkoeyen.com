@@ -7,7 +7,7 @@ import yaml
 import time
 import os
 
-config = yaml.load(open("_dayoneconfig.yml", "r"))
+config = yaml.load(open("_dayone/config.yml", "r"))
 
 dropbox_photos_path = os.path.join(config['dayonepath'], 'photos/')
 

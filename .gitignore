@@ -4,5 +4,6 @@ css/pygments.css
 gfx/dayone
 _serverconfig.yml
 _dayoneconfig.yml
+_dayone/config.yml
 .lastgen
 .thumbs
