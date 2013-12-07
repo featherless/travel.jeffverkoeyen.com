@@ -218,6 +218,25 @@ li {
   margin-bottom: 10px;
 }
 
+.dayone table {
+  width: 100%;
+  font-family: "nimbus-sans",sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.dayone table thead {
+  border-bottom: 1px solid #DDD;
+}
+
+.dayone table td {
+  border-right: 1px solid #EEE;
+}
+
+.dayone table tr td:last-child {
+  border-right: none;
+}
+
 @media (max-width: 767px) {
   .geomap-frame {
     height: 300px;
