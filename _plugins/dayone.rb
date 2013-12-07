@@ -14,13 +14,24 @@
 # # Installation
 #
 # - Add this file to the _plugins directory in your Jekyll site.
+#
 # - Create a _dayoneconfig.yml file in your Jekyll site's root
 #   path, i.e. the same path where _config.yml is located.
+#
 # - Specify the absolute path to your Journal.dayone folder.
 #    dayonepath: "/path/to/Dropbox/Apps/Day One/Journal.dayone"
+#
 # - Optional: Add _dayoneconfig.yml to your .gitignore so that
 #   you can have a different path in dev vs production.
-# - You're good to go!
+#
+# - In your Generator's generate method, create an instance of
+#   Dayone::Processor. Execute attach_dayones_to_site on the
+#   processor with the generator's site argument.
+#       processor = FeatherlessProcessor.new
+#       processor.attach_dayones_to_site(site)
+#
+# - You can now access your Day One entries in your Jekyll posts
+#   via `page.dayones`.
 #
 # # Accessing Day One Entries in your Jekyll Posts
 #
@@ -53,7 +64,7 @@ TAG_TREE_POST_KEY = '#_post_#'
 # rendered. Day One entries will be made accessible via
 # `page.dayones`.
 module Dayone
-  class Generator < Jekyll::Generator
+  class Processor
 
     # Takes an array of tag strings and returns an array that
     # can be used to walk a tag tree. The resulting array is
@@ -190,6 +201,10 @@ module Dayone
       end
     end
     
+    # Extracts the title from a given Day One entry.
+    #
+    # The title is the first sentence of a Day One entry unless
+    # that sentence is part of a paragraph.
     def extract_title(doc)
       entry_text = doc['entry_text'].strip
       title_text = nil
@@ -217,16 +232,11 @@ module Dayone
     # Returns a Boolean indicating whether or not the title should
     # be extracted from the first line of the given Day One entry.
     def should_extract_title(doc)
-      # TODO: Always return true in default implementation.
-      if not doc['tags'] or not doc['tags'].include?('Preamble')
-        return true
-      else
-        return false
-      end
+      return true
     end
 
-    # The Jekyll entry-point for implementing this plugin.
-    def generate(site)
+    # To be called from your Generator's generate method.
+    def attach_dayones_to_site(site)
       # Load the server settings so that we can find the Day One path.
       print "\n       Extracting Day One Posts:"
       serverconfig = YAML::load(File.open(DAYONE_CONFIG_PATH))
@@ -303,95 +313,12 @@ module Dayone
     # have been added and before the post is passed to
     # Liquid.
     def process_post(post)
-      # TODO: Move this to personal implementation.
-      extract_preamble(post)
+      # No-op.
     end
 
     # For processing a Day One entry.
     def process_entry(entry)
-      # TODO: Move to personal implementation.
-      calculate_long_entry(entry)
-      determine_images(entry)
-    end
-    
-    # TODO: Move this to personal implementation.
-    def extract_preamble(post)
-      if post.data.has_key?('dayones') then
-        dayones = post.data['dayones']
-
-        preamble_dayone = nil
-
-        dayones.each do |dayone|
-          if dayone['tags'].include?('Preamble')
-            preamble_dayone = dayone
-          end
-        end
-        
-        if preamble_dayone
-          dayones.delete(preamble_dayone)
-        end
-        
-        post.data['dayone_preamble'] = preamble_dayone
-      end
-    end
-    
-    # TODO: Move to personal implementation.
-    def calculate_long_entry(doc)
-      entry_text = doc['entry_text']
-      if entry_text.length > 500 or entry_text.lines.count > 10
-        doc['is_long_post'] = true
-      else
-        doc['is_long_post'] = false
-      end
-    end
-    
-    # TODO: Move to personal implementation.
-    def determine_images(doc)
-      if doc['has_pic'] then
-        doc['pic_url'] = "/gfx/dayone_large/" + doc['uuid'] + ".jpg"
-        doc['thumb_url'] = "/gfx/dayone_thumb/" + doc['uuid'] + ".jpg"
-        doc['original_pic_url'] = "/gfx/dayone/" + doc['uuid'] + ".jpg"
-        doc['thumb_html'] = "<img src=" + doc['thumb_url'] + " width=\"50\" height=\"50\" />"
-      end
-
-      # Determine which icon to use.
-      svg_name = nil
-      if orinclude?(doc['tags'], ["Restaurants"]) then
-        svg_name = "restaurant"
-      elsif orinclude?(doc['tags'], ["Food"]) then
-        svg_name = "food"
-      elsif orinclude?(doc['tags'], ["Bed and Breakfasts", "Hostels", "Hotels"]) then
-        svg_name = "hotel"
-      elsif orinclude?(doc['tags'], ["Hikes"]) then
-        svg_name = "walking"
-      elsif orinclude?(doc['tags'], ["Bussing"]) then
-        svg_name = "bussing"
-      elsif orinclude?(doc['tags'], ["SCUBA"]) then
-        svg_name = "scuba"
-      elsif doc['activity'] == "Walking" then
-        svg_name = "walking"
-      elsif doc['activity'] == "Automotive" then
-        svg_name = "driving"
-      elsif doc['activity'] == "Flying" then
-        svg_name = "flying"
-      else
-        svg_name = "default"
-      end
-      
-      svg_html = nil
-      if svg_name then
-        svg_path = "gfx/icons/" + svg_name + ".svg"
-        if File.exist?(svg_path) then
-          file = File.open(svg_path, "r")
-          svg_html = file.read
-          
-        end
-      end
-      doc['icon_html'] = svg_html
-
-      if doc['thumb_html'].nil?
-        doc['thumb_html'] = svg_html
-      end
+      # No-op.
     end
 
   end
