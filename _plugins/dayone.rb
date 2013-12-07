@@ -45,6 +45,9 @@
 # Day One entries are stored in the plist format.
 require 'plist'
 
+DAYONE_CONFIG_PATH = '_dayoneconfig.yml'
+TAG_TREE_POST_KEY = '#_post_#'
+
 # The Day One Jekyll module. Being a Generator allows this plugin
 # to inject the Day One entries into Liquid before the pages get
 # rendered. Day One entries will be made accessible via
@@ -115,8 +118,8 @@ module Dayone
 
         # We return every touched node's post, if
         # it has one.
-        if node.has_key?('_post_') then
-          posts.push(node['_post_'])
+        if node.has_key?(TAG_TREE_POST_KEY) then
+          posts.push(node[TAG_TREE_POST_KEY])
         end
 
         tag_walk.each do |tag|
@@ -170,48 +173,32 @@ module Dayone
       return false
     end
 
-    def cleanpost(post)
-      if post.data.has_key?('dayones') then
-        dayones = post.data['dayones']
+    # Returns an enumerator that touches all of the posts
+    # in the tag_tree.
+    #
+    # Modified from http://stackoverflow.com/questions/3748744/traversing-a-hash-recursively-in-ruby
+    def post_enumerator_from_tag_tree(tag_tree, &block)
+      return enum_for(:post_enumerator_from_tag_tree, tag_tree) unless block
 
-        dayones.sort! { |a,b| a['creation_date'] <=> b['creation_date'] }
-
-        preamble_dayone = nil
-
-        dayones.each do |dayone|
-          if dayone['tags'].include?('Preamble')
-            preamble_dayone = dayone
-          end
-        end
-        
-        if preamble_dayone
-          dayones.delete(preamble_dayone)
-        end
-        
-        post.data['dayone_preamble'] = preamble_dayone
+      if not tag_tree[TAG_TREE_POST_KEY].nil?
+        yield tag_tree[TAG_TREE_POST_KEY]
       end
-    end
-    
-    def walktree(node)
-      node.each do |key,value|
-        if value.class == Hash then
-          if value.has_key?('_post_') then
-            cleanpost(value['_post_'])
-          else
-            walktree(value)
-          end
+      tag_tree.each do |k,v|
+        if v.is_a? Hash
+          post_enumerator_from_tag_tree(v, &block)
         end
       end
     end
 
+    # The Jekyll entry-point for implementing this plugin.
     def generate(site)
-      # Load the server settings so that we can find the day one path.
-      print "\n          Building Day One Posts:"
-      serverconfig = YAML::load(File.open('_dayoneconfig.yml'))
+      # Load the server settings so that we can find the Day One path.
+      print "\n       Extracting Day One Posts:"
+      serverconfig = YAML::load(File.open(DAYONE_CONFIG_PATH))
 
       # We have the server config YAML loaded, find the Day One path.
       dayonepath = serverconfig['dayonepath']
-      raise "Missing dayonepath key in _dayoneconfig.yml" if dayonepath.nil?
+      raise "Missing dayonepath key in " + DAYONE_CONFIG_PATH if dayonepath.nil?
       raise "dayonepath must point to an existing path" if not File.directory?(dayonepath)
       
       print "\n          - Building tag map... "
@@ -223,7 +210,7 @@ module Dayone
         end
         
         node = build_tag_tree(tag_tree, post.tags)
-        node['_post_'] = post
+        node[TAG_TREE_POST_KEY] = post
       end
       
       print "\n          - Correlating Day One entries with posts... "
@@ -333,11 +320,41 @@ module Dayone
           data['dayones'].concat([doc])
         end
       end
-      
-      walktree(tag_tree)
+
+      post_enumerator_from_tag_tree(tag_tree).each do |post|
+        if post.data.has_key?('dayones') then
+          post.data['dayones'].sort! { |a,b| a['creation_date'] <=> b['creation_date'] }
+        end
+
+        # TODO: Move this to personal implementation.
+        extract_preamble(post)
+      end
       
       print "\n          - Done\n                    "
     end
+    
+    
+    # TODO: Move this to personal implementation.
+    def extract_preamble(post)
+      if post.data.has_key?('dayones') then
+        dayones = post.data['dayones']
+
+        preamble_dayone = nil
+
+        dayones.each do |dayone|
+          if dayone['tags'].include?('Preamble')
+            preamble_dayone = dayone
+          end
+        end
+        
+        if preamble_dayone
+          dayones.delete(preamble_dayone)
+        end
+        
+        post.data['dayone_preamble'] = preamble_dayone
+      end
+    end
+
   end
 end
 
