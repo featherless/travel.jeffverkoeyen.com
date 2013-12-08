@@ -1,3 +1,5 @@
-<h1 style="text-align: center">{{dayone.title_text}}</h1>
-<div class="timestamp">{{ dayone|local_time }}</div>
+{% if dayone.title_text %}
+  <h1 class="dayone_title">{{dayone.title_text}}</h1>
+  <div class="timestamp">{{ dayone|local_time }}</div>
+{% endif %}
 {{ dayone.entry_text | markdownify }}

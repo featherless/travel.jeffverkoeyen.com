@@ -1,0 +1,123 @@
+{% if page.dayones.size > 0 %}
+{% assign rowCounter = "0" %}
+{% assign alternator = false %}
+
+{% for dayone in page.dayones %}
+
+{% if forloop.last %}
+  {% assign flushThisRow = true %}
+{% else %}
+  {% if page.dayones[forloop.index].pic_url %}
+    {% assign flushThisRow = true %}
+  {% else %}
+    {% if page.dayones[forloop.index].is_long_post == true %}
+      {% assign flushThisRow = true %}
+    {% else %}
+      {% assign flushThisRow = false %}
+    {% endif %}
+  {% endif %}
+{% endif %}
+
+{% if dayone.pic_url %}
+  {% assign hasPic = true %}
+{% else %}
+  {% assign hasPic = false %}
+{% endif %}
+{% if dayone.is_long_post == true %}
+  {% assign isLongPost = true %}
+{% else %}
+  {% assign isLongPost = false %}
+{% endif %}
+{% if hasPic == true or isLongPost == true or rowCounter == "0" %}
+  {% assign isNewRow = true %}
+{% else %}
+  {% assign isNewRow = false %}
+{% endif %}
+
+<!-- state: hasPic:{{ hasPic }} isLongPost: {{ isLongPost }} isNewRow: {{ isNewRow }} flushThisRow: {{ flushThisRow }} -->
+
+{% if isNewRow == true %}
+  {% assign rowCounter = 2 %}
+
+  {% if forloop.index0 > 0 %}
+      </div> <!-- .row -->
+    </div> <!-- .container -->
+  </div> <!-- .dayone -->
+  {% endif %}
+
+  <div class="dayone page">
+    <div class="container">
+{% if hasPic == true %}
+      <div class="dayone_icon">{{ dayone.icon_html }}</div>
+{% endif %}
+      <div class="row-fluid">
+{% endif %}
+
+{% if hasPic == true %}
+  {% if isLongPost == true %}
+        <div class="container-narrow">
+          <div id="{{dayone.uuid}}" class="span12">
+  {% else %}
+    {% if alternator == true %}
+        <div class="span7">
+          <img src="{{ dayone.pic_url }}" />
+        </div>
+    {% endif %}
+        <div id="{{dayone.uuid}}" class="span5">
+  {% endif %}
+
+          {% include dayone_content.html %}
+
+  {% if isLongPost == true %}
+          </div> <!-- .span12 -->
+        </div> <!-- .container-narrow -->  
+    {% if hasPic == true %}
+        <div class="dayone_pic">
+          <img src="{{ dayone.pic_url }}" />
+        </div>
+    {% endif %}
+  {% else %}
+        </div> <!-- .span6 -->
+    {% if alternator == false %}
+        <div class="span7">
+          <img src="{{ dayone.pic_url }}" />
+        </div>
+    {% endif %}
+  {% endif %}
+
+  {% assign rowCounter = "0" %}
+  {% if alternator == true %}
+    {% assign alternator = false %}
+  {% else %}
+    {% assign alternator = true %}
+  {% endif %}
+{% else %}
+  {% if isNewRow == true and flushThisRow %}
+        <div class="container-narrow">
+          <div id="{{dayone.uuid}}" class="span12">
+            <div class="dayone_icon">{{ dayone.icon_html }}</div>
+    {% assign rowCounter = "0" %}
+
+  {% else %}
+        <div id="{{dayone.uuid}}" class="span6">
+          <div class="dayone_icon">{{ dayone.icon_html }}</div>
+  {% endif %}
+
+    {% include dayone_content.html %}
+        </div>
+  
+  {% if isNewRow == true and flushThisRow %}
+        </div> <!-- .container-narrow -->
+  {% endif %}
+
+  {% capture temp %}{{ rowCounter | minus: 1 }}{% endcapture %}
+  {% assign rowCounter = temp %}
+{% endif %}
+
+{% endfor %}
+
+    </div> <!-- /row-fluid -->
+  </div> <!-- /container -->
+</div> <!-- /dayones -->
+
+{% endif %}

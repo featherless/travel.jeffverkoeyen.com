@@ -17,9 +17,11 @@ blockquote p {
 p b {
   font-weight: 400;
 }
+.container li a,
 p a {
   color: #66A;
 }
+.container li a:hover,
 p a:hover {
   text-decoration: underline;
 }

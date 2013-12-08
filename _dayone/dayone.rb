@@ -154,6 +154,9 @@ module Dayone
     def extract_title(doc)
       entry_text = doc['entry_text'].strip
       title_text = nil
+      if entry_text.index("#") == 0
+        return
+      end
 
       # Get the title.
       loc_firstperiod = entry_text.index(".")
