@@ -22,6 +22,10 @@
   line-height: 24px;
 }
 
+#bloglist .post .background {
+  min-height: 50px;
+}
+
 #bloglist .post .background-title {
   position: absolute;
   top: 0;
