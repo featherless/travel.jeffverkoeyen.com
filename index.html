@@ -12,7 +12,7 @@ title: Blog
 	    <div class="date">{{ post.date | date_to_string }}</div>
 	  </div>
 	{% else %}
-	  <div class="title"><a href="{{ post.url }}">{{ post.title }}</a>
+	  <div class="title text-title"><a href="{{ post.url }}">{{ post.title }}</a>
 	    <div class="date">{{ post.date | date_to_string }}</div>
 	  </div>
 	{% endif %}

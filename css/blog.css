@@ -34,6 +34,12 @@
   color: #FFF;
 }
 
+#bloglist .post .text-title a {
+  padding-left: 50px;
+  background: transparent url('/gfx/feather.svg') no-repeat left top;
+  background-size: 50px 50px;
+}
+
 li {
   font-family: "calluna",serif;
   font-weight: 300;
