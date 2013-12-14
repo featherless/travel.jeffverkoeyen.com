@@ -1,8 +1,37 @@
 
 /* Blog List */
 
-#bloglist p {
-  text-align:justify;
+#bloglist .post {
+  margin-bottom: 30px;
+  position: relative;
+}
+
+#bloglist .post .title {
+  font-family: "museo-sans",sans-serif;
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+  padding: 5px;
+}
+
+#bloglist .post .title .date {
+  font-family: "calluna",serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+#bloglist .post .background-title {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background-color: rgba(10, 10, 10, 0.3);
+}
+
+#bloglist .post .background-title .date,
+#bloglist .post .background-title a {
+  color: #FFF;
 }
 
 li {
@@ -244,6 +273,13 @@ li {
 }
 
 @media (max-width: 767px) {
+  #bloglist .post {
+    margin-bottom: 20px;
+  }
+  #bloglist .post .title {
+    font-size: 30px;
+    line-height: 30px;
+  }
   .geomap-frame {
     height: 300px;
   }
@@ -277,6 +313,17 @@ li {
     -webkit-box-sizing: border-box;
        -moz-box-sizing: border-box;
             box-sizing: border-box;
+  }
+  #bloglist .post {
+    margin-bottom: 10px;
+  }
+  #bloglist .post .title {
+    font-size: 20px;
+    line-height: 20px;
+  }
+  #bloglist .post .background-title .date {
+    font-size: 14px;
+    line-height: 14px;
   }
   #dayone_toc {
     background-position-y: -30px;
