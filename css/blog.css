@@ -335,6 +335,10 @@ li {
     font-size: 14px;
     line-height: 14px;
   }
+  #bloglist .post .text-title a {
+    padding-left: 30px;
+    background-size: 30px 30px;
+  }
   #dayone_toc {
     background-position-y: -30px;
   }
