@@ -129,11 +129,21 @@ li {
 #geomap {
   background: #FFF url('http://jeffverkoeyen.com/gfx/gmm_background_tile.png') repeat left top;
   background-size: 40px 40px;
+  padding: 0;
+  position: relative;
+  height: 400px;
 }
 
 .geomap-frame {
   width: 100%;
   height: 400px;
+}
+
+#geomap .geomap-overlay {
+  position: absolute;
+  top: 0;
+  height: 400px;
+  width: 100%;
 }
 
 #dayone_toc {
@@ -290,12 +300,16 @@ li {
     font-size: 30px;
     line-height: 30px;
   }
+  #geomap,
+  #geomap .geomap-overlay,
   .geomap-frame {
     height: 300px;
   }
 }
 
 @media (max-width: 480px) {
+  #geomap,
+  #geomap .geomap-overlay,
   .geomap-frame {
     height: 200px;
   }
