@@ -183,7 +183,7 @@ module Dayone
     def should_extract_title(doc)
       return true
     end
-
+    
     # To be called from your Generator's generate method.
     def attach_dayones_to_site(site)
       # Load the server settings so that we can find the Day One path.
@@ -194,6 +194,7 @@ module Dayone
       dayonepath = serverconfig['dayonepath']
       raise "Missing dayonepath key in " + DAYONE_CONFIG_PATH if dayonepath.nil?
       raise "dayonepath must point to an existing path" unless File.directory?(dayonepath)
+      @dayonepath = dayonepath
 
       print "\n          - Building tag tree... "
 

@@ -10,7 +10,7 @@
   {% if page.dayones[forloop.index].pic_url %}
     {% assign flushThisRow = true %}
   {% else %}
-    {% if page.dayones[forloop.index].is_long_post == true %}
+    {% if dayone.is_long_post == true or page.dayones[forloop.index].is_long_post == true %}
       {% assign flushThisRow = true %}
     {% else %}
       {% assign flushThisRow = false %}
@@ -28,7 +28,12 @@
 {% else %}
   {% assign isLongPost = false %}
 {% endif %}
-{% if hasPic == true or isLongPost == true or rowCounter == "0" %}
+{% if dayone.pic_is_panoramic == true %}
+  {% assign isPanoramic = true %}
+{% else %}
+  {% assign isPanoramic = false %}
+{% endif %}
+{% if hasPic == true or isLongPost == true or rowCounter == "0" or isPanoramic == true %}
   {% assign isNewRow = true %}
 {% else %}
   {% assign isNewRow = false %}
@@ -54,7 +59,7 @@
 {% endif %}
 
 {% if hasPic == true %}
-  {% if isLongPost == true %}
+  {% if isLongPost == true or isPanoramic == true %}
         <div class="container-narrow">
           <div id="{{dayone.uuid}}" class="span12">
   {% else %}
@@ -68,13 +73,21 @@
 
           {% include dayone_content.html %}
 
-  {% if isLongPost == true %}
+  {% if isLongPost == true or isPanoramic == true %}
           </div> <!-- .span12 -->
         </div> <!-- .container-narrow -->  
+    {% if isPanoramic == true %}
+      </div> <!-- .row -->
+    </div> <!-- .container -->
+    {% endif %}
     {% if hasPic == true %}
         <div class="dayone_pic">
           <img src="{{ dayone.pic_url }}" />
         </div>
+    {% endif %}
+    {% if isPanoramic == true %}
+    <div class="container">
+      <div class="row-fluid">
     {% endif %}
   {% else %}
         </div> <!-- .span6 -->
@@ -92,11 +105,11 @@
     {% assign alternator = true %}
   {% endif %}
 {% else %}
-  {% if isNewRow == true and flushThisRow %}
+  {% if isNewRow == true and flushThisRow == true %}
         <div class="container-narrow">
           <div id="{{dayone.uuid}}" class="span12">
             <div class="dayone_icon">{{ dayone.icon_html }}</div>
-    {% assign rowCounter = "0" %}
+    {% assign rowCounter = "1" %}
 
   {% else %}
         <div id="{{dayone.uuid}}" class="span6">
@@ -106,7 +119,7 @@
     {% include dayone_content.html %}
         </div>
   
-  {% if isNewRow == true and flushThisRow %}
+  {% if isNewRow == true and flushThisRow == true %}
         </div> <!-- .container-narrow -->
   {% endif %}
 

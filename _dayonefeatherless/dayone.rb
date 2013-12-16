@@ -1,3 +1,5 @@
+require 'fastimage'
+
 $LOAD_PATH.unshift File.dirname(__FILE__)
 require File.join(File.dirname(__FILE__), '..', '_dayone/dayone.rb')
 
@@ -18,6 +20,7 @@ module Dayone
     def process_entry(entry)
       calculate_long_entry(entry)
       determine_images(entry)
+      calculate_panorama(entry)
     end
     
     def extract_preamble(post)
@@ -40,9 +43,20 @@ module Dayone
       end
     end
     
+    def calculate_panorama(doc)
+      if doc['has_pic']
+        size = FastImage.size(@dayonepath + "/photos/" + doc['uuid'] + ".jpg")
+        if size[0] > size[1] * 4
+          doc['pic_is_panoramic'] = true
+        else 
+          doc['pic_is_panoramic'] = false
+        end
+      end
+    end
+    
     def calculate_long_entry(doc)
       entry_text = doc['entry_text']
-      if entry_text.length > 500 or entry_text.lines.count > 10
+      if entry_text.length > 500 or entry_text.split("\n").to_a.count > 10
         doc['is_long_post'] = true
       else
         doc['is_long_post'] = false
@@ -50,7 +64,7 @@ module Dayone
     end
     
     def determine_images(doc)
-      if doc['has_pic'] then
+      if doc['has_pic']
         doc['pic_url'] = "/gfx/dayone_large/" + doc['uuid'] + ".jpg"
         doc['thumb_url'] = "/gfx/dayone_thumb/" + doc['uuid'] + ".jpg"
         doc['original_pic_url'] = "/gfx/dayone/" + doc['uuid'] + ".jpg"
