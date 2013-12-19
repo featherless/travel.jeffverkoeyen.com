@@ -8,4 +8,3 @@ ln -s /Users/featherless/www/blog/.thumbs/dayone_large /Users/featherless/www/bl
 ln -s /Users/featherless/www/blog/.thumbs/dayone_thumb /Users/featherless/www/blog/_site/gfx/dayone_thumb
 cd _site
 statify .
-
