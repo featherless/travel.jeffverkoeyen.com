@@ -83,8 +83,10 @@ module Dayone
         svg_name = "walking"
       elsif orinclude?(doc['tags'], ["Bussing"]) then
         svg_name = "bussing"
-      elsif orinclude?(doc['tags'], ["SCUBA", "Snorkelling"]) then
+      elsif orinclude?(doc['tags'], ["SCUBA"]) then
         svg_name = "scuba"
+      elsif orinclude?(doc['tags'], ["Snorkelling"]) then
+        svg_name = "snorkel"
       elsif doc['activity'] == "Walking" then
         svg_name = "walking"
       elsif doc['activity'] == "Automotive" then
