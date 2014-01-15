@@ -303,6 +303,8 @@ li {
     line-height: 30px;
   }
   #geomap,
+  #moneysmap,
+  #moneysmapframe,
   #geomap .geomap-overlay,
   .geomap-frame {
     height: 300px;
@@ -311,6 +313,8 @@ li {
 
 @media (max-width: 480px) {
   #geomap,
+  #moneysmap,
+  #moneysmapframe,
   #geomap .geomap-overlay,
   .geomap-frame {
     height: 200px;
