@@ -5,5 +5,6 @@ gfx/dayone
 _serverconfig.yml
 _dayoneconfig.yml
 _dayone/config.yml
+_moneys/config.yml
 .lastgen
 .thumbs
