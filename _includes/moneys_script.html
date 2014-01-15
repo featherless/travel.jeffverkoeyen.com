@@ -1,0 +1,49 @@
+{% if page.moneys.size > 0 %}
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCVisKNy7MfqmAq6BmF3FphlYkQmqJ_3Bw&amp;sensor=false"></script>
+
+<script type="text/javascript">
+var mapOptions = {
+  mapTypeId: google.maps.MapTypeId.ROADMAP,
+  scrollwheel: false
+};
+
+var map = new google.maps.Map(document.getElementById('moneysmapframe'), mapOptions);
+
+var bounds = new google.maps.LatLngBounds();
+
+var logs = [];
+
+{% for log in page.moneys %}
+  logs.push({
+    lat:"{{ log.location.latitude }}",
+    lng:"{{ log.location.longitude }}",
+    title: "{{ log.title }}"
+  });
+{% endfor %}
+
+var infowindow = new google.maps.InfoWindow();
+
+for (var i = 0; i < logs.length; ++i) {
+  var log = logs[i];
+  
+  var latlng = new google.maps.LatLng(log.lat, log.lng);
+  var marker = new google.maps.Marker({
+      position: latlng,
+      map: map,
+      title:log.title
+  });
+
+  google.maps.event.addListener(marker, 'click', (function(marker, log) {
+    return function() {
+      infowindow.setContent(log.title);
+      infowindow.open(map, marker);
+    }
+  })(marker, log));
+
+  bounds.extend(latlng);
+}
+
+map.fitBounds(bounds);
+</script>
+
+{% endif %}

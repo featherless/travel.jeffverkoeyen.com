@@ -221,6 +221,10 @@ module Moneys
         if doc['tags'].nil? || doc['tags'].empty?
           next
         end
+        
+        if doc['location'].nil?
+          next
+        end
 
         # In order to parse the data in Liquid we have to convert the DateTime object to a string.
         doc['creation_date'] = doc['creation_date'].to_s
