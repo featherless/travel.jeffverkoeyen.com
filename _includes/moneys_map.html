@@ -2,11 +2,25 @@
 {% if page.moneys.size > 0 %}
 <div class="page">
   <div class="container">
-    <div class="container-narrow">
-      <h1 style="text-align: center">Money Logs</h1>
+    
+    <div class="row-fluid">
+      <div class="container-narrow">
+        <h1 style="text-align: center">Money Logs</h1>
+      </div>
     </div>
-  </div>
+    
+    <div class="row-fluid">
+      <div class="span6">
+        <h2>Total Spent</h2>
+        <h3>{{ page.total }}</h3>
+      </div>
+      <div class="span6">
+      </div>
+    </div>
+
+  </div> <!-- /container -->
 </div>
+
 <div id="moneysmap" class="page">
   <div id="moneysmapframe"></div>
 </div> <!-- /moneysmap -->

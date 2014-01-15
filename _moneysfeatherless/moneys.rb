@@ -34,7 +34,7 @@ module Moneys
     def process_post(post)
       if post.data.has_key?('moneys') then
         moneys = post.data['moneys']
-        
+
         currencyTotals = Hash.new
         tagsToTotals = Hash.new
 
@@ -47,7 +47,7 @@ module Moneys
             currencyTotals[key] ||= 0
             currencyTotals[key] = currencyTotals[key] + value
           end
-          
+
           log['tags'].each do |tag|
             tagsToTotals[tag] ||= Hash.new
             log['currencytotals'].each do |key,value|
@@ -59,6 +59,7 @@ module Moneys
 
         post.data['total'] = pretty_currency_totals(currencyTotals)
         post.data['tagtotals'] = tagsToTotals
+        post.data['moneytags'] = tagsToTotals.keys
       end
     end
 
