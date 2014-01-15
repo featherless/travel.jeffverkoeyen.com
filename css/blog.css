@@ -247,7 +247,7 @@ li {
 }
 
 #dayone_toc li .dots {
-  height: 32px;
+  height: 16px;
   margin-top: -2px;
   margin-bottom: 8px;
   background-image: url("/gfx/dot.png");
