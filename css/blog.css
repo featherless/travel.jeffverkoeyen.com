@@ -24,6 +24,8 @@
 
 #bloglist .post .background {
   min-height: 50px;
+  background-color: #333;
+  text-align: center;
 }
 
 #bloglist .post .background-title {
