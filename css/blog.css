@@ -1,6 +1,10 @@
 
 /* Blog List */
 
+#bloglist {
+  background-color: #111;
+}
+
 #bloglist .post {
   margin-bottom: 30px;
   position: relative;
@@ -13,6 +17,9 @@
   line-height: 40px;
   text-align: center;
   padding: 5px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #FFF;
 }
 
 #bloglist .post .title .date {
