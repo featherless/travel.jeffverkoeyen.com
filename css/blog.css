@@ -306,6 +306,24 @@ li {
   border-right: none;
 }
 
+@media (min-width: 900px) {
+  .container, .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container {
+    width: 856px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .container, .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container {
+    width: 956px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container, .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container {
+    width: 1156px;
+  }
+}
+
 @media (max-width: 767px) {
   #bloglist .post {
     margin-bottom: 20px;
