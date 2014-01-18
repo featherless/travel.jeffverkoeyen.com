@@ -17,6 +17,9 @@
   line-height: 40px;
   text-align: center;
   padding: 5px;
+}
+
+#bloglist .post .text-title {
   padding-top: 30px;
   padding-bottom: 30px;
   background-color: #FFF;
