@@ -15,12 +15,14 @@ var bounds = new google.maps.LatLngBounds();
 var logs = [];
 
 {% for log in page.moneys %}
+{% if log.location %}
   logs.push({
     lat:"{{ log.location.latitude }}",
     lng:"{{ log.location.longitude }}",
     title: "{{ log.title }}",
     total: "{{ log.total }}"
   });
+{% endif %}
 {% endfor %}
 
 var infowindow = new google.maps.InfoWindow();
