@@ -1,10 +1,6 @@
 
 /* Blog List */
 
-#bloglist {
-  background-color: #333;
-}
-
 #bloglist .post {
   margin-bottom: 30px;
   position: relative;
