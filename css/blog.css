@@ -377,6 +377,8 @@ li {
   #bloglist .post .title {
     font-size: 20px;
     line-height: 20px;
+    padding-left: 10px;
+    padding-bottom: 10px;
   }
   #bloglist .post .background-title .date {
     font-size: 14px;
