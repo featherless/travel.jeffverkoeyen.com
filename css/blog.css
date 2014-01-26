@@ -15,8 +15,9 @@
   font-weight: 300;
   font-size: 40px;
   line-height: 40px;
-  text-align: center;
   padding: 5px;
+  padding-left: 50px;
+  padding-bottom: 30px;
 }
 
 #bloglist .post .text-title {
@@ -40,9 +41,8 @@
 
 #bloglist .post .background-title {
   position: absolute;
-  top: 0;
+  bottom: 0;
   width: 100%;
-  background-color: rgba(10, 10, 10, 0.3);
 }
 
 #bloglist .post .background-title .date,
@@ -54,6 +54,7 @@
   padding-left: 50px;
   background: transparent url('/gfx/feather.svg') no-repeat left top;
   background-size: 50px 50px;
+  text-shadow: 0px 0px 10px #111;
 }
 
 li {
