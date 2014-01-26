@@ -328,6 +328,8 @@ li {
   #bloglist .post .title {
     font-size: 30px;
     line-height: 30px;
+    padding-left: 30px;
+    padding-bottom: 20px;
   }
   #geomap,
   #moneysmap,
