@@ -1,0 +1,23 @@
+
+<div class="page">
+  <div class="container">
+    
+    <div class="row-fluid">
+      <div class="span6">
+        <h1>Arrival</h1>
+        <h2>{{ page.arrivaldate }}</h2>
+        <h3><small>from</small> <a href="{{ page.fromcitylink }}">{{ page.fromcity }}</a></h3>
+      </div>
+      <div class="span6 opposite-align">
+        <h1>Departure</h1>
+        {% if page.departuredate %}
+        <h2>{{ page.departuredate }}</h2>
+        <h3><small>to</small> <a href="{{ page.tocitylink }}">{{ page.tocity }}</a></h3>
+        {% else %}
+        <h2>TBD</h2>
+        {% endif %}
+      </div>
+    </div>
+
+  </div> <!-- /container -->
+</div>

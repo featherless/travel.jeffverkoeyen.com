@@ -1,0 +1,6 @@
+{% if page.geomapid %}
+<div id="geomap" class="page">
+<iframe class="geomap-frame" src="http://mapsengine.google.com/map/embed?mid={{ page.geomapid }}" width="100%" height="500px"> </iframe>
+<a href="http://mapsengine.google.com/map/embed?mid={{ page.geomapid }}" class="geomap-overlay"></a>
+</div> <!-- /geomap -->
+{% endif %}
