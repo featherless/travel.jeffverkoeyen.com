@@ -13,15 +13,38 @@ module Dayone
       end
     end
     
+    def preprocess_site(site)
+      @idstoposts = Hash.new
+      site.posts.each do |post|
+        @idstoposts[post.id] = post
+      end
+    end
+
     def process_post(post)
       extract_preamble(post)
       extract_weather(post)
+      extract_elevations(post)
     end
 
     def process_entry(entry)
       calculate_long_entry(entry)
       determine_images(entry)
       calculate_panorama(entry)
+    end
+
+    def extract_elevations(post)
+      if post.data.has_key?('fromcitylink')
+        fromcity = @idstoposts[post.data['fromcitylink']]
+        if fromcity.data.has_key?('elevation')
+          post.data['from_elevation'] = fromcity.data['elevation']
+        end
+      end
+      if post.data.has_key?('tocitylink')
+        tocity = @idstoposts[post.data['tocitylink']]
+        if tocity.data.has_key?('elevation')
+          post.data['to_elevation'] = tocity.data['elevation']
+        end
+      end
     end
     
     def extract_weather(post)

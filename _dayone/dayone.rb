@@ -210,6 +210,8 @@ module Dayone
         node[TAG_TREE_POST_KEY] = post
       end
 
+      preprocess_site(site)
+
       print "\n          - Correlating Day One entries with Jekyll posts... "
 
       Dir.glob(dayonepath + "/entries/*.doentry") do |dayone_entry|
@@ -259,6 +261,10 @@ module Dayone
       end
 
       print "\n          - Done\n                    "
+    end
+
+    def preprocess_site(site)
+      # No-op.
     end
 
     # For processing a Jekyll post after all Day One entries

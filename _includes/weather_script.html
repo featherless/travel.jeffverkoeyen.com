@@ -1,86 +1,149 @@
-{% if page.weather.size > 0 %}
 <script type="text/javascript" src="https://www.google.com/jsapi"></script>
 <script type="text/javascript">
 google.load("visualization", "1", {packages:["corechart"]});
 google.setOnLoadCallback(drawChart);
 function drawChart() {
-  var data = google.visualization.arrayToDataTable([
-    ['', 'Celcius'],
-    {% for weather in page.weather %}
-    ["", {{weather.celsius}}],
-    {% endfor %}
-  ]);
-
-  var options = {
-    title: '',
-    curveType: 'function',
-    backgroundColor: {
-      fill: "url(#linearGradient)"
-    },
-    colors: [
-      '#333'
-    ],
-    legend: 'none',
-    hAxis: {
-     textPosition: 'none',
-     baselineColor: '#CCC'
-    },
-    fontName: 'nimbus-sans'
-  };
-
-  var chartelement = document.getElementById('weatherchart');
-  var chart = new google.visualization.LineChart(chartelement);
-  chart.draw(data, options);
-
-  // svg:   the owning <svg> element
-  // id:    an id="..." attribute for the gradient
-  // stops: an array of objects with <stop> attributes
-  function createGradient(svg,id,stops){
-    var svgNS = svg.namespaceURI;
-    var grad  = document.createElementNS(svgNS,'linearGradient');
-    grad.setAttribute('id',id);
-    grad.setAttribute('x1', '0%');
-    grad.setAttribute('y1', '0%');
-    grad.setAttribute('x2', '0%');
-    grad.setAttribute('y2', '100%');
-    for (var i=0;i<stops.length;i++){
-      var attrs = stops[i];
-      var stop = document.createElementNS(svgNS,'stop');
-      for (var attr in attrs){
-        if (attrs.hasOwnProperty(attr)) stop.setAttribute(attr,attrs[attr]);
-      }
-      grad.appendChild(stop);
-    }
-
-    var defs = svg.querySelector('defs') ||
-        svg.insertBefore( document.createElementNS(svgNS,'defs'), svg.firstChild);
-    return defs.appendChild(grad);
-  }
-
-  function tidyChart() {
-    var svg = chartelement.getElementsByTagName("div")[0].getElementsByTagName("div")[0].getElementsByTagName("svg")[0];
-    createGradient(svg,'weathergradient',[
-      {offset:'0%', 'stop-color':'#fdd'},
-      {offset:'100%','stop-color':'#fff'}
+  var resizefns = [];
+  {% if page.weather.size > 0 %}
+  function drawWeatherChart() {
+    var data = google.visualization.arrayToDataTable([
+      ['', 'Celcius'],
+      {% for weather in page.weather %}
+      ["", {{weather.celsius}}],
+      {% endfor %}
     ]);
 
-    var rect = svg.childNodes[2].childNodes[0];
-    rect.setAttribute('fill', 'url(#weathergradient)');
-    rect.setAttribute('fill-opacity', '1');
+    var options = {
+      title: '',
+      curveType: 'function',
+      backgroundColor: {
+        fill: "url(#linearGradient)"
+      },
+      colors: [
+        '#333'
+      ],
+      legend: 'none',
+      hAxis: {
+       textPosition: 'none',
+       baselineColor: '#CCC'
+      },
+      fontName: 'nimbus-sans'
+    };
 
-    var allText = svg.querySelectorAll('text');
-    for (var i = 0; i < allText.length; ++i) {
-      var text = allText[i];
-      text.setAttribute('font-weight', '300');
+    var chartelement = document.getElementById('weatherchart');
+    var chart = new google.visualization.LineChart(chartelement);
+    chart.draw(data, options);
+
+    // svg:   the owning <svg> element
+    // id:    an id="..." attribute for the gradient
+    // stops: an array of objects with <stop> attributes
+    function createGradient(svg,id,stops){
+      var svgNS = svg.namespaceURI;
+      var grad  = document.createElementNS(svgNS,'linearGradient');
+      grad.setAttribute('id',id);
+      grad.setAttribute('x1', '0%');
+      grad.setAttribute('y1', '0%');
+      grad.setAttribute('x2', '0%');
+      grad.setAttribute('y2', '100%');
+      for (var i=0;i<stops.length;i++){
+        var attrs = stops[i];
+        var stop = document.createElementNS(svgNS,'stop');
+        for (var attr in attrs){
+          if (attrs.hasOwnProperty(attr)) stop.setAttribute(attr,attrs[attr]);
+        }
+        grad.appendChild(stop);
+      }
+
+      var defs = svg.querySelector('defs') ||
+          svg.insertBefore( document.createElementNS(svgNS,'defs'), svg.firstChild);
+      return defs.appendChild(grad);
     }
-  }
 
-  tidyChart();
+    function tidyChart() {
+      var svg = chartelement.getElementsByTagName("div")[0].getElementsByTagName("div")[0].getElementsByTagName("svg")[0];
+      createGradient(svg,'weathergradient',[
+        {offset:'0%', 'stop-color':'#fdd'},
+        {offset:'100%','stop-color':'#fff'}
+      ]);
+
+      var rect = svg.childNodes[2].childNodes[0];
+      rect.setAttribute('fill', 'url(#weathergradient)');
+      rect.setAttribute('fill-opacity', '1');
+
+      var allText = svg.querySelectorAll('text');
+      for (var i = 0; i < allText.length; ++i) {
+        var text = allText[i];
+        text.setAttribute('font-weight', '300');
+      }
+    }
+
+    tidyChart();
+
+    resizefns.push(function () {
+      chart.draw(data, options);
+      tidyChart();
+    });
+  }
+  drawWeatherChart();
+  {% endif %}
+
+  {% if page.elevation %}
+  function drawElevationChart() {
+    var rawdata = [
+      ['City', 'Elevation', { role: 'style'}, {role: 'links'}],
+      {% if page.from_elevation %}
+      ["{{ page.fromcity }}",  {{ page.from_elevation }}, '#99ffcc', '{{ page.fromcitylink }}' ],
+      {% endif %}
+      ["{{ page.city }}, {{ page.country }}",  {{ page.elevation }}, '#99ffcc', null ],
+      {% if page.to_elevation %}
+      ["{{ page.tocity }}",  {{ page.to_elevation }}, '#99ffcc', '{{ page.tocitylink }}' ],
+      {% endif %}
+    ];
+    var data = google.visualization.arrayToDataTable(rawdata);
+
+    var options = {
+      vAxis: {
+        minValue: 0
+      },
+      legend: 'none',
+      fontName: 'nimbus-sans'
+    };
+
+    var chartelement = document.getElementById('elevationchart');
+    var chart = new google.visualization.ColumnChart(chartelement);
+    chart.draw(data, options);
+
+    google.visualization.events.addListener(chart, 'select', function() {
+      var row = rawdata[chart.getSelection()[0].row + 1];
+      if (row[3]) {
+        window.location.href = row[3];
+      }
+    });
+
+    function tidyChart() {
+      var svg = chartelement.getElementsByTagName("div")[0].getElementsByTagName("div")[0].getElementsByTagName("svg")[0];
+
+      var allText = svg.querySelectorAll('text');
+      for (var i = 0; i < allText.length; ++i) {
+        var text = allText[i];
+        text.setAttribute('font-weight', '300');
+      }
+    }
+
+    tidyChart();
+
+    resizefns.push(function () {
+      chart.draw(data, options);
+      tidyChart();
+    });
+  }
+  drawElevationChart();
+  {% endif %}
 
   window.onresize = function(event) {
-    chart.draw(data, options);
-    tidyChart();
+    for (var i = 0; i < resizefns.length; ++i) {
+      resizefns[i]();
+    }
   };
 }
 </script>
-{% endif %}

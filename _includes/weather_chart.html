@@ -7,5 +7,17 @@
   </div>
 
   <div id="weatherchart"></div>
-</div> <!-- /moneysmap -->
+ </div>
+{% endif %}
+
+{% if page.elevation %}
+<div id="elevation" class="page">
+  <div class="row-fluid">
+    <div class="container-narrow">
+      <h1 style="text-align: center">Elevation (m)</h1>
+    </div>
+  </div>
+
+  <div id="elevationchart"></div>
+</div>
 {% endif %}
