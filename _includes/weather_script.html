@@ -114,9 +114,11 @@ function drawChart() {
     chart.draw(data, options);
 
     google.visualization.events.addListener(chart, 'select', function() {
-      var row = rawdata[chart.getSelection()[0].row + 1];
-      if (row[3]) {
-        window.location.href = row[3];
+      if (chart.getSelection()) {
+        var row = rawdata[chart.getSelection()[0].row + 1];
+        if (row[3]) {
+          window.location.href = row[3];
+        }
       }
     });
 
