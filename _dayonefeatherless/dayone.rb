@@ -15,12 +15,28 @@ module Dayone
     
     def process_post(post)
       extract_preamble(post)
+      extract_weather(post)
     end
 
     def process_entry(entry)
       calculate_long_entry(entry)
       determine_images(entry)
       calculate_panorama(entry)
+    end
+    
+    def extract_weather(post)
+      if post.data.has_key?('dayones') then
+        dayones = post.data['dayones']
+        weather = Array.new
+        dayones.each do |dayone|
+          if dayone.has_key?('weather')
+            weather_entry = dayone['weather']
+            weather_entry['date'] = dayone['creation_date']
+            weather.concat([weather_entry])
+          end
+        end
+        post.data['weather'] = weather
+      end
     end
     
     def extract_preamble(post)
