@@ -77,6 +77,23 @@ li {
   line-height: 18px;
 }
 
+#blogpost .photonly_picandcontent {
+  position: relative;
+}
+
+#blogpost .photonly .photonly_content {
+  position: absolute;
+  padding: 5px 10px;
+  top: 0;
+}
+
+#blogpost .photonly .dayone_title,
+#blogpost .photonly .timestamp {
+  color: #FFF;
+  text-shadow: 0px 0px 10px #111;
+  text-align: left;
+}
+
 #navigation {
   clear: both;
   margin-top: 20px;
@@ -362,6 +379,15 @@ li {
   #weatherchart,
   #elevationchart {
     height: 100px;
+  }
+
+  #blogpost .photonly .dayone_title {
+    font-size: 26px;
+    line-height: 30px;
+  }
+  #blogpost .photonly .timestamp {
+    font-size: 14px;
+    line-height: 18px;
   }
 }
 

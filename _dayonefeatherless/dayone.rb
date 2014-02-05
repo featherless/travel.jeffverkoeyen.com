@@ -24,6 +24,7 @@ module Dayone
       extract_preamble(post)
       extract_weather(post)
       extract_elevations(post)
+      write_media_queries(post)
     end
 
     def process_entry(entry)
@@ -35,13 +36,13 @@ module Dayone
     def extract_elevations(post)
       if post.data.has_key?('fromcitylink')
         fromcity = @idstoposts[post.data['fromcitylink']]
-        if fromcity.data.has_key?('elevation')
+        if fromcity and fromcity.data.has_key?('elevation')
           post.data['from_elevation'] = fromcity.data['elevation']
         end
       end
       if post.data.has_key?('tocitylink')
         tocity = @idstoposts[post.data['tocitylink']]
-        if tocity.data.has_key?('elevation')
+        if tocity and tocity.data.has_key?('elevation')
           post.data['to_elevation'] = tocity.data['elevation']
         end
       end
@@ -82,6 +83,20 @@ module Dayone
       end
     end
     
+    def write_media_queries(post)
+      customcss = ''
+      if post.data.has_key?('dayones') then
+        dayones = post.data['dayones']
+
+        dayones.each do |dayone|
+          if dayone['has_pic']
+            customcss = customcss + '@media (min-width: 1000px) { #dayone_' + dayone['uuid'] + ' img { content:url("' + dayone['original_pic_url'] + '"); } }' + "\n"
+          end
+        end
+      end
+      post.data['customcss'] = customcss
+    end
+    
     def calculate_panorama(doc)
       if doc['has_pic']
         size = FastImage.size(@dayonepath + "/photos/" + doc['uuid'] + ".jpg")
@@ -101,7 +116,7 @@ module Dayone
         doc['is_long_post'] = false
       end
     end
-    
+
     def determine_images(doc)
       if doc['has_pic']
         doc['pic_url'] = "/gfx/dayone_large/" + doc['uuid'] + ".jpg"

@@ -173,6 +173,10 @@ module Dayone
       elsif not loc_firstnewline.nil? and loc_firstperiod.nil?
         title_text = entry_text[0, loc_firstnewline]
         entry_text = entry_text[loc_firstnewline+1..entry_text.length]
+      elsif loc_firstnewline.nil? and loc_firstperiod.nil?
+        # Only one line.
+        title_text = entry_text
+        entry_text = ''
       end
       doc['entry_text'] = entry_text
       doc['title_text'] = title_text

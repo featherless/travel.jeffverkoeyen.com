@@ -7,7 +7,7 @@
 {% if forloop.last %}
   {% assign flushThisRow = true %}
 {% else %}
-  {% if page.dayones[forloop.index].pic_url %}
+  {% if page.dayones[forloop.index].pic_url and page.dayones[forloop.index].entry_text != '' %}
     {% assign flushThisRow = true %}
   {% else %}
     {% if dayone.is_long_post == true or page.dayones[forloop.index].is_long_post == true %}
@@ -23,23 +23,53 @@
 {% else %}
   {% assign hasPic = false %}
 {% endif %}
+
 {% if dayone.is_long_post == true %}
   {% assign isLongPost = true %}
 {% else %}
   {% assign isLongPost = false %}
 {% endif %}
+
 {% if dayone.pic_is_panoramic == true %}
   {% assign isPanoramic = true %}
 {% else %}
   {% assign isPanoramic = false %}
 {% endif %}
-{% if hasPic == true or isLongPost == true or rowCounter == "0" or isPanoramic == true %}
-  {% assign isNewRow = true %}
+
+{% if dayone.entry_text == '' and hasPic == true %}
+  {% assign isPhotoOnlyPost = true %}
 {% else %}
-  {% assign isNewRow = false %}
+  {% assign isPhotoOnlyPost = false %}
 {% endif %}
 
-<!-- state: hasPic:{{ hasPic }} isLongPost: {{ isLongPost }} isNewRow: {{ isNewRow }} flushThisRow: {{ flushThisRow }} -->
+{% assign isNewRow = false %}
+
+{% if rowCounter == "0" %}
+  {% assign isNewRow = true %}
+{% endif %}
+
+{% if isNewRow == false and hasPic == true and isPhotoOnlyPost == false %}
+  {% assign isNewRow = true %}
+{% endif %}
+
+{% if isNewRow == false and isPanoramic == true %}
+  {% assign isNewRow = true %}
+{% endif %}
+
+{% if isNewRow == false and isLongPost == true %}
+  {% assign isNewRow = true %}
+{% endif %}
+
+{% assign consumesRow = false %}
+{% if isPanoramic == true or isLongPost == true %}
+  {% assign consumesRow = true %}
+{% endif %}
+
+{% if hasPic == true and isPhotoOnlyPost == false %}
+  {% assign consumesRow = true %}
+{% endif %}
+
+<!-- state: hasPic:{{ hasPic }} isLongPost: {{ isLongPost }} isNewRow: {{ isNewRow }} flushThisRow: {{ flushThisRow }} isPhotoOnlyPost: {{ isPhotoOnlyPost }}-->
 
 {% if isNewRow == true %}
   {% assign rowCounter = 2 %}
@@ -52,53 +82,85 @@
 
   <div class="dayone page">
     <div class="container">
-{% if hasPic == true %}
+{% if isNewRow == true and flushThisRow == true %}
       <div class="dayone_icon">{{ dayone.icon_html }}</div>
 {% endif %}
       <div class="row-fluid">
 {% endif %}
 
 {% if hasPic == true %}
-  {% if isLongPost == true or isPanoramic == true %}
-        <div class="container-narrow">
-          <div id="{{dayone.uuid}}" class="span12">
-  {% else %}
-    {% if alternator == true %}
-        <div class="span7">
-          <img src="{{ dayone.pic_url }}" />
-        </div>
-    {% endif %}
-        <div id="{{dayone.uuid}}" class="span5">
-  {% endif %}
-
-          {% include dayone_content.html %}
-
-  {% if isLongPost == true or isPanoramic == true %}
-          </div> <!-- .span12 -->
-        </div> <!-- .container-narrow -->  
+  {% if isPhotoOnlyPost %}
     {% if isPanoramic == true %}
-      </div> <!-- .row -->
-    </div> <!-- .container -->
-    {% endif %}
-    {% if hasPic == true %}
-        <div class="dayone_pic">
+    {% else %}
+
+      {% if isNewRow == true and flushThisRow == true %}
+      <div id="dayone_{{dayone.uuid}}" class="span12 photonly">
+      {% else %}
+      <div id="dayone_{{dayone.uuid}}"  class="span6 photonly">
+        <div class="dayone_icon">{{ dayone.icon_html }}</div>
+      {% endif %}
+
+        <div class="photonly_picandcontent">
           <img src="{{ dayone.pic_url }}" />
+          <div class="photonly_content">
+            {% include dayone_content.html %}
+          </div>
         </div>
-    {% endif %}
-    {% if isPanoramic == true %}
-    <div class="container">
-      <div class="row-fluid">
+
+      {% if isNewRow == true and flushThisRow == true %}
+      </div>
+      {% else %}
+      </div>
+      {% endif %}
     {% endif %}
   {% else %}
-        </div> <!-- .span6 -->
-    {% if alternator == false %}
-        <div class="span7">
-          <img src="{{ dayone.pic_url }}" />
-        </div>
+    {% if isLongPost == true or isPanoramic == true %}
+          <div class="container-narrow">
+            <div id="dayone_{{dayone.uuid}}" class="span12">
+    {% else %}
+      {% if alternator == true %}
+          <div class="span7">
+            <img src="{{ dayone.pic_url }}" />
+          </div>
+      {% endif %}
+          <div id="dayone_{{dayone.uuid}}" class="span5">
+    {% endif %}
+
+            {% include dayone_content.html %}
+
+    {% if isLongPost == true or isPanoramic == true %}
+            </div> <!-- .span12 -->
+          </div> <!-- .container-narrow -->  
+      {% if isPanoramic == true %}
+        </div> <!-- .row -->
+      </div> <!-- .container -->
+      {% endif %}
+      {% if hasPic == true %}
+          <div class="dayone_pic">
+            <img src="{{ dayone.pic_url }}" />
+          </div>
+      {% endif %}
+      {% if isPanoramic == true %}
+      <div class="container">
+        <div class="row-fluid">
+      {% endif %}
+    {% else %}
+          </div> <!-- .span6 -->
+      {% if alternator == false %}
+          <div class="span7">
+            <img src="{{ dayone.pic_url }}" />
+          </div>
+      {% endif %}
     {% endif %}
   {% endif %}
 
-  {% assign rowCounter = "0" %}
+  {% if consumesRow == true %}
+    {% assign rowCounter = "0" %}
+  {% else %}
+    {% capture temp %}{{ rowCounter | minus: 1 }}{% endcapture %}
+    {% assign rowCounter = temp %}
+  {% endif %}
+
   {% if alternator == true %}
     {% assign alternator = false %}
   {% else %}
@@ -107,12 +169,11 @@
 {% else %}
   {% if isNewRow == true and flushThisRow == true %}
         <div class="container-narrow">
-          <div id="{{dayone.uuid}}" class="span12">
-            <div class="dayone_icon">{{ dayone.icon_html }}</div>
+          <div id="dayone_{{dayone.uuid}}" class="span12">
     {% assign rowCounter = "1" %}
 
   {% else %}
-        <div id="{{dayone.uuid}}" class="span6">
+        <div id="dayone_{{dayone.uuid}}" class="span6">
           <div class="dayone_icon">{{ dayone.icon_html }}</div>
   {% endif %}
 

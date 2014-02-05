@@ -14,6 +14,11 @@
     <link href="/css/blog.css" rel="stylesheet">
     <script type="text/javascript" src="//use.typekit.net/ybc6dhf.js"></script>
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    {% if page.customcss %}
+    <style type="text/css">
+      {{ page.customcss }}
+    </style>
+    {% endif %}
   </head>
 
   <body>
