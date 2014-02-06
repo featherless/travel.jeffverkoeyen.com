@@ -70,6 +70,10 @@ li {
   text-align:justify;
 }
 
+#blogpost .panoramicpage {
+  padding-bottom: 0;
+}
+
 #blogpost .tooltip-inner {
   font-family: "calluna",serif;
   font-weight: 300;

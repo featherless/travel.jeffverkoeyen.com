@@ -1,6 +1,6 @@
 <div id="navigation" class="container-narrow">
 {% for post in site.posts %}
-    {% if post.title == page.title %}
+    {% if post.url == page.url %}
         {% unless forloop.last %}
             {% assign next = site.posts[forloop.index] %}
             <div class="previous">

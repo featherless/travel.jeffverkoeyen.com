@@ -80,19 +80,34 @@
   </div> <!-- .dayone -->
   {% endif %}
 
+  {% if isPanoramic %}
+  <div class="dayone page panoramicpage">
+  {% else %}
   <div class="dayone page">
+  {% endif %}
     <div class="container">
-{% if isNewRow == true and flushThisRow == true %}
+  {% if flushThisRow or consumesRow %}
       <div class="dayone_icon">{{ dayone.icon_html }}</div>
-{% endif %}
+  {% endif %}
       <div class="row-fluid">
 {% endif %}
 
 {% if hasPic == true %}
   {% if isPhotoOnlyPost %}
-    {% if isPanoramic == true %}
+    {% if isPanoramic %}
+        </div> <!-- .row -->
+      </div> <!-- .container -->
+      <div id="dayone_{{dayone.uuid}}" class="photonly">
+        <div class="photonly_picandcontent">
+          <img src="{{ dayone.pic_url }}" />
+          <div class="photonly_content">
+            {% include dayone_content.html %}
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row-fluid">
     {% else %}
-
       {% if isNewRow == true and flushThisRow == true %}
       <div id="dayone_{{dayone.uuid}}" class="span12 photonly">
       {% else %}
