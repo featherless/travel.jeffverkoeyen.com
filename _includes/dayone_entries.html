@@ -13,7 +13,11 @@
     {% if dayone.is_long_post == true or page.dayones[forloop.index].is_long_post == true %}
       {% assign flushThisRow = true %}
     {% else %}
-      {% assign flushThisRow = false %}
+      {% if dayone.pic_is_panoramic or page.dayones[forloop.index].pic_is_panoramic == true %}
+        {% assign flushThisRow = true %}
+      {% else %}
+        {% assign flushThisRow = false %}
+      {% endif %}
     {% endif %}
   {% endif %}
 {% endif %}

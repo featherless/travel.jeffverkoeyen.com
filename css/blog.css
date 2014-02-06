@@ -70,10 +70,6 @@ li {
   text-align:justify;
 }
 
-#blogpost .panoramicpage {
-  padding-bottom: 0;
-}
-
 #blogpost .tooltip-inner {
   font-family: "calluna",serif;
   font-weight: 300;
@@ -94,7 +90,7 @@ li {
 #blogpost .photonly .dayone_title,
 #blogpost .photonly .timestamp {
   color: #FFF;
-  text-shadow: 0px 0px 10px #111;
+  text-shadow: 0px 0px 20px #111;
   text-align: left;
 }
 
