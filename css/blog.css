@@ -1,4 +1,10 @@
 
+/* Inactive Fonts */
+
+.wf-inactive .masthead .nav-pills > li > a {
+  margin-right: 15px;
+}
+
 /* Blog List */
 
 #bloglist .post {
