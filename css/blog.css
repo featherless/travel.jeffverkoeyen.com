@@ -1,7 +1,8 @@
 
 /* Inactive Fonts */
 
-.wf-inactive .masthead .nav-pills > li > a {
+.wf-inactive .masthead .nav-pills > li > a,
+.wf-loading .masthead .nav-pills > li > a {
   margin-right: 15px;
 }
 
