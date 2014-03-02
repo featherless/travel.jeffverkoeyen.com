@@ -267,6 +267,14 @@ if any_dayone_modified
     f.write(dayonetag_photo_counts.to_yaml)
     f.close()
   end
+  File.open("../_data/regions.yml","w") do |f|
+    f.write($regions.to_yaml)
+    f.close()
+  end
+  File.open("../_data/locations.yml","w") do |f|
+    f.write($spots.to_yaml)
+    f.close()
+  end
 end
 
 if any_money_modified

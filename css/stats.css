@@ -1,6 +1,11 @@
 #dashboard {
   background-color: #111;
   padding: 40px;
+  border: none;
+}
+
+iframe {
+  border: none;
 }
 
 #leadin {
@@ -61,4 +66,9 @@
   font-size: 30px;
   text-align: center;
   letter-spacing: 0.05em;
+}
+
+#dashboard h1 {
+  text-align: center;
+  color: #dde;
 }
