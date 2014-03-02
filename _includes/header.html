@@ -13,6 +13,9 @@
     <link href="/css/portfolio.css" rel="stylesheet">
     <link href="/css/pygments.css" rel="stylesheet">
     <link href="/css/blog.css" rel="stylesheet">
+    {% if page.extracssfile %}
+    <link href="/css/{{ page.extracssfile }}" rel="stylesheet">
+    {% endif %}
 
     <script type="text/javascript" src="//use.typekit.net/ybc6dhf.js"></script>
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>

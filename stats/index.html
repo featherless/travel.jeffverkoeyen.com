@@ -1,0 +1,59 @@
+---
+layout: default
+title: "Statistics from Abroad"
+extracssfile: stats.css
+---
+
+<h1 id="leadin">Statistics from Abroad</h1>
+
+<div id="dashboard" class="page">
+  <div class="container">
+    <div class="stats_blocks">
+
+      <div class="stats_block">
+
+        <h2>Regions</h2>
+        <div class="stats">
+
+          <div class="stat">
+            <h3>Most Photos</h3>
+            <div class="value">{{ site.data.dayone_stats.region_most_photos_count }}</div>
+            <p>{{ site.data.tag_to_display_string[site.data.dayone_stats.region_most_photos] }}</p>
+          </div>
+
+          <div class="clearfix"></div>
+        </div>
+
+      </div>
+
+      <div class="stats_block">
+
+        <h2>Spots</h2>
+        <div class="stats">
+
+          <div class="stat">
+            <h3>Most Photos</h3>
+            <div class="value">{{ site.data.dayone_stats.spot_most_photos_count }}</div>
+            <p>{{ site.data.tag_to_display_string[site.data.dayone_stats.spot_most_photos] }}</p>
+          </div>
+
+          <div class="stat">
+            <h3>Highest Elevation</h3>
+            <div class="value">{{ site.data.dayone_stats.spot_highest_elevation }}m</div>
+            <p>{{ site.data.tag_to_display_string[site.data.dayone_stats.spot_highest_elevation_tag] }}</p>
+          </div>
+
+          <div class="stat">
+            <h3>Lowest Elevation</h3>
+            <div class="value">{{ site.data.dayone_stats.spot_lowest_elevation }}m</div>
+            <p>{{ site.data.tag_to_display_string[site.data.dayone_stats.spot_lowest_elevation_tag] }}</p>
+          </div>
+
+          <div class="clearfix"></div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</div>

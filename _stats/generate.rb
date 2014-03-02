@@ -2,12 +2,15 @@ require 'fileutils'
 require 'plist'
 require 'Set'
 require 'Time'
-require 'YAML'
+require "i18n"
+require 'yaml'
 require 'json'
+
+I18n.enforce_available_locales = false
 
 CONFIG_PATH = File.join(File.dirname(__FILE__), 'config.yml')
 
-config = YAML::load(File.open(CONFIG_PATH))
+config = YAML.load_file(CONFIG_PATH)
 
 dayonepath = config['dayonepath']
 raise "Missing dayonepath key in " + CONFIG_PATH if dayonepath.nil?
@@ -17,279 +20,31 @@ moneyspath = config['moneyspath']
 raise "Missing moneyspath key in " + CONFIG_PATH if moneyspath.nil?
 raise "moneyspath must point to an existing path" unless File.directory?(moneyspath)
 
-dir = 'data'
+dir = '../_data'
 unless File.directory?(dir)
   FileUtils.mkdir_p(dir)
 end
 
-countries = [
-  "Afghanistan",
-  "Albania",
-  "Algeria",
-  "American Samoa",
-  "Andorra",
-  "Angola",
-  "Anguilla",
-  "Antigua and Barbuda",
-  "Argentina",
-  "Armenia",
-  "Aruba",
-  "Australia",
-  "Austria",
-  "Azerbaijan",
-  "Azores",
-  "Bahamas",
-  "Bahrain",
-  "Banaba Island",
-  "Bangladesh",
-  "Barbados",
-  "Belarus",
-  "Belgium",
-  "Belize",
-  "Benin",
-  "Bermuda",
-  "Bhutan",
-  "Bolivia",
-  "Bosnia and Herzegovina",
-  "Botswana",
-  "Brazil",
-  "British Virgin Islands",
-  "Brunei",
-  "Bulgaria",
-  "Burkina Faso",
-  "Burma",
-  "Burundi",
-  "Cambodia",
-  "Cameroon",
-  "Canada",
-  "Cape Verde",
-  "Cayman Islands",
-  "Central African Republic",
-  "Chad",
-  "Channel Islands",
-  "Chile",
-  "China",
-  "Christmas Island",
-  "Cocos Islands",
-  "Colombia",
-  "Comoros",
-  "Republic of Congo",
-  "Cook Islands",
-  "Costa Rica",
-  "Cote d'Ivoire",
-  "Croatia",
-  "Cuba",
-  "Cyprus",
-  "Czech Republic",
-  "Denmark",
-  "Djibouti",
-  "Dominica",
-  "Dominican Republic",
-  "East Timor",
-  "Easter Island",
-  "Ecuador",
-  "Egypt",
-  "El Salvador",
-  "England",
-  "Equatorial Guinea",
-  "Eritrea",
-  "Estonia",
-  "Ethiopia",
-  "Falkland Islands",
-  "Faroe Islands",
-  "Fiji",
-  "Finland",
-  "France",
-  "French Antilles",
-  "French Guiana",
-  "French Polynesia",
-  "Gabon",
-  "Gambia, The",
-  "Georgia",
-  "Germany",
-  "Ghana",
-  "Gibraltar",
-  "Greece",
-  "Greenland",
-  "Grenada",
-  "Guadeloupe",
-  "Guam",
-  "Guatemala",
-  "Guernsey",
-  "Guinea",
-  "Guinea-Bissau",
-  "Guyana",
-  "Haiti",
-  "Vatican City",
-  "Honduras",
-  "Hong Kong",
-  "Hungary",
-  "Iceland",
-  "India",
-  "Indonesia",
-  "Iran",
-  "Iraq",
-  "Ireland",
-  "Israel",
-  "Italy",
-  "Jamaica",
-  "Japan",
-  "Jersey",
-  "Jordan",
-  "Kazakhstan",
-  "Kenya",
-  "Kiribati",
-  "North Korea",
-  "South Korea",
-  "Kuwait",
-  "Kyrgyzstan",
-  "Laos",
-  "Latvia",
-  "Lebanon",
-  "Leichenstein",
-  "Lesotho",
-  "Liberia",
-  "Libya",
-  "Liechtenstein",
-  "Lithuania",
-  "Lord Howe Island",
-  "Luxembourg",
-  "Macau",
-  "Macedonia",
-  "Madagascar",
-  "Madria",
-  "Malawi",
-  "Malaysia",
-  "Maldives",
-  "Mali",
-  "Malta",
-  "Isle of Man",
-  "Marshall Islands",
-  "Martinique",
-  "Mauritania",
-  "Mauritius",
-  "Mayotte",
-  "Mexico",
-  "Micronesia",
-  "Midway Islands",
-  "Moldova",
-  "Monaco",
-  "Mongolia",
-  "Mongolian People's Republic",
-  "Montenegro",
-  "Montserrat",
-  "Morocco",
-  "Morovia",
-  "Mozambique",
-  "Myanmar",
-  "Namibia",
-  "Nauru",
-  "Nepal",
-  "Netherlands",
-  "Netherlands Antilles",
-  "New Caledonia",
-  "New Zealand",
-  "Nicaragua",
-  "Niger",
-  "Nigeria",
-  "Niue",
-  "Norfolk Island",
-  "Northern Ireland",
-  "Northern Mariana Islands",
-  "Norway",
-  "Oman",
-  "Pakistan",
-  "Palau",
-  "Panama",
-  "Papua New Guinea",
-  "Paraguay",
-  "Peru",
-  "Philippines",
-  "Pitcairn Islands",
-  "Poland",
-  "Portugal",
-  "Puerto Rico",
-  "Qatar",
-  "Reunion",
-  "Romania",
-  "Russia",
-  "Rwanda",
-  "Saint Helena",
-  "Saint Kitts and Nevis",
-  "Saint Lucia",
-  "Saint Pierre and Miquelon",
-  "Saint Vincent and the Grenadines",
-  "Samoa",
-  "San Andrés y Providencia",
-  "San Marino",
-  "Sao Tome and Principe",
-  "Saudi Arabia",
-  "Scotland",
-  "Senegal",
-  "Serbia",
-  "Seychelles",
-  "Sierra Leone",
-  "Singapore",
-  "Slovakia",
-  "Slovenia",
-  "Solomon Islands",
-  "Somalia",
-  "South Africa",
-  "Spain",
-  "Sri Lanka",
-  "Sudan",
-  "Suriname",
-  "Swaziland",
-  "Sweden",
-  "Switzerland",
-  "Syria",
-  "Tahiti",
-  "Taiwan",
-  "Tajikistan",
-  "Tanzania",
-  "Thailand",
-  "Tibet",
-  "Togo",
-  "Tokelau",
-  "Tonga",
-  "Trinidad and Tobago",
-  "Tunisia",
-  "Turkey",
-  "Turkmenistan",
-  "Turks and Caicos",
-  "Tuvalu",
-  "Uganda",
-  "Ukraine",
-  "United Arab Emirates",
-  "United States",
-  "Uruguay",
-  "Uzbekistan",
-  "Vanuatu",
-  "Vatican City",
-  "Venezuela",
-  "Vietnam",
-  "Virgin Islands",
-  "Wales",
-  "Wallis & Futuna",
-  "Western Sahara",
-  "Yemen",
-  "Yugoslavia",
-  "Zambia",
-  "Zimbabwe",
-]
+$regions = Hash.new
+$spots = Hash.new
+$tag_to_display_string = Hash.new
 
-# TODO: Calculate city names by iterating over all posts in the blog.
+def standardize_tag(string)
+  return I18n.transliterate(string).downcase.delete("?").delete("'").gsub(" ", "_").gsub("-", "_")
+end
 
-$countries_set = Set.new countries.map(&:downcase)
+def is_region(string)
+  return $regions.has_key?(standardize_tag(string))
+end
 
-def is_country(string)
-  return $countries_set.include?(string.downcase)
+def is_spot(string)
+  return $spots.has_key?(standardize_tag(string))
 end
 
 lastrun_timestamp = nil
-if File.exist?('data/lastrun.json')
-  lastrun = JSON.parse( IO.read('data/lastrun.json') )
-  lastrun_timestamp = Time.parse(lastrun['timestamp'])
+if File.exist?('../_data/lastrun.yml')
+  lastrun = YAML.load_file('../_data/lastrun.yml')
+  lastrun_timestamp = lastrun['timestamp']
 
   script_mtime = File.mtime(__FILE__)
   if script_mtime > lastrun_timestamp
@@ -301,18 +56,32 @@ if File.exist?('data/lastrun.json')
 end
 
 if lastrun_timestamp
-  # Check day one entries first.
   any_dayone_modified = false
-  Dir.glob(dayonepath + "/entries/*.doentry") do |dayone_entry|
-    if File.mtime(dayone_entry) > lastrun_timestamp
+  any_money_modified = false
+
+  # Day One posts
+  Dir.glob(dayonepath + "../_posts/*.html") do |dayone_post|
+    if File.mtime(dayone_post) > lastrun_timestamp
       any_dayone_modified = true
+      any_money_modified = true # Also regenerate moneys logs
     end
   end
 
-  any_money_modified = false
-  Dir.glob(moneyspath + "/logs/*.plist") do |moneys_entry|
-    if File.mtime(moneys_entry) > lastrun_timestamp
-      any_money_modified = true
+  # Day One entries
+  if not any_dayone_modified
+    Dir.glob(dayonepath + "/entries/*.doentry") do |dayone_entry|
+      if File.mtime(dayone_entry) > lastrun_timestamp
+        any_dayone_modified = true
+      end
+    end
+  end
+
+  # Moneys logs
+  if not any_money_modified
+    Dir.glob(moneyspath + "/logs/*.plist") do |moneys_entry|
+      if File.mtime(moneys_entry) > lastrun_timestamp
+        any_money_modified = true
+      end
     end
   end
 else
@@ -323,10 +92,42 @@ end
 if any_dayone_modified
   print "Recalculating Day One data...\n"
 
+  spot_highest_elevation = nil
+  spot_highest_elevation_tag = nil
+  spot_lowest_elevation = nil
+  spot_lowest_elevation_tag = nil
+
+  Dir.glob("../_posts/*.html") do |dayone_post|
+    info = YAML.load_file(dayone_post)
+    if info['layout'] == 'city'
+      $regions[standardize_tag(info['country'])] = info['country']
+      $spots[standardize_tag(info['city'])] = info['city']
+
+      if info.has_key?('elevation')
+        if spot_highest_elevation_tag.nil? || info['elevation'] > spot_highest_elevation
+          spot_highest_elevation_tag = standardize_tag(info['city'])
+          spot_highest_elevation = info['elevation']
+        end
+        if spot_lowest_elevation_tag.nil? || info['elevation'] < spot_lowest_elevation
+          spot_lowest_elevation_tag = standardize_tag(info['city'])
+          spot_lowest_elevation = info['elevation']
+        end
+      end
+    end
+
+    if info['tags']
+      info['tags'].each do |tag|
+        $tag_to_display_string[standardize_tag(tag)] = tag
+      end
+    end
+  end
+
   dayonetag_counts = Hash.new
   dayonetag_photo_counts = Hash.new
-  country_most_entries = nil
-  country_most_photos = nil
+  region_most_entries = nil
+  region_most_photos = nil
+  spot_most_entries = nil
+  spot_most_photos = nil
   tag_most_entries = nil
   tag_most_photos = nil
 
@@ -335,64 +136,91 @@ if any_dayone_modified
 
     has_pic = File.exist?(dayonepath + "/photos/" + doc['UUID'] + ".jpg")
 
+    # Calculate tag totals
     if doc['Tags']
-      doc['Tags'].each do |tag|
-        dayonetag_counts[tag] ||= 0
-        dayonetag_counts[tag] += 1
+      if has_pic
+        # Number of photos per tag
+        doc['Tags'].each do |tag|
+          dayonetag_photo_counts[standardize_tag(tag)] ||= 0
+          dayonetag_photo_counts[standardize_tag(tag)] += 1
+        end
+      else
+        doc['Tags'].each do |tag|
+          # Number of non-photo entries per tag
+          dayonetag_counts[standardize_tag(tag)] ||= 0
+          dayonetag_counts[standardize_tag(tag)] += 1
+        end
       end
 
-      if has_pic
-        doc['Tags'].each do |tag|
-          dayonetag_photo_counts[tag] ||= 0
-          dayonetag_photo_counts[tag] += 1
-        end
+      doc['Tags'].each do |tag|
+        $tag_to_display_string[standardize_tag(tag)] = tag
       end
     end
   end
 
   dayonetag_counts.each do |key,value|
-    if is_country(key)
-      # Calculate the country with the most entries.
-      if country_most_entries.nil? || value > dayonetag_counts[country_most_entries]
-        country_most_entries = key
+    if is_region(key)
+      # Calculate the region with the most entries.
+      if region_most_entries.nil? || value > dayonetag_counts[region_most_entries]
+        region_most_entries = key
       end
+    elsif is_spot(key)
+      # Calculate the spot with the most entries.
+      if spot_most_entries.nil? || value > dayonetag_counts[spot_most_entries]
+        spot_most_entries = key
+      end
+    # Calculate the tag with the most entries.
     elsif tag_most_entries.nil? || value > dayonetag_counts[tag_most_entries]
       tag_most_entries = key
     end
   end
 
   dayonetag_photo_counts.each do |key,value|
-    if is_country(key)
-      # Calculate the country with the most photos.
-      if country_most_photos.nil? || value > dayonetag_photo_counts[country_most_photos]
-        country_most_photos = key
+    if is_region(key)
+      # Calculate the region with the most photos.
+      if region_most_photos.nil? || value > dayonetag_photo_counts[region_most_photos]
+        region_most_photos = key
       end
-    elsif tag_most_photos.nil? || value > dayonetag_counts[tag_most_photos]
+    elsif is_spot(key)
+      # Calculate the spot with the most photos.
+      if spot_most_photos.nil? || value > dayonetag_photo_counts[spot_most_photos]
+        spot_most_photos = key
+      end
+    # Calculate the tag with the most photos.
+    elsif tag_most_photos.nil? || value > dayonetag_photo_counts[tag_most_photos]
       tag_most_photos = key
     end
   end
 
   stats = {
-    'country_most_entries' => country_most_entries,
-    'country_most_entries_count' => dayonetag_counts[country_most_entries],
-    'country_most_photos' => country_most_photos,
-    'country_most_photos_count' => dayonetag_photo_counts[country_most_photos],
+    'region_most_entries' => region_most_entries,
+    'region_most_entries_count' => dayonetag_counts[region_most_entries],
+    'region_most_photos' => region_most_photos,
+    'region_most_photos_count' => dayonetag_photo_counts[region_most_photos],
+    'spot_most_entries' => spot_most_entries,
+    'spot_most_entries_count' => dayonetag_counts[spot_most_entries],
+    'spot_most_photos' => spot_most_photos,
+    'spot_most_photos_count' => dayonetag_photo_counts[spot_most_photos],
     'tag_most_entries' => tag_most_entries,
     'tag_most_entries_count' => dayonetag_counts[tag_most_entries],
     'tag_most_photos' => tag_most_photos,
     'tag_most_photos_count' => dayonetag_photo_counts[tag_most_photos],
+    'spot_highest_elevation' => spot_highest_elevation,
+    'spot_highest_elevation_tag' => spot_highest_elevation_tag,
+    'spot_lowest_elevation' => spot_lowest_elevation,
+    'spot_lowest_elevation_tag' => spot_lowest_elevation_tag,
   }
 
-  File.open("data/dayone_stats.json","w") do |f|
-    f.write(stats.to_json)
+  File.open("../_data/dayone_stats.yml","w") do |f|
+    f.write(stats.to_yaml)
     f.close()
   end
-  File.open("data/dayonetag_counts.json","w") do |f|
-    f.write(dayonetag_counts.to_json)
+  File.open("../_data/dayonetag_counts.yml","w") do |f|
+    f.write(dayonetag_counts.to_yaml)
     f.close()
   end
-  File.open("data/dayonetag_photo_counts.json","w") do |f|
-    f.write(dayonetag_photo_counts.to_json)
+  File.open("../_data/dayonetag_photo_counts.yml","w") do |f|
+    f.write(dayonetag_photo_counts.to_yaml)
     f.close()
   end
 end
@@ -411,8 +239,15 @@ if any_money_modified
     end
   end
 
-  File.open("data/moneytag_counts.json","w") do |f|
-    f.write(moneytag_counts.to_json)
+  File.open("../_data/moneytag_counts.yml","w") do |f|
+    f.write(moneytag_counts.to_yaml)
+    f.close()
+  end
+end
+
+if any_money_modified && any_dayone_modified
+  File.open("../_data/tag_to_display_string.yml","w") do |f|
+    f.write($tag_to_display_string.to_yaml)
     f.close()
   end
 end
@@ -423,8 +258,8 @@ lastrun = {
   'timestamp'=>Time.now
 }
 
-File.open("data/lastrun.json","w") do |f|
-  f.write(lastrun.to_json)
+File.open("../_data/lastrun.yml","w") do |f|
+  f.write(lastrun.to_yaml)
   f.close()
 end
 
