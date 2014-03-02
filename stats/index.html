@@ -46,13 +46,13 @@ extracssfile: stats.css
           <div class="stat">
             <h3>Highest Temperature</h3>
             <div class="value">{{ site.data.dayone_stats.spot_hottest_temperature }}°C</div>
-            <p>{{ site.data.tag_to_display_string[site.data.dayone_stats.spot_coldest_temperature_tag] }}</p>
+            <p>{{ site.data.tag_to_display_string[site.data.dayone_stats.spot_hottest_temperature_tag] }}</p>
           </div>
 
           <div class="stat">
             <h3>Lowest Temperature</h3>
             <div class="value">{{ site.data.dayone_stats.spot_coldest_temperature }}°C</div>
-            <p>{{ site.data.tag_to_display_string[site.data.dayone_stats.spot_hottest_temperature_tag] }}</p>
+            <p>{{ site.data.tag_to_display_string[site.data.dayone_stats.spot_coldest_temperature_tag] }}</p>
           </div>
 
           <div class="stat">
@@ -81,6 +81,7 @@ extracssfile: stats.css
     </div> <!-- .stats_blocks -->
 
   </div>
+
 </div>
 
 <div id="geomap" class="page">

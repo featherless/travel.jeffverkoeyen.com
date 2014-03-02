@@ -185,6 +185,8 @@ if any_dayone_modified
             if spot_coldest_temperature_tag.nil? || doc['Weather']['Celsius'].to_f < spot_coldest_temperature
               spot_coldest_temperature_tag = standardize_tag(tag)
               spot_coldest_temperature = doc['Weather']['Celsius'].to_f
+              print doc.to_yaml
+              print "\n"
             end
             if spot_hottest_temperature_tag.nil? || doc['Weather']['Celsius'].to_f > spot_hottest_temperature
               spot_hottest_temperature_tag = standardize_tag(tag)
@@ -268,11 +270,11 @@ if any_dayone_modified
     f.close()
   end
   File.open("../_data/regions.yml","w") do |f|
-    f.write($regions.to_yaml)
+    f.write($regions.keys.sort.to_yaml)
     f.close()
   end
   File.open("../_data/locations.yml","w") do |f|
-    f.write($spots.to_yaml)
+    f.write($spots.keys.sort.to_yaml)
     f.close()
   end
 end

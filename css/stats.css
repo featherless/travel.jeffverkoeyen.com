@@ -72,3 +72,11 @@ iframe {
   text-align: center;
   color: #dde;
 }
+
+#dashboard dl {
+  color: #dde;
+  -moz-column-width: 12em;
+       -moz-columns: 12em;
+    -webkit-columns: 12em;
+            columns: 12em;
+}

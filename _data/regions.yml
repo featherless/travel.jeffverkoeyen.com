@@ -1,9 +1,9 @@
 ---
-panama: Panama
-costa_rica: Costa Rica
-colombia: Colombia
-ecuador: Ecuador
-galapagos_islands: Galapagos Islands
-peru: Peru
-bolivia: Bolivia
-chile: Chile
+- bolivia
+- chile
+- colombia
+- costa_rica
+- ecuador
+- galapagos_islands
+- panama
+- peru
