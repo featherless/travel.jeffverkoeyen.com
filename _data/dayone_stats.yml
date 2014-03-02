@@ -1,0 +1,23 @@
+---
+region_most_entries: peru
+region_most_entries_count: 63
+region_most_photos: peru
+region_most_photos_count: 277
+spot_most_entries: lares_trek
+spot_most_entries_count: 17
+spot_most_photos: lares_trek
+spot_most_photos_count: 101
+tag_most_entries: travel_planning
+tag_most_entries_count: 99
+tag_most_photos: restaurants
+tag_most_photos_count: 68
+spot_highest_elevation: 5000
+spot_highest_elevation_tag: uyuni_salt_flats
+spot_lowest_elevation: -30
+spot_lowest_elevation_tag: isla_san_cristobal
+spot_coldest_temperature: 3.0
+spot_coldest_temperature_tag: abancay
+spot_hottest_temperature: 32.0
+spot_hottest_temperature_tag: samara
+number_of_locations: 39
+countries_visited: 7
