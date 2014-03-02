@@ -185,8 +185,6 @@ if any_dayone_modified
             if spot_coldest_temperature_tag.nil? || doc['Weather']['Celsius'].to_f < spot_coldest_temperature
               spot_coldest_temperature_tag = standardize_tag(tag)
               spot_coldest_temperature = doc['Weather']['Celsius'].to_f
-              print doc.to_yaml
-              print "\n"
             end
             if spot_hottest_temperature_tag.nil? || doc['Weather']['Celsius'].to_f > spot_hottest_temperature
               spot_hottest_temperature_tag = standardize_tag(tag)

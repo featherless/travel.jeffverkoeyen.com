@@ -82,6 +82,18 @@ extracssfile: stats.css
 
   </div>
 
+  <div class="container">
+    <h1>Locations</h1>
+
+    <div>
+{% for location in site.data.locations %}
+      <div>
+        <dt>{{ site.data.tag_to_display_string[location] }}</dt>
+        <dd>entries: {% if site.data.dayonetag_counts[location] }} %}{{ site.data.dayonetag_counts[location] }}, photos: {% endif %}{{ site.data.dayonetag_photo_counts[location] }}</dd>
+{% endfor %}
+      </div>
+    </div>
+  </div>
 </div>
 
 <div id="geomap" class="page">

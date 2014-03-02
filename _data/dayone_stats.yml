@@ -15,8 +15,8 @@ spot_highest_elevation: 5000
 spot_highest_elevation_tag: uyuni_salt_flats
 spot_lowest_elevation: -30
 spot_lowest_elevation_tag: isla_san_cristobal
-spot_coldest_temperature: 3.0
-spot_coldest_temperature_tag: abancay
+spot_coldest_temperature: 4.0
+spot_coldest_temperature_tag: lares_trek
 spot_hottest_temperature: 32.0
 spot_hottest_temperature_tag: samara
 number_of_locations: 39
