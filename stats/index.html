@@ -12,27 +12,16 @@ extracssfile: stats.css
 
       <div class="stats_block">
 
-        <h2>Regions</h2>
         <div class="stats">
 
           <div class="stat">
-            <h3>Most Photos</h3>
+            <h3>Most Photos (Region)</h3>
             <div class="value">{{ site.data.dayone_stats.region_most_photos_count }}</div>
             <p>{{ site.data.tag_to_display_string[site.data.dayone_stats.region_most_photos] }}</p>
           </div>
 
-          <div class="clearfix"></div>
-        </div>
-
-      </div>
-
-      <div class="stats_block">
-
-        <h2>Spots</h2>
-        <div class="stats">
-
           <div class="stat">
-            <h3>Most Photos</h3>
+            <h3>Most Photos (Location)</h3>
             <div class="value">{{ site.data.dayone_stats.spot_most_photos_count }}</div>
             <p>{{ site.data.tag_to_display_string[site.data.dayone_stats.spot_most_photos] }}</p>
           </div>
@@ -47,6 +36,33 @@ extracssfile: stats.css
             <h3>Lowest Elevation</h3>
             <div class="value">{{ site.data.dayone_stats.spot_lowest_elevation }}m</div>
             <p>{{ site.data.tag_to_display_string[site.data.dayone_stats.spot_lowest_elevation_tag] }}</p>
+          </div>
+
+          <div class="stat">
+            <h3>Highest Temperature</h3>
+            <div class="value">{{ site.data.dayone_stats.spot_hottest_temperature }}°C</div>
+            <p>{{ site.data.tag_to_display_string[site.data.dayone_stats.spot_coldest_temperature_tag] }}</p>
+          </div>
+
+          <div class="stat">
+            <h3>Lowest Temperature</h3>
+            <div class="value">{{ site.data.dayone_stats.spot_coldest_temperature }}°C</div>
+            <p>{{ site.data.tag_to_display_string[site.data.dayone_stats.spot_hottest_temperature_tag] }}</p>
+          </div>
+
+          <div class="stat">
+            <h3>Locations Researched</h3>
+            <div class="value">{{ site.data.dayonetag_counts.travel_planning }}</div>
+          </div>
+
+          <div class="stat">
+            <h3>Countries Visited</h3>
+            <div class="value">{{ site.data.dayone_stats.countries_visited }}</div>
+          </div>
+
+          <div class="stat">
+            <h3>Locations Visited</h3>
+            <div class="value">{{ site.data.dayone_stats.number_of_locations }}</div>
           </div>
 
           <div class="clearfix"></div>

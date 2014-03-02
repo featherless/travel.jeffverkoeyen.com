@@ -1,5 +1,6 @@
 #dashboard {
   background-color: #111;
+  padding: 40px;
 }
 
 #leadin {
@@ -26,7 +27,7 @@
 
 .stats_block .stat {
   float: left;
-  margin-right: 10px;
+  margin: 20px 10px;
 }
 
 .stats_block .stat {
@@ -46,10 +47,12 @@
 .stats_block .stat p {
   font-family: "nimbus-sans",sans-serif;
   font-weight: 300;
-  font-size: 24px;
+  font-size: 18px;
   line-height: normal;
   margin: 0 10px;
   text-align: center;
+  min-height: 2.5em;
+  width: 150px;
 }
 
 .stats_block .stat .value {
@@ -57,4 +60,5 @@
   line-height: normal;
   font-size: 30px;
   text-align: center;
+  letter-spacing: 0.05em;
 }

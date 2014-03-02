@@ -96,12 +96,28 @@ if any_dayone_modified
   spot_highest_elevation_tag = nil
   spot_lowest_elevation = nil
   spot_lowest_elevation_tag = nil
+  number_of_locations = 0
+  countries_visited = 0
 
   Dir.glob("../_posts/*.html") do |dayone_post|
     info = YAML.load_file(dayone_post)
     if info['layout'] == 'city'
-      $regions[standardize_tag(info['country'])] = info['country']
-      $spots[standardize_tag(info['city'])] = info['city']
+      standardized_country = standardize_tag(info['country'])
+      standardized_city = standardize_tag(info['city'])
+
+      $regions[standardized_country] = info['country']
+      $spots[standardized_city] = info['city']
+
+      if (not $tag_to_display_string.has_key?(standardized_country)) || (not $tag_to_display_string.has_key?(standardized_city))
+        if not $tag_to_display_string.has_key?(standardized_country)
+          $tag_to_display_string[standardized_country] = info['country']
+          if info['country'] != 'Galapagos Islands'
+            countries_visited += 1
+          end
+        end
+        $tag_to_display_string[standardized_city] = info['city'] + ", " + info['country']
+        number_of_locations += 1
+      end
 
       if info.has_key?('elevation')
         if spot_highest_elevation_tag.nil? || info['elevation'] > spot_highest_elevation
@@ -117,7 +133,9 @@ if any_dayone_modified
 
     if info['tags']
       info['tags'].each do |tag|
-        $tag_to_display_string[standardize_tag(tag)] = tag
+        if not $tag_to_display_string.has_key?(standardize_tag(tag))
+          $tag_to_display_string[standardize_tag(tag)] = tag
+        end
       end
     end
   end
@@ -130,6 +148,10 @@ if any_dayone_modified
   spot_most_photos = nil
   tag_most_entries = nil
   tag_most_photos = nil
+  spot_coldest_temperature = nil
+  spot_coldest_temperature_tag = nil
+  spot_hottest_temperature = nil
+  spot_hottest_temperature_tag = nil
 
   Dir.glob(dayonepath + "/entries/*.doentry") do |dayone_entry|
     doc = Plist::parse_xml(dayone_entry)
@@ -153,7 +175,23 @@ if any_dayone_modified
       end
 
       doc['Tags'].each do |tag|
-        $tag_to_display_string[standardize_tag(tag)] = tag
+        if not $tag_to_display_string.has_key?(standardize_tag(tag))
+          $tag_to_display_string[standardize_tag(tag)] = tag
+        end
+
+        if doc.has_key?('Weather') && doc['Weather'].has_key?('Celsius')
+          # Calculate weather info
+          if is_spot(tag)
+            if spot_coldest_temperature_tag.nil? || doc['Weather']['Celsius'].to_f < spot_coldest_temperature
+              spot_coldest_temperature_tag = standardize_tag(tag)
+              spot_coldest_temperature = doc['Weather']['Celsius'].to_f
+            end
+            if spot_hottest_temperature_tag.nil? || doc['Weather']['Celsius'].to_f > spot_hottest_temperature
+              spot_hottest_temperature_tag = standardize_tag(tag)
+              spot_hottest_temperature = doc['Weather']['Celsius'].to_f
+            end
+          end
+        end
       end
     end
   end
@@ -209,6 +247,12 @@ if any_dayone_modified
     'spot_highest_elevation_tag' => spot_highest_elevation_tag,
     'spot_lowest_elevation' => spot_lowest_elevation,
     'spot_lowest_elevation_tag' => spot_lowest_elevation_tag,
+    'spot_coldest_temperature' => spot_coldest_temperature,
+    'spot_coldest_temperature_tag' => spot_coldest_temperature_tag,
+    'spot_hottest_temperature' => spot_hottest_temperature,
+    'spot_hottest_temperature_tag' => spot_hottest_temperature_tag,
+    'number_of_locations' => number_of_locations,
+    'countries_visited' => countries_visited,
   }
 
   File.open("../_data/dayone_stats.yml","w") do |f|
