@@ -70,13 +70,13 @@ scuba_stickers: SCUBA Stickers
 preamble: Preamble
 food: Food
 hostels: Hostels
+lodging: Lodging
 hot_sauces: Hot Sauces
 boating: Boating
 flights: Flights
 graffiti: Graffiti
 uruguay: Uruguay
 punta_del_este: Punta del Este
-museum: Museum
 would_go_back_if_starving: Would go back if starving
 hotels: Hotels
 geocaching: Geocaching
@@ -102,6 +102,7 @@ dominical: Dominical
 pasto: Pasto
 andermatt: Andermatt
 switzerland: Switzerland
+museum: Museum
 menu: Menu
 book: Book
 nimbus: Nimbus

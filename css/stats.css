@@ -73,10 +73,34 @@ iframe {
   color: #dde;
 }
 
-#dashboard dl {
+#locations {
   color: #dde;
+  margin-top: 60px;
   -moz-column-width: 12em;
        -moz-columns: 12em;
     -webkit-columns: 12em;
             columns: 12em;
+     -moz-column-gap:20px;
+  -webkit-column-gap:20px;
+          column-gap:20px;
+}
+
+#locations .location {
+  color: #dde;
+  margin-bottom: 20px;
+  -webkit-column-break-inside: avoid;
+                 break-inside: avoid;
+}
+
+#locations .location dt {
+  font-weight: normal;
+  font-size: 20px;
+  line-height: normal;
+}
+
+#locations .location dd {
+  font-weight: normal;
+  margin: 0;
+  line-height: normal;
+  color: #aab;
 }

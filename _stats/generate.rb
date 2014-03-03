@@ -152,11 +152,14 @@ if any_dayone_modified
   spot_coldest_temperature_tag = nil
   spot_hottest_temperature = nil
   spot_hottest_temperature_tag = nil
+  words_written = 0
 
   Dir.glob(dayonepath + "/entries/*.doentry") do |dayone_entry|
     doc = Plist::parse_xml(dayone_entry)
 
     has_pic = File.exist?(dayonepath + "/photos/" + doc['UUID'] + ".jpg")
+
+    words_written += doc['Entry Text'].split.size
 
     # Calculate tag totals
     if doc['Tags']
@@ -166,12 +169,12 @@ if any_dayone_modified
           dayonetag_photo_counts[standardize_tag(tag)] ||= 0
           dayonetag_photo_counts[standardize_tag(tag)] += 1
         end
-      else
-        doc['Tags'].each do |tag|
-          # Number of non-photo entries per tag
-          dayonetag_counts[standardize_tag(tag)] ||= 0
-          dayonetag_counts[standardize_tag(tag)] += 1
-        end
+      end
+
+      doc['Tags'].each do |tag|
+        # Number of non-photo entries per tag
+        dayonetag_counts[standardize_tag(tag)] ||= 0
+        dayonetag_counts[standardize_tag(tag)] += 1
       end
 
       doc['Tags'].each do |tag|
@@ -253,6 +256,7 @@ if any_dayone_modified
     'spot_hottest_temperature_tag' => spot_hottest_temperature_tag,
     'number_of_locations' => number_of_locations,
     'countries_visited' => countries_visited,
+    'words_written' => words_written,
   }
 
   File.open("../_data/dayone_stats.yml","w") do |f|
