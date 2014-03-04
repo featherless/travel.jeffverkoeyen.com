@@ -2,14 +2,14 @@
 peru: 277
 puno: 52
 san_pedro_de_atacama: 18
-chile: 86
+chile: 152
 galapagos_islands: 84
 ecuador: 99
 scuba: 34
 isla_santa_cruz: 39
 colombia: 65
 cartagena: 14
-restaurants: 68
+restaurants: 69
 casado: 13
 would_not_go_back: 9
 lares_trek: 101
@@ -34,7 +34,7 @@ atacama_desert: 22
 bocas_del_toro: 7
 panama: 8
 abancay: 3
-food: 11
+food: 12
 hot_sauces: 8
 isla_isabella: 21
 boating: 4
@@ -42,8 +42,8 @@ valle_de_la_luna: 13
 machu_picchu: 47
 beachin: 1
 cartagena_newyears: 13
-valparaiso: 34
-graffiti: 25
+valparaiso: 96
+graffiti: 73
 ollantaytambo: 12
 bussing: 15
 caldera: 9
@@ -72,6 +72,7 @@ snorkelling: 7
 cusco: 11
 sushi: 2
 uyuni: 8
+vina_del_mar: 4
 pizza: 2
 salsa: 1
 bars: 1

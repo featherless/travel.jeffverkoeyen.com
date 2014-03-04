@@ -9,8 +9,8 @@ spot_most_photos: lares_trek
 spot_most_photos_count: 101
 tag_most_entries: restaurants
 tag_most_entries_count: 127
-tag_most_photos: restaurants
-tag_most_photos_count: 68
+tag_most_photos: graffiti
+tag_most_photos_count: 73
 spot_highest_elevation: 5000
 spot_highest_elevation_tag: uyuni_salt_flats
 spot_lowest_elevation: -30
@@ -22,3 +22,6 @@ spot_hottest_temperature_tag: samara
 number_of_locations: 39
 countries_visited: 7
 words_written: 51571
+bus_rides: 22
+bus_time_hours: 118
+bus_time_minutes: 8

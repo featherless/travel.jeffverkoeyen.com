@@ -1,27 +1,27 @@
 ---
-water: 60
-food: 411
+water: 61
+food: 421
 cali: 56
 colombia: 196
 puno: 44
 peru: 220
 la paz: 27
 bolivia: 97
-restaurant: 166
-dinner: 77
+restaurant: 168
+dinner: 80
 lunch: 53
 pineapples: 1
 medellin: 49
 insurance: 2
 cartagena: 87
-valparaiso: 10
-chile: 102
-souvenir: 24
+valparaiso: 20
+chile: 118
+souvenir: 25
 galapagos islands: 104
 ecuador: 132
 isla san cristobal: 24
 breakfast: 19
-medical: 15
+medical: 16
 copacabana: 11
 hygiene: 27
 san pedro de atacama: 48
@@ -30,24 +30,26 @@ loan: 43
 casado: 45
 san jose: 2
 costa rica: 8
-lodging: 40
-transport: 98
+lodging: 41
+transport: 102
 taxi: 60
 uyuni salt flats: 13
 sucre: 21
-la serena: 20
+la serena: 22
 cusco: 45
 groceries: 15
 machu picchu: 19
 bathroom: 11
 banana: 1
 isla santa cruz: 47
+vina del mar: 2
 potosi: 9
 guayaquil: 15
 isla isabella: 28
 uyuni: 11
 tour: 9
-elevator: 1
+elevator: 2
+public transport: 2
 tuk tuk: 2
 airport food: 7
 phone: 2
@@ -59,13 +61,13 @@ lima: 43
 candy: 1
 cusco post-mapi: 24
 andahuaylas: 16
-bus: 19
+bus: 20
 quito: 10
-credit card: 21
+credit card: 26
 tips: 10
 ayacucho: 16
 tea: 2
-fast food: 15
+fast food: 16
 plane: 5
 pizza: 3
 movie: 1
@@ -108,6 +110,7 @@ thai: 1
 park: 2
 hot sauce: 1
 kombucha: 1
+cookie: 1
 muffin: 1
 greek: 1
 shuttles: 1

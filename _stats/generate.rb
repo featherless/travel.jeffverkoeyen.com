@@ -153,6 +153,8 @@ if any_dayone_modified
   spot_hottest_temperature = nil
   spot_hottest_temperature_tag = nil
   words_written = 0
+  bus_rides = 0
+  bus_time_minutes = 0
 
   Dir.glob(dayonepath + "/entries/*.doentry") do |dayone_entry|
     doc = Plist::parse_xml(dayone_entry)
@@ -160,6 +162,15 @@ if any_dayone_modified
     has_pic = File.exist?(dayonepath + "/photos/" + doc['UUID'] + ".jpg")
 
     words_written += doc['Entry Text'].split.size
+
+    results = /Total bus time \| ([0-9]+):([0-9]+)/.match(doc['Entry Text'])
+    if results
+      bus_rides += 1
+      results = results[0].scan(/([0-9]+)/)
+      hours = results[0][0].to_i
+      minutes = results[1][0].to_i
+      bus_time_minutes += hours * 60 + minutes
+    end
 
     # Calculate tag totals
     if doc['Tags']
@@ -257,6 +268,9 @@ if any_dayone_modified
     'number_of_locations' => number_of_locations,
     'countries_visited' => countries_visited,
     'words_written' => words_written,
+    'bus_rides' => bus_rides,
+    'bus_time_hours' => bus_time_minutes / 60,
+    'bus_time_minutes' => bus_time_minutes % 60,
   }
 
   File.open("../_data/dayone_stats.yml","w") do |f|
