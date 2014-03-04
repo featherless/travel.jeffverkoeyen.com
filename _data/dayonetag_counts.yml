@@ -1,7 +1,7 @@
 ---
 england: 3
 yorkshire: 1
-travel_planning: 101
+travel_planning: 102
 bocas_del_toro: 13
 panama: 15
 beachin: 2
@@ -10,14 +10,14 @@ currency: 8
 peru: 340
 puno: 62
 san_pedro_de_atacama: 24
-chile: 112
+chile: 179
 galapagos_islands: 95
 ecuador: 118
 scuba: 37
 isla_santa_cruz: 45
 colombia: 105
 cartagena: 25
-restaurants: 126
+restaurants: 127
 casado: 24
 would_not_go_back: 21
 introduction: 1
@@ -47,7 +47,7 @@ isla_san_cristobal: 29
 uyuni_train_graveyard: 6
 atacama_desert: 22
 abancay: 5
-food: 12
+food: 13
 hostels: 24
 lodging: 39
 hot_sauces: 8
@@ -58,8 +58,8 @@ valle_de_la_luna: 14
 samara: 17
 flights: 5
 cartagena_newyears: 15
-valparaiso: 41
-graffiti: 25
+valparaiso: 104
+graffiti: 73
 ollantaytambo: 14
 uruguay: 1
 punta_del_este: 1
@@ -74,6 +74,7 @@ documentation: 2
 aguas_calientes: 5
 tahiti: 1
 french_polynesia: 1
+earthquake: 1
 hikes: 6
 antarctica: 1
 la_fortuna: 9
@@ -92,7 +93,7 @@ dancing: 2
 hospital: 1
 south_africa: 1
 cape_town: 1
-vina_del_mar: 1
+vina_del_mar: 5
 dominical: 1
 pasto: 1
 andermatt: 1
@@ -121,6 +122,7 @@ australia: 3
 pizza: 3
 salsa: 1
 bars: 1
+tasmania: 1
 organic: 1
 wellington: 1
 philippines: 1
