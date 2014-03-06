@@ -53,6 +53,7 @@ caldera: Caldera, Chile
 copiapo: Copiapó‎, Chile
 la_serena: La Serena, Chile
 valparaiso: Valparaíso, Chile
+santiago: Santiago, Chile
 england: England
 yorkshire: Yorkshire
 travel_planning: Travel Planning
@@ -81,11 +82,14 @@ would_go_back_if_starving: Would go back if starving
 hotels: Hotels
 geocaching: Geocaching
 documentation: Documentation
+protip: Protip
+easter_island: Easter Island
 tahiti: Tahiti
 french_polynesia: French Polynesia
 earthquake: Earthquake
 hikes: Hikes
 antarctica: Antarctica
+samoa: Samoa
 yasuni: Yasuni
 manizales: Manizales
 sao_paulo: Sao Paulo
@@ -127,6 +131,7 @@ salsa: Salsa
 bars: Bars
 tasmania: Tasmania
 organic: Organic
+map: Map
 wellington: Wellington
 philippines: Philippines
 vietnam: Vietnam
@@ -152,9 +157,9 @@ indian: Indian
 mexican: Mexican
 indonesia: Indonesia
 bali: Bali
+mail: Mail
 umea: Umea
 sweden: Sweden
-mail: Mail
 nazca: Nazca
 albania: Albania
 cairns: Cairns
@@ -164,6 +169,9 @@ huaraz: Huaraz
 artwork: Artwork
 christchurch: Christchurch
 real_estate: Real Estate
+honiara: Honiara
+solomon_islands: Solomon Islands
+tonga: Tonga
 notes: Notes
 croatia: Croatia
 varazdin: Varazdin
@@ -179,6 +187,8 @@ greece: Greece
 athens: Athens
 cambodia: Cambodia
 siem_reap: Siem Reap
+fiji: Fiji
+moorea: Moorea
 ushuaia: Ushuaia
 rio_de_janeiro: Rio de Janeiro
 clothing: Clothing
@@ -186,6 +196,7 @@ perth: Perth
 buenos_aires: Buenos Aires
 kombucha: Kombucha
 cookies: Cookies
+cook_islands: Cook Islands
 bogota: Bogota
 cartmel: Cartmel
 singapore: Singapore
@@ -198,14 +209,13 @@ iguazu_falls: Iguazu Falls
 paracas: Paracas
 curitiba: Curitiba
 gelato: Gelato
-santiago: Santiago
+vanuatu: Vanuatu
 krabi: Krabi
 thailand: Thailand
 ethiopia: Ethiopia
 addis_ababa: Addis Ababa
 arica: Arica
 scotland: Scotland
-easter_island: Easter Island
 ishigaki: Ishigaki
 yogyakarta: Yogyakarta
 nelson: Nelson

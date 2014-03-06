@@ -2,7 +2,7 @@
 peru: 277
 puno: 52
 san_pedro_de_atacama: 18
-chile: 152
+chile: 154
 galapagos_islands: 84
 ecuador: 99
 scuba: 34
@@ -23,7 +23,7 @@ cusco_post_mapi: 8
 sucre: 6
 bolivia: 71
 andahuaylas: 7
-preamble: 41
+preamble: 42
 medellin: 26
 isla_san_cristobal: 27
 tours: 42
@@ -77,6 +77,8 @@ pizza: 2
 salsa: 1
 bars: 1
 dancing: 1
+santiago: 2
+map: 1
 train: 2
 church: 3
 potosi: 2

@@ -1,7 +1,7 @@
 ---
 england: 3
 yorkshire: 1
-travel_planning: 102
+travel_planning: 110
 bocas_del_toro: 13
 panama: 15
 beachin: 2
@@ -10,14 +10,14 @@ currency: 8
 peru: 340
 puno: 62
 san_pedro_de_atacama: 24
-chile: 179
+chile: 189
 galapagos_islands: 95
 ecuador: 118
 scuba: 37
 isla_santa_cruz: 45
 colombia: 105
 cartagena: 25
-restaurants: 127
+restaurants: 130
 casado: 24
 would_not_go_back: 21
 introduction: 1
@@ -29,7 +29,7 @@ tours: 52
 festival: 32
 machu_picchu: 56
 caldera: 12
-bussing: 33
+bussing: 34
 copiapo: 5
 vegan: 2
 puerto_viejo: 16
@@ -39,7 +39,7 @@ la_serena: 18
 cusco_post_mapi: 11
 sucre: 11
 andahuaylas: 9
-preamble: 45
+preamble: 46
 uyuni: 10
 medellin: 34
 monteverde: 18
@@ -58,8 +58,9 @@ valle_de_la_luna: 14
 samara: 17
 flights: 5
 cartagena_newyears: 15
-valparaiso: 104
+valparaiso: 105
 graffiti: 73
+santiago: 11
 ollantaytambo: 14
 uruguay: 1
 punta_del_este: 1
@@ -71,6 +72,8 @@ would_go_back_if_starving: 27
 hotels: 15
 geocaching: 7
 documentation: 2
+protip: 1
+easter_island: 2
 aguas_calientes: 5
 tahiti: 1
 french_polynesia: 1
@@ -78,6 +81,7 @@ earthquake: 1
 hikes: 6
 antarctica: 1
 la_fortuna: 9
+samoa: 1
 yasuni: 1
 manizales: 1
 sao_paulo: 1
@@ -98,7 +102,7 @@ dominical: 1
 pasto: 1
 andermatt: 1
 switzerland: 1
-museum: 3
+museum: 4
 menu: 2
 book: 1
 nimbus: 2
@@ -124,6 +128,7 @@ salsa: 1
 bars: 1
 tasmania: 1
 organic: 1
+map: 1
 wellington: 1
 philippines: 1
 vietnam: 1
@@ -150,10 +155,10 @@ indian: 2
 mexican: 2
 indonesia: 2
 bali: 1
+mail: 2
 panama_city: 1
 umea: 1
 sweden: 1
-mail: 1
 nazca: 1
 albania: 1
 guayaquil: 12
@@ -164,6 +169,9 @@ huaraz: 1
 artwork: 1
 christchurch: 1
 real_estate: 1
+honiara: 1
+solomon_islands: 2
+tonga: 1
 notes: 1
 croatia: 1
 varazdin: 1
@@ -179,6 +187,8 @@ greece: 1
 athens: 1
 cambodia: 1
 siem_reap: 1
+fiji: 1
+moorea: 1
 ushuaia: 1
 rio_de_janeiro: 1
 clothing: 1
@@ -186,6 +196,7 @@ perth: 1
 buenos_aires: 1
 kombucha: 1
 cookies: 1
+cook_islands: 1
 bogota: 1
 cartmel: 1
 singapore: 1
@@ -198,14 +209,13 @@ iguazu_falls: 1
 paracas: 1
 curitiba: 1
 gelato: 1
-santiago: 1
+vanuatu: 1
 krabi: 1
 thailand: 1
 ethiopia: 1
 addis_ababa: 1
 arica: 1
 scotland: 1
-easter_island: 1
 ishigaki: 1
 yogyakarta: 1
 nelson: 1

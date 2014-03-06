@@ -1,45 +1,45 @@
 ---
-water: 61
-food: 421
+water: 62
+food: 438
 cali: 56
 colombia: 196
 puno: 44
 peru: 220
 la paz: 27
 bolivia: 97
-restaurant: 168
-dinner: 80
-lunch: 53
+restaurant: 173
+dinner: 83
+lunch: 55
 pineapples: 1
 medellin: 49
 insurance: 2
 cartagena: 87
-valparaiso: 20
-chile: 118
+valparaiso: 34
+chile: 153
 souvenir: 25
 galapagos islands: 104
 ecuador: 132
 isla san cristobal: 24
-breakfast: 19
+breakfast: 20
 medical: 16
 copacabana: 11
-hygiene: 27
+hygiene: 28
 san pedro de atacama: 48
-clothing: 19
-loan: 43
+clothing: 21
+loan: 44
 casado: 45
 san jose: 2
 costa rica: 8
-lodging: 41
-transport: 102
-taxi: 60
+lodging: 42
+transport: 110
+taxi: 61
 uyuni salt flats: 13
 sucre: 21
-la serena: 22
+la serena: 24
 cusco: 45
-groceries: 15
+groceries: 18
 machu picchu: 19
-bathroom: 11
+bathroom: 12
 banana: 1
 isla santa cruz: 47
 vina del mar: 2
@@ -48,12 +48,12 @@ guayaquil: 15
 isla isabella: 28
 uyuni: 11
 tour: 9
-elevator: 2
-public transport: 2
+elevator: 4
+public transport: 6
 tuk tuk: 2
 airport food: 7
 phone: 2
-mail: 6
+mail: 9
 alcohol: 19
 caldera: 13
 internet: 4
@@ -63,13 +63,14 @@ cusco post-mapi: 24
 andahuaylas: 16
 bus: 20
 quito: 10
-credit card: 26
+credit card: 37
 tips: 10
 ayacucho: 16
 tea: 2
 fast food: 16
-plane: 5
+plane: 6
 pizza: 3
+santiago: 21
 movie: 1
 copiapo: 4
 gift: 3
@@ -78,12 +79,13 @@ cover: 6
 fun: 8
 boat: 3
 bogota: 1
-burning man: 6
+burning man: 7
 sushi: 5
 coffee: 6
 fort lauderdale: 1
 florida: 1
 united states: 1
+bananas: 2
 tax: 4
 aguas calientes: 2
 laundry: 8
@@ -97,11 +99,11 @@ scuba: 4
 burritos: 1
 ollantaytambo: 5
 chinese: 1
+chocolate: 1
 storage: 2
 electronics: 2
-museum: 1
+museum: 3
 tip: 1
-santiago: 2
 burgers: 3
 avocado: 1
 zoo: 1
