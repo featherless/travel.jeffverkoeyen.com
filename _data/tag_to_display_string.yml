@@ -55,6 +55,8 @@ la_serena: La Serena, Chile
 valparaiso: Valparaíso, Chile
 santiago: Santiago, Chile
 easter_island: Easter Island, Chile
+french_polynesia: French Polynesia
+moorea: Mo'orea, French Polynesia
 england: England
 yorkshire: Yorkshire
 travel_planning: Travel Planning
@@ -85,7 +87,6 @@ geocaching: Geocaching
 documentation: Documentation
 protip: Protip
 tahiti: Tahiti
-french_polynesia: French Polynesia
 earthquake: Earthquake
 hikes: Hikes
 antarctica: Antarctica
@@ -190,7 +191,6 @@ athens: Athens
 cambodia: Cambodia
 siem_reap: Siem Reap
 fiji: Fiji
-moorea: Moorea
 ushuaia: Ushuaia
 rio_de_janeiro: Rio de Janeiro
 clothing: Clothing

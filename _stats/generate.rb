@@ -161,7 +161,9 @@ if any_dayone_modified
 
     has_pic = File.exist?(dayonepath + "/photos/" + doc['UUID'] + ".jpg")
 
-    words_written += doc['Entry Text'].split.size
+    text = doc['Entry Text']
+    text = text.gsub /^>.*/, ''
+    words_written += text.split.size
 
     results = /Total bus time \| ([0-9]+):([0-9]+)/.match(doc['Entry Text'])
     if results
