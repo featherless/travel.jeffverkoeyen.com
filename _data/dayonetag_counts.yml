@@ -1,7 +1,7 @@
 ---
 england: 3
 yorkshire: 1
-travel_planning: 110
+travel_planning: 112
 bocas_del_toro: 13
 panama: 15
 beachin: 2
@@ -10,22 +10,23 @@ currency: 8
 peru: 340
 puno: 62
 san_pedro_de_atacama: 24
-chile: 191
+chile: 286
 galapagos_islands: 95
 ecuador: 118
 scuba: 37
 isla_santa_cruz: 45
 colombia: 105
 cartagena: 25
-restaurants: 130
+restaurants: 132
 casado: 24
 would_not_go_back: 21
+easter_island: 86
 introduction: 1
 lares_trek: 118
 mind_blown: 27
 uyuni_salt_flats: 22
 bolivia: 100
-tours: 52
+tours: 58
 festival: 32
 machu_picchu: 56
 caldera: 12
@@ -39,7 +40,7 @@ la_serena: 18
 cusco_post_mapi: 11
 sucre: 11
 andahuaylas: 9
-preamble: 46
+preamble: 47
 uyuni: 10
 medellin: 34
 monteverde: 18
@@ -59,8 +60,8 @@ samara: 17
 flights: 5
 cartagena_newyears: 15
 valparaiso: 105
-graffiti: 73
-santiago: 12
+graffiti: 74
+santiago: 24
 ollantaytambo: 14
 uruguay: 1
 punta_del_este: 1
@@ -73,7 +74,6 @@ hotels: 15
 geocaching: 7
 documentation: 2
 protip: 1
-easter_island: 2
 aguas_calientes: 5
 tahiti: 1
 french_polynesia: 1
@@ -90,6 +90,7 @@ frankfurt: 1
 germany: 1
 la_paz: 17
 namibia: 1
+island: 6
 arequipa: 1
 potosi: 7
 isla_uros: 11
@@ -114,9 +115,11 @@ venezuela: 1
 angel_falls: 1
 ayacucho: 9
 hacking_while_travelling: 3
+map: 2
 salvador_da_bahia: 1
 sushi: 6
 snorkelling: 7
+flowers: 6
 london: 1
 greek: 1
 dubai: 1
@@ -128,7 +131,6 @@ salsa: 1
 bars: 1
 tasmania: 1
 organic: 1
-map: 1
 wellington: 1
 philippines: 1
 vietnam: 1
@@ -137,7 +139,7 @@ blog_backend: 1
 istanbul: 1
 turkey: 1
 train: 4
-church: 3
+church: 4
 china: 2
 xishuangbanna: 1
 yoga: 2
@@ -178,7 +180,7 @@ varazdin: 1
 mancora: 1
 copenhagen: 1
 netherlands: 1
-taiwan: 1
+taiwan: 2
 fernando_de_noronha: 1
 cuenca: 1
 fireworks: 1
@@ -203,12 +205,15 @@ singapore: 1
 new_caledonia: 1
 cordoba: 1
 ciudad_perdida: 1
+taipei: 1
 hampi: 1
 zoo: 2
 iguazu_falls: 1
 paracas: 1
 curitiba: 1
 gelato: 1
+bilboa: 1
+spain: 1
 vanuatu: 1
 krabi: 1
 thailand: 1

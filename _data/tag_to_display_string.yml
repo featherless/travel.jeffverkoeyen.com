@@ -54,6 +54,7 @@ copiapo: Copiapó‎, Chile
 la_serena: La Serena, Chile
 valparaiso: Valparaíso, Chile
 santiago: Santiago, Chile
+easter_island: Easter Island, Chile
 england: England
 yorkshire: Yorkshire
 travel_planning: Travel Planning
@@ -83,7 +84,6 @@ hotels: Hotels
 geocaching: Geocaching
 documentation: Documentation
 protip: Protip
-easter_island: Easter Island
 tahiti: Tahiti
 french_polynesia: French Polynesia
 earthquake: Earthquake
@@ -97,6 +97,7 @@ brazil: Brazil
 frankfurt: Frankfurt
 germany: Germany
 namibia: Namibia
+island: Island
 arequipa: Arequipa
 dancing: Dancing
 hospital: Hospital
@@ -117,9 +118,11 @@ auckland: Auckland
 new_zealand: New Zealand
 venezuela: Venezuela
 angel_falls: Angel Falls
+map: Map
 salvador_da_bahia: Salvador da Bahia
 sushi: Sushi
 snorkelling: Snorkelling
+flowers: Flowers
 london: London
 greek: Greek
 dubai: Dubai
@@ -131,7 +134,6 @@ salsa: Salsa
 bars: Bars
 tasmania: Tasmania
 organic: Organic
-map: Map
 wellington: Wellington
 philippines: Philippines
 vietnam: Vietnam
@@ -203,12 +205,15 @@ singapore: Singapore
 new_caledonia: New Caledonia
 cordoba: Cordoba
 ciudad_perdida: Ciudad Perdida
+taipei: Taipei
 hampi: Hampi
 zoo: Zoo
 iguazu_falls: Iguazu Falls
 paracas: Paracas
 curitiba: Curitiba
 gelato: Gelato
+bilboa: Bilboa
+spain: Spain
 vanuatu: Vanuatu
 krabi: Krabi
 thailand: Thailand

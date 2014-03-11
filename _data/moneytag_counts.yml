@@ -1,21 +1,22 @@
 ---
 water: 62
-food: 438
+food: 447
 cali: 56
 colombia: 196
+groceries: 61
 puno: 44
 peru: 220
 la paz: 27
 bolivia: 97
-restaurant: 173
-dinner: 83
+restaurant: 174
+dinner: 84
 lunch: 55
 pineapples: 1
 medellin: 49
 insurance: 2
 cartagena: 87
 valparaiso: 34
-chile: 153
+chile: 155
 souvenir: 25
 galapagos islands: 104
 ecuador: 132
@@ -37,7 +38,6 @@ uyuni salt flats: 13
 sucre: 21
 la serena: 24
 cusco: 45
-groceries: 18
 machu picchu: 19
 bathroom: 12
 banana: 1
@@ -78,6 +78,7 @@ abancay: 5
 cover: 6
 fun: 8
 boat: 3
+papaya: 8
 bogota: 1
 burning man: 7
 sushi: 5
@@ -96,6 +97,7 @@ gelato: 1
 atm: 2
 train: 7
 scuba: 4
+easter island: 2
 burritos: 1
 ollantaytambo: 5
 chinese: 1
@@ -116,5 +118,4 @@ cookie: 1
 muffin: 1
 greek: 1
 shuttles: 1
-papaya: 1
 departure tax: 1
