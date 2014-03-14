@@ -1,39 +1,39 @@
 ---
-water: 62
-food: 447
+water: 68
+food: 492
 cali: 56
 colombia: 196
-groceries: 61
+groceries: 90
 puno: 44
 peru: 220
 la paz: 27
 bolivia: 97
-restaurant: 174
-dinner: 84
-lunch: 55
+restaurant: 184
+dinner: 90
+lunch: 57
 pineapples: 1
 medellin: 49
-insurance: 2
+insurance: 3
 cartagena: 87
-valparaiso: 34
-chile: 155
-souvenir: 25
+valparaiso: 35
+chile: 201
+souvenir: 27
 galapagos islands: 104
 ecuador: 132
 isla san cristobal: 24
-breakfast: 20
-medical: 16
+breakfast: 21
+medical: 18
 copacabana: 11
-hygiene: 28
+hygiene: 32
 san pedro de atacama: 48
 clothing: 21
-loan: 44
+loan: 46
 casado: 45
 san jose: 2
 costa rica: 8
-lodging: 42
-transport: 110
-taxi: 61
+lodging: 45
+transport: 116
+taxi: 62
 uyuni salt flats: 13
 sucre: 21
 la serena: 24
@@ -43,13 +43,17 @@ bathroom: 12
 banana: 1
 isla santa cruz: 47
 vina del mar: 2
+moorea: 18
+french polynesia: 24
 potosi: 9
 guayaquil: 15
 isla isabella: 28
 uyuni: 11
-tour: 9
-elevator: 4
-public transport: 6
+tour: 10
+credit card: 53
+elevator: 5
+public transport: 9
+santiago: 38
 tuk tuk: 2
 airport food: 7
 phone: 2
@@ -58,60 +62,61 @@ alcohol: 19
 caldera: 13
 internet: 4
 lima: 43
+papeete: 5
+tahiti: 5
 candy: 1
 cusco post-mapi: 24
 andahuaylas: 16
 bus: 20
+easter island: 30
+japanese: 1
 quito: 10
-credit card: 37
-tips: 10
+tips: 11
 ayacucho: 16
 tea: 2
 fast food: 16
 plane: 6
 pizza: 3
-santiago: 21
 movie: 1
 copiapo: 4
-gift: 3
+gift: 5
 abancay: 5
 cover: 6
-fun: 8
-boat: 3
-papaya: 8
+fun: 9
+boat: 4
+papaya: 15
 bogota: 1
-burning man: 7
+burning man: 8
+park: 3
 sushi: 5
-coffee: 6
+sunscreen: 1
+coffee: 7
 fort lauderdale: 1
 florida: 1
 united states: 1
 bananas: 2
 tax: 4
 aguas calientes: 2
-laundry: 8
+laundry: 9
+chocolate: 2
+avocado: 2
 indian: 1
 bike: 2
-rental: 2
+rental: 3
 gelato: 1
 atm: 2
 train: 7
 scuba: 4
-easter island: 2
 burritos: 1
 ollantaytambo: 5
 chinese: 1
-chocolate: 1
 storage: 2
 electronics: 2
 museum: 3
-tip: 1
 burgers: 3
-avocado: 1
 zoo: 1
 samara: 3
 thai: 1
-park: 2
 hot sauce: 1
 kombucha: 1
 cookie: 1

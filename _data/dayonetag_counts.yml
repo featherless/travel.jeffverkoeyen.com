@@ -17,10 +17,12 @@ scuba: 37
 isla_santa_cruz: 45
 colombia: 105
 cartagena: 25
-restaurants: 133
+restaurants: 134
 casado: 24
 would_not_go_back: 21
 easter_island: 90
+moorea: 27
+french_polynesia: 28
 introduction: 1
 lares_trek: 118
 mind_blown: 27
@@ -49,7 +51,7 @@ uyuni_train_graveyard: 6
 atacama_desert: 22
 abancay: 5
 food: 14
-hostels: 25
+hostels: 26
 lodging: 39
 hot_sauces: 8
 copacabana: 15
@@ -68,7 +70,6 @@ punta_del_este: 1
 lima: 29
 cusco: 16
 cali: 26
-moorea: 2
 quito: 10
 would_go_back_if_starving: 27
 hotels: 15
@@ -77,7 +78,6 @@ documentation: 2
 protip: 1
 aguas_calientes: 5
 tahiti: 1
-french_polynesia: 1
 earthquake: 2
 hikes: 6
 antarctica: 1
