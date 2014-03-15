@@ -3,19 +3,26 @@ layout: default
 title: Blog
 ---
 
+<div class="container-narrow">
+  <h1>I'm travelling the world,</h1>
+  <p>
+    Below you'll find plenty of pictures taken on my weathered iPhone 4S.
+  </p>
+</div>
+
 <div id="bloglist">
 {% for post in site.posts %}
-	<div class="post">
-	{% if post.dayone_preamble.pic_url %}    
-	  <div class="background"><a href="{{ post.url }}"><img src="{{ post.dayone_preamble.pic_url }}" /></a></div>
-	  <div class="title background-title"><a href="{{ post.url }}">{{ post.title }}</a>
-	    <div class="date">{{ post.date | date_to_string }}</div>
-	  </div>
-	{% else %}
-	  <div class="title text-title"><a href="{{ post.url }}">{{ post.title }}</a>
-	    <div class="date">{{ post.date | date_to_string }}</div>
-	  </div>
-	{% endif %}
-	</div>
+  <div class="post">
+  {% if post.dayone_preamble.pic_url %}    
+    <div class="background"><a href="{{ post.url }}"><img src="{{ post.dayone_preamble.pic_url }}" /></a></div>
+    <div class="title background-title"><a href="{{ post.url }}">{{ post.title }}</a>
+      <div class="date">{{ post.date | date_to_string }}</div>
+    </div>
+  {% else %}
+    <div class="title text-title"><a href="{{ post.url }}">{{ post.title }}</a>
+      <div class="date">{{ post.date | date_to_string }}</div>
+    </div>
+  {% endif %}
+  </div>
 {% endfor %} 
 </div> <!-- /container-narrow -->
