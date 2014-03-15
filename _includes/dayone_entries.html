@@ -105,7 +105,9 @@
         <div class="photonly_picandcontent">
           <img src="{{ dayone.pic_url }}" />
           <div class="photonly_content">
-            {% include dayone_content.html %}
+            <div class="photo_only_content_wrapper_pano">
+              {% include dayone_content.html %}
+            </div>
           </div>
         </div>
       </div>
@@ -122,7 +124,9 @@
         <div class="photonly_picandcontent">
           <img src="{{ dayone.pic_url }}" />
           <div class="photonly_content">
-            {% include dayone_content.html %}
+            <div class="photo_only_content_wrapper">
+              {% include dayone_content.html %}
+            </div>
           </div>
         </div>
 
