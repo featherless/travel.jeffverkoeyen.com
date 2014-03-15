@@ -45,7 +45,10 @@
 #bloglist .post .background-title {
   position: absolute;
   bottom: 0;
-  width: 100%;
+  background-color: rgba(17, 17, 17, 0.5);
+  margin-left: 50px;
+  margin-bottom: 30px;
+  padding: 10px;
 }
 
 #bloglist .post .background-title .date,
