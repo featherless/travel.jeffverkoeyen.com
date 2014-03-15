@@ -13,14 +13,18 @@ title: Blog
 <div id="bloglist">
 {% for post in site.posts %}
   <div class="post">
-  {% if post.dayone_preamble.pic_url %}    
-    <div class="background"><a href="{{ post.url }}"><img src="{{ post.dayone_preamble.pic_url }}" /></a></div>
+  {% if post.dayone_preamble.pic_url %}
+    <div class="background">
+      <div class="topshadow"></div>
+      <a href="{{ post.url }}"><img src="{{ post.dayone_preamble.pic_url }}" /></a>
+      <div class="bottomshadow"></div>
+    </div>
     <div class="title background-title"><a href="{{ post.url }}">{{ post.title }}</a>
-      <div class="date">{{ post.date | date_to_string }}</div>
+      <div class="date">days: {{ post.duration }}</div>
     </div>
   {% else %}
     <div class="title text-title"><a href="{{ post.url }}">{{ post.title }}</a>
-      <div class="date">{{ post.date | date_to_string }}</div>
+      <div class="date">days: {{ post.duration }}</div>
     </div>
   {% endif %}
   </div>

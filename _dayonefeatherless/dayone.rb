@@ -24,6 +24,7 @@ module Dayone
       extract_preamble(post)
       extract_weather(post)
       extract_elevations(post)
+      extract_duration(post)
       write_media_queries(post)
     end
 
@@ -31,6 +32,16 @@ module Dayone
       calculate_long_entry(entry)
       determine_images(entry)
       calculate_panorama(entry)
+    end
+
+    def extract_duration(post)
+      if post.data.has_key?('arrivaldate') && post.data.has_key?('departuredate')
+        delta = Time.parse(post.data['departuredate']).to_i - Time.parse(post.data['arrivaldate']).to_i
+        post.data['duration'] = delta / (60 * 60 * 24) + 1
+      elsif post.data.has_key?('arrivaldate')
+        delta = Time.now.to_i - Time.parse(post.data['arrivaldate']).to_i
+        post.data['duration'] = delta / (60 * 60 * 24) + 1
+      end
     end
 
     def extract_elevations(post)
