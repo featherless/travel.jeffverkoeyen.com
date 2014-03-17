@@ -9,12 +9,12 @@ scuba: 34
 isla_santa_cruz: 39
 colombia: 65
 cartagena: 14
-restaurants: 71
+restaurants: 72
 casado: 13
 would_not_go_back: 9
 easter_island: 75
-moorea: 22
-french_polynesia: 22
+moorea: 37
+french_polynesia: 46
 lares_trek: 101
 festival: 32
 vegan: 2
@@ -26,7 +26,7 @@ cusco_post_mapi: 8
 sucre: 6
 bolivia: 71
 andahuaylas: 7
-preamble: 44
+preamble: 45
 medellin: 26
 isla_san_cristobal: 27
 tours: 42
@@ -43,13 +43,14 @@ isla_isabella: 21
 boating: 4
 valle_de_la_luna: 13
 machu_picchu: 47
+papeete: 6
 beachin: 1
 cartagena_newyears: 13
 valparaiso: 96
 graffiti: 74
 ollantaytambo: 12
 bussing: 15
-hostels: 11
+hostels: 12
 caldera: 9
 lima: 23
 santiago: 18
@@ -58,7 +59,7 @@ mind_blown: 19
 lodging: 19
 cali: 13
 would_go_back_if_starving: 16
-hotels: 10
+hotels: 11
 geocaching: 5
 samara: 7
 aguas_calientes: 2
@@ -80,6 +81,7 @@ cusco: 11
 flowers: 6
 sushi: 2
 uyuni: 8
+fakarava: 3
 pizza: 2
 salsa: 1
 bars: 1

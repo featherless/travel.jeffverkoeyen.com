@@ -57,6 +57,8 @@ santiago: Santiago, Chile
 easter_island: Easter Island, Chile
 french_polynesia: French Polynesia
 moorea: Mo'orea, French Polynesia
+papeete: Pape'ete, French Polynesia
+fakarava: Fakarava, French Polynesia
 england: England
 yorkshire: Yorkshire
 travel_planning: Travel Planning
@@ -128,6 +130,8 @@ london: London
 greek: Greek
 dubai: Dubai
 united_arab_emirates: United Arab Emirates
+lhasa: Lhasa
+tibet: Tibet
 florianopolis: Florianopolis
 australia: Australia
 pizza: Pizza
@@ -149,6 +153,7 @@ yoga: Yoga
 ica: Ica
 chennai: Chennai
 india: India
+rangiroa: Rangiroa
 tokyo: Tokyo
 japan: Japan
 vienna: Vienna
