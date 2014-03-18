@@ -1,7 +1,7 @@
 ---
 england: 3
 yorkshire: 1
-travel_planning: 115
+travel_planning: 116
 bocas_del_toro: 13
 panama: 15
 beachin: 2
@@ -10,7 +10,7 @@ currency: 8
 peru: 340
 puno: 62
 san_pedro_de_atacama: 24
-chile: 294
+chile: 299
 galapagos_islands: 95
 ecuador: 118
 scuba: 37
@@ -20,9 +20,9 @@ cartagena: 25
 restaurants: 137
 casado: 24
 would_not_go_back: 21
-easter_island: 90
-moorea: 55
-french_polynesia: 72
+easter_island: 95
+moorea: 56
+french_polynesia: 75
 introduction: 1
 lares_trek: 118
 mind_blown: 27
@@ -42,7 +42,7 @@ la_serena: 18
 cusco_post_mapi: 11
 sucre: 11
 andahuaylas: 9
-preamble: 49
+preamble: 50
 uyuni: 10
 medellin: 34
 monteverde: 18
@@ -58,7 +58,7 @@ copacabana: 15
 isla_isabella: 25
 boating: 4
 valle_de_la_luna: 14
-papeete: 12
+papeete: 13
 samara: 17
 flights: 5
 cartagena_newyears: 15
@@ -200,6 +200,7 @@ ushuaia: 1
 rio_de_janeiro: 1
 clothing: 1
 perth: 1
+bora_bora: 1
 buenos_aires: 1
 kombucha: 1
 cookies: 1

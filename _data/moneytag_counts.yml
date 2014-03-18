@@ -1,16 +1,16 @@
 ---
 water: 69
-food: 503
+food: 509
 cali: 56
 colombia: 196
-groceries: 91
+groceries: 95
 puno: 44
 peru: 220
 la paz: 27
 bolivia: 97
-restaurant: 189
+restaurant: 191
 dinner: 93
-lunch: 60
+lunch: 62
 pineapples: 1
 medellin: 49
 insurance: 3
@@ -31,15 +31,15 @@ loan: 48
 casado: 45
 san jose: 2
 costa rica: 8
-lodging: 47
-transport: 121
+lodging: 49
+transport: 122
 taxi: 62
 uyuni salt flats: 13
 sucre: 21
 la serena: 24
 cusco: 45
 moorea: 21
-french polynesia: 46
+french polynesia: 54
 foof: 1
 machu picchu: 19
 bathroom: 12
@@ -51,7 +51,7 @@ guayaquil: 15
 isla isabella: 28
 uyuni: 11
 tour: 10
-credit card: 63
+credit card: 65
 elevator: 5
 public transport: 10
 santiago: 38
@@ -72,12 +72,13 @@ bus: 20
 easter island: 30
 japanese: 1
 quito: 10
+fakarava: 11
 tips: 11
 boat: 5
 ayacucho: 16
 tea: 2
 fast food: 16
-plane: 9
+plane: 10
 pizza: 3
 movie: 1
 copiapo: 4
@@ -88,7 +89,6 @@ fun: 9
 papaya: 15
 bogota: 1
 burning man: 8
-fakarava: 3
 park: 3
 sushi: 5
 sunscreen: 1
