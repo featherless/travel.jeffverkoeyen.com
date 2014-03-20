@@ -1,6 +1,6 @@
 ---
-water: 69
-food: 509
+water: 70
+food: 511
 cali: 56
 colombia: 196
 groceries: 95
@@ -31,7 +31,7 @@ loan: 48
 casado: 45
 san jose: 2
 costa rica: 8
-lodging: 49
+lodging: 50
 transport: 122
 taxi: 62
 uyuni salt flats: 13
@@ -39,7 +39,7 @@ sucre: 21
 la serena: 24
 cusco: 45
 moorea: 21
-french polynesia: 54
+french polynesia: 58
 foof: 1
 machu picchu: 19
 bathroom: 12
@@ -51,7 +51,7 @@ guayaquil: 15
 isla isabella: 28
 uyuni: 11
 tour: 10
-credit card: 65
+credit card: 67
 elevator: 5
 public transport: 10
 santiago: 38
@@ -72,17 +72,18 @@ bus: 20
 easter island: 30
 japanese: 1
 quito: 10
-fakarava: 11
+fakarava: 12
 tips: 11
+rangiroa: 3
 boat: 5
 ayacucho: 16
 tea: 2
+gift: 7
 fast food: 16
 plane: 10
 pizza: 3
 movie: 1
 copiapo: 4
-gift: 6
 abancay: 5
 cover: 6
 fun: 9
