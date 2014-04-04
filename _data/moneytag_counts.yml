@@ -1,70 +1,75 @@
 ---
-water: 70
-food: 511
+water: 78
+food: 586
 cali: 56
 colombia: 196
-groceries: 95
+groceries: 117
+new zealand: 61
+auckland: 37
+lunch: 73
+restaurant: 220
+credit card: 121
 puno: 44
 peru: 220
 la paz: 27
 bolivia: 97
-restaurant: 191
-dinner: 93
-lunch: 62
+dinner: 107
 pineapples: 1
 medellin: 49
 insurance: 3
 cartagena: 87
-valparaiso: 35
-chile: 201
+valparaiso: 34
+chile: 200
 souvenir: 27
 galapagos islands: 104
 ecuador: 132
 isla san cristobal: 24
-breakfast: 21
-medical: 18
+breakfast: 22
+medical: 21
 copacabana: 11
-hygiene: 32
+hobbiton: 3
+hygiene: 33
 san pedro de atacama: 48
-clothing: 21
-loan: 48
+clothing: 24
+loan: 54
+gas: 7
 casado: 45
 san jose: 2
 costa rica: 8
-lodging: 50
-transport: 122
-taxi: 62
+lodging: 54
+transport: 128
+taxi: 64
 uyuni salt flats: 13
 sucre: 21
 la serena: 24
 cusco: 45
 moorea: 21
-french polynesia: 58
+french polynesia: 102
 foof: 1
 machu picchu: 19
 bathroom: 12
 banana: 1
+fakarava: 33
 isla santa cruz: 47
 vina del mar: 2
 potosi: 9
 guayaquil: 15
 isla isabella: 28
 uyuni: 11
-tour: 10
-credit card: 67
-elevator: 5
+tour: 12
+elevator: 4
 public transport: 10
 santiago: 38
 tuk tuk: 2
-airport food: 7
+airport food: 14
 phone: 2
 mail: 9
 alcohol: 19
 caldera: 13
-internet: 4
+internet: 5
 lima: 43
-papeete: 14
-tahiti: 5
+papeete: 21
+tahiti: 13
 candy: 1
 cusco post-mapi: 24
 andahuaylas: 16
@@ -72,59 +77,69 @@ bus: 20
 easter island: 30
 japanese: 1
 quito: 10
-fakarava: 12
+san francisco: 2
+california: 2
+fast food: 19
 tips: 11
-rangiroa: 3
+southland: 3
+rangiroa: 10
 boat: 5
 ayacucho: 16
 tea: 2
-gift: 7
-fast food: 16
-plane: 10
+gift: 11
+plane: 14
 pizza: 3
 movie: 1
 copiapo: 4
+scuba: 5
+northland: 3
 abancay: 5
 cover: 6
 fun: 9
-papaya: 15
+papaya: 16
+nee zealand: 1
+rental: 4
 bogota: 1
-burning man: 8
+burning man: 9
 park: 3
 sushi: 5
 sunscreen: 1
-coffee: 7
+coffee: 8
 fort lauderdale: 1
 florida: 1
 united states: 1
 bananas: 2
 tax: 4
 aguas calientes: 2
-laundry: 10
-chocolate: 2
+laundry: 11
+chocolate: 3
 avocado: 2
 indian: 1
 bike: 2
-rental: 3
 gelato: 1
 atm: 2
 train: 7
-scuba: 4
+shuttles: 2
+storage: 3
 burritos: 1
 ollantaytambo: 5
 chinese: 1
-storage: 2
-electronics: 2
+electronics: 5
 museum: 3
+cell phone: 1
 burgers: 3
+sydney: 1
+australia: 1
 clothes: 1
 zoo: 1
 samara: 3
-thai: 1
+gifts: 1
+taxes: 1
+thai: 2
 hot sauce: 1
 kombucha: 1
 cookie: 1
 muffin: 1
 greek: 1
-shuttles: 1
 departure tax: 1
+bubble tea: 1

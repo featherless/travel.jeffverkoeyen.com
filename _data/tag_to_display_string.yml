@@ -60,6 +60,11 @@ moorea: Mo'orea, French Polynesia
 papeete: Pape'ete, French Polynesia
 fakarava: Fakarava, French Polynesia
 rangiroa: Rangiroa, French Polynesia
+new_zealand: New Zealand
+auckland: Auckland, New Zealand
+northland: Northland, New Zealand
+hobbiton: Hobbiton, New Zealand
+southland: Southland, New Zealand
 england: England
 yorkshire: Yorkshire
 travel_planning: Travel Planning
@@ -90,6 +95,7 @@ geocaching: Geocaching
 documentation: Documentation
 protip: Protip
 tahiti: Tahiti
+snorkelling: Snorkelling
 earthquake: Earthquake
 hikes: Hikes
 antarctica: Antarctica
@@ -110,6 +116,7 @@ cape_town: Cape Town
 vina_del_mar: Vina del Mar
 dominical: Dominical
 pasto: Pasto
+artwork: Artwork
 andermatt: Andermatt
 switzerland: Switzerland
 museum: Museum
@@ -118,14 +125,11 @@ book: Book
 nimbus: Nimbus
 coffee: Coffee
 thai: Thai
-auckland: Auckland
-new_zealand: New Zealand
 venezuela: Venezuela
 angel_falls: Angel Falls
 map: Map
 salvador_da_bahia: Salvador da Bahia
 sushi: Sushi
-snorkelling: Snorkelling
 flowers: Flowers
 london: London
 greek: Greek
@@ -174,7 +178,6 @@ cairns: Cairns
 airports: Airports
 bangkok: Bangkok
 huaraz: Huaraz
-artwork: Artwork
 christchurch: Christchurch
 real_estate: Real Estate
 honiara: Honiara
@@ -186,6 +189,7 @@ varazdin: Varazdin
 mancora: Mancora
 copenhagen: Copenhagen
 netherlands: Netherlands
+dunedin: Dunedin
 taiwan: Taiwan
 fernando_de_noronha: Fernando de Noronha
 cuenca: Cuenca
@@ -211,6 +215,7 @@ singapore: Singapore
 new_caledonia: New Caledonia
 cordoba: Cordoba
 ciudad_perdida: Ciudad Perdida
+university: University
 taipei: Taipei
 hampi: Hampi
 zoo: Zoo
