@@ -83,8 +83,6 @@
 li {
   font-family: "calluna",serif;
   font-weight: 300;
-  font-size: 16px;
-  line-height: 24px;
 }
 
 /* Blog Post */
@@ -95,6 +93,20 @@ li {
 
 #blogpost p {
   text-align:justify;
+}
+
+h1 {
+  line-height: 56px;
+}
+
+li,
+#blogpost p {
+  font-size: 24px;
+  line-height: 36px;
+}
+
+#blogpost .container-narrow {
+  max-width: 600px;
 }
 
 #blogpost .tooltip-inner {
