@@ -65,6 +65,8 @@ auckland: Auckland, New Zealand
 northland: Northland, New Zealand
 hobbiton: Hobbiton, New Zealand
 southland: Southland, New Zealand
+auckland_hackweek: Auckland-Hackweek
+christchurch: Christchurch, New Zealand
 england: England
 yorkshire: Yorkshire
 travel_planning: Travel Planning
@@ -89,6 +91,7 @@ flights: Flights
 graffiti: Graffiti
 uruguay: Uruguay
 punta_del_este: Punta del Este
+indian: Indian
 would_go_back_if_starving: Would go back if starving
 hotels: Hotels
 geocaching: Geocaching
@@ -138,6 +141,7 @@ united_arab_emirates: United Arab Emirates
 lhasa: Lhasa
 tibet: Tibet
 florianopolis: Florianopolis
+sunset: Sunset
 australia: Australia
 pizza: Pizza
 salsa: Salsa
@@ -165,7 +169,6 @@ austria: Austria
 rosario: Rosario
 argentina: Argentina
 drinks: Drinks
-indian: Indian
 mexican: Mexican
 indonesia: Indonesia
 bali: Bali
@@ -174,11 +177,11 @@ umea: Umea
 sweden: Sweden
 nazca: Nazca
 albania: Albania
+korean: Korean
 cairns: Cairns
 airports: Airports
 bangkok: Bangkok
 huaraz: Huaraz
-christchurch: Christchurch
 real_estate: Real Estate
 honiara: Honiara
 solomon_islands: Solomon Islands
@@ -219,6 +222,7 @@ university: University
 taipei: Taipei
 hampi: Hampi
 zoo: Zoo
+concert: Concert
 iguazu_falls: Iguazu Falls
 paracas: Paracas
 curitiba: Curitiba

@@ -1,19 +1,20 @@
 ---
-water: 78
-food: 586
+water: 82
+food: 638
 cali: 56
 colombia: 196
-groceries: 117
-new zealand: 61
-auckland: 37
-lunch: 73
-restaurant: 220
-credit card: 121
+groceries: 121
+new zealand: 117
+auckland: 79
+lunch: 78
+restaurant: 242
+credit card: 205
+fast food: 37
 puno: 44
 peru: 220
 la paz: 27
 bolivia: 97
-dinner: 107
+dinner: 117
 pineapples: 1
 medellin: 49
 insurance: 3
@@ -24,122 +25,136 @@ souvenir: 27
 galapagos islands: 104
 ecuador: 132
 isla san cristobal: 24
-breakfast: 22
-medical: 21
+breakfast: 23
+medical: 27
 copacabana: 11
-hobbiton: 3
-hygiene: 33
+hobbiton: 4
+hygiene: 44
 san pedro de atacama: 48
 clothing: 24
-loan: 54
-gas: 7
+loan: 56
+gas: 8
 casado: 45
 san jose: 2
 costa rica: 8
-lodging: 54
-transport: 128
-taxi: 64
+lodging: 57
+transport: 142
+taxi: 70
 uyuni salt flats: 13
 sucre: 21
 la serena: 24
 cusco: 45
 moorea: 21
-french polynesia: 102
-foof: 1
+french polynesia: 103
 machu picchu: 19
 bathroom: 12
-banana: 1
+bananas: 4
 fakarava: 33
 isla santa cruz: 47
 vina del mar: 2
 potosi: 9
 guayaquil: 15
 isla isabella: 28
+bubble tea: 6
 uyuni: 11
 tour: 12
 elevator: 4
-public transport: 10
+public transport: 12
 santiago: 38
 tuk tuk: 2
-airport food: 14
+airport food: 24
 phone: 2
 mail: 9
-alcohol: 19
+alcohol: 20
+montreal: 37
+canada: 37
 caldera: 13
 internet: 5
 lima: 43
 papeete: 21
-tahiti: 13
+tahiti: 14
 candy: 1
 cusco post-mapi: 24
 andahuaylas: 16
-bus: 20
+bus: 22
 easter island: 30
 japanese: 1
+christchurch: 9
 quito: 10
-san francisco: 2
-california: 2
-fast food: 19
-tips: 11
+san francisco: 3
+california: 3
+washington: 19
+dc: 19
+tips: 12
 southland: 3
 rangiroa: 10
 boat: 5
 ayacucho: 16
 tea: 2
-gift: 11
-plane: 14
-pizza: 3
-movie: 1
+gift: 13
+ramen: 1
+plane: 15
+coffee: 15
+electronics: 13
+pizza: 4
+movie: 2
 copiapo: 4
 scuba: 5
 northland: 3
 abancay: 5
 cover: 6
 fun: 9
-papaya: 16
-nee zealand: 1
+papaya: 17
 rental: 4
 bogota: 1
-burning man: 9
+burning man: 10
 park: 3
 sushi: 5
 sunscreen: 1
-coffee: 8
 fort lauderdale: 1
 florida: 1
-united states: 1
-bananas: 2
+united states: 2
+parking: 4
 tax: 4
 aguas calientes: 2
-laundry: 11
-chocolate: 3
-avocado: 2
+laundry: 12
+chocolate: 4
+avocado: 3
 indian: 1
+haircut: 1
 bike: 2
+shuttles: 3
 gelato: 1
 atm: 2
+software: 1
+sydney: 2
+australia: 2
 train: 7
-shuttles: 2
 storage: 3
 burritos: 1
 ollantaytambo: 5
 chinese: 1
-electronics: 5
 museum: 3
-cell phone: 1
+cell phone: 3
+ice cream: 1
 burgers: 3
-sydney: 1
-australia: 1
+concerts: 1
+donation: 1
+idiocy: 1
 clothes: 1
 zoo: 1
+shuttle: 2
+beauty: 5
 samara: 3
-gifts: 1
 taxes: 1
-thai: 2
+thai: 3
 hot sauce: 1
+banana: 1
+bills: 1
 kombucha: 1
 cookie: 1
 muffin: 1
+tip: 1
 greek: 1
 departure tax: 1
-bubble tea: 1
+cab: 1
