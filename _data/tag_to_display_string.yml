@@ -67,6 +67,8 @@ hobbiton: Hobbiton, New Zealand
 southland: Southland, New Zealand
 auckland_hackweek: Auckland-Hackweek
 christchurch: Christchurch, New Zealand
+australia: Australia
+melbourne: Melbourne, Australia
 england: England
 yorkshire: Yorkshire
 travel_planning: Travel Planning
@@ -142,7 +144,6 @@ lhasa: Lhasa
 tibet: Tibet
 florianopolis: Florianopolis
 sunset: Sunset
-australia: Australia
 pizza: Pizza
 salsa: Salsa
 bars: Bars
@@ -236,6 +237,7 @@ ethiopia: Ethiopia
 addis_ababa: Addis Ababa
 arica: Arica
 scotland: Scotland
+ramen: Ramen
 ishigaki: Ishigaki
 yogyakarta: Yogyakarta
 nelson: Nelson
@@ -244,4 +246,5 @@ chinese: Chinese
 san_gil: San Gil
 banos: Banos
 mendoza: Mendoza
+bubble_tea: Bubble Tea
 malls: Malls

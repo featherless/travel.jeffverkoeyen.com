@@ -1,20 +1,20 @@
 ---
-water: 82
-food: 638
+water: 83
+food: 654
 cali: 56
 colombia: 196
 groceries: 121
-new zealand: 117
+new zealand: 125
 auckland: 79
-lunch: 78
-restaurant: 242
-credit card: 205
+lunch: 83
+restaurant: 254
+credit card: 226
 fast food: 37
 puno: 44
 peru: 220
 la paz: 27
 bolivia: 97
-dinner: 117
+dinner: 123
 pineapples: 1
 medellin: 49
 insurance: 3
@@ -26,28 +26,33 @@ galapagos islands: 104
 ecuador: 132
 isla san cristobal: 24
 breakfast: 23
-medical: 27
+medical: 28
 copacabana: 11
 hobbiton: 4
 hygiene: 44
 san pedro de atacama: 48
 clothing: 24
-loan: 56
+loan: 58
 gas: 8
 casado: 45
 san jose: 2
 costa rica: 8
 lodging: 57
-transport: 142
-taxi: 70
+transport: 149
+taxi: 72
 uyuni salt flats: 13
 sucre: 21
 la serena: 24
 cusco: 45
 moorea: 21
 french polynesia: 103
+melbourne: 19
+australia: 22
+alcohol: 21
 machu picchu: 19
 bathroom: 12
+cell phone: 4
+data: 1
 bananas: 4
 fakarava: 33
 isla santa cruz: 47
@@ -55,17 +60,16 @@ vina del mar: 2
 potosi: 9
 guayaquil: 15
 isla isabella: 28
-bubble tea: 6
+bubble tea: 7
 uyuni: 11
 tour: 12
 elevator: 4
 public transport: 12
 santiago: 38
 tuk tuk: 2
-airport food: 24
+airport food: 26
 phone: 2
 mail: 9
-alcohol: 20
 montreal: 37
 canada: 37
 caldera: 13
@@ -76,10 +80,10 @@ tahiti: 14
 candy: 1
 cusco post-mapi: 24
 andahuaylas: 16
-bus: 22
+bus: 25
 easter island: 30
 japanese: 1
-christchurch: 9
+christchurch: 17
 quito: 10
 san francisco: 3
 california: 3
@@ -93,8 +97,8 @@ ayacucho: 16
 tea: 2
 gift: 13
 ramen: 1
-plane: 15
-coffee: 15
+plane: 16
+coffee: 16
 electronics: 13
 pizza: 4
 movie: 2
@@ -122,20 +126,19 @@ chocolate: 4
 avocado: 3
 indian: 1
 haircut: 1
+shuttle: 3
 bike: 2
 shuttles: 3
 gelato: 1
 atm: 2
 software: 1
 sydney: 2
-australia: 2
 train: 7
 storage: 3
 burritos: 1
 ollantaytambo: 5
 chinese: 1
 museum: 3
-cell phone: 3
 ice cream: 1
 burgers: 3
 concerts: 1
@@ -143,12 +146,13 @@ donation: 1
 idiocy: 1
 clothes: 1
 zoo: 1
-shuttle: 2
 beauty: 5
 samara: 3
 taxes: 1
+food credit card: 1
 thai: 3
 hot sauce: 1
+visa: 1
 banana: 1
 bills: 1
 kombucha: 1

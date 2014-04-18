@@ -1,9 +1,9 @@
 ---
-new_zealand: 78
+new_zealand: 130
 northland: 5
 england: 3
 yorkshire: 1
-travel_planning: 117
+travel_planning: 118
 bocas_del_toro: 13
 panama: 15
 beachin: 2
@@ -19,7 +19,7 @@ scuba: 38
 isla_santa_cruz: 45
 colombia: 105
 cartagena: 25
-restaurants: 146
+restaurants: 149
 casado: 24
 would_not_go_back: 21
 easter_island: 95
@@ -45,16 +45,17 @@ la_serena: 18
 cusco_post_mapi: 11
 sucre: 11
 andahuaylas: 9
-preamble: 53
+preamble: 56
 uyuni: 10
 medellin: 34
 monteverde: 18
 isla_san_cristobal: 29
 uyuni_train_graveyard: 6
-southland: 20
+southland: 46
 atacama_desert: 22
 abancay: 5
 food: 16
+christchurch: 27
 hostels: 29
 lodging: 39
 hot_sauces: 8
@@ -63,9 +64,8 @@ isla_isabella: 25
 boating: 4
 valle_de_la_luna: 14
 papeete: 19
-christchurch: 8
 samara: 17
-flights: 6
+flights: 8
 cartagena_newyears: 15
 valparaiso: 105
 graffiti: 76
@@ -73,8 +73,8 @@ santiago: 26
 ollantaytambo: 14
 uruguay: 1
 punta_del_este: 1
-auckland: 32
 indian: 3
+auckland_hackweek: 21
 lima: 29
 cusco: 16
 cali: 26
@@ -83,17 +83,20 @@ would_go_back_if_starving: 27
 hotels: 18
 geocaching: 7
 documentation: 2
-hobbiton: 8
+hobbiton: 15
 protip: 1
 aguas_calientes: 5
 tahiti: 1
 snorkelling: 14
 earthquake: 2
 hikes: 6
+auckland: 11
 antarctica: 1
 la_fortuna: 9
 samoa: 1
 yasuni: 1
+melbourne: 7
+australia: 10
 manizales: 1
 sao_paulo: 1
 brazil: 7
@@ -138,7 +141,6 @@ lhasa: 1
 tibet: 1
 florianopolis: 1
 sunset: 1
-australia: 3
 pizza: 3
 salsa: 1
 bars: 1
@@ -235,6 +237,7 @@ ethiopia: 1
 addis_ababa: 1
 arica: 1
 scotland: 1
+ramen: 1
 ishigaki: 1
 yogyakarta: 1
 nelson: 1
@@ -243,4 +246,5 @@ chinese: 1
 san_gil: 1
 banos: 1
 mendoza: 1
+bubble_tea: 1
 malls: 1
