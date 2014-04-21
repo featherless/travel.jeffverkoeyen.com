@@ -1,9 +1,9 @@
 ---
-new_zealand: 130
+new_zealand: 129
 northland: 5
 england: 3
 yorkshire: 1
-travel_planning: 118
+travel_planning: 119
 bocas_del_toro: 13
 panama: 15
 beachin: 2
@@ -19,7 +19,7 @@ scuba: 38
 isla_santa_cruz: 45
 colombia: 105
 cartagena: 25
-restaurants: 149
+restaurants: 151
 casado: 24
 would_not_go_back: 21
 easter_island: 95
@@ -55,7 +55,7 @@ southland: 46
 atacama_desert: 22
 abancay: 5
 food: 16
-christchurch: 27
+christchurch: 26
 hostels: 29
 lodging: 39
 hot_sauces: 8
@@ -78,6 +78,8 @@ auckland_hackweek: 21
 lima: 29
 cusco: 16
 cali: 26
+sydney: 3
+australia: 14
 quito: 10
 would_go_back_if_starving: 27
 hotels: 18
@@ -95,8 +97,7 @@ antarctica: 1
 la_fortuna: 9
 samoa: 1
 yasuni: 1
-melbourne: 7
-australia: 10
+melbourne: 9
 manizales: 1
 sao_paulo: 1
 brazil: 7
@@ -159,6 +160,7 @@ china: 2
 xishuangbanna: 1
 yoga: 2
 ica: 1
+shows: 1
 chennai: 1
 india: 2
 tokyo: 1

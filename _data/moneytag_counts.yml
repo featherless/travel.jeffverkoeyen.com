@@ -1,20 +1,20 @@
 ---
 water: 83
-food: 654
+food: 681
 cali: 56
 colombia: 196
-groceries: 121
+groceries: 126
 new zealand: 125
 auckland: 79
-lunch: 83
-restaurant: 254
-credit card: 226
-fast food: 37
+lunch: 85
+restaurant: 266
+credit card: 251
+fast food: 42
 puno: 44
 peru: 220
 la paz: 27
 bolivia: 97
-dinner: 123
+dinner: 130
 pineapples: 1
 medellin: 49
 insurance: 3
@@ -25,29 +25,29 @@ souvenir: 27
 galapagos islands: 104
 ecuador: 132
 isla san cristobal: 24
-breakfast: 23
+breakfast: 27
 medical: 28
 copacabana: 11
 hobbiton: 4
 hygiene: 44
 san pedro de atacama: 48
-clothing: 24
+clothing: 26
 loan: 58
 gas: 8
 casado: 45
 san jose: 2
 costa rica: 8
-lodging: 57
-transport: 149
-taxi: 72
+melbourne: 45
+australia: 56
+transport: 154
+taxi: 76
+lodging: 59
 uyuni salt flats: 13
 sucre: 21
 la serena: 24
 cusco: 45
 moorea: 21
 french polynesia: 103
-melbourne: 19
-australia: 22
 alcohol: 21
 machu picchu: 19
 bathroom: 12
@@ -56,22 +56,25 @@ data: 1
 bananas: 4
 fakarava: 33
 isla santa cruz: 47
+sydney: 9
 vina del mar: 2
+fun: 10
+show: 1
 potosi: 9
 guayaquil: 15
 isla isabella: 28
-bubble tea: 7
+bubble tea: 8
 uyuni: 11
 tour: 12
 elevator: 4
 public transport: 12
 santiago: 38
 tuk tuk: 2
-airport food: 26
+airport food: 28
 phone: 2
 mail: 9
-montreal: 37
-canada: 37
+montreal: 43
+canada: 43
 caldera: 13
 internet: 5
 lima: 43
@@ -96,10 +99,13 @@ boat: 5
 ayacucho: 16
 tea: 2
 gift: 13
+farmers market: 5
 ramen: 1
-plane: 16
+refunded: 1
+apples: 1
+plane: 17
 coffee: 16
-electronics: 13
+electronics: 14
 pizza: 4
 movie: 2
 copiapo: 4
@@ -107,7 +113,6 @@ scuba: 5
 northland: 3
 abancay: 5
 cover: 6
-fun: 9
 papaya: 17
 rental: 4
 bogota: 1
@@ -118,7 +123,8 @@ sunscreen: 1
 fort lauderdale: 1
 florida: 1
 united states: 2
-parking: 4
+parking: 6
+beauty: 9
 tax: 4
 aguas calientes: 2
 laundry: 12
@@ -126,18 +132,19 @@ chocolate: 4
 avocado: 3
 indian: 1
 haircut: 1
-shuttle: 3
+shuttle: 4
 bike: 2
 shuttles: 3
 gelato: 1
 atm: 2
 software: 1
-sydney: 2
 train: 7
 storage: 3
 burritos: 1
 ollantaytambo: 5
+travel: 1
 chinese: 1
+mexican: 1
 museum: 3
 ice cream: 1
 burgers: 3
@@ -146,19 +153,21 @@ donation: 1
 idiocy: 1
 clothes: 1
 zoo: 1
-beauty: 5
 samara: 3
 taxes: 1
+italian: 1
 food credit card: 1
-thai: 3
+thai: 4
 hot sauce: 1
 visa: 1
+dumplings: 1
+crepe: 1
 banana: 1
+tip: 2
 bills: 1
 kombucha: 1
 cookie: 1
 muffin: 1
-tip: 1
 greek: 1
 departure tax: 1
 cab: 1
