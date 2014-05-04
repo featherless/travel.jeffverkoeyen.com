@@ -70,6 +70,8 @@ christchurch: Christchurch, New Zealand
 australia: Australia
 melbourne: Melbourne, Australia
 sydney: Sydney, Australia
+brisbane: Brisbane, Australia
+cairns: Cairns, Australia
 england: England
 yorkshire: Yorkshire
 travel_planning: Travel Planning
@@ -81,6 +83,7 @@ casado: Casado
 introduction: Introduction
 tours: Tours
 festival: Festival
+sushi: Sushi
 bussing: Bussing
 vegan: Vegan
 scuba_stickers: SCUBA Stickers
@@ -115,14 +118,15 @@ germany: Germany
 namibia: Namibia
 island: Island
 arequipa: Arequipa
+artwork: Artwork
 dancing: Dancing
 hospital: Hospital
 south_africa: South Africa
 cape_town: Cape Town
+sunset: Sunset
 vina_del_mar: Vina del Mar
 dominical: Dominical
 pasto: Pasto
-artwork: Artwork
 andermatt: Andermatt
 switzerland: Switzerland
 museum: Museum
@@ -135,7 +139,6 @@ venezuela: Venezuela
 angel_falls: Angel Falls
 map: Map
 salvador_da_bahia: Salvador da Bahia
-sushi: Sushi
 flowers: Flowers
 london: London
 greek: Greek
@@ -144,13 +147,13 @@ united_arab_emirates: United Arab Emirates
 lhasa: Lhasa
 tibet: Tibet
 florianopolis: Florianopolis
-sunset: Sunset
 pizza: Pizza
 salsa: Salsa
 bars: Bars
 tasmania: Tasmania
 organic: Organic
 wellington: Wellington
+korean: Korean
 philippines: Philippines
 vietnam: Vietnam
 quang_binh: Quang Binh
@@ -180,8 +183,6 @@ umea: Umea
 sweden: Sweden
 nazca: Nazca
 albania: Albania
-korean: Korean
-cairns: Cairns
 airports: Airports
 bangkok: Bangkok
 huaraz: Huaraz

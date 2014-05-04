@@ -1,20 +1,20 @@
 ---
-water: 83
-food: 681
+water: 88
+food: 744
 cali: 56
 colombia: 196
-groceries: 126
+groceries: 143
 new zealand: 125
 auckland: 79
-lunch: 85
-restaurant: 266
-credit card: 251
-fast food: 42
+lunch: 90
+restaurant: 299
+credit card: 289
+fast food: 45
 puno: 44
 peru: 220
-la paz: 27
-bolivia: 97
-dinner: 130
+la paz: 29
+bolivia: 99
+dinner: 147
 pineapples: 1
 medellin: 49
 insurance: 3
@@ -25,23 +25,25 @@ souvenir: 27
 galapagos islands: 104
 ecuador: 132
 isla san cristobal: 24
-breakfast: 27
-medical: 28
+breakfast: 35
+sydney: 109
+australia: 161
+medical: 31
 copacabana: 11
 hobbiton: 4
-hygiene: 44
+hygiene: 49
 san pedro de atacama: 48
-clothing: 26
-loan: 58
+clothing: 28
+loan: 60
 gas: 8
 casado: 45
 san jose: 2
 costa rica: 8
-melbourne: 45
-australia: 56
-transport: 154
-taxi: 76
-lodging: 59
+melbourne: 49
+transport: 161
+taxi: 80
+lodging: 63
+fun: 11
 uyuni salt flats: 13
 sucre: 21
 la serena: 24
@@ -51,30 +53,29 @@ french polynesia: 103
 alcohol: 21
 machu picchu: 19
 bathroom: 12
-cell phone: 4
-data: 1
-bananas: 4
+cell phone: 7
+data: 4
+public transport: 15
+train: 10
+bananas: 6
 fakarava: 33
 isla santa cruz: 47
-sydney: 9
 vina del mar: 2
-fun: 10
 show: 1
 potosi: 9
 guayaquil: 15
 isla isabella: 28
-bubble tea: 8
+bubble tea: 10
 uyuni: 11
 tour: 12
 elevator: 4
-public transport: 12
 santiago: 38
 tuk tuk: 2
-airport food: 28
-phone: 2
-mail: 9
-montreal: 43
-canada: 43
+airport food: 27
+phone: 4
+mail: 13
+montreal: 40
+canada: 40
 caldera: 13
 internet: 5
 lima: 43
@@ -83,73 +84,79 @@ tahiti: 14
 candy: 1
 cusco post-mapi: 24
 andahuaylas: 16
-bus: 25
+bus: 23
 easter island: 30
 japanese: 1
 christchurch: 17
 quito: 10
-san francisco: 3
-california: 3
+san francisco: 4
+california: 4
 washington: 19
 dc: 19
-tips: 12
+tips: 14
 southland: 3
+froyo: 4
 rangiroa: 10
 boat: 5
 ayacucho: 16
 tea: 2
 gift: 13
 farmers market: 5
-ramen: 1
+ramen: 2
 refunded: 1
 apples: 1
-plane: 17
-coffee: 16
-electronics: 14
+plane: 18
+coffee: 19
+electronics: 16
 pizza: 4
-movie: 2
+korean: 4
+movie: 3
 copiapo: 4
 scuba: 5
 northland: 3
 abancay: 5
 cover: 6
-papaya: 17
+papaya: 18
 rental: 4
 bogota: 1
-burning man: 10
+burning man: 9
+donation: 3
 park: 3
-sushi: 5
+sushi: 8
 sunscreen: 1
 fort lauderdale: 1
 florida: 1
 united states: 2
 parking: 6
-beauty: 9
+beauty: 10
 tax: 4
+laundry: 13
+apple cider vinegar: 1
 aguas calientes: 2
-laundry: 12
 chocolate: 4
 avocado: 3
+mexican: 3
 indian: 1
 haircut: 1
 shuttle: 4
 bike: 2
 shuttles: 3
-gelato: 1
-atm: 2
+gelato: 2
+atm: 3
 software: 1
-train: 7
+organic: 1
 storage: 3
 burritos: 1
 ollantaytambo: 5
 travel: 1
 chinese: 1
-mexican: 1
+thai: 6
 museum: 3
+dental: 1
 ice cream: 1
+tood: 1
 burgers: 3
 concerts: 1
-donation: 1
 idiocy: 1
 clothes: 1
 zoo: 1
@@ -157,17 +164,16 @@ samara: 3
 taxes: 1
 italian: 1
 food credit card: 1
-thai: 4
 hot sauce: 1
 visa: 1
 dumplings: 1
 crepe: 1
-banana: 1
-tip: 2
 bills: 1
 kombucha: 1
 cookie: 1
 muffin: 1
+united stated: 1
 greek: 1
+avocados: 1
 departure tax: 1
 cab: 1

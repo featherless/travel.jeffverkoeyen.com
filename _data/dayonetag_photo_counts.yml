@@ -17,6 +17,9 @@ moorea: 54
 french_polynesia: 104
 lares_trek: 101
 festival: 32
+sydney: 17
+australia: 23
+sushi: 3
 vegan: 2
 puerto_viejo: 10
 costa_rica: 33
@@ -40,9 +43,10 @@ atacama_desert: 22
 bocas_del_toro: 7
 panama: 8
 abancay: 3
-food: 15
+food: 18
 christchurch: 23
 hot_sauces: 8
+brisbane: 2
 isla_isabella: 21
 boating: 4
 valle_de_la_luna: 13
@@ -78,7 +82,8 @@ la_paz: 11
 la_fortuna: 5
 fakarava: 18
 island: 6
-artwork: 4
+artwork: 10
+sunset: 2
 menu: 2
 coffee: 2
 vina_del_mar: 7
@@ -88,11 +93,8 @@ flights: 4
 map: 2
 cusco: 11
 flowers: 6
-sushi: 2
 uyuni: 8
 melbourne: 4
-australia: 4
-sunset: 1
 pizza: 2
 salsa: 1
 bars: 1
