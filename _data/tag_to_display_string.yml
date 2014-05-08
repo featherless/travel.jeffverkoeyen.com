@@ -72,6 +72,8 @@ melbourne: Melbourne, Australia
 sydney: Sydney, Australia
 brisbane: Brisbane, Australia
 cairns: Cairns, Australia
+indonesia: Indonesia
+bali: Bali, Indonesia
 england: England
 yorkshire: Yorkshire
 travel_planning: Travel Planning
@@ -176,8 +178,6 @@ rosario: Rosario
 argentina: Argentina
 drinks: Drinks
 mexican: Mexican
-indonesia: Indonesia
-bali: Bali
 mail: Mail
 umea: Umea
 sweden: Sweden
@@ -204,6 +204,7 @@ fireworks: Fireworks
 taganga: Taganga
 greece: Greece
 athens: Athens
+maldives: Maldives
 cambodia: Cambodia
 siem_reap: Siem Reap
 fiji: Fiji
@@ -236,6 +237,7 @@ spain: Spain
 vanuatu: Vanuatu
 krabi: Krabi
 thailand: Thailand
+kuta: Kuta
 ethiopia: Ethiopia
 addis_ababa: Addis Ababa
 arica: Arica

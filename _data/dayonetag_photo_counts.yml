@@ -18,7 +18,7 @@ french_polynesia: 104
 lares_trek: 101
 festival: 32
 sydney: 17
-australia: 23
+australia: 26
 sushi: 3
 vegan: 2
 puerto_viejo: 10
@@ -30,7 +30,7 @@ cusco_post_mapi: 8
 sucre: 6
 bolivia: 71
 andahuaylas: 7
-preamble: 52
+preamble: 53
 medellin: 26
 isla_san_cristobal: 27
 tours: 43
@@ -46,7 +46,7 @@ abancay: 3
 food: 18
 christchurch: 23
 hot_sauces: 8
-brisbane: 2
+brisbane: 4
 isla_isabella: 21
 boating: 4
 valle_de_la_luna: 13
@@ -89,10 +89,11 @@ coffee: 2
 vina_del_mar: 7
 ayacucho: 5
 isla_uros: 10
-flights: 4
+flights: 5
 map: 2
 cusco: 11
 flowers: 6
+cairns: 3
 uyuni: 8
 melbourne: 4
 pizza: 2
@@ -113,11 +114,12 @@ guayaquil: 10
 airports: 1
 yoga: 1
 fireworks: 1
+travel_planning: 4
+maldives: 1
 clothing: 1
 kombucha: 1
 cookies: 1
 hacking_while_travelling: 1
-travel_planning: 3
 zoo: 2
 concert: 1
 gelato: 1
