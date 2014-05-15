@@ -3,7 +3,7 @@ new_zealand: 129
 northland: 5
 england: 3
 yorkshire: 1
-travel_planning: 121
+travel_planning: 120
 bocas_del_toro: 13
 panama: 15
 beachin: 2
@@ -15,11 +15,11 @@ san_pedro_de_atacama: 24
 chile: 299
 galapagos_islands: 95
 ecuador: 118
-scuba: 39
+scuba: 52
 isla_santa_cruz: 45
 colombia: 105
 cartagena: 25
-restaurants: 159
+restaurants: 158
 casado: 24
 would_not_go_back: 21
 easter_island: 95
@@ -34,7 +34,7 @@ tours: 59
 festival: 32
 machu_picchu: 56
 sydney: 31
-australia: 52
+australia: 70
 sushi: 7
 caldera: 12
 bussing: 34
@@ -48,7 +48,7 @@ la_serena: 18
 cusco_post_mapi: 11
 sucre: 11
 andahuaylas: 9
-preamble: 57
+preamble: 58
 uyuni: 10
 medellin: 34
 monteverde: 18
@@ -57,7 +57,7 @@ uyuni_train_graveyard: 6
 southland: 46
 atacama_desert: 22
 abancay: 5
-food: 19
+food: 23
 christchurch: 26
 hostels: 30
 lodging: 39
@@ -69,7 +69,7 @@ boating: 4
 valle_de_la_luna: 14
 papeete: 19
 samara: 17
-flights: 10
+flights: 12
 cartagena_newyears: 15
 valparaiso: 105
 graffiti: 76
@@ -91,6 +91,7 @@ hobbiton: 15
 protip: 1
 aguas_calientes: 5
 tahiti: 1
+cairns: 24
 snorkelling: 14
 earthquake: 2
 hikes: 6
@@ -110,7 +111,7 @@ namibia: 1
 fakarava: 20
 island: 6
 arequipa: 1
-artwork: 10
+artwork: 11
 potosi: 7
 isla_uros: 11
 dancing: 2
@@ -124,7 +125,7 @@ pasto: 1
 andermatt: 1
 switzerland: 1
 museum: 5
-menu: 2
+menu: 5
 book: 1
 nimbus: 3
 coffee: 4
@@ -132,13 +133,15 @@ thai: 2
 venezuela: 1
 angel_falls: 1
 ayacucho: 9
+bali: 21
+indonesia: 22
 hacking_while_travelling: 3
 map: 2
 salvador_da_bahia: 1
-flowers: 6
+flowers: 8
+temple: 1
 london: 1
 greek: 1
-cairns: 9
 dubai: 1
 united_arab_emirates: 1
 lhasa: 1
@@ -154,6 +157,7 @@ korean: 2
 philippines: 1
 vietnam: 1
 quang_binh: 1
+statue: 3
 blog_backend: 1
 istanbul: 1
 turkey: 1
@@ -174,8 +178,6 @@ rosario: 1
 argentina: 6
 drinks: 2
 mexican: 3
-indonesia: 3
-bali: 1
 mail: 2
 panama_city: 1
 umea: 1
@@ -211,6 +213,7 @@ fiji: 1
 ushuaia: 1
 rio_de_janeiro: 1
 clothing: 1
+darwin: 4
 perth: 1
 bora_bora: 1
 buenos_aires: 1
@@ -237,7 +240,6 @@ spain: 1
 vanuatu: 1
 krabi: 1
 thailand: 1
-kuta: 1
 ethiopia: 1
 addis_ababa: 1
 arica: 1

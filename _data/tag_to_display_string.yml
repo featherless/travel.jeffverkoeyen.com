@@ -74,6 +74,7 @@ brisbane: Brisbane, Australia
 cairns: Cairns, Australia
 indonesia: Indonesia
 bali: Bali, Indonesia
+darwin: Darwin, Australia
 england: England
 yorkshire: Yorkshire
 travel_planning: Travel Planning
@@ -142,6 +143,7 @@ angel_falls: Angel Falls
 map: Map
 salvador_da_bahia: Salvador da Bahia
 flowers: Flowers
+temple: Temple
 london: London
 greek: Greek
 dubai: Dubai
@@ -159,6 +161,7 @@ korean: Korean
 philippines: Philippines
 vietnam: Vietnam
 quang_binh: Quang Binh
+statue: Statue
 istanbul: Istanbul
 turkey: Turkey
 train: Train
@@ -237,7 +240,6 @@ spain: Spain
 vanuatu: Vanuatu
 krabi: Krabi
 thailand: Thailand
-kuta: Kuta
 ethiopia: Ethiopia
 addis_ababa: Addis Ababa
 arica: Arica
