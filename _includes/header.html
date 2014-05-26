@@ -17,15 +17,15 @@
     <link href="/css/{{ page.extracssfile }}" rel="stylesheet">
     {% endif %}
 
+<!--
     <script type="text/javascript" src="//use.typekit.net/ybc6dhf.js"></script>
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-
-    <!--
+-->
     <script type="text/javascript">
   (function(d) {
     var config = {
       kitId: 'ybc6dhf',
-      scriptTimeout: 10000
+      scriptTimeout: 5000
     },
     h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(
 /\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement(
@@ -34,7 +34,7 @@ tk.src='//use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onread
 atechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;
 f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
   })(document);
-</script> -->
+</script>
     {% if page.customcss %}
     <style type="text/css">
       {{ page.customcss }}
