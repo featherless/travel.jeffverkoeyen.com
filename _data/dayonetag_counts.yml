@@ -3,7 +3,7 @@ new_zealand: 129
 northland: 5
 england: 3
 yorkshire: 1
-travel_planning: 120
+travel_planning: 123
 bocas_del_toro: 13
 panama: 15
 beachin: 2
@@ -19,7 +19,7 @@ scuba: 52
 isla_santa_cruz: 45
 colombia: 105
 cartagena: 25
-restaurants: 158
+restaurants: 161
 casado: 24
 would_not_go_back: 21
 easter_island: 95
@@ -45,6 +45,9 @@ costa_rica: 61
 scuba_stickers: 18
 rangiroa: 25
 la_serena: 18
+bali: 45
+indonesia: 47
+dancing: 3
 cusco_post_mapi: 11
 sucre: 11
 andahuaylas: 9
@@ -57,7 +60,7 @@ uyuni_train_graveyard: 6
 southland: 46
 atacama_desert: 22
 abancay: 5
-food: 23
+food: 26
 christchurch: 26
 hostels: 30
 lodging: 39
@@ -71,6 +74,7 @@ papeete: 19
 samara: 17
 flights: 12
 cartagena_newyears: 15
+artwork: 16
 valparaiso: 105
 graffiti: 76
 santiago: 26
@@ -83,6 +87,7 @@ lima: 29
 cusco: 16
 cali: 26
 quito: 10
+statue: 4
 would_go_back_if_starving: 27
 hotels: 18
 geocaching: 7
@@ -111,10 +116,8 @@ namibia: 1
 fakarava: 20
 island: 6
 arequipa: 1
-artwork: 11
 potosi: 7
 isla_uros: 11
-dancing: 2
 hospital: 1
 south_africa: 1
 cape_town: 1
@@ -124,7 +127,7 @@ dominical: 1
 pasto: 1
 andermatt: 1
 switzerland: 1
-museum: 5
+museum: 6
 menu: 5
 book: 1
 nimbus: 3
@@ -133,8 +136,6 @@ thai: 2
 venezuela: 1
 angel_falls: 1
 ayacucho: 9
-bali: 21
-indonesia: 22
 hacking_while_travelling: 3
 map: 2
 salvador_da_bahia: 1
@@ -150,6 +151,7 @@ florianopolis: 1
 pizza: 3
 salsa: 1
 bars: 1
+performance: 2
 tasmania: 1
 organic: 1
 wellington: 1
@@ -157,7 +159,6 @@ korean: 2
 philippines: 1
 vietnam: 1
 quang_binh: 1
-statue: 3
 blog_backend: 1
 istanbul: 1
 turkey: 1
@@ -199,6 +200,8 @@ mancora: 1
 copenhagen: 1
 netherlands: 1
 dunedin: 1
+kuala_lumpur: 1
+malaysia: 1
 taiwan: 2
 fernando_de_noronha: 1
 cuenca: 1
@@ -223,6 +226,7 @@ cook_islands: 1
 bogota: 1
 cartmel: 1
 singapore: 1
+jakarta: 1
 new_caledonia: 1
 cordoba: 1
 ciudad_perdida: 1

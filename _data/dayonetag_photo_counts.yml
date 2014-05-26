@@ -9,7 +9,7 @@ scuba: 47
 isla_santa_cruz: 39
 colombia: 65
 cartagena: 14
-restaurants: 81
+restaurants: 83
 casado: 13
 would_not_go_back: 9
 easter_island: 80
@@ -43,7 +43,7 @@ atacama_desert: 22
 bocas_del_toro: 7
 panama: 8
 abancay: 3
-food: 22
+food: 25
 christchurch: 23
 hot_sauces: 8
 brisbane: 4
@@ -54,6 +54,9 @@ machu_picchu: 47
 papeete: 15
 beachin: 1
 cartagena_newyears: 13
+bali: 33
+indonesia: 33
+artwork: 16
 valparaiso: 96
 graffiti: 76
 ollantaytambo: 12
@@ -65,6 +68,7 @@ santiago: 18
 quito: 7
 mind_blown: 19
 lodging: 19
+statue: 4
 cali: 13
 would_go_back_if_starving: 16
 hotels: 11
@@ -83,15 +87,12 @@ la_paz: 11
 la_fortuna: 5
 fakarava: 18
 island: 6
-artwork: 11
 sunset: 2
 menu: 5
 coffee: 2
 vina_del_mar: 7
 ayacucho: 5
 isla_uros: 10
-bali: 18
-indonesia: 18
 flights: 5
 map: 2
 cusco: 11
@@ -103,7 +104,7 @@ pizza: 2
 salsa: 1
 bars: 1
 dancing: 1
-statue: 3
+performance: 2
 train: 2
 church: 4
 potosi: 2

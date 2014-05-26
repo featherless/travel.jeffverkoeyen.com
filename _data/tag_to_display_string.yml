@@ -90,6 +90,7 @@ sushi: Sushi
 bussing: Bussing
 vegan: Vegan
 scuba_stickers: SCUBA Stickers
+dancing: Dancing
 preamble: Preamble
 food: Food
 hostels: Hostels
@@ -97,10 +98,12 @@ lodging: Lodging
 hot_sauces: Hot Sauces
 boating: Boating
 flights: Flights
+artwork: Artwork
 graffiti: Graffiti
 uruguay: Uruguay
 punta_del_este: Punta del Este
 indian: Indian
+statue: Statue
 would_go_back_if_starving: Would go back if starving
 hotels: Hotels
 geocaching: Geocaching
@@ -121,8 +124,6 @@ germany: Germany
 namibia: Namibia
 island: Island
 arequipa: Arequipa
-artwork: Artwork
-dancing: Dancing
 hospital: Hospital
 south_africa: South Africa
 cape_town: Cape Town
@@ -154,6 +155,7 @@ florianopolis: Florianopolis
 pizza: Pizza
 salsa: Salsa
 bars: Bars
+performance: Performance
 tasmania: Tasmania
 organic: Organic
 wellington: Wellington
@@ -161,7 +163,6 @@ korean: Korean
 philippines: Philippines
 vietnam: Vietnam
 quang_binh: Quang Binh
-statue: Statue
 istanbul: Istanbul
 turkey: Turkey
 train: Train
@@ -200,6 +201,8 @@ mancora: Mancora
 copenhagen: Copenhagen
 netherlands: Netherlands
 dunedin: Dunedin
+kuala_lumpur: Kuala Lumpur
+malaysia: Malaysia
 taiwan: Taiwan
 fernando_de_noronha: Fernando de Noronha
 cuenca: Cuenca
@@ -223,6 +226,7 @@ cook_islands: Cook Islands
 bogota: Bogota
 cartmel: Cartmel
 singapore: Singapore
+jakarta: Jakarta
 new_caledonia: New Caledonia
 cordoba: Cordoba
 ciudad_perdida: Ciudad Perdida
