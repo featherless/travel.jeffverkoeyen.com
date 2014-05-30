@@ -19,7 +19,7 @@ spot_coldest_temperature: -1.0
 spot_coldest_temperature_tag: atacama_desert
 spot_hottest_temperature: 32.0
 spot_hottest_temperature_tag: samara
-number_of_locations: 56
+number_of_locations: 61
 countries_visited: 11
 words_written: 45089
 bus_rides: 23
