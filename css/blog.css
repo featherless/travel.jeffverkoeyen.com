@@ -199,6 +199,7 @@ li {
 }
 
 #geomap,
+#travelmap,
 #moneysmap {
   background: #FFF url('http://jeffverkoeyen.com/gfx/gmm_background_tile.png') repeat left top;
   background-size: 40px 40px;
@@ -213,6 +214,7 @@ li {
   height: 400px;
 }
 
+#travelmap .geomap-overlay,
 #geomap .geomap-overlay {
   position: absolute;
   top: 0;
@@ -400,9 +402,11 @@ li {
     margin-bottom: 20px;
   }
   #geomap,
+  #travelmap,
   #moneysmap,
   #moneysmapframe,
   #geomap .geomap-overlay,
+  #travelmap .geomap-overlay,
   .geomap-frame {
     height: 300px;
   }
@@ -415,9 +419,11 @@ li {
 
 @media (max-width: 480px) {
   #geomap,
+  #travelmap,
   #moneysmap,
   #moneysmapframe,
   #geomap .geomap-overlay,
+  #travelmap .geomap-overlay,
   .geomap-frame {
     height: 200px;
   }
