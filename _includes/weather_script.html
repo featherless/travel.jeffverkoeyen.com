@@ -9,7 +9,9 @@ function drawChart() {
     var data = google.visualization.arrayToDataTable([
       ['', 'Celcius'],
       {% for weather in page.weather %}
+      {% if weather.celsius %}
       ["", {{weather.celsius}}],
+      {% endif %}
       {% endfor %}
     ]);
 
