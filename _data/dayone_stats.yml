@@ -8,9 +8,9 @@ spot_most_entries_count: 118
 spot_most_photos: lares_trek
 spot_most_photos_count: 101
 tag_most_entries: restaurants
-tag_most_entries_count: 161
+tag_most_entries_count: 171
 tag_most_photos: restaurants
-tag_most_photos_count: 83
+tag_most_photos_count: 86
 spot_highest_elevation: 5000
 spot_highest_elevation_tag: uyuni_salt_flats
 spot_lowest_elevation: -30
@@ -19,9 +19,9 @@ spot_coldest_temperature: -1.0
 spot_coldest_temperature_tag: atacama_desert
 spot_hottest_temperature: 32.0
 spot_hottest_temperature_tag: samara
-number_of_locations: 61
-countries_visited: 11
-words_written: 45089
+number_of_locations: 63
+countries_visited: 13
+words_written: 45872
 bus_rides: 23
 bus_time_hours: 119
 bus_time_minutes: 51

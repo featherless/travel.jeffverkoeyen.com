@@ -79,9 +79,14 @@ darwin: Darwin, Australia
 ubud: Ubud, Bali
 besakih_temple: Besakih Temple, Bali
 amed: Amed, Bali
-lembongang: Lembongang, Indonesia
+lembongan: Lembongan, Indonesia
 gili_trawangan: Gili Trawangan, Indonesia
 gili_t: Gili T
+california: California
+san_francisco: San Francisco, California
+wwdc_2014: WWDC 2014
+malaysia: Malaysia
+kuala_lumpur: Kuala Lumpur, Malaysia
 england: England
 yorkshire: Yorkshire
 travel_planning: Travel Planning
@@ -99,12 +104,14 @@ vegan: Vegan
 scuba_stickers: SCUBA Stickers
 dancing: Dancing
 preamble: Preamble
+boating: Boating
+sunset: Sunset
 food: Food
 hostels: Hostels
 lodging: Lodging
 hot_sauces: Hot Sauces
-boating: Boating
 flights: Flights
+vietnam: Vietnam
 artwork: Artwork
 graffiti: Graffiti
 uruguay: Uruguay
@@ -134,7 +141,6 @@ arequipa: Arequipa
 hospital: Hospital
 south_africa: South Africa
 cape_town: Cape Town
-sunset: Sunset
 vina_del_mar: Vina del Mar
 dominical: Dominical
 pasto: Pasto
@@ -168,10 +174,10 @@ organic: Organic
 wellington: Wellington
 korean: Korean
 philippines: Philippines
-vietnam: Vietnam
 quang_binh: Quang Binh
 istanbul: Istanbul
 turkey: Turkey
+warung: Warung
 train: Train
 church: Church
 china: China
@@ -208,8 +214,6 @@ mancora: Mancora
 copenhagen: Copenhagen
 netherlands: Netherlands
 dunedin: Dunedin
-kuala_lumpur: Kuala Lumpur
-malaysia: Malaysia
 taiwan: Taiwan
 fernando_de_noronha: Fernando de Noronha
 cuenca: Cuenca
@@ -224,6 +228,7 @@ fiji: Fiji
 ushuaia: Ushuaia
 rio_de_janeiro: Rio de Janeiro
 clothing: Clothing
+class: Class
 perth: Perth
 bora_bora: Bora Bora
 buenos_aires: Buenos Aires
@@ -238,6 +243,7 @@ new_caledonia: New Caledonia
 cordoba: Cordoba
 ciudad_perdida: Ciudad Perdida
 university: University
+guilin: Guilin
 taipei: Taipei
 hampi: Hampi
 zoo: Zoo
