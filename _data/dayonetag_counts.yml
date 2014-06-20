@@ -19,7 +19,7 @@ scuba: 55
 isla_santa_cruz: 45
 colombia: 105
 cartagena: 25
-restaurants: 171
+restaurants: 172
 casado: 24
 would_not_go_back: 21
 easter_island: 95
@@ -63,6 +63,8 @@ monteverde: 18
 isla_san_cristobal: 29
 uyuni_train_graveyard: 6
 boating: 7
+kuala_lumpur: 6
+malaysia: 6
 southland: 46
 atacama_desert: 22
 abancay: 5
@@ -70,10 +72,14 @@ sunset: 4
 food: 38
 christchurch: 26
 besakih_temple: 17
-hostels: 30
+hostels: 31
 lodging: 39
 hot_sauces: 8
 copacabana: 15
+siem_reap: 8
+cambodia: 51
+power_outage: 1
+angkor_wat: 44
 brisbane: 5
 isla_isabella: 25
 valle_de_la_luna: 14
@@ -208,8 +214,6 @@ mancora: 1
 copenhagen: 1
 netherlands: 1
 dunedin: 1
-kuala_lumpur: 3
-malaysia: 3
 taiwan: 2
 fernando_de_noronha: 1
 cuenca: 1
@@ -218,8 +222,6 @@ taganga: 1
 greece: 1
 athens: 1
 maldives: 1
-cambodia: 1
-siem_reap: 1
 fiji: 1
 ushuaia: 1
 rio_de_janeiro: 1

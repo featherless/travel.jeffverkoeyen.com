@@ -87,6 +87,9 @@ san_francisco: San Francisco, California
 wwdc_2014: WWDC 2014
 malaysia: Malaysia
 kuala_lumpur: Kuala Lumpur, Malaysia
+cambodia: Cambodia
+siem_reap: Siem Reap, Cambodia
+angkor_wat: Angkor Wat, Cambodia
 england: England
 yorkshire: Yorkshire
 travel_planning: Travel Planning
@@ -110,6 +113,7 @@ food: Food
 hostels: Hostels
 lodging: Lodging
 hot_sauces: Hot Sauces
+power_outage: Power Outage
 flights: Flights
 vietnam: Vietnam
 artwork: Artwork
@@ -222,8 +226,6 @@ taganga: Taganga
 greece: Greece
 athens: Athens
 maldives: Maldives
-cambodia: Cambodia
-siem_reap: Siem Reap
 fiji: Fiji
 ushuaia: Ushuaia
 rio_de_janeiro: Rio de Janeiro
