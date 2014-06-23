@@ -34,7 +34,7 @@ cusco_post_mapi: 8
 sucre: 6
 bolivia: 71
 andahuaylas: 7
-preamble: 59
+preamble: 60
 medellin: 26
 isla_san_cristobal: 27
 tours: 43
@@ -50,13 +50,13 @@ atacama_desert: 22
 bocas_del_toro: 7
 panama: 8
 abancay: 3
-sunset: 4
+sunset: 5
 food: 36
 christchurch: 23
 besakih_temple: 17
 hot_sauces: 8
-angkor_wat: 39
-cambodia: 39
+angkor_wat: 57
+cambodia: 60
 brisbane: 4
 isla_isabella: 21
 valle_de_la_luna: 13
@@ -68,6 +68,7 @@ cartagena_newyears: 13
 artwork: 19
 valparaiso: 96
 graffiti: 76
+siem_reap: 3
 ollantaytambo: 12
 bussing: 15
 hostels: 12

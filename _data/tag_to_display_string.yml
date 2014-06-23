@@ -90,6 +90,9 @@ kuala_lumpur: Kuala Lumpur, Malaysia
 cambodia: Cambodia
 siem_reap: Siem Reap, Cambodia
 angkor_wat: Angkor Wat, Cambodia
+vietnam: Vietnam
+saigon: Saigon, Vietnam
+ho_chi_minh: Ho Chi Minh
 england: England
 yorkshire: Yorkshire
 travel_planning: Travel Planning
@@ -115,7 +118,6 @@ lodging: Lodging
 hot_sauces: Hot Sauces
 power_outage: Power Outage
 flights: Flights
-vietnam: Vietnam
 artwork: Artwork
 graffiti: Graffiti
 uruguay: Uruguay
@@ -172,11 +174,12 @@ florianopolis: Florianopolis
 pizza: Pizza
 salsa: Salsa
 bars: Bars
+hoi_an: Hoi An
 performance: Performance
+korean: Korean
 tasmania: Tasmania
 organic: Organic
 wellington: Wellington
-korean: Korean
 philippines: Philippines
 quang_binh: Quang Binh
 istanbul: Istanbul
