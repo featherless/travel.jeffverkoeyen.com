@@ -93,6 +93,8 @@ angkor_wat: Angkor Wat, Cambodia
 vietnam: Vietnam
 saigon: Saigon, Vietnam
 ho_chi_minh: Ho Chi Minh
+can_tho: Can Tho, Vietnam
+mekong_delta: Mekong Delta, Vietnam
 england: England
 yorkshire: Yorkshire
 travel_planning: Travel Planning
@@ -170,6 +172,7 @@ dubai: Dubai
 united_arab_emirates: United Arab Emirates
 lhasa: Lhasa
 tibet: Tibet
+thailand: Thailand
 florianopolis: Florianopolis
 pizza: Pizza
 salsa: Salsa
@@ -261,7 +264,6 @@ bilboa: Bilboa
 spain: Spain
 vanuatu: Vanuatu
 krabi: Krabi
-thailand: Thailand
 ethiopia: Ethiopia
 addis_ababa: Addis Ababa
 arica: Arica
@@ -270,7 +272,9 @@ ramen: Ramen
 ishigaki: Ishigaki
 yogyakarta: Yogyakarta
 nelson: Nelson
+vietnamese: Vietnamese
 montezuma: Montezuma
+hanoi: Hanoi
 chinese: Chinese
 san_gil: San Gil
 banos: Banos

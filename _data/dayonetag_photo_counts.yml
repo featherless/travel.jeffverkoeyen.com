@@ -71,6 +71,8 @@ graffiti: 76
 siem_reap: 3
 ollantaytambo: 12
 bussing: 15
+vietnam: 3
+can_tho: 1
 hostels: 12
 caldera: 9
 lima: 23
@@ -110,6 +112,8 @@ flowers: 10
 temple: 1
 uyuni: 8
 melbourne: 4
+travel_planning: 7
+thailand: 1
 pizza: 2
 salsa: 1
 bars: 1
@@ -131,7 +135,6 @@ yoga: 1
 kuala_lumpur: 1
 malaysia: 1
 fireworks: 1
-travel_planning: 4
 maldives: 1
 clothing: 1
 darwin: 2
@@ -143,6 +146,7 @@ concert: 1
 gelato: 1
 ramen: 1
 drinks: 1
+hanoi: 1
 chinese: 1
 bubble_tea: 1
 malls: 1

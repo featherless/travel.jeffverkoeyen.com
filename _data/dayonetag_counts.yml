@@ -3,7 +3,7 @@ new_zealand: 129
 northland: 5
 england: 3
 yorkshire: 1
-travel_planning: 130
+travel_planning: 139
 bocas_del_toro: 13
 panama: 15
 beachin: 2
@@ -19,7 +19,7 @@ scuba: 55
 isla_santa_cruz: 45
 colombia: 105
 cartagena: 25
-restaurants: 174
+restaurants: 176
 casado: 24
 would_not_go_back: 21
 easter_island: 95
@@ -41,7 +41,7 @@ sydney: 31
 australia: 71
 sushi: 8
 caldera: 12
-bussing: 34
+bussing: 36
 copiapo: 5
 vegan: 2
 puerto_viejo: 16
@@ -72,7 +72,7 @@ sunset: 5
 food: 39
 christchurch: 26
 besakih_temple: 17
-hostels: 32
+hostels: 33
 lodging: 39
 hot_sauces: 8
 copacabana: 15
@@ -81,12 +81,13 @@ cambodia: 74
 siem_reap: 14
 power_outage: 2
 brisbane: 5
+ho_chi_minh: 11
+vietnam: 28
 isla_isabella: 25
 valle_de_la_luna: 14
 papeete: 19
 samara: 17
 flights: 15
-vietnam: 11
 cartagena_newyears: 15
 artwork: 19
 valparaiso: 105
@@ -97,6 +98,7 @@ uruguay: 1
 punta_del_este: 1
 indian: 3
 auckland_hackweek: 21
+can_tho: 5
 lima: 29
 cusco: 16
 cali: 26
@@ -112,6 +114,7 @@ aguas_calientes: 5
 tahiti: 1
 cairns: 24
 snorkelling: 14
+mekong_delta: 2
 earthquake: 2
 hikes: 6
 auckland: 11
@@ -141,7 +144,7 @@ dominical: 1
 pasto: 1
 andermatt: 1
 switzerland: 1
-museum: 6
+museum: 7
 menu: 5
 book: 1
 nimbus: 4
@@ -154,7 +157,6 @@ hacking_while_travelling: 3
 map: 2
 salvador_da_bahia: 1
 flowers: 10
-ho_chi_minh: 6
 temple: 1
 london: 1
 greek: 1
@@ -162,6 +164,7 @@ dubai: 1
 united_arab_emirates: 1
 lhasa: 1
 tibet: 1
+thailand: 2
 florianopolis: 1
 pizza: 3
 salsa: 1
@@ -257,7 +260,6 @@ bilboa: 1
 spain: 1
 vanuatu: 1
 krabi: 1
-thailand: 1
 ethiopia: 1
 addis_ababa: 1
 arica: 1
@@ -266,7 +268,9 @@ ramen: 1
 ishigaki: 1
 yogyakarta: 1
 nelson: 1
+vietnamese: 1
 montezuma: 1
+hanoi: 1
 chinese: 1
 san_gil: 1
 banos: 1
