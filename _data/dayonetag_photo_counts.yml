@@ -1,4 +1,6 @@
 ---
+ho_chi_minh: 16
+vietnam: 67
 peru: 277
 puno: 52
 san_pedro_de_atacama: 18
@@ -7,12 +9,14 @@ galapagos_islands: 84
 ecuador: 99
 scuba: 47
 isla_santa_cruz: 39
+nha_trang: 6
 colombia: 65
 cartagena: 14
 restaurants: 86
 casado: 13
 would_not_go_back: 9
 easter_island: 80
+can_tho: 21
 moorea: 54
 french_polynesia: 104
 wwdc_2014: 13
@@ -34,8 +38,9 @@ cusco_post_mapi: 8
 sucre: 6
 bolivia: 71
 andahuaylas: 7
-preamble: 60
+preamble: 62
 medellin: 26
+mekong_delta: 23
 isla_san_cristobal: 27
 tours: 43
 uyuni_train_graveyard: 6
@@ -51,13 +56,14 @@ bocas_del_toro: 7
 panama: 8
 abancay: 3
 sunset: 5
-food: 36
+food: 38
 christchurch: 23
 besakih_temple: 17
 hot_sauces: 8
 angkor_wat: 57
 cambodia: 60
 brisbane: 4
+hostels: 13
 isla_isabella: 21
 valle_de_la_luna: 13
 machu_picchu: 47
@@ -70,10 +76,7 @@ valparaiso: 96
 graffiti: 76
 siem_reap: 3
 ollantaytambo: 12
-bussing: 15
-vietnam: 3
-can_tho: 1
-hostels: 12
+bussing: 16
 caldera: 9
 lima: 23
 santiago: 18
@@ -108,7 +111,7 @@ isla_uros: 10
 flights: 5
 map: 2
 cusco: 11
-flowers: 10
+flowers: 11
 temple: 1
 uyuni: 8
 melbourne: 4
@@ -119,7 +122,7 @@ salsa: 1
 bars: 1
 dancing: 1
 performance: 2
-train: 2
+train: 3
 church: 4
 potosi: 2
 currency: 2

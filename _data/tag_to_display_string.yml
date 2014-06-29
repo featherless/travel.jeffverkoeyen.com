@@ -95,6 +95,8 @@ saigon: Saigon, Vietnam
 ho_chi_minh: Ho Chi Minh
 can_tho: Can Tho, Vietnam
 mekong_delta: Mekong Delta, Vietnam
+nha_trang: Nha Trang, Vietnam
+hoi_an: Hoi An, Vietnam
 england: England
 yorkshire: Yorkshire
 travel_planning: Travel Planning
@@ -146,6 +148,7 @@ germany: Germany
 namibia: Namibia
 island: Island
 arequipa: Arequipa
+pho: Pho
 hospital: Hospital
 south_africa: South Africa
 cape_town: Cape Town
@@ -177,7 +180,6 @@ florianopolis: Florianopolis
 pizza: Pizza
 salsa: Salsa
 bars: Bars
-hoi_an: Hoi An
 performance: Performance
 korean: Korean
 tasmania: Tasmania
