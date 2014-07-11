@@ -96,13 +96,20 @@ ho_chi_minh: Ho Chi Minh
 can_tho: Can Tho, Vietnam
 mekong_delta: Mekong Delta, Vietnam
 nha_trang: Nha Trang, Vietnam
+flowers: Flowers
+food: Food
 hoi_an: Hoi An, Vietnam
+hanoi: Hanoi, Vietnam
+sapa_valley: Sapa Valley, Vietnam
+thailand: Thailand
+ko_phangan: Ko Phangan, Thailand
 england: England
 yorkshire: Yorkshire
 travel_planning: Travel Planning
 beachin: Beachin'
 would_recommend: Would recommend
 scuba: SCUBA
+preamble: Preamble
 restaurants: Restaurants
 casado: Casado
 introduction: Introduction
@@ -113,10 +120,8 @@ bussing: Bussing
 vegan: Vegan
 scuba_stickers: SCUBA Stickers
 dancing: Dancing
-preamble: Preamble
 boating: Boating
 sunset: Sunset
-food: Food
 hostels: Hostels
 lodging: Lodging
 hot_sauces: Hot Sauces
@@ -137,6 +142,7 @@ tahiti: Tahiti
 snorkelling: Snorkelling
 earthquake: Earthquake
 hikes: Hikes
+ko_pha_ngan: Ko Pha Ngan
 antarctica: Antarctica
 samoa: Samoa
 yasuni: Yasuni
@@ -167,7 +173,6 @@ venezuela: Venezuela
 angel_falls: Angel Falls
 map: Map
 salvador_da_bahia: Salvador da Bahia
-flowers: Flowers
 temple: Temple
 london: London
 greek: Greek
@@ -175,7 +180,6 @@ dubai: Dubai
 united_arab_emirates: United Arab Emirates
 lhasa: Lhasa
 tibet: Tibet
-thailand: Thailand
 florianopolis: Florianopolis
 pizza: Pizza
 salsa: Salsa
@@ -185,6 +189,7 @@ korean: Korean
 tasmania: Tasmania
 organic: Organic
 wellington: Wellington
+koh_samui: Koh Samui
 philippines: Philippines
 quang_binh: Quang Binh
 istanbul: Istanbul
@@ -276,7 +281,6 @@ yogyakarta: Yogyakarta
 nelson: Nelson
 vietnamese: Vietnamese
 montezuma: Montezuma
-hanoi: Hanoi
 chinese: Chinese
 san_gil: San Gil
 banos: Banos

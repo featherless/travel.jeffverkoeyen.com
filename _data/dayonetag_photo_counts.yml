@@ -1,6 +1,6 @@
 ---
-ho_chi_minh: 16
-vietnam: 67
+ho_chi_minh: 44
+vietnam: 110
 peru: 277
 puno: 52
 san_pedro_de_atacama: 18
@@ -9,14 +9,18 @@ galapagos_islands: 84
 ecuador: 99
 scuba: 47
 isla_santa_cruz: 39
-nha_trang: 6
+nha_trang: 7
+preamble: 66
+kuala_lumpur: 20
+malaysia: 20
+food: 65
 colombia: 65
 cartagena: 14
 restaurants: 86
 casado: 13
 would_not_go_back: 9
 easter_island: 80
-can_tho: 21
+can_tho: 35
 moorea: 54
 french_polynesia: 104
 wwdc_2014: 13
@@ -38,7 +42,6 @@ cusco_post_mapi: 8
 sucre: 6
 bolivia: 71
 andahuaylas: 7
-preamble: 62
 medellin: 26
 mekong_delta: 23
 isla_san_cristobal: 27
@@ -56,12 +59,11 @@ bocas_del_toro: 7
 panama: 8
 abancay: 3
 sunset: 5
-food: 38
 christchurch: 23
 besakih_temple: 17
 hot_sauces: 8
-angkor_wat: 57
-cambodia: 60
+angkor_wat: 58
+cambodia: 66
 brisbane: 4
 hostels: 13
 isla_isabella: 21
@@ -70,11 +72,11 @@ machu_picchu: 47
 papeete: 15
 beachin: 1
 canggu: 32
+siem_reap: 8
 cartagena_newyears: 13
 artwork: 19
 valparaiso: 96
 graffiti: 76
-siem_reap: 3
 ollantaytambo: 12
 bussing: 16
 caldera: 9
@@ -111,7 +113,7 @@ isla_uros: 10
 flights: 5
 map: 2
 cusco: 11
-flowers: 11
+flowers: 12
 temple: 1
 uyuni: 8
 melbourne: 4
@@ -135,8 +137,6 @@ korean: 1
 guayaquil: 10
 airports: 1
 yoga: 1
-kuala_lumpur: 1
-malaysia: 1
 fireworks: 1
 maldives: 1
 clothing: 1
