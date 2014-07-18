@@ -103,6 +103,7 @@ hanoi: Hanoi, Vietnam
 sapa_valley: Sapa Valley, Vietnam
 thailand: Thailand
 ko_phangan: Ko Phangan, Thailand
+ko_tao: Ko Tao, Thailand
 england: England
 yorkshire: Yorkshire
 travel_planning: Travel Planning
@@ -119,12 +120,14 @@ sushi: Sushi
 bussing: Bussing
 vegan: Vegan
 scuba_stickers: SCUBA Stickers
+clouds: Clouds
 dancing: Dancing
 boating: Boating
 sunset: Sunset
 hostels: Hostels
 lodging: Lodging
 hot_sauces: Hot Sauces
+sapa: Sapa
 power_outage: Power Outage
 flights: Flights
 artwork: Artwork
@@ -132,6 +135,8 @@ graffiti: Graffiti
 uruguay: Uruguay
 punta_del_este: Punta del Este
 indian: Indian
+myanmar: Myanmar
+yangon: Yangon
 statue: Statue
 would_go_back_if_starving: Would go back if starving
 hotels: Hotels
@@ -142,7 +147,7 @@ tahiti: Tahiti
 snorkelling: Snorkelling
 earthquake: Earthquake
 hikes: Hikes
-ko_pha_ngan: Ko Pha Ngan
+chiang_rai: Chiang rai
 antarctica: Antarctica
 samoa: Samoa
 yasuni: Yasuni
@@ -156,6 +161,7 @@ island: Island
 arequipa: Arequipa
 pho: Pho
 hospital: Hospital
+airports: Airports
 south_africa: South Africa
 cape_town: Cape Town
 vina_del_mar: Vina del Mar
@@ -190,6 +196,8 @@ tasmania: Tasmania
 organic: Organic
 wellington: Wellington
 koh_samui: Koh Samui
+india: India
+mumbai: Mumbai
 philippines: Philippines
 quang_binh: Quang Binh
 istanbul: Istanbul
@@ -203,7 +211,6 @@ yoga: Yoga
 ica: Ica
 shows: Shows
 chennai: Chennai
-india: India
 tokyo: Tokyo
 japan: Japan
 vienna: Vienna
@@ -217,7 +224,6 @@ umea: Umea
 sweden: Sweden
 nazca: Nazca
 albania: Albania
-airports: Airports
 bangkok: Bangkok
 huaraz: Huaraz
 real_estate: Real Estate
@@ -258,6 +264,7 @@ new_caledonia: New Caledonia
 cordoba: Cordoba
 ciudad_perdida: Ciudad Perdida
 university: University
+phuket: Phuket
 guilin: Guilin
 taipei: Taipei
 hampi: Hampi
@@ -280,6 +287,7 @@ ishigaki: Ishigaki
 yogyakarta: Yogyakarta
 nelson: Nelson
 vietnamese: Vietnamese
+mandalay: Mandalay
 montezuma: Montezuma
 chinese: Chinese
 san_gil: San Gil

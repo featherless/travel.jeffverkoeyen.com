@@ -1,6 +1,6 @@
 ---
 ho_chi_minh: 44
-vietnam: 110
+vietnam: 117
 peru: 277
 puno: 52
 san_pedro_de_atacama: 18
@@ -10,10 +10,10 @@ ecuador: 99
 scuba: 47
 isla_santa_cruz: 39
 nha_trang: 7
-preamble: 66
+preamble: 67
 kuala_lumpur: 20
 malaysia: 20
-food: 65
+food: 67
 colombia: 65
 cartagena: 14
 restaurants: 86
@@ -37,6 +37,10 @@ puerto_viejo: 10
 costa_rica: 33
 scuba_stickers: 18
 rangiroa: 23
+thailand: 13
+ko_phangan: 10
+hanoi: 7
+clouds: 3
 la_serena: 10
 cusco_post_mapi: 8
 sucre: 6
@@ -48,7 +52,7 @@ isla_san_cristobal: 27
 tours: 43
 uyuni_train_graveyard: 6
 bali: 123
-boating: 6
+boating: 7
 monteverde: 13
 would_recommend: 32
 ubud: 63
@@ -58,7 +62,7 @@ atacama_desert: 22
 bocas_del_toro: 7
 panama: 8
 abancay: 3
-sunset: 5
+sunset: 6
 christchurch: 23
 besakih_temple: 17
 hot_sauces: 8
@@ -85,6 +89,9 @@ santiago: 18
 quito: 7
 mind_blown: 19
 lodging: 19
+travel_planning: 12
+myanmar: 2
+yangon: 1
 statue: 6
 cali: 13
 would_go_back_if_starving: 16
@@ -97,6 +104,7 @@ cairns: 18
 snorkelling: 14
 hikes: 6
 auckland_hackweek: 18
+chiang_rai: 1
 amed: 15
 auckland: 2
 uyuni_salt_flats: 14
@@ -105,6 +113,7 @@ la_paz: 11
 la_fortuna: 5
 fakarava: 18
 island: 6
+airports: 2
 menu: 5
 coffee: 2
 vina_del_mar: 7
@@ -117,13 +126,14 @@ flowers: 12
 temple: 1
 uyuni: 8
 melbourne: 4
-travel_planning: 7
-thailand: 1
+sapa: 1
 pizza: 2
 salsa: 1
 bars: 1
 dancing: 1
 performance: 2
+india: 1
+mumbai: 1
 train: 3
 church: 4
 potosi: 2
@@ -135,7 +145,6 @@ panama_city: 1
 copiapo: 3
 korean: 1
 guayaquil: 10
-airports: 1
 yoga: 1
 fireworks: 1
 maldives: 1
@@ -144,12 +153,13 @@ darwin: 2
 kombucha: 1
 cookies: 1
 hacking_while_travelling: 1
+phuket: 1
 zoo: 2
 concert: 1
 gelato: 1
 ramen: 1
 drinks: 1
-hanoi: 1
+mandalay: 1
 chinese: 1
 bubble_tea: 1
 malls: 1

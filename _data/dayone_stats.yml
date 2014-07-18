@@ -8,7 +8,7 @@ spot_most_entries_count: 118
 spot_most_photos: lares_trek
 spot_most_photos_count: 101
 tag_most_entries: restaurants
-tag_most_entries_count: 179
+tag_most_entries_count: 181
 tag_most_photos: restaurants
 tag_most_photos_count: 86
 spot_highest_elevation: 5000
@@ -17,11 +17,11 @@ spot_lowest_elevation: -30
 spot_lowest_elevation_tag: isla_san_cristobal
 spot_coldest_temperature: -1.0
 spot_coldest_temperature_tag: atacama_desert
-spot_hottest_temperature: 34.0
-spot_hottest_temperature_tag: angkor_wat
-number_of_locations: 73
+spot_hottest_temperature: 35.0
+spot_hottest_temperature_tag: ko_phangan
+number_of_locations: 74
 countries_visited: 16
-words_written: 51273
+words_written: 51713
 bus_rides: 23
 bus_time_hours: 119
 bus_time_minutes: 51
