@@ -20,7 +20,7 @@ title: Blog
       <div class="bottomshadow"></div>
     </div>
     <div class="title background-title"><a href="{{ post.url }}">{{ post.title }}</a>
-      <div class="date">days: {{ post.duration }}</div>
+      {% if post.duration %}<div class="date">days: {{ post.duration }}</div>{% endif %}
     </div>
   {% else %}
     <div class="title text-title"><a href="{{ post.url }}">{{ post.title }}</a>
