@@ -1,6 +1,6 @@
 ---
 ho_chi_minh: 44
-vietnam: 119
+vietnam: 126
 peru: 277
 puno: 52
 san_pedro_de_atacama: 18
@@ -10,10 +10,10 @@ ecuador: 99
 scuba: 47
 isla_santa_cruz: 39
 nha_trang: 7
-preamble: 68
+preamble: 70
 kuala_lumpur: 20
 malaysia: 20
-food: 69
+food: 78
 colombia: 65
 cartagena: 14
 restaurants: 86
@@ -21,8 +21,8 @@ casado: 13
 would_not_go_back: 9
 easter_island: 80
 can_tho: 35
-ko_phi_phi: 27
-thailand: 54
+ko_phi_phi: 38
+thailand: 89
 moorea: 54
 french_polynesia: 104
 wwdc_2014: 13
@@ -39,11 +39,11 @@ puerto_viejo: 10
 costa_rica: 33
 scuba_stickers: 18
 rangiroa: 23
-ko_phangan: 11
+ko_phangan: 17
 hanoi: 8
 clouds: 3
 la_serena: 10
-ko_tao: 10
+ko_tao: 25
 cusco_post_mapi: 8
 sucre: 6
 bolivia: 71
@@ -54,7 +54,7 @@ isla_san_cristobal: 27
 tours: 43
 uyuni_train_graveyard: 6
 bali: 123
-boating: 10
+boating: 13
 monteverde: 13
 would_recommend: 32
 ubud: 63
@@ -67,13 +67,13 @@ abancay: 3
 sunset: 6
 christchurch: 23
 besakih_temple: 17
-phuket: 3
+phuket: 6
 hot_sauces: 8
 angkor_wat: 58
 cambodia: 66
 brisbane: 4
 hostels: 13
-cats: 1
+cats: 2
 isla_isabella: 21
 valle_de_la_luna: 13
 machu_picchu: 47
@@ -82,7 +82,7 @@ beachin: 1
 canggu: 32
 siem_reap: 8
 cartagena_newyears: 13
-artwork: 21
+artwork: 22
 valparaiso: 96
 graffiti: 76
 ollantaytambo: 12
@@ -117,6 +117,7 @@ la_paz: 11
 la_fortuna: 5
 fakarava: 18
 island: 6
+logo: 1
 menu: 5
 coffee: 2
 vina_del_mar: 7
@@ -129,7 +130,7 @@ flowers: 12
 temple: 1
 uyuni: 8
 melbourne: 4
-sapa: 2
+sapa: 9
 pizza: 2
 salsa: 1
 bars: 1
@@ -140,7 +141,7 @@ mumbai: 1
 train: 3
 church: 4
 potosi: 2
-bangkok: 2
+bangkok: 3
 currency: 2
 indian: 2
 mexican: 1

@@ -5,7 +5,7 @@ england: 3
 yorkshire: 1
 travel_planning: 148
 ho_chi_minh: 54
-vietnam: 169
+vietnam: 176
 bocas_del_toro: 13
 panama: 15
 beachin: 2
@@ -20,10 +20,10 @@ ecuador: 118
 scuba: 55
 isla_santa_cruz: 45
 nha_trang: 10
-preamble: 73
+preamble: 75
 kuala_lumpur: 25
 malaysia: 25
-food: 77
+food: 81
 colombia: 105
 cartagena: 25
 restaurants: 183
@@ -34,7 +34,7 @@ indonesia: 204
 lembongan: 32
 can_tho: 38
 ko_phi_phi: 42
-thailand: 91
+thailand: 110
 moorea: 63
 french_polynesia: 122
 wwdc_2014: 19
@@ -58,11 +58,11 @@ puerto_viejo: 16
 costa_rica: 61
 scuba_stickers: 18
 rangiroa: 25
-ko_phangan: 14
+ko_phangan: 20
 hanoi: 13
 clouds: 3
 la_serena: 18
-ko_tao: 24
+ko_tao: 31
 bali: 154
 dancing: 3
 canggu: 43
@@ -88,7 +88,7 @@ hostels: 35
 lodging: 39
 hot_sauces: 8
 copacabana: 15
-sapa: 18
+sapa: 25
 angkor_wat: 62
 cambodia: 80
 siem_reap: 19
@@ -101,7 +101,7 @@ papeete: 19
 samara: 17
 flights: 19
 cartagena_newyears: 15
-artwork: 22
+artwork: 23
 valparaiso: 105
 graffiti: 76
 santiago: 26
@@ -116,6 +116,7 @@ cali: 26
 quito: 10
 myanmar: 2
 yangon: 1
+bangkok: 11
 statue: 6
 would_go_back_if_starving: 27
 hotels: 21
@@ -154,6 +155,7 @@ hospital: 1
 airports: 3
 south_africa: 1
 cape_town: 1
+logo: 1
 vina_del_mar: 8
 dominical: 1
 pasto: 1
@@ -203,7 +205,6 @@ church: 4
 china: 3
 xishuangbanna: 1
 yoga: 2
-bangkok: 5
 ica: 1
 shows: 1
 chennai: 1
@@ -223,6 +224,7 @@ nazca: 1
 albania: 1
 guayaquil: 12
 huaraz: 1
+and_taxes: 1
 real_estate: 1
 honiara: 1
 solomon_islands: 2
