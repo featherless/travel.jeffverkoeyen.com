@@ -104,6 +104,9 @@ sapa_valley: Sapa Valley, Vietnam
 thailand: Thailand
 ko_phangan: Ko Phangan, Thailand
 ko_tao: Ko Tao, Thailand
+phuket: Phuket, Thailand
+ko_phi_phi: Ko Phi Phi, Thailand
+bangkok: Bangkok, Thailand
 england: England
 yorkshire: Yorkshire
 travel_planning: Travel Planning
@@ -129,6 +132,7 @@ lodging: Lodging
 hot_sauces: Hot Sauces
 sapa: Sapa
 power_outage: Power Outage
+cats: Cats
 flights: Flights
 artwork: Artwork
 graffiti: Graffiti
@@ -224,7 +228,6 @@ umea: Umea
 sweden: Sweden
 nazca: Nazca
 albania: Albania
-bangkok: Bangkok
 huaraz: Huaraz
 real_estate: Real Estate
 honiara: Honiara
@@ -237,6 +240,7 @@ mancora: Mancora
 copenhagen: Copenhagen
 netherlands: Netherlands
 dunedin: Dunedin
+furniture: Furniture
 taiwan: Taiwan
 fernando_de_noronha: Fernando de Noronha
 cuenca: Cuenca
@@ -264,7 +268,6 @@ new_caledonia: New Caledonia
 cordoba: Cordoba
 ciudad_perdida: Ciudad Perdida
 university: University
-phuket: Phuket
 guilin: Guilin
 taipei: Taipei
 hampi: Hampi

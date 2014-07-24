@@ -8,7 +8,7 @@ spot_most_entries_count: 118
 spot_most_photos: lares_trek
 spot_most_photos_count: 101
 tag_most_entries: restaurants
-tag_most_entries_count: 181
+tag_most_entries_count: 183
 tag_most_photos: restaurants
 tag_most_photos_count: 86
 spot_highest_elevation: 5000
@@ -19,9 +19,9 @@ spot_coldest_temperature: -1.0
 spot_coldest_temperature_tag: atacama_desert
 spot_hottest_temperature: 35.0
 spot_hottest_temperature_tag: ko_phangan
-number_of_locations: 74
+number_of_locations: 77
 countries_visited: 16
-words_written: 51713
+words_written: 52235
 bus_rides: 23
 bus_time_hours: 119
 bus_time_minutes: 51
