@@ -378,6 +378,11 @@ li {
   margin-left: 10%;
 }
 
+#blogpost p.convo-not-me {
+  text-align: left;
+  margin-right: 10%;
+}
+
 @media (min-width: 900px) {
   .container, .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container {
     width: 856px;
