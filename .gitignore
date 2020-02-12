@@ -1,8 +1,6 @@
 _site
 css/pygments.css
 .DS_Store
-gfx/dayone
-gfx/gifs
 _serverconfig.yml
 _dayoneconfig.yml
 _dayone/config.yml
