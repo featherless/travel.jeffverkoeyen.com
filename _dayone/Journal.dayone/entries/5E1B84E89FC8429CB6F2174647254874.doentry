@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2013-12-19T17:57:36Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>Macintosh/MacBookAir4,1</string>
+		<key>Generation Date</key>
+		<date>2013-12-19T17:57:36Z</date>
+		<key>Host Name</key>
+		<string>Jeff’s MacBook Air</string>
+		<key>OS Agent</key>
+		<string>Mac OS X/10.9</string>
+		<key>Software Agent</key>
+		<string>Day One Mac/1.9</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Colombia: Peso
+
+The primary currency in Colombia is the peso. Many places don’t take American and find it odd if you try.
+
+## Conversions
+
+- Divide by 1000 and *divide* by two.
+- 2000 colones is $1 USD.
+
+## Exchange Rates
+
+- The best exchange rate we ever got was 1940 pesos at a currency exchange in Cartagena.</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Antioquia</string>
+		<key>Country</key>
+		<string>Colombia</string>
+		<key>Latitude</key>
+		<real>6.2076608392806021</real>
+		<key>Locality</key>
+		<string>Medellin</string>
+		<key>Longitude</key>
+		<real>-75.565984283696466</real>
+		<key>Place Name</key>
+		<string>Road 35</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Colombia</string>
+		<string>Currency</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Bogota</string>
+	<key>UUID</key>
+	<string>5E1B84E89FC8429CB6F2174647254874</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>24</string>
+		<key>Description</key>
+		<string>Mostly Sunny</string>
+		<key>Fahrenheit</key>
+		<string>75</string>
+		<key>IconName</key>
+		<string>fair.png</string>
+		<key>Pressure MB</key>
+		<integer>1017</integer>
+		<key>Relative Humidity</key>
+		<integer>54</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2013-12-19T11:07:02Z</date>
+		<key>Sunset Date</key>
+		<date>2013-12-19T22:52:53Z</date>
+		<key>Wind Bearing</key>
+		<integer>90</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>24</integer>
+		<key>Wind Speed KPH</key>
+		<integer>26</integer>
+	</dict>
+</dict>
+</plist>

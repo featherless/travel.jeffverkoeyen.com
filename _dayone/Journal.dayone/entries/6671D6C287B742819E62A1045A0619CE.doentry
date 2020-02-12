@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2013-12-24T00:04:55Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2013-12-24T00:04:55Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>The Taste of Victory
+
+...is tennis balls!</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Antioquia</string>
+		<key>Country</key>
+		<string>Colombia</string>
+		<key>Foursquare ID</key>
+		<string>4be99e186295c9b621708508</string>
+		<key>Latitude</key>
+		<real>6.2118385935985092</real>
+		<key>Locality</key>
+		<string>Medellín</string>
+		<key>Longitude</key>
+		<real>-75.574835068330884</real>
+		<key>Place Name</key>
+		<string>Exito  el poblado</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Colombia</string>
+		<string>Medellin</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Bogota</string>
+	<key>UUID</key>
+	<string>6671D6C287B742819E62A1045A0619CE</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>18</string>
+		<key>Description</key>
+		<string>Drizzle</string>
+		<key>Fahrenheit</key>
+		<string>64</string>
+		<key>IconName</key>
+		<string>rain.png</string>
+		<key>Pressure MB</key>
+		<integer>1018</integer>
+		<key>Relative Humidity</key>
+		<integer>88</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2013-12-23T11:09:01Z</date>
+		<key>Sunset Date</key>
+		<date>2013-12-23T22:54:53Z</date>
+		<key>Visibility KM</key>
+		<integer>6</integer>
+		<key>Wind Bearing</key>
+		<integer>0</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>18</integer>
+		<key>Wind Speed KPH</key>
+		<integer>0</integer>
+	</dict>
+</dict>
+</plist>

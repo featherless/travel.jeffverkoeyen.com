@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2013-12-19T01:10:45Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2013-12-19T01:10:45Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Shamrock Bar &amp; Grill
+
+We found this place on [AirBnB](https://www.airbnb.com/rooms/683306) the night before we left for Medellin. The rooms are built over an Irish Pub that Zach (the host) manages. We’re glad we checked out AirBnB for this place because it’s not listed elsewhere as a hotel/bnb.
+
+We ended up staying here for a few days while we explored Medellin and met some of the other guys staying there more long-term. One owned a giant fluffy himalayan cat named Bear who would come visit our room through the window.</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Antioquia</string>
+		<key>Country</key>
+		<string>Colombia</string>
+		<key>Foursquare ID</key>
+		<string>4cfec53104cff04d371d2ea2</string>
+		<key>Latitude</key>
+		<real>6.2076999856155322</real>
+		<key>Locality</key>
+		<string>Medellín</string>
+		<key>Longitude</key>
+		<real>-75.566043889549178</real>
+		<key>Place Name</key>
+		<string>Shamrock Irish Pub</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Medellin</string>
+		<string>Would recommend</string>
+		<string>Colombia</string>
+		<string>Hotels</string>
+		<string>Lodging</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Bogota</string>
+	<key>UUID</key>
+	<string>AF0579BEED2249B48457E61D71B290E0</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>19</string>
+		<key>Description</key>
+		<string>Drizzle</string>
+		<key>Fahrenheit</key>
+		<string>66</string>
+		<key>IconName</key>
+		<string>rainn.png</string>
+		<key>Pressure MB</key>
+		<integer>1017</integer>
+		<key>Relative Humidity</key>
+		<integer>88</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2013-12-18T11:06:32Z</date>
+		<key>Sunset Date</key>
+		<date>2013-12-18T22:52:24Z</date>
+		<key>Wind Bearing</key>
+		<integer>0</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>19</integer>
+		<key>Wind Speed KPH</key>
+		<integer>0</integer>
+	</dict>
+</dict>
+</plist>

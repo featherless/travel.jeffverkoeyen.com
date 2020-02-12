@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Activity</key>
+	<string>Eating</string>
+	<key>Creation Date</key>
+	<date>2014-01-12T00:38:47Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-01-15T01:00:47Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>El Encanto de la Papa
+
+Sand flies all over and tiny portions that left us starving. Ended up getting a street meat chicken skewer shortly after that was mostly bone and tasted disgusting.</string>
+	<key>Location</key>
+	<dict>
+		<key>Latitude</key>
+		<real>-0.95714431721806259</real>
+		<key>Longitude</key>
+		<real>-90.966467466290069</real>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Galapagos Islands</string>
+		<string>Isla Isabella</string>
+		<string>Ecuador</string>
+		<string>Restaurants</string>
+		<string>Casado</string>
+	</array>
+	<key>Time Zone</key>
+	<string>Pacific/Galapagos</string>
+	<key>UUID</key>
+	<string>5BECE5E4796945FAA006B550153A01B2</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>24</string>
+		<key>Description</key>
+		<string>Clear</string>
+		<key>Fahrenheit</key>
+		<string>76</string>
+		<key>IconName</key>
+		<string>clearn.png</string>
+		<key>Pressure MB</key>
+		<real>1009.77</real>
+		<key>Relative Humidity</key>
+		<real>79</real>
+		<key>Service</key>
+		<string>Forecast.io</string>
+		<key>Visibility KM</key>
+		<real>15.5</real>
+		<key>Wind Bearing</key>
+		<integer>166</integer>
+		<key>Wind Speed KPH</key>
+		<real>13.24</real>
+	</dict>
+</dict>
+</plist>

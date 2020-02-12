@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Activity</key>
+	<string>Walking</string>
+	<key>Creation Date</key>
+	<date>2014-02-01T20:17:57Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-02-13T03:18:04Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string></string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Cuzco</string>
+		<key>Country</key>
+		<string>Peru</string>
+		<key>Latitude</key>
+		<real>-13.159614400000001</real>
+		<key>Longitude</key>
+		<real>-72.077566300000001</real>
+		<key>Place Name</key>
+		<string>Lares Trek</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Lares Trek</string>
+		<string>Peru</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/La_Paz</string>
+	<key>UUID</key>
+	<string>F9054C96EA5B4F8785EB81339E063D62</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>9</string>
+		<key>Description</key>
+		<string>Drizzle</string>
+		<key>Fahrenheit</key>
+		<string>48</string>
+		<key>IconName</key>
+		<string>rain.png</string>
+		<key>Pressure MB</key>
+		<real>1009.76</real>
+		<key>Relative Humidity</key>
+		<real>88</real>
+		<key>Service</key>
+		<string>Forecast.io</string>
+		<key>Visibility KM</key>
+		<real>9.9800000000000004</real>
+		<key>Wind Bearing</key>
+		<integer>40</integer>
+		<key>Wind Speed KPH</key>
+		<real>11.27</real>
+	</dict>
+</dict>
+</plist>

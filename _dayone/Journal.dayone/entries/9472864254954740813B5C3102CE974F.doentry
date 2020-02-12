@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Activity</key>
+	<string>Eating</string>
+	<key>Creation Date</key>
+	<date>2013-12-05T01:20:55Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2013-12-05T01:20:55Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Taco Taco
+
+Taco Taco makes a solid burrito comparable in size to El Faralito's in San Francisco, but not completely in taste. For roughly the same price ($7) they're a bit on the expensive side but they're a solid meal after a day of hiking.</string>
+	<key>Location</key>
+	<dict>
+		<key>Country</key>
+		<string>Costa Rica</string>
+		<key>Foursquare ID</key>
+		<string>4f5a7c81e4b09f0f96f1deca</string>
+		<key>Latitude</key>
+		<real>10.3175902330764</real>
+		<key>Longitude</key>
+		<real>-84.8236125317177</real>
+		<key>Place Name</key>
+		<string>Taco Taco</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Monteverde</string>
+		<string>Costa rica</string>
+		<string>Restaurants</string>
+		<string>Would recommend</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Costa_Rica</string>
+	<key>UUID</key>
+	<string>9472864254954740813B5C3102CE974F</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>23</string>
+		<key>Description</key>
+		<string>Clear</string>
+		<key>Fahrenheit</key>
+		<string>74</string>
+		<key>IconName</key>
+		<string>clearn.png</string>
+		<key>Relative Humidity</key>
+		<real>67</real>
+		<key>Service</key>
+		<string>Forecast.io</string>
+		<key>Wind Bearing</key>
+		<integer>89</integer>
+		<key>Wind Speed KPH</key>
+		<real>9.9900000000000002</real>
+	</dict>
+</dict>
+</plist>

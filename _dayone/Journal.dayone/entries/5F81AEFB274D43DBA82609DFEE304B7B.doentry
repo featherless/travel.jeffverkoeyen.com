@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2013-12-22T19:50:08Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2013-12-22T19:50:08Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Tiger Paw Hostel
+
+Also really nice private for 70,000 with private bathroom. Has a small kitchen. Didn't stay here.</string>
+	<key>Location</key>
+	<dict>
+		<key>Latitude</key>
+		<real>6.2093741353659047</real>
+		<key>Longitude</key>
+		<real>-75.565948253567853</real>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Medellin</string>
+		<string>Colombia</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Bogota</string>
+	<key>UUID</key>
+	<string>5F81AEFB274D43DBA82609DFEE304B7B</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>23</string>
+		<key>Description</key>
+		<string>Clear</string>
+		<key>Fahrenheit</key>
+		<string>73</string>
+		<key>IconName</key>
+		<string>clear.png</string>
+		<key>Relative Humidity</key>
+		<real>61</real>
+		<key>Service</key>
+		<string>Forecast.io</string>
+		<key>Visibility KM</key>
+		<real>9.9800000000000004</real>
+		<key>Wind Bearing</key>
+		<integer>334</integer>
+		<key>Wind Speed KPH</key>
+		<real>5.5999999999999996</real>
+	</dict>
+</dict>
+</plist>

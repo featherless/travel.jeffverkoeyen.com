@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2013-12-31T19:17:36Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2013-12-31T19:17:36Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Alfiz Hotel Boutique
+</string>
+	<key>Location</key>
+	<dict>
+		<key>Country</key>
+		<string>Colombia</string>
+		<key>Foursquare ID</key>
+		<string>4bd7659f304fce72c97f33ab</string>
+		<key>Latitude</key>
+		<real>10.423043795119451</real>
+		<key>Locality</key>
+		<string>Cartagena de Indias</string>
+		<key>Longitude</key>
+		<real>-75.550206805730667</real>
+		<key>Place Name</key>
+		<string>Alfiz Hotel Boutique Cartagena de Indias</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Colombia</string>
+		<string>Cartagena-NewYears</string>
+		<string>Hotels</string>
+		<string>Would recommend</string>
+		<string>Lodging</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Bogota</string>
+	<key>UUID</key>
+	<string>A79562E45FC74AD98CCDAEB05E449C55</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>31</string>
+		<key>Description</key>
+		<string>Mostly Sunny</string>
+		<key>Fahrenheit</key>
+		<string>88</string>
+		<key>IconName</key>
+		<string>fair.png</string>
+		<key>Pressure MB</key>
+		<integer>1008</integer>
+		<key>Relative Humidity</key>
+		<integer>66</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2013-12-31T11:19:43Z</date>
+		<key>Sunset Date</key>
+		<date>2013-12-31T22:51:26Z</date>
+		<key>Wind Bearing</key>
+		<integer>350</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>31</integer>
+		<key>Wind Speed KPH</key>
+		<integer>24</integer>
+	</dict>
+</dict>
+</plist>

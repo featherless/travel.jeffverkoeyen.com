@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-01-19T18:57:42Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>Macintosh/MacBookAir4,1</string>
+		<key>Generation Date</key>
+		<date>2014-01-19T18:57:42Z</date>
+		<key>Host Name</key>
+		<string>Jeff’s MacBook Air</string>
+		<key>OS Agent</key>
+		<string>Mac OS X/10.9.1</string>
+		<key>Software Agent</key>
+		<string>Day One Mac/1.9</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Our goal while we’re here in Guayaquil is primarily not to get [shot](http://www.ntd.tv/en/news/world/south-america/20140109/84595-wife-of-japanese-tourist-murdered-in-guayaquil-leaves-hospital.html), so we’re laying low until our flight out of here to Lima.</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Guayas</string>
+		<key>Country</key>
+		<string>Ecuador</string>
+		<key>Latitude</key>
+		<real>-2.1866031000000001</real>
+		<key>Locality</key>
+		<string>Guayaquil</string>
+		<key>Longitude</key>
+		<real>-79.898195299999998</real>
+		<key>Place Name</key>
+		<string>Avenue Carlos Julio Arosemena</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Ecuador</string>
+		<string>Guayaquil</string>
+		<string>Preamble</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Guayaquil</string>
+	<key>UUID</key>
+	<string>F9483253146C4DBFA2771DE4E6B19675</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>28</string>
+		<key>Description</key>
+		<string>Mostly Cloudy</string>
+		<key>Fahrenheit</key>
+		<string>82</string>
+		<key>IconName</key>
+		<string>mcloudy.png</string>
+		<key>Pressure MB</key>
+		<integer>1012</integer>
+		<key>Relative Humidity</key>
+		<integer>74</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2014-01-19T11:23:41Z</date>
+		<key>Sunset Date</key>
+		<date>2014-01-19T23:37:13Z</date>
+		<key>Wind Bearing</key>
+		<integer>20</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>28</integer>
+		<key>Wind Speed KPH</key>
+		<integer>11</integer>
+	</dict>
+</dict>
+</plist>

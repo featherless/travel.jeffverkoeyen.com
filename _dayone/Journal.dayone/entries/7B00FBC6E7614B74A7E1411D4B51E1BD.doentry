@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Activity</key>
+	<string>Flying</string>
+	<key>Creation Date</key>
+	<date>2014-07-10T06:48:27Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-07-10T06:48:27Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.1</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.14.1</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Flying from Hanoi, Vietnam to Ko Phangan, Thailand
+
+| 1:40PM | In a cab.
+| 2:23PM | At HAN.
+| 2:54PM | Checked in.
+| 3:34PM | Through security and customs.
+| 4:20PM | Boarded.
+| 4:41PM | Take off!
+| 6:07PM | Landed in Bangkok.
+| 6:33PM | Through customs.
+| 7:11PM | Checked in.
+| 9:50PM | Take off.
+| 10:32PM | Landed.
+| 11:06PM | In a minibus.
+| 11:08PM | And we're off!
+| 11:36PM | At Let's Go hostel.
+| 12:29PM | In a cab to the port.
+| 12:34PM | At the port.
+| 12:52PM | On a boat.
+| 1:19PM | On our way.
+| 2:12PM | At the other island.
+
+9.8kg N
+17.5kg L
+18.0kg J</string>
+	<key>Location</key>
+	<dict>
+		<key>Latitude</key>
+		<real>21.046386589315762</real>
+		<key>Longitude</key>
+		<real>105.84355786452613</real>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Vietnam</string>
+		<string>Hanoi</string>
+		<string>Thailand</string>
+		<string>Flights</string>
+		<string>Ko Phangan</string>
+	</array>
+	<key>Time Zone</key>
+	<string>Asia/Ho_Chi_Minh</string>
+	<key>UUID</key>
+	<string>7B00FBC6E7614B74A7E1411D4B51E1BD</string>
+</dict>
+</plist>

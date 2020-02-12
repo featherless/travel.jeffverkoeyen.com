@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Activity</key>
+	<string>Eating</string>
+	<key>Creation Date</key>
+	<date>2013-12-22T22:33:40Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2013-12-22T22:33:40Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Lenteja Express
+
+We had veggie burgers.</string>
+	<key>Location</key>
+	<dict>
+		<key>Latitude</key>
+		<real>6.2085652817098502</real>
+		<key>Longitude</key>
+		<real>-75.565739292721787</real>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Would go back if starving</string>
+		<string>Vegan</string>
+		<string>Colombia</string>
+		<string>Restaurants</string>
+		<string>Medellin</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Bogota</string>
+	<key>UUID</key>
+	<string>4D7EC23B6F404918B48EC843801B768D</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>21</string>
+		<key>Description</key>
+		<string>Clear</string>
+		<key>Fahrenheit</key>
+		<string>70</string>
+		<key>IconName</key>
+		<string>clear.png</string>
+		<key>Relative Humidity</key>
+		<real>73</real>
+		<key>Service</key>
+		<string>Forecast.io</string>
+		<key>Visibility KM</key>
+		<real>8.9199999999999999</real>
+		<key>Wind Bearing</key>
+		<integer>44</integer>
+		<key>Wind Speed KPH</key>
+		<real>7.3200000000000003</real>
+	</dict>
+</dict>
+</plist>

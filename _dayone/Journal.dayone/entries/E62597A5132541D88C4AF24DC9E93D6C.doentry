@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-01-09T17:52:50Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>Macintosh/MacBookAir4,1</string>
+		<key>Generation Date</key>
+		<date>2014-01-09T22:52:50Z</date>
+		<key>Host Name</key>
+		<string>Jeff’s MacBook Air</string>
+		<key>OS Agent</key>
+		<string>Mac OS X/10.9.1</string>
+		<key>Software Agent</key>
+		<string>Day One Mac/1.9</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Diving in Mosquera
+
+After we finished our dive at North Seymour we did a super fast skill dive to practice using a compass to swim in a square. It was not much of a challenge and we were a little sad to have had to ascend after only having been in the water for 10 minutes. We wanted to see more fishes!
+
+So off we went to Mosquera just around the corner. This diving spot featured a large reef wall that we swam along and saw a few white-tipped sharks and a floor composed of what looked like seaweed, but upon closer inspection turned out to be hundreds of snakes poking out of the ground!
+
+After we ascended we climbed back in to the boat and passed the hell out. We slept on and off all the way back to the dive shop, where we waited to receive our certification. The instructor was nowhere to be found though after half an hour of waiting, so we decided to come back later that night.
+
+At about 7PM we officially became advanced open water divers!</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Galapagos</string>
+		<key>Country</key>
+		<string>Ecuador</string>
+		<key>Latitude</key>
+		<real>-0.74527450707357901</real>
+		<key>Locality</key>
+		<string>Santa Cruz</string>
+		<key>Longitude</key>
+		<real>-90.312226821604284</real>
+		<key>Place Name</key>
+		<string>Galapagos National Park</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Isla Santa Cruz</string>
+		<string>SCUBA</string>
+		<string>Ecuador</string>
+		<string>Galapagos Islands</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Guatemala</string>
+	<key>UUID</key>
+	<string>E62597A5132541D88C4AF24DC9E93D6C</string>
+</dict>
+</plist>

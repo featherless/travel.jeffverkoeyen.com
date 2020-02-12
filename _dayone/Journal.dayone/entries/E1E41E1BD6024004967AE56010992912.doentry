@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Activity</key>
+	<string>Flying</string>
+	<key>Creation Date</key>
+	<date>2014-03-18T02:09:59Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-03-18T02:09:59Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.1</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.13</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Flying from Fakarava to Rangiroa
+
+| Time|Location
+|--------:|:-----------|
+| 4:09PM | Hostel owner is driving us to the airport.
+| 4:15PM | At the airport.
+| 4:27PM | Checked in.
+| 4:44PM | Boarded.
+| 4:52PM | Take off!
+| 5:32PM | Landed!
+| 5:49PM | On our way to the hotel.
+| 5:59PM | Arrived!
+
+ Totals | Totals
+|--------:|:---------|
+| Total air time | 0:40
+| Total flight legs | 1</string>
+	<key>Location</key>
+	<dict>
+		<key>Latitude</key>
+		<real>-16.054764138549615</real>
+		<key>Longitude</key>
+		<real>-145.6191928872332</real>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>French Polynesia</string>
+		<string>Rangiroa</string>
+		<string>Fakarava</string>
+	</array>
+	<key>Time Zone</key>
+	<string>Pacific/Tahiti</string>
+	<key>UUID</key>
+	<string>E1E41E1BD6024004967AE56010992912</string>
+</dict>
+</plist>

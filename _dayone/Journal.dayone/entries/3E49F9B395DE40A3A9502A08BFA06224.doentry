@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-02-10T22:23:54Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-02-11T01:33:35Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Copacabana is a cute little beach town on the edge of Lake Titicaca and it strongly reminded us of Puerto Viejo: tons of hippy-types everywhere, but locals actually live here too!
+
+Most of our time was spent walking up and down the main street looking for food, and then eating it. We decided to skip the Isle of Sun and Moon tour because it would involve over five hours in a boat and we didn't want to spend a day doing the overnight.
+
+Onwards to La Paz we went!</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>La Paz</string>
+		<key>Country</key>
+		<string>Bolivia</string>
+		<key>Latitude</key>
+		<real>-16.165204800000001</real>
+		<key>Longitude</key>
+		<real>-69.0903809</real>
+		<key>Place Name</key>
+		<string>Av. Costanera</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Copacabana</string>
+		<string>Bolivia</string>
+		<string>Preamble</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/La_Paz</string>
+	<key>UUID</key>
+	<string>3E49F9B395DE40A3A9502A08BFA06224</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>8</string>
+		<key>Description</key>
+		<string>Mostly Cloudy</string>
+		<key>Fahrenheit</key>
+		<string>46</string>
+		<key>IconName</key>
+		<string>mcloudy.png</string>
+		<key>Pressure MB</key>
+		<integer>1034</integer>
+		<key>Relative Humidity</key>
+		<integer>87</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2014-02-10T10:26:14Z</date>
+		<key>Sunset Date</key>
+		<date>2014-02-10T23:07:31Z</date>
+		<key>Wind Bearing</key>
+		<integer>100</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>4</integer>
+		<key>Wind Speed KPH</key>
+		<integer>19</integer>
+	</dict>
+</dict>
+</plist>

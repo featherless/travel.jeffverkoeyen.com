@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-05-26T09:01:03Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-05-30T16:22:56Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.1</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.14</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Homes
+
+Local homes behind the tourist homes.</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Bali</string>
+		<key>Country</key>
+		<string>Indonesia</string>
+		<key>Latitude</key>
+		<real>-8.6746490999999999</real>
+		<key>Locality</key>
+		<string>Klungkung</string>
+		<key>Longitude</key>
+		<real>115.44814270000001</real>
+		<key>Place Name</key>
+		<string>Jalan Raya Jungut Batu</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Lembongan</string>
+		<string>Indonesia</string>
+	</array>
+	<key>Time Zone</key>
+	<string>Asia/Makassar</string>
+	<key>UUID</key>
+	<string>46C87779480C40F9B877AC032D9A8007</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>30</string>
+		<key>Description</key>
+		<string>Mostly Sunny</string>
+		<key>Fahrenheit</key>
+		<string>86</string>
+		<key>IconName</key>
+		<string>fair.png</string>
+		<key>Pressure MB</key>
+		<integer>1010</integer>
+		<key>Relative Humidity</key>
+		<integer>75</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2014-05-25T22:21:50Z</date>
+		<key>Sunset Date</key>
+		<date>2014-05-26T10:01:55Z</date>
+		<key>Wind Bearing</key>
+		<integer>130</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>30</integer>
+		<key>Wind Speed KPH</key>
+		<integer>15</integer>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-01-23T02:54:24Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>Macintosh/MacBookAir4,1</string>
+		<key>Generation Date</key>
+		<date>2014-01-23T02:54:24Z</date>
+		<key>Host Name</key>
+		<string>Jeff’s MacBook Air</string>
+		<key>OS Agent</key>
+		<string>Mac OS X/10.9.1</string>
+		<key>Software Agent</key>
+		<string>Day One Mac/1.9.1</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>La Paz, Bolivia
+
+## Travel to Sucre
+
+### By Bus
+
+- All passengers must pay a 2Bs fee for using the station.
+- Takes 12 hours (do overnight).
+- Minimum 45Bs ($6.51 USD), normal bus 69Bs ($10 USD), semi-cama 90 Bs ($13 USD), full cama 135Bs ($19.54 USD).
+
+[Someone’s top-rated buses](http://www.lonelyplanet.com/thorntree/thread.jspa?threadID=2266633):
+
+1 - El Dorado (new buses, super comfortable, reputation gets better by the month)
+2 - Bolivar (just bought a fleet of new buses)
+3 - Trans Copacabana (professional outfit with good buses)
+4 - Trans Copacabana MEM (decent, but buses are older and tired)
+
+From [lonelyplanet](http://www.lonelyplanet.com/bolivia/la-paz/transport/getting-there-away):
+
+&gt; The main bus terminal (Terminal de Buses; 228-0551; Plaza Antofagasta; terminal fee US$0.25) is a 15-minute uphill walk north of the city center. Fares are relatively uniform between companies. This full-service terminal serves all destinations south and east of La Paz, as well as international destinations. Other destinations are served mainly by micros and minibuses departing from the cemetery district and Villa Fátima.
+&gt;
+&gt; Most overnight buses to Sucre (US$6.50 to US$11.50, 14 hours) pass through Potosí (US$7 to US$13, 11 hours) and some require a layover there. Have warm clothes handy for this typically chilly trip. 
+
+From [sucrelife](http://www.sucrelife.com/la-paz-sucre-bus/) Nov 13, 2013:
+&gt; We made the direct trip from La Paz to Sucre with El Dorado. El Dorado’s full-cama bus is not brand new, but in good condition. The seats recline fully to form a spacious and comfortable bed, separated from other rows by wooden partitions for privacy. The buses typically leave quite punctually, around 10 minutes after the scheduled 7.30pm departure time (there were also departures at 7pm and 8.30pm). While it is prudent to bring warm clothing for trip, the temperature in the bus is actually very comfortable, even slightly too warm. The bus has windows which can be opened by the passengers, though, so your experience may depend on the preferences of your fellow travelers and your distance from the windows (which are located towards the front of the upper-level). The bus has a toilet, but when we traveled, the door was locked. We were able to get the key of the driver and gain access. The toilet was in decent condition, except for the light which was not working.
+&gt;
+&gt; The bus was comfortable, but not luxurious. There were no niceties included such as blankets, wifi or food. A film was played at the start of the trip, then after that the lights were switched off and the bus remained quiet and dark for the rest of the trip, so it was actually possible to get quite a good night’s sleep. The bus made its first 20min stop half-way through the journey, in Challapata, at 2am. It then stopped again at 7am for a 10min toilet stop. Other than that, the bus made no other stops and arrived into Sucre at 8am, though it then proceeded to slowly work its way round the outskirts of the city to eventually reach the bus station at 8.30am.
+&gt;
+&gt; Throughout the trip our driver drove slowly and carefully. There was no evidence of the past issues El Dorado has had with accidents – reports are that they have improved safety significantly of late.
+&gt;
+&gt; The Road
+&gt;
+&gt; We had heard bad things about Bolivian roads, and chose to enter Sucre via Potosi to minimize any discomfort. The route turned out to be very pleasant. The road is paved the whole way. From La Paz, the road runs straight and smooth (with only the occasional bump) almost until Potosi at which point it starts to gently meander through the hills, culminating in some beautiful sunrise views of the town. The curves gradually sharpen on road in to Sucre from Potosi, but never reach the point of discomfort – the curves are quite long and slow so you don’t really notice them much. All in all, the journey from La Paz to Sucre is one of the better bus journeys to be made in South America and the reward of reaching Sucre makes it well worth the trip.
+</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Lima</string>
+		<key>Country</key>
+		<string>Peru</string>
+		<key>Latitude</key>
+		<real>-12.135878918035706</real>
+		<key>Longitude</key>
+		<real>-77.010044190788861</real>
+		<key>Place Name</key>
+		<string>Av. La Merced</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Bolivia</string>
+		<string>Travel Planning</string>
+		<string>La Paz</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Guayaquil</string>
+	<key>UUID</key>
+	<string>693463CDC7A248E4828C7A6ACB11D7B2</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>23</string>
+		<key>Description</key>
+		<string>Mostly Cloudy</string>
+		<key>Fahrenheit</key>
+		<string>73</string>
+		<key>IconName</key>
+		<string>mcloudyn.png</string>
+		<key>Pressure MB</key>
+		<integer>1012</integer>
+		<key>Relative Humidity</key>
+		<integer>89</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2014-01-22T10:59:17Z</date>
+		<key>Sunset Date</key>
+		<date>2014-01-22T23:41:08Z</date>
+		<key>Wind Bearing</key>
+		<integer>190</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>23</integer>
+		<key>Wind Speed KPH</key>
+		<integer>11</integer>
+	</dict>
+</dict>
+</plist>

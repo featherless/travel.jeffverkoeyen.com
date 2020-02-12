@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-02-08T14:58:10Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>Macintosh/MacBookAir4,1</string>
+		<key>Generation Date</key>
+		<date>2014-02-08T14:58:10Z</date>
+		<key>Host Name</key>
+		<string>Jeff’s MacBook Air</string>
+		<key>OS Agent</key>
+		<string>Mac OS X/10.9.1</string>
+		<key>Software Agent</key>
+		<string>Day One Mac/1.9.2</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Copacabana, Bolivia
+
+## Do
+
+### Isla del Sol
+
+From [wikitravel](http://wikitravel.org/en/Copacabana):
+
+&gt; There's hardly any point in going to Copacabana without a trip to Isla del Sol. Boats leave around 8:30 AM for full day tours with stops at the north (25 Bs. - 2 hours) and south (20 Bs. - 1 1/2 hours) of the island. Half day tours are also available in the afternoons (1:30 PM), typically visiting just the south. (As at Dec 2013, the price for the full day trip with stops in the north and south was 35 Bs.).
+
+## Sleep
+
+From [wikitravel](http://wikitravel.org/en/Copacabana):
+
+- Hostal 6 de Agosto, (Nearly at the begining of the street, on your right.). checkout: 10.00 am strict. 35 bs. per person (6 dec 2012). Clean rooms with hot water. Bath, TV, towels included. They wake you crushing on your door if you don't tell them you will be staying one more day beforehand. 
+- Hospedaje Aroma, Jáuregui &amp; Destacamento. Basic but seriously cheap. Try to get a room on the top floor, the views there are great. Price Bs.10++.
+- Hostal Sonia, a 5-10 min walk from the main tourist drag. Cheap, but the terrible shower had us changing accommodations after one night. No hot water, and the shower was located in our tiny bathroom almost overtop of the sink. Trucks and buses cruise by at all hours, always honking to make the turn around the hostel. Bs.50 for a room with double bed and private bathroom.
+- Hostal Central, new hotel on plaza Sucre. Comfortable and clean. Double with private bathroom for 70 Bs (May 2012). EDIT feb 2013 - price is 40 or 50Bs per person. No breakfast.No wifi. They wake you crushing on your door if you don't tell them you will be staying one more day beforehand - disturbing.
+- Hostal Elida, at the corner of Junin and Vallivan. Great alternative in quiet area. One block off from the Cathedral (away from the lake). Large and bright rooms. Run by friendly and helpful fammily with cat and dog. From Bs. 30 with private bathroom. Be careful that there's no heating and no insulation.
+- Hostel Arco Iris, Half way between Plaza Sucre and Plaza 2 de Febrero on Avenida 6 de Agosto, Restaurant with good food. One night cost between 20 Bs. (shared bathroom) and 30 Bs. (private bath). Internet connection by WiFi in the restaurant and at 1st floor. On a trip to Isla del Sol, you can leave your heavy luggage for free at the hostel. However this hostel doesn't get only good reviews: there have been reports of disagreements and spats with the owner.</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Puno</string>
+		<key>Country</key>
+		<string>Peru</string>
+		<key>Latitude</key>
+		<real>-15.836710925610028</real>
+		<key>Locality</key>
+		<string>Puno</string>
+		<key>Longitude</key>
+		<real>-70.029626397004876</real>
+		<key>Place Name</key>
+		<string>Jr. Lima</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Bolivia</string>
+		<string>Copacabana</string>
+		<string>Travel Planning</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Lima</string>
+	<key>UUID</key>
+	<string>89BD9AEFA0644280A4004EBD244F7FFE</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>12</string>
+		<key>Description</key>
+		<string>Sunny</string>
+		<key>Fahrenheit</key>
+		<string>54</string>
+		<key>IconName</key>
+		<string>clear.png</string>
+		<key>Pressure MB</key>
+		<integer>1036</integer>
+		<key>Relative Humidity</key>
+		<integer>51</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2014-02-08T10:34:32Z</date>
+		<key>Sunset Date</key>
+		<date>2014-02-08T23:15:02Z</date>
+		<key>Visibility KM</key>
+		<real>11.265408000000001</real>
+		<key>Wind Bearing</key>
+		<integer>0</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>12</integer>
+		<key>Wind Speed KPH</key>
+		<integer>2</integer>
+	</dict>
+</dict>
+</plist>

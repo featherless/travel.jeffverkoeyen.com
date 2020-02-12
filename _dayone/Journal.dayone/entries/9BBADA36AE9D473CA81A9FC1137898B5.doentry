@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-01-12T21:24:16Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>Macintosh/MacBookAir4,1</string>
+		<key>Generation Date</key>
+		<date>2014-01-13T00:53:15Z</date>
+		<key>Host Name</key>
+		<string>Jeff’s MacBook Air</string>
+		<key>OS Agent</key>
+		<string>Mac OS X/10.9.1</string>
+		<key>Software Agent</key>
+		<string>Day One Mac/1.9</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>A Weird Fish in the Lagoon
+
+We’re not sure what this fish was but it looked pretty strange.</string>
+	<key>Location</key>
+	<dict>
+		<key>Country</key>
+		<string>Ecuador</string>
+		<key>Foursquare ID</key>
+		<string>5098246de4b07ba8c7fc669d</string>
+		<key>Latitude</key>
+		<real>-0.96214384524514374</real>
+		<key>Longitude</key>
+		<real>-90.95883520897199</real>
+		<key>Place Name</key>
+		<string>Concha de Perla</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Galapagos Islands</string>
+		<string>Isla Isabella</string>
+		<string>Ecuador</string>
+		<string>Snorkelling</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Guatemala</string>
+	<key>UUID</key>
+	<string>9BBADA36AE9D473CA81A9FC1137898B5</string>
+</dict>
+</plist>

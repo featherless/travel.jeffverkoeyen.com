@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Activity</key>
+	<string>Walking</string>
+	<key>Creation Date</key>
+	<date>2014-01-13T14:01:42Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-01-13T14:01:42Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Volcán Sierra Negra Hike
+
+| Time|Location
+|--------:|:-----------|
+| 7:42AM | Heading over to Hotel San Vicente.
+| 8:01AM | Made sandwiches.
+| 8:04AM | In a cab truck.
+| 8:35AM | Arrived at the trail.
+| 8:45AM | And we're off.
+| 9:32AM | First volcano.
+| 9:47AM | On to the next one.
+| 11:20AM | Eating our sandwiches at the end of the trail.
+| 11:43AM | Heading back.
+| 1:44PM | Back at the trail head.
+| 2:32PM | Back home.</string>
+	<key>Location</key>
+	<dict>
+		<key>Latitude</key>
+		<real>-0.9549997653821064</real>
+		<key>Longitude</key>
+		<real>-90.964408703233076</real>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Galapagos Islands</string>
+		<string>Ecuador</string>
+		<string>Isla Isabella</string>
+		<string>Hikes</string>
+	</array>
+	<key>Time Zone</key>
+	<string>Pacific/Galapagos</string>
+	<key>UUID</key>
+	<string>F0BFAD3DFBE74FDFA505906B0F2FE521</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>25</string>
+		<key>Description</key>
+		<string>Partly Cloudy</string>
+		<key>Fahrenheit</key>
+		<string>77</string>
+		<key>IconName</key>
+		<string>pcloudy.png</string>
+		<key>Pressure MB</key>
+		<real>1011.75</real>
+		<key>Relative Humidity</key>
+		<real>77</real>
+		<key>Service</key>
+		<string>Forecast.io</string>
+		<key>Visibility KM</key>
+		<real>12.09</real>
+		<key>Wind Bearing</key>
+		<integer>174</integer>
+		<key>Wind Speed KPH</key>
+		<real>17.77</real>
+	</dict>
+</dict>
+</plist>

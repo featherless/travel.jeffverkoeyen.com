@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-01-08T19:27:09Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>Macintosh/MacBookAir4,1</string>
+		<key>Generation Date</key>
+		<date>2014-01-13T02:23:13Z</date>
+		<key>Host Name</key>
+		<string>Jeff’s MacBook Air</string>
+		<key>OS Agent</key>
+		<string>Mac OS X/10.9.1</string>
+		<key>Software Agent</key>
+		<string>Day One Mac/1.9</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Manta Rays
+
+Saw these while at Gordon Rocks! They were just hanging out at the bottom, seemingly taking a nap.
+
+These are also Eagle Rays, oops!</string>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Isla Santa Cruz</string>
+		<string>SCUBA</string>
+		<string>Ecuador</string>
+		<string>Galapagos Islands</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Guatemala</string>
+	<key>UUID</key>
+	<string>EC79F80139454BEB814D89787EF6EE9A</string>
+</dict>
+</plist>

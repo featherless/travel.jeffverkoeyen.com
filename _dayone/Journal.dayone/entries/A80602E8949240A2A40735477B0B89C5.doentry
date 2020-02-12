@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Activity</key>
+	<string>Walking</string>
+	<key>Creation Date</key>
+	<date>2014-02-18T16:47:12Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-02-19T12:23:52Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>The salt flats are described as hallucinogenic in some written descriptions and it’s a pretty apt word. The horizon on the salt flats seems to blend seamlessly with the sky creating the impression of an infinite plane going off in every direction. This combined with coming here at around noon makes for the perfect perspective-manipulation camera shots where people are eating their friends or running from giant dinosaurs.
+
+We ate our first lunch at one of the salt buildings as people went off in every direction to take pictures. We then drove off to a remote part of the salt flats to get our own perspective shots.
+
+Our guide informed us that we’d been driving on top of an actual lake - the salt is so thick (2-5 meters) and solid that we can drive atop it. Apparently families come to the salt flats every year and end up losing their car in the lake because they didn’t realize they were driving atop water and found one of the weaker spots.
+
+Also: wear sunglasses - no joke. A guy we met later didn’t wear sunglasses and ended up burning his eyes. Yes, his eyes. Did not know that this was possible, but his eyes were bright red and bloodshot for nearly a week after.
+
+Our tour of the salt flats complete, we headed back to town once more so that the car could be washed off. Next stop: the Atacama Desert!</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Potosí</string>
+		<key>Country</key>
+		<string>Bolivia</string>
+		<key>Latitude</key>
+		<real>-20.317183333333332</real>
+		<key>Longitude</key>
+		<real>-66.980736666666672</real>
+		<key>Region</key>
+		<dict>
+			<key>Center</key>
+			<dict>
+				<key>Latitude</key>
+				<real>-20.374595598635608</real>
+				<key>Longitude</key>
+				<real>-66.758811992553007</real>
+			</dict>
+			<key>Radius</key>
+			<real>349057.01028408506</real>
+		</dict>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Bolivia</string>
+		<string>Tours</string>
+		<string>Uyuni Salt Flats</string>
+		<string>Preamble</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/La_Paz</string>
+	<key>UUID</key>
+	<string>A80602E8949240A2A40735477B0B89C5</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>14</string>
+		<key>Description</key>
+		<string>Mostly Cloudy</string>
+		<key>Fahrenheit</key>
+		<string>57</string>
+		<key>IconName</key>
+		<string>mcloudy.png</string>
+		<key>Pressure MB</key>
+		<integer>1035</integer>
+		<key>Relative Humidity</key>
+		<integer>63</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2014-02-18T10:16:49Z</date>
+		<key>Sunset Date</key>
+		<date>2014-02-18T22:56:35Z</date>
+		<key>Wind Bearing</key>
+		<integer>240</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>14</integer>
+		<key>Wind Speed KPH</key>
+		<integer>19</integer>
+	</dict>
+</dict>
+</plist>

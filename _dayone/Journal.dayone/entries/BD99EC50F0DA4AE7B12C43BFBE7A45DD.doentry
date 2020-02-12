@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Activity</key>
+	<string>Eating</string>
+	<key>Creation Date</key>
+	<date>2013-12-01T17:24:41Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2013-12-01T17:24:41Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>La Casa del Hormiga
+
+Had the casado plate ($4) and maracuya juice ($1). The food was delicious and the prices are the best in town. This was definitely our favorite budget place to eat in La Fortuna and we ate here multiple times.</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Alajuela</string>
+		<key>Country</key>
+		<string>Costa Rica</string>
+		<key>Foursquare ID</key>
+		<string>4dced7a3ae603b786d3a2ddd</string>
+		<key>Latitude</key>
+		<real>10.469944999999999</real>
+		<key>Locality</key>
+		<string>La Fortuna</string>
+		<key>Longitude</key>
+		<real>-84.645785000000004</real>
+		<key>Place Name</key>
+		<string>Soda La Hormiga</string>
+	</dict>
+	<key>Starred</key>
+	<true/>
+	<key>Tags</key>
+	<array>
+		<string>Restaurants</string>
+		<string>Costa rica</string>
+		<string>La Fortuna</string>
+		<string>Casado</string>
+		<string>Would recommend</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Costa_Rica</string>
+	<key>UUID</key>
+	<string>BD99EC50F0DA4AE7B12C43BFBE7A45DD</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>25</string>
+		<key>Description</key>
+		<string>Mostly Sunny</string>
+		<key>Fahrenheit</key>
+		<string>77</string>
+		<key>IconName</key>
+		<string>fair.png</string>
+		<key>Pressure MB</key>
+		<integer>1016</integer>
+		<key>Relative Humidity</key>
+		<integer>54</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2013-12-01T11:38:35Z</date>
+		<key>Sunset Date</key>
+		<date>2013-12-01T23:13:33Z</date>
+		<key>Wind Bearing</key>
+		<integer>80</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>25</integer>
+		<key>Wind Speed KPH</key>
+		<integer>24</integer>
+	</dict>
+</dict>
+</plist>

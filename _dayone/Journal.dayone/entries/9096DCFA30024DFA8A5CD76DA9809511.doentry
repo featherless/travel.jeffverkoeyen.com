@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Activity</key>
+	<string>Eating</string>
+	<key>Creation Date</key>
+	<date>2014-01-06T00:50:16Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-01-06T00:50:16Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Cafe del Fraile
+
+We grabbed dinner here on our last night in Quito and it was just ok. I ordered the “Cordon Bleu” which, for whatever reason, was fried pretty aggressively, destroying any of the tasty flavours the ham or cheese might have been trying to express. For $12 I was pretty sad about this, especially compared to the chicken plate we had the night before for $4.00 which was way more delicious.</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Pichincha</string>
+		<key>Country</key>
+		<string>Ecuador</string>
+		<key>Latitude</key>
+		<real>-0.2221572</real>
+		<key>Locality</key>
+		<string>Quito</string>
+		<key>Longitude</key>
+		<real>-78.512069299999993</real>
+		<key>Place Name</key>
+		<string>Guayaquil</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Quito</string>
+		<string>Would go back if starving</string>
+		<string>Colombia</string>
+		<string>Restaurants</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Guayaquil</string>
+	<key>UUID</key>
+	<string>9096DCFA30024DFA8A5CD76DA9809511</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>13</string>
+		<key>Description</key>
+		<string>Mostly Cloudy</string>
+		<key>Fahrenheit</key>
+		<string>56</string>
+		<key>IconName</key>
+		<string>cloudyn.png</string>
+		<key>Relative Humidity</key>
+		<real>92</real>
+		<key>Service</key>
+		<string>Forecast.io</string>
+		<key>Visibility KM</key>
+		<real>9.3200000000000003</real>
+		<key>Wind Bearing</key>
+		<integer>43</integer>
+		<key>Wind Speed KPH</key>
+		<real>9.4100000000000001</real>
+	</dict>
+</dict>
+</plist>

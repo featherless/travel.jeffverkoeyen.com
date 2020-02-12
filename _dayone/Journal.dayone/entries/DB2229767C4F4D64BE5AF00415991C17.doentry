@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Activity</key>
+	<string>Eating</string>
+	<key>Creation Date</key>
+	<date>2014-02-20T14:03:16Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-02-21T01:43:16Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Solcor
+
+Shitty expensive food. Had plastic in our soup.</string>
+	<key>Location</key>
+	<dict>
+		<key>Latitude</key>
+		<real>-22.911263108274817</real>
+		<key>Longitude</key>
+		<real>-68.201782470632523</real>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>San Pedro de Atacama</string>
+		<string>Chile</string>
+		<string>Restaurants</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Santiago</string>
+	<key>UUID</key>
+	<string>DB2229767C4F4D64BE5AF00415991C17</string>
+</dict>
+</plist>

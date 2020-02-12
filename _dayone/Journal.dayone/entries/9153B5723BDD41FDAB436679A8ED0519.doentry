@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-03-23T05:20:03Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-03-23T05:20:03Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.1</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.13</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Travel Planning: Dunedin, New Zealand
+
+From wikivoyage:
+&gt; The Edinburgh of the South, proud of its Scots heritage, chocolate factory, Southern Albatross colony and its wonderful tramping tracks within a short drive from the central business district</string>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Dunedin</string>
+		<string>New Zealand</string>
+		<string>Travel Planning</string>
+	</array>
+	<key>Time Zone</key>
+	<string>Pacific/Tahiti</string>
+	<key>UUID</key>
+	<string>9153B5723BDD41FDAB436679A8ED0519</string>
+</dict>
+</plist>

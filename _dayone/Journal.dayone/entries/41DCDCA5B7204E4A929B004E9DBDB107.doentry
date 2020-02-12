@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-06-22T05:40:00Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-06-22T05:40:00Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.1</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.14</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Thievery!
+
+A girl in our dorm just had her purse stolen by a motorbiker! The purse was under her coat and just barely sticking out at the bottom. The motorbiker drove by and tore the purse from her body before she could even react. Crazytown!</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Thành Phố Hồ Chí Minh</string>
+		<key>Country</key>
+		<string>Vietnam</string>
+		<key>Latitude</key>
+		<real>10.766549552800848</real>
+		<key>Locality</key>
+		<string>Ho Chi Minh City</string>
+		<key>Longitude</key>
+		<real>106.69004567908746</real>
+		<key>Place Name</key>
+		<string>Đường Phạm Ngũ Lão 373/10</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Ho Chi Minh</string>
+		<string>Vietnam</string>
+	</array>
+	<key>Time Zone</key>
+	<string>Asia/Ho_Chi_Minh</string>
+	<key>UUID</key>
+	<string>41DCDCA5B7204E4A929B004E9DBDB107</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>32</string>
+		<key>Description</key>
+		<string>Mostly Cloudy</string>
+		<key>Fahrenheit</key>
+		<string>90</string>
+		<key>IconName</key>
+		<string>mcloudy.png</string>
+		<key>Pressure MB</key>
+		<integer>1008</integer>
+		<key>Relative Humidity</key>
+		<integer>75</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2014-06-21T22:32:32Z</date>
+		<key>Sunset Date</key>
+		<date>2014-06-22T11:18:04Z</date>
+		<key>Wind Bearing</key>
+		<integer>270</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>32</integer>
+		<key>Wind Speed KPH</key>
+		<integer>15</integer>
+	</dict>
+</dict>
+</plist>

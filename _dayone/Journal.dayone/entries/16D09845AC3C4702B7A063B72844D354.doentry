@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Activity</key>
+	<string>Eating</string>
+	<key>Creation Date</key>
+	<date>2014-01-06T00:12:24Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-01-06T00:12:24Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Hot Chocolate with White Cheese
+
+Strange combo. Wasn’t sure what to do with the cheese, so I ate it while drinking the hot chocolate. It was an interesting combination, but I can’t say that I’d go out of my way to order it again.</string>
+	<key>Location</key>
+	<dict>
+		<key>Latitude</key>
+		<real>-0.22000625201212876</real>
+		<key>Longitude</key>
+		<real>-78.511690931043063</real>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Quito</string>
+		<string>Ecuador</string>
+		<string>Would go back if starving</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Guayaquil</string>
+	<key>UUID</key>
+	<string>16D09845AC3C4702B7A063B72844D354</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>13</string>
+		<key>Description</key>
+		<string>Mostly Cloudy</string>
+		<key>Fahrenheit</key>
+		<string>56</string>
+		<key>IconName</key>
+		<string>cloudyn.png</string>
+		<key>Relative Humidity</key>
+		<real>91</real>
+		<key>Service</key>
+		<string>Forecast.io</string>
+		<key>Visibility KM</key>
+		<real>9.1099999999999994</real>
+		<key>Wind Bearing</key>
+		<integer>44</integer>
+		<key>Wind Speed KPH</key>
+		<real>9.8499999999999996</real>
+	</dict>
+</dict>
+</plist>

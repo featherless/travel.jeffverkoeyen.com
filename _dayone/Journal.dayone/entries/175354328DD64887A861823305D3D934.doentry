@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-03-09T00:15:16Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>Macintosh/MacBookAir4,1</string>
+		<key>Generation Date</key>
+		<date>2014-03-09T00:15:16Z</date>
+		<key>Host Name</key>
+		<string>Jeff’s MacBook Air</string>
+		<key>OS Agent</key>
+		<string>Mac OS X/10.9.2</string>
+		<key>Software Agent</key>
+		<string>Day One Mac/1.9.3</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Kindle Problems
+
+Kindle wasn’t showing up on the mac anymore - turned out the usb cables we were connecting it with were just for power, not data. We found someone who had a regular cable and it worked again!</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Valparaíso</string>
+		<key>Country</key>
+		<string>Chile</string>
+		<key>Latitude</key>
+		<real>-27.151937949999994</real>
+		<key>Locality</key>
+		<string>Hanga Roa</string>
+		<key>Longitude</key>
+		<real>-109.42873556999996</real>
+		<key>Place Name</key>
+		<string>Los Ríos</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Chile</string>
+		<string>Easter Island</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Lima</string>
+	<key>UUID</key>
+	<string>175354328DD64887A861823305D3D934</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>25</string>
+		<key>Description</key>
+		<string>Mostly Cloudy</string>
+		<key>Fahrenheit</key>
+		<string>77</string>
+		<key>IconName</key>
+		<string>mcloudy.png</string>
+		<key>Pressure MB</key>
+		<integer>1019</integer>
+		<key>Relative Humidity</key>
+		<integer>69</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2014-03-08T13:15:21Z</date>
+		<key>Sunset Date</key>
+		<date>2014-03-09T01:41:11Z</date>
+		<key>Wind Bearing</key>
+		<integer>50</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>25</integer>
+		<key>Wind Speed KPH</key>
+		<integer>15</integer>
+	</dict>
+</dict>
+</plist>

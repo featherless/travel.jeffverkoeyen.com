@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Activity</key>
+	<string>Eating</string>
+	<key>Creation Date</key>
+	<date>2013-12-03T02:34:12Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2013-12-03T02:34:12Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Negrini's Salsa de Chili Picante Chilero
+
+Has a decent bite to it and the taste doesn't linger for very long. Went really well with my beef casado plate.</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Costa Rica</string>
+		<key>Country</key>
+		<string>Costa Rica</string>
+		<key>Foursquare ID</key>
+		<string>4b6a2803f964a520b3ca2be3</string>
+		<key>Latitude</key>
+		<real>10.471314292623092</real>
+		<key>Locality</key>
+		<string>La Fortuna</string>
+		<key>Longitude</key>
+		<real>-84.644972132220332</real>
+		<key>Place Name</key>
+		<string>Soda La Parada</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Hot Sauces</string>
+		<string>Would go back if starving</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Costa_Rica</string>
+	<key>UUID</key>
+	<string>B52CCD7EA632466EBAC94771B9E80113</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>21</string>
+		<key>Description</key>
+		<string>Nearby Fog</string>
+		<key>Fahrenheit</key>
+		<string>70</string>
+		<key>IconName</key>
+		<string>mcloudyn.png</string>
+		<key>Pressure MB</key>
+		<integer>1015</integer>
+		<key>Relative Humidity</key>
+		<integer>88</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2013-12-02T11:39:06Z</date>
+		<key>Sunset Date</key>
+		<date>2013-12-02T23:13:49Z</date>
+		<key>Visibility KM</key>
+		<integer>8</integer>
+		<key>Wind Bearing</key>
+		<integer>280</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>21</integer>
+		<key>Wind Speed KPH</key>
+		<integer>11</integer>
+	</dict>
+</dict>
+</plist>

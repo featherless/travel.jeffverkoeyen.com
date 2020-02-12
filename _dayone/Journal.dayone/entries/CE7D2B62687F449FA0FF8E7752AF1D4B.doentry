@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Activity</key>
+	<string>Eating</string>
+	<key>Creation Date</key>
+	<date>2013-12-26T05:22:12Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2013-12-26T05:22:12Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Asadero El Hornito
+
+Decent burger and chicken skewers.</string>
+	<key>Location</key>
+	<dict>
+		<key>Country</key>
+		<string>Colombia</string>
+		<key>Foursquare ID</key>
+		<string>4fb9bcd3e4b0eca65397badb</string>
+		<key>Latitude</key>
+		<real>3.4604696149049095</real>
+		<key>Longitude</key>
+		<real>-76.531603098546739</real>
+		<key>Place Name</key>
+		<string>El Hornito</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Colombia</string>
+		<string>Cali</string>
+		<string>Restaurants</string>
+		<string>Would recommend</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Bogota</string>
+	<key>UUID</key>
+	<string>CE7D2B62687F449FA0FF8E7752AF1D4B</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>19</string>
+		<key>Description</key>
+		<string>Mostly Clear</string>
+		<key>Fahrenheit</key>
+		<string>66</string>
+		<key>IconName</key>
+		<string>cloudyn.png</string>
+		<key>Pressure MB</key>
+		<integer>1015</integer>
+		<key>Relative Humidity</key>
+		<integer>94</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2013-12-26T11:08:56Z</date>
+		<key>Sunset Date</key>
+		<date>2013-12-26T23:04:12Z</date>
+		<key>Wind Bearing</key>
+		<integer>70</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>19</integer>
+		<key>Wind Speed KPH</key>
+		<integer>6</integer>
+	</dict>
+</dict>
+</plist>

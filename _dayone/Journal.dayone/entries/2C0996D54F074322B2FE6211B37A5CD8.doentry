@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2013-12-15T17:11:52Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2013-12-15T17:11:52Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Hotel Familiar
+
+Moved hostels today to a much cheaper (only $19/night in total) simpler place called [Hotel Familiar](http://www.hosteltrail.com/hostels/hotelfamiliar) down the street from Hostel Mamallena. This hotel is an old mansion that was turned into a hotel by building walls out of thin drawer-board sheeting. It's definitely basic!
+
+The room thankfully keeps fairly cool with the help of a fan mounted to a two-by-four that crosses above our heads from room to room.
+
+## January 2014 Update
+
+We went back here after New Years and were told the rooms were 30,000 COP this time. Sadly we only found out that this was per person the following morning. This place is absolutely not worth $15+ per night.
+
+### Contact Info
+
+- Phone Number: +54 5 664 2464 </string>
+	<key>Location</key>
+	<dict>
+		<key>Country</key>
+		<string>Colombia</string>
+		<key>Foursquare ID</key>
+		<string>4e91915a722ebb868c1e6574</string>
+		<key>Latitude</key>
+		<real>10.421296583241613</real>
+		<key>Longitude</key>
+		<real>-75.545214705352805</real>
+		<key>Place Name</key>
+		<string>Hotel Familiar</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Would recommend</string>
+		<string>Colombia</string>
+		<string>Cartagena</string>
+		<string>Hotels</string>
+		<string>Lodging</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Bogota</string>
+	<key>UUID</key>
+	<string>2C0996D54F074322B2FE6211B37A5CD8</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>31</string>
+		<key>Description</key>
+		<string>Partly Cloudy</string>
+		<key>Fahrenheit</key>
+		<string>88</string>
+		<key>IconName</key>
+		<string>fair.png</string>
+		<key>Pressure MB</key>
+		<integer>1009</integer>
+		<key>Relative Humidity</key>
+		<integer>75</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2013-12-15T11:12:09Z</date>
+		<key>Sunset Date</key>
+		<date>2013-12-15T22:43:18Z</date>
+		<key>Wind Bearing</key>
+		<integer>300</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>31</integer>
+		<key>Wind Speed KPH</key>
+		<integer>9</integer>
+	</dict>
+</dict>
+</plist>

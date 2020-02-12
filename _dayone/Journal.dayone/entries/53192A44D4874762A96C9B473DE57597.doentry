@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-01-08T18:40:42Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>Macintosh/MacBookAir4,1</string>
+		<key>Generation Date</key>
+		<date>2014-01-09T23:04:42Z</date>
+		<key>Host Name</key>
+		<string>Jeff’s MacBook Air</string>
+		<key>OS Agent</key>
+		<string>Mac OS X/10.9.1</string>
+		<key>Software Agent</key>
+		<string>Day One Mac/1.9</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>An Underwater Surprise
+
+We swam along and saw some turtles and manta rays and a few schools of fish which was definitely cool, but sadly never saw a hammerhead shark. What we did see, however, was apparently much more rare (and cool, in my opinion): the “Mola”, or [Ocean Sunfish](http://en.wikipedia.org/wiki/Ocean_sunfish). This was quite easily one of the strangest looking animals I’d ever seen both on land and sea.
+
+We captured a video of it, but it hardly begins to do justice to the magnificence of this fish. It was easily 7 feet tall and equally long, but its width was barely a few inches. It’s like a fish that evolved in a two-dimensional reality and somehow breached into our own for a brief moment. The picture of it here is from the wikipedia article.
+
+So while we didn’t get to see any hammerheads I was thankful to have gotten to witness such a rare fish. Other divers with far more experience than us (150+ dives) had never seen a Mola in any one of their dives, so it's definitely a rare occurrence.</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Galapagos</string>
+		<key>Country</key>
+		<string>Ecuador</string>
+		<key>Latitude</key>
+		<real>-0.74539660164065058</real>
+		<key>Locality</key>
+		<string>Santa Cruz</string>
+		<key>Longitude</key>
+		<real>-90.312453073230159</real>
+		<key>Place Name</key>
+		<string>Galapagos National Park</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Isla Santa Cruz</string>
+		<string>SCUBA</string>
+		<string>Ecuador</string>
+		<string>Galapagos Islands</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Guatemala</string>
+	<key>UUID</key>
+	<string>53192A44D4874762A96C9B473DE57597</string>
+</dict>
+</plist>

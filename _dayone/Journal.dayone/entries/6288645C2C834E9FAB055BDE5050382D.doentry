@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Activity</key>
+	<string>Automotive</string>
+	<key>Creation Date</key>
+	<date>2014-03-04T14:46:08Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-03-04T14:46:08Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.6</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Bussing from Valparaiso to Santiago
+
+| Time|Location
+|--------:|:-----------|
+| 11:47AM | Leaving the hostel.
+| 12:01PM | At the metro.
+| 12:11PM | Off.
+| 12:21PM | At the terminal.
+| 12:42PM | And we're off.
+| 2:25PM | Arrived!
+| 2:44PM | In the metro.
+| 2:50PM | At station Republica.
+| 3:04PM | Found Don Santiago hostel.
+
+ Totals | Totals
+|--------:|:---------|
+| Total bus time | 1:43</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Valparaíso</string>
+		<key>Country</key>
+		<string>Chile</string>
+		<key>Latitude</key>
+		<real>-33.04131276908614</real>
+		<key>Locality</key>
+		<string>Valparaiso</string>
+		<key>Longitude</key>
+		<real>-71.627676682613441</real>
+		<key>Place Name</key>
+		<string>Calle Abtao 442–486</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Santiago</string>
+		<string>Valparaiso</string>
+		<string>Chile</string>
+		<string>Bussing</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Santiago</string>
+	<key>UUID</key>
+	<string>6288645C2C834E9FAB055BDE5050382D</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>19</string>
+		<key>Description</key>
+		<string>Sunny</string>
+		<key>Fahrenheit</key>
+		<string>66</string>
+		<key>IconName</key>
+		<string>clear.png</string>
+		<key>Pressure MB</key>
+		<integer>1016</integer>
+		<key>Relative Humidity</key>
+		<integer>56</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2014-03-04T10:34:30Z</date>
+		<key>Sunset Date</key>
+		<date>2014-03-04T23:14:42Z</date>
+		<key>Visibility KM</key>
+		<real>11.265408000000001</real>
+		<key>Wind Bearing</key>
+		<integer>160</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>19</integer>
+		<key>Wind Speed KPH</key>
+		<integer>11</integer>
+	</dict>
+</dict>
+</plist>

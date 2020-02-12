@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-02-09T18:44:23Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-02-09T18:44:23Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Bussing from Puno to Puno via the Bolivian Border
+
+20 soles on Titicaca.
+
+| Time|Location
+|--------:|:-----------|
+| 1:31PM | In a taxi from Hostal Margarita.
+| 1:54PM | At the terminal.
+| 2:21PM | Bags loaded, waiting for the bus to leave.
+| 2:24PM | Boarding.
+| 2:27PM | Boarded. Had to move to the front of the bus because my legs wouldn't fit in the seat.
+| 2:36PM | On our way.
+| 4:50PM | At the border.
+| 4:55PM | Forgot credit card in Puno.
+| 4:57PM | In a cab to Yunguyo.
+| 5:00PM | In Yunguyo.
+| 5:10PM | In a collectivo.
+| 5:11PM | On our way back to Puno.
+| 7:16PM | Back in Puno.
+| 7:20PM | In a tuk tuk.
+| 7:43PM | At Hostal Margarita. They have the card!
+
+| Totals | Totals
+|--------:|:---------|
+| Total bus time | 4:19</string>
+	<key>Location</key>
+	<dict>
+		<key>Latitude</key>
+		<real>-15.842488375507148</real>
+		<key>Longitude</key>
+		<real>-70.028837537458188</real>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Puno</string>
+		<string>Peru</string>
+		<string>Bussing</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Lima</string>
+	<key>UUID</key>
+	<string>2E921CF2750E40D48983638EF8D84CBB</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>13</string>
+		<key>Description</key>
+		<string>Drizzle</string>
+		<key>Fahrenheit</key>
+		<string>55</string>
+		<key>IconName</key>
+		<string>rain.png</string>
+		<key>Pressure MB</key>
+		<real>1007.58</real>
+		<key>Relative Humidity</key>
+		<real>46</real>
+		<key>Service</key>
+		<string>Forecast.io</string>
+		<key>Wind Bearing</key>
+		<integer>63</integer>
+		<key>Wind Speed KPH</key>
+		<real>6.3700000000000001</real>
+	</dict>
+</dict>
+</plist>

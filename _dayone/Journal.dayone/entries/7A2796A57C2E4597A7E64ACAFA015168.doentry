@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-07-14T12:11:18Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-07-24T08:15:31Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.1</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.14.2</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>No Idea</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Surat Thani</string>
+		<key>Country</key>
+		<string>Thailand</string>
+		<key>Latitude</key>
+		<real>9.7347625000000004</real>
+		<key>Locality</key>
+		<string>Ban Tai</string>
+		<key>Longitude</key>
+		<real>100.0305528</real>
+		<key>Region</key>
+		<dict>
+			<key>Center</key>
+			<dict>
+				<key>Latitude</key>
+				<real>9.7347624999999987</real>
+				<key>Longitude</key>
+				<real>100.02131610000001</real>
+			</dict>
+			<key>Radius</key>
+			<real>10101.640054680394</real>
+		</dict>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Food</string>
+		<string>Ko Phangan</string>
+		<string>Thailand</string>
+	</array>
+	<key>Time Zone</key>
+	<string>Asia/Bangkok</string>
+	<key>UUID</key>
+	<string>7A2796A57C2E4597A7E64ACAFA015168</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>28</string>
+		<key>Description</key>
+		<string>Mostly Cloudy</string>
+		<key>Fahrenheit</key>
+		<string>82</string>
+		<key>IconName</key>
+		<string>mcloudyn.png</string>
+		<key>Pressure MB</key>
+		<integer>1006</integer>
+		<key>Relative Humidity</key>
+		<integer>89</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2014-07-13T22:57:07Z</date>
+		<key>Sunset Date</key>
+		<date>2014-07-14T11:49:49Z</date>
+		<key>Wind Bearing</key>
+		<integer>140</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>28</integer>
+		<key>Wind Speed KPH</key>
+		<integer>7</integer>
+	</dict>
+</dict>
+</plist>

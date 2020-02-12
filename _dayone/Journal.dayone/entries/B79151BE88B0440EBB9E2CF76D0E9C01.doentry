@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-01-22T20:25:59Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>Macintosh/MacBookAir4,1</string>
+		<key>Generation Date</key>
+		<date>2014-01-22T20:25:59Z</date>
+		<key>Host Name</key>
+		<string>Jeff’s MacBook Air</string>
+		<key>OS Agent</key>
+		<string>Mac OS X/10.9.1</string>
+		<key>Software Agent</key>
+		<string>Day One Mac/1.9.1</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Perth, Australia
+
+## Getting/Leaving There
+
+### By Train
+
+&gt; The Indian Pacific [[2]](http://www.gsr.com.au/) trans-continental **railway** runs from Perth to [Sydney](http://wikitravel.org/en/Sydney) via [Kalgoorlie](http://wikitravel.org/en/Kalgoorlie), [Adelaide](http://wikitravel.org/en/Adelaide) and [Broken Hill](http://wikitravel.org/en/Broken_Hill). It is generally not cheap, but this journey, which takes four days and three nights, is one of the world's great train journeys. The train traverses the longest stretch of straight track of any railway in the world (478km) as it journeys across The Nullarbor.</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Lima</string>
+		<key>Country</key>
+		<string>Peru</string>
+		<key>Latitude</key>
+		<real>-12.135920189034975</real>
+		<key>Longitude</key>
+		<real>-77.009911637309372</real>
+		<key>Place Name</key>
+		<string>Av. La Merced</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Perth</string>
+		<string>Travel Planning</string>
+		<string>Australia</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Guayaquil</string>
+	<key>UUID</key>
+	<string>B79151BE88B0440EBB9E2CF76D0E9C01</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>28</string>
+		<key>Description</key>
+		<string>Sunny</string>
+		<key>Fahrenheit</key>
+		<string>82</string>
+		<key>IconName</key>
+		<string>clear.png</string>
+		<key>Pressure MB</key>
+		<integer>1011</integer>
+		<key>Relative Humidity</key>
+		<integer>66</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2014-01-22T10:59:17Z</date>
+		<key>Sunset Date</key>
+		<date>2014-01-22T23:41:08Z</date>
+		<key>Visibility KM</key>
+		<real>11.265408000000001</real>
+		<key>Wind Bearing</key>
+		<integer>210</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>28</integer>
+		<key>Wind Speed KPH</key>
+		<integer>11</integer>
+	</dict>
+</dict>
+</plist>

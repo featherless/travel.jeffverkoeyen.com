@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2013-12-20T07:57:04Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2013-12-20T07:57:04Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Nelson, New Zealand
+
+http://www.newzealand.com/int/nelson/</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Antioquia</string>
+		<key>Country</key>
+		<string>Colombia</string>
+		<key>Latitude</key>
+		<real>6.2075343994313608</real>
+		<key>Locality</key>
+		<string>Medellin</string>
+		<key>Longitude</key>
+		<real>-75.566226192533378</real>
+		<key>Place Name</key>
+		<string>Road 36</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>New Zealand</string>
+		<string>Nelson</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Bogota</string>
+	<key>UUID</key>
+	<string>EDA6CE7BE53E463DBFAE08DEF2DFC991</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>14</string>
+		<key>Description</key>
+		<string>Fog</string>
+		<key>Fahrenheit</key>
+		<string>57</string>
+		<key>IconName</key>
+		<string>fogn.png</string>
+		<key>Pressure MB</key>
+		<integer>1023</integer>
+		<key>Relative Humidity</key>
+		<integer>94</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2013-12-20T11:06:47Z</date>
+		<key>Sunset Date</key>
+		<date>2013-12-20T22:52:48Z</date>
+		<key>Visibility KM</key>
+		<real>0.80000000000000004</real>
+		<key>Wind Bearing</key>
+		<integer>0</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>14</integer>
+		<key>Wind Speed KPH</key>
+		<integer>0</integer>
+	</dict>
+</dict>
+</plist>

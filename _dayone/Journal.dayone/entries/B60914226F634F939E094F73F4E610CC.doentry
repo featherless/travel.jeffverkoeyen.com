@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-05-09T06:47:49Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-05-10T05:49:22Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.1</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.14</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>We only spent a day in Darwin while we waited for our connecting flight to Bali. The airport is quite a distance from anywhere and all forms of convenient transportation would've cost at least $40 AUD for the day, so we decided to skip exploring Darwin in favour of sleeping at the airport and doing some open source work.</string>
+	<key>Location</key>
+	<dict>
+		<key>Latitude</key>
+		<real>-8.6547297611913212</real>
+		<key>Longitude</key>
+		<real>115.13160444806807</real>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Darwin</string>
+		<string>Preamble</string>
+		<string>Australia</string>
+	</array>
+	<key>Time Zone</key>
+	<string>Asia/Makassar</string>
+	<key>UUID</key>
+	<string>B60914226F634F939E094F73F4E610CC</string>
+</dict>
+</plist>

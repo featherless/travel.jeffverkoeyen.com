@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Activity</key>
+	<string>Walking</string>
+	<key>Creation Date</key>
+	<date>2014-02-04T12:25:10Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-02-06T03:34:37Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Side View
+</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Cuzco</string>
+		<key>Country</key>
+		<string>Peru</string>
+		<key>Latitude</key>
+		<real>-13.519629444939568</real>
+		<key>Locality</key>
+		<string>Cusco</string>
+		<key>Longitude</key>
+		<real>-71.980569223009027</real>
+		<key>Place Name</key>
+		<string>Mesón de la Estrella</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Machu Picchu</string>
+		<string>Peru</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Lima</string>
+	<key>UUID</key>
+	<string>38F442B983064E1E8B8A33ABF4FBBF4B</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>9</string>
+		<key>Description</key>
+		<string>Mostly Cloudy</string>
+		<key>Fahrenheit</key>
+		<string>48</string>
+		<key>IconName</key>
+		<string>mcloudy.png</string>
+		<key>Pressure MB</key>
+		<integer>1030</integer>
+		<key>Relative Humidity</key>
+		<integer>71</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2014-02-04T10:42:27Z</date>
+		<key>Sunset Date</key>
+		<date>2014-02-04T23:21:14Z</date>
+		<key>Wind Bearing</key>
+		<integer>0</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>9</integer>
+		<key>Wind Speed KPH</key>
+		<integer>0</integer>
+	</dict>
+</dict>
+</plist>

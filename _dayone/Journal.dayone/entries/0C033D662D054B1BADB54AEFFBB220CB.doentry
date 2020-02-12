@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Activity</key>
+	<string>Automotive</string>
+	<key>Creation Date</key>
+	<date>2013-12-12T14:12:19Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2013-12-12T14:12:19Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Bussing from Sámara to San Jose Airport and flying to Cartagena
+
+Bus tickets cost us $9 each to get from Sámara to Bogota.
+
+While we were planning our travel from Costa Rica to Colombia we found *Spirit Airlines* on hipmunk offering incredibly cheap flights at ~$200/person compared to about $500-600/person for direct flights. The Spirit flight took us through Fort Lauderdale (FLL) before going onward to Cartagena, but at almost half the price it was an easy choice.
+
+Spirit is apparently the most profitable airline in the US and for good reason. They charge for practically everything. To check our backpacks, for example, we had to pay $30 per **leg** of the trip, not for the overall trip. This meant we ended up paying $60 each to be able to check our bags, but the tickets were still only $272.99/person in the end.
+
+The flights themselves were totally fine and the staff were really pleasant. We didn’t have any issue checking in and our bags arrived in Colombia safely. The toughest part of the trip was waiting until 2AM for our flight from San Jose, but another small price to pay for saving $200-300 *each*.
+
+| Time|Location
+|--------:|:-----------|
+| 7:30AM | Woke up.
+| 8:59AM | Boarded the bus.
+| 9:05AM | On our way!
+| 9:49AM | Quick stop in Nicoya.
+| 11:56AM | Bathroom break in Espíritu Santo.
+| 12:20PM | Moving again.
+| 1:20PM | Arrived at SJO.
+| 2:17PM | Departure tax ($29) paid and now sitting at a cafe, waiting for Spirit airlines to open.
+| 9:14PM | Still waiting at the airport. Flight leaves in 5 hours…
+| 11:15PM | The check-in counter finally opened!
+| 11:35PM | Through security.
+| 11:45PM | Security came by and asked us why we were here. They thought we had snuck in to the terminal.
+| 4:50AM | Landed in FLL.
+| 4:57AM | Waiting in line for US customs.
+| 5:40AM | Through customs.
+| 5:57AM | Bags rechecked.
+| 9:29AM | Waiting for flight to Cartagena.
+| 11:42AM | Boarded the delayed flight to Cartagena.
+| 2:35PM | Landed in Cartagena!
+| 2:56PM | Through customs, waiting for bags.
+| 3:31PM | In a taxi to Hostel Mamallena.
+
+
+| Totals | Totals
+|--------:|:---------|
+| Total bus time | 4:15
+</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Guanacaste</string>
+		<key>Country</key>
+		<string>Costa Rica</string>
+		<key>Latitude</key>
+		<real>9.8821303574460391</real>
+		<key>Locality</key>
+		<string>Nicoya</string>
+		<key>Longitude</key>
+		<real>-85.526576098134299</real>
+		<key>Region</key>
+		<dict>
+			<key>Center</key>
+			<dict>
+				<key>Latitude</key>
+				<real>10.097735606909445</real>
+				<key>Longitude</key>
+				<real>-85.425982876160504</real>
+			</dict>
+			<key>Radius</key>
+			<real>39842.43428738723</real>
+		</dict>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Costa rica</string>
+		<string>Samara</string>
+		<string>Colombia</string>
+		<string>Cartagena</string>
+		<string>Bussing</string>
+		<string>Flights</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Costa_Rica</string>
+	<key>UUID</key>
+	<string>0C033D662D054B1BADB54AEFFBB220CB</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>29</string>
+		<key>Description</key>
+		<string>Partly Cloudy</string>
+		<key>Fahrenheit</key>
+		<string>84</string>
+		<key>IconName</key>
+		<string>fair.png</string>
+		<key>Pressure MB</key>
+		<integer>1012</integer>
+		<key>Relative Humidity</key>
+		<integer>62</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2013-12-12T11:51:02Z</date>
+		<key>Sunset Date</key>
+		<date>2013-12-12T23:21:52Z</date>
+		<key>Wind Bearing</key>
+		<integer>70</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>29</integer>
+		<key>Wind Speed KPH</key>
+		<integer>22</integer>
+	</dict>
+</dict>
+</plist>

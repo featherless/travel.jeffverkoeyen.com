@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-06-01T07:55:09Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-06-01T07:55:09Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.1</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.14</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Travel Planning: Guilin
+
+- Sun and moon pagoda towers lit up orange and blue at night.</string>
+	<key>Location</key>
+	<dict>
+		<key>Latitude</key>
+		<real>-8.7450916227034714</real>
+		<key>Longitude</key>
+		<real>115.17146551060972</real>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Travel Planning</string>
+		<string>China</string>
+		<string>Guilin</string>
+	</array>
+	<key>Time Zone</key>
+	<string>Asia/Makassar</string>
+	<key>UUID</key>
+	<string>CF743ABD6E104FFBB686A0C837BA8C2C</string>
+</dict>
+</plist>

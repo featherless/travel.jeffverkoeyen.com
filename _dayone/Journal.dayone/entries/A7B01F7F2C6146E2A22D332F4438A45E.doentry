@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-01-23T16:34:09Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>Macintosh/MacBookAir4,1</string>
+		<key>Generation Date</key>
+		<date>2014-01-23T16:34:09Z</date>
+		<key>Host Name</key>
+		<string>Jeff’s MacBook Air</string>
+		<key>OS Agent</key>
+		<string>Mac OS X/10.9.1</string>
+		<key>Software Agent</key>
+		<string>Day One Mac/1.9.2</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Since I left my job on the Google Maps iOS team in 2013 I’ve been hacking on various side projects for fun. The summer of 2013 was spent hacking on my large lighting installation, the Pixel Heart, and bringing that to Lightning in a Bottle and Burning Man (we were on the esplanade!).
+
+I started a round-the-world backpack trip in Panama in October and since then have been hacking on two major “for fun” projects: [this blog](/2013/12/07/dayone-blog-plugin) (and the corresponding [jekyll Day One plugin](https://github.com/jverkoey/jekyll-dayone)), and a shared international cash-tracking app. There are countless money tracking apps on the app store and the internet so it’s unlikely that this app will ever become anything more than a fun side project that is incredibly relevant while travelling.
+
+With that in mind, my goal is to open source as much of the source for the iPhone app as possible. I plan to split the app into various components and host all of them at the [MoneysApp Github organization](https://github.com/MoneysApp).
+
+Check back here regularly for more entries about my hacking while travelling.</string>
+	<key>Location</key>
+	<dict>
+		<key>Latitude</key>
+		<real>-12.135945438671232</real>
+		<key>Longitude</key>
+		<real>-77.010069001328404</real>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Hacking While Travelling</string>
+		<string>Preamble</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Guayaquil</string>
+	<key>UUID</key>
+	<string>A7B01F7F2C6146E2A22D332F4438A45E</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>26</string>
+		<key>Description</key>
+		<string>Mostly Cloudy</string>
+		<key>Fahrenheit</key>
+		<string>79</string>
+		<key>IconName</key>
+		<string>mcloudy.png</string>
+		<key>Pressure MB</key>
+		<integer>1013</integer>
+		<key>Relative Humidity</key>
+		<integer>70</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2014-01-23T10:59:46Z</date>
+		<key>Sunset Date</key>
+		<date>2014-01-23T23:41:08Z</date>
+		<key>Wind Bearing</key>
+		<integer>270</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>26</integer>
+		<key>Wind Speed KPH</key>
+		<integer>11</integer>
+	</dict>
+</dict>
+</plist>

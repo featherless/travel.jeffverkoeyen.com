@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-07-15T11:13:46Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-07-24T08:13:05Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.1</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.14.2</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Singer Gas
+
+Apparently Singer doesn't just make sewing machin</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Bangkok</string>
+		<key>Country</key>
+		<string>Thailand</string>
+		<key>Latitude</key>
+		<real>13.723037511861907</real>
+		<key>Locality</key>
+		<string>สีลม</string>
+		<key>Longitude</key>
+		<real>100.52305283868755</real>
+		<key>Place Name</key>
+		<string>Thanon Pan 50/33</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Ko Phangan</string>
+		<string>Thailand</string>
+	</array>
+	<key>Time Zone</key>
+	<string>Asia/Bangkok</string>
+	<key>UUID</key>
+	<string>0F20DE643D3D4977BBA25F9A1F57C16A</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>25</string>
+		<key>Description</key>
+		<string>Light Rain</string>
+		<key>Fahrenheit</key>
+		<string>77</string>
+		<key>IconName</key>
+		<string>rain.png</string>
+		<key>Pressure MB</key>
+		<integer>1008</integer>
+		<key>Relative Humidity</key>
+		<integer>89</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2014-07-14T22:57:24Z</date>
+		<key>Sunset Date</key>
+		<date>2014-07-15T11:49:44Z</date>
+		<key>Visibility KM</key>
+		<integer>8</integer>
+		<key>Wind Bearing</key>
+		<integer>240</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>25</integer>
+		<key>Wind Speed KPH</key>
+		<integer>22</integer>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Activity</key>
+	<string>Automotive</string>
+	<key>Creation Date</key>
+	<date>2014-05-29T02:36:18Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-05-29T02:36:18Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.1</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.14</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Scoot Boat from Lembongan to Gili
+
+On our way!
+
+At Lombok at 12:35PM.
+At Gili at 1:10PM.</string>
+	<key>Location</key>
+	<dict>
+		<key>Latitude</key>
+		<real>-8.678898056977129</real>
+		<key>Longitude</key>
+		<real>115.44555298994803</real>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Indonesia</string>
+		<string>Boating</string>
+		<string>Lembongan</string>
+		<string>Gili T</string>
+	</array>
+	<key>Time Zone</key>
+	<string>Asia/Makassar</string>
+	<key>UUID</key>
+	<string>3FA0B9CD946B4CF2921B9CBAE34D6B78</string>
+</dict>
+</plist>

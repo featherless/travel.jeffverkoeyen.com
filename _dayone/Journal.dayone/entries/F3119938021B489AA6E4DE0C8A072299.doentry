@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-05-07T04:39:27Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-05-08T19:44:00Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.1</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.14</string>
+	</dict>
+	<key>Entry Text</key>
+	<string></string>
+	<key>Location</key>
+	<dict>
+		<key>Latitude</key>
+		<real>-21.649885999999999</real>
+		<key>Longitude</key>
+		<real>150.26848089999999</real>
+		<key>Place Name</key>
+		<string>Coastal Waters Of Great Barrier Reef</string>
+		<key>Region</key>
+		<dict>
+			<key>Center</key>
+			<dict>
+				<key>Latitude</key>
+				<real>-17.591794499999949</real>
+				<key>Longitude</key>
+				<real>148.2648705</real>
+			</dict>
+			<key>Radius</key>
+			<real>973676.81917015126</real>
+		</dict>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Cairns</string>
+		<string>Australia</string>
+	</array>
+	<key>Time Zone</key>
+	<string>Australia/Brisbane</string>
+	<key>UUID</key>
+	<string>F3119938021B489AA6E4DE0C8A072299</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>27</string>
+		<key>Description</key>
+		<string>Mostly Sunny</string>
+		<key>Fahrenheit</key>
+		<string>81</string>
+		<key>IconName</key>
+		<string>fair.png</string>
+		<key>Pressure MB</key>
+		<integer>1013</integer>
+		<key>Relative Humidity</key>
+		<integer>51</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2014-05-06T20:30:50Z</date>
+		<key>Sunset Date</key>
+		<date>2014-05-07T07:56:18Z</date>
+		<key>Wind Bearing</key>
+		<integer>120</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>27</integer>
+		<key>Wind Speed KPH</key>
+		<integer>20</integer>
+	</dict>
+</dict>
+</plist>

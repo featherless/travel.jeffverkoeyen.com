@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-04-29T12:44:34Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-05-02T09:05:45Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.1</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.14</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Airbnb 3D Puzzle
+
+Haven't seen one of these in years!</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>NSW</string>
+		<key>Country</key>
+		<string>Australia</string>
+		<key>Latitude</key>
+		<real>-33.889699999999998</real>
+		<key>Locality</key>
+		<string>Stanmore</string>
+		<key>Longitude</key>
+		<real>151.160642</real>
+		<key>Place Name</key>
+		<string>45 Charles Street</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Sydney</string>
+		<string>Australia</string>
+	</array>
+	<key>Time Zone</key>
+	<string>Australia/Sydney</string>
+	<key>UUID</key>
+	<string>C181A7AC9C6844889C109D58BE0844D0</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>21</string>
+		<key>Description</key>
+		<string>Mostly Clear</string>
+		<key>Fahrenheit</key>
+		<string>70</string>
+		<key>IconName</key>
+		<string>cloudyn.png</string>
+		<key>Pressure MB</key>
+		<integer>1012</integer>
+		<key>Relative Humidity</key>
+		<integer>64</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2014-04-28T20:28:20Z</date>
+		<key>Sunset Date</key>
+		<date>2014-04-29T07:17:07Z</date>
+		<key>Visibility KM</key>
+		<real>11.265408000000001</real>
+		<key>Wind Bearing</key>
+		<integer>360</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>21</integer>
+		<key>Wind Speed KPH</key>
+		<integer>17</integer>
+	</dict>
+</dict>
+</plist>

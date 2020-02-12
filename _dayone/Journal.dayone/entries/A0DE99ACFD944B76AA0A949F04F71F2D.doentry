@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-06-01T20:16:50Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-06-01T20:16:50Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.1</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.14</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Bag MIA
+
+And they have no idea where it is. Also: Manila's airport is the worst international airport I've ever been in.
+
+Update in SF: they still have zero idea where my bag is.</string>
+	<key>Location</key>
+	<dict>
+		<key>Latitude</key>
+		<real>14.514312742762181</real>
+		<key>Longitude</key>
+		<real>120.99517822631751</real>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>WWDC 2014</string>
+	</array>
+	<key>Time Zone</key>
+	<string>Asia/Manila</string>
+	<key>UUID</key>
+	<string>A0DE99ACFD944B76AA0A949F04F71F2D</string>
+</dict>
+</plist>

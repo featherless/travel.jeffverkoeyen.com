@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-01-16T14:21:00Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-01-16T14:21:01Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>SCUBA Diving at Kicker Rock
+
+Holy shit Kicker Rock you don't hold back!
+
+We met up with the crew at 8:30AM on the pier and the boat was ready to go. We boarded and then cruised north along the coast of San Cristobal, checking out the port where Darwin first landed as we went. We did our check dive in a small bay and everything was good to go!
+
+The ride to Kicker Rock was quick - less than half an hour. Once we arrived our dive master gave us a breakdown of how the dive would go. He taught us a bunch of hand signals to identify fish with which should have been a sign for what was to come.
+
+For the first dive we crossed the gap between the two rocks. The first half of the dive was pretty basic and we saw plenty of puffer fish and other small fish swimming around. Shortly after letting a current push us further along we saw our first shark of the day: a white tip! This was immediately followed by a second, and a third, and then I decided to stop counting and just watch as we swam under, beside, and around too many sharks to count.
+
+</string>
+	<key>Location</key>
+	<dict>
+		<key>Latitude</key>
+		<real>-0.9020397998400983</real>
+		<key>Longitude</key>
+		<real>-89.611635832199468</real>
+	</dict>
+	<key>Starred</key>
+	<true/>
+	<key>Tags</key>
+	<array>
+		<string>Galapagos Islands</string>
+		<string>Ecuador</string>
+		<string>Isla San Cristobal</string>
+		<string>SCUBA</string>
+		<string>Mind blown</string>
+	</array>
+	<key>Time Zone</key>
+	<string>Pacific/Galapagos</string>
+	<key>UUID</key>
+	<string>81C77D3E6B8644F6B75874FC8EC8E192</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>24</string>
+		<key>Description</key>
+		<string>Mostly Cloudy</string>
+		<key>Fahrenheit</key>
+		<string>75</string>
+		<key>IconName</key>
+		<string>pcloudy.png</string>
+		<key>Pressure MB</key>
+		<real>1010.98</real>
+		<key>Relative Humidity</key>
+		<real>86</real>
+		<key>Service</key>
+		<string>Forecast.io</string>
+		<key>Visibility KM</key>
+		<real>15.529999999999999</real>
+		<key>Wind Bearing</key>
+		<integer>188</integer>
+		<key>Wind Speed KPH</key>
+		<real>12.869999999999999</real>
+	</dict>
+</dict>
+</plist>

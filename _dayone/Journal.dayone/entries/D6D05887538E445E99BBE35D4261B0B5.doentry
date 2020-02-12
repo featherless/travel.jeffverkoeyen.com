@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2013-12-05T15:16:56Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2013-12-05T15:16:56Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>SCUBA Planning for Costa Rica
+
+### Cocos Island
+
+[underseahunter.com](http://underseahunter.com)
+
+- $5000 for a ten day live-aboard dive trip
+
+### Caño Island
+
+Tons of wildlife.
+
+[piratecovecostarica.com](http://www.piratecovecostarica.com/lodging-meals-activities)
+
+- $130 for a dive trip.
+- $95/night for lodging.
+
+### Catalina Islands
+
+[ocotaldiving.com](http://ocotaldiving.com/ratespkgs/index.htm)
+
+- $85 for a dive trip.
+- $65 for night dive.
+
+### Bat Islands
+
+[costaricadiving.net](http://costaricadiving.net)</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Puntarenas</string>
+		<key>Country</key>
+		<string>Costa Rica</string>
+		<key>Latitude</key>
+		<real>10.316325302257091</real>
+		<key>Longitude</key>
+		<real>-84.825521413944855</real>
+		<key>Place Name</key>
+		<string>Highway 145</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Travel Planning</string>
+		<string>Costa rica</string>
+		<string>SCUBA</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Costa_Rica</string>
+	<key>UUID</key>
+	<string>D6D05887538E445E99BBE35D4261B0B5</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>24</string>
+		<key>Description</key>
+		<string>Sunny</string>
+		<key>Fahrenheit</key>
+		<string>75</string>
+		<key>IconName</key>
+		<string>clear.png</string>
+		<key>Pressure MB</key>
+		<integer>1018</integer>
+		<key>Relative Humidity</key>
+		<integer>54</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2013-12-05T11:40:38Z</date>
+		<key>Sunset Date</key>
+		<date>2013-12-05T23:14:45Z</date>
+		<key>Visibility KM</key>
+		<real>11.265408000000001</real>
+		<key>Wind Bearing</key>
+		<integer>110</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>24</integer>
+		<key>Wind Speed KPH</key>
+		<integer>19</integer>
+	</dict>
+</dict>
+</plist>

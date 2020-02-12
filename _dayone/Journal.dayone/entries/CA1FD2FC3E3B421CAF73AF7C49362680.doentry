@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Activity</key>
+	<string>Eating</string>
+	<key>Creation Date</key>
+	<date>2013-12-06T21:32:28Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2013-12-06T21:32:28Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Soda la Amistad
+
+Really tasty casados for $6 just around the corner from our BnB. The lady here makes the food fresh in a visible kitchen in the back.</string>
+	<key>Location</key>
+	<dict>
+		<key>Latitude</key>
+		<real>10.314567326577674</real>
+		<key>Longitude</key>
+		<real>-84.827353460793219</real>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Monteverde</string>
+		<string>Costa rica</string>
+		<string>Restaurants</string>
+		<string>Casado</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Costa_Rica</string>
+	<key>UUID</key>
+	<string>CA1FD2FC3E3B421CAF73AF7C49362680</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>27</string>
+		<key>Description</key>
+		<string>Mostly Cloudy</string>
+		<key>Fahrenheit</key>
+		<string>81</string>
+		<key>IconName</key>
+		<string>pcloudy.png</string>
+		<key>Pressure MB</key>
+		<real>1009.33</real>
+		<key>Relative Humidity</key>
+		<real>66</real>
+		<key>Service</key>
+		<string>Forecast.io</string>
+		<key>Visibility KM</key>
+		<real>9.9800000000000004</real>
+		<key>Wind Bearing</key>
+		<integer>78</integer>
+		<key>Wind Speed KPH</key>
+		<real>10.43</real>
+	</dict>
+</dict>
+</plist>

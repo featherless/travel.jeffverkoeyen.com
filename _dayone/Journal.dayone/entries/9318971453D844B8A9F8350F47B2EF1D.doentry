@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-05-04T05:59:37Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-05-04T05:59:37Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.1</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.14</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Dreamtime Hostel
+</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>QLD</string>
+		<key>Country</key>
+		<string>Australia</string>
+		<key>Latitude</key>
+		<real>-16.874461043641784</real>
+		<key>Locality</key>
+		<string>Aeroglen</string>
+		<key>Longitude</key>
+		<real>145.75444688102766</real>
+		<key>Place Name</key>
+		<string>Beaufort Street</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Cairns</string>
+		<string>Australia</string>
+		<string>Hostels</string>
+	</array>
+	<key>Time Zone</key>
+	<string>Australia/Brisbane</string>
+	<key>UUID</key>
+	<string>9318971453D844B8A9F8350F47B2EF1D</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>25</string>
+		<key>Description</key>
+		<string>Mostly Sunny</string>
+		<key>Fahrenheit</key>
+		<string>77</string>
+		<key>IconName</key>
+		<string>fair.png</string>
+		<key>Pressure MB</key>
+		<integer>1014</integer>
+		<key>Relative Humidity</key>
+		<integer>44</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2014-05-03T20:29:58Z</date>
+		<key>Sunset Date</key>
+		<date>2014-05-04T07:57:39Z</date>
+		<key>Wind Bearing</key>
+		<integer>140</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>25</integer>
+		<key>Wind Speed KPH</key>
+		<integer>20</integer>
+	</dict>
+</dict>
+</plist>

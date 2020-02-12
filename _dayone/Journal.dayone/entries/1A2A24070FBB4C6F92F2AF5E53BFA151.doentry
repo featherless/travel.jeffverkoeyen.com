@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-03-05T18:22:46Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-03-05T18:22:46Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.6</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Travel Planning: Samoa
+
+From lonelyplanet:
+
+&gt; The Samoan Islands are divided into two countries - Samoa, which is independent, and American Samoa, which - you guessed it - is an American territory. Both however remain very traditionally Polynesian. Although 'Upolu in Samoa has a few relatively upscale resorts, all the islands feel untouristy and much other accommodation is in the form of basic open beach huts called fale.
+&gt;
+&gt; You'll find some of the South Pacific's best and most pristine beaches, lots of smiles, flower-filled villages and a pace of life that stands out as slow even in this region. There are few organized excursions but for independent types the opportunity for hiking, cultural connections, surfing and snorkelling are endless.</string>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Samoa</string>
+		<string>Travel Planning</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Santiago</string>
+	<key>UUID</key>
+	<string>1A2A24070FBB4C6F92F2AF5E53BFA151</string>
+</dict>
+</plist>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2013-12-06T17:08:58Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>Macintosh/MacBookAir4,1</string>
+		<key>Generation Date</key>
+		<date>2013-12-06T17:08:58Z</date>
+		<key>Host Name</key>
+		<string>Jeff’s MacBook Air</string>
+		<key>OS Agent</key>
+		<string>Mac OS X/10.9</string>
+		<key>Software Agent</key>
+		<string>Day One Mac/1.9</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Montezuma, Costa Rica
+
+- Bring enough cash for the stay because the ATM doesn’t work.</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Puntarenas</string>
+		<key>Country</key>
+		<string>Costa Rica</string>
+		<key>Latitude</key>
+		<real>10.316349661817004</real>
+		<key>Longitude</key>
+		<real>-84.824972292379442</real>
+		<key>Place Name</key>
+		<string>Highway 145</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Montezuma</string>
+		<string>Costa rica</string>
+		<string>Travel Planning</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Costa_Rica</string>
+	<key>UUID</key>
+	<string>F4E88B8A38E64813AC353B0AF5A7E6D8</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>27</string>
+		<key>Description</key>
+		<string>Mostly Cloudy</string>
+		<key>Fahrenheit</key>
+		<string>81</string>
+		<key>IconName</key>
+		<string>mcloudy.png</string>
+		<key>Pressure MB</key>
+		<integer>1017</integer>
+		<key>Relative Humidity</key>
+		<integer>51</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2013-12-06T11:41:09Z</date>
+		<key>Sunset Date</key>
+		<date>2013-12-06T23:15:06Z</date>
+		<key>Wind Bearing</key>
+		<integer>70</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>27</integer>
+		<key>Wind Speed KPH</key>
+		<integer>22</integer>
+	</dict>
+</dict>
+</plist>

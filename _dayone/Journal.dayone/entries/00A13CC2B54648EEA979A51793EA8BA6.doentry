@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-02-22T03:38:56Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-02-23T16:58:00Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string></string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Antofagasta</string>
+		<key>Country</key>
+		<string>Chile</string>
+		<key>Latitude</key>
+		<real>-22.975705000000001</real>
+		<key>Locality</key>
+		<string>San Pedro de Atacama</string>
+		<key>Longitude</key>
+		<real>-68.233078333333339</real>
+		<key>Region</key>
+		<dict>
+			<key>Center</key>
+			<dict>
+				<key>Latitude</key>
+				<real>-23.419291999999999</real>
+				<key>Longitude</key>
+				<real>-67.700072599999999</real>
+			</dict>
+			<key>Radius</key>
+			<real>87079.389401183871</real>
+		</dict>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>San Pedro de Atacama</string>
+		<string>Chile</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Santiago</string>
+	<key>UUID</key>
+	<string>00A13CC2B54648EEA979A51793EA8BA6</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>12</string>
+		<key>Description</key>
+		<string>Clear</string>
+		<key>Fahrenheit</key>
+		<string>54</string>
+		<key>IconName</key>
+		<string>clearn.png</string>
+		<key>Pressure MB</key>
+		<integer>1027</integer>
+		<key>Relative Humidity</key>
+		<integer>38</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2014-02-22T10:28:46Z</date>
+		<key>Sunset Date</key>
+		<date>2014-02-22T23:09:10Z</date>
+		<key>Visibility KM</key>
+		<real>11.265408000000001</real>
+		<key>Wind Bearing</key>
+		<integer>130</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>12</integer>
+		<key>Wind Speed KPH</key>
+		<integer>15</integer>
+	</dict>
+</dict>
+</plist>

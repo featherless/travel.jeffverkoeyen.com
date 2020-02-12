@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-01-17T03:49:28Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>Macintosh/MacBookAir4,1</string>
+		<key>Generation Date</key>
+		<date>2014-01-17T03:49:28Z</date>
+		<key>Host Name</key>
+		<string>Jeff’s MacBook Air</string>
+		<key>OS Agent</key>
+		<string>Mac OS X/10.9.1</string>
+		<key>Software Agent</key>
+		<string>Day One Mac/1.9</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Andermatt, Switzerland
+
+From the nyt article [52 Places to Go in 2014](http://www.nytimes.com/interactive/2014/01/10/travel/2014-places-to-go.html):
+
+&gt; Andermatt has long been a quiet town of Alpine farmers and bargain-seeking skiers. But this winter, the former Swiss Army outpost began its transformation into a bona fide ski destination with the opening last month of the [Chedi Andermatt](http://www.ghmhotels.com/en/the-chedi-andermatt/home/). The 104-room resort, housed in a modernized chalet with a Japanese restaurant among several dining options, indoor and outdoor pools and a 10-treatment-room spa, is just the first phase of a big new development of apartment buildings, homes, five more hotels and a golf course in the coming year over 321 acres. The pedestrian village will offer skiers access by gondola to the nearly 9,800-foot Gemsstock Mountain, with future lifts to the larger nearby ski area of Sedrun planned to open in 2015.</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Galapagos</string>
+		<key>Country</key>
+		<string>Ecuador</string>
+		<key>Latitude</key>
+		<real>-0.90221819382967983</real>
+		<key>Locality</key>
+		<string>San Cristobal</string>
+		<key>Longitude</key>
+		<real>-89.611489962415845</real>
+		<key>Place Name</key>
+		<string>Galapagos National Park</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Andermatt</string>
+		<string>Travel Planning</string>
+		<string>Switzerland</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Guatemala</string>
+	<key>UUID</key>
+	<string>2683E98CB91D4167B08951D7E57C839F</string>
+</dict>
+</plist>

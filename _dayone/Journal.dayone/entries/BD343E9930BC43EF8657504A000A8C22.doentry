@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-01-23T16:51:19Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>Macintosh/MacBookAir4,1</string>
+		<key>Generation Date</key>
+		<date>2014-01-23T16:51:19Z</date>
+		<key>Host Name</key>
+		<string>Jeff’s MacBook Air</string>
+		<key>OS Agent</key>
+		<string>Mac OS X/10.9.1</string>
+		<key>Software Agent</key>
+		<string>Day One Mac/1.9.2</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>DecimalNumberField
+
+Just pushed [this repo to Github](https://github.com/MoneysApp/DecimalNumberField). It’s a decimal number field for getting decimal number values from the user in various number styles. The supported styles thus far are currencies and normal decimal values (the two styles needed by the money tracking app).</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Lima</string>
+		<key>Country</key>
+		<string>Peru</string>
+		<key>Latitude</key>
+		<real>-12.135956860007417</real>
+		<key>Longitude</key>
+		<real>-77.0100402324003</real>
+		<key>Place Name</key>
+		<string>Av. La Merced</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Hacking While Travelling</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Guayaquil</string>
+	<key>UUID</key>
+	<string>BD343E9930BC43EF8657504A000A8C22</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>26</string>
+		<key>Description</key>
+		<string>Mostly Cloudy</string>
+		<key>Fahrenheit</key>
+		<string>79</string>
+		<key>IconName</key>
+		<string>mcloudy.png</string>
+		<key>Pressure MB</key>
+		<integer>1013</integer>
+		<key>Relative Humidity</key>
+		<integer>70</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2014-01-23T10:59:46Z</date>
+		<key>Sunset Date</key>
+		<date>2014-01-23T23:41:08Z</date>
+		<key>Wind Bearing</key>
+		<integer>270</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>26</integer>
+		<key>Wind Speed KPH</key>
+		<integer>11</integer>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Activity</key>
+	<string>Eating</string>
+	<key>Creation Date</key>
+	<date>2014-02-16T00:06:13Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-02-16T00:06:13Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Salchipapas
+</string>
+	<key>Location</key>
+	<dict>
+		<key>Latitude</key>
+		<real>-19.04481867419538</real>
+		<key>Longitude</key>
+		<real>-65.258153077761492</real>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Sucre</string>
+		<string>Bolivia</string>
+		<string>Restaurants</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/La_Paz</string>
+	<key>UUID</key>
+	<string>047879E115504612B6C96A52B0847AB0</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>10</string>
+		<key>Description</key>
+		<string>Mostly Cloudy</string>
+		<key>Fahrenheit</key>
+		<string>50</string>
+		<key>IconName</key>
+		<string>mcloudyn.png</string>
+		<key>Pressure MB</key>
+		<integer>1031</integer>
+		<key>Relative Humidity</key>
+		<integer>100</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2014-02-16T10:14:37Z</date>
+		<key>Sunset Date</key>
+		<date>2014-02-16T22:55:31Z</date>
+		<key>Visibility KM</key>
+		<integer>7</integer>
+		<key>Wind Bearing</key>
+		<integer>0</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>10</integer>
+		<key>Wind Speed KPH</key>
+		<integer>0</integer>
+	</dict>
+</dict>
+</plist>

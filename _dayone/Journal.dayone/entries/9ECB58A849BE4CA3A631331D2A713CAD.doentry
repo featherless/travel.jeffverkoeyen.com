@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Activity</key>
+	<string>Automotive</string>
+	<key>Creation Date</key>
+	<date>2014-07-16T05:26:53Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-07-16T05:26:53Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.1</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.14.2</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Boating from Ko Phangan to Ko Tao
+
+| 12:10PM | In a pickup truck taxi.
+| 12:38PM | At the piers.
+| 1:07PM | On our way!
+| 2:26PM | Arrived in Ko Tao!
+| 2:46PM | Off the boat and at the Coffee House to find a place to stay.
+| 7:34PM | Finally arrived at Koh Tao Hillside.</string>
+	<key>Location</key>
+	<dict>
+		<key>Latitude</key>
+		<real>9.6954774856657675</real>
+		<key>Longitude</key>
+		<real>100.03670543441552</real>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Ko Phangan</string>
+		<string>Ko Tao</string>
+		<string>Thailand</string>
+		<string>Boating</string>
+	</array>
+	<key>Time Zone</key>
+	<string>Asia/Bangkok</string>
+	<key>UUID</key>
+	<string>9ECB58A849BE4CA3A631331D2A713CAD</string>
+</dict>
+</plist>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Activity</key>
+	<string>Flying</string>
+	<key>Creation Date</key>
+	<date>2014-03-11T02:48:51Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-03-11T02:48:51Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.6</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Flying from Easter Island, Chile to Mo'orea
+
+| Time|Location
+|--------:|:-----------|
+| 9:46PM | Checking in at the airport. 18kg Laurence, 15kg Jeff.
+| 9:57PM | At customs out of Chile.
+| 10:03PM | Through security.
+| 10:49PM | Boarding.
+| 11:35PM | Take off!
+| 4:43AM | Landed! (Easter Island time)
+| 5:03AM | At customs.
+| 5:15AM | Picked up bags.
+| 12:34AM | Found a couch to sleep on in Papeete. (-5 hours)
+| 2:30AM | Fell asleep.
+| 4:40AM | Woke up.
+| 5:47AM | At a bus stop.
+| 6:10AM | On a bus to the ferry, hopefully.
+| 6:32AM | Got off near the docks.
+| 6:43AM | Bought ferry tickets.
+| 7:34AM | Boarding the ferry.
+| 7:42AM | And we're off!
+| 8:15AM | Arrived!
+| 8:19AM | On a local bus.
+| 9:09AM | Somewhere...
+| 9:13AM | Found a gorgeous hotel that might give us a deal!
+| 9:40AM | Checking out other hotels to compare prices.
+| 10:50AM | Manager came back and we lost the deal, had to stay there anyway because the camping place next door doubled their price.
+
+ Totals | Totals
+|--------:|:---------|
+| Total air time | 4:10
+| Total flight legs | 1</string>
+	<key>Location</key>
+	<dict>
+		<key>Latitude</key>
+		<real>-27.159861098135163</real>
+		<key>Longitude</key>
+		<real>-109.42972253527923</real>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Easter Island</string>
+		<string>Chile</string>
+		<string>Moorea</string>
+		<string>French Polynesia</string>
+	</array>
+	<key>Time Zone</key>
+	<string>Pacific/Easter</string>
+	<key>UUID</key>
+	<string>12B76291C45146BEA782A080E6192D78</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>23</string>
+		<key>Description</key>
+		<string>Mostly Cloudy</string>
+		<key>Fahrenheit</key>
+		<string>73</string>
+		<key>IconName</key>
+		<string>mcloudyn.png</string>
+		<key>Pressure MB</key>
+		<integer>1022</integer>
+		<key>Relative Humidity</key>
+		<integer>74</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2014-03-10T13:16:29Z</date>
+		<key>Sunset Date</key>
+		<date>2014-03-11T01:39:00Z</date>
+		<key>Wind Bearing</key>
+		<integer>80</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>23</integer>
+		<key>Wind Speed KPH</key>
+		<integer>6</integer>
+	</dict>
+</dict>
+</plist>

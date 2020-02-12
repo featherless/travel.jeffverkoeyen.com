@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2013-12-06T23:43:59Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>Macintosh/MacBookAir4,1</string>
+		<key>Generation Date</key>
+		<date>2013-12-06T23:43:59Z</date>
+		<key>Host Name</key>
+		<string>Jeff’s MacBook Air</string>
+		<key>OS Agent</key>
+		<string>Mac OS X/10.9</string>
+		<key>Software Agent</key>
+		<string>Day One Mac/1.9</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Florianopolis, Brazil
+
+http://www.quora.com/South-America/What-are-some-cool-places-to-go-in-South-America
+&gt; Island city off the coast of Southern Brazil.  Home to 42 beaches.  Beautiful inhabitants. Paradise in every sense of the word.
+&gt;
+&gt; A perfect place to live or visit, Florianopolis is becoming a favorite tourist destination for its perfect beaches and excellent surfing sites.</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Puntarenas</string>
+		<key>Country</key>
+		<string>Costa Rica</string>
+		<key>Latitude</key>
+		<real>10.316279738947635</real>
+		<key>Longitude</key>
+		<real>-84.825526822843869</real>
+		<key>Place Name</key>
+		<string>Highway 145</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Travel Planning</string>
+		<string>Florianopolis</string>
+		<string>Brazil</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Costa_Rica</string>
+	<key>UUID</key>
+	<string>41D4C5CE82D84BDBB2F1EF62932A84A5</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>22</string>
+		<key>Description</key>
+		<string>Mostly Cloudy</string>
+		<key>Fahrenheit</key>
+		<string>72</string>
+		<key>IconName</key>
+		<string>mcloudyn.png</string>
+		<key>Pressure MB</key>
+		<integer>1016</integer>
+		<key>Relative Humidity</key>
+		<integer>69</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2013-12-06T11:41:09Z</date>
+		<key>Sunset Date</key>
+		<date>2013-12-06T23:15:06Z</date>
+		<key>Wind Bearing</key>
+		<integer>90</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>22</integer>
+		<key>Wind Speed KPH</key>
+		<integer>19</integer>
+	</dict>
+</dict>
+</plist>

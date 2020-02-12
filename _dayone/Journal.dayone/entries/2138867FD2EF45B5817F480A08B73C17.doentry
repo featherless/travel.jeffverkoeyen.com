@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-02-09T14:32:24Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-02-09T14:32:24Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Boat Tour to Uros
+
+30 soles for the tour.
+
+- Lake Titikaka. Titi in Aymara means puma. Kaka is Quechua means great color or a stone.
+- The lake looks like a puma catching a chinchilla.
+- Small lake is a chinchilla.
+- The reeds on the lake are edible and used to make the islands. The white part beneath the water is edible.
+- White part of reeds is the "fruit of the uros", or "banana" because of how it's peeled.
+- They cut blocks of earth from beneath the lake using a giant saw.
+- These blocks float and form the foundation.
+- They put 2-3 meter eucalyptus posts into the earth and then tie them together to create islands.
+- The materials for the islands have to be replaced about once a year.
+- The islands are anchored beneath the lake. Eight anchors on the one we're on.
+- Every month they add a new layer of reeds.
+- Every eighteen to twenty years they make a new island.
+- They have solar-powered tvs and radioa.
+
+| Time|Location
+|--------:|:-----------|
+| 9:10AM | In our shuttle from Hostal Margarita.
+| 9:34AM | On the boat!
+| 9:40AM | On our way.
+| 10:10AM | At the islands.
+| 11:01AM | On a local boat getting rowed around the islands for 10 soles each.
+| 11:39AM | On our way back.
+| 12:08PM | Back.</string>
+	<key>Location</key>
+	<dict>
+		<key>Latitude</key>
+		<real>-15.835091010682131</real>
+		<key>Longitude</key>
+		<real>-70.014122352069251</real>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Puno</string>
+		<string>Peru</string>
+		<string>Tours</string>
+		<string>Isla Uros</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Lima</string>
+	<key>UUID</key>
+	<string>2138867FD2EF45B5817F480A08B73C17</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>8</string>
+		<key>Description</key>
+		<string>Drizzle</string>
+		<key>Fahrenheit</key>
+		<string>46</string>
+		<key>IconName</key>
+		<string>rain.png</string>
+		<key>Pressure MB</key>
+		<real>1011.67</real>
+		<key>Relative Humidity</key>
+		<real>65</real>
+		<key>Service</key>
+		<string>Forecast.io</string>
+		<key>Wind Bearing</key>
+		<integer>1</integer>
+		<key>Wind Speed KPH</key>
+		<real>1.3799999999999999</real>
+	</dict>
+</dict>
+</plist>

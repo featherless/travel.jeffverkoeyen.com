@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Activity</key>
+	<string>Eating</string>
+	<key>Creation Date</key>
+	<date>2014-02-10T22:52:11Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-02-10T22:52:11Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Flor de mi Terra
+
+Terrible food, good view.</string>
+	<key>Location</key>
+	<dict>
+		<key>Latitude</key>
+		<real>-16.165545984412262</real>
+		<key>Longitude</key>
+		<real>-69.090285339583119</real>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Copacabana</string>
+		<string>Bolivia</string>
+		<string>Restaurants</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/La_Paz</string>
+	<key>UUID</key>
+	<string>8B442EFE17BE4D76A94335E82B1FF856</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>7</string>
+		<key>Description</key>
+		<string>Overcast</string>
+		<key>Fahrenheit</key>
+		<string>44</string>
+		<key>IconName</key>
+		<string>cloudy.png</string>
+		<key>Pressure MB</key>
+		<real>1010.73</real>
+		<key>Relative Humidity</key>
+		<real>84</real>
+		<key>Service</key>
+		<string>Forecast.io</string>
+		<key>Wind Bearing</key>
+		<integer>43</integer>
+		<key>Wind Speed KPH</key>
+		<real>15.34</real>
+	</dict>
+</dict>
+</plist>

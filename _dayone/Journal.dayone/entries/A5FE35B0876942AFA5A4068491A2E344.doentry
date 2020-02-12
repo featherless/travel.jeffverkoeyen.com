@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-07-18T16:28:27Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-07-23T14:04:57Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.1</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.14.2</string>
+	</dict>
+	<key>Entry Text</key>
+	<string></string>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Ko Tao</string>
+		<string>Thailand</string>
+	</array>
+	<key>Time Zone</key>
+	<string>Asia/Bangkok</string>
+	<key>UUID</key>
+	<string>A5FE35B0876942AFA5A4068491A2E344</string>
+</dict>
+</plist>

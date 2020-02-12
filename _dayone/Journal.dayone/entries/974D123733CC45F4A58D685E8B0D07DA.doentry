@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Activity</key>
+	<string>Flying</string>
+	<key>Creation Date</key>
+	<date>2014-03-06T09:04:18Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-03-06T09:04:18Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.6</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Flying from Santiago to Easter Island
+
+| Time|Location
+|--------:|:-----------|
+| 6:17AM | Leaving the hostel.
+| 6:42AM | Getting sammiches from the side of the road.
+| 6:50AM | At the airport.
+| 7:00AM | Printed our boarding passes, in line to check bags.
+| 7:17AM | Checked in! At 14.2 and 18.1 kg for our backpacks.
+| 7:33AM | Through security!
+| 9:00AM | Boarded!
+| 9:32AM | Take off!
+| 2:32PM | Touch down! (Chilean time)
+| 2:57PM | Bought our park entrance ticket. Waiting for bags.
+| 1:11PM | In a car with a dude.
+
+ Totals | Totals
+|--------:|:---------|
+| Total air time | 5:00
+| Total flight legs | 1</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Santiago</string>
+		<key>Country</key>
+		<string>Chile</string>
+		<key>Latitude</key>
+		<real>-33.444027424350324</real>
+		<key>Locality</key>
+		<string>Santiago</string>
+		<key>Longitude</key>
+		<real>-70.667764811993592</real>
+		<key>Place Name</key>
+		<string>Calle Catedral 1713–1797</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Santiago</string>
+		<string>Easter Island</string>
+		<string>Chile</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Santiago</string>
+	<key>UUID</key>
+	<string>974D123733CC45F4A58D685E8B0D07DA</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>15</string>
+		<key>Description</key>
+		<string>Clear</string>
+		<key>Fahrenheit</key>
+		<string>59</string>
+		<key>IconName</key>
+		<string>clearn.png</string>
+		<key>Pressure MB</key>
+		<integer>1016</integer>
+		<key>Relative Humidity</key>
+		<integer>63</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2014-03-06T10:36:06Z</date>
+		<key>Sunset Date</key>
+		<date>2014-03-06T23:12:10Z</date>
+		<key>Visibility KM</key>
+		<real>11.265408000000001</real>
+		<key>Wind Bearing</key>
+		<integer>160</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>15</integer>
+		<key>Wind Speed KPH</key>
+		<integer>7</integer>
+	</dict>
+</dict>
+</plist>

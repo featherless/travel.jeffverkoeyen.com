@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-05-07T03:07:12Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>Macintosh/MacBookAir4,1</string>
+		<key>Generation Date</key>
+		<date>2014-05-12T15:07:12Z</date>
+		<key>Host Name</key>
+		<string>Jeff’s MacBook Air</string>
+		<key>OS Agent</key>
+		<string>Mac OS X/10.9.2</string>
+		<key>Software Agent</key>
+		<string>Day One Mac/1.9.3</string>
+	</dict>
+	<key>Entry Text</key>
+	<string></string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Bali</string>
+		<key>Country</key>
+		<string>Indonesia</string>
+		<key>Latitude</key>
+		<real>-8.6535380499999963</real>
+		<key>Locality</key>
+		<string>Badung</string>
+		<key>Longitude</key>
+		<real>115.12857404999995</real>
+		<key>Place Name</key>
+		<string>Jalan Pantai Sentosa</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>SCUBA</string>
+		<string>Cairns</string>
+		<string>Australia</string>
+	</array>
+	<key>Time Zone</key>
+	<string>Asia/Makassar</string>
+	<key>UUID</key>
+	<string>353F19E05F1D4043BED1E3899642E14A</string>
+</dict>
+</plist>

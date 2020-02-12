@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Activity</key>
+	<string>Biking</string>
+	<key>Creation Date</key>
+	<date>2013-12-16T00:39:14Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2013-12-16T00:39:14Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Cartagena Sunset
+
+Saw this while biking south of the walled city.</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Bolívar</string>
+		<key>Country</key>
+		<string>Colombia</string>
+		<key>Latitude</key>
+		<real>10.4101097</real>
+		<key>Locality</key>
+		<string>Cartagena</string>
+		<key>Longitude</key>
+		<real>-75.538458899999995</real>
+		<key>Place Name</key>
+		<string>24th Street</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Colombia</string>
+		<string>Would recommend</string>
+		<string>Cartagena</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Bogota</string>
+	<key>UUID</key>
+	<string>BE4CEA7D43C24D038614E78CB3C55632</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>28</string>
+		<key>Description</key>
+		<string>Mostly Cloudy</string>
+		<key>Fahrenheit</key>
+		<string>82</string>
+		<key>IconName</key>
+		<string>mcloudyn.png</string>
+		<key>Pressure MB</key>
+		<integer>1009</integer>
+		<key>Relative Humidity</key>
+		<integer>84</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2013-12-15T11:12:09Z</date>
+		<key>Sunset Date</key>
+		<date>2013-12-15T22:43:18Z</date>
+		<key>Wind Bearing</key>
+		<integer>30</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>28</integer>
+		<key>Wind Speed KPH</key>
+		<integer>7</integer>
+	</dict>
+</dict>
+</plist>

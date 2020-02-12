@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-01-17T03:52:02Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>Macintosh/MacBookAir4,1</string>
+		<key>Generation Date</key>
+		<date>2014-01-17T03:52:02Z</date>
+		<key>Host Name</key>
+		<string>Jeff’s MacBook Air</string>
+		<key>OS Agent</key>
+		<string>Mac OS X/10.9.1</string>
+		<key>Software Agent</key>
+		<string>Day One Mac/1.9</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Cartmel, England
+
+From the nyt article [52 Places to Go in 2014](http://www.nytimes.com/interactive/2014/01/10/travel/2014-places-to-go.html):
+
+&gt; The British dining scene is expanding beyond London, and the chef [Simon Rogan](http://simonrogan.co.uk/) deserves much of the credit, having helped elevate the Lake District village of Cartmel into one of England’s most unlikely culinary destinations. His three restaurants in the medieval village — the Michelin two-starred L’Enclume, Rogan &amp; Company and his most recent addition, the Pig &amp; Whistle — have menus featuring whatever’s fresh on his nearby farm. Cartmel is also home to a celebrated [farmers’ market](http://www.cartmelvillage.com/foodmarket.html), [Cartmel Cheeses](http://www.cartmelcheeses.co.uk/) and the [Cartmel Village shop](http://www.cartmelvillageshop.co.uk/), renowned for its sticky toffee pudding. What’s more, the village is a cozy base from which to explore the Lake District, once an inspiration to William Wordsworth and Beatrix Potter.</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Galapagos</string>
+		<key>Country</key>
+		<string>Ecuador</string>
+		<key>Latitude</key>
+		<real>-0.90216305774714389</real>
+		<key>Locality</key>
+		<string>San Cristobal</string>
+		<key>Longitude</key>
+		<real>-89.611500086706144</real>
+		<key>Place Name</key>
+		<string>Galapagos National Park</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Cartmel</string>
+		<string>England</string>
+		<string>Travel Planning</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Guatemala</string>
+	<key>UUID</key>
+	<string>C33F8C4EE40C46D99B04BD84B8092C74</string>
+</dict>
+</plist>

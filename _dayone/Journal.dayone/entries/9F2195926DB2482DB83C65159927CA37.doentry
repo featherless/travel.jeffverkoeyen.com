@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2013-12-06T23:33:43Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>Macintosh/MacBookAir4,1</string>
+		<key>Generation Date</key>
+		<date>2013-12-06T23:33:43Z</date>
+		<key>Host Name</key>
+		<string>Jeff’s MacBook Air</string>
+		<key>OS Agent</key>
+		<string>Mac OS X/10.9</string>
+		<key>Software Agent</key>
+		<string>Day One Mac/1.9</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Machu Picchu, Peru
+
+http://www.quora.com/South-America/What-are-some-cool-places-to-go-in-South-America
+&gt; The most important attraction in all of South America. Can't be missed!
+&gt;
+&gt; Machu Picchu is an Inca site that is home to one of the most amazing architectural creations that dates back to the 13th century. It is located above a Sacred Valley 2,430 meters above sea level deep in the Amazonian jungle.
+
+On booking last minute from [nomadicmatt](http://www.nomadicmatt.com/travel-guides/peru-travel-tips/):
+
+&gt; If you are looking to do the Inca Trail and have a bit of extra time to wait for a deal, showing up in Cusco or booking a last minute tour can save you lots of money. Booking months in advance gets you the premium price but wait and you’ll find your patience rewarded. This normally works for Inca Trail tours on the Salktantay, Inca Jungle or Lares tours, the classic Inca Trail is normally fully-booked months in advance. I wouldn’t recommend trying to get on that one last-minute if you have your heart set on doing it.
+
+On [travelling in February](http://intransit.blogs.nytimes.com/2007/12/27/getting-to-machu-picchu-when-the-inca-trail-is-closed-in-february/?_r=0):
+
+&gt; Travelers have three options for getting to Machu Picchu when the Trail is closed (or booked up when they want to visit): simple, adventure and luxury. The simple way is to take PeruRail’s daily train (www.perurail.com) between the town of Cuzco and the Andean site. The one-way price is $46 for the “backpacker” train or $66 for a Vistadome train with panoramic windows, snacks and refreshments.
+&gt;
+&gt; Whether hiking or riding the rails, most travelers stop for at least a couple of nights in Cuzco, home to the nearest airport (with daily flights from Lima) and a historic city in which to get acclimated to the altitude.
+&gt;
+&gt; If you take the roughly four-hour train to the site, here is a tip. Spend the night in the otherwise forgettable Aguas Calientes, adjacent to the ruins. Then get up early and explore the site before the next influx of train-riding tourists shows up at about 11 a.m.
+
+## Trek Companies
+
+### SAS Travel
+
+Rates:
+
+- 4Day/3Night Inca Trail- Adult: US$ 620.00 / US$ 580.00 with valid ISIC student card.
+- 4Day/4Night SPECIAL- Adult:US$ 650.00 / US$ 610.00 Student rate.
+- 5Day/4Night Inca Trail plus Huaynapicchu- Adult:US$ 750.00 /US$710.00 Student rate.
+- 5Day/4Night Inca Trail with Inkaterra Hotel-Adult:US$940.00 /US$900.00 Student rate.
+- 5Day/4Night Inca Trail-Sacred Valley-  Adult: US$ 730.00 /US$ 690.00 Student rate.
+
+Links:
+
+- [website](http://www.sastravelperu.com/english/program/339/inca-trail-classic-4d3n-group-service)
+- [availability](http://sastravel.online-booking.co/index.php)
+- [booking](http://sastravel.online-booking.co/registration.php)
+
+### Tierras Vivas
+
+Links:
+
+- [website](http://www.tierrasvivas.com/)
+
+### Cusi Travel
+
+Links:
+
+- [website](http://cusitravel.com/)
+
+## Alternative Trails
+
+- [all trails](http://www.andeantravelweb.com/peru/treks/index.html)
+
+### Salkantay Trek
+
+- $545 starting price
+- $30 sleeping bag
+- $12 walking poles
+- $25 inflatable mattress
+- [Doing the trail for free](http://www.travelblog.org/South-America/Peru/Cusco/Salkantay-Trail/blog-332446.html)</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Puntarenas</string>
+		<key>Country</key>
+		<string>Costa Rica</string>
+		<key>Latitude</key>
+		<real>10.316341822506468</real>
+		<key>Longitude</key>
+		<real>-84.825528820429284</real>
+		<key>Place Name</key>
+		<string>Highway 145</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Peru</string>
+		<string>Travel Planning</string>
+		<string>Machu Picchu</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Costa_Rica</string>
+	<key>UUID</key>
+	<string>9F2195926DB2482DB83C65159927CA37</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>24</string>
+		<key>Description</key>
+		<string>Mostly Cloudy</string>
+		<key>Fahrenheit</key>
+		<string>75</string>
+		<key>IconName</key>
+		<string>mcloudy.png</string>
+		<key>Pressure MB</key>
+		<integer>1015</integer>
+		<key>Relative Humidity</key>
+		<integer>65</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2013-12-06T11:41:09Z</date>
+		<key>Sunset Date</key>
+		<date>2013-12-06T23:15:06Z</date>
+		<key>Wind Bearing</key>
+		<integer>100</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>24</integer>
+		<key>Wind Speed KPH</key>
+		<integer>19</integer>
+	</dict>
+</dict>
+</plist>

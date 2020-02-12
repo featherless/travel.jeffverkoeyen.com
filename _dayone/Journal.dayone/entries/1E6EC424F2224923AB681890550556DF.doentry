@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-01-17T03:28:26Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>Macintosh/MacBookAir4,1</string>
+		<key>Generation Date</key>
+		<date>2014-01-17T03:28:26Z</date>
+		<key>Host Name</key>
+		<string>Jeff’s MacBook Air</string>
+		<key>OS Agent</key>
+		<string>Mac OS X/10.9.1</string>
+		<key>Software Agent</key>
+		<string>Day One Mac/1.9</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Frankfurt, Germany
+
+From the nyt article [52 Places to Go in 2014](http://www.nytimes.com/interactive/2014/01/10/travel/2014-places-to-go.html):
+
+&gt; Frankfurt, long considered strictly a financial capital and major travel hub, used to land on the culturati map once a year, during its annual book fair. A recent boom of restaurants and clubs, though, makes the case for permanent placement. Leading the city’s transformation is its fast-evolving red light district, where spots like Maxie Eisen, a deli-style cafe by day and a speakeasy-inspired bar by night, offer a sexiness that isn’t unseemly. In the city center, a buzzy pan-Asian restaurant called [Moriki](http://www.moriki.de/) was just opened by the Berlin-based chef Duc Ngo with a menu that includes envelope-pushing courses like sushi pizza; and the new sleek [Lamoraga](http://www.lamoraga.de/), a modern Spanish restaurant, is pulling in the shopping crowds for lunch. By the end of next year, the developer Ardi Goldman plans to reinvent and reopen the famed King Kamehameha Club, which had its original heyday in the 1990s and 2000s. And growth extends to the art world: The 32,000-square-foot underground extension at the [Städel Museum](http://www.staedelmuseum.de/) earned accolades from around the globe when it opened last year.</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Galapagos</string>
+		<key>Country</key>
+		<string>Ecuador</string>
+		<key>Latitude</key>
+		<real>-0.90221360306301257</real>
+		<key>Locality</key>
+		<string>San Cristobal</string>
+		<key>Longitude</key>
+		<real>-89.611494945724559</real>
+		<key>Place Name</key>
+		<string>Galapagos National Park</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Frankfurt</string>
+		<string>Germany</string>
+		<string>Travel Planning</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Guatemala</string>
+	<key>UUID</key>
+	<string>1E6EC424F2224923AB681890550556DF</string>
+</dict>
+</plist>

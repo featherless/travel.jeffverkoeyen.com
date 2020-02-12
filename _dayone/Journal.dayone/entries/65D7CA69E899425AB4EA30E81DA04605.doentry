@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Activity</key>
+	<string>Eating</string>
+	<key>Creation Date</key>
+	<date>2014-01-01T03:32:51Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-01-01T03:32:51Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Ganesha
+
+With only two days before arriving in Cartagena we were still trying to figure out our new years dinner plans. We had heard that many of the restaurants were already booked up but managed to get a reservation at Oh La La!
+
+New Years Eve day our plans changed. Oh La La! was going to cost over $100 USD per person and this was over budget for many in our group. So at about 6pm we thew caution to the wind and canceled our reservation. Thankfully some people in our group found an Indian restaurant where we'd have an entire room to ourselves (10 people). I was skeptical.
+
+When we arrived at Ganesh we met the rest of our group and proceeded to order some appetizers and drinks. We had brought our own alcohol to spike the lemonades so we were doing pretty well by the time our appetizers arrived.
+
+The food turned out to be really good. There are a number of reviews on tripadvisor harping on the authenticity of the cuisine but given that we're in Colombia it's a tough thing to critique. Ravi, the owner, imports many of his spices from India anyway which surely puts Ganesh near the top of the list for authentic Indian cuisine in Colombia.
+
+Throughout the meal Ravi made sure that we had everything we wanted and repeatedly checked in on us to ensure that we were enjoying our food. The entire experience as a result made us feel welcome and we learned a bunch about Cartagena's restaurant industry.</string>
+	<key>Location</key>
+	<dict>
+		<key>Country</key>
+		<string>Colombia</string>
+		<key>Foursquare ID</key>
+		<string>51be5cf0498edb2f2fc0eea7</string>
+		<key>Latitude</key>
+		<real>10.425784</real>
+		<key>Longitude</key>
+		<real>-75.548833000000002</real>
+		<key>Place Name</key>
+		<string>Ganesha</string>
+	</dict>
+	<key>Starred</key>
+	<true/>
+	<key>Tags</key>
+	<array>
+		<string>Colombia</string>
+		<string>Restaurants</string>
+		<string>Indian</string>
+		<string>Cartagena-NewYears</string>
+		<string>Would recommend</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Bogota</string>
+	<key>UUID</key>
+	<string>65D7CA69E899425AB4EA30E81DA04605</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>27</string>
+		<key>Description</key>
+		<string>Clear</string>
+		<key>Fahrenheit</key>
+		<string>81</string>
+		<key>IconName</key>
+		<string>clearn.png</string>
+		<key>Pressure MB</key>
+		<integer>1009</integer>
+		<key>Relative Humidity</key>
+		<integer>84</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2013-12-31T11:19:43Z</date>
+		<key>Sunset Date</key>
+		<date>2013-12-31T22:51:26Z</date>
+		<key>Visibility KM</key>
+		<real>11.265408000000001</real>
+		<key>Wind Bearing</key>
+		<integer>360</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>27</integer>
+		<key>Wind Speed KPH</key>
+		<integer>11</integer>
+	</dict>
+</dict>
+</plist>

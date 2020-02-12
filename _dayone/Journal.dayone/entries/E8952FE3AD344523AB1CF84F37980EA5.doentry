@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Activity</key>
+	<string>Automotive</string>
+	<key>Creation Date</key>
+	<date>2014-02-26T03:13:08Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-02-26T03:13:08Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Bussing from Copiapó to La Serena
+
+| Time|Location
+|--------:|:-----------|
+| 12:09AM | On the bus.
+| 12:23AM | On our way.
+| 4:49AM | Arrived.
+
+| Totals | Totals
+|--------:|:---------|
+| Total bus time | 4:26</string>
+	<key>Location</key>
+	<dict>
+		<key>Latitude</key>
+		<real>-27.369289118822074</real>
+		<key>Longitude</key>
+		<real>-70.334519762611322</real>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Copiapo</string>
+		<string>La Serena</string>
+		<string>Chile</string>
+		<string>Bussing</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Santiago</string>
+	<key>UUID</key>
+	<string>E8952FE3AD344523AB1CF84F37980EA5</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>14</string>
+		<key>Description</key>
+		<string>Clear</string>
+		<key>Fahrenheit</key>
+		<string>57</string>
+		<key>IconName</key>
+		<string>clearn.png</string>
+		<key>Pressure MB</key>
+		<integer>1015</integer>
+		<key>Relative Humidity</key>
+		<integer>82</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2014-02-26T10:34:36Z</date>
+		<key>Sunset Date</key>
+		<date>2014-02-26T23:17:00Z</date>
+		<key>Wind Bearing</key>
+		<integer>50</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>14</integer>
+		<key>Wind Speed KPH</key>
+		<integer>4</integer>
+	</dict>
+</dict>
+</plist>

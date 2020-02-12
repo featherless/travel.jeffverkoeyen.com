@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Activity</key>
+	<string>Eating</string>
+	<key>Creation Date</key>
+	<date>2013-12-08T18:44:46Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2013-12-08T18:44:46Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Cafe Carola
+
+Holy cats, mind blown. We started late today after a crappy sleep at Mariposa's made us quicken the process of finding a new place to stay. By the time we left to find breakfast it was 11am and we were famished.
+
+It took about an hour to make our way to Cafe Carola after meandering across the beach, up a trail, through a small neighborhood, back down the trail and finally across a dirt path to the correct location. (Pro tip: don't try to shortcut along the beach!) We were hungry, tired, and generally not content.
+
+But the day was about to take a radical turn for the better.
+
+Immediately after sitting down, we were given menus and the German breakfast jumped out: meat, cheese, eggs, homemade bread, homemade jam, and butter. There was also a champagne version which I couldn't resist (tip of the hat to many San Francisco mornings).
+
+Our blended juices were quickly brought out, followed by a plate of fresh, cold fruit. As soon as we finished the fruit we were given orange juice and my champagne arrived; this lady knows how to kick off breakfast! When the meat, cheese, eggs, jam and bread arrived only a few minutes later we had built a solid momentum and devoured the food.
+
+The breads were delicious and allowed us to blend the four different types of home-made jam (banana, pineapple, and two other flavors I didn't know) with different meats and cheeses, making for an amazing collection of flavors compared to the simple sodas we'd been eating for weeks now.
+
+Our plates clean, we still had half of the bread left over when they took it away. Hugely to our surprise, they brought the bread back in a bag so that we could take it away! Many delicious peanut butter and banana sandwiches were to be had because of this.
+
+We were blown away, stuffed, and delighted with that familiar mimosa fuzz, ready for the rest of the day :)</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Guanacaste</string>
+		<key>Country</key>
+		<string>Costa Rica</string>
+		<key>Foursquare ID</key>
+		<string>4efdea4b2c5b66f33a63a3fc</string>
+		<key>Latitude</key>
+		<real>9.8839831287412316</real>
+		<key>Longitude</key>
+		<real>-85.535208464594817</real>
+		<key>Place Name</key>
+		<string>Cafe Carola</string>
+	</dict>
+	<key>Starred</key>
+	<true/>
+	<key>Tags</key>
+	<array>
+		<string>Costa rica</string>
+		<string>Samara</string>
+		<string>Restaurants</string>
+		<string>Mind blown</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Costa_Rica</string>
+	<key>UUID</key>
+	<string>C13D979FFF754188B2F3610547BAC272</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>32</string>
+		<key>Description</key>
+		<string>Partly Cloudy</string>
+		<key>Fahrenheit</key>
+		<string>90</string>
+		<key>IconName</key>
+		<string>fair.png</string>
+		<key>Pressure MB</key>
+		<integer>1010</integer>
+		<key>Relative Humidity</key>
+		<integer>49</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2013-12-08T11:48:55Z</date>
+		<key>Sunset Date</key>
+		<date>2013-12-08T23:20:17Z</date>
+		<key>Wind Bearing</key>
+		<integer>70</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>32</integer>
+		<key>Wind Speed KPH</key>
+		<integer>22</integer>
+	</dict>
+</dict>
+</plist>

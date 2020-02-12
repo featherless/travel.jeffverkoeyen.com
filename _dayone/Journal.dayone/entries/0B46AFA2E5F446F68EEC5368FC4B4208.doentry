@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-04-15T05:00:45Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-04-16T00:18:07Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.1</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.14</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Four Windows
+</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Canterbury</string>
+		<key>Country</key>
+		<string>New Zealand</string>
+		<key>Latitude</key>
+		<real>-43.525081</real>
+		<key>Locality</key>
+		<string>Christchurch</string>
+		<key>Longitude</key>
+		<real>172.631315</real>
+		<key>Place Name</key>
+		<string>87 Victoria Street</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Christchurch</string>
+		<string>New Zealand</string>
+	</array>
+	<key>Time Zone</key>
+	<string>Pacific/Auckland</string>
+	<key>UUID</key>
+	<string>0B46AFA2E5F446F68EEC5368FC4B4208</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>16</string>
+		<key>Description</key>
+		<string>Mostly Sunny</string>
+		<key>Fahrenheit</key>
+		<string>61</string>
+		<key>IconName</key>
+		<string>fair.png</string>
+		<key>Pressure MB</key>
+		<integer>1011</integer>
+		<key>Relative Humidity</key>
+		<integer>88</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2014-04-14T19:02:20Z</date>
+		<key>Sunset Date</key>
+		<date>2014-04-15T05:57:35Z</date>
+		<key>Wind Bearing</key>
+		<integer>70</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>16</integer>
+		<key>Wind Speed KPH</key>
+		<integer>19</integer>
+	</dict>
+</dict>
+</plist>

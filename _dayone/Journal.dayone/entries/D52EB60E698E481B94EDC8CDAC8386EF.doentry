@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2013-12-14T21:27:02Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2013-12-14T21:27:02Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>La Mantilla
+
+This was the destination for one of the geocaches we were hunting for. The cache itself was a giant tupperware container filled with a treasure map and various geocoin drops. We left the two we found in Sámara here and picked up two more. One's goal is to head to New Zealand, which is perfect given our plans!
+
+The staff were amazingly friendly and really excited to tell us about their electric lunch, so we'll have to come back!</string>
+	<key>Location</key>
+	<dict>
+		<key>Latitude</key>
+		<real>10.424989806497864</real>
+		<key>Longitude</key>
+		<real>-75.551745621557856</real>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Colombia</string>
+		<string>Cartagena</string>
+		<string>Restaurants</string>
+		<string>Geocaching</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Bogota</string>
+	<key>UUID</key>
+	<string>D52EB60E698E481B94EDC8CDAC8386EF</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>29</string>
+		<key>Description</key>
+		<string>Mostly Cloudy</string>
+		<key>Fahrenheit</key>
+		<string>85</string>
+		<key>IconName</key>
+		<string>pcloudy.png</string>
+		<key>Pressure MB</key>
+		<real>1006.48</real>
+		<key>Relative Humidity</key>
+		<real>70</real>
+		<key>Service</key>
+		<string>Forecast.io</string>
+		<key>Visibility KM</key>
+		<real>10.039999999999999</real>
+		<key>Wind Bearing</key>
+		<integer>5</integer>
+		<key>Wind Speed KPH</key>
+		<real>12.859999999999999</real>
+	</dict>
+</dict>
+</plist>

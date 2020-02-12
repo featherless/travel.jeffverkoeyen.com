@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-02-19T14:53:22Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-02-19T14:55:22Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Flamingos</string>
+	<key>Location</key>
+	<dict>
+		<key>Latitude</key>
+		<real>-21.499762390760239</real>
+		<key>Longitude</key>
+		<real>-67.859333446312561</real>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Time Zone</key>
+	<string>America/La_Paz</string>
+	<key>UUID</key>
+	<string>3E745526534A4282A40578F6C8DF3232</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>22</string>
+		<key>Description</key>
+		<string>Sunny</string>
+		<key>Fahrenheit</key>
+		<string>72</string>
+		<key>IconName</key>
+		<string>clear.png</string>
+		<key>Pressure MB</key>
+		<integer>1025</integer>
+		<key>Relative Humidity</key>
+		<integer>17</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2014-02-19T10:27:14Z</date>
+		<key>Sunset Date</key>
+		<date>2014-02-19T23:11:25Z</date>
+		<key>Visibility KM</key>
+		<real>11.265408000000001</real>
+		<key>Wind Bearing</key>
+		<integer>310</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>22</integer>
+		<key>Wind Speed KPH</key>
+		<integer>6</integer>
+	</dict>
+</dict>
+</plist>

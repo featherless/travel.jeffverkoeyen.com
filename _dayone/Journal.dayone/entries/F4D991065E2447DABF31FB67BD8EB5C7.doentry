@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-06-23T15:52:40Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>Macintosh/MacBookAir6,1</string>
+		<key>Generation Date</key>
+		<date>2014-06-23T15:52:40Z</date>
+		<key>Host Name</key>
+		<string>Laurence’s MacBook Air</string>
+		<key>OS Agent</key>
+		<string>Mac OS X/10.9.2</string>
+		<key>Software Agent</key>
+		<string>Day One Mac/1.9.3</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Vietnam cities to research and train info
+
+## From people we met coming back from their Lares Trek before we went:
+http://justclex.com/2014/05/11/vietnam/
+Halong Bay: might be disappointing
+
+Sapa: Cultural trek, “I would highly recommend Ms. Su Linh and her family. If you guys are interested in booking something with her, just give her a call 0166668651 and she can arrange it all for you “
+
+Phong Nha: Immense caves
+
+## From Roughguides.com
+http://www.roughguides.com/destinations/asia/vietnam/things-not-to-miss/
+Ethnic Markets: in Bac Ha and Can Cau
+Temples: LONG SON PAGODA IN NHA TRANG
+The citadel: in Hué
+Water puppets
+Hoi An
+Trekking in Sa Pa
+Lak Lake: in a dug out canoe, ride elephants
+Red river delta in the far north
+
+
+
+
+
+## Train info
+
+http://www.seat61.com/Vietnam.htm#.U6gj242SyYl
+
+</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Thành Phố Hồ Chí Minh</string>
+		<key>Country</key>
+		<string>Vietnam</string>
+		<key>Latitude</key>
+		<real>10.766588422233637</real>
+		<key>Locality</key>
+		<string>Ho Chi Minh City</string>
+		<key>Longitude</key>
+		<real>106.68976237225331</real>
+		<key>Place Name</key>
+		<string>Đường Phạm Ngũ Lão 373/10</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Vietnam</string>
+		<string>Travel Planning</string>
+	</array>
+	<key>Time Zone</key>
+	<string>Asia/Phnom_Penh</string>
+	<key>UUID</key>
+	<string>F4D991065E2447DABF31FB67BD8EB5C7</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>26</string>
+		<key>Description</key>
+		<string>Light Rain</string>
+		<key>Fahrenheit</key>
+		<string>79</string>
+		<key>IconName</key>
+		<string>rainn.png</string>
+		<key>Pressure MB</key>
+		<integer>1008</integer>
+		<key>Relative Humidity</key>
+		<integer>100</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2014-06-22T22:32:46Z</date>
+		<key>Sunset Date</key>
+		<date>2014-06-23T11:18:17Z</date>
+		<key>Wind Bearing</key>
+		<integer>250</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>26</integer>
+		<key>Wind Speed KPH</key>
+		<integer>11</integer>
+	</dict>
+</dict>
+</plist>

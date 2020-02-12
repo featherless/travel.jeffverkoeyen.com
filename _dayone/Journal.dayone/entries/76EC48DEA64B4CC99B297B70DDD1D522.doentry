@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-01-17T03:15:30Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>Macintosh/MacBookAir4,1</string>
+		<key>Generation Date</key>
+		<date>2014-01-17T03:15:30Z</date>
+		<key>Host Name</key>
+		<string>Jeff’s MacBook Air</string>
+		<key>OS Agent</key>
+		<string>Mac OS X/10.9.1</string>
+		<key>Software Agent</key>
+		<string>Day One Mac/1.9</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Albania
+
+From the nyt article [52 Places to Go in 2014](http://www.nytimes.com/interactive/2014/01/10/travel/2014-places-to-go.html):
+
+&gt; What if you could combine the rugged beauty you’d find on Croatia’s Dalmatian Coast with the ruins of an undiscovered Turkey or Greece, all wrapped in the easygoing nature characteristic of rural Italy — at a fraction of the cost? Turns out you can, on the coast of Albania. The roughly Maryland-size country, between Greece and Montenegro, sits about 45 miles east of Italy on the eastern shores of the Adriatic and has limestone-ringed beaches, ancient ruins like Butrint and waterfront inns where you can stay for less than $50 a night. Rampant development threatened to turn it all to concrete in the years after Communism, but a new government took office in September on promises of keeping the coast authentic. Head to villages like Qeparo, within sight of Corfu, where you can kayak past Cold War submarine tunnels, swim by abandoned forts and watch the tide rise during a dinner of fresh fish at an inn called the Riviera. This is Europe when it was fresh and cheap.</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Galapagos</string>
+		<key>Country</key>
+		<string>Ecuador</string>
+		<key>Latitude</key>
+		<real>-0.9022178933194599</real>
+		<key>Locality</key>
+		<string>San Cristobal</string>
+		<key>Longitude</key>
+		<real>-89.611490440500717</real>
+		<key>Place Name</key>
+		<string>Galapagos National Park</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Albania</string>
+		<string>Travel Planning</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Guatemala</string>
+	<key>UUID</key>
+	<string>76EC48DEA64B4CC99B297B70DDD1D522</string>
+</dict>
+</plist>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Activity</key>
+	<string>Eating</string>
+	<key>Creation Date</key>
+	<date>2013-12-13T22:02:55Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2013-12-13T22:02:55Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Collage Charladero
+
+About to order a ramen burger!
+
+Holy crap was that tasty. It's exactly what you'd think a ramen burger would taste like, but this one was a towering multi-story colossus. I ordered the one with two patties which included juicy thick layers of cheese and a ramen "bun". This beast had to be taken down with man-made tools.</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Bolivar</string>
+		<key>Country</key>
+		<string>Colombia</string>
+		<key>Foursquare ID</key>
+		<string>50bb2fabebca2d1cbaf7951b</string>
+		<key>Latitude</key>
+		<real>10.423547633190658</real>
+		<key>Locality</key>
+		<string>Cartagena</string>
+		<key>Longitude</key>
+		<real>-75.549995899200439</real>
+		<key>Place Name</key>
+		<string>Collage Charladero</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Colombia</string>
+		<string>Cartagena</string>
+		<string>Restaurants</string>
+		<string>Would go back if starving</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Bogota</string>
+	<key>UUID</key>
+	<string>48A439C1A906420FBBA659409C0C7875</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>28</string>
+		<key>Description</key>
+		<string>Mostly Cloudy</string>
+		<key>Fahrenheit</key>
+		<string>82</string>
+		<key>IconName</key>
+		<string>mcloudyn.png</string>
+		<key>Pressure MB</key>
+		<integer>1010</integer>
+		<key>Relative Humidity</key>
+		<integer>79</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2013-12-13T11:11:06Z</date>
+		<key>Sunset Date</key>
+		<date>2013-12-13T22:42:25Z</date>
+		<key>Wind Bearing</key>
+		<integer>360</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>28</integer>
+		<key>Wind Speed KPH</key>
+		<integer>6</integer>
+	</dict>
+</dict>
+</plist>

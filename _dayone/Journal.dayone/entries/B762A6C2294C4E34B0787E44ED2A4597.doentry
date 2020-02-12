@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-05-13T07:40:31Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>Macintosh/MacBookAir4,1</string>
+		<key>Generation Date</key>
+		<date>2014-05-26T15:26:31Z</date>
+		<key>Host Name</key>
+		<string>Jeff’s MacBook Air</string>
+		<key>OS Agent</key>
+		<string>Mac OS X/10.9.2</string>
+		<key>Software Agent</key>
+		<string>Day One Mac/1.9.3</string>
+	</dict>
+	<key>Entry Text</key>
+	<string></string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Bali</string>
+		<key>Country</key>
+		<string>Indonesia</string>
+		<key>Latitude</key>
+		<real>-8.6731443405151332</real>
+		<key>Locality</key>
+		<string>Klungkung</string>
+		<key>Longitude</key>
+		<real>115.44853668212887</real>
+		<key>Place Name</key>
+		<string>Jalan Raya Jungut Batu</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Indonesia</string>
+		<string>Bali</string>
+		<string>Canggu</string>
+	</array>
+	<key>Time Zone</key>
+	<string>Asia/Makassar</string>
+	<key>UUID</key>
+	<string>B762A6C2294C4E34B0787E44ED2A4597</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>29</string>
+		<key>Description</key>
+		<string>Drizzle</string>
+		<key>Fahrenheit</key>
+		<string>84</string>
+		<key>IconName</key>
+		<string>rain.png</string>
+		<key>Pressure MB</key>
+		<real>1008.89</real>
+		<key>Relative Humidity</key>
+		<real>77</real>
+		<key>Service</key>
+		<string>Forecast.io</string>
+		<key>Visibility KM</key>
+		<real>9.9800000000000004</real>
+		<key>Wind Bearing</key>
+		<integer>119</integer>
+		<key>Wind Speed KPH</key>
+		<real>14.050000000000001</real>
+	</dict>
+</dict>
+</plist>

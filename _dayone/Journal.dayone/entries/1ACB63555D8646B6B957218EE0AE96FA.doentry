@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-05-29T08:38:16Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-05-30T05:48:31Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.1</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.14</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Cool Light Fixture
+
+Found this on the edge of town.</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Nusa Tenggara Barat</string>
+		<key>Country</key>
+		<string>Indonesia</string>
+		<key>Latitude</key>
+		<real>-8.3559155276124653</real>
+		<key>Locality</key>
+		<string>Lombok Utara</string>
+		<key>Longitude</key>
+		<real>116.04051248086807</real>
+		<key>Place Name</key>
+		<string>Jalan Gili Trawangan</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Gili T</string>
+		<string>Indonesia</string>
+	</array>
+	<key>Time Zone</key>
+	<string>Asia/Makassar</string>
+	<key>UUID</key>
+	<string>1ACB63555D8646B6B957218EE0AE96FA</string>
+</dict>
+</plist>

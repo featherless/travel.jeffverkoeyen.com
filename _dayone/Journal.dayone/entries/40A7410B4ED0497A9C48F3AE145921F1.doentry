@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2013-12-01T00:00:28Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2013-12-02T19:03:28Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>La Fortuna is a small tourist town situated at the base of the volcano Arenal. Arenal was a long-active volcano that recently hasn’t seen as much activity.
+
+This is stop #2 on our journey through Costa Rica. 
+
+La Fortuna is too far from the volcano to get to it without paying for transport in some way. We've been told that there are local buses that go to the volcano for cheap, but it wasn’t particularly clear how to get back on them. We didn’t end up going to the volcano itself because of this, though we did hike nearby along the path to the Arenal Falls.
+
+The sodas (small restaurants that serve casado plates) were a great, cheap part of La Fortuna, often allowing us to eat for $4 a meal.</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Alajuela</string>
+		<key>Country</key>
+		<string>Costa Rica</string>
+		<key>Latitude</key>
+		<real>10.4685232</real>
+		<key>Locality</key>
+		<string>San Carlos</string>
+		<key>Longitude</key>
+		<real>-84.657397399999994</real>
+		<key>Place Name</key>
+		<string>Highway 142</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Preamble</string>
+		<string>Costa rica</string>
+		<string>La Fortuna</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Costa_Rica</string>
+	<key>UUID</key>
+	<string>40A7410B4ED0497A9C48F3AE145921F1</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>20</string>
+		<key>Description</key>
+		<string>Partly Cloudy</string>
+		<key>Fahrenheit</key>
+		<string>68</string>
+		<key>IconName</key>
+		<string>cloudyn.png</string>
+		<key>Pressure MB</key>
+		<integer>1015</integer>
+		<key>Relative Humidity</key>
+		<integer>69</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2013-11-30T11:38:05Z</date>
+		<key>Sunset Date</key>
+		<date>2013-11-30T23:13:17Z</date>
+		<key>Wind Bearing</key>
+		<integer>90</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>20</integer>
+		<key>Wind Speed KPH</key>
+		<integer>20</integer>
+	</dict>
+</dict>
+</plist>

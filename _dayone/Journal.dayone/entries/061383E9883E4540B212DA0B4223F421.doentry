@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Activity</key>
+	<string>Walking</string>
+	<key>Creation Date</key>
+	<date>2013-12-05T19:06:14Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2013-12-05T19:06:14Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Hummingbird Gardens
+
+We took a $10 cab to get here from town. The hummingbird gardens have a dozen feeders where the hummingbirds gather and eat. While you watch them they'll fly by like fighter jets, sometimes within inches of your head.
+
+We found a hummingbird on the sidewalk by the cafe, flopped on its side and seemingly dead. Laurence noticed that it was still breathing, so we nudged it onto its feet. It was breathing heavily.
+
+We found someone working at the gardens and she picked up the hummingbird and took it to the feeders. She then let the hummingbird sit in the sun for a bit and it slowly appeared to be regaining strength. We think it may have flown into a window and now its head is a bit foggy.
+
+When we got back from the cloud forest we found the hummingbird again in a bush and it was much more active. Hopefully it'll recover well!</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Puntarenas</string>
+		<key>Country</key>
+		<string>Costa Rica</string>
+		<key>Foursquare ID</key>
+		<string>4df8f7fd45dd816eb5a8a6b9</string>
+		<key>Latitude</key>
+		<real>10.342243909835815</real>
+		<key>Locality</key>
+		<string>Monteverde.</string>
+		<key>Longitude</key>
+		<real>-84.798660278320312</real>
+		<key>Place Name</key>
+		<string>Hummingbird Garden</string>
+	</dict>
+	<key>Starred</key>
+	<true/>
+	<key>Tags</key>
+	<array>
+		<string>Costa rica</string>
+		<string>Monteverde</string>
+		<string>Would recommend</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Costa_Rica</string>
+	<key>UUID</key>
+	<string>061383E9883E4540B212DA0B4223F421</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>27</string>
+		<key>Description</key>
+		<string>Mostly Sunny</string>
+		<key>Fahrenheit</key>
+		<string>81</string>
+		<key>IconName</key>
+		<string>fair.png</string>
+		<key>Pressure MB</key>
+		<integer>1016</integer>
+		<key>Relative Humidity</key>
+		<integer>48</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2013-12-05T11:40:38Z</date>
+		<key>Sunset Date</key>
+		<date>2013-12-05T23:14:45Z</date>
+		<key>Wind Bearing</key>
+		<integer>60</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>27</integer>
+		<key>Wind Speed KPH</key>
+		<integer>24</integer>
+	</dict>
+</dict>
+</plist>

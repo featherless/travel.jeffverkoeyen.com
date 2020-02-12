@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2013-12-03T13:34:23Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2013-12-03T13:34:23Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Taxi-Boat-Taxi to Monteverde
+
+### 7:34am
+
+Grabbing breakfast at one of the sodas.
+
+### 9:00am
+
+Shuttle arrived.
+
+### 9:30am
+
+Arrived at the lake.
+
+### 10:15am
+
+Crossed the lake.
+
+### 10:25am
+
+Boarded the shuttle to Monteverde.
+
+### 11:18am
+
+Bathroom break.
+
+### 12:18am
+
+Arrived in Monteverde.
+
+| Totals | Totals
+|--------:|:---------|
+| Total bus time | 2:23</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Alajuela</string>
+		<key>Country</key>
+		<string>Costa Rica</string>
+		<key>Latitude</key>
+		<real>10.470800829933022</real>
+		<key>Locality</key>
+		<string>San Carlos</string>
+		<key>Longitude</key>
+		<real>-84.648328799717234</real>
+		<key>Place Name</key>
+		<string>Highway 142</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Monteverde</string>
+		<string>Costa rica</string>
+		<string>La Fortuna</string>
+		<string>Bussing</string>
+		<string>Boating</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Costa_Rica</string>
+	<key>UUID</key>
+	<string>5BA887720558405CB744949D837B6C6B</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>21</string>
+		<key>Description</key>
+		<string>Sunny</string>
+		<key>Fahrenheit</key>
+		<string>70</string>
+		<key>IconName</key>
+		<string>clear.png</string>
+		<key>Pressure MB</key>
+		<integer>1018</integer>
+		<key>Relative Humidity</key>
+		<integer>69</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2013-12-03T11:39:36Z</date>
+		<key>Sunset Date</key>
+		<date>2013-12-03T23:14:07Z</date>
+		<key>Visibility KM</key>
+		<real>11.265408000000001</real>
+		<key>Wind Bearing</key>
+		<integer>70</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>21</integer>
+		<key>Wind Speed KPH</key>
+		<integer>15</integer>
+	</dict>
+</dict>
+</plist>

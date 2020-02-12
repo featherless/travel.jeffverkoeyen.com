@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2013-12-19T17:43:46Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>Macintosh/MacBookAir4,1</string>
+		<key>Generation Date</key>
+		<date>2013-12-19T17:43:46Z</date>
+		<key>Host Name</key>
+		<string>Jeff’s MacBook Air</string>
+		<key>OS Agent</key>
+		<string>Mac OS X/10.9</string>
+		<key>Software Agent</key>
+		<string>Day One Mac/1.9</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Travelling involves a wide range of experiences from the best to the worst. These are the entries from places we’ve been to and will never go back and the food we’ve eaten that made us go “blegh!”.</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Antioquia</string>
+		<key>Country</key>
+		<string>Colombia</string>
+		<key>Latitude</key>
+		<real>6.2076710905946761</real>
+		<key>Locality</key>
+		<string>Medellin</string>
+		<key>Longitude</key>
+		<real>-75.566097068673287</real>
+		<key>Place Name</key>
+		<string>Road 35</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Preamble</string>
+		<string>Would not go back</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Bogota</string>
+	<key>UUID</key>
+	<string>6FB66E7A07FC4816BA5B03FCA85019E9</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>24</string>
+		<key>Description</key>
+		<string>Mostly Sunny</string>
+		<key>Fahrenheit</key>
+		<string>75</string>
+		<key>IconName</key>
+		<string>fair.png</string>
+		<key>Pressure MB</key>
+		<integer>1017</integer>
+		<key>Relative Humidity</key>
+		<integer>54</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2013-12-19T11:07:02Z</date>
+		<key>Sunset Date</key>
+		<date>2013-12-19T22:52:53Z</date>
+		<key>Wind Bearing</key>
+		<integer>90</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>24</integer>
+		<key>Wind Speed KPH</key>
+		<integer>26</integer>
+	</dict>
+</dict>
+</plist>

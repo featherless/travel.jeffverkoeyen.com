@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Activity</key>
+	<string>Eating</string>
+	<key>Creation Date</key>
+	<date>2014-04-24T01:09:41Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-04-24T01:09:41Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.1</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.14</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Silverbean
+
+Cutesy little cafe.</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>NSW</string>
+		<key>Country</key>
+		<string>Australia</string>
+		<key>Latitude</key>
+		<real>-33.898743535423556</real>
+		<key>Locality</key>
+		<string>Newtown</string>
+		<key>Longitude</key>
+		<real>151.17455058745216</real>
+		<key>Place Name</key>
+		<string>91 Enmore Road</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Sydney</string>
+		<string>Australia</string>
+		<string>Restaurants</string>
+	</array>
+	<key>Time Zone</key>
+	<string>Australia/Sydney</string>
+	<key>UUID</key>
+	<string>A175AC3B3E25469791B2E87077A52734</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>25</string>
+		<key>Description</key>
+		<string>Mostly Sunny</string>
+		<key>Fahrenheit</key>
+		<string>77</string>
+		<key>IconName</key>
+		<string>fair.png</string>
+		<key>Pressure MB</key>
+		<integer>1013</integer>
+		<key>Relative Humidity</key>
+		<integer>32</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2014-04-23T20:24:33Z</date>
+		<key>Sunset Date</key>
+		<date>2014-04-24T07:22:31Z</date>
+		<key>Visibility KM</key>
+		<real>11.265408000000001</real>
+		<key>Wind Bearing</key>
+		<integer>320</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>25</integer>
+		<key>Wind Speed KPH</key>
+		<integer>15</integer>
+	</dict>
+</dict>
+</plist>

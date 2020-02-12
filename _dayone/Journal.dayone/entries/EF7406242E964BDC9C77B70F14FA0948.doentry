@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-02-23T19:12:17Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-02-23T20:53:14Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>San Pedro de Atacama is situated in the world’s driest desert and our bodies knew it - we each easily drank 2-3 litres of water every single day.
+
+Arriving from Bolivia, the prices in San Pedro can be pretty shocking. Everything from the food to the lodging is significantly more expensive than the neighbouring countries of Peru and Bolivia and most of the time seemingly without reason (the quality increase usually didn’t match the price increase).
+
+But getting over the prices we quickly found that San Pedro had a metric shit ton of things to do. Seemingly every business in town was at least one of three things: a restaurant, a hostel, and a tour company. There are lake tours and hiking tours and star gazing tours and culinary tours - pretty much everything you could imagine doing in a desert, they’ve got a tour for it.
+
+We ended up deciding to rent bikes and head to the [Valle de la Luna](http://blog.jeffverkoeyen.com/2014/02/22/travel-valle-de-la-luna) for an afternoon, after which we went on a stargazing tour.
+
+The stargazing tour was amazing (we’d been looking forward to seeing the stars really well at some point on our tour). After some in-depth astronomical history our guide took us over to the dozen or so telescopes they had set up to point at various interesting points in the sky. For me the most memorable moment was looking through the satellite looking at Saturn and having a legitimate “holy shit” moment when I realized I could see the rings of Saturn. And not a picture of the rings, the true, shining light being reflected from the sun, off the planet, travelling billions of miles through our solar system and arriving on my iris through the telescope. Wow.
+
+During our stay in San Pedro we ate nearly every meal at what we considered to be the best deal for quality of food and cost: Barros. Every dish we ordered there was delicious and they also had live music every night.
+
+The other memorable part of our San Pedro stay were the desert parties that a we went to. We ended up going to two, back-to-back, on the first and second nights there and they were a blast. After being driven on the back of a pickup truck to who knows where we would be dropped off in the middle of a field where they’d set up a sound system, bar, and fire pit. The first night we went was definitely smaller than the second, but on both nights the places were fairly busy and the DJs played mostly crossover-style (reggaeton, then electronic, then 80s music, and back to reggaeton). Everyone we met at the parties were super friendly and most of them from Chile (the beginning of a good trend of experiences with Chileans).
+
+Having sufficiently absorbed as much as we could from San Pedro, we headed southwards toward our ultimate South America destination: Santiago. First stop: Caldera!</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Antofagasta</string>
+		<key>Country</key>
+		<string>Chile</string>
+		<key>Latitude</key>
+		<real>-22.911683400000001</real>
+		<key>Locality</key>
+		<string>San Pedro de Atacama</string>
+		<key>Longitude</key>
+		<real>-68.201720899999998</real>
+		<key>Place Name</key>
+		<string>Calle Caracoles</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>San Pedro de Atacama</string>
+		<string>Chile</string>
+		<string>Preamble</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Santiago</string>
+	<key>UUID</key>
+	<string>EF7406242E964BDC9C77B70F14FA0948</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>27</string>
+		<key>Description</key>
+		<string>Sunny</string>
+		<key>Fahrenheit</key>
+		<string>81</string>
+		<key>IconName</key>
+		<string>clear.png</string>
+		<key>Pressure MB</key>
+		<integer>1021</integer>
+		<key>Relative Humidity</key>
+		<integer>10</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2014-02-23T10:29:15Z</date>
+		<key>Sunset Date</key>
+		<date>2014-02-23T23:08:24Z</date>
+		<key>Visibility KM</key>
+		<real>11.265408000000001</real>
+		<key>Wind Bearing</key>
+		<integer>270</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>27</integer>
+		<key>Wind Speed KPH</key>
+		<integer>37</integer>
+	</dict>
+</dict>
+</plist>

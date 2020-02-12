@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-01-17T03:11:24Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>Macintosh/MacBookAir4,1</string>
+		<key>Generation Date</key>
+		<date>2014-01-17T03:11:24Z</date>
+		<key>Host Name</key>
+		<string>Jeff’s MacBook Air</string>
+		<key>OS Agent</key>
+		<string>Mac OS X/10.9.1</string>
+		<key>Software Agent</key>
+		<string>Day One Mac/1.9</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Cape Town, South Africa
+
+From the nyt article [52 Places to Go in 2014](http://www.nytimes.com/interactive/2014/01/10/travel/2014-places-to-go.html):
+
+&gt; When Nelson Mandela was incarcerated at Robben Island prison, he found inspiration in Cape Town. “We often looked across Table Bay at the magnificent silhouette of Table Mountain,” he said in a speech. “To us on Robben Island, Table Mountain was a beacon of hope. It represented the mainland to which we knew we would one day return.”
+&gt;
+&gt; Cape Town’s importance to Mandela, who made his first address there as a free man, will doubtless draw many visitors in the wake of his death. The country has transformed itself since Mandela’s imprisonment, but there’s still much to be done. Many in Cape Town have been grappling with that challenge, including its creative class, which has been examining whether inspired design can solve some of the issues stemming from years of inequality.
+&gt;
+&gt; The city formally takes up that issue this year during its turn as [World Design Capital](http://www.wdccapetown2014.com/). Cape Town is celebrating design in all its forms, putting on fashion shows by students and established designers alike, hosting architecture open houses, welcoming the public into artists’ studios and folding the annual visual arts spectacular [Design Indaba](http://www.designindaba.com/) conference in February into the design capital program. Also part of the lineup are locals seeking to rejuvenate impoverished black-majority townships: [The Maboneng Lalela Project](http://www.maboneng.com/) turns township homes into galleries and performance spaces; [Foodpods](http://www.foodpods.co.za/) constructs sustainable farms, giving residents access to healthy produce; and the [Langa Quarter project](http://langaquarter.co.za/) seeks to make the precinct a cultural tourism destination.
+&gt;
+&gt; Cape Town is again reinventing itself, and the world is invited to its renaissance.</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Galapagos</string>
+		<key>Country</key>
+		<string>Ecuador</string>
+		<key>Latitude</key>
+		<real>-0.90218699695494409</real>
+		<key>Locality</key>
+		<string>San Cristobal</string>
+		<key>Longitude</key>
+		<real>-89.611354286590199</real>
+		<key>Place Name</key>
+		<string>Galapagos National Park</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Travel Planning</string>
+		<string>South Africa</string>
+		<string>Cape Town</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Guatemala</string>
+	<key>UUID</key>
+	<string>22B9FEA8510D4493B057EE89CFD9E853</string>
+</dict>
+</plist>

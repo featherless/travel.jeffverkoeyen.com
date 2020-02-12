@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Activity</key>
+	<string>Eating</string>
+	<key>Creation Date</key>
+	<date>2014-01-03T06:13:53Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-01-03T06:13:53Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Cafe de la Trinidad
+
+This little cafe sits unassumingly to the side of the plaza in Getsemani with only a few tables and chairs set out to watch the nightly antics. We wanted a drink one night while hanging out here and stepped in to look at the menu. It turned out they also had food so we came back for dinner.
+
+Holy crap is their food good. Everything we ordered was delicious and reasonably priced. I had the lasagna, apple pizza, and salad, each of which completely surprised me with both their presentation and flavor.
+
+Definitely not the cheapest food we've found in Cartagena, but for the price this place was one of the best meals we had in town.</string>
+	<key>Location</key>
+	<dict>
+		<key>Latitude</key>
+		<real>10.420740977870691</real>
+		<key>Longitude</key>
+		<real>-75.545492302696729</real>
+	</dict>
+	<key>Starred</key>
+	<true/>
+	<key>Tags</key>
+	<array>
+		<string>Colombia</string>
+		<string>Cartagena-NewYears</string>
+		<string>Restaurants</string>
+		<string>Mind blown</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Bogota</string>
+	<key>UUID</key>
+	<string>6B93A4258D504E39A42C7EBF6CA9152B</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>25</string>
+		<key>Description</key>
+		<string>Clear</string>
+		<key>Fahrenheit</key>
+		<string>77</string>
+		<key>IconName</key>
+		<string>clearn.png</string>
+		<key>Pressure MB</key>
+		<real>1008.29</real>
+		<key>Relative Humidity</key>
+		<real>92</real>
+		<key>Service</key>
+		<string>Forecast.io</string>
+		<key>Visibility KM</key>
+		<real>11.970000000000001</real>
+		<key>Wind Bearing</key>
+		<integer>73</integer>
+		<key>Wind Speed KPH</key>
+		<real>6.1799999999999997</real>
+	</dict>
+</dict>
+</plist>

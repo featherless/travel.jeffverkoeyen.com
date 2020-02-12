@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-07-17T07:19:34Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-07-17T07:19:34Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.1</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.14.2</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Koh Tao Hillside Resort
+
+Stayed here for a night and had a tasty buffet breakfast. Was crazy expensive though ($52 USD).</string>
+	<key>Location</key>
+	<dict>
+		<key>Latitude</key>
+		<real>10.108001651251788</real>
+		<key>Longitude</key>
+		<real>99.822339518088683</real>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Ko Tao</string>
+		<string>Thailand</string>
+		<string>Hotels</string>
+	</array>
+	<key>Time Zone</key>
+	<string>Asia/Bangkok</string>
+	<key>UUID</key>
+	<string>9FEC5109AA0D4530AEEF2427B36C5AC8</string>
+</dict>
+</plist>

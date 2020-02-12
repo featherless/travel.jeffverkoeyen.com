@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Activity</key>
+	<string>Automotive</string>
+	<key>Creation Date</key>
+	<date>2014-06-26T06:35:26Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-06-26T06:35:26Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.1</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.14.1</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Bussing from Can Tho to Saigon
+
+| 1:34PM | In the shuttle to the bus station.
+| 1:45PM | At Thành Bưởi bus terminal.
+| 1:52PM | Boarded.
+| 2:00PM | And we're off!
+| 3:57PM | Stopping for food.
+| 4:09PM | And off again.
+| 5:13PM | Arrived in Saigon.
+| 5:21PM | On a shuttle.
+| 5:41PM | At the ticket office.
+| 5:52PM | In a cab.
+| 6:04PM | At the hostel.</string>
+	<key>Location</key>
+	<dict>
+		<key>Latitude</key>
+		<real>10.027319253431658</real>
+		<key>Longitude</key>
+		<real>105.77684453698413</real>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Can Tho</string>
+		<string>Vietnam</string>
+		<string>Ho Chi Minh</string>
+		<string>Bussing</string>
+	</array>
+	<key>Time Zone</key>
+	<string>Asia/Ho_Chi_Minh</string>
+	<key>UUID</key>
+	<string>C0AB833F9BBC4A68B5E2F871623CC228</string>
+</dict>
+</plist>

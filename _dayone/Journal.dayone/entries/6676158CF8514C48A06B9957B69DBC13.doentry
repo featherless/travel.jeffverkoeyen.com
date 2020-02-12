@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Activity</key>
+	<string>Eating</string>
+	<key>Creation Date</key>
+	<date>2013-12-27T02:05:00Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2013-12-27T02:05:00Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>D'Toluca
+
+Mexican food! We had tasty burritos and Coronas because there was a promoter there. The machos were pretty disappointing (just jalapeno poppers).</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Valle del Cauca</string>
+		<key>Country</key>
+		<string>Colombia</string>
+		<key>Foursquare ID</key>
+		<string>4dcdd4cdc65bdac713529598</string>
+		<key>Latitude</key>
+		<real>3.4607938204049962</real>
+		<key>Locality</key>
+		<string>Cali</string>
+		<key>Longitude</key>
+		<real>-76.532692650417601</real>
+		<key>Place Name</key>
+		<string>D'Toluca</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Colombia</string>
+		<string>Cali</string>
+		<string>Restaurants</string>
+		<string>Mexican</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Bogota</string>
+	<key>UUID</key>
+	<string>6676158CF8514C48A06B9957B69DBC13</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>22</string>
+		<key>Description</key>
+		<string>Mostly Cloudy</string>
+		<key>Fahrenheit</key>
+		<string>72</string>
+		<key>IconName</key>
+		<string>mcloudyn.png</string>
+		<key>Pressure MB</key>
+		<integer>1016</integer>
+		<key>Relative Humidity</key>
+		<integer>78</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2013-12-26T11:08:56Z</date>
+		<key>Sunset Date</key>
+		<date>2013-12-26T23:04:12Z</date>
+		<key>Wind Bearing</key>
+		<integer>40</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>22</integer>
+		<key>Wind Speed KPH</key>
+		<integer>9</integer>
+	</dict>
+</dict>
+</plist>

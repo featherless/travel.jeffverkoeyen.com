@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Activity</key>
+	<string>Automotive</string>
+	<key>Creation Date</key>
+	<date>2014-08-04T01:54:31Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-08-04T01:54:31Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.1.2</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.14.2</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Bussing from Pai to Chiang Rai
+
+| 8:54AM | On the shuttle.
+| 9:01AM | On our way!
+| 10:15AM | Rest stop.
+| 10:28AM | On our way again.
+| 11:52AM | Arrived in Chiang Mai.
+| 12:47PM | In a pickup taxi to the tiger kingdom.
+| 1:18PM | Arrived at tiger kingdom.
+| 2:34PM | Leaving the tiger kingdom.
+| 3:15PM | Back at the bus station.
+| 5:55PM | Boarded the bus to Chiang Rai.
+| 6:04PM | On our way!
+| 9:22PM | Arrived.
+| 9:31PM | At the hostel.</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Mae Hong Son</string>
+		<key>Country</key>
+		<string>Thailand</string>
+		<key>Latitude</key>
+		<real>19.359990838001817</real>
+		<key>Locality</key>
+		<string>Pai</string>
+		<key>Longitude</key>
+		<real>98.442017091529848</real>
+		<key>Place Name</key>
+		<string>Soi Chaisongkram</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Bussing</string>
+		<string>Chiang rai</string>
+		<string>Thailand</string>
+		<string>Pai</string>
+	</array>
+	<key>Time Zone</key>
+	<string>Asia/Bangkok</string>
+	<key>UUID</key>
+	<string>DA09BCB7D7354A96B9E9F42430AFA737</string>
+</dict>
+</plist>

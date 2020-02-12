@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Activity</key>
+	<string>Eating</string>
+	<key>Creation Date</key>
+	<date>2013-12-11T02:31:06Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2013-12-11T02:31:06Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Unknown Soda
+
+Solid casado plates with the standard beans, rice, salad, and meat. $6.60 per plate. Had olive oil and vinegar for the salad, nom!</string>
+	<key>Location</key>
+	<dict>
+		<key>Latitude</key>
+		<real>9.8826306507138</real>
+		<key>Longitude</key>
+		<real>-85.527784607094617</real>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Costa rica</string>
+		<string>Samara</string>
+		<string>Restaurants</string>
+		<string>Casado</string>
+		<string>Would recommend</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Costa_Rica</string>
+	<key>UUID</key>
+	<string>2AF4EDC434B748D68FF5D86001D115F8</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>22</string>
+		<key>Description</key>
+		<string>Partly Cloudy</string>
+		<key>Fahrenheit</key>
+		<string>72</string>
+		<key>IconName</key>
+		<string>cloudyn.png</string>
+		<key>Pressure MB</key>
+		<real>1012.8</real>
+		<key>Relative Humidity</key>
+		<real>74</real>
+		<key>Service</key>
+		<string>Forecast.io</string>
+		<key>Visibility KM</key>
+		<real>16.09</real>
+		<key>Wind Bearing</key>
+		<integer>81</integer>
+		<key>Wind Speed KPH</key>
+		<real>9.4499999999999993</real>
+	</dict>
+</dict>
+</plist>

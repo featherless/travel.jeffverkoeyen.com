@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-01-25T16:17:58Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>Macintosh/MacBookAir4,1</string>
+		<key>Generation Date</key>
+		<date>2014-01-26T04:17:58Z</date>
+		<key>Host Name</key>
+		<string>Jeff’s MacBook Air</string>
+		<key>OS Agent</key>
+		<string>Mac OS X/10.9.1</string>
+		<key>Software Agent</key>
+		<string>Day One Mac/1.9.2</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Luna Azul
+
+Stayed here for one night as we acclimatized to the elevation change. The rooms are clean and there’s plenty of hot water. We paid 40 soles for the night, but there are undoubtedly cheaper places in town.</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Ayacucho</string>
+		<key>Country</key>
+		<string>Peru</string>
+		<key>Latitude</key>
+		<real>-13.160278951218475</real>
+		<key>Locality</key>
+		<string>Ayacucho</string>
+		<key>Longitude</key>
+		<real>-74.222614012035962</real>
+		<key>Place Name</key>
+		<string>Jr. El Sol</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Hotels</string>
+		<string>Would recommend</string>
+		<string>Ayacucho</string>
+		<string>Peru</string>
+		<string>Lodging</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Lima</string>
+	<key>UUID</key>
+	<string>E14B94626D1D4AED9812A95E96C86283</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>23</string>
+		<key>Description</key>
+		<string>Sunny</string>
+		<key>Fahrenheit</key>
+		<string>73</string>
+		<key>IconName</key>
+		<string>clear.png</string>
+		<key>Pressure MB</key>
+		<integer>1022</integer>
+		<key>Relative Humidity</key>
+		<integer>41</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2014-01-25T10:47:35Z</date>
+		<key>Sunset Date</key>
+		<date>2014-01-25T23:31:10Z</date>
+		<key>Visibility KM</key>
+		<real>11.265408000000001</real>
+		<key>Wind Bearing</key>
+		<integer>0</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>23</integer>
+		<key>Wind Speed KPH</key>
+		<integer>7</integer>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Activity</key>
+	<string>Eating</string>
+	<key>Creation Date</key>
+	<date>2013-12-18T03:54:35Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2013-12-18T03:54:35Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Tabetai
+
+Hell yes to good food and great cocktails.
+
+There are two Tabetai locations, one in the colonial part of Cartagena and another, newer one, built in a shipping container out by the beaches on the peninsula. We went to the latter one and damn was it a good idea because it turned out the shipping container Tabetai had just opened within the last thirty days. The staff were all incredibly eager to please.
+
+The restaurant is built inside and on top of a shipping container. They have a DJ playing a mix of indie and dance music all night, adding to the cool beach-front ambience. They’re primarily a sushi house so we ordered five plates of sushi and a seaweed salad accompanied by two drinks.
+
+The food was ok overall - we’ve definitely had better sushi elsewhere - but the friendliness of the staff and the genuine way in which they sought our opinions made the experience memorable. At the end of the night the head chef came by and offered us free drinks (“whatever you like”) and asked us how we were enjoying the place before sitting down and mingling with the other clientele.
+
+By the time we got the bill we had a slight buzz and were really enjoying sitting on the roof of the container listening to the music. It felt *almost* like we were back home on the playa; if only the shipping container had wheels and was moving through the city. For the price we had an amazing time and a lot of sushi, making Tabetai one of our favourite restaurant experiences of Cartagena.</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Bolívar</string>
+		<key>Country</key>
+		<string>Colombia</string>
+		<key>Latitude</key>
+		<real>10.400885716090352</real>
+		<key>Locality</key>
+		<string>Cartagena</string>
+		<key>Longitude</key>
+		<real>-75.55839682936255</real>
+		<key>Place Name</key>
+		<string>Santander Avenue</string>
+	</dict>
+	<key>Starred</key>
+	<true/>
+	<key>Tags</key>
+	<array>
+		<string>Sushi</string>
+		<string>Colombia</string>
+		<string>Cartagena</string>
+		<string>Restaurants</string>
+		<string>Mind blown</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Bogota</string>
+	<key>UUID</key>
+	<string>3176C22F1B2B43478B24FB7A285506BE</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>27</string>
+		<key>Description</key>
+		<string>Partly Cloudy</string>
+		<key>Fahrenheit</key>
+		<string>81</string>
+		<key>IconName</key>
+		<string>cloudyn.png</string>
+		<key>Pressure MB</key>
+		<integer>1010</integer>
+		<key>Relative Humidity</key>
+		<integer>84</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2013-12-17T11:13:11Z</date>
+		<key>Sunset Date</key>
+		<date>2013-12-17T22:44:13Z</date>
+		<key>Wind Bearing</key>
+		<integer>40</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>27</integer>
+		<key>Wind Speed KPH</key>
+		<integer>7</integer>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-06-27T11:20:39Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-06-27T16:44:56Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.1</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.14.1</string>
+	</dict>
+	<key>Entry Text</key>
+	<string></string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Thành Phố Hồ Chí Minh</string>
+		<key>Country</key>
+		<string>Vietnam</string>
+		<key>Latitude</key>
+		<real>10.771561999999999</real>
+		<key>Locality</key>
+		<string>Ho Chi Minh City</string>
+		<key>Longitude</key>
+		<real>106.70344</real>
+		<key>Place Name</key>
+		<string>Hẻm 76 Tôn Thất Đạm</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Vietnam</string>
+		<string>Ho Chi Minh</string>
+		<string>Food</string>
+	</array>
+	<key>Time Zone</key>
+	<string>Asia/Ho_Chi_Minh</string>
+	<key>UUID</key>
+	<string>C92CF2DEC54E4EF8A76AD1B1D9F36B85</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>26</string>
+		<key>Description</key>
+		<string>Mostly Cloudy</string>
+		<key>Fahrenheit</key>
+		<string>79</string>
+		<key>IconName</key>
+		<string>mcloudyn.png</string>
+		<key>Pressure MB</key>
+		<integer>1008</integer>
+		<key>Relative Humidity</key>
+		<integer>89</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2014-06-26T22:33:43Z</date>
+		<key>Sunset Date</key>
+		<date>2014-06-27T11:19:02Z</date>
+		<key>Wind Bearing</key>
+		<integer>250</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>26</integer>
+		<key>Wind Speed KPH</key>
+		<integer>4</integer>
+	</dict>
+</dict>
+</plist>

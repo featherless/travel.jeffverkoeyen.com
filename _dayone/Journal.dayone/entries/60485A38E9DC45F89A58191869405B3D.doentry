@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2013-11-28T06:15:13Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>Macintosh/MacBookAir4,1</string>
+		<key>Generation Date</key>
+		<date>2013-11-28T06:15:13Z</date>
+		<key>Host Name</key>
+		<string>Jeff’s MacBook Air</string>
+		<key>OS Agent</key>
+		<string>Mac OS X/10.9</string>
+		<key>Software Agent</key>
+		<string>Day One Mac/1.9</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Food in La Fortuna
+
+Cafe Rainforest - Must find, Numbah One. 125m South of park
+Samdix - cheap Caribbean food</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Limon</string>
+		<key>Country</key>
+		<string>Costa Rica</string>
+		<key>Latitude</key>
+		<real>9.657953069999996</real>
+		<key>Locality</key>
+		<string>Talamanca</string>
+		<key>Longitude</key>
+		<real>-82.747234189999972</real>
+		<key>Place Name</key>
+		<string>Talamanca</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array/>
+	<key>Time Zone</key>
+	<string>America/Costa_Rica</string>
+	<key>UUID</key>
+	<string>60485A38E9DC45F89A58191869405B3D</string>
+</dict>
+</plist>

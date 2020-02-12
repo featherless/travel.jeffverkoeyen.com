@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2013-12-13T20:42:04Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2013-12-14T17:42:04Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Hostel Mamallena
+
+Where we're staying in Cartagena for now. Nice place with A/C in the rooms at night, bar, and free pancakes in the morning for $40/night.
+
+We stayed at Mamallena for our first two nights in Cartagena and enjoyed it overall. We booked a private room and ended up in one of the dorms with 4 beds to choose from and a private bathroom. When you leave your room you enter the courtyard which is an awesome place to hang out away from the busy streets. We'd always see and meet new people any time we walked through.
+
+The A/C was great at night after a long day exploring the city under the hot sun. Mamallena is located within 10 minutes of the clocktower, making it a solid launching point for exploring the city. The beds and room were really clean, though the mattresses were just ok, comfort-wise. The free pancakes in the morning were great! The staff topped it off by being super friendly and allowing us to change our reservation on a whim as our plans changed.</string>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Hostels</string>
+		<string>Colombia</string>
+		<string>Cartagena</string>
+		<string>Would recommend</string>
+		<string>Lodging</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Bogota</string>
+	<key>UUID</key>
+	<string>4F92CC5ACBAD48CF825A070B1236F388</string>
+</dict>
+</plist>

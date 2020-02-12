@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2013-12-09T18:33:13Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2013-12-09T18:33:13Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Delicious Kombucha
+
+They make dynamite kombucha here, my favorite being the pineapple mint. For $3 a bottle it's a pricey treat but so worth it :)</string>
+	<key>Location</key>
+	<dict>
+		<key>Latitude</key>
+		<real>9.8812753614130244</real>
+		<key>Longitude</key>
+		<real>-85.527012879108568</real>
+	</dict>
+	<key>Starred</key>
+	<true/>
+	<key>Tags</key>
+	<array>
+		<string>Costa rica</string>
+		<string>Samara</string>
+		<string>Kombucha</string>
+		<string>Mind blown</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Costa_Rica</string>
+	<key>UUID</key>
+	<string>B8F27999D9714E93A0C80D416F7BABA8</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>29</string>
+		<key>Description</key>
+		<string>Mostly Cloudy</string>
+		<key>Fahrenheit</key>
+		<string>85</string>
+		<key>IconName</key>
+		<string>pcloudy.png</string>
+		<key>Pressure MB</key>
+		<real>1011.13</real>
+		<key>Relative Humidity</key>
+		<real>48</real>
+		<key>Service</key>
+		<string>Forecast.io</string>
+		<key>Visibility KM</key>
+		<real>9.9800000000000004</real>
+		<key>Wind Bearing</key>
+		<integer>73</integer>
+		<key>Wind Speed KPH</key>
+		<real>14.949999999999999</real>
+	</dict>
+</dict>
+</plist>

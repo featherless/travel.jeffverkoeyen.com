@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Activity</key>
+	<string>Walking</string>
+	<key>Creation Date</key>
+	<date>2013-12-03T00:18:07Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2013-12-03T00:18:07Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Hiking to La Cataranta Río Fortuna
+
+After finding out that it would cost at least $70 to go on any of the volcano tours, we decided to be economic and hike to Fortuna Falls instead. We left at about 3PM going up the main road and towards the volcano.
+
+Along the way we noticed a line of red ants moving along the sidewalk, many carrying large blades of grass over their heads. There were hundreds, maybe thousands of these ants cutting down and carrying leaves over a trail spanning dozens of meters. We got distracted for a while, curious as to the purpose of this massive operation.
+
+We eventually arrived at the turn to the waterfall and proceeded to walk through gorgeous open prairies and roadside homes of Costa Ricans. At one point we were lured by a sign for cold coconuts. Similar to our experience in Puerto Viejo, the coconuts were delicious and the Costa Ricans who cut them for us were incredibly friendly.
+
+At this point the sun was starting to go down and we were still a few km from the entrance to the falls, so we decided to head back home. We didn't see the falls but we were happy to have had a good hike!</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Alajuela</string>
+		<key>Country</key>
+		<string>Costa Rica</string>
+		<key>Latitude</key>
+		<real>10.4685232</real>
+		<key>Locality</key>
+		<string>San Carlos</string>
+		<key>Longitude</key>
+		<real>-84.657397700000004</real>
+		<key>Place Name</key>
+		<string>Highway 142</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Costa rica</string>
+		<string>La Fortuna</string>
+		<string>Hikes</string>
+		<string>Would recommend</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Costa_Rica</string>
+	<key>UUID</key>
+	<string>1F14046F505443ADA4CAA4C00BE0FD8F</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>21</string>
+		<key>Description</key>
+		<string>Nearby Fog</string>
+		<key>Fahrenheit</key>
+		<string>70</string>
+		<key>IconName</key>
+		<string>mcloudyn.png</string>
+		<key>Pressure MB</key>
+		<integer>1015</integer>
+		<key>Relative Humidity</key>
+		<integer>88</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2013-12-02T11:39:06Z</date>
+		<key>Sunset Date</key>
+		<date>2013-12-02T23:13:49Z</date>
+		<key>Visibility KM</key>
+		<integer>8</integer>
+		<key>Wind Bearing</key>
+		<integer>280</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>21</integer>
+		<key>Wind Speed KPH</key>
+		<integer>11</integer>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-02-09T15:59:44Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-02-09T17:04:58Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Local Boat
+
+These boats largely made of reeds and wood are capable of transporting 30 people.</string>
+	<key>Location</key>
+	<dict>
+		<key>Latitude</key>
+		<real>-15.832900535316899</real>
+		<key>Longitude</key>
+		<real>-70.009230132297432</real>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Isla Uros</string>
+		<string>Peru</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Lima</string>
+	<key>UUID</key>
+	<string>ACD6215696C345099DCC72603314717B</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>10</string>
+		<key>Description</key>
+		<string>Drizzle</string>
+		<key>Fahrenheit</key>
+		<string>50</string>
+		<key>IconName</key>
+		<string>rain.png</string>
+		<key>Pressure MB</key>
+		<real>1009.89</real>
+		<key>Relative Humidity</key>
+		<real>57</real>
+		<key>Service</key>
+		<string>Forecast.io</string>
+		<key>Wind Bearing</key>
+		<integer>40</integer>
+		<key>Wind Speed KPH</key>
+		<real>2.6899999999999999</real>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Activity</key>
+	<string>Automotive</string>
+	<key>Creation Date</key>
+	<date>2014-06-24T08:25:05Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-06-24T08:25:05Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.1</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.14</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Bussing from Saigon to Can Tho
+
+2:59PM | In a cab from Khoi Hostel. Cost 33k
+| 3:20PM | At Phuong Trang bus ticket office.
+| 3:23PM | Bus was full, missed it!
+| 3:29PM | On another bus. Not sure if it's the actual bus.
+| 3:51PM | At a bus terminal.
+| 4:26PM | And we're off!
+| 6:05PM | Stopping for food.
+| 6:25PM | On our way again.
+| 7:42PM | At the Can Tho terminal.
+| 8:15PM | Finally got on a shuttle.
+| 8:34PM | At Hotel Xoai.</string>
+	<key>Location</key>
+	<dict>
+		<key>Latitude</key>
+		<real>10.762861991341349</real>
+		<key>Longitude</key>
+		<real>106.67621943765153</real>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Ho Chi Minh</string>
+		<string>Vietnam</string>
+		<string>Bussing</string>
+		<string>Can Tho</string>
+	</array>
+	<key>Time Zone</key>
+	<string>Asia/Ho_Chi_Minh</string>
+	<key>UUID</key>
+	<string>EFE7EAB14A304835A7B687C0F4752389</string>
+</dict>
+</plist>

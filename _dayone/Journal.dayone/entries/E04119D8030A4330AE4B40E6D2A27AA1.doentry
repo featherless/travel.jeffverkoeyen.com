@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-02-22T01:49:32Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-02-27T01:49:32Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Hostal La Florida
+
+We stayed here for the rest of our time in San Pedro at 10,000 CLP a night in dorms.</string>
+	<key>Location</key>
+	<dict>
+		<key>Latitude</key>
+		<real>-29.907792336315129</real>
+		<key>Longitude</key>
+		<real>-71.249864240425708</real>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>San Pedro de Atacama</string>
+		<string>Chile</string>
+		<string>Hostels</string>
+		<string>Would not go back</string>
+		<string>Lodging</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Santiago</string>
+	<key>UUID</key>
+	<string>E04119D8030A4330AE4B40E6D2A27AA1</string>
+</dict>
+</plist>

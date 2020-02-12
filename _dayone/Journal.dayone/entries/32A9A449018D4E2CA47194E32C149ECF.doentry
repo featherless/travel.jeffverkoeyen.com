@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2013-12-09T04:44:08Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-01-15T04:44:08Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>El Cactus
+
+We stayed here for the rest of our time in Samara and really enjoyed it.</string>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Samara</string>
+		<string>Costa rica</string>
+		<string>Hostels</string>
+		<string>Lodging</string>
+	</array>
+	<key>Time Zone</key>
+	<string>Pacific/Galapagos</string>
+	<key>UUID</key>
+	<string>32A9A449018D4E2CA47194E32C149ECF</string>
+</dict>
+</plist>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Activity</key>
+	<string>Eating</string>
+	<key>Creation Date</key>
+	<date>2013-12-17T20:20:42Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2013-12-17T20:20:42Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>La Mulata
+
+Fish doesn't taste very good and the rice is dry. For cheaper we've had way tastier similar plates, so we were pretty disappointed. Tasty chicken soup though.</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Bolivar</string>
+		<key>Country</key>
+		<string>Colombia</string>
+		<key>Foursquare ID</key>
+		<string>4ced55575de16ea84f82b596</string>
+		<key>Latitude</key>
+		<real>10.426277825230748</real>
+		<key>Locality</key>
+		<string>Cartagena</string>
+		<key>Longitude</key>
+		<real>-75.546727136208546</real>
+		<key>Place Name</key>
+		<string>Restaurante La Mulata</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Colombia</string>
+		<string>Cartagena</string>
+		<string>Restaurants</string>
+		<string>Casado</string>
+		<string>Would not go back</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Bogota</string>
+	<key>UUID</key>
+	<string>017DDF2AA5F74B14AF86638DA85C8035</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>30</string>
+		<key>Description</key>
+		<string>Partly Cloudy</string>
+		<key>Fahrenheit</key>
+		<string>86</string>
+		<key>IconName</key>
+		<string>fair.png</string>
+		<key>Pressure MB</key>
+		<integer>1008</integer>
+		<key>Relative Humidity</key>
+		<integer>75</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2013-12-17T11:13:11Z</date>
+		<key>Sunset Date</key>
+		<date>2013-12-17T22:44:13Z</date>
+		<key>Wind Bearing</key>
+		<integer>360</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>30</integer>
+		<key>Wind Speed KPH</key>
+		<integer>17</integer>
+	</dict>
+</dict>
+</plist>

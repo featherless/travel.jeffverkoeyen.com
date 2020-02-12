@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-01-24T04:23:08Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-01-24T04:23:08Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Lima! This city of 8 million people is built on the coast of Peru and offers all of the wonderful variety that we’d been craving since being in the Galapagos for two weeks.
+
+We spent less than a week here at Lima Backpackers, a nice apartment-turned-hostel in the Surco district which is a short jump to Miraflores and the ocean-front shopping mall. The manager, Marco, was wonderfully friendly throughout our entire stay and more than happy to help with any of the unending barrage of questions we had.
+
+Exploring the city was pretty fun as we bounced around from the Larco Museum, to the plaza mayor, and to a massive water fountain park that blew our minds with their holographic laser shows. We also spent an afternoon at the ocean-facing mall in Miraflores that’s built into the hillside restocking on things that had been stolen (backpack, dictionary, water bottle).
+
+On the day we were meant to leave we decided to drop into a clinic and get a quick checkup due to all the diving we’d been doing. We were in-and-out in less than an hour and during that time we were given all the information we needed about our travels to Cusco! The doctor took an interest in us and was more than happy to help plan our bus route to Cusco and gave a couple route recommendations.</string>
+	<key>Location</key>
+	<dict>
+		<key>Latitude</key>
+		<real>-12.135838712576902</real>
+		<key>Longitude</key>
+		<real>-77.010332811695534</real>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Peru</string>
+		<string>Lima</string>
+		<string>Preamble</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Lima</string>
+	<key>UUID</key>
+	<string>6B099D33C47F4AFB9ECCB650950962C9</string>
+</dict>
+</plist>

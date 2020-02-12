@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Activity</key>
+	<string>Eating</string>
+	<key>Creation Date</key>
+	<date>2013-12-13T21:51:06Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2013-12-14T19:51:06Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>El Pandequeso
+
+I really like the pastries here. The bocaqueso tastes like pretzel and has a jam filling. Best part is they're just $0.40!
+
+Not open on weekends sadly.</string>
+	<key>Location</key>
+	<dict>
+		<key>Latitude</key>
+		<real>10.423420546586089</real>
+		<key>Longitude</key>
+		<real>-75.549799511279488</real>
+	</dict>
+	<key>Starred</key>
+	<true/>
+	<key>Tags</key>
+	<array>
+		<string>Colombia</string>
+		<string>Cartagena</string>
+		<string>Food</string>
+		<string>Mind blown</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Bogota</string>
+	<key>UUID</key>
+	<string>E239FFD9E5D94907BA5BA949E33634B0</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>29</string>
+		<key>Description</key>
+		<string>Clear</string>
+		<key>Fahrenheit</key>
+		<string>84</string>
+		<key>IconName</key>
+		<string>clear.png</string>
+		<key>Relative Humidity</key>
+		<real>75</real>
+		<key>Service</key>
+		<string>Forecast.io</string>
+		<key>Visibility KM</key>
+		<real>9.9800000000000004</real>
+		<key>Wind Bearing</key>
+		<integer>38</integer>
+		<key>Wind Speed KPH</key>
+		<real>7.7400000000000002</real>
+	</dict>
+</dict>
+</plist>

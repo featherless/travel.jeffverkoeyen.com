@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Activity</key>
+	<string>Biking</string>
+	<key>Creation Date</key>
+	<date>2013-11-26T20:44:00Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2013-11-26T22:41:11Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>First tasty coconut!
+
+While biking to Manzanillo a man waving a machete in the air with a patch on one eye called out to us. At first I was a bit apprehensive but then I saw the massive pile of coconuts beside him and called a decisive halt! I’d never eaten a coconut before and I was definitely not going to miss a chance to have one cut up for us by a pirate.</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Limon</string>
+		<key>Country</key>
+		<string>Costa Rica</string>
+		<key>Latitude</key>
+		<real>9.6182210000000001</real>
+		<key>Locality</key>
+		<string>Talamanca</string>
+		<key>Longitude</key>
+		<real>-82.660223000000002</real>
+		<key>Region</key>
+		<dict>
+			<key>Center</key>
+			<dict>
+				<key>Latitude</key>
+				<real>9.6182210241790109</real>
+				<key>Longitude</key>
+				<real>-82.6579100315478</real>
+			</dict>
+			<key>Radius</key>
+			<real>5496.4148418467657</real>
+		</dict>
+	</dict>
+	<key>Starred</key>
+	<true/>
+	<key>Tags</key>
+	<array>
+		<string>Mind blown</string>
+		<string>Puerto Viejo</string>
+		<string>Food</string>
+		<string>Costa rica</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Costa_Rica</string>
+	<key>UUID</key>
+	<string>2A6E796025F64BE588FD26F2E2D80E2B</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>27</string>
+		<key>Description</key>
+		<string>Clear</string>
+		<key>Fahrenheit</key>
+		<string>82</string>
+		<key>IconName</key>
+		<string>clear.png</string>
+		<key>Pressure MB</key>
+		<real>1008.78</real>
+		<key>Relative Humidity</key>
+		<real>74</real>
+		<key>Service</key>
+		<string>Forecast.io</string>
+		<key>Visibility KM</key>
+		<real>9.5099999999999998</real>
+		<key>Wind Bearing</key>
+		<integer>7</integer>
+		<key>Wind Speed KPH</key>
+		<real>5.1500000000000004</real>
+	</dict>
+</dict>
+</plist>

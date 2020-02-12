@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-03-09T02:27:53Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-03-09T18:27:53Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.6</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Lazy Day
+
+Didn't do much today other than grab food at our favorite restaurant: club sandwich. Can't justify spending the money on many of the activities here, so I spent the day hacking on Nimbus 2.0.</string>
+	<key>Location</key>
+	<dict>
+		<key>Latitude</key>
+		<real>-27.151940000533937</real>
+		<key>Longitude</key>
+		<real>-109.42873744000481</real>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Easter Island</string>
+		<string>Chile</string>
+	</array>
+	<key>Time Zone</key>
+	<string>Pacific/Easter</string>
+	<key>UUID</key>
+	<string>74FC1C91BCA04F999DC05A6F4FB89F1F</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>23</string>
+		<key>Description</key>
+		<string>Partly Cloudy</string>
+		<key>Fahrenheit</key>
+		<string>73</string>
+		<key>IconName</key>
+		<string>cloudyn.png</string>
+		<key>Pressure MB</key>
+		<integer>1021</integer>
+		<key>Relative Humidity</key>
+		<integer>78</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2014-03-08T13:15:21Z</date>
+		<key>Sunset Date</key>
+		<date>2014-03-09T01:41:11Z</date>
+		<key>Wind Bearing</key>
+		<integer>30</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>23</integer>
+		<key>Wind Speed KPH</key>
+		<integer>7</integer>
+	</dict>
+</dict>
+</plist>

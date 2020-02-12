@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-06-18T01:48:12Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-06-18T01:48:12Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.1</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.14</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Flying from Kuala Lumpur, Malaysia to Seam Riep, Cambodia
+
+9:45AM | On the monorail, wrong way
+9:49AM | On the monorail again, right way.
+10:05AM | At KL Sentral.
+| 10:20AM | On the KLIA Ex.
+| 10:52AM | At KLIA 2.
+| 11:21AM | Checked in.
+| 12:55PM | At the gate.
+| 1:35PM | Boarded.
+| 1:53PM | Take off!
+| 3:28PM | Landed!
+
+19.1J
+18.4L</string>
+	<key>Location</key>
+	<dict>
+		<key>Latitude</key>
+		<real>3.1505723716720477</real>
+		<key>Longitude</key>
+		<real>101.71036555441255</real>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Kuala Lumpur</string>
+		<string>Malaysia</string>
+		<string>Cambodia</string>
+		<string>Siem Reap</string>
+	</array>
+	<key>Time Zone</key>
+	<string>Asia/Kuala_Lumpur</string>
+	<key>UUID</key>
+	<string>53A7D9507B6947208D260C62AA61FF73</string>
+</dict>
+</plist>

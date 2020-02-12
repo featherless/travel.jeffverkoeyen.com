@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Activity</key>
+	<string>Eating</string>
+	<key>Creation Date</key>
+	<date>2014-03-11T00:25:32Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-03-11T00:25:32Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.6</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Kotaro
+
+Japanese food! Only one guy working here (the owner) so it took about an hour before we got our miso soup. The food all tasted somewhat the same (incredibly salty) and we paid about $60.</string>
+	<key>Location</key>
+	<dict>
+		<key>Latitude</key>
+		<real>-27.156821116830368</real>
+		<key>Longitude</key>
+		<real>-109.4329918922013</real>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Easter Island</string>
+		<string>Chile</string>
+		<string>Restaurants</string>
+	</array>
+	<key>Time Zone</key>
+	<string>Pacific/Easter</string>
+	<key>UUID</key>
+	<string>07B7F721E213449387580E14A83A2901</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>24</string>
+		<key>Description</key>
+		<string>Mostly Cloudy</string>
+		<key>Fahrenheit</key>
+		<string>75</string>
+		<key>IconName</key>
+		<string>mcloudy.png</string>
+		<key>Pressure MB</key>
+		<integer>1022</integer>
+		<key>Relative Humidity</key>
+		<integer>69</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2014-03-10T13:16:29Z</date>
+		<key>Sunset Date</key>
+		<date>2014-03-11T01:39:00Z</date>
+		<key>Wind Bearing</key>
+		<integer>80</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>24</integer>
+		<key>Wind Speed KPH</key>
+		<integer>11</integer>
+	</dict>
+</dict>
+</plist>

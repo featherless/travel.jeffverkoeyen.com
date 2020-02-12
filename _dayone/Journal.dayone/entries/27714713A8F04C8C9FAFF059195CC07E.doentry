@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-03-14T02:11:53Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-03-14T04:20:24Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.6</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.13</string>
+	</dict>
+	<key>Entry Text</key>
+	<string></string>
+	<key>Location</key>
+	<dict>
+		<key>Country</key>
+		<string>French Polynesia</string>
+		<key>Latitude</key>
+		<real>-17.526268000000002</real>
+		<key>Longitude</key>
+		<real>-149.83504780000001</real>
+		<key>Region</key>
+		<dict>
+			<key>Center</key>
+			<dict>
+				<key>Latitude</key>
+				<real>-17.532844607180898</real>
+				<key>Longitude</key>
+				<real>-149.83866888360834</real>
+			</dict>
+			<key>Radius</key>
+			<real>11317.58883489489</real>
+		</dict>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Moorea</string>
+		<string>French Polynesia</string>
+	</array>
+	<key>Time Zone</key>
+	<string>Pacific/Tahiti</string>
+	<key>UUID</key>
+	<string>27714713A8F04C8C9FAFF059195CC07E</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>27</string>
+		<key>Description</key>
+		<string>Rain</string>
+		<key>Fahrenheit</key>
+		<string>81</string>
+		<key>IconName</key>
+		<string>rain.png</string>
+		<key>Pressure MB</key>
+		<integer>1008</integer>
+		<key>Relative Humidity</key>
+		<integer>74</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2014-03-13T16:01:04Z</date>
+		<key>Sunset Date</key>
+		<date>2014-03-14T04:14:06Z</date>
+		<key>Wind Bearing</key>
+		<integer>330</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>27</integer>
+		<key>Wind Speed KPH</key>
+		<integer>28</integer>
+	</dict>
+</dict>
+</plist>

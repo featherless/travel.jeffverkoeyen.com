@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Activity</key>
+	<string>Eating</string>
+	<key>Creation Date</key>
+	<date>2013-12-26T19:15:41Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2013-12-26T19:15:41Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Cafeteria y Restaurante Alpujarra
+
+Just ok almuerzo plates. Rubbery meat and slimy soup.</string>
+	<key>Location</key>
+	<dict>
+		<key>Latitude</key>
+		<real>3.4620866831424291</real>
+		<key>Longitude</key>
+		<real>-76.53071201413546</real>
+	</dict>
+	<key>Music</key>
+	<dict>
+		<key>Track</key>
+		<string>Hypertone Podcast #4 - Brandon Audette</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Colombia</string>
+		<string>Cali</string>
+		<string>Restaurants</string>
+		<string>Casado</string>
+		<string>Would go back if starving</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Bogota</string>
+	<key>UUID</key>
+	<string>13AFF4CB13DE4A12B76C954DECCA0F55</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>29</string>
+		<key>Description</key>
+		<string>Partly Cloudy</string>
+		<key>Fahrenheit</key>
+		<string>84</string>
+		<key>IconName</key>
+		<string>fair.png</string>
+		<key>Pressure MB</key>
+		<integer>1012</integer>
+		<key>Relative Humidity</key>
+		<integer>55</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2013-12-26T11:08:56Z</date>
+		<key>Sunset Date</key>
+		<date>2013-12-26T23:04:12Z</date>
+		<key>Wind Bearing</key>
+		<integer>20</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>29</integer>
+		<key>Wind Speed KPH</key>
+		<integer>9</integer>
+	</dict>
+</dict>
+</plist>

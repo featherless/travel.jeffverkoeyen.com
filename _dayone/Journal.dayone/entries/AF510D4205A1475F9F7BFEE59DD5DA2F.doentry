@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-01-04T13:41:24Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-01-04T13:41:24Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Ushuaia
+
+Dog sledding is a thing here.
+
+Ride the End of the World train (Tren del Fin del Mundo) to visit Parque Nacional Ushuaia.</string>
+	<key>Location</key>
+	<dict>
+		<key>Latitude</key>
+		<real>10.438445909796245</real>
+		<key>Longitude</key>
+		<real>-75.513042726630204</real>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Ushuaia</string>
+		<string>Argentina</string>
+		<string>Travel Planning</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Bogota</string>
+	<key>UUID</key>
+	<string>AF510D4205A1475F9F7BFEE59DD5DA2F</string>
+</dict>
+</plist>

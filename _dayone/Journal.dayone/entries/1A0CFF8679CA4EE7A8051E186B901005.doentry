@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-05-29T11:38:04Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-05-30T05:45:56Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.1</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.14</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Desert Table
+
+So many tasty deserts at the local outdoor food market.</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Nusa Tenggara Barat</string>
+		<key>Country</key>
+		<string>Indonesia</string>
+		<key>Latitude</key>
+		<real>-8.3559155276124653</real>
+		<key>Locality</key>
+		<string>Lombok Utara</string>
+		<key>Longitude</key>
+		<real>116.04051248086807</real>
+		<key>Place Name</key>
+		<string>Jalan Gili Trawangan</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Gili T</string>
+		<string>Indonesia</string>
+		<string>Food</string>
+	</array>
+	<key>Time Zone</key>
+	<string>Asia/Makassar</string>
+	<key>UUID</key>
+	<string>1A0CFF8679CA4EE7A8051E186B901005</string>
+</dict>
+</plist>

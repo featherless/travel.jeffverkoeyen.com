@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Activity</key>
+	<string>Automotive</string>
+	<key>Creation Date</key>
+	<date>2014-02-10T16:01:39Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-02-10T16:01:39Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Bussing from Puno, Peru to Copacabana, Bolivia
+
+| Time|Location
+|--------:|:-----------|
+| 11:01AM | In a cab.
+| 11:14AM | Dropped off.
+| 11:19AM | In a collectivo for 8 soles each.
+| 11:20AM | And we're off.
+| 1:28PM | In Yunguyo.
+| 1:51PM | In a van to the border for 3 soles (normally one per person, paid an extra sole to leave right now).
+| 1:55PM | Dropped off near the border.
+| 2:07PM | Through the Peruvian border.
+| 2:57PM | At Bolivian border.
+| 3:02PM | And through.
+| 3:05PM | In a collectivo.
+| 3:09PM | And off to Copacabana!
+| 3:23PM | In Copacabana.
+| 5:16PM | Found a hotel.
+
+| Totals | Totals
+|--------:|:---------|
+| Total bus time | 2:42</string>
+	<key>Location</key>
+	<dict>
+		<key>Latitude</key>
+		<real>-15.838454672617605</real>
+		<key>Longitude</key>
+		<real>-70.028393372432049</real>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Puno</string>
+		<string>Peru</string>
+		<string>Copacabana</string>
+		<string>Bolivia</string>
+		<string>Bussing</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Lima</string>
+	<key>UUID</key>
+	<string>083A842E633E43F8BF649FFCC8980B79</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>11</string>
+		<key>Description</key>
+		<string>Drizzle</string>
+		<key>Fahrenheit</key>
+		<string>52</string>
+		<key>IconName</key>
+		<string>rain.png</string>
+		<key>Pressure MB</key>
+		<real>1010.8200000000001</real>
+		<key>Relative Humidity</key>
+		<real>46</real>
+		<key>Service</key>
+		<string>Forecast.io</string>
+		<key>Wind Bearing</key>
+		<integer>49</integer>
+		<key>Wind Speed KPH</key>
+		<real>5.1799999999999997</real>
+	</dict>
+</dict>
+</plist>

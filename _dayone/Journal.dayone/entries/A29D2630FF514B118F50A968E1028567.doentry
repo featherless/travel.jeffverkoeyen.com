@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Activity</key>
+	<string>Walking</string>
+	<key>Creation Date</key>
+	<date>2014-02-04T13:05:04Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-02-06T03:29:40Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>We visited Machu Picchu after a three day hike through the Andes mountains filled with delicious food, local Quechua people, and a massive altitude headache.
+
+We woke up bright and early in Aguas Calientes in order to catch the earliest busses up to Machu Picchu. Due to a massive landslide that had just taken out part of the road we had to switch busses partway there.
+
+Once we arrived at Machu Picchu our guide began our tour and holy shit Machu Picchu is insane. A quick fact before diving in to the rest of this post: apparently the Incans would sacrifice anyone who was “lazy”. This explains a lot.
+
+Our tour lasted about two hours during which we learned about the architecture and agriculture of a city built into the mountains. Interesting facts included: the use of interlocking stones and angled walls to increase stability; tri-layered “steps” for growing crops without need for irrigation; well systems being used to store water throughout the city; and conch shell-like rooms that may have been used to make announcements across the city.
+
+After the tour our guide brought us to the entrance of Huayna Picchu, also known as “what, you didn’t climb enough mountains in the last 48 hours?” It was an intense non-stop uphill climb for an hour to the peak, but it was hella worth it.
+
+The climb back down was significantly easier and once we returned to Machu Picchu we had about an hour to continue exploring the city just the two of us. This was a blast - running around an abandoned centuries-old city and finding all sorts of hidden places is definitely near the top of our travel experiences so far.
+
+After about six hours we headed back to Aguas Calientes to catch our train back to Ollantaytambo and subsequently our cab back to Cusco. We said goodbye to our guide and our Lares Trek + Machu Picchu expedition came to an end.</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Cuzco</string>
+		<key>Country</key>
+		<string>Peru</string>
+		<key>Latitude</key>
+		<real>-13.164802</real>
+		<key>Longitude</key>
+		<real>-72.542281799999998</real>
+		<key>Region</key>
+		<dict>
+			<key>Center</key>
+			<dict>
+				<key>Latitude</key>
+				<real>-13.164802</real>
+				<key>Longitude</key>
+				<real>-72.542206499999992</real>
+			</dict>
+			<key>Radius</key>
+			<real>965.82107205558771</real>
+		</dict>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Peru</string>
+		<string>Preamble</string>
+		<string>Machu Picchu</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Lima</string>
+	<key>UUID</key>
+	<string>A29D2630FF514B118F50A968E1028567</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>12</string>
+		<key>Description</key>
+		<string>Sunny</string>
+		<key>Fahrenheit</key>
+		<string>54</string>
+		<key>IconName</key>
+		<string>clear.png</string>
+		<key>Pressure MB</key>
+		<integer>1031</integer>
+		<key>Relative Humidity</key>
+		<integer>63</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2014-02-04T10:42:27Z</date>
+		<key>Sunset Date</key>
+		<date>2014-02-04T23:21:14Z</date>
+		<key>Wind Bearing</key>
+		<integer>0</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>12</integer>
+		<key>Wind Speed KPH</key>
+		<integer>0</integer>
+	</dict>
+</dict>
+</plist>

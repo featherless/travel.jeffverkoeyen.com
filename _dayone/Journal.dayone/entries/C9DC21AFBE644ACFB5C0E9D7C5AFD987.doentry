@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2013-12-07T01:08:32Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>Macintosh/MacBookAir4,1</string>
+		<key>Generation Date</key>
+		<date>2013-12-07T01:08:32Z</date>
+		<key>Host Name</key>
+		<string>Jeff’s MacBook Air</string>
+		<key>OS Agent</key>
+		<string>Mac OS X/10.9</string>
+		<key>Software Agent</key>
+		<string>Day One Mac/1.9</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Planning travel to Sámara from Monteverde, Costa Rica
+
+Looking into taking a bus.
+
+Judging by [thebusschedule.com](http://thebusschedule.com), we’re going to be traveling the following route:
+
+|Station |  Time|
+|-----------:|:--------------|
+|Monteverde |  6:00
+|Irma |  7:45
+|*Layover* | *Layover*
+|Irma |  8:10
+|Nicoya |  9:30
+|*Layover* | *Layover*
+|Nicoya |  10:00
+|Sámara |  11:00
+
+We should arrive at around 11am after 5 hours on the bus. The first bus should cost about $5 and the total cost should be $10-$15. We’ll be traveling over 146km.
+
+[These plans in action](/2013/12/07/travel-samara/#496D130460314A34BC91D524841741F3)
+&gt; These plans ended up being wildly off as we took busses all around the western side of Costa Rica, up through Liberia and back down to Nicoya. It’s possible that the shortcut across the lake was shut down for some reason, but it ended up taking us about 9 hours to get to Sámara. The price was as expected, however, at roughly $13/person.</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Puntarenas</string>
+		<key>Country</key>
+		<string>Costa Rica</string>
+		<key>Latitude</key>
+		<real>10.316342506325952</real>
+		<key>Longitude</key>
+		<real>-84.825529417094032</real>
+		<key>Place Name</key>
+		<string>Highway 145</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Travel Planning</string>
+		<string>Monteverde</string>
+		<string>Costa rica</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Costa_Rica</string>
+	<key>UUID</key>
+	<string>C9DC21AFBE644ACFB5C0E9D7C5AFD987</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>22</string>
+		<key>Description</key>
+		<string>Mostly Cloudy</string>
+		<key>Fahrenheit</key>
+		<string>72</string>
+		<key>IconName</key>
+		<string>mcloudyn.png</string>
+		<key>Pressure MB</key>
+		<integer>1016</integer>
+		<key>Relative Humidity</key>
+		<integer>69</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2013-12-06T11:41:09Z</date>
+		<key>Sunset Date</key>
+		<date>2013-12-06T23:15:06Z</date>
+		<key>Wind Bearing</key>
+		<integer>90</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>22</integer>
+		<key>Wind Speed KPH</key>
+		<integer>19</integer>
+	</dict>
+</dict>
+</plist>

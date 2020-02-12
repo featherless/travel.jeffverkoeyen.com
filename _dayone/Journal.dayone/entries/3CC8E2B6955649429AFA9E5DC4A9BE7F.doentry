@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-01-17T03:43:11Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>Macintosh/MacBookAir4,1</string>
+		<key>Generation Date</key>
+		<date>2014-01-17T03:43:11Z</date>
+		<key>Host Name</key>
+		<string>Jeff’s MacBook Air</string>
+		<key>OS Agent</key>
+		<string>Mac OS X/10.9.1</string>
+		<key>Software Agent</key>
+		<string>Day One Mac/1.9</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Dubai, United Arab Emirates
+
+From the nyt article [52 Places to Go in 2014](http://www.nytimes.com/interactive/2014/01/10/travel/2014-places-to-go.html):
+
+&gt; Five years ago, one of the planet’s most ambitious cities appeared to be dying. Crushed with debt, Dubai found its megaprojects and skyscrapers scuttled or scrapped. The city went from juggernaut to joke. But now, it’s back. Economically surging, Dubai has won its bid to host [World Expo 2020](http://expo2020dubai.ae/en/world_expos) and has unveiled its Tourism Vision, also for 2020, a plan to attract 20 million tourists — double the current crowd. October witnessed the first passenger terminal at Dubai World Central Al Maktoum International Airport, and travelers will discover colossal new hotels like the 555-room [Conrad Dubai](http://conraddubai.com/) and the 77-story [JW Marriott Marquis Dubai](http://www.marriott.com/hotels/travel/dxbjw-jw-marriott-marquis-hotel-dubai/), which Guinness World Records recognizes as the tallest hotel in the world. This year, a new tram system will be inaugurated, along with some theme parks, including the first phase of Dubai Adventure Studios, the first phase of [IMG Worlds of Adventure](http://www.imgwoa.ae/), and Holy Quran Park (devoted to the Islamic holy book).</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Galapagos</string>
+		<key>Country</key>
+		<string>Ecuador</string>
+		<key>Latitude</key>
+		<real>-0.90240657571255611</real>
+		<key>Locality</key>
+		<string>San Cristobal</string>
+		<key>Longitude</key>
+		<real>-89.612284185095234</real>
+		<key>Place Name</key>
+		<string>Galapagos National Park</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Dubai</string>
+		<string>Travel Planning</string>
+		<string>United Arab Emirates</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Guatemala</string>
+	<key>UUID</key>
+	<string>3CC8E2B6955649429AFA9E5DC4A9BE7F</string>
+</dict>
+</plist>

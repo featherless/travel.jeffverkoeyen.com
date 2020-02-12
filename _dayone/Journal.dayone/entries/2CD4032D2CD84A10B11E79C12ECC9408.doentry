@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-01-23T16:53:07Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>Macintosh/MacBookAir4,1</string>
+		<key>Generation Date</key>
+		<date>2014-01-23T16:53:07Z</date>
+		<key>Host Name</key>
+		<string>Jeff’s MacBook Air</string>
+		<key>OS Agent</key>
+		<string>Mac OS X/10.9.1</string>
+		<key>Software Agent</key>
+		<string>Day One Mac/1.9.2</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>CurrencyKit
+
+I opened up [this repository](https://github.com/MoneysApp/CurrencyKit) a few days ago. From the README:
+
+&gt; An Objective-C framework for creating apps that operate in multiple currencies. It's the financial glue that holds together the Moneys app being used by @featherless (Jeff Verkoeyen) to track expenses as he travels the world.</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Lima</string>
+		<key>Country</key>
+		<string>Peru</string>
+		<key>Latitude</key>
+		<real>-12.135900610537043</real>
+		<key>Longitude</key>
+		<real>-77.01001437771211</real>
+		<key>Place Name</key>
+		<string>Av. La Merced</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Hacking While Travelling</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Guayaquil</string>
+	<key>UUID</key>
+	<string>2CD4032D2CD84A10B11E79C12ECC9408</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>26</string>
+		<key>Description</key>
+		<string>Mostly Cloudy</string>
+		<key>Fahrenheit</key>
+		<string>79</string>
+		<key>IconName</key>
+		<string>mcloudy.png</string>
+		<key>Pressure MB</key>
+		<integer>1013</integer>
+		<key>Relative Humidity</key>
+		<integer>70</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2014-01-23T10:59:46Z</date>
+		<key>Sunset Date</key>
+		<date>2014-01-23T23:41:08Z</date>
+		<key>Wind Bearing</key>
+		<integer>270</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>26</integer>
+		<key>Wind Speed KPH</key>
+		<integer>11</integer>
+	</dict>
+</dict>
+</plist>

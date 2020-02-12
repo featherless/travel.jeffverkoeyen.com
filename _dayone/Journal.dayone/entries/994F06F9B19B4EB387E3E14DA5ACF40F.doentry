@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Activity</key>
+	<string>Walking</string>
+	<key>Creation Date</key>
+	<date>2014-02-18T16:36:06Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-02-19T12:26:58Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string></string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Potosí</string>
+		<key>Country</key>
+		<string>Bolivia</string>
+		<key>Latitude</key>
+		<real>-20.316416666666665</real>
+		<key>Longitude</key>
+		<real>-66.98177166666666</real>
+		<key>Region</key>
+		<dict>
+			<key>Center</key>
+			<dict>
+				<key>Latitude</key>
+				<real>-20.374595598635608</real>
+				<key>Longitude</key>
+				<real>-66.758811992553007</real>
+			</dict>
+			<key>Radius</key>
+			<real>349057.01028408506</real>
+		</dict>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Bolivia</string>
+		<string>Uyuni Salt Flats</string>
+		<string>Tours</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/La_Paz</string>
+	<key>UUID</key>
+	<string>994F06F9B19B4EB387E3E14DA5ACF40F</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>14</string>
+		<key>Description</key>
+		<string>Mostly Cloudy</string>
+		<key>Fahrenheit</key>
+		<string>57</string>
+		<key>IconName</key>
+		<string>mcloudy.png</string>
+		<key>Pressure MB</key>
+		<integer>1035</integer>
+		<key>Relative Humidity</key>
+		<integer>63</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2014-02-18T10:16:49Z</date>
+		<key>Sunset Date</key>
+		<date>2014-02-18T22:56:35Z</date>
+		<key>Wind Bearing</key>
+		<integer>240</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>14</integer>
+		<key>Wind Speed KPH</key>
+		<integer>19</integer>
+	</dict>
+</dict>
+</plist>

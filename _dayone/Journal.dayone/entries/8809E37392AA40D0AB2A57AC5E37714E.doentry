@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2013-12-04T17:29:19Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2013-12-04T17:29:19Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>On Cultural Differences in Costa Rica
+
+As we move from town to town in Costa Rica I can't help but notice aspects of the culture in each place we visit.
+
+Puerto Viejo, mostly occupied by Americans and yogies, doesn't feel like you've gone too far from California hippy culture.
+
+La Fortuna, with its main drag, expensive tours and boisterous salespeople, feels like an expensive resort where everyone's getting their cut.
+
+Monteverde is the first (and hopefully not the last in Costa Rica) place we've been to that feels like an actual town. Many of the hikes are accessible and free, there's a bar downtown with a massive dance floor, and there's a huge variety of food choices and friendly people around.</string>
+	<key>Location</key>
+	<dict>
+		<key>Latitude</key>
+		<real>10.315315279119879</real>
+		<key>Longitude</key>
+		<real>-84.82221588857638</real>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Costa rica</string>
+		<string>Monteverde</string>
+		<string>Notes</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Costa_Rica</string>
+	<key>UUID</key>
+	<string>8809E37392AA40D0AB2A57AC5E37714E</string>
+</dict>
+</plist>

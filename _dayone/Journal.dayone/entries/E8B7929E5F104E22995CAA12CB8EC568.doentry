@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2013-12-03T04:58:00Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>Macintosh/MacBookAir4,1</string>
+		<key>Generation Date</key>
+		<date>2013-12-03T00:13:29Z</date>
+		<key>Host Name</key>
+		<string>Jeff’s MacBook Air</string>
+		<key>OS Agent</key>
+		<string>Mac OS X/10.9</string>
+		<key>Software Agent</key>
+		<string>Day One Mac/1.9</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Travelling from La Fortuna to Monteverde
+
+Looking into the taxi-boat-taxi option at $25/person. Booked through the owner at Hotel Regina for $20/person.
+
+Quoted from [arenal.net](http://www.arenal.net/tour/monteverde-boat-taxi.htm)
+&gt; 1. Pick up from La Fortuna or your Arenal area hotel at 8:30 AM or 2:30 PM in a comfortable mini-bus with air conditioning.
+&gt; 2. Arrive at the Arenal Lake Dam dock after a 15 to 30-minute ride (depending on the location of your hotel). Here, you will board our covered 22-passenger boat and cruise across Lake Arenal in 30 minutes. During your ride, you’ll enjoy great views of the Arenal Volcano and the Monteverde mountain range.
+&gt; 3. Once you reach the Río Chiquito dock, you’ll board a mini-bus (with air conditioning) for a 1.5 hour ride to Monteverde.
+&gt; 4. Upon arrival in Monteverde, drop off directly at your hotel.
+
+## Lodging
+
+Cabinas Eddy ($30/night, 98% trip advisor)
+http://www.cabinas-eddy.com/
+
+Cabinas El Pueblo ($26/night, 94% trip advisor)
+http://www.cabinaselpueblo.com/
+
+Casa Tranquilo Hostel ($18/night)
+http://www.casatranquilohostel.com/
+
+</string>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Costa rica</string>
+		<string>La Fortuna</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Costa_Rica</string>
+	<key>UUID</key>
+	<string>E8B7929E5F104E22995CAA12CB8EC568</string>
+</dict>
+</plist>

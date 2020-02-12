@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Activity</key>
+	<string>Eating</string>
+	<key>Creation Date</key>
+	<date>2014-08-04T01:17:44Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-08-04T01:17:44Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.1.2</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.14.2</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Om Cafe
+
+Grabbing breakfast before we leave.</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Mae Hong Son</string>
+		<key>Country</key>
+		<string>Thailand</string>
+		<key>Latitude</key>
+		<real>19.357275017555203</real>
+		<key>Locality</key>
+		<string>Pai</string>
+		<key>Longitude</key>
+		<real>98.440851420255783</real>
+		<key>Place Name</key>
+		<string>Soi Wanchalerm</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Pai</string>
+		<string>Thailand</string>
+		<string>Restaurants</string>
+	</array>
+	<key>Time Zone</key>
+	<string>Asia/Bangkok</string>
+	<key>UUID</key>
+	<string>04F1BE5D64A140DF909D124E7F0B9A5B</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>24</string>
+		<key>Description</key>
+		<string>Mist and Fog</string>
+		<key>Fahrenheit</key>
+		<string>75</string>
+		<key>IconName</key>
+		<string>fog.png</string>
+		<key>Pressure MB</key>
+		<integer>1005</integer>
+		<key>Relative Humidity</key>
+		<integer>100</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2014-08-03T23:05:30Z</date>
+		<key>Sunset Date</key>
+		<date>2014-08-04T12:02:51Z</date>
+		<key>Visibility KM</key>
+		<integer>5</integer>
+		<key>Wind Bearing</key>
+		<integer>0</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>24</integer>
+		<key>Wind Speed KPH</key>
+		<integer>0</integer>
+	</dict>
+</dict>
+</plist>

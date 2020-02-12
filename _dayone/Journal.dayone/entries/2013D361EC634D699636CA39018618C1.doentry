@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2013-11-28T17:37:46Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2013-11-28T17:37:46Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Pagalu Hostel
+
+- $26/night
+- Hot showers
+- Clean water for C100/500mL
+- Clean kitchen/bathrooms/rooms
+- Central location
+
+The right place to sleep can turn a desire to evacuate a location into an additional 48 hours of adventures and laughs.
+
+We were becoming increasingly exhausted by Puerto Viejo's more rickety establishments. Each day we'd wake up and beeline to Pagalu, having heard amazing things about it, and each day we were told that they were completely booked.
+
+We decided to leave Puerto Viejo one night after not finding the joy in Puerto Viejo we were looking for and so we made plans to leave the next morning. When we woke up, we decided to try one last time to see if Pagalu had availability. A call via Google Voice was made and suddenly, our fate changed! A single room was available.
+
+We hoofed ourselves and our bags to the hostel through the rain (so freaking happy we have rain gear) and were absolutely delighted by the room, the kitchen, and the bathrooms.
+
+The room, like everything else at Pagalu, was incredibly clean, with a powerful ceiling fan and bug screens completely covering the windows (no holes here!). The bed was also an incredibly comfy queen bed and there was a safe in the room.
+
+The kitchen is in the common area which was mostly open air and well-lit during the day. It had all of the basic cooking tools and a stove where every element worked and well, at that! They also empty the fridge once a week so we had room to leave our leftovers each day. They provided water at crazy cheap rate of C100/500mL (about 0.40/liter) so we didn't have to keep buying bottled water while we were there.
+
+The bathrooms were also a nice treat because they were well-lit and the showers had adjustable temperature settings. Consistently hot showers were very much appreciated!
+
+All of this, combined with Pagalu's central location, made this hostel our favorite of Puerto Viejo by far.</string>
+	<key>Location</key>
+	<dict>
+		<key>Country</key>
+		<string>Costa Rica</string>
+		<key>Foursquare ID</key>
+		<string>4d8d4bbac479a35dbb8f2b97</string>
+		<key>Latitude</key>
+		<real>9.6550063108027206</real>
+		<key>Longitude</key>
+		<real>-82.754422461652354</real>
+		<key>Place Name</key>
+		<string>Pagalú Hostel</string>
+	</dict>
+	<key>Starred</key>
+	<true/>
+	<key>Tags</key>
+	<array>
+		<string>Hostels</string>
+		<string>Costa rica</string>
+		<string>Puerto Viejo</string>
+		<string>Mind blown</string>
+		<string>Lodging</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Costa_Rica</string>
+	<key>UUID</key>
+	<string>2013D361EC634D699636CA39018618C1</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>22</string>
+		<key>Description</key>
+		<string>Rain</string>
+		<key>Fahrenheit</key>
+		<string>72</string>
+		<key>IconName</key>
+		<string>rain.png</string>
+		<key>Pressure MB</key>
+		<integer>1015</integer>
+		<key>Relative Humidity</key>
+		<integer>100</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2013-11-28T11:32:40Z</date>
+		<key>Sunset Date</key>
+		<date>2013-11-28T23:08:18Z</date>
+		<key>Visibility KM</key>
+		<integer>6</integer>
+		<key>Wind Bearing</key>
+		<integer>270</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>22</integer>
+		<key>Wind Speed KPH</key>
+		<integer>9</integer>
+	</dict>
+</dict>
+</plist>

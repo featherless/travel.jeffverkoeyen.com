@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-05-24T03:29:13Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-05-24T10:08:58Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.1</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.14</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Stones
+
+Found these littered across the beach.</string>
+	<key>Location</key>
+	<dict>
+		<key>Latitude</key>
+		<real>-8.3352071279737494</real>
+		<key>Longitude</key>
+		<real>115.65319393772226</real>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Bali</string>
+		<string>Indonesia</string>
+		<string>Amed</string>
+	</array>
+	<key>Time Zone</key>
+	<string>Asia/Makassar</string>
+	<key>UUID</key>
+	<string>B55577A6C687458C95E86958780C5C37</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>30</string>
+		<key>Description</key>
+		<string>Mostly Sunny</string>
+		<key>Fahrenheit</key>
+		<string>86</string>
+		<key>IconName</key>
+		<string>fair.png</string>
+		<key>Pressure MB</key>
+		<integer>1011</integer>
+		<key>Relative Humidity</key>
+		<integer>75</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2014-05-23T22:25:51Z</date>
+		<key>Sunset Date</key>
+		<date>2014-05-24T10:06:27Z</date>
+		<key>Wind Bearing</key>
+		<integer>110</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>30</integer>
+		<key>Wind Speed KPH</key>
+		<integer>15</integer>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Activity</key>
+	<string>Eating</string>
+	<key>Creation Date</key>
+	<date>2013-12-04T03:26:34Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2013-12-04T03:26:34Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Bar y Restaurante Amigos
+
+Incredibly slow service. We ordered two burgers (I ordered a super burger for $6) and the wait was more than twenty minutes. The burgers weren't very good either and the fries tasted like they were from a bag.
+
+This place does have a huge dance floor though so it's probably a much better bar than restaurant :)</string>
+	<key>Location</key>
+	<dict>
+		<key>Country</key>
+		<string>Costa Rica</string>
+		<key>Foursquare ID</key>
+		<string>4c6a059b8d22c92816eeb845</string>
+		<key>Latitude</key>
+		<real>10.317692678925125</real>
+		<key>Longitude</key>
+		<real>-84.824722854371075</real>
+		<key>Place Name</key>
+		<string>Bar Amigos</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Costa rica</string>
+		<string>Monteverde</string>
+		<string>Restaurants</string>
+		<string>Would not go back</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Costa_Rica</string>
+	<key>UUID</key>
+	<string>055547340C34475BB43664DC7BADE926</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>24</string>
+		<key>Description</key>
+		<string>Mostly Cloudy</string>
+		<key>Fahrenheit</key>
+		<string>75</string>
+		<key>IconName</key>
+		<string>mcloudyn.png</string>
+		<key>Pressure MB</key>
+		<integer>1013</integer>
+		<key>Relative Humidity</key>
+		<integer>89</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2013-12-03T11:46:18Z</date>
+		<key>Sunset Date</key>
+		<date>2013-12-03T23:18:38Z</date>
+		<key>Wind Bearing</key>
+		<integer>50</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>24</integer>
+		<key>Wind Speed KPH</key>
+		<integer>4</integer>
+	</dict>
+</dict>
+</plist>

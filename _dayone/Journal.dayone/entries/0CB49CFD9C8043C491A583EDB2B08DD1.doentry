@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Activity</key>
+	<string>Eating</string>
+	<key>Creation Date</key>
+	<date>2014-01-02T23:05:50Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-01-02T23:05:50Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Cafe del Mar
+
+My review on [tripadvisor](http://www.tripadvisor.com/ShowUserReviews-g297476-d1222318-r189420859-Cafe_del_Mar_Cartagena-Cartagena_Cartagena_District_Bolivar_Department.html#REVIEWS):
+&gt; We stumbled upon this cafe after watching the sun set over the ocean from Cartagena's walls and were immediately infatuated by its location overlooking the ocean. They have an open terrace with plenty of tables and lounging spots and chill beach music playing over the sound system. We ordered some drinks and grabbed a padded bench table close to the ocean side.
+&gt;
+&gt; The drinks we ordered sullied the experience. Bad enough to take this place significantly down from a perfect rating because the view isn't any different than elsewhere on the wall.
+&gt;
+&gt; We ordered a Cafe del Mar (champagne with Blue Curaçao), a Pina Colada, and a glass of wine. It took about 15 minutes to get our drinks and all of the drinks were a struggle to finish. The Cafe del Mar and Pina Colada were both unnecessarily sweet and the glass of wine did not taste good at all. At close to $10 a drink you're clearly paying for the view and not the taste.
+&gt;
+&gt; We left a bit disappointed overall but might come back some day just to have a place to sit and watch the sun set.</string>
+	<key>Location</key>
+	<dict>
+		<key>Latitude</key>
+		<real>10.424736337745957</real>
+		<key>Longitude</key>
+		<real>-75.554241417046214</real>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Colombia</string>
+		<string>Restaurants</string>
+		<string>Cartagena-NewYears</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Bogota</string>
+	<key>UUID</key>
+	<string>0CB49CFD9C8043C491A583EDB2B08DD1</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>29</string>
+		<key>Description</key>
+		<string>Partly Cloudy</string>
+		<key>Fahrenheit</key>
+		<string>85</string>
+		<key>IconName</key>
+		<string>cloudyn.png</string>
+		<key>Pressure MB</key>
+		<real>1007.12</real>
+		<key>Relative Humidity</key>
+		<real>67</real>
+		<key>Service</key>
+		<string>Forecast.io</string>
+		<key>Visibility KM</key>
+		<real>10.15</real>
+		<key>Wind Bearing</key>
+		<integer>3</integer>
+		<key>Wind Speed KPH</key>
+		<real>14.66</real>
+	</dict>
+</dict>
+</plist>

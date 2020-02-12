@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Activity</key>
+	<string>Eating</string>
+	<key>Creation Date</key>
+	<date>2014-02-26T01:21:22Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-02-26T01:28:05Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Happy
+
+Grabbing some burgers while we wait.</string>
+	<key>Location</key>
+	<dict>
+		<key>Latitude</key>
+		<real>-27.369566764805249</real>
+		<key>Longitude</key>
+		<real>-70.334986764385278</real>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Copiapo</string>
+		<string>Chile</string>
+		<string>Restaurants</string>
+		<string>Would not go back</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Santiago</string>
+	<key>UUID</key>
+	<string>CCA81B6B33594020B2919B8450D2ADCA</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>16</string>
+		<key>Description</key>
+		<string>Clear</string>
+		<key>Fahrenheit</key>
+		<string>61</string>
+		<key>IconName</key>
+		<string>clearn.png</string>
+		<key>Pressure MB</key>
+		<integer>1015</integer>
+		<key>Relative Humidity</key>
+		<integer>77</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2014-02-25T10:33:58Z</date>
+		<key>Sunset Date</key>
+		<date>2014-02-25T23:17:59Z</date>
+		<key>Wind Bearing</key>
+		<integer>230</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>16</integer>
+		<key>Wind Speed KPH</key>
+		<integer>9</integer>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-02-12T02:00:16Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-02-12T02:00:16Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Bolivia: Boliviano
+
+The primary currency in Bolivia is the boliviano (BOB).
+
+## Conversions
+
+- Divide by 7.
+- 7 BOBs is roughly $1.00 USD.</string>
+	<key>Location</key>
+	<dict>
+		<key>Latitude</key>
+		<real>-16.495000847835524</real>
+		<key>Longitude</key>
+		<real>-68.135574328725582</real>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Currency</string>
+		<string>Bolivia</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/La_Paz</string>
+	<key>UUID</key>
+	<string>54E3B899F2AF4F2BA24E0517E4E617BC</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>6</string>
+		<key>Description</key>
+		<string>Drizzle</string>
+		<key>Fahrenheit</key>
+		<string>43</string>
+		<key>IconName</key>
+		<string>rain.png</string>
+		<key>Pressure MB</key>
+		<real>1011.62</real>
+		<key>Relative Humidity</key>
+		<real>96</real>
+		<key>Service</key>
+		<string>Forecast.io</string>
+		<key>Wind Bearing</key>
+		<integer>88</integer>
+		<key>Wind Speed KPH</key>
+		<real>4.5999999999999996</real>
+	</dict>
+</dict>
+</plist>

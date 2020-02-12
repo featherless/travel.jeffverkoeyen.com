@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-01-24T17:37:04Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-01-24T17:37:04Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Good Hope Hospital
+
+We dropped in here to get a checkup due to some ear issues post-diving in the Galapagos. Found out there was some congestion in one of the ears and we got a short prescription of decongestants. It was fast, cheap, and informative, something we’re definitely not used to in Canada!
+
+The doctor we had was also super friendly. He asked us about our trip and gave us tips on routes to Cusco, basically acting as our travel planner for the next few weeks in Peru! He even gave us his card specifically so that we could contact him if we have any questions about Peru and places to see.</string>
+	<key>Location</key>
+	<dict>
+		<key>Country</key>
+		<string>Peru</string>
+		<key>Foursquare ID</key>
+		<string>4bd9c7d60115c9b6fea87880</string>
+		<key>Latitude</key>
+		<real>-12.125222260394832</real>
+		<key>Locality</key>
+		<string>Miraflores</string>
+		<key>Longitude</key>
+		<real>-77.034298181533813</real>
+		<key>Place Name</key>
+		<string>Clínica Good Hope</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Lima</string>
+		<string>Mind blown</string>
+		<string>Hospital</string>
+		<string>Peru</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Lima</string>
+	<key>UUID</key>
+	<string>220C984304804C969FBA9EBAEA2C69DC</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>26</string>
+		<key>Description</key>
+		<string>Sunny</string>
+		<key>Fahrenheit</key>
+		<string>79</string>
+		<key>IconName</key>
+		<string>clear.png</string>
+		<key>Pressure MB</key>
+		<integer>1013</integer>
+		<key>Relative Humidity</key>
+		<integer>70</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2014-01-24T11:00:14Z</date>
+		<key>Sunset Date</key>
+		<date>2014-01-24T23:41:08Z</date>
+		<key>Visibility KM</key>
+		<real>11.265408000000001</real>
+		<key>Wind Bearing</key>
+		<integer>180</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>26</integer>
+		<key>Wind Speed KPH</key>
+		<integer>15</integer>
+	</dict>
+</dict>
+</plist>

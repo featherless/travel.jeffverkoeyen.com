@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-02-17T23:11:55Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-02-17T23:11:55Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Travel Planning: Uyuni, Bolivia
+
+## Do
+
+### Salt Flat Tour
+
+- 750 for tour + 150 for park entrance + 15 for passport stamp + 10 for shower on the first night. Expediciones Empexsa and Brisa Tours.
+- 800 for oasis tours.
+
+Avoid:
+- Cristal tours 4
+- Empexsa tours 6
+- Atacama Mistica 3
+- Cordillera 6
+- Estrella del Sur 7
+- Red Planet 4
+- Tito 1
+- Thiago 1
+- Andrea 2
+- Tupiza 2
+- Lipez 3
+- Olivio 1
+- Dali 1
+- Odyssey 1
+- Andes Salt 1
+- quechua 3
+- todo turismo 1
+- lago minchin 2
+- ripley 1
+- blue line 3
+- senda andina 2
+- tours y bol 1</string>
+	<key>Location</key>
+	<dict>
+		<key>Latitude</key>
+		<real>-20.465170303088438</real>
+		<key>Longitude</key>
+		<real>-66.825185100571943</real>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Time Zone</key>
+	<string>America/La_Paz</string>
+	<key>UUID</key>
+	<string>B1941B6EC02F421AB3BB7A5518B2BC0D</string>
+</dict>
+</plist>

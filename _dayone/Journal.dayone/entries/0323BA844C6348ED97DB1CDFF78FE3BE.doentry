@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Activity</key>
+	<string>Automotive</string>
+	<key>Creation Date</key>
+	<date>2014-02-25T23:40:45Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-02-25T23:40:45Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Bussing from Caldera to Copiapó
+
+| Time|Location
+|--------:|:-----------|
+| 8:41PM | Left hotel on foot.
+| 8:44PM | At the bus terminal.
+| 8:47PM | On a bus for 2000CLP.
+| 9:47PM | Arrived.
+
+| Totals | Totals
+|--------:|:---------|
+| Total bus time | 1:00</string>
+	<key>Location</key>
+	<dict>
+		<key>Latitude</key>
+		<real>-27.069134842629609</real>
+		<key>Longitude</key>
+		<real>-70.82161143428722</real>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Caldera</string>
+		<string>Chile</string>
+		<string>Bussing</string>
+		<string>Copiapo</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Santiago</string>
+	<key>UUID</key>
+	<string>0323BA844C6348ED97DB1CDFF78FE3BE</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>17</string>
+		<key>Description</key>
+		<string>Clear</string>
+		<key>Fahrenheit</key>
+		<string>63</string>
+		<key>IconName</key>
+		<string>clearn.png</string>
+		<key>Pressure MB</key>
+		<integer>1014</integer>
+		<key>Relative Humidity</key>
+		<integer>73</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2014-02-25T10:33:58Z</date>
+		<key>Sunset Date</key>
+		<date>2014-02-25T23:17:59Z</date>
+		<key>Visibility KM</key>
+		<real>11.265408000000001</real>
+		<key>Wind Bearing</key>
+		<integer>210</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>17</integer>
+		<key>Wind Speed KPH</key>
+		<integer>17</integer>
+	</dict>
+</dict>
+</plist>

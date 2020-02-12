@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-02-25T22:31:56Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-02-26T03:18:14Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Caldera was the first stop on our southward journey to Santiago and it was a short one.
+
+After arriving at about 5:30am we grabbed a cab to the center of this sleeping town. The cabby was incredibly friendly and helped us find places to stay. We ended up in a private room just down the street from the town square (and the giant church).
+
+After taking a quick nap we went exploring and found...not much. We walked down to the water to find food and instead found a small film? museum. We ended up heading back to the corner store near our hotel to grab burgers.
+
+At this point we decided we didn't want to stay here more than a day (and we didn't really need to go to the beach nearby), so we went to the bus depot to see what busses we could take out for that night.
+
+After walking back and forth between the two bus companies about five times, a local lady finally gave us the first useful bit of information: there were collectivos that went south to Copiapo where we could catch an onward bus to La Serena!
+
+We ended up booking our bus from Copiapo to La Serena and caught one of the last collectivos out of Caldera in order to make the connection.</string>
+	<key>Location</key>
+	<dict>
+		<key>Latitude</key>
+		<real>-27.369253118547952</real>
+		<key>Longitude</key>
+		<real>-70.334591344064407</real>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Caldera</string>
+		<string>Chile</string>
+		<string>Preamble</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Santiago</string>
+	<key>UUID</key>
+	<string>52222FDE326447FAB53A20400278C5A2</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>18</string>
+		<key>Description</key>
+		<string>Sunny</string>
+		<key>Fahrenheit</key>
+		<string>64</string>
+		<key>IconName</key>
+		<string>clear.png</string>
+		<key>Pressure MB</key>
+		<integer>1014</integer>
+		<key>Relative Humidity</key>
+		<integer>68</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2014-02-25T10:33:58Z</date>
+		<key>Sunset Date</key>
+		<date>2014-02-25T23:17:59Z</date>
+		<key>Visibility KM</key>
+		<real>11.265408000000001</real>
+		<key>Wind Bearing</key>
+		<integer>220</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>18</integer>
+		<key>Wind Speed KPH</key>
+		<integer>24</integer>
+	</dict>
+</dict>
+</plist>

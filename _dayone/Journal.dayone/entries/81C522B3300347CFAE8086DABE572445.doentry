@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-02-20T15:01:43Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-02-20T15:01:43Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Found a hostel for the night</string>
+	<key>Location</key>
+	<dict>
+		<key>Latitude</key>
+		<real>-22.918909195152196</real>
+		<key>Longitude</key>
+		<real>-68.260888697548921</real>
+	</dict>
+	<key>Music</key>
+	<dict>
+		<key>Album</key>
+		<string></string>
+		<key>Artist</key>
+		<string>Elite Force</string>
+		<key>Track</key>
+		<string>Simon Shackleton (aka Elite Force) Live @ Nutz, Burning Man 2012</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Time Zone</key>
+	<string>America/Santiago</string>
+	<key>UUID</key>
+	<string>81C522B3300347CFAE8086DABE572445</string>
+</dict>
+</plist>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-02-21T23:30:38Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>Macintosh/MacBookAir4,1</string>
+		<key>Generation Date</key>
+		<date>2014-02-21T23:30:38Z</date>
+		<key>Host Name</key>
+		<string>Jeff’s MacBook Air</string>
+		<key>OS Agent</key>
+		<string>Mac OS X/10.9.1</string>
+		<key>Software Agent</key>
+		<string>Day One Mac/1.9.2</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Travel Planning: Caldera, Chile
+
+From [laurensluggage](http://laurensluggage.wordpress.com/2011/09/12/bahia-inglesa-and-la-serena/):
+
+&gt; Bahia Inglesa is a tiny town that apparently gets quite busy in summer when Chilean vacationers take up residency, however it seemed like we were the only people there at this particular time. There was a beautiful little beach and when the sun came out in the afternoons it was quite warm.
+
+## Getting Out
+
+### La Sarena
+
+- Bus times are 10:40AM-4:20PM, 7:05PM-12:55AM, 11:15PM-3:45AM. Prices are 9,500/12,700 for semi/salon cama respectively.
+</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Antofagasta</string>
+		<key>Country</key>
+		<string>Chile</string>
+		<key>Latitude</key>
+		<real>-22.910814986258156</real>
+		<key>Locality</key>
+		<string>San Pedro de Atacama</string>
+		<key>Longitude</key>
+		<real>-68.201354732510538</real>
+		<key>Place Name</key>
+		<string>Calle Antofagasta</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Caldera</string>
+		<string>Chile</string>
+		<string>Travel Planning</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Santiago</string>
+	<key>UUID</key>
+	<string>10F759D5632046939A0040DA810AB8FA</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>21</string>
+		<key>Description</key>
+		<string>Sunny</string>
+		<key>Fahrenheit</key>
+		<string>70</string>
+		<key>IconName</key>
+		<string>clear.png</string>
+		<key>Pressure MB</key>
+		<integer>1024</integer>
+		<key>Relative Humidity</key>
+		<integer>17</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2014-02-21T10:28:16Z</date>
+		<key>Sunset Date</key>
+		<date>2014-02-21T23:09:56Z</date>
+		<key>Visibility KM</key>
+		<real>11.265408000000001</real>
+		<key>Wind Bearing</key>
+		<integer>260</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>21</integer>
+		<key>Wind Speed KPH</key>
+		<integer>39</integer>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Activity</key>
+	<string>Flying</string>
+	<key>Creation Date</key>
+	<date>2014-06-21T06:49:35Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-06-21T06:49:35Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.1</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.14</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Flying from Siem Reap, Cambodia to Ho Chi Minh, Vietnam
+
+| 1:49PM | On a bike to the airport.
+| 1:50PM | Getting gas.
+| 1:50PM | On our way!
+| 2:12PM | At the airport.
+| 2:23PM | Checked in! Visas were all good :)
+| 4:07PM | Slippery take off!
+| 5:18PM | Touch down!
+| 5:56PM | Through customs!
+| 6:08PM | On the 152 bus.
+| 7:14PM | At khoi Hostel.
+
+17.6j
+18.5l</string>
+	<key>Location</key>
+	<dict>
+		<key>Latitude</key>
+		<real>13.352116313775397</real>
+		<key>Longitude</key>
+		<real>103.85882955985502</real>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Siem Reap</string>
+		<string>Cambodia</string>
+		<string>Ho Chi Minh</string>
+		<string>Vietnam</string>
+		<string>Flights</string>
+	</array>
+	<key>Time Zone</key>
+	<string>Asia/Phnom_Penh</string>
+	<key>UUID</key>
+	<string>31470FB3167344189CFC135F3F903187</string>
+</dict>
+</plist>

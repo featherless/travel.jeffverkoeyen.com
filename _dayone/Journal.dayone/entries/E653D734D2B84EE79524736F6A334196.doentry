@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-01-17T03:29:18Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>Macintosh/MacBookAir4,1</string>
+		<key>Generation Date</key>
+		<date>2014-01-17T03:29:18Z</date>
+		<key>Host Name</key>
+		<string>Jeff’s MacBook Air</string>
+		<key>OS Agent</key>
+		<string>Mac OS X/10.9.1</string>
+		<key>Software Agent</key>
+		<string>Day One Mac/1.9</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Addis Ababa, Ethiopia
+
+From the nyt article [52 Places to Go in 2014](http://www.nytimes.com/interactive/2014/01/10/travel/2014-places-to-go.html):
+
+&gt; Building on a strong historical legacy (Addis boasts one of East Africa’s oldest art schools) are a host of events scheduled for 2014: a [photography festival](http://www.addisfotofest.com/), two film festivals and a [jazz and world music festival](http://acaciafestival.com/). Thanks to the city’s diverse art institutions and galleries, including the artist-in-residence village [Zoma Contemporary Art Center](http://zcac.net/w3/about/zcac-addis/) and the Asni Gallery (really more an art collective than a gallery), there is an art opening at least once a week. Even the local Sheraton puts on [“Art of Ethiopia,”](http://www.sheratonaddis.com/en/Art_of_Ethiopia)an annual show of new talent. But it’s the National Museum that, in May and June, will host this year’s blockbuster exhibit, “Ras Tafari: The Majesty and the Movement,” devoted to Emperor Haile Selassie I and Rastafarianism.</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Galapagos</string>
+		<key>Country</key>
+		<string>Ecuador</string>
+		<key>Latitude</key>
+		<real>-0.90230501144621755</real>
+		<key>Locality</key>
+		<string>San Cristobal</string>
+		<key>Longitude</key>
+		<real>-89.611527302958308</real>
+		<key>Place Name</key>
+		<string>Galapagos National Park</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Ethiopia</string>
+		<string>Travel Planning</string>
+		<string>Addis Ababa</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Guatemala</string>
+	<key>UUID</key>
+	<string>E653D734D2B84EE79524736F6A334196</string>
+</dict>
+</plist>

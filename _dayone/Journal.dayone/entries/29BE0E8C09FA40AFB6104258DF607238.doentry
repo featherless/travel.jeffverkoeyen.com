@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2013-12-31T21:54:02Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-01-02T15:54:02Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>We came back to Cartagena for new years! It took many days of debating between Cali, Medellin, and Cartagena, but Cartagena eventually won out with its ocean-front allure and highly-respected party atmosphere. We’re glad we made this decision.
+
+Cartagena has been gaining a lot of momentum with international travellers lately. Some say a visit from Barack Obama last year spurred a lot of interest, but I think the real draw is the party scene. There are plenty of mega upscale hotels and apartments for rent for epic weekend-long brawls. New Years Eve was no exception.
+
+The streets were packed with tourists and locals alike on New Years Eve day and you could practically take a bite out of the anticipation for the festivities to come.
+
+We started our night by meeting up with a group of friends at an Indian restaurant for what turned out to be a surprisingly good dinner. After that we walked through the old city of Cartagena and marvelled at the various street parties that were going on. Some intersections were completely blocked off with cloth-covered tables and stages set up for live salsa music.
+
+Close to midnight we still hadn’t found a good place to view the fireworks. The wall was mostly blocked off due to block parties and we weren’t really convinced that the clock tower plaza would be super fun. Some of our friends offered to see if we could get onto the roof of their hotel, so we walked up to the front door only to be told that there was a private party and we wouldn’t be allowed access.
+
+We persisted, however, and asked if we could go up just to see the fireworks. The staff relented, but told us we had to wait outside while they went to ask.
+
+11:56.
+
+11:57.
+
+11:58.
+
+Holy shit let’s go to the plaza we’re not going to make it.
+
+11:59.
+
+The staff appeared, we were good to go! We leaped up the stairs as we heard explosions already going off all around us and emerged onto a rooftop smack in the centre of the city’s fireworks shows. In every direction we saw massive displays of fireworks blossoming in multitudes of colours. We popped our bottle of champagne and toasted to an amazing start of 2014, salsa’d to the private party’s music we were crashing, and hugged and cheered all around us (even some random Colombian families who were confused but elated to see us).
+
+We then spent the rest of the night exploring Cartagena’s night life, dancing and drinking and dancing the night away, ending in watching a beautiful sunrise over the Cartagena docks with Jambox playing tunes to start the year.
+
+Happy New Year!</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Bolívar</string>
+		<key>Country</key>
+		<string>Colombia</string>
+		<key>Latitude</key>
+		<real>10.423288700000001</real>
+		<key>Locality</key>
+		<string>Cartagena</string>
+		<key>Longitude</key>
+		<real>-75.549347400000002</real>
+		<key>Place Name</key>
+		<string>Badillo</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Colombia</string>
+		<string>Preamble</string>
+		<string>Cartagena-NewYears</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Bogota</string>
+	<key>UUID</key>
+	<string>29BE0E8C09FA40AFB6104258DF607238</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>30</string>
+		<key>Description</key>
+		<string>Mostly Sunny</string>
+		<key>Fahrenheit</key>
+		<string>86</string>
+		<key>IconName</key>
+		<string>fair.png</string>
+		<key>Pressure MB</key>
+		<integer>1007</integer>
+		<key>Relative Humidity</key>
+		<integer>70</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2013-12-31T11:19:43Z</date>
+		<key>Sunset Date</key>
+		<date>2013-12-31T22:51:26Z</date>
+		<key>Wind Bearing</key>
+		<integer>30</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>30</integer>
+		<key>Wind Speed KPH</key>
+		<integer>13</integer>
+	</dict>
+</dict>
+</plist>

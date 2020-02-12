@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2013-12-04T19:52:36Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2013-12-04T20:16:03Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Leaf-Cutter Ants
+
+These ants are all over La Fortuna and Monteverde. At the Monteverde butterfly garden our guide showed us his colony! He had built a glass covered case to be able to house the fungus and leaves that the ants collected.
+
+The picture attached to this post shows one of the ants carrying a leaf back to the colony. There is also a bigger ant on the right-hand side. These are the soldier ants and they protect the gatherers by patrolling the path to the leaves.</string>
+	<key>Location</key>
+	<dict>
+		<key>Country</key>
+		<string>Costa Rica</string>
+		<key>Foursquare ID</key>
+		<string>4c508c0dd2a7c9b6f471bd0f</string>
+		<key>Latitude</key>
+		<real>10.312717459512829</real>
+		<key>Longitude</key>
+		<real>-84.812095475344094</real>
+		<key>Place Name</key>
+		<string>Mariposario Butterfly Garden</string>
+	</dict>
+	<key>Starred</key>
+	<true/>
+	<key>Tags</key>
+	<array>
+		<string>Costa rica</string>
+		<string>Monteverde</string>
+		<string>Mind blown</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Costa_Rica</string>
+	<key>UUID</key>
+	<string>52E24614FA8C42B4968A063C16310DF7</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>26</string>
+		<key>Description</key>
+		<string>Partly Cloudy</string>
+		<key>Fahrenheit</key>
+		<string>79</string>
+		<key>IconName</key>
+		<string>fair.png</string>
+		<key>Pressure MB</key>
+		<integer>1015</integer>
+		<key>Relative Humidity</key>
+		<integer>51</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2013-12-04T11:40:07Z</date>
+		<key>Sunset Date</key>
+		<date>2013-12-04T23:14:26Z</date>
+		<key>Wind Bearing</key>
+		<integer>70</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>26</integer>
+		<key>Wind Speed KPH</key>
+		<integer>26</integer>
+	</dict>
+</dict>
+</plist>

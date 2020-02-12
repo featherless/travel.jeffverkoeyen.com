@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-04-02T05:58:13Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-04-04T07:16:14Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.1</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.13</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Recycling!
+
+Made these shovels out of our empty water bins so that we could dig for the hot water at hot water beach.</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Auckland</string>
+		<key>Country</key>
+		<string>New Zealand</string>
+		<key>Latitude</key>
+		<real>-36.851611537893163</real>
+		<key>Locality</key>
+		<string>Auckland</string>
+		<key>Longitude</key>
+		<real>174.76510391586902</real>
+		<key>Place Name</key>
+		<string>44 Lorne Street</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Southland</string>
+		<string>New Zealand</string>
+	</array>
+	<key>Time Zone</key>
+	<string>Pacific/Auckland</string>
+	<key>UUID</key>
+	<string>AAC69AD9060F4E199F51BA1969C5F3C2</string>
+</dict>
+</plist>

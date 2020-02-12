@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Activity</key>
+	<string>Flying</string>
+	<key>Creation Date</key>
+	<date>2014-05-03T23:11:33Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-05-03T23:11:33Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.1</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.14</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Flying from Brisbane to Cairns
+
+| Time|Location
+|--------:|:-----------|
+| 9:14AM | On our way to the train station.
+| 9:23AM | Got a lift from a lovely local to the train station.
+| 9:29AM | Bought our train tickets, $21.70AUD each.
+| 9:47AM | On the train.
+| 10:25AM | Arrive at the airport.
+| 10:35AM | Checked in no problems.
+| 11:50AM | Boarding.
+| 12:15PM | Take off!
+| 2:33PM | Touch down.
+| 3:31PM | In a shuttle.
+| 3:54PM | At dreamtime.
+
+ Totals | Totals
+|--------:|:---------|
+| Total air time | 0:00
+| Total flight legs | 1
+
+15.8kg j
+19.7kg l</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>QLD</string>
+		<key>Country</key>
+		<string>Australia</string>
+		<key>Latitude</key>
+		<real>-27.3856039</real>
+		<key>Locality</key>
+		<string>Brisbane</string>
+		<key>Longitude</key>
+		<real>153.1196673</real>
+		<key>Place Name</key>
+		<string>Alpinia Drive</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Brisbane</string>
+		<string>Australia</string>
+		<string>Cairns</string>
+		<string>Flights</string>
+	</array>
+	<key>Time Zone</key>
+	<string>Australia/Brisbane</string>
+	<key>UUID</key>
+	<string>77970B8D0ADB40EB8DE7362AD6666837</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>15</string>
+		<key>Description</key>
+		<string>Mostly Sunny</string>
+		<key>Fahrenheit</key>
+		<string>59</string>
+		<key>IconName</key>
+		<string>fair.png</string>
+		<key>Pressure MB</key>
+		<integer>1012</integer>
+		<key>Relative Humidity</key>
+		<integer>42</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2014-05-03T20:14:16Z</date>
+		<key>Sunset Date</key>
+		<date>2014-05-04T07:14:17Z</date>
+		<key>Wind Bearing</key>
+		<integer>250</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>15</integer>
+		<key>Wind Speed KPH</key>
+		<integer>41</integer>
+	</dict>
+</dict>
+</plist>

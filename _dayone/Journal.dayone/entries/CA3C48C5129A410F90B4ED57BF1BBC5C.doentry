@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Activity</key>
+	<string>Eating</string>
+	<key>Creation Date</key>
+	<date>2014-01-01T23:55:10Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-01-01T23:55:10Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Tabetai
+
+First dinner of the new year!</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Cartagena</string>
+		<key>Country</key>
+		<string>Colombia</string>
+		<key>Foursquare ID</key>
+		<string>528e8b4c11d29b527b387caa</string>
+		<key>Latitude</key>
+		<real>10.400833129882812</real>
+		<key>Locality</key>
+		<string>Bocagrande</string>
+		<key>Longitude</key>
+		<real>-75.558555603027344</real>
+		<key>Place Name</key>
+		<string>Tabetai Sushi Bar Bocagrande</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Colombia</string>
+		<string>Cartagena-NewYears</string>
+		<string>Restaurants</string>
+		<string>Sushi</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Bogota</string>
+	<key>UUID</key>
+	<string>CA3C48C5129A410F90B4ED57BF1BBC5C</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>27</string>
+		<key>Description</key>
+		<string>Mostly Clear</string>
+		<key>Fahrenheit</key>
+		<string>81</string>
+		<key>IconName</key>
+		<string>cloudyn.png</string>
+		<key>Pressure MB</key>
+		<integer>1008</integer>
+		<key>Relative Humidity</key>
+		<integer>79</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2014-01-01T11:20:07Z</date>
+		<key>Sunset Date</key>
+		<date>2014-01-01T22:51:59Z</date>
+		<key>Wind Bearing</key>
+		<integer>10</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>27</integer>
+		<key>Wind Speed KPH</key>
+		<integer>17</integer>
+	</dict>
+</dict>
+</plist>

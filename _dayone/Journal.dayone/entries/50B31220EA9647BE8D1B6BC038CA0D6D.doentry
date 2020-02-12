@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Activity</key>
+	<string>Flying</string>
+	<key>Creation Date</key>
+	<date>2014-04-12T22:31:21Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-04-12T22:31:21Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.1</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.14</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Flying from Auckland to Christchurch
+
+| Time|Location
+|--------:|:-----------|
+| 10:31AM | At the airport.
+| 10:36AM | At check in.
+| 10:39AM | Checked in.
+| 10:42AM | Through security.
+| 10:45AM | At the gate.
+| 11:59AM | Boarding.
+| 12:04PM | Boarded.
+| 12:30PM | Take off!
+| 1:35PM | Touch down.
+
+ Totals | Totals
+|--------:|:---------|
+| Total air time | 1:05
+| Total flight legs | 1
+
+18.8kg</string>
+	<key>Location</key>
+	<dict>
+		<key>Latitude</key>
+		<real>-37.005737386678348</real>
+		<key>Longitude</key>
+		<real>174.79225323551779</real>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Christchurch</string>
+		<string>New Zealand</string>
+		<string>Flights</string>
+		<string>Auckland-Hackweek</string>
+	</array>
+	<key>Time Zone</key>
+	<string>Pacific/Auckland</string>
+	<key>UUID</key>
+	<string>50B31220EA9647BE8D1B6BC038CA0D6D</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>18</string>
+		<key>Description</key>
+		<string>Mostly Sunny</string>
+		<key>Fahrenheit</key>
+		<string>64</string>
+		<key>IconName</key>
+		<string>fair.png</string>
+		<key>Pressure MB</key>
+		<integer>1021</integer>
+		<key>Relative Humidity</key>
+		<integer>83</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2014-04-12T18:44:24Z</date>
+		<key>Sunset Date</key>
+		<date>2014-04-13T05:58:32Z</date>
+		<key>Wind Bearing</key>
+		<integer>190</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>18</integer>
+		<key>Wind Speed KPH</key>
+		<integer>7</integer>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2013-11-25T18:20:59Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2013-12-03T05:20:59Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>With Laurence in tow and a full week of Bocas under our belts we decided to move on to Costa Rica, first stop: Puerto Viejo!
+
+Puerto Viejo has a surprisingly heavy American influence and an uncountable number of yoga resorts. It was interesting to see that most of the signs were either in English or English/Spanish (in that order). It made it feel like we were in an American resort town, culturally-speaking.
+
+One thing that was really fun to see was the jungle and wildlife therein. We saw monkeys, [spiders with so many brains they spread into their legs](http://www.nytimes.com/2011/12/27/science/tiniest-of-spiders-are-loaded-with-brains-researchers-find.html?_r=3&amp;), and got a tour of a local’s garden, complete with coconuts, peppers, and bananas.</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Alajuela</string>
+		<key>Country</key>
+		<string>Costa Rica</string>
+		<key>Latitude</key>
+		<real>10.470784755292332</real>
+		<key>Locality</key>
+		<string>Fortuna</string>
+		<key>Longitude</key>
+		<real>-84.648392142243878</real>
+		<key>Place Name</key>
+		<string>Highway 142</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Costa rica</string>
+		<string>Puerto Viejo</string>
+		<string>Preamble</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Costa_Rica</string>
+	<key>UUID</key>
+	<string>695EE3EB24F1452A91A45533A263839F</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>26</string>
+		<key>Description</key>
+		<string>Partly Cloudy</string>
+		<key>Fahrenheit</key>
+		<string>79</string>
+		<key>IconName</key>
+		<string>fair.png</string>
+		<key>Pressure MB</key>
+		<integer>1015</integer>
+		<key>Relative Humidity</key>
+		<integer>65</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2013-11-25T11:35:41Z</date>
+		<key>Sunset Date</key>
+		<date>2013-11-25T23:12:12Z</date>
+		<key>Wind Bearing</key>
+		<integer>260</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>26</integer>
+		<key>Wind Speed KPH</key>
+		<integer>15</integer>
+	</dict>
+</dict>
+</plist>

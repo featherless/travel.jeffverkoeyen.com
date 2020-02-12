@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-01-14T20:41:10Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-01-15T17:10:48Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Ermagerd Baby Turtle
+
+It's crazy to think that, assuming this guy lives to its maximum lifespan, there will be an entirely new set of humans around by the time it passes away.</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Galapagos</string>
+		<key>Country</key>
+		<string>Ecuador</string>
+		<key>Latitude</key>
+		<real>-0.63092499999999996</real>
+		<key>Locality</key>
+		<string>Isabela</string>
+		<key>Longitude</key>
+		<real>-90.363511299999999</real>
+		<key>Region</key>
+		<dict>
+			<key>Center</key>
+			<dict>
+				<key>Latitude</key>
+				<real>-0.3937642754528099</real>
+				<key>Longitude</key>
+				<real>-90.450402226739101</real>
+			</dict>
+			<key>Radius</key>
+			<real>175441.79656607116</real>
+		</dict>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Galapagos Islands</string>
+		<string>Isla Isabella</string>
+		<string>Ecuador</string>
+	</array>
+	<key>Time Zone</key>
+	<string>Pacific/Galapagos</string>
+	<key>UUID</key>
+	<string>DEC4AB90BA974AA0812DB3ADB6AC9856</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>28</string>
+		<key>Description</key>
+		<string>Partly Cloudy</string>
+		<key>Fahrenheit</key>
+		<string>84</string>
+		<key>IconName</key>
+		<string>pcloudy.png</string>
+		<key>Pressure MB</key>
+		<real>1010.1799999999999</real>
+		<key>Relative Humidity</key>
+		<real>66</real>
+		<key>Service</key>
+		<string>Forecast.io</string>
+		<key>Visibility KM</key>
+		<real>12.34</real>
+		<key>Wind Bearing</key>
+		<integer>138</integer>
+		<key>Wind Speed KPH</key>
+		<real>16.579999999999998</real>
+	</dict>
+</dict>
+</plist>

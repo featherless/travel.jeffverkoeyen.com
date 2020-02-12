@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-01-05T16:50:55Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-01-06T02:08:28Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>So Quito was interesting. We arrived here on Saturday night and immediately felt the effects of the altitude when we climbed the three flights of stairs to our hostel and nearly fainted. We grabbed some late night dinner (for $4 each!) and then passed out. This was all after about an hour-long taxi ride from the airport - the airport is really far away!
+
+The next morning we joined a group of people from the hostel to explore the city. We went to the Ministerio de Cultura and saw lots of cool pottery and golden art from the Incan days of South America.
+
+After the museum we went to grab lunch at a local almuerzo restaurant. The food was absolutely terrible, but it cost $2.50 for soup, meat, rice, beans, and a drink. And then my bag got stolen.
+
+Jambox, rain coat (a nice collapsible, lightweight one), 3L camelbak, two 10,000 mAh batteries, and my personal journal, all literally vanished from beneath my feet. We spent the next three hours scouring the neighbourhood to see if maybe, just maybe, the guy decided to ditch some things in a garbage bin nearby. No luck.
+
+So a police report and an insurance submission later to world nomads, I now embark on the wonderful process of insurance claims. Will keep posted on how that goes!
+
+Other than that we were starting to think Quito was really nice, so maybe we’ll give the city another chance some day.</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Pichincha</string>
+		<key>Country</key>
+		<string>Ecuador</string>
+		<key>Latitude</key>
+		<real>-0.19190560000000001</real>
+		<key>Locality</key>
+		<string>Quito</string>
+		<key>Longitude</key>
+		<real>-78.492981499999999</real>
+		<key>Place Name</key>
+		<string>N30A</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Quito</string>
+		<string>Ecuador</string>
+		<string>Preamble</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Guayaquil</string>
+	<key>UUID</key>
+	<string>DC31E876A47F4DDDBFF8635D9FC0ADB9</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>17</string>
+		<key>Description</key>
+		<string>Mostly Cloudy</string>
+		<key>Fahrenheit</key>
+		<string>63</string>
+		<key>IconName</key>
+		<string>mcloudy.png</string>
+		<key>Pressure MB</key>
+		<integer>1028</integer>
+		<key>Relative Humidity</key>
+		<integer>73</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2014-01-05T11:15:03Z</date>
+		<key>Sunset Date</key>
+		<date>2014-01-05T23:25:29Z</date>
+		<key>Wind Bearing</key>
+		<integer>190</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>17</integer>
+		<key>Wind Speed KPH</key>
+		<integer>22</integer>
+	</dict>
+</dict>
+</plist>

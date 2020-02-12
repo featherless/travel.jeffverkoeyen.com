@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-03-29T01:50:54Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-03-29T01:50:55Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.1</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.13</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Gesture system
+
+- detach/attachment methods to the delegate
+- look into using uidynamics to power things</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Auckland</string>
+		<key>Country</key>
+		<string>New Zealand</string>
+		<key>Latitude</key>
+		<real>-36.848351076892143</real>
+		<key>Locality</key>
+		<string>Freemans Bay</string>
+		<key>Longitude</key>
+		<real>174.75110894464353</real>
+		<key>Place Name</key>
+		<string>2 College Hill</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Nimbus</string>
+	</array>
+	<key>Time Zone</key>
+	<string>Pacific/Auckland</string>
+	<key>UUID</key>
+	<string>72ED6AB1AD8748A48BE1F6288F4E0A12</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>21</string>
+		<key>Description</key>
+		<string>Mostly Sunny</string>
+		<key>Fahrenheit</key>
+		<string>70</string>
+		<key>IconName</key>
+		<string>fair.png</string>
+		<key>Pressure MB</key>
+		<integer>1028</integer>
+		<key>Relative Humidity</key>
+		<integer>60</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2014-03-28T18:31:18Z</date>
+		<key>Sunset Date</key>
+		<date>2014-03-29T06:20:11Z</date>
+		<key>Wind Bearing</key>
+		<integer>220</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>21</integer>
+		<key>Wind Speed KPH</key>
+		<integer>17</integer>
+	</dict>
+</dict>
+</plist>

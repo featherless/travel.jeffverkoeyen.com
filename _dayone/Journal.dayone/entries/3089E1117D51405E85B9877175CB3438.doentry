@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Activity</key>
+	<string>Flying</string>
+	<key>Creation Date</key>
+	<date>2014-06-01T05:33:08Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-06-01T05:33:08Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.1</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.14</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Flying from Bali to San Francisco
+
+| Time|Location
+|--------:|:-----------|
+| 1:33PM | Checking in at DPS.
+| 3:31PM | At the gate.
+| 4:00PM | Boarded.
+| 4:15PM | Take off!
+| 6:31PM | Landed in SIN.
+| 6:42PM | In skytrain transfer.
+| 6:51PM | This airport might go on forever.
+| 10:07PM | Boarded the MNL flight.
+| 10:33PM | Take off!
+| 1:45AM | Landed in MNL.
+| 2:35AM | Aaaand they lost my bag.
+| 3:36AM | Finally checked in.
+| 6:42AM | Take off!
+| 11:23AM | Landed in Beijing.
+| 3:32PM | Boarded SFO flight.
+| 3:45PM | Take off! (GMT+8)
+| 11:39AM | Landed! (GMT-8)
+| 12:42PM | Finally through customs.
+| 2:00PM | And arrived in SF!
+
+17kg</string>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Bali</string>
+		<string>Indonesia</string>
+		<string>WWDC 2014</string>
+		<string>Flights</string>
+	</array>
+	<key>Time Zone</key>
+	<string>Asia/Makassar</string>
+	<key>UUID</key>
+	<string>3089E1117D51405E85B9877175CB3438</string>
+</dict>
+</plist>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-03-19T20:24:55Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-03-19T20:24:55Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.1</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.13</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Rangiroa was easily our favorite of all the islands we visited in French Polynesia. The people were the friendliest, the food and lodging was the cheapest, and the water was the closest.
+
+We had originally planned to go diving here, but due to an unfortunate run-in with food poisoning/allergies we had to play it easy - which didn't end up being so bad.
+
+We spent the day in Rangiroa swimming with sharks and sting rays only meters from our bedroom, kayaking out and realizing how strong the currents are, and generally marveling at how beautiful the setting was. We also went on a free tour of one of the local pearl farms (pretty interesting overall).</string>
+	<key>Location</key>
+	<dict>
+		<key>Latitude</key>
+		<real>-14.944951334050804</real>
+		<key>Longitude</key>
+		<real>-147.70209792083847</real>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>French Polynesia</string>
+		<string>Rangiroa</string>
+		<string>Preamble</string>
+	</array>
+	<key>Time Zone</key>
+	<string>Pacific/Tahiti</string>
+	<key>UUID</key>
+	<string>9AE5086E9CD7434C8FC5980AC697F0EF</string>
+</dict>
+</plist>

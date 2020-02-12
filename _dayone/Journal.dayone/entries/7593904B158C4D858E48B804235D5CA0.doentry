@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-01-26T00:31:15Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-01-26T00:31:15Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Ayacucho is a cute town built in a valley of the Peruvian mountains. It was our stopover for one night as we acclimatized to the elevation on our way to Cusco.
+
+We didn’t get to explore too much of the city, sadly, because we spent most of the afternoon here napping, though what we did see left us with a good impression. Particularly the night life in Ayacucho was active, with plenty of bars and clubs, and crowds of young Peruvians walking everywhere.</string>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Peru</string>
+		<string>Ayacucho</string>
+		<string>Preamble</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Lima</string>
+	<key>UUID</key>
+	<string>7593904B158C4D858E48B804235D5CA0</string>
+</dict>
+</plist>

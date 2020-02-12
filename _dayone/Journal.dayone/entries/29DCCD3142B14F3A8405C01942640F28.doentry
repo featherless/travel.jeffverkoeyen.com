@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-01-22T19:34:03Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>Macintosh/MacBookAir4,1</string>
+		<key>Generation Date</key>
+		<date>2014-01-22T19:34:03Z</date>
+		<key>Host Name</key>
+		<string>Jeff’s MacBook Air</string>
+		<key>OS Agent</key>
+		<string>Mac OS X/10.9.1</string>
+		<key>Software Agent</key>
+		<string>Day One Mac/1.9.1</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Auckland, New Zealand
+
+From wikivoyage:
+
+&gt;  The City of Sails with east and west coast harbours, by far the biggest city with 1.5 million people and all a big city offers
+
+## Getting There
+
+From wikivoyage:
+
+&gt; Airbus Express is an efficient bus service that runs from the domestic and international terminals to central Auckland. The service runs 24/7 at 10min intervals during the day (07:00-19:00) and 30min during the night. The bus alternates between two routes to the CBD, one via Mt Eden Rd, the other via Dominion Rd. Both run down Queen St, the heart of the CBD and terminate at the ferry terminal, near Britomart Transport Centre. The entire trip takes 40–50min. Fares are $16 one way or $28 return for adults, and $6 one way or $12 return for children. Tickets can be purchased on-board from the driver, on-line, from the Airport i-Site kiosk or from selected hostels. A $1 discount card is available from the Airbus website under "Frequent Traveller" which can be printed and redeemed when purchasing a ticket on board.
+
+Near the airport:
+
+&gt; If you have time to kill, there is miniature golf about 1km (15min walk) from the terminal. It is complete with a hole on a pirate ship, which beats hanging around in the terminal for hours.
+
+## Travel to Wellington
+
+- [Intercity busses](http://www.intercity.co.nz/search-results/?Date=2014-01-28) cost about $31/person or $70 total if booking two at once.
+
+Recommended by sushi shop guy in La Serena who lived there.</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Lima</string>
+		<key>Country</key>
+		<string>Peru</string>
+		<key>Latitude</key>
+		<real>-12.136095135783821</real>
+		<key>Longitude</key>
+		<real>-77.010027025279172</real>
+		<key>Place Name</key>
+		<string>Av. La Merced</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Travel Planning</string>
+		<string>Auckland</string>
+		<string>New Zealand</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Guayaquil</string>
+	<key>UUID</key>
+	<string>29DCCD3142B14F3A8405C01942640F28</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>27</string>
+		<key>Description</key>
+		<string>Partly Cloudy</string>
+		<key>Fahrenheit</key>
+		<string>81</string>
+		<key>IconName</key>
+		<string>fair.png</string>
+		<key>Pressure MB</key>
+		<integer>1011</integer>
+		<key>Relative Humidity</key>
+		<integer>70</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2014-01-22T10:59:17Z</date>
+		<key>Sunset Date</key>
+		<date>2014-01-22T23:41:08Z</date>
+		<key>Wind Bearing</key>
+		<integer>200</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>27</integer>
+		<key>Wind Speed KPH</key>
+		<integer>9</integer>
+	</dict>
+</dict>
+</plist>

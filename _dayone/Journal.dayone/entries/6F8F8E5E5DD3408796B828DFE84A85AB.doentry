@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Activity</key>
+	<string>Eating</string>
+	<key>Creation Date</key>
+	<date>2013-12-18T18:45:37Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2013-12-18T21:37:37Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Juan Valdez Coffee
+
+Had a Vanicanella latte for $5000 COP at the airport's Juan Valdez and it was delicious. Juan Valdez is similar to Starbucks in that it's a large national chain of coffee stores. They’ve got pastries and branded swag and plenty of tables to sit and sip at while you work or socialize.</string>
+	<key>Location</key>
+	<dict>
+		<key>Latitude</key>
+		<real>6.027828228600451</real>
+		<key>Longitude</key>
+		<real>-75.393764186505322</real>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Would recommend</string>
+		<string>Colombia</string>
+		<string>Cartagena</string>
+		<string>Coffee</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Bogota</string>
+	<key>UUID</key>
+	<string>6F8F8E5E5DD3408796B828DFE84A85AB</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>20</string>
+		<key>Description</key>
+		<string>Overcast</string>
+		<key>Fahrenheit</key>
+		<string>68</string>
+		<key>IconName</key>
+		<string>cloudy.png</string>
+		<key>Relative Humidity</key>
+		<real>76</real>
+		<key>Service</key>
+		<string>Forecast.io</string>
+		<key>Visibility KM</key>
+		<real>9.4800000000000004</real>
+		<key>Wind Bearing</key>
+		<integer>169</integer>
+		<key>Wind Speed KPH</key>
+		<real>6.2300000000000004</real>
+	</dict>
+</dict>
+</plist>

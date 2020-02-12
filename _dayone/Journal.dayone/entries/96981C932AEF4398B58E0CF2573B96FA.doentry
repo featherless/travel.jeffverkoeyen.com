@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Activity</key>
+	<string>Flying</string>
+	<key>Creation Date</key>
+	<date>2014-07-29T05:49:30Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-07-29T05:49:30Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.1</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.14.2</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Flying from Bangkok to Chiang Mai
+
+| 12:45PM | In a cab.
+| 1:46PM | In a cab to the airport.
+| 2:46PM | At the airport.
+| 3:04PM | Bought tickets to Chiang Mai.
+| 3:19PM | Checked in.
+| 5:23PM | Boarded.
+| 5:38PM | Take off!
+| 6:37PM | Landed.
+
+13.5kg J
+15.1kg L</string>
+	<key>Location</key>
+	<dict>
+		<key>Latitude</key>
+		<real>13.728697625849357</real>
+		<key>Longitude</key>
+		<real>100.53472614558679</real>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Bangkok</string>
+		<string>Thailand</string>
+		<string>Flights</string>
+		<string>Chiang Mai</string>
+	</array>
+	<key>Time Zone</key>
+	<string>Asia/Bangkok</string>
+	<key>UUID</key>
+	<string>96981C932AEF4398B58E0CF2573B96FA</string>
+</dict>
+</plist>

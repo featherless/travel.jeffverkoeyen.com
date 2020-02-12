@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Activity</key>
+	<string>Eating</string>
+	<key>Creation Date</key>
+	<date>2014-01-18T02:38:38Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-01-18T02:38:38Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Parrillada San José
+
+Holy shit the plates here are huge! For $15 you get a massive slice of beef, lamb, chicken, and two chorizos plus rice, beans, and a salad. The meat sadly didn't taste as good as I'd hoped but it was definitely filling.</string>
+	<key>Location</key>
+	<dict>
+		<key>Country</key>
+		<string>Ecuador</string>
+		<key>Foursquare ID</key>
+		<string>4ee95b2482315c0967fd5bf9</string>
+		<key>Latitude</key>
+		<real>-0.89936878964162559</real>
+		<key>Locality</key>
+		<string>Puerto Baquerizo Moreno</string>
+		<key>Longitude</key>
+		<real>-89.612033554860758</real>
+		<key>Place Name</key>
+		<string>Parrilla San José</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Ecuador</string>
+		<string>Galapagos Islands</string>
+		<string>Isla San Cristobal</string>
+		<string>Restaurants</string>
+		<string>Would go back if starving</string>
+	</array>
+	<key>Time Zone</key>
+	<string>Pacific/Galapagos</string>
+	<key>UUID</key>
+	<string>BA5BE1AB282E44ECB5176CB8D351EF96</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>24</string>
+		<key>Description</key>
+		<string>Drizzle</string>
+		<key>Fahrenheit</key>
+		<string>76</string>
+		<key>IconName</key>
+		<string>rain.png</string>
+		<key>Pressure MB</key>
+		<real>1010.89</real>
+		<key>Relative Humidity</key>
+		<real>85</real>
+		<key>Service</key>
+		<string>Forecast.io</string>
+		<key>Visibility KM</key>
+		<real>15.9</real>
+		<key>Wind Bearing</key>
+		<integer>168</integer>
+		<key>Wind Speed KPH</key>
+		<real>12.23</real>
+	</dict>
+</dict>
+</plist>

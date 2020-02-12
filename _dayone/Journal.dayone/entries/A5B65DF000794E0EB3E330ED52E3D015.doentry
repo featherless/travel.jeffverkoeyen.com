@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-02-12T23:53:59Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-02-13T03:31:41Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>La Paz was our first major city in Bolivia and the highest city we’ve been to thus far at over 4000m. By the time we reached La Paz we’d mostly gotten used to the high altitudes, but we would still get unreasonably out of breath from climbing stairs or going up hills (and there’s a shit ton of them in La Paz).
+
+## Arrival
+
+When we arrived in the city by bus from Copacabana we were dropped off in the middle of what looked like a random intersection, definitely not the bus terminal as we were told.
+
+&gt; Aside: there are two classes of bus that leave Copacabana - a good one and a bad one. They’re the same price. The good one has wifi, the bad one drops you off in the middle of La Paz with no bearings.
+
+We made quick travel friends with the other backpackers in the bus and flagged down a collectivo. We knew we wanted to get to a plaza where a few hostels we’d read about were located. A quick look at Google Maps revealed that it was about a mile away - easy!
+
+Turns out traffic in La Paz is like an episode of Doctor Who where people have been sitting in their cars for fifteen years. It took us an hour to go one mile and by the time the collective let us of four blocks from where we wanted to go (“too much traffic!”) night was already falling.
+
+The adventure of finding a hostel proved even more challenging because the hostels in La Paz are spread out over many, many blocks. It ended up taking us about *two and a half hours* from getting off the bus to checking in to a hostel, all while carrying our backpacks up and down the steep La Paz hills.
+
+## La Paz
+
+The hostel we stayed at was nice, but at night people started smoking cigarettes in the common area and by the time morning came we were hella exhausted from not sleeping well. We decided to move to a new place, beginning another three hour adventure of finding a new hostel (this time sans bags thankfully!). But before that: food!
+
+We ate at Cafe del Mundo and this was one of the highlights of our stay in La Paz. The food there was absolutely delicious. They serve breakfast all day and have fast internet (a rarity in Bolivia we found).
+
+After breakfast we eventually settled on another hotel and proceeded to move our bags over. This is no easy task in La Paz because the traffic is *so bad* that it’s usually faster to walk places than to try to hail + ride in a cab.
+
+## Going to the Movies
+
+While we were eating at Cafe del Mundo we noticed a bunch of notes of advice all over the walls. One of them mentioned that on Wednesdays the cinema was two-for-one and weren’t we lucky: it was Wednesday! After we checked in to our hotel we headed off to see the Secret Life of Walter Mitty. At first we thought the movie was going to be terrible, but after the establishing bits the movie took off and we left in quite a good mood.
+
+On the way back from the movies we stopped by the absolutely massive open-air market seen in the panoramic for La Paz. There were a bunch of groups practicing for the upcoming festival in the streets - holy hell are they lively.
+
+## Mailing Things Home
+
+The next day we decided to book our bus tickets onwards. But before we could leave we had to mail two important things: a box of gifts and my insurance claim form for the things that were stolen from me in [Quito](http://blog.jeffverkoeyen.com/2014/01/04/travel-quito). Mailing the claims form was straightforward, but in order to mail boxes to the US you apparently need to have a Bolivian phone number at which they can call you within 24 hours! This is stupid inconvenient for travellers.
+
+So we got a Tigo SIM and went back to the post office, phone number in hand, and they finally let us ship the package. All-in-all the mail process took nearly three hours.
+
+By the time we were done with that we had to book it to the bus station, next stop: Sucre!</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>La Paz</string>
+		<key>Country</key>
+		<string>Bolivia</string>
+		<key>Latitude</key>
+		<real>-16.502634199999999</real>
+		<key>Locality</key>
+		<string>La Paz</string>
+		<key>Longitude</key>
+		<real>-68.130019000000004</real>
+		<key>Place Name</key>
+		<string>Federico Zuazo</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Bolivia</string>
+		<string>Preamble</string>
+		<string>La Paz</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/La_Paz</string>
+	<key>UUID</key>
+	<string>A5B65DF000794E0EB3E330ED52E3D015</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>10</string>
+		<key>Description</key>
+		<string>Mostly Cloudy</string>
+		<key>Fahrenheit</key>
+		<string>50</string>
+		<key>IconName</key>
+		<string>mcloudyn.png</string>
+		<key>Pressure MB</key>
+		<integer>1033</integer>
+		<key>Relative Humidity</key>
+		<integer>71</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2014-02-12T10:27:04Z</date>
+		<key>Sunset Date</key>
+		<date>2014-02-12T23:06:39Z</date>
+		<key>Wind Bearing</key>
+		<integer>300</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>10</integer>
+		<key>Wind Speed KPH</key>
+		<integer>11</integer>
+	</dict>
+</dict>
+</plist>

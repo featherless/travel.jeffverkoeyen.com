@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-01-28T05:23:23Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-01-28T05:23:23Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Pisko &amp; Soul
+
+We stayed here for two nights. The first night was spent in a private room. It was incredibly comfortable and included a very necessary heater, but was really expensive. The second night we spent in the dorm, which was a dorm.
+
+Breakfast was great with breads, eggs, yogurt, cereal, juice, and teas. The staff were incredibly friendly and helpful the entire time and the people we met there were friendly and chill.</string>
+	<key>Location</key>
+	<dict>
+		<key>Country</key>
+		<string>Peru</string>
+		<key>Foursquare ID</key>
+		<string>4ed831fb46907c1b400021df</string>
+		<key>Latitude</key>
+		<real>-13.513468284039517</real>
+		<key>Locality</key>
+		<string>Cusco</string>
+		<key>Longitude</key>
+		<real>-71.976136023710566</real>
+		<key>Place Name</key>
+		<string>Hostal Pisko And Soul</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Cusco</string>
+		<string>Peru</string>
+		<string>Hostels</string>
+		<string>Lodging</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Lima</string>
+	<key>UUID</key>
+	<string>5D7B8EAAA1EC4AC985872F1F700BDEE4</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>8</string>
+		<key>Description</key>
+		<string>Rain</string>
+		<key>Fahrenheit</key>
+		<string>46</string>
+		<key>IconName</key>
+		<string>rainn.png</string>
+		<key>Pressure MB</key>
+		<integer>1031</integer>
+		<key>Relative Humidity</key>
+		<integer>87</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2014-01-28T10:39:24Z</date>
+		<key>Sunset Date</key>
+		<date>2014-01-28T23:22:31Z</date>
+		<key>Wind Bearing</key>
+		<integer>90</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>6</integer>
+		<key>Wind Speed KPH</key>
+		<integer>9</integer>
+	</dict>
+</dict>
+</plist>

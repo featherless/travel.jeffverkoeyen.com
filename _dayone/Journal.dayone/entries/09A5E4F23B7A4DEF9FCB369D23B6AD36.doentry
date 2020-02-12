@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-01-11T19:35:09Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-01-11T19:35:09Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Taxi Boat from Isla Santa Cruz to Isla Isabella
+
+| Time|Location
+|--------:|:-----------|
+| 1:25PM | At the ticket booth waiting for instructions.
+| 1:36PM | At agriculture inspections.
+| 1:54PM | Still waiting for our boat.
+| 2:01PM | On a taxi boat.
+| 2:16PM | On board with captain Gaby.
+| 4:42PM | Transferred to a taxi boat.
+| 4:57PM | Paid $5 entrance tax to the island.
+| 5:05PM | In a taxi for $1/person. Adolfo. 099 415 0865.</string>
+	<key>Location</key>
+	<dict>
+		<key>Latitude</key>
+		<real>-0.7474688719965028</real>
+		<key>Longitude</key>
+		<real>-90.313020330006552</real>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Ecuador</string>
+		<string>Galapagos Islands</string>
+		<string>Isla Santa Cruz</string>
+		<string>Isla Isabella</string>
+		<string>Boating</string>
+	</array>
+	<key>Time Zone</key>
+	<string>Pacific/Galapagos</string>
+	<key>UUID</key>
+	<string>09A5E4F23B7A4DEF9FCB369D23B6AD36</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>28</string>
+		<key>Description</key>
+		<string>Partly Cloudy</string>
+		<key>Fahrenheit</key>
+		<string>84</string>
+		<key>IconName</key>
+		<string>pcloudy.png</string>
+		<key>Pressure MB</key>
+		<real>1010.11</real>
+		<key>Relative Humidity</key>
+		<real>61</real>
+		<key>Service</key>
+		<string>Forecast.io</string>
+		<key>Visibility KM</key>
+		<real>12.6</real>
+		<key>Wind Bearing</key>
+		<integer>130</integer>
+		<key>Wind Speed KPH</key>
+		<real>18.73</real>
+	</dict>
+</dict>
+</plist>

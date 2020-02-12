@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Activity</key>
+	<string>Eating</string>
+	<key>Creation Date</key>
+	<date>2013-12-14T16:57:45Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2013-12-14T16:57:46Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Restaurante 1595
+
+Stumbled on this literal hole in the wall restaurant while searching for lunch. Prices are really good here ($5/plate + soup and $1/lemonade). It's got an ancient colonial vibe going on, fitting with the feel of Cartagena so far.
+
+The food was really good! The lemonade was huge, the soup tasty, and the plate included a meat, potato wedges, rice, and a cucumber salad!</string>
+	<key>Location</key>
+	<dict>
+		<key>Country</key>
+		<string>Colombia</string>
+		<key>Foursquare ID</key>
+		<string>4fce292cc2ee04dbc39a7230</string>
+		<key>Latitude</key>
+		<real>10.425373085814609</real>
+		<key>Locality</key>
+		<string>Cartagena</string>
+		<key>Longitude</key>
+		<real>-75.547882318496704</real>
+		<key>Place Name</key>
+		<string>Restaurante 1595</string>
+	</dict>
+	<key>Starred</key>
+	<true/>
+	<key>Tags</key>
+	<array>
+		<string>Colombia</string>
+		<string>Cartagena</string>
+		<string>Restaurants</string>
+		<string>Mind blown</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Bogota</string>
+	<key>UUID</key>
+	<string>A91129D5A6284948A47589B85B21A213</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>29</string>
+		<key>Description</key>
+		<string>Mostly Cloudy</string>
+		<key>Fahrenheit</key>
+		<string>84</string>
+		<key>IconName</key>
+		<string>mcloudy.png</string>
+		<key>Pressure MB</key>
+		<integer>1009</integer>
+		<key>Relative Humidity</key>
+		<integer>74</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2013-12-14T11:11:38Z</date>
+		<key>Sunset Date</key>
+		<date>2013-12-14T22:42:51Z</date>
+		<key>Visibility KM</key>
+		<integer>8</integer>
+		<key>Wind Bearing</key>
+		<integer>280</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>29</integer>
+		<key>Wind Speed KPH</key>
+		<integer>9</integer>
+	</dict>
+</dict>
+</plist>

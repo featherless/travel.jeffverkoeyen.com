@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2013-12-23T13:23:03Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>Macintosh/MacBookAir4,1</string>
+		<key>Generation Date</key>
+		<date>2013-12-23T13:23:03Z</date>
+		<key>Host Name</key>
+		<string>Jeff’s MacBook Air</string>
+		<key>OS Agent</key>
+		<string>Mac OS X/10.9</string>
+		<key>Software Agent</key>
+		<string>Day One Mac/1.9</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>La Feria de Cali Schedule
+
+
+## Every Day
+
+### 3PM: Feria Rural y Comunera
+
+### 8PM: Piso 41 - Disco Club de Temporada presenta: Cali Salsa Show
+
+- 40,000COP ($20) for the first 100 tickets.
+- 55,000COP ($27.50) for the day of the event.
+- Piso 41, Torre de Cali Plaza Hotel(Floor 41 of the Cali Tower).
+- [tickets](http://vive.tuboleta.com/shows/show.aspx?sh=TORREC13#.Urg492RDtMk)
+- http://www.feriadecali.com/portal/cali/nota/3650/
+
+
+## December 25
+
+### 2PM: Salsodromo
+
+- 80,000 COP ($40).
+- Sold out.
+- South Highway.
+
+### 7PM: Concierto Inaugural Feria de Cali 2013
+Lugar: Canchas Panamericanas - Baloncesto.
+Hora: 7:00 p.m
+Artistas: Cali Salsa Big Band, Guayacán, Matecaña, Richie Valdés y otros.
+Mira los detalles AQUÍ
+
+### 9PM: Cabaret Salsa Show - Vive la Feria de Cali
+
+- 55,000COP ($27.50)
+
+
+## December 26
+
+### 12PM: Cabalgata
+
+- 30,000COP ($15)
+
+### 5PM: Encuentro de Melómanos y Coleccionistas 
+
+### Mayito Rivera vs Mayito Valdes
+
+- 30,000COP ($15)
+- La Clave Night Club (Cra 39 #18-69 Sameco)
+
+### Roberto Blades en Favela Club Menga 
+
+- 40,000COP ($20)
+- VIP: $1,000,000 ($500)
+
+### 7PM: Delirio
+
+- 160,000COP ($80)
+- Carpa Delirio, Parque del Amor
+
+### 7:30PM: Ensalsate - Salsa y bailes del mundo
+
+- 122,000COP ($61)
+- Dann Carlton
+
+
+## December 27
+
+### 7PM: Superconcierto
+
+- Estadio Olimpico Pascual Guerrero</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Antioquia</string>
+		<key>Country</key>
+		<string>Colombia</string>
+		<key>Latitude</key>
+		<real>6.2065936184941259</real>
+		<key>Locality</key>
+		<string>Medellin</string>
+		<key>Longitude</key>
+		<real>-75.566091184586156</real>
+		<key>Place Name</key>
+		<string>Street 7</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Cali</string>
+		<string>Colombia</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Bogota</string>
+	<key>UUID</key>
+	<string>9C3624FC75F04A62AF15768BBCCE2D4D</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>18</string>
+		<key>Description</key>
+		<string>Showers Nearby</string>
+		<key>Fahrenheit</key>
+		<string>64</string>
+		<key>IconName</key>
+		<string>pcloudy.png</string>
+		<key>Pressure MB</key>
+		<integer>1020</integer>
+		<key>Relative Humidity</key>
+		<integer>88</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2013-12-23T11:09:01Z</date>
+		<key>Sunset Date</key>
+		<date>2013-12-23T22:54:53Z</date>
+		<key>Visibility KM</key>
+		<integer>8</integer>
+		<key>Wind Bearing</key>
+		<integer>0</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>18</integer>
+		<key>Wind Speed KPH</key>
+		<integer>0</integer>
+	</dict>
+</dict>
+</plist>

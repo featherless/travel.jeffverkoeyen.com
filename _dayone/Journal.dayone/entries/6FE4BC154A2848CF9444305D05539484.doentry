@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Activity</key>
+	<string>Eating</string>
+	<key>Creation Date</key>
+	<date>2014-01-14T00:57:29Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-01-15T00:57:29Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Los Delfines
+
+Pretty decent almuerzo. Really good home-made hot sauce.</string>
+	<key>Location</key>
+	<dict>
+		<key>Latitude</key>
+		<real>-0.95714549068450661</real>
+		<key>Longitude</key>
+		<real>-90.966415666128469</real>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Galapagos Islands</string>
+		<string>Isla Isabella</string>
+		<string>Ecuador</string>
+		<string>Casado</string>
+		<string>Restaurants</string>
+	</array>
+	<key>Time Zone</key>
+	<string>Pacific/Galapagos</string>
+	<key>UUID</key>
+	<string>6FE4BC154A2848CF9444305D05539484</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>26</string>
+		<key>Description</key>
+		<string>Partly Cloudy</string>
+		<key>Fahrenheit</key>
+		<string>79</string>
+		<key>IconName</key>
+		<string>cloudyn.png</string>
+		<key>Pressure MB</key>
+		<real>1009.64</real>
+		<key>Relative Humidity</key>
+		<real>76</real>
+		<key>Service</key>
+		<string>Forecast.io</string>
+		<key>Visibility KM</key>
+		<real>12.779999999999999</real>
+		<key>Wind Bearing</key>
+		<integer>175</integer>
+		<key>Wind Speed KPH</key>
+		<real>10.59</real>
+	</dict>
+</dict>
+</plist>

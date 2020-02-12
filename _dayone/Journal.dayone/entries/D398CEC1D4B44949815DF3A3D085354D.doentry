@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-03-30T04:09:36Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-03-30T04:09:36Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.1</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.13</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Obo
+
+Epic ball hill</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Bay of Plenty</string>
+		<key>Country</key>
+		<string>New Zealand</string>
+		<key>Latitude</key>
+		<real>-38.107605110889402</real>
+		<key>Locality</key>
+		<string>Fairy Springs</string>
+		<key>Longitude</key>
+		<real>176.22193576784451</real>
+		<key>Place Name</key>
+		<string>171-193 Fairy Springs Road</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Time Zone</key>
+	<string>Pacific/Auckland</string>
+	<key>UUID</key>
+	<string>D398CEC1D4B44949815DF3A3D085354D</string>
+</dict>
+</plist>

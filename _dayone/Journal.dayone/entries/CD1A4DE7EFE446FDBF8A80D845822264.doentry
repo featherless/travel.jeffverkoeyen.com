@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Activity</key>
+	<string>Automotive</string>
+	<key>Creation Date</key>
+	<date>2014-02-24T21:42:16Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-02-24T21:42:16Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Bussing from San Pedro de Atacama to Caldera
+
+| Time|Location
+|--------:|:-----------|
+| 6:15PM | Left Hostal Florida by foot.
+| 6:34PM | Arrived at the bus terminal.
+| 7:00PM | Boarded.
+| 7:06PM | And we're off!
+| 8:49PM | Stopping in Calama.
+| 9:01PM | Moving again.
+| 5:28AM | Arrived in Caldera.
+| 5:30AM | In a cab.
+| 5:42AM | Found a hotel near the main square.
+
+| Totals | Totals
+|--------:|:---------|
+| Total bus time | 10:22</string>
+	<key>Location</key>
+	<dict>
+		<key>Latitude</key>
+		<real>-22.91345158128339</real>
+		<key>Longitude</key>
+		<real>-68.194429194618195</real>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>San Pedro de Atacama</string>
+		<string>Chile</string>
+		<string>Caldera</string>
+		<string>Bussing</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Santiago</string>
+	<key>UUID</key>
+	<string>CD1A4DE7EFE446FDBF8A80D845822264</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>23</string>
+		<key>Description</key>
+		<string>Sunny</string>
+		<key>Fahrenheit</key>
+		<string>73</string>
+		<key>IconName</key>
+		<string>clear.png</string>
+		<key>Pressure MB</key>
+		<integer>1023</integer>
+		<key>Relative Humidity</key>
+		<integer>13</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2014-02-24T10:29:44Z</date>
+		<key>Sunset Date</key>
+		<date>2014-02-24T23:07:36Z</date>
+		<key>Visibility KM</key>
+		<real>11.265408000000001</real>
+		<key>Wind Bearing</key>
+		<integer>260</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>23</integer>
+		<key>Wind Speed KPH</key>
+		<integer>35</integer>
+	</dict>
+</dict>
+</plist>

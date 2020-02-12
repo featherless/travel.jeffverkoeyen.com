@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Activity</key>
+	<string>Eating</string>
+	<key>Creation Date</key>
+	<date>2014-06-29T03:08:45Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-06-29T03:08:45Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.1</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.14.1</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Breakfast at HQ Cafe
+</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Tỉnh Khánh Hòa</string>
+		<key>Country</key>
+		<string>Vietnam</string>
+		<key>Latitude</key>
+		<real>12.236244156734607</real>
+		<key>Locality</key>
+		<string>Nha Trang</string>
+		<key>Longitude</key>
+		<real>109.19421159761569</real>
+		<key>Place Name</key>
+		<string>Đường Nguyễn Thiện Thuật</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Vietnam</string>
+		<string>Nha Trang</string>
+		<string>Food</string>
+	</array>
+	<key>Time Zone</key>
+	<string>Asia/Ho_Chi_Minh</string>
+	<key>UUID</key>
+	<string>CD13E425EF9940DD830A2D451A26D0F2</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>32</string>
+		<key>Description</key>
+		<string>Mostly Sunny</string>
+		<key>Fahrenheit</key>
+		<string>90</string>
+		<key>IconName</key>
+		<string>fair.png</string>
+		<key>Relative Humidity</key>
+		<integer>59</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2014-06-28T22:21:52Z</date>
+		<key>Sunset Date</key>
+		<date>2014-06-29T11:11:17Z</date>
+		<key>Visibility KM</key>
+		<real>11.265408000000001</real>
+		<key>Wind Bearing</key>
+		<integer>330</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>32</integer>
+		<key>Wind Speed KPH</key>
+		<integer>7</integer>
+	</dict>
+</dict>
+</plist>

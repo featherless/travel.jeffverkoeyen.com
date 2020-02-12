@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-05-06T22:14:20Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-05-06T22:14:20Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.1</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.14</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Diving the Barrier Reef
+
+On the boat!</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>QLD</string>
+		<key>Country</key>
+		<string>Australia</string>
+		<key>Latitude</key>
+		<real>-16.917191231639048</real>
+		<key>Longitude</key>
+		<real>145.78415779410469</real>
+		<key>Place Name</key>
+		<string>Coral Sea</string>
+		<key>Region</key>
+		<dict>
+			<key>Center</key>
+			<dict>
+				<key>Latitude</key>
+				<real>-17.446465500000002</real>
+				<key>Longitude</key>
+				<real>145.7438295</real>
+			</dict>
+			<key>Radius</key>
+			<real>211754.92407852699</real>
+		</dict>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Cairns</string>
+		<string>Australia</string>
+		<string>SCUBA</string>
+	</array>
+	<key>Time Zone</key>
+	<string>Australia/Brisbane</string>
+	<key>UUID</key>
+	<string>9BF93AE28CED499BA0A9FEC9C3475AD1</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>20</string>
+		<key>Description</key>
+		<string>Mostly Sunny</string>
+		<key>Fahrenheit</key>
+		<string>68</string>
+		<key>IconName</key>
+		<string>fair.png</string>
+		<key>Pressure MB</key>
+		<integer>1017</integer>
+		<key>Relative Humidity</key>
+		<integer>73</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2014-05-06T20:30:50Z</date>
+		<key>Sunset Date</key>
+		<date>2014-05-07T07:56:18Z</date>
+		<key>Wind Bearing</key>
+		<integer>150</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>20</integer>
+		<key>Wind Speed KPH</key>
+		<integer>15</integer>
+	</dict>
+</dict>
+</plist>

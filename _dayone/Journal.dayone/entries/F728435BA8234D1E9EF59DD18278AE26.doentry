@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Activity</key>
+	<string>Eating</string>
+	<key>Creation Date</key>
+	<date>2014-01-26T03:29:39Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-01-26T03:29:39Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Chifa Chi-Jong
+
+Had some good Chinese food here. The pineapple chicken was really tasty but the pollo rollado wasn’t as good. They were also playing action movies on TNT so we spent about an hour making up lines to movies we could see but not hear.</string>
+	<key>Location</key>
+	<dict>
+		<key>Latitude</key>
+		<real>-13.157457760547434</real>
+		<key>Longitude</key>
+		<real>-74.225061172688584</real>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Chinese</string>
+		<string>Restaurants</string>
+		<string>Ayacucho</string>
+		<string>Peru</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Lima</string>
+	<key>UUID</key>
+	<string>F728435BA8234D1E9EF59DD18278AE26</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>11</string>
+		<key>Description</key>
+		<string>Partly Cloudy</string>
+		<key>Fahrenheit</key>
+		<string>52</string>
+		<key>IconName</key>
+		<string>cloudyn.png</string>
+		<key>Pressure MB</key>
+		<integer>1021</integer>
+		<key>Relative Humidity</key>
+		<integer>72</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2014-01-26T10:48:04Z</date>
+		<key>Sunset Date</key>
+		<date>2014-01-26T23:31:06Z</date>
+		<key>Wind Bearing</key>
+		<integer>0</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>11</integer>
+		<key>Wind Speed KPH</key>
+		<integer>2</integer>
+	</dict>
+</dict>
+</plist>

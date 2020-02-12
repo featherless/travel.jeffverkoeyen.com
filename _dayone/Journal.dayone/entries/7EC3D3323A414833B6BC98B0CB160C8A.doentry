@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Activity</key>
+	<string>Eating</string>
+	<key>Creation Date</key>
+	<date>2014-02-01T02:05:39Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-02-01T02:20:09Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>El Tabuco
+
+This little hole in the wall only opens at night time and has a wonderful home kitchen feel. It's tiny (fits about 15 people) and serves stone-baked pizzas.</string>
+	<key>Location</key>
+	<dict>
+		<key>Latitude</key>
+		<real>-13.515940569919351</real>
+		<key>Longitude</key>
+		<real>-71.982376180226808</real>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Cusco</string>
+		<string>Peru</string>
+		<string>Restaurants</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Lima</string>
+	<key>UUID</key>
+	<string>7EC3D3323A414833B6BC98B0CB160C8A</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>10</string>
+		<key>Description</key>
+		<string>Rain</string>
+		<key>Fahrenheit</key>
+		<string>50</string>
+		<key>IconName</key>
+		<string>rainn.png</string>
+		<key>Pressure MB</key>
+		<integer>1031</integer>
+		<key>Relative Humidity</key>
+		<integer>88</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2014-01-31T10:40:45Z</date>
+		<key>Sunset Date</key>
+		<date>2014-01-31T23:22:04Z</date>
+		<key>Visibility KM</key>
+		<integer>9</integer>
+		<key>Wind Bearing</key>
+		<integer>0</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>10</integer>
+		<key>Wind Speed KPH</key>
+		<integer>0</integer>
+	</dict>
+</dict>
+</plist>

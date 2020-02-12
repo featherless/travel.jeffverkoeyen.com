@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Activity</key>
+	<string>Eating</string>
+	<key>Creation Date</key>
+	<date>2014-01-10T02:57:04Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-01-10T02:57:04Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Rest. Pizzeria Playa Sol y Mar
+
+Amazing casado dinner. Really good sauce with the meat and the beans were super tasty. They had a solid ají hot sauce which went well in the rice and beans.</string>
+	<key>Location</key>
+	<dict>
+		<key>Latitude</key>
+		<real>-0.74590770062128631</real>
+		<key>Longitude</key>
+		<real>-90.314346430907321</real>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Restaurants</string>
+		<string>Casado</string>
+		<string>Ecuador</string>
+		<string>Galapagos Islands</string>
+		<string>Isla Santa Cruz</string>
+		<string>Mind blown</string>
+	</array>
+	<key>Time Zone</key>
+	<string>Pacific/Galapagos</string>
+	<key>UUID</key>
+	<string>8C02FE31A62F494FABC5B0AA6FEAAC40</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>25</string>
+		<key>Description</key>
+		<string>Partly Cloudy</string>
+		<key>Fahrenheit</key>
+		<string>77</string>
+		<key>IconName</key>
+		<string>cloudyn.png</string>
+		<key>Pressure MB</key>
+		<real>1010.4</real>
+		<key>Relative Humidity</key>
+		<real>78</real>
+		<key>Service</key>
+		<string>Forecast.io</string>
+		<key>Visibility KM</key>
+		<real>11.470000000000001</real>
+		<key>Wind Bearing</key>
+		<integer>187</integer>
+		<key>Wind Speed KPH</key>
+		<real>17.079999999999998</real>
+	</dict>
+</dict>
+</plist>

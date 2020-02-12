@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Activity</key>
+	<string>Eating</string>
+	<key>Creation Date</key>
+	<date>2014-01-03T19:43:00Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-01-03T19:43:00Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Restaurante Coroncoro
+
+Not very good almuerzos. Dirty dishes. Came here because of Lonely Planet and yet again have been led astray. We're increasingly not trusting any of the reviews in our South America book.</string>
+	<key>Location</key>
+	<dict>
+		<key>Latitude</key>
+		<real>10.423007528307309</real>
+		<key>Longitude</key>
+		<real>-75.545623144205237</real>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Colombia</string>
+		<string>Cartagena-NewYears</string>
+		<string>Restaurants</string>
+		<string>Casado</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Bogota</string>
+	<key>UUID</key>
+	<string>D0633A3C17AC450FB2A123699F9FE89C</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>30</string>
+		<key>Description</key>
+		<string>Clear</string>
+		<key>Fahrenheit</key>
+		<string>86</string>
+		<key>IconName</key>
+		<string>clear.png</string>
+		<key>Relative Humidity</key>
+		<real>69</real>
+		<key>Service</key>
+		<string>Forecast.io</string>
+		<key>Visibility KM</key>
+		<real>9.9800000000000004</real>
+		<key>Wind Bearing</key>
+		<integer>333</integer>
+		<key>Wind Speed KPH</key>
+		<real>14.970000000000001</real>
+	</dict>
+</dict>
+</plist>

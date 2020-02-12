@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Activity</key>
+	<string>Eating</string>
+	<key>Creation Date</key>
+	<date>2014-05-24T11:53:03Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-05-24T11:53:03Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.1</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.14</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Warung Osin
+
+Really really tasty food. Worth the slightly higher prices by a long-shot.</string>
+	<key>Location</key>
+	<dict>
+		<key>Latitude</key>
+		<real>-8.3356036758127949</real>
+		<key>Longitude</key>
+		<real>115.65149174082619</real>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Bali</string>
+		<string>Indonesia</string>
+		<string>Restaurants</string>
+		<string>Warung</string>
+		<string>Amed</string>
+	</array>
+	<key>Time Zone</key>
+	<string>Asia/Makassar</string>
+	<key>UUID</key>
+	<string>C71F0A6BFD2243729A2A758D5E2EDE1C</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>28</string>
+		<key>Description</key>
+		<string>Partly Cloudy</string>
+		<key>Fahrenheit</key>
+		<string>82</string>
+		<key>IconName</key>
+		<string>cloudyn.png</string>
+		<key>Pressure MB</key>
+		<integer>1010</integer>
+		<key>Relative Humidity</key>
+		<integer>84</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2014-05-23T22:25:51Z</date>
+		<key>Sunset Date</key>
+		<date>2014-05-24T10:06:27Z</date>
+		<key>Wind Bearing</key>
+		<integer>100</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>28</integer>
+		<key>Wind Speed KPH</key>
+		<integer>13</integer>
+	</dict>
+</dict>
+</plist>

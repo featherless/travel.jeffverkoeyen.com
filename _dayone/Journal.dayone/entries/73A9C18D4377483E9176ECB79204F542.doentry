@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-02-22T21:41:15Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-02-23T16:28:10Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>The Valle de la Luna is a rewarding biking adventure, but you've definitely got to earn parts of it.
+
+We rented our bikes (4000CLP each) from a shop near our hostel and then made our way along the highway towards the park entrance. After paying the park entrance fee (2000CLP each) and gawking at the cute Chilean girls working there, we started biking toward the looming landscape.
+
+Getting to the first stop is pretty straightforward, so once we arrived we decided to get off our bikes and explore the area. This also happened to be where five or six tour groups had simultaneously showed up, so we crowded through a cave with a bunch of other curious souls and tried our best to hear any wisdom being shared by the guides.
+
+Once through the caves we climbed atop the rocks and doubled back to where we came from, but at some point took a turn and ended up walking against the flow of tourists. After walking through a canyon for a short bit we asked the next tourists what was up ahead: a lagoon!
+
+There was no lagoon.
+
+We did, however, find a massive sand dune which we climbed. This ended up bringing us to the top of the hill at whose base we'd parked our bikes. After taking some pictures we managed to hitch a ride with one of the returning vans back to our bikes.
+
+Biking up the hill was a bitch, so we walked most of it. The rest of the bike ride was pretty decent once we were over the top and the landscape was desolate and sparse - quite a sight.
+
+As the sun started setting we pulled off the road onto ground that may have been beneath a salty body of water long ago - streaks of salt covered the hillscapes and where we decided to sit was little more than a salt block.
+
+The sunset itself was serene and we blasted music while dancing atop a small hill nearby. And with the sun gone we made our way back home through the descending darkness. The ride back felt like an eternity as we biked along the highway in the dark, but once we returned to San Pedro de Atacama that wonderful rush of having completed an adventure took over. What a day!</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Antofagasta</string>
+		<key>Country</key>
+		<string>Chile</string>
+		<key>Latitude</key>
+		<real>-22.946674999999999</real>
+		<key>Locality</key>
+		<string>San Pedro de Atacama</string>
+		<key>Longitude</key>
+		<real>-68.295294999999996</real>
+		<key>Place Name</key>
+		<string>Calle Valle De La Luna</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Chile</string>
+		<string>Valle de la Luna</string>
+		<string>Preamble</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Santiago</string>
+	<key>UUID</key>
+	<string>73A9C18D4377483E9176ECB79204F542</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>24</string>
+		<key>Description</key>
+		<string>Sunny</string>
+		<key>Fahrenheit</key>
+		<string>75</string>
+		<key>IconName</key>
+		<string>clear.png</string>
+		<key>Pressure MB</key>
+		<integer>1022</integer>
+		<key>Relative Humidity</key>
+		<integer>12</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2014-02-22T10:28:46Z</date>
+		<key>Sunset Date</key>
+		<date>2014-02-22T23:09:10Z</date>
+		<key>Visibility KM</key>
+		<real>11.265408000000001</real>
+		<key>Wind Bearing</key>
+		<integer>270</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>24</integer>
+		<key>Wind Speed KPH</key>
+		<integer>44</integer>
+	</dict>
+</dict>
+</plist>

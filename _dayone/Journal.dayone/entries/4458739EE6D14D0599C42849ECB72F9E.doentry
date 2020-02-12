@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2013-12-06T03:24:18Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>Macintosh/MacBookAir4,1</string>
+		<key>Generation Date</key>
+		<date>2013-12-06T03:24:18Z</date>
+		<key>Host Name</key>
+		<string>Jeff’s MacBook Air</string>
+		<key>OS Agent</key>
+		<string>Mac OS X/10.9</string>
+		<key>Software Agent</key>
+		<string>Day One Mac/1.9</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Australia Planning
+
+## Pro Dive Cairns
+
+- http://www.prodivecairns.com/3dayouterreef.html
+- $730/person for a 3 day/2night live aboard. 11 dives, 2 at night.
+
+## Travel
+
+- [planner site](http://www.rome2rio.com/s/Perth/Melbourne)
+
+### Train
+
+### Summary of Fares
+
+- $490/$1547 Perth - Adelaide [booking](http://reservations.greatsouthernrail.com.au/)
+- $103 Adelaide - Melbourne [booking](http://reservations.greatsouthernrail.com.au/)
+- $161 Melbourne - Sydney [booking](http://www.nswtrainlink.info/)
+
+### Types of Fares
+
+**Red Daynighter Seat**
+
+[Learn more](https://www.greatsouthernrail.com.au/site/readyrail/red_seats.jsp)
+
+- $490 USD one way from Perth to Adelaide + $103 USD to Melbourne = $593
+
+&gt; On our great trains, even the most economical level of travel offers a comfortable alternative. Our Red Service Day/Nighter Seats are two-abreast reclining chairs that can swivel to face each other if you’d like to socialise. You can take in the views and enjoy the scenery roll by, or even relax with a drink and a meal in the Red Service Diner.
+To make the most of the space available, there’s plenty of room for your hand luggage in the overhead racks.
+Red Service Day/Nighter Seat features include:
+Recliner lounge-style chairs with ample leg room and individual reading light. Travel pillows and blankets available for purchase.
+Access to the Red Service Diner offering meals, snacks, alcoholic beverages and soft drinks for purchase.
+Shower and toilet facilities available at the end of your carriage.
+
+**Gold Twin Cabin**
+
+[Learn more](http://www.greatsouthernrail.com.au/site/indian_pacific/service_levels/gold_service.jsp)
+
+- $1547 USD one way from Perth to Adelaide
+
+&gt; During the day, the compact Twin Berth Sleeper Cabins offer a comfortable three seater lounge, converting to an upper and lower sleeping berth at night. Your journey will be made even more comfortable with service from our hospitality attendant including fresh sheets, bath towels, pillows, doonas and complimentary toiletries. Twin Berth Sleeper Cabins have private en suite facilities with a hide-away compact toilet, wash basin and shower.
+Single Berth Sleeper Cabins feature a comfortable lounge chair and foot rest by day and a single level sleeping berth by night. Cabins are fitted with a wash basin. Showers and toilets are located at either end of the Gold Service carriage.</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Puntarenas</string>
+		<key>Country</key>
+		<string>Costa Rica</string>
+		<key>Latitude</key>
+		<real>10.31632392702325</real>
+		<key>Longitude</key>
+		<real>-84.825211965498568</real>
+		<key>Place Name</key>
+		<string>Highway 145</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Travel Planning</string>
+		<string>Australia</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Costa_Rica</string>
+	<key>UUID</key>
+	<string>4458739EE6D14D0599C42849ECB72F9E</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>22</string>
+		<key>Description</key>
+		<string>Mostly Clear</string>
+		<key>Fahrenheit</key>
+		<string>72</string>
+		<key>IconName</key>
+		<string>cloudyn.png</string>
+		<key>Pressure MB</key>
+		<integer>1015</integer>
+		<key>Relative Humidity</key>
+		<integer>73</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2013-12-05T11:40:38Z</date>
+		<key>Sunset Date</key>
+		<date>2013-12-05T23:14:45Z</date>
+		<key>Wind Bearing</key>
+		<integer>90</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>22</integer>
+		<key>Wind Speed KPH</key>
+		<integer>15</integer>
+	</dict>
+</dict>
+</plist>

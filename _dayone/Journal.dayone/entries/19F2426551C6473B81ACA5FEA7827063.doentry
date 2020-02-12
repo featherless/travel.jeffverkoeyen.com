@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2013-12-01T01:07:57Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2013-12-01T01:07:57Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Hotel Regina
+
+- $30/night
+- No kitchen
+
+Our research for La Fortuna revealed a number of highly-rated hostels, all with some permutation of hostel, backpacker, and resort in the name. They're purposefully confusing to the point that it's difficult to know which one you're reading about or looking at, so we decided to just pick a hostel in person once we arrived.
+
+When we got of the bus in La Fortuna we were immediately approached by an overly-friendly guy who asked us where we were going and what sort of place we were looking for. Once we told him our plan about the hostels he started heavily recommending we check out his hotel, Luigi's, which apparently just recently started trying to market itself more to backpackers.
+
+We politely declined his request to check out his hotel immediately and proceeded to walk up the main street to check out the backpacker hostels.
+
+The first two hostels we saw were nice but on the more expensive side ($22-24/person/night), so we decided to keep checking out more places. Luigi then materialized out of the darkness to inform us that his hotel was less than a block up the street, so we reluctantly decided to at least check it out.
+
+The room was decent for $30/night, but while he was showing us the room we looked up reviews of the place and saw that they were incredibly polarized between good and terrible. With this in mind we decided to carry on. "You'll be back!" we heard him call as we left.
+
+We didn't go back. Hotel Regina was just up the street and the lady at the reception was incredibly laid-back, a welcome relief from Luigi's pressure. The rooms at Regina are clean, with private bathrooms and an in-room safe. At $30/night the price was reasonable as well so we decided to lay our bags down and call it our home.</string>
+	<key>Location</key>
+	<dict>
+		<key>Country</key>
+		<string>Costa Rica</string>
+		<key>Foursquare ID</key>
+		<string>50ea3936e4b0497551af0e38</string>
+		<key>Latitude</key>
+		<real>10.470728874206543</real>
+		<key>Longitude</key>
+		<real>-84.648460388183594</real>
+		<key>Place Name</key>
+		<string>Hotel Regina</string>
+	</dict>
+	<key>Starred</key>
+	<true/>
+	<key>Tags</key>
+	<array>
+		<string>Costa rica</string>
+		<string>La Fortuna</string>
+		<string>Hotels</string>
+		<string>Would recommend</string>
+		<string>Lodging</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Costa_Rica</string>
+	<key>UUID</key>
+	<string>19F2426551C6473B81ACA5FEA7827063</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>20</string>
+		<key>Description</key>
+		<string>Partly Cloudy</string>
+		<key>Fahrenheit</key>
+		<string>68</string>
+		<key>IconName</key>
+		<string>cloudyn.png</string>
+		<key>Pressure MB</key>
+		<integer>1015</integer>
+		<key>Relative Humidity</key>
+		<integer>69</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2013-11-30T11:38:05Z</date>
+		<key>Sunset Date</key>
+		<date>2013-11-30T23:13:17Z</date>
+		<key>Wind Bearing</key>
+		<integer>90</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>20</integer>
+		<key>Wind Speed KPH</key>
+		<integer>20</integer>
+	</dict>
+</dict>
+</plist>

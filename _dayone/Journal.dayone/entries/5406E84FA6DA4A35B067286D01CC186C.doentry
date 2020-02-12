@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-01-14T16:07:39Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-01-14T16:07:39Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Isla Isabella is a three hour boat ride from Isla Santa Cruz and it's the largest island in the archipelago, being composed of five separate volcanoes.
+
+The town on Isabella is a sleepy beach town with a main street running along the beach. The rest of the town appears to be under either perpetual construction or destruction.
+
+We didn't have a reservation when we arrived so we asked our taxi driver to give us some recommendations. The first place we went to looked like a bomb had hit it and cost $40/night, so we decided to keep looking. We ended up at a lovely place named after - and run by - an even lovelier woman, Gardenia.
+
+We spent our first full day on the island snorkeling at La Concha de Perla, a small lagoon just off the docks. The next day we went on a five hour scorcher of a hike around a volcano and spent the rest of the evening reading and watching the sun set over the ocean.
+
+Overall Isabella was a pretty quiet island for us. We thoroughly explored the small town and its many restaurants and didn't eat anywhere that really blew our minds other than the dinner Gardenia made for us. Given the remoteness of Isabella it seems if you want good food you may have to be part of a tour or be willing to shell out the cash.
+
+On that note there aren't any ATMs on the island that we saw so make sure to bring plenty of cash.</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Galapagos</string>
+		<key>Country</key>
+		<string>Ecuador</string>
+		<key>Latitude</key>
+		<real>-0.63092499999999996</real>
+		<key>Locality</key>
+		<string>Isabela</string>
+		<key>Longitude</key>
+		<real>-90.363511299999999</real>
+		<key>Region</key>
+		<dict>
+			<key>Center</key>
+			<dict>
+				<key>Latitude</key>
+				<real>-0.3937642754528099</real>
+				<key>Longitude</key>
+				<real>-90.450402226739101</real>
+			</dict>
+			<key>Radius</key>
+			<real>175441.79656607116</real>
+		</dict>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Galapagos Islands</string>
+		<string>Ecuador</string>
+		<string>Isla Isabella</string>
+		<string>Preamble</string>
+		<string>Island</string>
+	</array>
+	<key>Time Zone</key>
+	<string>Pacific/Galapagos</string>
+	<key>UUID</key>
+	<string>5406E84FA6DA4A35B067286D01CC186C</string>
+</dict>
+</plist>

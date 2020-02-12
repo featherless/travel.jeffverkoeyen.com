@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-06-18T15:09:17Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-06-18T15:09:17Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.1</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.14</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Power Out!
+</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Siem Reap</string>
+		<key>Country</key>
+		<string>Cambodia</string>
+		<key>Latitude</key>
+		<real>13.350976656700432</real>
+		<key>Locality</key>
+		<string>Siemreab</string>
+		<key>Longitude</key>
+		<real>103.85514023966523</real>
+		<key>Region</key>
+		<dict>
+			<key>Center</key>
+			<dict>
+				<key>Latitude</key>
+				<real>13.363958245394327</real>
+				<key>Longitude</key>
+				<real>103.86155695796752</real>
+			</dict>
+			<key>Radius</key>
+			<real>2989.2542744979323</real>
+		</dict>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Siem Reap</string>
+		<string>Cambodia</string>
+	</array>
+	<key>Time Zone</key>
+	<string>Asia/Phnom_Penh</string>
+	<key>UUID</key>
+	<string>21D564987A0E4AD8AE163FE5C140DF56</string>
+</dict>
+</plist>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2013-12-09T17:34:40Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>Macintosh/MacBookAir4,1</string>
+		<key>Generation Date</key>
+		<date>2013-12-09T17:34:40Z</date>
+		<key>Host Name</key>
+		<string>Jeff’s MacBook Air</string>
+		<key>OS Agent</key>
+		<string>Mac OS X/10.9</string>
+		<key>Software Agent</key>
+		<string>Day One Mac/1.9</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Yoga
+
+A solid session of yoga today next to our hostel :) It was $10/person at Casa Coba. We had a solid 1.5 hour session and felt nicely relaxed for the rest of the day.</string>
+	<key>Location</key>
+	<dict>
+		<key>Country</key>
+		<string>Costa Rica</string>
+		<key>Foursquare ID</key>
+		<string>50b4de24e4b0a482e3c43b41</string>
+		<key>Latitude</key>
+		<real>9.8824101559935382</real>
+		<key>Locality</key>
+		<string>Sámara</string>
+		<key>Longitude</key>
+		<real>-85.526494074312509</real>
+		<key>Place Name</key>
+		<string>Casa Coba</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Samara</string>
+		<string>Costa rica</string>
+		<string>Yoga</string>
+		<string>Would recommend</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Costa_Rica</string>
+	<key>UUID</key>
+	<string>5AF35CB7758346B9A7C5E6DB6BF24DA7</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>31</string>
+		<key>Description</key>
+		<string>Mostly Cloudy</string>
+		<key>Fahrenheit</key>
+		<string>88</string>
+		<key>IconName</key>
+		<string>mcloudy.png</string>
+		<key>Pressure MB</key>
+		<integer>1012</integer>
+		<key>Relative Humidity</key>
+		<integer>49</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2013-12-09T11:49:27Z</date>
+		<key>Sunset Date</key>
+		<date>2013-12-09T23:20:40Z</date>
+		<key>Wind Bearing</key>
+		<integer>100</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>31</integer>
+		<key>Wind Speed KPH</key>
+		<integer>19</integer>
+	</dict>
+</dict>
+</plist>

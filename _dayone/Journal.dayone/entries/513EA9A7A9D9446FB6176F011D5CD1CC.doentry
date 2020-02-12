@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-01-17T03:25:18Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>Macintosh/MacBookAir4,1</string>
+		<key>Generation Date</key>
+		<date>2014-01-17T03:25:18Z</date>
+		<key>Host Name</key>
+		<string>Jeff’s MacBook Air</string>
+		<key>OS Agent</key>
+		<string>Mac OS X/10.9.1</string>
+		<key>Software Agent</key>
+		<string>Day One Mac/1.9</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Quang Binh, Vietnam
+
+From the nyt article [52 Places to Go in 2014](http://www.nytimes.com/interactive/2014/01/10/travel/2014-places-to-go.html):
+
+&gt; [Son Doong Cave](http://www.oxalis.com.vn/son-doong-cave) in the Quang Binh province of central Vietnam is one of the world’s largest caves and is now, for the first time, accessible to tourists, thanks to the tour operator [Oxalis](http://www.oxalis.com.vn/). Huge shafts of light penetrate its vast caverns, allowing forests of 100-foot-tall trees to thrive in spaces big enough to accommodate 40-story skyscrapers. Colossal 260-foot stalactites are also present. Monkeys, hornbills and flying foxes have all been spotted in this surreal habitat, first fully explored in 2009. While trips into Son Doong are limited in number (only 220 permits for the year) and to visitors with deep pockets (over $6,000 per trip), the nearby and more affordable Tu Lan Cave is also now open to adventurous travelers.</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Galapagos</string>
+		<key>Country</key>
+		<string>Ecuador</string>
+		<key>Latitude</key>
+		<real>-0.90221382792349814</real>
+		<key>Locality</key>
+		<string>San Cristobal</string>
+		<key>Longitude</key>
+		<real>-89.611491130875734</real>
+		<key>Place Name</key>
+		<string>Galapagos National Park</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Vietnam</string>
+		<string>Travel Planning</string>
+		<string>Quang Binh</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Guatemala</string>
+	<key>UUID</key>
+	<string>513EA9A7A9D9446FB6176F011D5CD1CC</string>
+</dict>
+</plist>

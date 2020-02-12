@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Activity</key>
+	<string>Walking</string>
+	<key>Creation Date</key>
+	<date>2014-02-04T18:39:29Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-02-05T18:23:55Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Temple Of The Condor
+
+From [peru-machu-picchu.com](http://www.peru-machu-picchu.com/condor-temple.php):
+&gt; The Temple of the Condor in Machu Picchu is a breathtaking example of Inca stonemasonry. A natural rock formation began to take shape millions of years ago and the Inca skillfully shaped the rock into the outspread wings of a condor in flight.
+&gt;
+&gt; On the floor of the temple is a rock carved in the shape of the condor's head and neck feathers, completing the figure of a three-dimensional bird. Historians speculate that the head of the condor was used as a sacrificial altar. Under the temple is a small cave that contained a mummy. A prison complex stands directly behind the temple, and is comprised of human-sized niches and an underground maze of dungeons. According to historical chronicles that documented similar Inca prison sites, an accused citizen would be shackled into the niches for up to 3 days to await the deliberation of his fate. He could be put to death for such sins as laziness, lust, or theft.</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Cuzco</string>
+		<key>Country</key>
+		<string>Peru</string>
+		<key>Latitude</key>
+		<real>-13.163605499999999</real>
+		<key>Longitude</key>
+		<real>-72.544494999999998</real>
+		<key>Region</key>
+		<dict>
+			<key>Center</key>
+			<dict>
+				<key>Latitude</key>
+				<real>-13.164802</real>
+				<key>Longitude</key>
+				<real>-72.542206499999992</real>
+			</dict>
+			<key>Radius</key>
+			<real>965.82107205558771</real>
+		</dict>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Peru</string>
+		<string>Machu Picchu</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Lima</string>
+	<key>UUID</key>
+	<string>761BC7FD5DD643DFB7A645C8B3453C17</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>17</string>
+		<key>Description</key>
+		<string>Mostly Cloudy</string>
+		<key>Fahrenheit</key>
+		<string>63</string>
+		<key>IconName</key>
+		<string>mcloudy.png</string>
+		<key>Pressure MB</key>
+		<integer>1026</integer>
+		<key>Relative Humidity</key>
+		<integer>30</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2014-02-04T10:42:27Z</date>
+		<key>Sunset Date</key>
+		<date>2014-02-04T23:21:14Z</date>
+		<key>Wind Bearing</key>
+		<integer>290</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>17</integer>
+		<key>Wind Speed KPH</key>
+		<integer>9</integer>
+	</dict>
+</dict>
+</plist>

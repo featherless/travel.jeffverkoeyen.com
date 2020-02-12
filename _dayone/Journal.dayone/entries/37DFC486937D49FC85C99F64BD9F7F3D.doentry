@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Activity</key>
+	<string>Automotive</string>
+	<key>Creation Date</key>
+	<date>2014-01-26T11:44:25Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-01-26T11:44:25Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Bussing from Ayacucho to Andahuaylas
+
+| Time|Location
+|--------:|:-----------|
+| 6:00AM | Woke up.
+| 6:31AM | Breakfast in bed!
+| 7:05AM | Grabbed a tuk-tuk to the bus station.
+| 7:17AM | Boarded.
+| 7:39AM | And we're off.
+| 1:05PM | Arrived.
+| 1:25PM | Found a hostel.
+
+| Totals | Totals
+|--------:|:---------|
+| Total bus time | 5:26</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Ayacucho</string>
+		<key>Country</key>
+		<string>Peru</string>
+		<key>Latitude</key>
+		<real>-13.160263572654204</real>
+		<key>Locality</key>
+		<string>Ayacucho</string>
+		<key>Longitude</key>
+		<real>-74.222607392409344</real>
+		<key>Place Name</key>
+		<string>Jr. El Sol</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Peru</string>
+		<string>Ayacucho</string>
+		<string>Andahuaylas</string>
+		<string>Bussing</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Lima</string>
+	<key>UUID</key>
+	<string>37DFC486937D49FC85C99F64BD9F7F3D</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>12</string>
+		<key>Description</key>
+		<string>Partly Cloudy</string>
+		<key>Fahrenheit</key>
+		<string>54</string>
+		<key>IconName</key>
+		<string>fair.png</string>
+		<key>Pressure MB</key>
+		<integer>1023</integer>
+		<key>Relative Humidity</key>
+		<integer>67</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2014-01-26T10:48:04Z</date>
+		<key>Sunset Date</key>
+		<date>2014-01-26T23:31:06Z</date>
+		<key>Wind Bearing</key>
+		<integer>0</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>12</integer>
+		<key>Wind Speed KPH</key>
+		<integer>2</integer>
+	</dict>
+</dict>
+</plist>

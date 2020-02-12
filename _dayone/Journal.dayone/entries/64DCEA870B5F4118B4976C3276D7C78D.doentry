@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Activity</key>
+	<string>Flying</string>
+	<key>Creation Date</key>
+	<date>2014-07-05T08:43:45Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-07-05T08:43:45Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.1</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.14.1</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Flying from Hoi An to Hanoi
+
+| 3:44PM | Waiting for taxi at the hotel.
+| 3:52PM | In a cab to the airport. ₫ 500,000 for a private car.
+| 4:31PM | At the airport.
+| 4:44PM | Checked in. Flight's delayed.
+| 7:07PM | Boarded!
+| 7:33PM | Take off!
+| 8:32PM | Landed!
+| 8:50PM | Picked up our bags.
+| 8:55PM | In a cab for 400,000 ($18-19).
+| 9:56PM | Arrived at the hostel.
+| 10:00PM | Hostel didn't have any space.
+
+10.3kg N
+17.4kg L
+17.7kg J</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Tỉnh Quảng Nam</string>
+		<key>Country</key>
+		<string>Vietnam</string>
+		<key>Latitude</key>
+		<real>15.879545300582786</real>
+		<key>Longitude</key>
+		<real>108.32353207752364</real>
+		<key>Place Name</key>
+		<string>Đường Lê Quý Đôn 48</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Hoi An</string>
+		<string>Hanoi</string>
+		<string>Vietnam</string>
+		<string>Flights</string>
+	</array>
+	<key>Time Zone</key>
+	<string>Asia/Ho_Chi_Minh</string>
+	<key>UUID</key>
+	<string>64DCEA870B5F4118B4976C3276D7C78D</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>33</string>
+		<key>Description</key>
+		<string>Mostly Sunny</string>
+		<key>Fahrenheit</key>
+		<string>91</string>
+		<key>IconName</key>
+		<string>fair.png</string>
+		<key>Pressure MB</key>
+		<integer>1002</integer>
+		<key>Relative Humidity</key>
+		<integer>67</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2014-07-04T22:20:14Z</date>
+		<key>Sunset Date</key>
+		<date>2014-07-05T11:23:18Z</date>
+		<key>Wind Bearing</key>
+		<integer>80</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>33</integer>
+		<key>Wind Speed KPH</key>
+		<integer>15</integer>
+	</dict>
+</dict>
+</plist>

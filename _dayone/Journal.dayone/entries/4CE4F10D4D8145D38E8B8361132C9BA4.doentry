@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Activity</key>
+	<string>Automotive</string>
+	<key>Creation Date</key>
+	<date>2014-02-04T18:51:11Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-02-04T18:51:11Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Bussing from Machu Picchu to Aguas Calientes
+
+We were in Machu Picchu for about six and a half hours; not nearly enough time to fully explore the place sadly.
+
+We caught the bus from Machu Picchu back to Aguas Calientes and skipped the long hike back down the hill, though if it hadn't been part of our tour package we might have walked (plenty of people did). The bus took about half an hour with the transfer due to the landslide.</string>
+	<key>Location</key>
+	<dict>
+		<key>Latitude</key>
+		<real>-13.165677390073579</real>
+		<key>Longitude</key>
+		<real>-72.543064914711323</real>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Machu Picchu</string>
+		<string>Peru</string>
+		<string>Bussing</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Lima</string>
+	<key>UUID</key>
+	<string>4CE4F10D4D8145D38E8B8361132C9BA4</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>17</string>
+		<key>Description</key>
+		<string>Mostly Cloudy</string>
+		<key>Fahrenheit</key>
+		<string>63</string>
+		<key>IconName</key>
+		<string>mcloudy.png</string>
+		<key>Pressure MB</key>
+		<integer>1026</integer>
+		<key>Relative Humidity</key>
+		<integer>30</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2014-02-04T10:42:27Z</date>
+		<key>Sunset Date</key>
+		<date>2014-02-04T23:21:14Z</date>
+		<key>Wind Bearing</key>
+		<integer>290</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>17</integer>
+		<key>Wind Speed KPH</key>
+		<integer>9</integer>
+	</dict>
+</dict>
+</plist>

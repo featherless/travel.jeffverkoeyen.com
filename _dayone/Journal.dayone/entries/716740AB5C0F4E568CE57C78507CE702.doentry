@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2013-10-26T17:00:00Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2013-12-15T01:54:44Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>I want to learn Spanish before beginning a long-term trip around South America. In an effort to immerse myself, I've flown to Panama City as a staging ground. Panama's canal is the "crossroads of the world" so it seemed like a fitting place to begin my adventures (and to geek out over one of Earth's engineering marvels).
+
+It's my first time backpacking and I've already had a number of hard-earned lessons. I'm documenting them here for posterity though more experienced travellers will likely find some things redundant.</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Panamá</string>
+		<key>Country</key>
+		<string>Panama</string>
+		<key>Latitude</key>
+		<real>8.9948092000000006</real>
+		<key>Longitude</key>
+		<real>-79.588672700000004</real>
+		<key>Place Name</key>
+		<string>Bruja Street</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Panama City</string>
+		<string>Preamble</string>
+		<string>Panama</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Bogota</string>
+	<key>UUID</key>
+	<string>716740AB5C0F4E568CE57C78507CE702</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>27</string>
+		<key>Description</key>
+		<string>Clear</string>
+		<key>Fahrenheit</key>
+		<string>80</string>
+		<key>IconName</key>
+		<string>clear.png</string>
+		<key>Relative Humidity</key>
+		<real>87</real>
+		<key>Service</key>
+		<string>Forecast.io</string>
+		<key>Visibility KM</key>
+		<real>5.79</real>
+	</dict>
+</dict>
+</plist>

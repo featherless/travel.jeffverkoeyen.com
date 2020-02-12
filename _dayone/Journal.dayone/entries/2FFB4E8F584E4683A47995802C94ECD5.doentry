@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-01-28T20:50:01Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-01-29T04:21:05Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>At an elevation of about 3500m, Cusco kicks a pretty solid punch to your stamina. The days we spent bussing through the Andes did help, but we often still found ourselves pretty winded doing menial tasks like walking up stairs and breathing.
+
+When we landed in Cusco we had no idea what our plans were for doing Machu Picchu. The night we arrived we checked in to Pisko &amp; Soul, a quiet little hostel with an amazingly friendly staff. When we woke up the next morning we explored the city a bit and did some laundry before spending the rest of the evening relaxing at Pisko &amp; Soul.
+
+The next day we decided to move to a different hostel. Loki was our choice and holy shit is it insane. It’s about the closest thing I think you can find to a frat house in South America, with a massive bar and people playing beer pong at all hours of the day. Because we were still acclimatizing we ended up avoiding the partying and spending most of our time wandering the city collecting things for our trek.
+
+The day we moved to Loki we hit up all of the major trekking companies that had been recommended to us, SAS being one of the biggest ones. We wanted to do either the Lares or the Salkantay Treks but they were doing neither because it was the rainy season. They were doing the Inca trail, but we weren’t really convinced that that was the trail we wanted to do. SAS ended up recommending another company, Alpaca Expeditions, which we then went to see.
+
+Alpaca Expeditions is on the second floor of a tiny hole in the wall off of one of the plazas and we’d have never found it were it not for SAS’s directions. When we met with the staff there they were incredibly friendly and gave us a complete breakdown of what to expect for the Lares trek. Based on that experience and the fact that everybody else was just offering the Inca trail in the next few days, we decided to put down the deposit and commit!</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Cuzco</string>
+		<key>Country</key>
+		<string>Peru</string>
+		<key>Latitude</key>
+		<real>-13.513488846268457</real>
+		<key>Longitude</key>
+		<real>-71.976171160017799</real>
+		<key>Place Name</key>
+		<string>Atoqsaycuchi</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Cusco</string>
+		<string>Peru</string>
+		<string>Preamble</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Lima</string>
+	<key>UUID</key>
+	<string>2FFB4E8F584E4683A47995802C94ECD5</string>
+</dict>
+</plist>

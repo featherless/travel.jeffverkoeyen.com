@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Activity</key>
+	<string>Flying</string>
+	<key>Creation Date</key>
+	<date>2014-05-08T19:27:22Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-05-08T19:27:22Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.1</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.14</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Flying from Cairns to Darwin
+
+| Time|Location
+|--------:|:-----------|
+| 5:27AM | On our way to the airport via $5 shuttle. Turns out it's closer to $8.
+| 5:47AM | At the airport.
+| 6:24AM | Checked in.
+| 7:25AM | Boarded.
+| 7:42AM | Take off!
+| 10:01AM | Landed.
+
+ Totals | Totals
+|--------:|:---------|
+| Total air time | 0:00
+| Total flight legs | 1
+
+16.7kg j
+19.6kg l</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>QLD</string>
+		<key>Country</key>
+		<string>Australia</string>
+		<key>Latitude</key>
+		<real>-16.925290413216619</real>
+		<key>Locality</key>
+		<string>Parramatta Park</string>
+		<key>Longitude</key>
+		<real>145.7702248079197</real>
+		<key>Place Name</key>
+		<string>3 Terminus Street</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Cairns</string>
+		<string>Darwin</string>
+		<string>Australia</string>
+		<string>Flights</string>
+	</array>
+	<key>Time Zone</key>
+	<string>Australia/Brisbane</string>
+	<key>UUID</key>
+	<string>BF7241B7E8CA4CC88AF02424A8AC4A49</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>23</string>
+		<key>Description</key>
+		<string>Mostly Clear</string>
+		<key>Fahrenheit</key>
+		<string>73</string>
+		<key>IconName</key>
+		<string>cloudyn.png</string>
+		<key>Pressure MB</key>
+		<integer>1014</integer>
+		<key>Relative Humidity</key>
+		<integer>69</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2014-05-08T20:31:26Z</date>
+		<key>Sunset Date</key>
+		<date>2014-05-09T07:55:28Z</date>
+		<key>Wind Bearing</key>
+		<integer>170</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>23</integer>
+		<key>Wind Speed KPH</key>
+		<integer>20</integer>
+	</dict>
+</dict>
+</plist>

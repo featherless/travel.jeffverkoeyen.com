@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2013-12-13T18:10:02Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2013-12-13T21:10:02Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>It took us 31 hours, but we made it to Cartagena, Colombia!
+
+Cartagena is a city with many faces. The part of the city we stayed in had a distinct colonial architectural style. Horse-drawn carriages bustled past us as we navigated our way around (and sometimes to) colourful fruit-vending Colombians and countless shops selling everything from the delicious bocaqueso to “ancient” pre-Colombian relics.
+
+Once you leave the walled-city, however, you quickly begin to see the true Colombian lifestyle.
+
+Southwards we biked through residential neighbourhoods where we saw groups of locals hanging out at the corner store, drinking cervezas and watching passersby.
+
+Westwards we found ourselves biking on the narrow peninsula past skyscrapers growing from countless fast food restaurants and casinos.</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Bolívar</string>
+		<key>Country</key>
+		<string>Colombia</string>
+		<key>Latitude</key>
+		<real>10.422547131931839</real>
+		<key>Locality</key>
+		<string>Cartagena</string>
+		<key>Longitude</key>
+		<real>-75.545050915778432</real>
+		<key>Place Name</key>
+		<string>Media Luna</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Colombia</string>
+		<string>Preamble</string>
+		<string>Cartagena</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Bogota</string>
+	<key>UUID</key>
+	<string>7EF0515162D946C0952F2D1DF7AEE144</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>32</string>
+		<key>Description</key>
+		<string>Mostly Sunny</string>
+		<key>Fahrenheit</key>
+		<string>90</string>
+		<key>IconName</key>
+		<string>fair.png</string>
+		<key>Pressure MB</key>
+		<integer>1006</integer>
+		<key>Relative Humidity</key>
+		<integer>67</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2013-12-13T11:11:06Z</date>
+		<key>Sunset Date</key>
+		<date>2013-12-13T22:42:25Z</date>
+		<key>Wind Bearing</key>
+		<integer>360</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>32</integer>
+		<key>Wind Speed KPH</key>
+		<integer>28</integer>
+	</dict>
+</dict>
+</plist>

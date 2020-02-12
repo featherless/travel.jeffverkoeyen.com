@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Activity</key>
+	<string>Eating</string>
+	<key>Creation Date</key>
+	<date>2014-01-05T18:21:31Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-01-05T18:21:31Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Restaurante Rincon de las Delicias "Mary"
+
+Terrible food for $2.25.</string>
+	<key>Location</key>
+	<dict>
+		<key>Latitude</key>
+		<real>-0.20916956077939025</real>
+		<key>Longitude</key>
+		<real>-78.4952606465733</real>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Quito</string>
+		<string>Ecuador</string>
+		<string>Restaurants</string>
+		<string>Casado</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Guayaquil</string>
+	<key>UUID</key>
+	<string>EA86E4D0F1684CDE89E2DA6344A635E0</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>19</string>
+		<key>Description</key>
+		<string>Overcast</string>
+		<key>Fahrenheit</key>
+		<string>66</string>
+		<key>IconName</key>
+		<string>cloudy.png</string>
+		<key>Relative Humidity</key>
+		<real>65</real>
+		<key>Service</key>
+		<string>Forecast.io</string>
+		<key>Visibility KM</key>
+		<real>14.48</real>
+		<key>Wind Bearing</key>
+		<integer>11</integer>
+		<key>Wind Speed KPH</key>
+		<real>12.02</real>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-03-14T20:32:40Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-03-14T20:32:40Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.6</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.13</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Going from Mo'orea to Pape'ete
+
+| Time|Location
+|--------:|:-----------|
+| 10:26AM | Hitchhiking with an adorable local couple.
+| 11:32AM | Arrived at the ferry terminal, but no ferries!
+| 12:08PM | We were able to sell our ferry tickets and are now buying one that's sooner.
+| 12:14PM | On the ferry.
+| 12:33PM | On our way!
+| 1:07PM | Arrived in Papeete.
+
+ Totals | Totals
+|--------:|:---------|
+| Total hitchhikings | 1</string>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Moorea</string>
+		<string>French Polynesia</string>
+		<string>Papeete</string>
+	</array>
+	<key>Time Zone</key>
+	<string>Pacific/Tahiti</string>
+	<key>UUID</key>
+	<string>C01298DD10414081BEE52A94AA436D37</string>
+</dict>
+</plist>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-02-03T21:31:27Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-02-06T04:06:27Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Ollantaytambo (ol lan tay mambo is the only way I can remember how to spell this) was our first stop after the Lares Trek. During the stay we did two things: eat food and risk our lives trying to do a free hike.
+
+When we were first dropped off by the shuttle our guide gave us a quick explanation of the city and then pointed at two opposing mountains on either side of the city. “That one costs 70 soles, that one’s free.” The decision was pretty straightforward.
+
+Well, turns out that it’s free for a reason. It’s mostly a scramble up the mountain to a number of forking “paths” that each lead to successively higher Incan ruins. We made it up to the first ruin and were able to get some decent shots of Ollantaytambo from above, but weren’t feeling like risking rock slides or misplaced steps just to see abandoned Incan warehouses and vantage points.
+
+Once we climbed back down we met our guide for dinner. The food was decent. We went to a typical menu place and had standard food (included in the price of the trek). After dinner we got a front-row seat to the local dog gang bang in the town square. It seems people don’t spay or neuter their dogs in South America so many cities (notably in Peru) have a large feral dog population.
+
+After dinner we had to catch our train to Aguas Calientes where we were going to spend the night before climbing Machu Picchu the next morning. We slept on the train ride and soon enough we were in Aguas Calientes and checking in to our hotel for the night.</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Cuzco</string>
+		<key>Country</key>
+		<string>Peru</string>
+		<key>Latitude</key>
+		<real>-13.257350000000001</real>
+		<key>Longitude</key>
+		<real>-72.261719999999997</real>
+		<key>Region</key>
+		<dict>
+			<key>Center</key>
+			<dict>
+				<key>Latitude</key>
+				<real>-13.262178919510252</real>
+				<key>Longitude</key>
+				<real>-72.156951925697825</real>
+			</dict>
+			<key>Radius</key>
+			<real>300532.63220572809</real>
+		</dict>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Ollantaytambo</string>
+		<string>Peru</string>
+		<string>Preamble</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Lima</string>
+	<key>UUID</key>
+	<string>D0B83B4110494FFEBDB2C86CF8CF1231</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>19</string>
+		<key>Description</key>
+		<string>Partly Cloudy</string>
+		<key>Fahrenheit</key>
+		<string>66</string>
+		<key>IconName</key>
+		<string>fair.png</string>
+		<key>Pressure MB</key>
+		<integer>1024</integer>
+		<key>Relative Humidity</key>
+		<integer>35</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2014-02-03T10:42:02Z</date>
+		<key>Sunset Date</key>
+		<date>2014-02-03T23:21:28Z</date>
+		<key>Wind Bearing</key>
+		<integer>280</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>19</integer>
+		<key>Wind Speed KPH</key>
+		<integer>26</integer>
+	</dict>
+</dict>
+</plist>

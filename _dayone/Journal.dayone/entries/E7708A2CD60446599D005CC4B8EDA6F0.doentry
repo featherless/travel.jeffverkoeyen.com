@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-02-06T18:04:21Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-02-06T18:04:21Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Back in Cusco for two nights before we head off to Bolivia!
+
+The first night was mostly spent getting settled in to Pariwana and then a late night adventure trying to find decent food.
+
+The next day we caught up on life debt stuff: doing laundry, uploading all of the photos to the blog, and eating tasty noms.
+
+The day we left we sent almost 6kgs of stuff back home for a whopping $80, zoinks! We bought bus tickets on Cruz del Sur to Puno on the overnight bus that should arrive at about 4:30am.</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Cuzco</string>
+		<key>Country</key>
+		<string>Peru</string>
+		<key>Latitude</key>
+		<real>-13.518821666666666</real>
+		<key>Locality</key>
+		<string>Cusco</string>
+		<key>Longitude</key>
+		<real>-71.98075</real>
+		<key>Place Name</key>
+		<string>Marqués</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Peru</string>
+		<string>Preamble</string>
+		<string>Cusco Post-Mapi</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Lima</string>
+	<key>UUID</key>
+	<string>E7708A2CD60446599D005CC4B8EDA6F0</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>14</string>
+		<key>Description</key>
+		<string>Showers Nearby</string>
+		<key>Fahrenheit</key>
+		<string>57</string>
+		<key>IconName</key>
+		<string>pcloudy.png</string>
+		<key>Pressure MB</key>
+		<integer>1027</integer>
+		<key>Relative Humidity</key>
+		<integer>63</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2014-02-06T10:43:14Z</date>
+		<key>Sunset Date</key>
+		<date>2014-02-06T23:20:43Z</date>
+		<key>Visibility KM</key>
+		<integer>9</integer>
+		<key>Wind Bearing</key>
+		<integer>90</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>14</integer>
+		<key>Wind Speed KPH</key>
+		<integer>13</integer>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-03-15T06:07:17Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-03-16T04:33:03Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.1</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.13</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Pension Ahitea Lodge
+
+Where we stayed for the night in Pape'ete.</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>French Polynesia</string>
+		<key>Country</key>
+		<string>French Polynesia</string>
+		<key>Latitude</key>
+		<real>-17.533055000000001</real>
+		<key>Locality</key>
+		<string>Papeete</string>
+		<key>Longitude</key>
+		<real>-149.56155333333334</real>
+		<key>Place Name</key>
+		<string>Avenue du Chef Vairaatoa</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Papeete</string>
+		<string>French Polynesia</string>
+		<string>Hotels</string>
+	</array>
+	<key>Time Zone</key>
+	<string>Pacific/Tahiti</string>
+	<key>UUID</key>
+	<string>7A5C4FBB886C4BE1A162BDA73F9AC69E</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>24</string>
+		<key>Description</key>
+		<string>Rain</string>
+		<key>Fahrenheit</key>
+		<string>75</string>
+		<key>IconName</key>
+		<string>rainn.png</string>
+		<key>Pressure MB</key>
+		<integer>1008</integer>
+		<key>Relative Humidity</key>
+		<integer>94</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2014-03-14T16:01:18Z</date>
+		<key>Sunset Date</key>
+		<date>2014-03-15T04:13:19Z</date>
+		<key>Visibility KM</key>
+		<integer>9</integer>
+		<key>Wind Bearing</key>
+		<integer>90</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>24</integer>
+		<key>Wind Speed KPH</key>
+		<integer>15</integer>
+	</dict>
+</dict>
+</plist>

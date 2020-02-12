@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-05-15T09:24:56Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>Macintosh/MacBookAir4,1</string>
+		<key>Generation Date</key>
+		<date>2014-05-16T06:24:56Z</date>
+		<key>Host Name</key>
+		<string>Jeff’s MacBook Air</string>
+		<key>OS Agent</key>
+		<string>Mac OS X/10.9.2</string>
+		<key>Software Agent</key>
+		<string>Day One Mac/1.9.3</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Day In
+
+Stayed in and rested for the day while my wounds from the scooter incident the day before healed.
+
+Foot is swollen for unknown reasons - hoping I didn't break anything in it!</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Bali</string>
+		<key>Country</key>
+		<string>Indonesia</string>
+		<key>Latitude</key>
+		<real>-8.6418943405151332</real>
+		<key>Locality</key>
+		<string>Badung</string>
+		<key>Longitude</key>
+		<real>115.13720703124996</real>
+		<key>Place Name</key>
+		<string>Jalan Pura Blulan Yeh</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Indonesia</string>
+		<string>Bali</string>
+		<string>Canggu</string>
+	</array>
+	<key>Time Zone</key>
+	<string>Asia/Makassar</string>
+	<key>UUID</key>
+	<string>69ACAC383AD14E6DA828879038CC9EAA</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>29</string>
+		<key>Description</key>
+		<string>Mostly Sunny</string>
+		<key>Fahrenheit</key>
+		<string>84</string>
+		<key>IconName</key>
+		<string>fair.png</string>
+		<key>Pressure MB</key>
+		<integer>1007</integer>
+		<key>Relative Humidity</key>
+		<integer>79</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2014-05-14T22:24:06Z</date>
+		<key>Sunset Date</key>
+		<date>2014-05-15T10:07:15Z</date>
+		<key>Wind Bearing</key>
+		<integer>130</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>29</integer>
+		<key>Wind Speed KPH</key>
+		<integer>11</integer>
+	</dict>
+</dict>
+</plist>

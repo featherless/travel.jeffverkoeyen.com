@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Activity</key>
+	<string>Automotive</string>
+	<key>Creation Date</key>
+	<date>2014-02-14T00:07:26Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-02-14T00:07:26Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Bussing from La Paz to Sucre
+
+| Time|Location
+|--------:|:-----------|
+| 7:10PM | Left our hotel, walking, to the bus terminal.
+| 7:30PM | At the terminal.
+| 8:00PM | And we're off.
+| 8:30PM | At some bus terminal/entropy pit.
+| 8:45PM | And off again. Slowly.
+| 2:00AM | Bathroom stop.
+| 2:20AM | Off again.
+| 8:30AM | Arrived in Sucre.
+| 10:00AM | Checked in to a hostel.
+
+| Totals | Totals
+|--------:|:---------|
+| Total bus time | 11:55</string>
+	<key>Location</key>
+	<dict>
+		<key>Latitude</key>
+		<real>-16.483322543345395</real>
+		<key>Longitude</key>
+		<real>-68.147635746907241</real>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>La Paz</string>
+		<string>Bolivia</string>
+		<string>Sucre</string>
+		<string>Bussing</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/La_Paz</string>
+	<key>UUID</key>
+	<string>4841AC3D0A7C44569A67470AF08F3A05</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>9</string>
+		<key>Description</key>
+		<string>Mostly Cloudy</string>
+		<key>Fahrenheit</key>
+		<string>48</string>
+		<key>IconName</key>
+		<string>mcloudyn.png</string>
+		<key>Pressure MB</key>
+		<integer>1035</integer>
+		<key>Relative Humidity</key>
+		<integer>87</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2014-02-13T10:27:28Z</date>
+		<key>Sunset Date</key>
+		<date>2014-02-13T23:06:11Z</date>
+		<key>Wind Bearing</key>
+		<integer>90</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>6</integer>
+		<key>Wind Speed KPH</key>
+		<integer>22</integer>
+	</dict>
+</dict>
+</plist>

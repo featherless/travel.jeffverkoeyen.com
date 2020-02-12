@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Activity</key>
+	<string>Walking</string>
+	<key>Creation Date</key>
+	<date>2014-01-13T14:44:55Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-01-14T16:26:12Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Head of the Volcano Trail
+
+Our hike/run through these volcanoes was filled with gorgeous views of the island and the massive crater created by one of the world's largest volcanoes.
+
+We sadly didn't learn much about the geology of the volcanoes because our guide insisted on running along the entire trail, often spreading the group thin along the trail. On the way back I thought this kinda worked in our favor because we were able to get lost finding our way. Apparently this was pretty dangerous because of the number of massive hollow caverns created by the flowing lava. Thankfully we didn't find any!</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Galapagos</string>
+		<key>Country</key>
+		<string>Ecuador</string>
+		<key>Latitude</key>
+		<real>-0.63092499999999996</real>
+		<key>Locality</key>
+		<string>Isabela</string>
+		<key>Longitude</key>
+		<real>-90.363511299999999</real>
+		<key>Region</key>
+		<dict>
+			<key>Center</key>
+			<dict>
+				<key>Latitude</key>
+				<real>-0.3937642754528099</real>
+				<key>Longitude</key>
+				<real>-90.450402226739101</real>
+			</dict>
+			<key>Radius</key>
+			<real>175441.79656607116</real>
+		</dict>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Ecuador</string>
+		<string>Galapagos Islands</string>
+		<string>Isla Isabella</string>
+	</array>
+	<key>Time Zone</key>
+	<string>Pacific/Galapagos</string>
+	<key>UUID</key>
+	<string>E3E7946990284424AC3BAAA1AD797B25</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>26</string>
+		<key>Description</key>
+		<string>Partly Cloudy</string>
+		<key>Fahrenheit</key>
+		<string>79</string>
+		<key>IconName</key>
+		<string>pcloudy.png</string>
+		<key>Pressure MB</key>
+		<real>1011.73</real>
+		<key>Relative Humidity</key>
+		<real>70</real>
+		<key>Service</key>
+		<string>Forecast.io</string>
+		<key>Visibility KM</key>
+		<real>11.41</real>
+		<key>Wind Bearing</key>
+		<integer>181</integer>
+		<key>Wind Speed KPH</key>
+		<real>16.91</real>
+	</dict>
+</dict>
+</plist>

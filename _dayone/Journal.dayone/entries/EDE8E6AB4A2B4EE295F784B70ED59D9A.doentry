@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2013-12-30T19:24:25Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2013-12-30T19:24:25Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>The Cali Zoo
+
+After seeing that the zoo was the number one attraction in Cali we obviously had to make a point to visit it. A quick cab ride from our hostel brought us to the front gates of what turned out to be a very happening place.
+
+Once we paid the (very reasonable) entrance fee, we walked in and started exploring. Overall we were actually delighted to see many animals we hadn't seen before: anteaters, many colorful parrots, iguanas all over the place, plenty of turtles, and pelicans hanging out with the flamingos. There was even a movie theater near the exit that was completely dedicated to leaf cutter ants, complete with synched lighting and scale models of ants in the walls.
+
+We spent about two hours at the zoo overall and had a blast seeing kids getting excited by the monkeys and then getting excited ourselves (like kids).</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Valle</string>
+		<key>Country</key>
+		<string>Colombia</string>
+		<key>Foursquare ID</key>
+		<string>4bb6d3e96edc76b02895311c</string>
+		<key>Latitude</key>
+		<real>3.4483529068515053</real>
+		<key>Locality</key>
+		<string>Cali</string>
+		<key>Longitude</key>
+		<real>-76.558785438537598</real>
+		<key>Place Name</key>
+		<string>Zoológico de Cali</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Zoo</string>
+		<string>Colombia</string>
+		<string>Cali</string>
+		<string>Would recommend</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Bogota</string>
+	<key>UUID</key>
+	<string>EDE8E6AB4A2B4EE295F784B70ED59D9A</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>31</string>
+		<key>Description</key>
+		<string>Partly Cloudy</string>
+		<key>Fahrenheit</key>
+		<string>88</string>
+		<key>IconName</key>
+		<string>fair.png</string>
+		<key>Pressure MB</key>
+		<integer>1010</integer>
+		<key>Relative Humidity</key>
+		<integer>46</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2013-12-30T11:10:49Z</date>
+		<key>Sunset Date</key>
+		<date>2013-12-30T23:06:12Z</date>
+		<key>Wind Bearing</key>
+		<integer>270</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>31</integer>
+		<key>Wind Speed KPH</key>
+		<integer>11</integer>
+	</dict>
+</dict>
+</plist>

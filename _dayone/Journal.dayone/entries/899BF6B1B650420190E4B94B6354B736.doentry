@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-01-17T03:54:17Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>Macintosh/MacBookAir4,1</string>
+		<key>Generation Date</key>
+		<date>2014-01-17T03:54:17Z</date>
+		<key>Host Name</key>
+		<string>Jeff’s MacBook Air</string>
+		<key>OS Agent</key>
+		<string>Mac OS X/10.9.1</string>
+		<key>Software Agent</key>
+		<string>Day One Mac/1.9</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Varazdin, Croatia
+
+From the nyt article [52 Places to Go in 2014](http://www.nytimes.com/interactive/2014/01/10/travel/2014-places-to-go.html):
+
+&gt; Forget Croatia’s beloved coast: The inland city Varazdin is one of the country’s most picturesque and well-preserved areas. One hour north of Zagreb, this small metropolis of 50,000 has an immaculate cobblestoned town center and is stocked with Baroque churches and palaces like the Draskovic. The theme continues with an annual Baroque music festival, but that’s where it ends. Other music-themed festivals and concerts are decidedly modern and change from year to year: One, the Radar Festival, for contemporary stars, has drawn names such as Bob Dylan and Carlos Santana, and various other festivals throughout the year such as [Spancir Fest, ](http://spancirfest.com/)celebrated from the end of August to September, attract artists and musicians from around Europe.</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Galapagos</string>
+		<key>Country</key>
+		<string>Ecuador</string>
+		<key>Latitude</key>
+		<real>-0.90216172567370545</real>
+		<key>Locality</key>
+		<string>San Cristobal</string>
+		<key>Longitude</key>
+		<real>-89.6114964514517</real>
+		<key>Place Name</key>
+		<string>Galapagos National Park</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Croatia</string>
+		<string>Varazdin</string>
+		<string>Travel Planning</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Guatemala</string>
+	<key>UUID</key>
+	<string>899BF6B1B650420190E4B94B6354B736</string>
+</dict>
+</plist>

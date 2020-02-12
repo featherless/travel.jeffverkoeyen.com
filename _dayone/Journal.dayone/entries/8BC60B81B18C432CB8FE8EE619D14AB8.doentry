@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-01-24T20:32:20Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>Macintosh/MacBookAir4,1</string>
+		<key>Generation Date</key>
+		<date>2014-01-24T20:32:20Z</date>
+		<key>Host Name</key>
+		<string>Jeff’s MacBook Air</string>
+		<key>OS Agent</key>
+		<string>Mac OS X/10.9.1</string>
+		<key>Software Agent</key>
+		<string>Day One Mac/1.9.2</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Travel Planning: Ayacucho, Peru
+
+## Do
+
+### Mirador de Ayacucho
+
+From [wikitravel](http://wikitravel.org/en/Ayacucho):
+
+&gt;Between the central market and Santa Clara church, on Jr. Grau, take the No. 15 minibus (1 sol) to the village of Huascura at the top of Picota Mountain (the one with the big illuminated white cross), then ask for directions to the “Mirador de Ayacucho”, take the dirt road uphill from the bus stop about 20 min until you reach the white cross. The view is spectacular. You can walk back down (about 1-1.5 hr) by the stone staircase near the chapel. (You can also take a taxi up for s/8-10)
+
+### Shopping
+
+- High quality wool and alpaca tapestries.
+
+## Sleep
+
+### Hostal Florida
+
+- Jr Cusco 310, ☎ 312 565
+- 50 soles/private
+
+
+## Get from Ayacucho to Andahuaylas by bus
+
+To get there from Ayacucho take a bus (about 4hrs). Bus companies are located around each other:
+Expreso turismo los chankas: pasaje careces 150 or ave mariscal andres avelino caceres 921
+
+Celtur: pasaje careces 174 and bloque Los artesanos sn
+</string>
+	<key>Location</key>
+	<dict>
+		<key>Latitude</key>
+		<real>-12.135920769336387</real>
+		<key>Longitude</key>
+		<real>-77.010067040708748</real>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Peru</string>
+		<string>Ayacucho</string>
+		<string>Travel Planning</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Lima</string>
+	<key>UUID</key>
+	<string>8BC60B81B18C432CB8FE8EE619D14AB8</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>26</string>
+		<key>Description</key>
+		<string>Sunny</string>
+		<key>Fahrenheit</key>
+		<string>79</string>
+		<key>IconName</key>
+		<string>clear.png</string>
+		<key>Pressure MB</key>
+		<integer>1013</integer>
+		<key>Relative Humidity</key>
+		<integer>70</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2014-01-24T11:00:14Z</date>
+		<key>Sunset Date</key>
+		<date>2014-01-24T23:41:08Z</date>
+		<key>Visibility KM</key>
+		<real>11.265408000000001</real>
+		<key>Wind Bearing</key>
+		<integer>170</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>26</integer>
+		<key>Wind Speed KPH</key>
+		<integer>20</integer>
+	</dict>
+</dict>
+</plist>

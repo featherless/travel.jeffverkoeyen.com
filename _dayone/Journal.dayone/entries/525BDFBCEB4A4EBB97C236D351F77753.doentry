@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-02-09T15:59:16Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-02-09T17:00:06Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>The floating islands of Lake Titicaca are definitely a sight to be seen. The locals of Isla Uros built their islands using reeds and dirt and holy crap it take a lot of work. The concept is fairly simple (dirt bottom layer and then criss-crossing layers of reeds stacked one atop another) but they have to continually maintain their islands and every twenty years or so build brand new ones. It makes you wonder why they do it (spoiler: the answer likely largely has to do with tourism).</string>
+	<key>Location</key>
+	<dict>
+		<key>Latitude</key>
+		<real>-15.830867076307378</real>
+		<key>Longitude</key>
+		<real>-69.996220450913526</real>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Isla Uros</string>
+		<string>Peru</string>
+		<string>Preamble</string>
+		<string>Island</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Lima</string>
+	<key>UUID</key>
+	<string>525BDFBCEB4A4EBB97C236D351F77753</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>10</string>
+		<key>Description</key>
+		<string>Drizzle</string>
+		<key>Fahrenheit</key>
+		<string>50</string>
+		<key>IconName</key>
+		<string>rain.png</string>
+		<key>Pressure MB</key>
+		<real>1009.9</real>
+		<key>Relative Humidity</key>
+		<real>57</real>
+		<key>Service</key>
+		<string>Forecast.io</string>
+		<key>Wind Bearing</key>
+		<integer>40</integer>
+		<key>Wind Speed KPH</key>
+		<real>2.6899999999999999</real>
+	</dict>
+</dict>
+</plist>

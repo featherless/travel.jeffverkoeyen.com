@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-01-17T03:50:29Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>Macintosh/MacBookAir4,1</string>
+		<key>Generation Date</key>
+		<date>2014-01-17T03:50:29Z</date>
+		<key>Host Name</key>
+		<string>Jeff’s MacBook Air</string>
+		<key>OS Agent</key>
+		<string>Mac OS X/10.9.1</string>
+		<key>Software Agent</key>
+		<string>Day One Mac/1.9</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Athens, Greece
+
+From the nyt article [52 Places to Go in 2014](http://www.nytimes.com/interactive/2014/01/10/travel/2014-places-to-go.html):
+
+&gt; Vibrancy and innovation can bloom even in hard times. Exhibit A is Greece’s ancient capital, which was hit hard by the global economic crisis and yet is seeing change at sites old and new. First the old: At the Acropolis, the famous Caryatids statues continue to get a restoration in 2014; [the process](http://www.theacropolismuseum.gr/en/content/conserving-caryatids) will be on view in the Acropolis Museum through the end of the year. And the new: The [National Museum of Contemporary Art](http://www.emst.gr/EN/Pages/default_new.aspx) opens this spring in a former brewery complex. Neighborhoods have also seen a resurgence, including the quickly gentrifying Monastiraki and the still gritty Kerameikos-Metaxourgeio; the latter will get a cultural lift in 2015 from the biannual [ReMap](http://remapkm.org/)art event. Travelers will have a new lodging option by summer, when a revived Emporikon Hotel opens on Aiolou, a street that is also home to a host of new dining spots.</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Galapagos</string>
+		<key>Country</key>
+		<string>Ecuador</string>
+		<key>Latitude</key>
+		<real>-0.90216178835520733</real>
+		<key>Locality</key>
+		<string>San Cristobal</string>
+		<key>Longitude</key>
+		<real>-89.611498499938179</real>
+		<key>Place Name</key>
+		<string>Galapagos National Park</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Greece</string>
+		<string>Athens</string>
+		<string>Travel Planning</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Guatemala</string>
+	<key>UUID</key>
+	<string>A5854434718346AFA508586005F47951</string>
+</dict>
+</plist>

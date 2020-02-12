@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-01-17T03:46:26Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>Macintosh/MacBookAir4,1</string>
+		<key>Generation Date</key>
+		<date>2014-01-17T03:46:26Z</date>
+		<key>Host Name</key>
+		<string>Jeff’s MacBook Air</string>
+		<key>OS Agent</key>
+		<string>Mac OS X/10.9.1</string>
+		<key>Software Agent</key>
+		<string>Day One Mac/1.9</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Krabi, Thailand
+
+From the nyt article [52 Places to Go in 2014](http://www.nytimes.com/interactive/2014/01/10/travel/2014-places-to-go.html):
+
+&gt; The southern Thailand town of Krabi lies just a 45-minute boat ride across the Andaman Sea from Phuket. But you can spare yourself the trip to Phuket — plenty of riches lie here, and you don’t have to fight the crowds to enjoy them. Krabi sits next to the [Mu Koh Lanta National Park](http://na.tourismthailand.org/See-and-Do/Sights-and-Attractions-Detail/Mu-Koh-Lanta-National-Park--5432), a prime spot for hiking, rock climbing and elephant trekking. If you do get restless, there are about 130 pristine islands nearby that are ripe for exploration and virtually undeveloped save for a few ancient monasteries. And Krabi, which used to have few options for accommodations and was hard to get to, is now more tourist-friendly. A number of hotels have opened in recent years, including [Phulay Bay,](http://www.ritzcarlton.com/en/Reserve/Default.htm) a Ritz-Carlton property. A marina,[ Port Takola, ](http://porttakola.com/)is in the works and will be home to restaurants, night life and shopping, and a new terminal that has opened at Krabi Airport means that there are more flights to and from this gem.</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Galapagos</string>
+		<key>Country</key>
+		<string>Ecuador</string>
+		<key>Latitude</key>
+		<real>-0.90221882371324569</real>
+		<key>Locality</key>
+		<string>San Cristobal</string>
+		<key>Longitude</key>
+		<real>-89.611489946583092</real>
+		<key>Place Name</key>
+		<string>Galapagos National Park</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Krabi</string>
+		<string>Travel Planning</string>
+		<string>Thailand</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Guatemala</string>
+	<key>UUID</key>
+	<string>E492340E54254F0F9CB0EEF002BE8D58</string>
+</dict>
+</plist>

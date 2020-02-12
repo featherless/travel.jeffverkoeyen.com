@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-01-05T01:56:50Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-01-05T01:56:50Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Community Hostel
+
+We arrived at Community Hostel after a long day of travel. It's a couple flights of stairs up on the third floor and we nearly died climbing them: definitely noticing the altitude!
+
+The staff and people here were super friendly and we really loved our stay here overall. The neighbourhood that the hostel is located in doesn’t feel the safest overall, but it’s super close to the red line bus making it a pretty good location for getting around.</string>
+	<key>Location</key>
+	<dict>
+		<key>Country</key>
+		<string>Ecuador</string>
+		<key>Foursquare ID</key>
+		<string>5101ed41e4b01e6ed29388e2</string>
+		<key>Latitude</key>
+		<real>-0.22102829813957214</real>
+		<key>Longitude</key>
+		<real>-78.507186889648438</real>
+		<key>Place Name</key>
+		<string>Community Hostel</string>
+	</dict>
+	<key>Starred</key>
+	<true/>
+	<key>Tags</key>
+	<array>
+		<string>Quito</string>
+		<string>Mind blown</string>
+		<string>Hostels</string>
+		<string>Ecuador</string>
+		<string>Lodging</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Guayaquil</string>
+	<key>UUID</key>
+	<string>12FA7A1203084CD89FC36A460495809F</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>15</string>
+		<key>Description</key>
+		<string>Mostly Cloudy</string>
+		<key>Fahrenheit</key>
+		<string>59</string>
+		<key>IconName</key>
+		<string>cloudyn.png</string>
+		<key>Relative Humidity</key>
+		<real>76</real>
+		<key>Service</key>
+		<string>Forecast.io</string>
+		<key>Visibility KM</key>
+		<real>13.359999999999999</real>
+		<key>Wind Bearing</key>
+		<integer>319</integer>
+		<key>Wind Speed KPH</key>
+		<real>7.6900000000000004</real>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Activity</key>
+	<string>Automotive</string>
+	<key>Creation Date</key>
+	<date>2014-05-31T06:57:23Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-05-31T06:57:23Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.1</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.14</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Boating back to Bali
+
+Just left. Arrived at 5:08PM. 5:35PM on our way to Kuta in a shuttle.</string>
+	<key>Location</key>
+	<dict>
+		<key>Latitude</key>
+		<real>-8.3532239450219574</real>
+		<key>Longitude</key>
+		<real>116.04396429855008</real>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Gili T</string>
+		<string>Indonesia</string>
+		<string>Bali</string>
+		<string>Boating</string>
+		<string>WWDC 2014</string>
+	</array>
+	<key>Time Zone</key>
+	<string>Asia/Makassar</string>
+	<key>UUID</key>
+	<string>05CDCF9112C94DB0AA508C8FAEFA9FB4</string>
+</dict>
+</plist>

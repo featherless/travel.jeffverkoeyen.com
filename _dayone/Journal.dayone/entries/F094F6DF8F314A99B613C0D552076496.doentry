@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2013-11-16T02:00:00Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2013-11-26T17:00:13Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Bahia del Sol
+
+What a surprise this was! From the moment I set foot in Bahia del Sol's ocean-view room I knew it was going to be an unforgettable stay.
+
+The first thing you notice when entering the ocean-front room is the enormous draped bed. From there your eyes sweep to the balcony complete with outdoor shower and jacuzzi, both adjacent to a hammock and reclining chairs for watching the sun set over the water. This place is right out of a romance novel.
+
+To top it off, the owners - Jack and Lee - are the most heart-warming people I've had the privilege of meeting thus far on my travels. They happily sat with us on the porch as the water lazily lapped against the docks and shot the breeze as they shared stories of lives-well-lived and curiously explored our own adventures.
+
+After sleeping in the next morning until noon, we were completely surprised to find that Jack had left portions of the morning breakfast aside for us! We were delighted to enjoy delicious eggs and sausage with slices of fresh fruit and tea. Jack's thoughtfulness was wonderfully appreciated after Laurence's long multi-day trek from Montreal.
+
+We left Bahia del Sol reluctantly, though relaxed and rejuvenated, and fully intend to return may our paths take us through Bocas del Toro again.
+
+&gt; For booking Bahia del Sol I highly recommend doing so directly through [the Bahia del Sol website](http://www.bocasbahiadelsol.com/) as it will allow Jack and Lee to contact you directly in the event of any changes to their bookings. Photos are from [Bahia del Sol's photo album](http://www.bocasbahiadelsol.com/photos).</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Panama</string>
+		<key>Country</key>
+		<string>Panama</string>
+		<key>Foursquare ID</key>
+		<string>4c8ffc2f5fdf6dcb9fef2c91</string>
+		<key>Latitude</key>
+		<real>9.3363951775077734</real>
+		<key>Locality</key>
+		<string>Bocas del Toro</string>
+		<key>Longitude</key>
+		<real>-82.241420745849609</real>
+		<key>Place Name</key>
+		<string>Bahia Del Sol Hotel</string>
+	</dict>
+	<key>Starred</key>
+	<true/>
+	<key>Tags</key>
+	<array>
+		<string>Mind blown</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Costa_Rica</string>
+	<key>UUID</key>
+	<string>F094F6DF8F314A99B613C0D552076496</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>26</string>
+		<key>Description</key>
+		<string>Partly Cloudy</string>
+		<key>Fahrenheit</key>
+		<string>80</string>
+		<key>IconName</key>
+		<string>cloudyn.png</string>
+		<key>Pressure MB</key>
+		<real>1007.46</real>
+		<key>Relative Humidity</key>
+		<real>76</real>
+		<key>Service</key>
+		<string>Forecast.io</string>
+		<key>Visibility KM</key>
+		<real>14.56</real>
+		<key>Wind Bearing</key>
+		<integer>279</integer>
+		<key>Wind Speed KPH</key>
+		<real>9.6099999999999994</real>
+	</dict>
+</dict>
+</plist>

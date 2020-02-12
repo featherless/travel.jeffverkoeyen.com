@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-01-17T03:53:14Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>Macintosh/MacBookAir4,1</string>
+		<key>Generation Date</key>
+		<date>2014-01-17T03:53:14Z</date>
+		<key>Host Name</key>
+		<string>Jeff’s MacBook Air</string>
+		<key>OS Agent</key>
+		<string>Mac OS X/10.9.1</string>
+		<key>Software Agent</key>
+		<string>Day One Mac/1.9</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Vienna, Austria
+
+From the nyt article [52 Places to Go in 2014](http://www.nytimes.com/interactive/2014/01/10/travel/2014-places-to-go.html):
+
+&gt; Vienna is home to [some 450 balls each year,](http://www.wien.info/en/music-stage-shows/dance/ball-season) from traditional waltzes to the “seriously outlandish” [Rosenball](http://www.rosenball.eu/) for the gay community, and this year is the 200th anniversary since the city’s ball culture took root. You could mark the occasion by attending one, but it wouldn’t be the only date to celebrate in the capital city this year. Visitors can pay homage at the[Sigmund Freud Museum](http://www.freud-museum.at/cms/) since it has been 75 years since the psychoanalyst’s death. The city is also commemorating the 100th anniversary of World War I with [special exhibits](http://www.wien.info/en/sightseeing/museums-exhibitions/world-war-one) and the[European Peace Walk](http://www.peacewalk.eu/), a permanent route from Vienna to Trieste through five countries. There are also new art spaces, a new transportation hub, more direct flights from the United States and offbeat places to stay, like [Urbanauts’](http://www.urbanauts.at/en/) former storefronts or [Chez Cliché’s](http://www.chez-cliche.at/index-en.html) themed apartments, with décor inspired by fictional hosts, such as Marie Therese, who loves Baroque furnishings and classical music.</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Galapagos</string>
+		<key>Country</key>
+		<string>Ecuador</string>
+		<key>Latitude</key>
+		<real>-0.90221949777046384</real>
+		<key>Locality</key>
+		<string>San Cristobal</string>
+		<key>Longitude</key>
+		<real>-89.61149339011078</real>
+		<key>Place Name</key>
+		<string>Galapagos National Park</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Vienna</string>
+		<string>Austria</string>
+		<string>Travel Planning</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Guatemala</string>
+	<key>UUID</key>
+	<string>61EEC4165DE94123B2C8D2445D2EA50A</string>
+</dict>
+</plist>

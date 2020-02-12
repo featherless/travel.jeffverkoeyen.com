@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-05-05T05:39:16Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-05-05T05:39:16Z</date>
+		<key>Host Name</key>
+		<string>Laurence's iPhone</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>The Maldives
+
+1,190 Islands: resorts islands, inhabited islands, uninhabited islands.
+Wet season: april to November but still 8hrs of sunlight a day and rain at night.
+Moderate Sunni Muslim nation so fairly conservative. Women bathe fully clothed. Maafushi and other islands there are guesthouses' private beaches where bikinis are allowed
+Alcohol, pork and skimpy swimwear are illegal on inhabited islands and permitted on resort islands.
+Ferry between island $1-5.
+Maafushi is popular with backpackers. Daily ferry from Male except Fridays. Guesthouse owners offer day trips to resorts islands for $27 a day pass.
+Malé main island has overnight ferries to farther-flung atolls.
+&lt;ale and Ari Atoll most popular, whoch includes Maafushi, Guraidhoo, Himmafushi, and Thulusdhoo.
+Ferry is Male centric but you can hitch a ride with fishing or cargo boat.
+Guethouses-in-maldives.com.
+Dhangethi is an emerging backpackers destination. 
+Holiday house Dhangethi: $21 windsurfing, $63 diving trip, 
+Maafushi Dive center: 3-day dive trip with equip $52-$58.
+One of the worlds best diving destination with 2,000 soecies of tropical fishes and whale sharks, manta rays, moray eels, and reefs sharks.
+Shore dives to explore islands "house reef". Thilas are under water islands.
+Guraidhoo has islandway guesthouse offering cooking classes by the republic's only native-nprn female head chef.
+Dhangethi and Rasdhoo are the best according to a woman who traveled between islands.
+you can get breakfast (mas'huni roshi, a roshi, tortilla, with tuna, coconut, chili and lime) for $1-$2. Mild fish curries and hedikas (fired tapas) are traditional.
+
+Restaurants:
+ - Dhivehi Malaafaiy cafe in Rahdhebai Magu, the capital: authentive maldivian.
+ - Yellow Rehendhi Inn on the beach in Maafushi has cheap sri lankan kottu roti.
+ - New point cafe in Himmafushi servers hedika.
+
+
+(From the TigerAir inflight magazine May 2014)</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>QLD</string>
+		<key>Country</key>
+		<string>Australia</string>
+		<key>Latitude</key>
+		<real>-16.924801804618841</real>
+		<key>Locality</key>
+		<string>Parramatta Park</string>
+		<key>Longitude</key>
+		<real>145.76896119951692</real>
+		<key>Place Name</key>
+		<string>4 Terminus Street</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Travel Planning</string>
+		<string>Maldives</string>
+	</array>
+	<key>Time Zone</key>
+	<string>Australia/Brisbane</string>
+	<key>UUID</key>
+	<string>A69A7E8D1E76454FB536FB3F5FFF7844</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>26</string>
+		<key>Description</key>
+		<string>Mostly Sunny</string>
+		<key>Fahrenheit</key>
+		<string>79</string>
+		<key>IconName</key>
+		<string>fair.png</string>
+		<key>Pressure MB</key>
+		<integer>1016</integer>
+		<key>Relative Humidity</key>
+		<integer>45</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2014-05-04T20:30:16Z</date>
+		<key>Sunset Date</key>
+		<date>2014-05-05T07:57:11Z</date>
+		<key>Wind Bearing</key>
+		<integer>130</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>26</integer>
+		<key>Wind Speed KPH</key>
+		<integer>24</integer>
+	</dict>
+</dict>
+</plist>

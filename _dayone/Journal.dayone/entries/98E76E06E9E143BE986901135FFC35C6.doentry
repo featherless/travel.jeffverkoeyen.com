@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-01-17T03:26:58Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>Macintosh/MacBookAir4,1</string>
+		<key>Generation Date</key>
+		<date>2014-01-17T03:26:58Z</date>
+		<key>Host Name</key>
+		<string>Jeff’s MacBook Air</string>
+		<key>OS Agent</key>
+		<string>Mac OS X/10.9.1</string>
+		<key>Software Agent</key>
+		<string>Day One Mac/1.9</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Taiwan
+
+From the nyt article [52 Places to Go in 2014](http://www.nytimes.com/interactive/2014/01/10/travel/2014-places-to-go.html):
+
+&gt; The traveler who wants to do it all should consider Taiwan. This island, roughly the size of the Netherlands, has an easy-to-navigate public transport network that links a cosmopolitan capital with a bounty of natural and man-made wonders. Taipei, whose robust art scene recently earned its selection as the [World Design Capital for 2016](http://www.icsid.org/news/year/2013_news/articles1784.htm), will soon have more places to lay your head: In the coming months the [Mandarin Oriental](http://www.mandarinoriental.com/taipei/hotel/)and a boutique hotel from the homegrown bookstore chain Eslite will join the recent arrivals [Le Meridien](http://www.starwoodhotels.com/lemeridien/property/overview/index.html?propertyID=3385&amp;EM=VTY_MD_3385_TAIPEI_PROP_OVERVIEW&amp;language=en_US) and [W](http://www.wtaipei.com/). All of these should be a convenient base from which to do some sightseeing on 17 bike trails along the shores of Taipei’s many rivers and inlets or to take a foray into the city’s vibrant street food scene with a nightcap at the reservations-only bespoke bar Alchemy, which opened in 2012 to much acclaim. Four hours south by high-speed rail and bus, 70-square-mile [Kenting National Park](http://www.ktnp.gov.tw/eng/album.aspx) is home to wetlands, white sands, fishing villages and, starting this year, a ferry point for the deep sea fishing and diving paradise of Orchid Island. Up north in Keelung, a new[National Museum of Marine Science and Technology](http://www.nmmst.gov.tw/enhtml/content/265/1/1397) opens this month, part of a revitalization project at Badouzi Harbor, which is linked to nearby headlands by color-coded walking routes. And it all becomes cheaper to get to later this year, with the launch of budget carriers from China Airlines and TransAsia Airways.</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Galapagos</string>
+		<key>Country</key>
+		<string>Ecuador</string>
+		<key>Latitude</key>
+		<real>-0.90215990443460825</real>
+		<key>Locality</key>
+		<string>San Cristobal</string>
+		<key>Longitude</key>
+		<real>-89.611494705631088</real>
+		<key>Place Name</key>
+		<string>Galapagos National Park</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Travel Planning</string>
+		<string>Taiwan</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Guatemala</string>
+	<key>UUID</key>
+	<string>98E76E06E9E143BE986901135FFC35C6</string>
+</dict>
+</plist>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Activity</key>
+	<string>Eating</string>
+	<key>Creation Date</key>
+	<date>2013-11-27T17:29:57Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2013-11-27T17:29:57Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Bread and Chocolate
+
+This restaurant should not be skipped on a visit to Puerto Viejo. Just off the main road, it's easy to miss. Don't be afraid to ask for directions. You'll be delighted to have found it once you take your first bite.
+
+We've had two meals there so far and are planning a third before we leave Puerto Viejo.
+
+Our first meal was a breakfast (which they serve all day!) that had us reeling at their cinnamon and oatmeal-infused pancakes drizzled with home-made melted chocolate. And though they sound simple, their scrambled eggs are another must-try.
+
+That same day we went back for more! For dinner we had their sandwiches, the jerk chicken sandwich notably being absolutely scrumptious. We walked away content and with a slice of chocolate cake in tow.</string>
+	<key>Location</key>
+	<dict>
+		<key>Country</key>
+		<string>Costa Rica</string>
+		<key>Foursquare ID</key>
+		<string>4c2b78ba2219c92863a2a448</string>
+		<key>Latitude</key>
+		<real>9.6564680000000003</real>
+		<key>Longitude</key>
+		<real>-82.753816999999998</real>
+		<key>Place Name</key>
+		<string>Bread and Chocolate</string>
+	</dict>
+	<key>Starred</key>
+	<true/>
+	<key>Tags</key>
+	<array>
+		<string>Puerto Viejo</string>
+		<string>Restaurants</string>
+		<string>Costa rica</string>
+		<string>Mind blown</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Costa_Rica</string>
+	<key>UUID</key>
+	<string>A6C22919AE294A8A8FB928300949708C</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>29</string>
+		<key>Description</key>
+		<string>Mostly Cloudy</string>
+		<key>Fahrenheit</key>
+		<string>84</string>
+		<key>IconName</key>
+		<string>mcloudy.png</string>
+		<key>Relative Humidity</key>
+		<integer>66</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2013-11-27T11:32:11Z</date>
+		<key>Sunset Date</key>
+		<date>2013-11-27T23:08:05Z</date>
+		<key>Wind Bearing</key>
+		<integer>330</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>29</integer>
+		<key>Wind Speed KPH</key>
+		<integer>7</integer>
+	</dict>
+</dict>
+</plist>

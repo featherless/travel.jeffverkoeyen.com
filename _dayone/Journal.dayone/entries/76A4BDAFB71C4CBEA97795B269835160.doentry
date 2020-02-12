@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2013-12-28T17:00:00Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2013-12-30T16:18:39Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Casa Blanca
+
+A hostel off the beaten track. Half-decent rooms that get incredibly warm at night. Filthy showers with no hot water.
+
+My [tripadvisor review](http://www.tripadvisor.com/ShowUserReviews-g297475-d1599599-r189024197-Casa_Blanca_Hostel-Cali_Valle_del_Cauca_Department.html#REVIEWS):
+
+&gt; We (three) stayed here for two nights in one of the private rooms. The staff were generally nice when we checked in and throughout our stay. We chose the private room upstairs because it had a lot of light and a big window.
+&gt;
+&gt; The room had A/C though it would have been fine to have a fan in the room.
+&gt;
+&gt; The showers were advertised to have hot water but any time we took a shower the water was glacier cold. Turns out there is one shower that has hot water, but any time we used it the hot water would disappear within seconds. The bathrooms were also completely filthy any time we used them. Asking the staff about this we were told simply that we should "use the shower with hot water in it". This proved quite difficult given that this hostel can have 30 people in it and only one working shower.
+&gt;
+&gt; The location is also far from the more happening streets in the city, so be prepared for a walk or cab to any clubs or restaurants.</string>
+	<key>Location</key>
+	<dict>
+		<key>Country</key>
+		<string>Colombia</string>
+		<key>Foursquare ID</key>
+		<string>4dd68e072271c5d36d24c723</string>
+		<key>Latitude</key>
+		<real>3.4690989999999999</real>
+		<key>Longitude</key>
+		<real>-76.529605000000004</real>
+		<key>Place Name</key>
+		<string>Casa Blanca Hostal</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Hostels</string>
+		<string>Colombia</string>
+		<string>Cali</string>
+		<string>Would not go back</string>
+		<string>Lodging</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Bogota</string>
+	<key>UUID</key>
+	<string>76A4BDAFB71C4CBEA97795B269835160</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>29</string>
+		<key>Description</key>
+		<string>Partly Cloudy</string>
+		<key>Fahrenheit</key>
+		<string>84</string>
+		<key>IconName</key>
+		<string>fair.png</string>
+		<key>Pressure MB</key>
+		<integer>1014</integer>
+		<key>Relative Humidity</key>
+		<integer>58</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2013-12-28T11:09:53Z</date>
+		<key>Sunset Date</key>
+		<date>2013-12-28T23:05:12Z</date>
+		<key>Visibility KM</key>
+		<integer>9</integer>
+		<key>Wind Bearing</key>
+		<integer>0</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>29</integer>
+		<key>Wind Speed KPH</key>
+		<integer>4</integer>
+	</dict>
+</dict>
+</plist>

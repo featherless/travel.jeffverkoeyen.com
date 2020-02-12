@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Activity</key>
+	<string>Biking</string>
+	<key>Creation Date</key>
+	<date>2013-11-29T21:00:52Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2013-11-29T21:00:52Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Geocaching the Caribbean
+
+Well that was certainly an adventure!
+
+We set out to find three [geocaches](http://www.geocaching.com) along the way to Manzanillo from Puerto Viejo. Given the distance we'd have to travel (16km) we rented bikes from a shop in Puerto Viejo for $4 each from 3-6pm.
+
+The first two caches ([GC4R70Q](http://coord.info/GC4R70Q) and [GC4R71A](http://coord.info/GC4R71A)) were a breeze, with gorgeous views of the Caribbean and short hikes.
+
+The third cache ([GC4R710](http://coord.info/GC4R710)) was the farthest one out at 8km, and it was already starting to get dark. This cache led us through a small neighborhood and then ended at a beach where a path clearly forked off into the jungle. We locked the bikes and began our trek!
+
+The path was narrow and covered in brush, making it feel like we were explorers discovering an ancient path through the jungle. Along the way we found the apparent grave of the last pirate of the Carrrrribbean! After much clambering and sliding up and down muddy jungle trails we emerged on a gorgeous view of the ocean with powerful waves rocking the cliff face below us. It was like a moment from a movie :)
+
+It started getting dark and we couldn't find the cache, so we decided to call it a loss and head back. On the way, my bike started making weird clanking noises and at one point locked up. Thinking it temporary I continued pedaling, only to be rewarded with the chain falling off!
+
+Ten minutes and many curses later, the fixed-gear bike's chain was operational again, so it decided to commit seppuku by wrapping the front mud guard around the tire, completely destroying the wheel in the process.
+
+So, 8km away from town, on a road with few streetlights through a jungle forest under rapidly-diminishing daylight, we started walking with the bike by wheelying it on its back tire. Couldn't get any worse, right?
+
+Again, as though right out of a movie, it started to torrentially downpour. Giant tropical rain drops began pouring down. Thankfully at this point Laurence had the sense to suggest we ditch the bike and ride the good one back together. We locked up the deceased bipedal on the side of the road and rode the survivor back as fast as we could manage (Burning Man training on my fixed-gear helped tremendously here).
+
+We arrived in Puerto Viejo with ten minutes to spare but not a dry spot on our bodies or clothes. Thankfully the people at the bike rental shop were tremendously understanding and gave Laurence her ID back and started making calls to pick up the bike.
+
+A quick walk home and a shower later, we high-fived to a successful, though soggy, adventure.</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Limon</string>
+		<key>Country</key>
+		<string>Costa Rica</string>
+		<key>Latitude</key>
+		<real>9.4191509999999994</real>
+		<key>Locality</key>
+		<string>Talamanca</string>
+		<key>Longitude</key>
+		<real>-83.203695800000006</real>
+		<key>Region</key>
+		<dict>
+			<key>Center</key>
+			<dict>
+				<key>Latitude</key>
+				<real>9.419151000132814</real>
+				<key>Longitude</key>
+				<real>-83.02084795252091</real>
+			</dict>
+			<key>Radius</key>
+			<real>64046.755751766388</real>
+		</dict>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Geocaching</string>
+		<string>Costa rica</string>
+		<string>Puerto Viejo</string>
+		<string>Would recommend</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Costa_Rica</string>
+	<key>UUID</key>
+	<string>B120C7DAB5A14A0CA23AC57E7600F7AC</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>28</string>
+		<key>Description</key>
+		<string>Sunny</string>
+		<key>Fahrenheit</key>
+		<string>82</string>
+		<key>IconName</key>
+		<string>clear.png</string>
+		<key>Pressure MB</key>
+		<integer>1011</integer>
+		<key>Relative Humidity</key>
+		<integer>74</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2013-11-29T11:33:09Z</date>
+		<key>Sunset Date</key>
+		<date>2013-11-29T23:08:32Z</date>
+		<key>Visibility KM</key>
+		<real>11.265408000000001</real>
+		<key>Wind Bearing</key>
+		<integer>260</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>28</integer>
+		<key>Wind Speed KPH</key>
+		<integer>9</integer>
+	</dict>
+</dict>
+</plist>

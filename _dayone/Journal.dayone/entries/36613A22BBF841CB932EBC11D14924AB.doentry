@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Activity</key>
+	<string>Walking</string>
+	<key>Creation Date</key>
+	<date>2013-12-04T00:02:42Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2013-12-04T00:02:42Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Climbing up the Ficus Trees
+
+This was a ton of fun! Ficus trees are completely hollow inside because of the way they grow (see the wikipedia snippet below). Because of this, you can climb all the way to the top through the center like a ladder. It was too dark to climb by the time we found one so we'll be coming back on a clear day.
+
+These trees are intense. As per [Wikipedia](http://en.m.wikipedia.org/wiki/Ficus_aurea):
+
+&gt; Ficus aurea is a strangler fig. In figs of this type, seed germination usually takes place in the canopy of a host tree with the seedling living as an epiphyte until its roots establish contact with the ground, after which it enlarges and strangles its host, eventually becoming a freestanding tree in its own right. Individuals may reach 30 m (100 ft) in height.</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Puntarenas</string>
+		<key>Country</key>
+		<string>Costa Rica</string>
+		<key>Latitude</key>
+		<real>9.7818205000000003</real>
+		<key>Longitude</key>
+		<real>-85.056094599999994</real>
+		<key>Region</key>
+		<dict>
+			<key>Center</key>
+			<dict>
+				<key>Latitude</key>
+				<real>9.1849140838793701</real>
+				<key>Longitude</key>
+				<real>-83.994747202690746</real>
+			</dict>
+			<key>Radius</key>
+			<real>189736.70769061192</real>
+		</dict>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Monteverde</string>
+		<string>Costa rica</string>
+		<string>Hikes</string>
+		<string>Would recommend</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Costa_Rica</string>
+	<key>UUID</key>
+	<string>36613A22BBF841CB932EBC11D14924AB</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>22</string>
+		<key>Description</key>
+		<string>Rain</string>
+		<key>Fahrenheit</key>
+		<string>72</string>
+		<key>IconName</key>
+		<string>rainn.png</string>
+		<key>Pressure MB</key>
+		<integer>1017</integer>
+		<key>Relative Humidity</key>
+		<integer>78</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2013-12-03T11:39:36Z</date>
+		<key>Sunset Date</key>
+		<date>2013-12-03T23:14:07Z</date>
+		<key>Visibility KM</key>
+		<integer>8</integer>
+		<key>Wind Bearing</key>
+		<integer>130</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>22</integer>
+		<key>Wind Speed KPH</key>
+		<integer>4</integer>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2013-12-07T23:16:05Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>Macintosh/MacBookAir4,1</string>
+		<key>Generation Date</key>
+		<date>2013-12-07T23:16:05Z</date>
+		<key>Host Name</key>
+		<string>Jeff’s MacBook Air</string>
+		<key>OS Agent</key>
+		<string>Mac OS X/10.9</string>
+		<key>Software Agent</key>
+		<string>Day One Mac/1.9</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>After a week in the mainland, it’s back to the coast for us. This time, though, we’re on the Pacific coast in a sleepy little beach town named Sámara.
+
+Sámara is an adorable little beach town with beautiful beaches and friendly people who you'll get to know within hours of arriving. Within a day we were already running in to the same people over and over. It's a very small community and the locals definitely notice when new people show up (which it doesn't seem like many do given that it's off the beaten path).
+
+The food overall is average, with Cafe Carola notably standing out, and the tourism here is practically non-existent. People don't obsessively lock their bikes up, something I simply can't comprehend after a few years in San Francisco.
+
+Our favorite place to stay was Hostel El Cactus due to its cleanliness and stocked kitchen. It's also near the main street and the beach, making it a good starting point for daily adventures. Hostel Matilori is slightly cheaper and a little cooler during the day, but they tended to be booked up.
+
+The weather here was bordering on 32-33 every day with very little rain (first week of December).</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Guanacaste</string>
+		<key>Country</key>
+		<string>Costa Rica</string>
+		<key>Latitude</key>
+		<real>10.145554600000001</real>
+		<key>Locality</key>
+		<string>Nicoya</string>
+		<key>Longitude</key>
+		<real>-85.454968899999997</real>
+		<key>Region</key>
+		<dict>
+			<key>Center</key>
+			<dict>
+				<key>Latitude</key>
+				<real>10.097735606909445</real>
+				<key>Longitude</key>
+				<real>-85.425982876160504</real>
+			</dict>
+			<key>Radius</key>
+			<real>39842.43428738723</real>
+		</dict>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Samara</string>
+		<string>Costa rica</string>
+		<string>Preamble</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Costa_Rica</string>
+	<key>UUID</key>
+	<string>84DF994A19724265976E9C691B9688BB</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>31</string>
+		<key>Description</key>
+		<string>Partly Cloudy</string>
+		<key>Fahrenheit</key>
+		<string>88</string>
+		<key>IconName</key>
+		<string>fair.png</string>
+		<key>Pressure MB</key>
+		<integer>1009</integer>
+		<key>Relative Humidity</key>
+		<integer>55</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2013-12-07T11:48:24Z</date>
+		<key>Sunset Date</key>
+		<date>2013-12-07T23:19:56Z</date>
+		<key>Wind Bearing</key>
+		<integer>60</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>31</integer>
+		<key>Wind Speed KPH</key>
+		<integer>19</integer>
+	</dict>
+</dict>
+</plist>

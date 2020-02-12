@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Activity</key>
+	<string>Eating</string>
+	<key>Creation Date</key>
+	<date>2014-01-12T01:19:22Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-01-12T01:19:22Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Cafeteria Booby Trap
+
+Decent brownies for $2. Also had a chicken enchilada for $6 that was just ok - it only had chicken, tomato sauce, and some cheese on top.</string>
+	<key>Location</key>
+	<dict>
+		<key>Country</key>
+		<string>Ecuador</string>
+		<key>Foursquare ID</key>
+		<string>52b3aee6498e439845663a3f</string>
+		<key>Latitude</key>
+		<real>-0.95655447244644165</real>
+		<key>Longitude</key>
+		<real>-90.969306945800781</real>
+		<key>Place Name</key>
+		<string>BoobyTrap</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Ecuador</string>
+		<string>Galapagos Islands</string>
+		<string>Isla Isabella</string>
+		<string>Would go back if starving</string>
+	</array>
+	<key>Time Zone</key>
+	<string>Pacific/Galapagos</string>
+	<key>UUID</key>
+	<string>A3A8BD67A7204CC193180EDC4DD34129</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>25</string>
+		<key>Description</key>
+		<string>Dry and Partly Cloudy</string>
+		<key>Fahrenheit</key>
+		<string>77</string>
+		<key>IconName</key>
+		<string>cloudyn.png</string>
+		<key>Pressure MB</key>
+		<real>1011.7</real>
+		<key>Relative Humidity</key>
+		<real>80</real>
+		<key>Service</key>
+		<string>Forecast.io</string>
+		<key>Visibility KM</key>
+		<real>15.369999999999999</real>
+		<key>Wind Bearing</key>
+		<integer>199</integer>
+		<key>Wind Speed KPH</key>
+		<real>13.699999999999999</real>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-06-17T12:10:09Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-06-29T10:45:15Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.1</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.14.1</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Mochiiiii</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>KL</string>
+		<key>Country</key>
+		<string>Malaysia</string>
+		<key>Latitude</key>
+		<real>3.1431488999999999</real>
+		<key>Locality</key>
+		<string>Kuala Lumpur</string>
+		<key>Longitude</key>
+		<real>101.7103769</real>
+		<key>Place Name</key>
+		<string>Jalan Imbi</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Kuala Lumpur</string>
+		<string>Malaysia</string>
+		<string>Food</string>
+	</array>
+	<key>Time Zone</key>
+	<string>Asia/Ho_Chi_Minh</string>
+	<key>UUID</key>
+	<string>72FA72B7C2F646198C262AB8E1BAE3E6</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>28</string>
+		<key>Description</key>
+		<string>Mostly Cloudy</string>
+		<key>Fahrenheit</key>
+		<string>83</string>
+		<key>IconName</key>
+		<string>cloudyn.png</string>
+		<key>Pressure MB</key>
+		<real>1007.61</real>
+		<key>Relative Humidity</key>
+		<real>69</real>
+		<key>Service</key>
+		<string>Forecast.io</string>
+		<key>Visibility KM</key>
+		<real>9.8499999999999996</real>
+		<key>Wind Bearing</key>
+		<integer>142</integer>
+		<key>Wind Speed KPH</key>
+		<real>2.4100000000000001</real>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-01-25T04:58:54Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>Macintosh/MacBookAir4,1</string>
+		<key>Generation Date</key>
+		<date>2014-01-25T04:58:54Z</date>
+		<key>Host Name</key>
+		<string>Jeff’s MacBook Air</string>
+		<key>OS Agent</key>
+		<string>Mac OS X/10.9.1</string>
+		<key>Software Agent</key>
+		<string>Day One Mac/1.9.2</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Open Source As Quality Control
+
+Alt: Open Source as a Catalyst for Better Software Design 
+
+Open Sourcing software the right way is hard. You’ve got to document the shit out of your code. You’ve gotta battle-harden it either with unit tests or by having as many people hammer on it for as many hours as possible. You’ve got to justify the existence of every public API because any changes once your code is open might break someone’s source code on the other side of the planet.
+
+It’s a lot of work. Many companies don’t open-source much of their code specifically because of this fact. Things simply move too fast or are too subject to change to justify the expenses that comes with properly open-sourcing code. “What do we get out of this?” could reasonably be asked.
+
+Let’s look for the answer to that question by taking a few steps back and thinking about product design at a high level. In companies that move fast, product design often follows principles of evolution: a demo is built as quickly as possible; the best concepts are saved, cleaned up and survive into the next version; and on and on until the product design’s delta has satisfactorily approached zero.
+
+This applies to every level of the software design process, from the visual design to the API design. The art is in sensing where to focus attention.</string>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array/>
+	<key>Time Zone</key>
+	<string>America/Lima</string>
+	<key>UUID</key>
+	<string>445D3393935B4724A3847CB2D3DCBD10</string>
+</dict>
+</plist>

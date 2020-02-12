@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Activity</key>
+	<string>Flying</string>
+	<key>Creation Date</key>
+	<date>2014-01-18T15:46:56Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-01-18T15:46:56Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Flying from the Galapagos Islands to Guayaquil
+
+| Time|Location
+|--------:|:-----------|
+| 8:00AM | Woke up to the guy upstairs testing out his hammer again.
+| 9:48AM | Grabbing breakfast at the $3 place.
+| 10:23AM | In a cab.
+| 10:33AM | Checked our bags and waiting to go through security.
+| 10:47AM | Through security.
+| 11:32AM | Take off!
+| 2:03PM | Touch down in Guayaquil! One hour ahead now.
+| 2:25PM | Picked up our bags.
+| 2:34PM | In a cab.
+| 2:56PM | Checked in to our bnb.</string>
+	<key>Location</key>
+	<dict>
+		<key>Latitude</key>
+		<real>-0.90201838846965843</real>
+		<key>Longitude</key>
+		<real>-89.611692188907426</real>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Ecuador</string>
+		<string>Galapagos Islands</string>
+		<string>Isla San Cristobal</string>
+		<string>Guayaquil</string>
+	</array>
+	<key>Time Zone</key>
+	<string>Pacific/Galapagos</string>
+	<key>UUID</key>
+	<string>BA6A99245922445E97F2D7A30F421C37</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>24</string>
+		<key>Description</key>
+		<string>Drizzle</string>
+		<key>Fahrenheit</key>
+		<string>76</string>
+		<key>IconName</key>
+		<string>rain.png</string>
+		<key>Pressure MB</key>
+		<real>1011.61</real>
+		<key>Relative Humidity</key>
+		<real>84</real>
+		<key>Service</key>
+		<string>Forecast.io</string>
+		<key>Visibility KM</key>
+		<real>14.6</real>
+		<key>Wind Bearing</key>
+		<integer>166</integer>
+		<key>Wind Speed KPH</key>
+		<real>12.470000000000001</real>
+	</dict>
+</dict>
+</plist>

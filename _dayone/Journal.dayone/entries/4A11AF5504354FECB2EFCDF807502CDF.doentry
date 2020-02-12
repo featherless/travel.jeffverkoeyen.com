@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-06-25T15:16:49Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>Macintosh/MacBookAir6,1</string>
+		<key>Generation Date</key>
+		<date>2014-06-25T15:16:49Z</date>
+		<key>Host Name</key>
+		<string>Laurence’s MacBook Air</string>
+		<key>OS Agent</key>
+		<string>Mac OS X/10.9.2</string>
+		<key>Software Agent</key>
+		<string>Day One Mac/1.9.3</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Vietnam Itineraries
+
+http://www.roughguides.com/destinations/asia/vietnam/itineraries/
+
+## The Grand Tour (blue)
+
+The classic tour for visitors to Vietnam, and with good reason – following this route gives you easy access to superb historical sights, high-octane nightlife, pristine beaches, mountain-dwelling minority groups and much more. It can easily eat up the full month of your visa.
+
+### 1 Ho Chi Minh City
+
+Although it’s not the capital, most would agree that this buzzing, cosmopolitan city is the true hub of Vietnam – its range of bars, restaurants, shops and hotels is unsurpassed.
+
+### 2 Da Lat
+
+This mile-high mountain city is highly popular with travellers, and not just for its fresh air or cooler temperatures. Its relaxed atmosphere lends itself to a leisurely exploration of nearby sights, which include some wonderful minority villages.
+
+### 3 Mui Ne
+
+It’s all about the beach at Mui Ne, a curl of sand now fringed with top-drawer resorts. However, there are still a few cheap places to stay and a couple of bars maintaining that old-fashioned backpacker vibe.
+
+### 4 Nha Trang
+
+Another place famed for its beach life, but with a totally different character to Mui Ne. This is one of Vietnam’s party capitals, with bars galore attracting revellers with astonishingly long happy hours. Those who wake up before nightfall can hit the nearby Cham ruins, then sink into a mud bath.
+
+### 5 Hoi An
+
+This small city draws almost universally positive reactions from visitors: its food is the best in the country; its lantern-lit buildings are truly spellbinding at night; the nearby sea is great for diving; and the majestic Cham ruins of My Son are close by.
+
+### 6 Hué
+
+Notably relaxed for its size, Hué was capital of Vietnam’s last dynasty, the Nguyen empire. Cross the Perfume River to the old Imperial City, a maze of opulent buildings that were home to emperors as recently as 1945.
+
+### 7 Hanoi
+
+The Vietnamese capital provides a truly startling contrast to Ho Chi Minh city – it has a far more traditional air and is home to some superb examples of colonial-era architecture. That said, its bars and restaurants are excellent too.
+
+### 8 Ha Long Bay
+
+There are few better ways to round off a Vietnamese tour than a trip to Ha Long Bay, a dizzying mass of limestone peaks jutting from the sea. Most visitors spend a night at sea on a wooden junk, after a feast of seafood and cocktails.
+
+
+## Ethnic Tour (purple)
+Most of Vietnam’s 54 ethnic minority groups live in the rugged hills of the north, and a circular journey from Hanoi passes several of the most interesting groups.
+
+### 1 White Thai in Mai Chau
+
+Girls with waist-length hair don traditional costumes and perform lively song and dance routines, then invite guests to share a huge jar of rice wine.
+
+### 2 Black Thai in Son La
+
+The most remarkable aspect of Black Thai clothing is the headdress, which features delicately embroidered panels.
+
+3 Red Dao near Sa Pa
+
+### Easily spotted by their bright red headgear, the Red Dao are one of the most colourful tribes in the north and cling fiercely to their traditional ways.
+
+### 4 Flower Hmong around Bac Ha
+
+These are hands down the north’s most flamboyant dressers, and the women are constantly looking for new accoutrements at local markets.
+
+### 5 White Hmong near Dong Van
+
+Satins and sequins are highly favoured by this group who live in one of the north’s most inhospitable, yet also stunningly scenic, settings.
+
+### 6 Tay near Ba Be Lake
+
+The Tay are the most numerous of all ethic groups in Vietnam, and have a rich tradition of song and dance, which they occasionally perform for tourists.
+
+
+## Unseen Mekong Delta (green)
+Eager to leave the tourist hordes behind? Our authors have never spotted another foreigner at the following locations.
+
+### 1 Sa Dec flower nurseries
+
+Apart from being the former home of French novelist Marguerite Dumas, Sa Dec is the base of over a hundred flower nurseries – a horticulturalist’s dream.
+
+### 2 Hang Pagoda near Tra Vinh
+
+This Khmer-style pagoda painted in subtle pastel shades is home to many monks eager to practise their English, and also to hundreds of storks that roost in the treetops.
+
+### 3 Cape Ca Mau
+
+Take a speedboat from Ca Mau to Dat Mui, then hop on a xe om to country’s end at Cape Ca Mau, where an observation tower offers views over mangrove swamps and the endless ocean.
+
+### 4 Route 63
+
+This narrow road from Ca Mau to Rach Gia passes classic delta scenes of commerce being conducted on canals and locals crossing precarious monkey bridges.
+
+### 5 Tra Su bird sanctuary
+
+Located near Chau Doc, this bird sanctuary is a wonderland of cajuput trees and waterways covered with lily pads that attract swarms of birds like egrets, cormorants and water cocks.
+
+### 6 Hon Chong Peninsula
+
+The beach doesn’t compare with those on Phu Quoc, but it’s extremely relaxing, especially on weekdays when you might be the only one swinging in a hammock beneath the casuarina trees.
+</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Thành Phố Cần Thơ</string>
+		<key>Country</key>
+		<string>Vietnam</string>
+		<key>Latitude</key>
+		<real>10.03141461667196</real>
+		<key>Longitude</key>
+		<real>105.77500837307579</real>
+		<key>Place Name</key>
+		<string>Đường Mậu Thân 109</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Vietnam</string>
+		<string>Travel Planning</string>
+	</array>
+	<key>Time Zone</key>
+	<string>Asia/Phnom_Penh</string>
+	<key>UUID</key>
+	<string>4A11AF5504354FECB2EFCDF807502CDF</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>26</string>
+		<key>Description</key>
+		<string>Mostly Cloudy</string>
+		<key>Fahrenheit</key>
+		<string>79</string>
+		<key>IconName</key>
+		<string>mcloudy.png</string>
+		<key>Pressure MB</key>
+		<integer>1008</integer>
+		<key>Relative Humidity</key>
+		<integer>89</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2014-06-24T22:38:21Z</date>
+		<key>Sunset Date</key>
+		<date>2014-06-25T11:21:09Z</date>
+		<key>Wind Bearing</key>
+		<integer>0</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>26</integer>
+		<key>Wind Speed KPH</key>
+		<integer>2</integer>
+	</dict>
+</dict>
+</plist>

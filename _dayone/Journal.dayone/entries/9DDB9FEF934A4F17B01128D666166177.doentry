@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2013-12-18T15:31:48Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>Macintosh/MacBookAir4,1</string>
+		<key>Generation Date</key>
+		<date>2013-12-18T15:31:48Z</date>
+		<key>Host Name</key>
+		<string>Jeff’s MacBook Air</string>
+		<key>OS Agent</key>
+		<string>Mac OS X/10.9</string>
+		<key>Software Agent</key>
+		<string>Day One Mac/1.9</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Travelling from Cartagena to Medellin
+
+We’ll be taking an Avianca flight ($86.63) to Medellin this afternoon at 2PM.
+
+| Time|Location
+|--------:|:-----------|
+| 9:30AM | Woke up.
+| 11:30AM | Shopping while we wait for Restaurante 1595 to open.
+| 11:39AM | And we're in!
+| 12:01PM | Sounds like it's raining outside?
+| 12:20PM | Aaaaand Cartagena's flooding.
+| 12:43PM | In a cab on the way to the airport.
+| 1:18PM | Checked in and bags checked!
+| 1:23PM | Got a Vanicanela at Juan Valdez.
+| 3:47PM | In the air.
+| 4:45PM | Landed!
+| 5:40PM | Ate some crappy airport food.
+| 5:57PM | On a shuttle to Medellin ($8000 COP each).
+| 7:20PM | Cabbed to our hotel ($8000 COP).
+| 7:43PM | Waiting for our AirBnB host.
+| 7:56PM | And we're in! All settled.</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Bolívar</string>
+		<key>Country</key>
+		<string>Colombia</string>
+		<key>Latitude</key>
+		<real>10.4236149</real>
+		<key>Locality</key>
+		<string>Cartagena</string>
+		<key>Longitude</key>
+		<real>-75.546432899999999</real>
+		<key>Place Name</key>
+		<string>Daniel Lemaitre Avenue</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Colombia</string>
+		<string>Cartagena</string>
+		<string>Medellin</string>
+		<string>Flights</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Bogota</string>
+	<key>UUID</key>
+	<string>9DDB9FEF934A4F17B01128D666166177</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>31</string>
+		<key>Description</key>
+		<string>Mostly Cloudy</string>
+		<key>Fahrenheit</key>
+		<string>88</string>
+		<key>IconName</key>
+		<string>mcloudy.png</string>
+		<key>Pressure MB</key>
+		<integer>1012</integer>
+		<key>Relative Humidity</key>
+		<integer>70</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2013-12-18T11:13:42Z</date>
+		<key>Sunset Date</key>
+		<date>2013-12-18T22:44:42Z</date>
+		<key>Wind Bearing</key>
+		<integer>180</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>31</integer>
+		<key>Wind Speed KPH</key>
+		<integer>9</integer>
+	</dict>
+</dict>
+</plist>

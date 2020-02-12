@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-01-17T03:04:47Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-01-17T03:04:47Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Christchurch, New Zealand
+
+From Wikivoyage:
+&gt; The Garden City, the South Island's largest city is slowly rebuilding itself after it was hit by a destructive earthquake in February 2011
+
+From the nyt article [52 Places to Go in 2014](http://www.nytimes.com/interactive/2014/01/10/travel/2014-places-to-go.html):
+
+&gt; Three years after two large earthquakes devastated central Christchurch, the city is experiencing a rebirth with creativity and wit — thanks to the ingenuity of its hardy residents — and is welcoming tourists back again. Though much of the central city has yet to be rebuilt, entrepreneurs and volunteers are finding surprising ways to make temporary use of empty lots and bring life back to the downtown. The Gap Filler program, begun a couple of months after the first quake in September 2010 and expanded after a more destructive second quake in February 2011, has created an open-air performance space made of blue pallets, a dance floor with coin-operated music and lights, and even a nine-hole mini-golf course in vacant lots across the city. The Greening the Rubble campaign has since the 2010 quake been planting temporary gardens on the sites of demolished buildings. To replace the destroyed 19th-century ChristChurch Cathedral, a magnificent transitional church by the Japanese architect Shigeru Ban opened in August with sturdy cardboard tubes for the roof. Businesses are also trickling back downtown. One bar, built inside shipping containers, has a name that encapsulates the spirit of the entire city: Revival.</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Galapagos</string>
+		<key>Country</key>
+		<string>Ecuador</string>
+		<key>Latitude</key>
+		<real>-0.9022847190507709</real>
+		<key>Locality</key>
+		<string>San Cristobal</string>
+		<key>Longitude</key>
+		<real>-89.611397618511333</real>
+		<key>Region</key>
+		<dict>
+			<key>Center</key>
+			<dict>
+				<key>Latitude</key>
+				<real>-0.3937642754528099</real>
+				<key>Longitude</key>
+				<real>-90.450402226739101</real>
+			</dict>
+			<key>Radius</key>
+			<real>175441.79656607116</real>
+		</dict>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>New Zealand</string>
+		<string>Travel Planning</string>
+		<string>Christchurch</string>
+	</array>
+	<key>Time Zone</key>
+	<string>Pacific/Galapagos</string>
+	<key>UUID</key>
+	<string>7EE28455719243ED95F18785E30083AC</string>
+</dict>
+</plist>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Activity</key>
+	<string>Flying</string>
+	<key>Creation Date</key>
+	<date>2014-07-19T01:34:50Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-07-19T01:34:50Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.1</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.14.2</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Boating and Flying from Ko Tao to Phuket
+
+| 8:34AM | In a taxi.
+| 8:50AM | At the piers.
+| 9:01AM | Grabbing breakfast at Safety Stop pub.
+| 9:24AM | On the boat to Ko Samui.
+| 9:40AM | And we're off.
+| 11:52AM | Arrived at Ko Samui.
+| 4:14PM | In a taxi to the airport.
+| 4:24PM | At the airport.
+| 4:32PM | Checked in.
+| 5:12PM | Wtf they have a courtesy food area with free snacks!?
+| 5:32PM | Boarded the plane.
+| 5:40PM | Take off!
+| 6:24PM | Touch down.
+| 6:59PM | Waiting for a shuttle to fill up.
+| 7:52PM | Finally leaving.
+| 8:54PM | Dropped off.
+| 9:11PM | Checked in at Bodega.
+
+18.0kg J
+17.8kg L</string>
+	<key>Location</key>
+	<dict>
+		<key>Latitude</key>
+		<real>10.100460746334958</real>
+		<key>Longitude</key>
+		<real>99.829436894599183</real>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Phuket</string>
+		<string>Thailand</string>
+		<string>Ko Tao</string>
+		<string>Flights</string>
+		<string>Boating</string>
+	</array>
+	<key>Time Zone</key>
+	<string>Asia/Bangkok</string>
+	<key>UUID</key>
+	<string>7BABFCB951E242428B00207D93D10FC4</string>
+</dict>
+</plist>

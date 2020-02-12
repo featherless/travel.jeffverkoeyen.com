@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-01-22T18:51:27Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>Macintosh/MacBookAir4,1</string>
+		<key>Generation Date</key>
+		<date>2014-01-22T18:51:27Z</date>
+		<key>Host Name</key>
+		<string>Jeff’s MacBook Air</string>
+		<key>OS Agent</key>
+		<string>Mac OS X/10.9.1</string>
+		<key>Software Agent</key>
+		<string>Day One Mac/1.9.1</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Tahiti, French Polynesia
+
+## Sleep
+
+### Pension Te Miti
+
+- 87% on [tripadvisor](http://www.tripadvisor.com/Hotel_Review-g309679-d758319-Reviews-Pension_Te_Miti-Tahiti_Society_Islands.html)
+- 83% on [hostelworld](http://www.hostelworld.com/hosteldetails.php/Pension-Te-Miti/Tahiti/54810?dateFrom=2014-02-13&amp;dateTo=2014-02-16&amp;sc_sau=avdc&amp;sc_pos=1)
+
+### Taaroa Lodge
+
+- 85% on [tripadvisor](http://www.tripadvisor.com/Hotel_Review-g294352-d506734-Reviews-Taaroa_Lodge-Papeete_Tahiti_Society_Islands.html)
+- 81% on [hostelworld](http://www.hostelworld.com/hosteldetails.php/Taaroa-Lodge/Tahiti/28968?dateFrom=2014-02-13&amp;dateTo=2014-02-16&amp;sc_sau=avdc&amp;sc_pos=2)
+- Far from places - may need to take a bus.</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Lima</string>
+		<key>Country</key>
+		<string>Peru</string>
+		<key>Latitude</key>
+		<real>-12.136036971817324</real>
+		<key>Longitude</key>
+		<real>-77.010043509542982</real>
+		<key>Place Name</key>
+		<string>Av. La Merced</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Tahiti</string>
+		<string>French Polynesia</string>
+		<string>Travel Planning</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Guayaquil</string>
+	<key>UUID</key>
+	<string>178C22254B51437286A45A42637F2D37</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>27</string>
+		<key>Description</key>
+		<string>Mostly Cloudy</string>
+		<key>Fahrenheit</key>
+		<string>81</string>
+		<key>IconName</key>
+		<string>mcloudy.png</string>
+		<key>Pressure MB</key>
+		<integer>1012</integer>
+		<key>Relative Humidity</key>
+		<integer>70</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2014-01-22T10:59:17Z</date>
+		<key>Sunset Date</key>
+		<date>2014-01-22T23:41:08Z</date>
+		<key>Wind Bearing</key>
+		<integer>270</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>27</integer>
+		<key>Wind Speed KPH</key>
+		<integer>11</integer>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-02-21T23:31:49Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>Macintosh/MacBookAir4,1</string>
+		<key>Generation Date</key>
+		<date>2014-02-21T23:31:49Z</date>
+		<key>Host Name</key>
+		<string>Jeff’s MacBook Air</string>
+		<key>OS Agent</key>
+		<string>Mac OS X/10.9.1</string>
+		<key>Software Agent</key>
+		<string>Day One Mac/1.9.2</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Travel Planning: La Serena, Chile
+
+From [laurensluggage](http://laurensluggage.wordpress.com/2011/09/12/bahia-inglesa-and-la-serena/):
+
+&gt; La Serena is another lovely beach town , with a population of about 150,000. We ended up staying three nights and two days and in that time strolled along the beach, had a look at the Chinese garden, the Arqueologico museum and the zoo in the local park and generally just wandered around the streets. It was a really nice town and the weather was great while we were there, so we spent quite a bit of time just lazing around in the sun.
+
+## Do
+
+- Bahia del Elki about an hour by bus from town. Neef to staybthere.
+
+## Getting Out
+
+### Valparaiso
+
+- Bus times are 1:10AM-8AM, 6:20AM-1PM, 11:40AM-7:30PM. Prices are 11,500/19,900 for semi/salon cama respectively.
+
+## Sleep
+
+### El Hibisco
+
+### El Arbol
+
+- 91% hostelworld
+- #1 tripadvisor
+- 9500 for dorms 18000 privates
+
+### El Punto
+
+- #2 on tripadvisor
+
+### Aji Verde Hostel
+
+- 86% hostelworld
+- 9000 for dorms 22000 for privates
+
+### Below 80%
+
+- Hostal Balmaceda 79% (#4 on tripadvisor)
+- Andes hostal Serena Centro 75%
+- Backpackers La Serena 71%</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Antofagasta</string>
+		<key>Country</key>
+		<string>Chile</string>
+		<key>Latitude</key>
+		<real>-22.910726338914262</real>
+		<key>Locality</key>
+		<string>San Pedro de Atacama</string>
+		<key>Longitude</key>
+		<real>-68.201397964735378</real>
+		<key>Place Name</key>
+		<string>Calle Antofagasta</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>La Serena</string>
+		<string>Chile</string>
+		<string>Travel Planning</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Santiago</string>
+	<key>UUID</key>
+	<string>0F04F814BFC4483D8F2A0E4C42096132</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>21</string>
+		<key>Description</key>
+		<string>Sunny</string>
+		<key>Fahrenheit</key>
+		<string>70</string>
+		<key>IconName</key>
+		<string>clear.png</string>
+		<key>Pressure MB</key>
+		<integer>1024</integer>
+		<key>Relative Humidity</key>
+		<integer>17</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2014-02-21T10:28:16Z</date>
+		<key>Sunset Date</key>
+		<date>2014-02-21T23:09:56Z</date>
+		<key>Visibility KM</key>
+		<real>11.265408000000001</real>
+		<key>Wind Bearing</key>
+		<integer>260</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>21</integer>
+		<key>Wind Speed KPH</key>
+		<integer>39</integer>
+	</dict>
+</dict>
+</plist>

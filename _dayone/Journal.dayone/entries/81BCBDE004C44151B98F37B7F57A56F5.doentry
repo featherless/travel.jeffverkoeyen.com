@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2013-12-25T16:21:03Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2013-12-25T16:21:03Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Iguana Hostel
+
+Moved here today from Calidad and liking it waaay better. We're in dorms here for 25,000 COP. Roman makes the place feel like home and is incredibly friendly. On our third night we moved to a private room for 60,000 COP.</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Valle del Cauca</string>
+		<key>Country</key>
+		<string>Colombia</string>
+		<key>Foursquare ID</key>
+		<string>4da610ddf7b192b48665233f</string>
+		<key>Latitude</key>
+		<real>3.4640629627101451</real>
+		<key>Locality</key>
+		<string>Santiago de Cali</string>
+		<key>Longitude</key>
+		<real>-76.532624906528028</real>
+		<key>Place Name</key>
+		<string>Hostal Iguana</string>
+	</dict>
+	<key>Starred</key>
+	<true/>
+	<key>Tags</key>
+	<array>
+		<string>Colombia</string>
+		<string>Cali</string>
+		<string>Hostels</string>
+		<string>Mind blown</string>
+		<string>Lodging</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Bogota</string>
+	<key>UUID</key>
+	<string>81BCBDE004C44151B98F37B7F57A56F5</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>26</string>
+		<key>Description</key>
+		<string>Partly Cloudy</string>
+		<key>Fahrenheit</key>
+		<string>79</string>
+		<key>IconName</key>
+		<string>fair.png</string>
+		<key>Pressure MB</key>
+		<integer>1016</integer>
+		<key>Relative Humidity</key>
+		<integer>70</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2013-12-25T11:08:27Z</date>
+		<key>Sunset Date</key>
+		<date>2013-12-25T23:03:42Z</date>
+		<key>Wind Bearing</key>
+		<integer>140</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>26</integer>
+		<key>Wind Speed KPH</key>
+		<integer>6</integer>
+	</dict>
+</dict>
+</plist>

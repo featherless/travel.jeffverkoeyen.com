@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Activity</key>
+	<string>Automotive</string>
+	<key>Creation Date</key>
+	<date>2013-12-07T12:02:39Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2013-12-07T12:02:39Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Bussing from Monteverde to Samara
+
+The bus from Monteverde was quite a bit longer than we expected.
+
+We caught the bus out front of Cabanas Eddys and rode it through some absolutely stunning scenery before we got dropped off on the side of a highway with a large group of other backpackers. Here, we waited for about a half hour, thinking that we were going to catch a bus to Sámara from here.
+
+When a bus finally pulled over the sign on the front said Liberia, but the driver assured us we could get to Sámara on this bus. So we hopped on.
+
+After about an hour or so I realized that we had passed what I thought was the turnoff to Sámara but after asking the bus driver he, again, assured us that we had to stay on this bus to get to Sámara.
+
+So it was that we went to Liberia, then Nicoya, until finally arriving in Sámara after touring the entire northwestern area of Costa Rica. The total trip time was 9 hours, four more than what we'd originally expected.
+
+The pic attached to this entry is what you see as you leave Monteverde. It legit felt like were on a cloud city.
+
+| Time|Location
+|--------:|:-----------|
+| 6:02AM | Waiting for the bus in Monteverde.
+| 6:10AM | Boarded for $3.
+| 7:50AM | Bus dropped us off on the highway. I think we're in Guanacaste.
+| 8:23AM | Boarded a bus to Liberia for $4.60.
+| 10:35AM | Arrived in Liberia for some reason. $2.60 to Nicoya from here. $5.20 for lunch to go at a nearby soda.
+| 11:00AM | On our way to Nicoya. Drinking jugo from a bag.
+| 11:15AM | A truck hit the side of our bus!
+| 11:19AM | Aaand moving again.
+| 1:14PM | Arrived in Nicoya.
+| 2:02PM | Boarded the bus to Samara for $2.60.
+| 2:06PM| On our way to Samara! Holy cow air conditioning!
+| 3:08PM | Arrived in Samara!
+
+
+| Totals | Totals
+|--------:|:---------|
+| Total cost | $12.80
+| Total travel time | 9:02
+| Total bus time | 6:08</string>
+	<key>Location</key>
+	<dict>
+		<key>Latitude</key>
+		<real>10.315965721393297</real>
+		<key>Longitude</key>
+		<real>-84.825644306917511</real>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Bussing</string>
+		<string>Samara</string>
+		<string>Monteverde</string>
+		<string>Costa rica</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Costa_Rica</string>
+	<key>UUID</key>
+	<string>496D130460314A34BC91D524841741F3</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>20</string>
+		<key>Description</key>
+		<string>Partly Cloudy</string>
+		<key>Fahrenheit</key>
+		<string>69</string>
+		<key>IconName</key>
+		<string>pcloudy.png</string>
+		<key>Pressure MB</key>
+		<real>1012.51</real>
+		<key>Relative Humidity</key>
+		<real>78</real>
+		<key>Service</key>
+		<string>Forecast.io</string>
+		<key>Visibility KM</key>
+		<real>12.01</real>
+		<key>Wind Bearing</key>
+		<integer>102</integer>
+		<key>Wind Speed KPH</key>
+		<real>6.3899999999999997</real>
+	</dict>
+</dict>
+</plist>

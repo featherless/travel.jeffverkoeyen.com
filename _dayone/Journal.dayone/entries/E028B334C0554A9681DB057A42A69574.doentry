@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Activity</key>
+	<string>Flying</string>
+	<key>Creation Date</key>
+	<date>2014-03-24T01:41:01Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-03-24T01:41:01Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.1</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.13</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Flying from Papeete, French Polynesia to Auckland, New Zealand
+
+| Time|Location
+|--------:|:-----------|
+| 3:39PM | Leaving the pension.
+| 3:50PM | At the airport.
+| 4:03PM | Checked in.
+| 4:45PM | Through security.
+| 5:20PM | Boarded.
+| 5:35PM | Take off!
+| 10:58PM | Landed (French Polynesia time).
+| 11:22PM | Through duty free and customs.
+| 12:20AM | In a supershuttle.
+
+ Totals | Totals
+|--------:|:---------|
+| Total air time | 
+| Total flight legs | 
+
+L 18.5
+J 15.1</string>
+	<key>Location</key>
+	<dict>
+		<key>Latitude</key>
+		<real>-17.533557750301</real>
+		<key>Longitude</key>
+		<real>-149.56288067637902</real>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>French Polynesia</string>
+		<string>Papeete</string>
+		<string>New Zealand</string>
+		<string>Auckland</string>
+	</array>
+	<key>Time Zone</key>
+	<string>Pacific/Tahiti</string>
+	<key>UUID</key>
+	<string>E028B334C0554A9681DB057A42A69574</string>
+</dict>
+</plist>

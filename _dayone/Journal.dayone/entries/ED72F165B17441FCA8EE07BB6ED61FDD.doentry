@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-01-17T03:33:31Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>Macintosh/MacBookAir4,1</string>
+		<key>Generation Date</key>
+		<date>2014-01-17T03:33:31Z</date>
+		<key>Host Name</key>
+		<string>Jeff’s MacBook Air</string>
+		<key>OS Agent</key>
+		<string>Mac OS X/10.9.1</string>
+		<key>Software Agent</key>
+		<string>Day One Mac/1.9</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Yogyakarta, Indonesia
+
+From the nyt article [52 Places to Go in 2014](http://www.nytimes.com/interactive/2014/01/10/travel/2014-places-to-go.html):
+
+&gt; This central Javan sultanate draws crowds for its proximity to bewitching attractions: the monumental, wedding cake-esque Buddhist temple [Borobudur](http://www.borobudurpark.com/temple/borobudurTemple), the soft-serve-ice-cream-shaped Hindu shrines of [Prambanan](http://www.borobudurpark.com/temple/prambananTemple), and pre-sunrise hikes to summit Indonesia’s friskiest volcano, Mount Merapi (which most recently erupted in 2013). But finding a decent room has never been easy, until now. Thanks to tax breaks for hotel development, 20 new starred hotels, to complement the city’s existing 30, will open through 2015. Among them are [Zest Hotel](http://www.zesthotel.com/) (a [Swiss-Belhotel](http://www.swiss-belhotel.com/en/) brand) in 2014 and, according to a director of the Tourism Promotion Agency of Yogyakarta, three new properties from [Accor](http://accor.com/en.html), whose brands include Sofitel and ibis.</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Galapagos</string>
+		<key>Country</key>
+		<string>Ecuador</string>
+		<key>Latitude</key>
+		<real>-0.90221850287377081</real>
+		<key>Locality</key>
+		<string>San Cristobal</string>
+		<key>Longitude</key>
+		<real>-89.611491668207179</real>
+		<key>Place Name</key>
+		<string>Galapagos National Park</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Indonesia</string>
+		<string>Travel Planning</string>
+		<string>Yogyakarta</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Guatemala</string>
+	<key>UUID</key>
+	<string>ED72F165B17441FCA8EE07BB6ED61FDD</string>
+</dict>
+</plist>

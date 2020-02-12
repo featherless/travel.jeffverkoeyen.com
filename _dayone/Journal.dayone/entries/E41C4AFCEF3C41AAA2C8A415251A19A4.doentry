@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Activity</key>
+	<string>Flying</string>
+	<key>Creation Date</key>
+	<date>2014-05-09T07:25:01Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-05-09T07:25:01Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.1</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.14</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Flying from Darwin, Australia to Bali, Indonesia
+
+| Time|Location
+|--------:|:-----------|
+| 4:56PM | Checking in.
+| 6:31PM | At exit customs.
+| 6:45PM | At the gate.
+| 7:19PM | Boarded.
+| 7:34PM | Take off!
+| 9:56PM | Touch down! Yay we're in Bali!
+| 9:26PM | Finally through customs (Bali time).
+| 9:49PM | In a cab.
+
+ Totals | Totals
+|--------:|:---------|
+| Total air time | 0:00
+| Total flight legs | 1
+
+16.9kg j
+19.3kg l</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>NT</string>
+		<key>Country</key>
+		<string>Australia</string>
+		<key>Latitude</key>
+		<real>-12.408119724143676</real>
+		<key>Locality</key>
+		<string>Darwin</string>
+		<key>Longitude</key>
+		<real>130.87809937086968</real>
+		<key>Region</key>
+		<dict>
+			<key>Center</key>
+			<dict>
+				<key>Latitude</key>
+				<real>-12.4108544419875</real>
+				<key>Longitude</key>
+				<real>130.879805798945</real>
+			</dict>
+			<key>Radius</key>
+			<real>3042.4589714789081</real>
+		</dict>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Darwin</string>
+		<string>Australia</string>
+		<string>Bali</string>
+		<string>Indonesia</string>
+		<string>Flights</string>
+		<string>Canggu</string>
+	</array>
+	<key>Time Zone</key>
+	<string>Australia/Darwin</string>
+	<key>UUID</key>
+	<string>E41C4AFCEF3C41AAA2C8A415251A19A4</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>32</string>
+		<key>Description</key>
+		<string>Mostly Sunny</string>
+		<key>Fahrenheit</key>
+		<string>90</string>
+		<key>IconName</key>
+		<string>fair.png</string>
+		<key>Pressure MB</key>
+		<integer>1009</integer>
+		<key>Relative Humidity</key>
+		<integer>46</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2014-05-08T21:24:59Z</date>
+		<key>Sunset Date</key>
+		<date>2014-05-09T09:00:43Z</date>
+		<key>Visibility KM</key>
+		<real>11.265408000000001</real>
+		<key>Wind Bearing</key>
+		<integer>10</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>32</integer>
+		<key>Wind Speed KPH</key>
+		<integer>20</integer>
+	</dict>
+</dict>
+</plist>

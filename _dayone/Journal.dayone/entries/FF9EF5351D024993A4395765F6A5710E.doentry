@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Activity</key>
+	<string>Flying</string>
+	<key>Creation Date</key>
+	<date>2014-01-06T12:08:36Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-01-06T12:08:36Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Flying from Quito to the Galapagos Islands
+
+So excited to head to the Galapagos Islands!
+
+| Time|Location
+|--------:|:-----------|
+| 5:15AM | Woke up.
+| 6:15AM | In a cab.
+| 7:15AM | At the airport. Paid for tourist card ($10/each).
+| 7:34AM | Checking bags. Mine's at 17.2 kg.
+| 7:39AM | Through security.
+| 9:22AM | Boarded.
+| 9:36AM | Take off!
+| 10:11AM | Touch down in Guayaquil.
+| 11:38PM | Take off. Wow they have lunch on this plane!
+| 12:14PM | Landed in the Galapagos Islands! (One hour behind)
+| 12:40PM | Paid for entry ($100/each), got our bags.
+| 12:57PM | On the bus to the canal.
+| 1:03PM | We're movin'!
+| 1:20PM | On a boat to cross the canal.
+| 1:30PM | Crossed the canal.
+| 1:47PM | Packed into a cab.
+| 2:37PM | Arrived in Puerto Ayorta. Too late to catch a boat now sadly.
+| 3:02PM | Can't make it to our airbnb sadly, so we had to find a cheap hostel nearby.</string>
+	<key>Location</key>
+	<dict>
+		<key>Latitude</key>
+		<real>-0.15927535481765798</real>
+		<key>Longitude</key>
+		<real>-78.347702091632726</real>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Ecuador</string>
+		<string>Quito</string>
+		<string>Galapagos Islands</string>
+		<string>Isla Santa Cruz</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Guayaquil</string>
+	<key>UUID</key>
+	<string>FF9EF5351D024993A4395765F6A5710E</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>12</string>
+		<key>Description</key>
+		<string>Partly Cloudy</string>
+		<key>Fahrenheit</key>
+		<string>53</string>
+		<key>IconName</key>
+		<string>pcloudy.png</string>
+		<key>Relative Humidity</key>
+		<real>94</real>
+		<key>Service</key>
+		<string>Forecast.io</string>
+		<key>Visibility KM</key>
+		<real>6.9699999999999998</real>
+		<key>Wind Bearing</key>
+		<integer>1</integer>
+		<key>Wind Speed KPH</key>
+		<real>3.23</real>
+	</dict>
+</dict>
+</plist>

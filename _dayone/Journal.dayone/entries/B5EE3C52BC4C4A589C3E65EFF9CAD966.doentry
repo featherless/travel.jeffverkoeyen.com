@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-02-16T17:01:26Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>Macintosh/MacBookAir4,1</string>
+		<key>Generation Date</key>
+		<date>2014-02-16T17:01:26Z</date>
+		<key>Host Name</key>
+		<string>Jeff’s MacBook Air</string>
+		<key>OS Agent</key>
+		<string>Mac OS X/10.9.1</string>
+		<key>Software Agent</key>
+		<string>Day One Mac/1.9.2</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Travel Planning: Potosí, Bolivia
+
+The highest city on the planet.
+
+## Do
+
+### Mine Tour
+
+From [wikitravel](http://wikitravel.org/en/Potosi):
+
+&gt; A visit to Potosí isn't complete without a visit to one of the cooperative mines. It's a shocking experience as the methods of working haven't changed much since the colonial times. Working conditions are terrible: most miners die of silicosis in their forties. Still, many people don't have another choice and around 10,000 people work in the mines. A tour starts with a visit to the miners' market to buy gifts for the miners like coca leaves, drinks, cigarettes or dynamite. You will then visit an ore refinery plant where the miners sell whatever deposits they manage to collect. Then you head to the mines, where a typical visit will have you walking and crawling through it for about 2~3 hours. You can talk, take photographs and share your gifts with the miners.</string>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Bolivia</string>
+		<string>Travel Planning</string>
+		<string>Potosi</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/La_Paz</string>
+	<key>UUID</key>
+	<string>B5EE3C52BC4C4A589C3E65EFF9CAD966</string>
+</dict>
+</plist>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2013-12-06T23:38:32Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>Macintosh/MacBookAir4,1</string>
+		<key>Generation Date</key>
+		<date>2013-12-06T23:38:32Z</date>
+		<key>Host Name</key>
+		<string>Jeff’s MacBook Air</string>
+		<key>OS Agent</key>
+		<string>Mac OS X/10.9</string>
+		<key>Software Agent</key>
+		<string>Day One Mac/1.9</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Travel Planning: San Pedro de Atacama, Chile
+
+http://www.quora.com/South-America/What-are-some-cool-places-to-go-in-South-America
+&gt; Desert in the north of the country.  Giant hand statue that attracts many visitors.  One of the best places in the world to observe the galaxy through a telescope.
+
+## Getting Out
+
+[Bus schedule website](http://www.sabuses.com/index.php)
+
+### Caldera
+
+- Busses leave at 7PM and arrive at 5:15AM on Turbus and cost 21,100/34,700, depending on comfort level.
+- 25,000 for cama bus andesmar to Copiaca, and then an hour more to Caldera.
+
+## Sleep
+
+### Hostal Tuyasto
+
+- #2 hostel on [tripadvisor](http://www.tripadvisor.com/Hotel_Review-g303681-d2628556-Reviews-Hostal_Tuyasto-San_Pedro_de_Atacama_Atacama_Region.html)
+- 89% rating on [hostelworld](http://www.hostelworld.com/hosteldetails.php/Hostal-Tuyasto/San-Pedro-de-Atacama/55906?dateFrom=2014-03-07&amp;dateTo=2014-03-08&amp;sc_sau=prfs&amp;sc_pos=1)
+- 7000 CLP/night for a dorm bed
+
+### Hostal Campo Base
+
+- #1 hostel on [tripadvisor](http://www.tripadvisor.com/Hotel_Review-g303681-d1625992-Reviews-Hostal_Campo_Base-San_Pedro_de_Atacama_Atacama_Region.html)
+- 93% rating on [hostelworld](http://www.hostelworld.com/hosteldetails.php/Hostal-Campo-Base/San-Pedro-de-Atacama/38354?dateFrom=2014-03-07&amp;dateTo=2014-03-08&amp;sc_sau=prfs&amp;sc_pos=13)
+- 17,500 CLP/night for dorms
+
+### Hostel Rural
+
+- 53% rating on [tripadvisor](http://www.tripadvisor.com/Hotel_Review-g303681-d1946025-Reviews-Hostal_Rural-San_Pedro_de_Atacama_Atacama_Region.html)
+- 87% rating on [hostelworld](http://www.hostelworld.com/hosteldetails.php/Hostal-Rural/San-Pedro-de-Atacama/44196?dateFrom=2014-03-07&amp;dateTo=2014-03-08&amp;sc_sau=prfs&amp;sc_pos=9)
+- 10,000 CLP/night for a small dorm bed
+
+### Hostal Candelaria
+
+- 72% rating on [tripadvisor](http://www.tripadvisor.com/Hotel_Review-g303681-d1902625-Reviews-Hostal_Candelaria-San_Pedro_de_Atacama_Atacama_Region.html)
+- 81% rating on [hostelworld](http://www.hostelworld.com/hosteldetails.php/Hostal-Candelaria/San-Pedro-de-Atacama/38662?dateFrom=2014-03-07&amp;dateTo=2014-03-08&amp;sc_sau=prfs&amp;sc_pos=11)
+- 15500 CLP/night for a 3-bed private
+
+### Backpackers San Pedro
+
+- 52% rating (18 out of 46) on [tripadvisor](http://www.tripadvisor.com/Hotel_Review-g303681-d2502155-Reviews-Backpackers_San_Pedro_Hostel-San_Pedro_de_Atacama_Atacama_Region.html)
+- 81% rating on [hostelworld](http://www.hostelworld.com/hosteldetails.php/Backpackers-San-Pedro/San-Pedro-de-Atacama/47324?dateFrom=2014-03-07&amp;dateTo=2014-03-08&amp;sc_sau=prfs&amp;sc_pos=8)</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Puntarenas</string>
+		<key>Country</key>
+		<string>Costa Rica</string>
+		<key>Latitude</key>
+		<real>10.316341873846772</real>
+		<key>Longitude</key>
+		<real>-84.825528799640423</real>
+		<key>Place Name</key>
+		<string>Highway 145</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Chile</string>
+		<string>San Pedro de Atacama</string>
+		<string>Travel Planning</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Costa_Rica</string>
+	<key>UUID</key>
+	<string>3F4188A8EAEE4906BE3F88D96D20E980</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>24</string>
+		<key>Description</key>
+		<string>Mostly Cloudy</string>
+		<key>Fahrenheit</key>
+		<string>75</string>
+		<key>IconName</key>
+		<string>mcloudy.png</string>
+		<key>Pressure MB</key>
+		<integer>1015</integer>
+		<key>Relative Humidity</key>
+		<integer>65</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2013-12-06T11:41:09Z</date>
+		<key>Sunset Date</key>
+		<date>2013-12-06T23:15:06Z</date>
+		<key>Wind Bearing</key>
+		<integer>100</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>24</integer>
+		<key>Wind Speed KPH</key>
+		<integer>19</integer>
+	</dict>
+</dict>
+</plist>

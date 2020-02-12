@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2013-11-16T18:00:00Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2013-11-26T19:38:28Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Tropical Suites
+
+Air conditioning and a nice bed.
+
+$250</string>
+	<key>Location</key>
+	<dict>
+		<key>Country</key>
+		<string>Panama</string>
+		<key>Foursquare ID</key>
+		<string>4e88f09d61afc9791bac3548</string>
+		<key>Latitude</key>
+		<real>9.3394135583255213</real>
+		<key>Locality</key>
+		<string>Bocas del Toro</string>
+		<key>Longitude</key>
+		<real>-82.241938817214361</real>
+		<key>Place Name</key>
+		<string>Tropical Suites</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Time Zone</key>
+	<string>America/Costa_Rica</string>
+	<key>UUID</key>
+	<string>A3009BD6777C48A0BD3A3EB860079A18</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>28</string>
+		<key>Description</key>
+		<string>Drizzle</string>
+		<key>Fahrenheit</key>
+		<string>83</string>
+		<key>IconName</key>
+		<string>rain.png</string>
+		<key>Pressure MB</key>
+		<real>1008.28</real>
+		<key>Relative Humidity</key>
+		<real>76</real>
+		<key>Service</key>
+		<string>Forecast.io</string>
+		<key>Visibility KM</key>
+		<real>15.16</real>
+		<key>Wind Bearing</key>
+		<integer>298</integer>
+		<key>Wind Speed KPH</key>
+		<real>16.77</real>
+	</dict>
+</dict>
+</plist>

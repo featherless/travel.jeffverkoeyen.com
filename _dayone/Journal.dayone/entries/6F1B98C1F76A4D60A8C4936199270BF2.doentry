@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2013-11-10T17:00:00Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2013-12-15T01:39:46Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Two weeks in Panama City was quite enough, thank you! I've just arrived in Bocas del Toro after an overnight bus trip and am significantly happier with the situation here. Better weather, water nearby, friendly people, and having to get places by water taxi. I feel like I'm at Fisherman's Horizon ([obligatory background music](http://www.youtube.com/watch?v=ZLwtYlaqWaU)).</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Bocas Del Toro</string>
+		<key>Country</key>
+		<string>Panama</string>
+		<key>Latitude</key>
+		<real>9.3333332000000002</real>
+		<key>Locality</key>
+		<string>Bocas Del Toro</string>
+		<key>Longitude</key>
+		<real>-82.25</real>
+		<key>Region</key>
+		<dict>
+			<key>Center</key>
+			<dict>
+				<key>Latitude</key>
+				<real>9.3388633712606257</real>
+				<key>Longitude</key>
+				<real>-82.249469748329901</real>
+			</dict>
+			<key>Radius</key>
+			<real>1589.9370092596369</real>
+		</dict>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Panama</string>
+		<string>Preamble</string>
+		<string>Bocas del Toro</string>
+		<string>Island</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Bogota</string>
+	<key>UUID</key>
+	<string>6F1B98C1F76A4D60A8C4936199270BF2</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>28</string>
+		<key>Description</key>
+		<string>Clear</string>
+		<key>Fahrenheit</key>
+		<string>83</string>
+		<key>IconName</key>
+		<string>clear.png</string>
+		<key>Relative Humidity</key>
+		<real>75</real>
+		<key>Service</key>
+		<string>Forecast.io</string>
+		<key>Visibility KM</key>
+		<real>9.9800000000000004</real>
+		<key>Wind Bearing</key>
+		<integer>0</integer>
+		<key>Wind Speed KPH</key>
+		<real>8.0500000000000007</real>
+	</dict>
+</dict>
+</plist>

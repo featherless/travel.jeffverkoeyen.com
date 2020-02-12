@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Activity</key>
+	<string>Stationary</string>
+	<key>Creation Date</key>
+	<date>2013-11-28T16:00:20Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>Macintosh/MacBookAir4,1</string>
+		<key>Generation Date</key>
+		<date>2013-11-28T01:40:20Z</date>
+		<key>Host Name</key>
+		<string>Jeff’s MacBook Air</string>
+		<key>OS Agent</key>
+		<string>Mac OS X/10.9</string>
+		<key>Software Agent</key>
+		<string>Day One Mac/1.9</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Prep Notes: Getting to La Fortuna from Puerto Viejo
+
+&gt; [thebusschedule.com](http://thebusschedule.com/EN/cr/index.php)  
+&gt; A solid service for finding bus terminal locations and connections. Not sure how accurate the times are. It doesn’t seem to show all possible buses either.
+
+## Transportation from Puerto Viejo to San Jose
+
+7:30AM bus from Puerto Viejo to San Jose arrives at 11AM.
+
+Arrival Bus Station in San Jose:
+&gt; Terminal del Caribe
+&gt; Calle Central y Av 13
+&gt; Tel 2222-0610
+&gt; or Autotransportes Caribeños via Google Maps
+[thebusschedule.com](http://thebusschedule.com/EN/cr/mapa.php?city=San%20Jos%E9&amp;lang=en&amp;ruta=bu,t&amp;comp=Transportes%20Mepe&amp;tele=2758-1572&amp;cweb=&amp;ort=Terminal%20del%20Caribe,%20Calle%20Central%20y%20Av.%2013&amp;lon=-84.07883&amp;lat=9.941069)
+
+Should cost between **$4-8**.  
+Source: [http://www.puertoviejosatellite.com/transport.php](http://www.puertoviejosatellite.com/transport.php#bus)
+
+## Transportation from San Jose to La Fortuna
+
+### Direct Bus
+
+**$3.76** (or **C2,070**) from San Jose to La Fortuna
+
+6:15, 8:40, and 11:30am for the direct buses.
+
+Departure Bus Station in San Jose:
+&gt; Atlántico del Norte bus station at Avenida 9 and Calle 12
+
+Make sure it passes through Ciudad Quesada.  
+Source: [http://www.frommers.com/destinations/la-fortuna/733270](http://www.frommers.com/destinations/la-fortuna/733270)
+
+### Multi-Stop
+
+For later in the day, take a bus to Ciudad Quesada. Leave every 30 minutes from 5am-7:30pm. Cost is **C1,445**.  
+Then take a local bus from Ciudad Quesada to La Fortuna for **C750**. The bus company for the second leg is *Transpisa*.  
+Source: [http://www.frommers.com/destinations/la-fortuna/733270](http://www.frommers.com/destinations/la-fortuna/733270)</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Limon</string>
+		<key>Country</key>
+		<string>Costa Rica</string>
+		<key>Latitude</key>
+		<real>9.657953069999996</real>
+		<key>Locality</key>
+		<string>Talamanca</string>
+		<key>Longitude</key>
+		<real>-82.747234189999972</real>
+		<key>Place Name</key>
+		<string>Talamanca</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Travel Planning</string>
+		<string>Costa rica</string>
+		<string>Puerto Viejo</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Costa_Rica</string>
+	<key>UUID</key>
+	<string>14BFC94A216349F18EA98F368B408C41</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>27</string>
+		<key>Description</key>
+		<string>Mostly Cloudy</string>
+		<key>Fahrenheit</key>
+		<string>81</string>
+		<key>IconName</key>
+		<string>mcloudyn.png</string>
+		<key>Pressure MB</key>
+		<integer>1010</integer>
+		<key>Relative Humidity</key>
+		<integer>79</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2013-11-27T11:32:11Z</date>
+		<key>Sunset Date</key>
+		<date>2013-11-27T23:08:05Z</date>
+		<key>Wind Bearing</key>
+		<integer>310</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>27</integer>
+		<key>Wind Speed KPH</key>
+		<integer>11</integer>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-01-17T03:31:39Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>Macintosh/MacBookAir4,1</string>
+		<key>Generation Date</key>
+		<date>2014-01-17T03:31:39Z</date>
+		<key>Host Name</key>
+		<string>Jeff’s MacBook Air</string>
+		<key>OS Agent</key>
+		<string>Mac OS X/10.9.1</string>
+		<key>Software Agent</key>
+		<string>Day One Mac/1.9</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Scotland
+
+From the nyt article [52 Places to Go in 2014](http://www.nytimes.com/interactive/2014/01/10/travel/2014-places-to-go.html):
+
+&gt; Riddled with lochs and crested by moody Highlands, Scotland adds to its already considerable outdoorsy appeal this year. In April, the [John Muir Way](http://www.snh.gov.uk/enjoying-the-outdoors/year-of-natural-scotland-2013/celebrate-john-muir/john-muir-way/), named for the conservationist originally from Scotland, will expand to 134 miles from 45 miles, newly spanning the farmland and forests of the country’s midsection. Organizers estimate it will take eight to 12 days on foot or four to six by bike to complete the coast-to-coast route running from Muir’s boyhood hometown Dunbar west to the Loch Lomond area. The attractions extend beyond amateur workouts. This summer, Glasgow will stage the [2014 Commonwealth Games](http://www.glasgow2014.com/), Olympic-style competitions for Britain and the former British colonies, and in September [Gleneagles](http://www.gleneagles.com/)resort in the Highlands will host the Ryder Cup golf competition. Sports and hospitality will meet at [Cromlix House Hotel](http://www.cromlix.com/), a 15-room resort that the tennis champion and local hero Andy Murray plans to open in April in a Victorian mansion in Dunblane.</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Galapagos</string>
+		<key>Country</key>
+		<string>Ecuador</string>
+		<key>Latitude</key>
+		<real>-0.90221673056337015</real>
+		<key>Locality</key>
+		<string>San Cristobal</string>
+		<key>Longitude</key>
+		<real>-89.611489376123956</real>
+		<key>Place Name</key>
+		<string>Galapagos National Park</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Travel Planning</string>
+		<string>Scotland</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Guatemala</string>
+	<key>UUID</key>
+	<string>EA9CBCBFB97F482CBFC172F75CCB8C84</string>
+</dict>
+</plist>

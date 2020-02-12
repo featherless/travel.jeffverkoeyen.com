@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2013-12-24T22:10:36Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2013-12-27T15:57:36Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>A bus from Medellin brought us to this salsa empire. We came to Cali for the [Feria de Cali](http://www.feriadecali.com/), a yearly celebration of everything Salsa from Dec 25th - 30th.
+
+We arrived by bus from Medellin after a 10 hour ride through gorgeous Colombian landscapes. There was one stop midway through for delicious almuerzo lunches at a cafeteria overlooking the rolling expanses all around. It was one of the most pleasant bus rides we’ve had thus far.
+
+Once we arrived in Cali we checked in at our hostel, Calidad, and went out to explore the nearby neighbourhood. It being Christmas eve everything was *dead*. We luckily found a place that was serving casado-style plates ([Western Texas](#936921E551664022887F3D4FDFCE68D0)) and called family once we got back to the hostel.
+
+We weren’t sold on Calidad overall and decided to move to a new hostel the next morning. We’re glad we did, because Iguana ended up being one of our favourite hostels in Colombia. Roman, one of the staff at Iguana, makes the hostel feel like home. He’s always around to offer advice and answer any of the most surely repetitive backpacker questions. There were free salsa classes at 7PM each night so we definitely made sure to learn the moves.
+
+The Feria influenced a lot of our activities throughout our week in Cali. We went to the parade on the opening day and saw the salsa dancers march by. We danced the night away at [Zaperoco](#470602CDE6A84DBE98EAAFD208E7ED51) and tried to learn Salsa amidst a packed bar full of locals. We also hung out at the fairgrounds multiple times and saw hundreds of people singing and dancing and clapping to their favourite songs. The people here eat and sleep Salsa and it’s an wonderful thing to watch.</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Valle Del Cauca</string>
+		<key>Country</key>
+		<string>Colombia</string>
+		<key>Latitude</key>
+		<real>3.4529496000000002</real>
+		<key>Locality</key>
+		<string>Cali</string>
+		<key>Longitude</key>
+		<real>-76.534753699999996</real>
+		<key>Place Name</key>
+		<string>Avenue 3</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Colombia</string>
+		<string>Cali</string>
+		<string>Preamble</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Bogota</string>
+	<key>UUID</key>
+	<string>1CAA729DC3584CFC8427F98941B1BF19</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>26</string>
+		<key>Description</key>
+		<string>Partly Cloudy</string>
+		<key>Fahrenheit</key>
+		<string>79</string>
+		<key>IconName</key>
+		<string>fair.png</string>
+		<key>Pressure MB</key>
+		<integer>1016</integer>
+		<key>Relative Humidity</key>
+		<integer>70</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2013-12-25T11:08:27Z</date>
+		<key>Sunset Date</key>
+		<date>2013-12-25T23:03:42Z</date>
+		<key>Wind Bearing</key>
+		<integer>140</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>26</integer>
+		<key>Wind Speed KPH</key>
+		<integer>6</integer>
+	</dict>
+</dict>
+</plist>

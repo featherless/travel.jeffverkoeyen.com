@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-03-17T06:05:33Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>Macintosh/MacBookAir4,1</string>
+		<key>Generation Date</key>
+		<date>2014-03-17T06:05:33Z</date>
+		<key>Host Name</key>
+		<string>Jeff’s MacBook Air</string>
+		<key>OS Agent</key>
+		<string>Mac OS X/10.9.2</string>
+		<key>Software Agent</key>
+		<string>Day One Mac/1.9.3</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Travel Planning: Rangiroa, French Polynesia
+
+## SCUBA
+
+### Raise Manta
+
+- [website](http://www.raiemantaclub.com/rangi-uk.htm)
+- Tiputa dive center Tel.: +689 72 31 45
+- Avatoru dive center Tel.: +689 96 84 80
+
+## Sleep
+
+###  Rangiroa Lodge
+
+- [website](https://www.facebook.com/pages/Rangiroa-Lodge-pension-en-Polynesie/120177041373488)
+- 7,500/night for two w/ private bath 
+- 5,500/night for two w/ shared bath
+- Tel.: +689 27 85 90
+- Owned by Loic et Lea
+
+### Turiroa Village
+
+- Olga.
+- Dorms are 2,500/person for 3 person dorms.
+- Bungalows are 10,000 for 3 people.
+- Free kayaks.
+- +689 96 04 27</string>
+	<key>Location</key>
+	<dict>
+		<key>Latitude</key>
+		<real>-16.055372069999994</real>
+		<key>Longitude</key>
+		<real>-145.61836284999995</real>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>French Polynesia</string>
+		<string>Rangiroa</string>
+		<string>Travel Planning</string>
+	</array>
+	<key>Time Zone</key>
+	<string>Pacific/Tahiti</string>
+	<key>UUID</key>
+	<string>5D7E9C9D7C1743898BFF629280BFE1BF</string>
+</dict>
+</plist>

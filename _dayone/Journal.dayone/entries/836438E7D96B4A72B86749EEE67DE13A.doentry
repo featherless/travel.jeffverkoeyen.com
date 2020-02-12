@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-03-05T19:07:18Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-03-05T19:07:18Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.6</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Travel Planning: Honiara, Solomon Islands
+
+&gt; Taxis from the airport to the center of Honiara are 100 SB
+&gt;
+&gt; Taxis are relatively plentiful and cheap in Honiara. They can be either ordered of flagged down, and cost 10 SBD per 1km. There are also frequent minibuses that operate along the coastal strip from Henderson to White River stopping making numerous stops along the way (SBD$3 any distance).
+&gt;
+&gt; Note that there has been civil unrest and riots in this city. It is worth keeping up-to-date with travel advisory warnings, such as those provided by the Australian or New Zealand governments.</string>
+	<key>Location</key>
+	<dict>
+		<key>Latitude</key>
+		<real>-33.442655089650941</real>
+		<key>Longitude</key>
+		<real>-70.671564747909471</real>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Honiara</string>
+		<string>Solomon Islands</string>
+		<string>Travel Planning</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Santiago</string>
+	<key>UUID</key>
+	<string>836438E7D96B4A72B86749EEE67DE13A</string>
+</dict>
+</plist>

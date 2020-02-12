@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-07-06T16:40:40Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>Macintosh/MacBookAir4,1</string>
+		<key>Generation Date</key>
+		<date>2014-07-06T16:40:40Z</date>
+		<key>Host Name</key>
+		<string>Jeff’s MacBook Air</string>
+		<key>OS Agent</key>
+		<string>MacOS/10.9.3</string>
+		<key>Software Agent</key>
+		<string>Day One Mac/1.9.5</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Travel Planning: Koh Samui, Thailand
+
+## Getting In
+
+From [wikitravel](http://wikitravel.org/en/Ko_Samui):
+
+&gt; Ground transportation from the airport is readily available. A seat on a mini-bus for the 20-minute ride to Chaweng costs 120 baht/person; a faster taxi will cost 400 baht upwards. Be sure to negotiate the rate to your destination before you get into the taxi since many drivers refuse to use their meters.
+
+## Sleep
+
+### Let's Go Backpacker Hostel
+
+33/4 Moo 1, Bophut, Koh Samui, Thailand
+
+&gt; Let' Go Backpackers Hostel is 300 meter from Fisherman Village and 600 meter from Bophut Pier. Samui Airport is 4 km away. Guests can visit Big Buddha which is a 10-minute drive from the property.
+
+- 90% rating on [hostelworld](http://www.hostelworld.com/hosteldetails.php/Let-s-Go-Backpacker-Hostel/Koh-Samui/84350?dateFrom=2014-07-10&amp;dateTo=2014-07-11&amp;sc_sau=rt&amp;sc_pos=4)
+- 24 out of 65 on [tripadvisor](http://www.tripadvisor.com/Hotel_Review-g1179396-d6402860-Reviews-Let_Go_Backpackers_Hostel-Bophut_Ko_Samui_Surat_Thani_Province.html) (only two reviews)
+- ~$8/night for 10 bed dorms
+- Only one bathroom for 9 beds.
+
+### Baan Smile Hostel
+
+119/46 Chaweng Beach Road, Bo Phut, Koh Samui, Thailand
+
+&gt; We are at the Chaweng beach road, opposite with Chalala Hotel and 200 meters to Samui International Hospital from Samui airport.
+&gt;
+&gt; By taxi or local taxi (Tuk Tuk)
+&gt; - 5 minutes from airport
+&gt; - 30 minutes from Ferry pier (Nathon or Lipa Noi)
+&gt; - 10 minutes from Phangan pier (Big Buddha pier)
+
+- 86% on [hostelworld](http://www.hostelworld.com/hosteldetails.php/Baan-Smile-Hostel/Koh-Samui/75616?dateFrom=2014-07-10&amp;dateTo=2014-07-11&amp;sc_sau=rt&amp;sc_pos=10)
+- 100% (2 out of 23) on [tripadvisor](http://www.tripadvisor.com/Hotel_Review-g676072-d4996372-Reviews-Baan_Smile_Hostel-Chaweng_Ko_Samui_Surat_Thani_Province.html)
+- Solid reviews. Many people's favourite hostel.
+- ~$8/night for 4 bed mixed dorm
+
+### Samui Hostel
+
+37/71 moo.3 Bophut, Chaweng Beach, Koh Samui
+
+- 80% on [hostelworld](http://www.hostelworld.com/hosteldetails.php/Samui-Hostel/Koh-Samui/72919?dateFrom=2014-07-10&amp;dateTo=2014-07-11)
+- Badly reviewed on tripadvisor.</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Thành Phố Hà Nội</string>
+		<key>Country</key>
+		<string>Vietnam</string>
+		<key>Latitude</key>
+		<real>21.029451877276092</real>
+		<key>Locality</key>
+		<string>Hanoi</string>
+		<key>Longitude</key>
+		<real>105.84571711315537</real>
+		<key>Place Name</key>
+		<string>Phố Hàng Bông 145</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Travel Planning</string>
+		<string>Koh Samui</string>
+		<string>Thailand</string>
+	</array>
+	<key>Time Zone</key>
+	<string>Asia/Phnom_Penh</string>
+	<key>UUID</key>
+	<string>4C45B1F242014275BC5D4E2DA141440C</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>29</string>
+		<key>Description</key>
+		<string>Mostly Cloudy</string>
+		<key>Fahrenheit</key>
+		<string>84</string>
+		<key>IconName</key>
+		<string>mcloudyn.png</string>
+		<key>Pressure MB</key>
+		<integer>1003</integer>
+		<key>Relative Humidity</key>
+		<integer>79</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2014-07-05T22:20:13Z</date>
+		<key>Sunset Date</key>
+		<date>2014-07-06T11:42:52Z</date>
+		<key>Wind Bearing</key>
+		<integer>0</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>29</integer>
+		<key>Wind Speed KPH</key>
+		<integer>6</integer>
+	</dict>
+</dict>
+</plist>

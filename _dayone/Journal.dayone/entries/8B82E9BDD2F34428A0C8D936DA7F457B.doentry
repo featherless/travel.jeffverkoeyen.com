@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-02-18T12:16:51Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-02-21T00:11:20Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Uyuni is a small desert town that seems to serve primarily as a launching point for the Salar de Uyuni tours. The city is fairly spread out, though it's easy to explore it within a couple hours. There are all sorts of epic metal sculptures scattered throughout the city and the three-story slide is a must see.
+
+We stayed at Hotel Inti for the one night that we were there. We booked our Salt Flats tour with Oasis tours after we checked in, grabbed some burritos for dinner, and then woke up at 8 the next morning for our tour at 10:30AM.</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Potosí</string>
+		<key>Country</key>
+		<string>Bolivia</string>
+		<key>Latitude</key>
+		<real>-20.461241666666666</real>
+		<key>Locality</key>
+		<string>Salar de Uyuni</string>
+		<key>Longitude</key>
+		<real>-66.821258333333333</real>
+		<key>Place Name</key>
+		<string>Avenida Ferroviaria</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Uyuni</string>
+		<string>Bolivia</string>
+		<string>Preamble</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Santiago</string>
+	<key>UUID</key>
+	<string>8B82E9BDD2F34428A0C8D936DA7F457B</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>9</string>
+		<key>Description</key>
+		<string>Partly Cloudy</string>
+		<key>Fahrenheit</key>
+		<string>48</string>
+		<key>IconName</key>
+		<string>fair.png</string>
+		<key>Pressure MB</key>
+		<integer>1036</integer>
+		<key>Relative Humidity</key>
+		<integer>76</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2014-02-18T10:16:49Z</date>
+		<key>Sunset Date</key>
+		<date>2014-02-18T22:56:35Z</date>
+		<key>Wind Bearing</key>
+		<integer>0</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>9</integer>
+		<key>Wind Speed KPH</key>
+		<integer>0</integer>
+	</dict>
+</dict>
+</plist>

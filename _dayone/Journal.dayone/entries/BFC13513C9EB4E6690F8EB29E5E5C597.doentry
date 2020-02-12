@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2013-12-06T23:28:47Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>Macintosh/MacBookAir4,1</string>
+		<key>Generation Date</key>
+		<date>2013-12-06T23:28:47Z</date>
+		<key>Host Name</key>
+		<string>Jeff’s MacBook Air</string>
+		<key>OS Agent</key>
+		<string>Mac OS X/10.9</string>
+		<key>Software Agent</key>
+		<string>Day One Mac/1.9</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Bogota, Colombia
+
+http://www.quora.com/South-America/What-are-some-cool-places-to-go-in-South-America
+&gt; Not much of a fan of this sprawling metropolis that is the country's capital but if you find yourself there, definitely check out the Museo del Oro (one of the largest collections of gold in the world).  The La Candeleria district is quaint and includes many interesting cafes.
+
+http://wikitravel.org/en/Colombia
+
+## Party
+
+### Cha Cha
+
+- House music ’til the late morning.
+
+## Getting Out
+
+|Destination |  Distance (km) |  Time (h)  |
+|-----------:|:--------------:|:----------:|
+|Armenia |  296 |  8
+|Barranquilla |  985 |  20
+|Bucaramanga |  429 |  10
+|Cali |  511 |  12
+|Cartagena |  1090 |  23
+|Cúcuta |  630 |  16
+|Ipiales |  948 |  24
+|Manizales |  278 |  8
+|Medellín |  440 |  9
+|Neiva |  309 |  6
+|Pasto |  865 |  22
+|Pereira |  360 |  9
+|Popayán |  646 |  15
+|San Agustín |  529 |  12
+|Santa Marta |  952 |  19
+|Tunja |  147 |  3</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Puntarenas</string>
+		<key>Country</key>
+		<string>Costa Rica</string>
+		<key>Latitude</key>
+		<real>10.316341843136097</real>
+		<key>Longitude</key>
+		<real>-84.825528872769169</real>
+		<key>Place Name</key>
+		<string>Highway 145</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Colombia</string>
+		<string>Travel Planning</string>
+		<string>Bogota</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Costa_Rica</string>
+	<key>UUID</key>
+	<string>BFC13513C9EB4E6690F8EB29E5E5C597</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>24</string>
+		<key>Description</key>
+		<string>Mostly Cloudy</string>
+		<key>Fahrenheit</key>
+		<string>75</string>
+		<key>IconName</key>
+		<string>mcloudy.png</string>
+		<key>Pressure MB</key>
+		<integer>1015</integer>
+		<key>Relative Humidity</key>
+		<integer>65</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2013-12-06T11:41:09Z</date>
+		<key>Sunset Date</key>
+		<date>2013-12-06T23:15:06Z</date>
+		<key>Wind Bearing</key>
+		<integer>100</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>24</integer>
+		<key>Wind Speed KPH</key>
+		<integer>19</integer>
+	</dict>
+</dict>
+</plist>

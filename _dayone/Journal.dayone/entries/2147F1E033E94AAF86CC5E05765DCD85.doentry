@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Activity</key>
+	<string>Biking</string>
+	<key>Creation Date</key>
+	<date>2013-12-09T21:43:18Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2013-12-10T17:26:00Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Geocaching the Pacific Beaches
+
+We were excited to find that there were two geocaches near Sámara and both of them take you to incredible beaches!
+
+After yoga in the morning we rented bikes from downtown for only $5 each because it was a half day. After our experience in Puerto Viejo we were relieved to see that the bikes were in really good shape.
+
+The bike ride to our first geocache ([GC2C53E](http://coord.info/GC2C53E)) took us across Sámara's beach on our cruisers. We were easily entertained as we rode our bikes on the beach with perfect sunny weather, watched crabs shuffle side to side and stopped to watch snails carve intricate patterns in the sand.
+
+Once we clambered over the rocks and short road leading to the cache we were rewarded with another massive beach with long stretches of sand in every direction. To be honest, this beach was similar to Sámara's so it wasn't as shocking as when we first saw Sámara's.
+
+The cache was incredibly well hidden and we might not have found it were it not for a nearby coconut lady who knew what we were doing and gleefully came over to expose the cache.
+
+The second cache ([GC4N7GD](http://coord.info/GC4N7GD)) was a whole other adventure. It was on the other side of Sámara so we biked back, this time along the road. This involved some huffing as we pushed our bikes up some of the steeper hills.
+
+Once we got to roughly where the geocache was located we had to identify the correct "private property" trail that would lead us to the beach.
+
+The first trail we took brought us along a rocky path with monkeys jumping overhead to a family's driveway just as they were leaving. "Daddy look at their horsies!" Kids are adorbs.
+
+The second trail was a solid adrenaline rush. About halfway up the trail we passed a driveway. Suddenly, I hear growling and snarling as a massive guard dog (and side-kick, tiny dog) bounded toward me, spit flying in every direction. Attempting to keep calm I dismounted my bike and stared the dogs down. There was a pretty decent chance they'd take a solid chunk out of my like so it was a bit of a gamble, but much safer odds than trying to run.
+
+The owner slowly ambled along, clad only in his underwear and a wife-beater, and called the dogs off. Thankfully it seemed these dogs were more bark than bite.
+
+Back-tracking to the main road we decided to try the next private property: a resort in the middle of the jungle. After biking past one, two, three "Private property: no entry!" signs, we finally saw a sign that was quite a bit more welcoming: "playa, this way".
+
+A short hike through the forest later, we found the cache! We had never found a travel bug before, but this cache had two! We took both of them and plan to bring them to South America with us. We proceeded onwards to a winding stone staircase that descended to the beach.
+
+The beach was completely deserted and the sand was rocky, making the water much clearer than the previous beaches. There were also hundreds of hermit crabs running along the beach! We stayed for just long enough to watch the sun set and then made our way back home.
+
+All-in-all 'twas a great day of yoga, biking, and treasure-hunting.</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Guanacaste</string>
+		<key>Country</key>
+		<string>Costa Rica</string>
+		<key>Latitude</key>
+		<real>9.9714118999999997</real>
+		<key>Locality</key>
+		<string>Hojancha</string>
+		<key>Longitude</key>
+		<real>-85.4114395</real>
+		<key>Region</key>
+		<dict>
+			<key>Center</key>
+			<dict>
+				<key>Latitude</key>
+				<real>9.9714119819322704</real>
+				<key>Longitude</key>
+				<real>-85.4106865002191</real>
+			</dict>
+			<key>Radius</key>
+			<real>16753.548873035033</real>
+		</dict>
+	</dict>
+	<key>Starred</key>
+	<true/>
+	<key>Tags</key>
+	<array>
+		<string>Costa rica</string>
+		<string>Samara</string>
+		<string>Geocaching</string>
+		<string>Mind blown</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Costa_Rica</string>
+	<key>UUID</key>
+	<string>2147F1E033E94AAF86CC5E05765DCD85</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>32</string>
+		<key>Description</key>
+		<string>Mostly Cloudy</string>
+		<key>Fahrenheit</key>
+		<string>90</string>
+		<key>IconName</key>
+		<string>mcloudy.png</string>
+		<key>Pressure MB</key>
+		<integer>1009</integer>
+		<key>Relative Humidity</key>
+		<integer>46</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2013-12-09T11:49:27Z</date>
+		<key>Sunset Date</key>
+		<date>2013-12-09T23:20:40Z</date>
+		<key>Wind Bearing</key>
+		<integer>80</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>32</integer>
+		<key>Wind Speed KPH</key>
+		<integer>13</integer>
+	</dict>
+</dict>
+</plist>

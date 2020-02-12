@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-01-17T03:48:49Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>Macintosh/MacBookAir4,1</string>
+		<key>Generation Date</key>
+		<date>2014-01-17T03:48:49Z</date>
+		<key>Host Name</key>
+		<string>Jeff’s MacBook Air</string>
+		<key>OS Agent</key>
+		<string>Mac OS X/10.9.1</string>
+		<key>Software Agent</key>
+		<string>Day One Mac/1.9</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Xishuangbanna, China
+
+From the nyt article [52 Places to Go in 2014](http://www.nytimes.com/interactive/2014/01/10/travel/2014-places-to-go.html):
+
+&gt; With pollution skyrocketing in China’s showcase cities, visitors to the country are increasingly seeking out greener pastures to explore. Set deep in the tropics of southern Yunnan province, Xishuangbanna is about as lush as you can get — the region boasts the richest biodiversity in China, including some of the country’s last wild elephants. Last February, the area went upscale with its first five-star hotel — the [Anantara Xishuangbanna Resort &amp; Spa](http://xishuangbanna.anantara.com/), which organizes tea-leaf picking trips in mountainside plantations. More action-oriented experiences are possible, as well, such as the tour group[WildChina](http://wildchina.com/)’s jungle biking trips or treks along the caravan route plied by tea traders centuries ago.</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Galapagos</string>
+		<key>Country</key>
+		<string>Ecuador</string>
+		<key>Latitude</key>
+		<real>-0.90221851510967754</real>
+		<key>Locality</key>
+		<string>San Cristobal</string>
+		<key>Longitude</key>
+		<real>-89.611491200392749</real>
+		<key>Place Name</key>
+		<string>Galapagos National Park</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>China</string>
+		<string>Travel Planning</string>
+		<string>Xishuangbanna</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Guatemala</string>
+	<key>UUID</key>
+	<string>599A1D3860A542B4A36DA478EB43B1E9</string>
+</dict>
+</plist>

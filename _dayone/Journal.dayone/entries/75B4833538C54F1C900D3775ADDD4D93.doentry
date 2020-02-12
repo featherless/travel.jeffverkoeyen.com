@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-03-17T06:06:49Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>Macintosh/MacBookAir4,1</string>
+		<key>Generation Date</key>
+		<date>2014-03-17T06:06:49Z</date>
+		<key>Host Name</key>
+		<string>Jeff’s MacBook Air</string>
+		<key>OS Agent</key>
+		<string>Mac OS X/10.9.2</string>
+		<key>Software Agent</key>
+		<string>Day One Mac/1.9.3</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Relais Marama
+
+Where we stayed. Camping + rooms. We paid 8000 for two people/night. Included breakfast (bread and jam and juice), bikes, and free water. Were able to make phone calls for free.
+
+- Tel.: +689 98 42 51
+- Cell (Jacques): +689 76 12 29</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>French Polynesia</string>
+		<key>Country</key>
+		<string>French Polynesia</string>
+		<key>Latitude</key>
+		<real>-16.055372069999994</real>
+		<key>Longitude</key>
+		<real>-145.61836284999995</real>
+		<key>Place Name</key>
+		<string>French Polynesia</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>French Polynesia</string>
+		<string>Fakarava</string>
+		<string>Hostels</string>
+	</array>
+	<key>Time Zone</key>
+	<string>Pacific/Tahiti</string>
+	<key>UUID</key>
+	<string>75B4833538C54F1C900D3775ADDD4D93</string>
+</dict>
+</plist>

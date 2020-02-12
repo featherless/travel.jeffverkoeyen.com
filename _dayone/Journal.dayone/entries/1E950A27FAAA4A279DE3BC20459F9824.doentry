@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-01-17T03:16:39Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>Macintosh/MacBookAir4,1</string>
+		<key>Generation Date</key>
+		<date>2014-01-17T03:16:39Z</date>
+		<key>Host Name</key>
+		<string>Jeff’s MacBook Air</string>
+		<key>OS Agent</key>
+		<string>Mac OS X/10.9.1</string>
+		<key>Software Agent</key>
+		<string>Day One Mac/1.9</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Namibia
+
+From the nyt article [52 Places to Go in 2014](http://www.nytimes.com/interactive/2014/01/10/travel/2014-places-to-go.html):
+
+&gt; Namibia’s communal conservancy movement, which pairs sustainable tourism with rural community outreach, has been a much-heralded success: In 2013, the country’s 79 conservancies received the prestigious [Gift to the Earth Award](http://worldwildlife.org/stories/namibia-s-sustainable-tourism-success) from the World Wildlife Fund, and the stunning Namib Sand Sea Desert[joined Unesco’s World Heritage list](http://whc.unesco.org/en/list/1430). Options abound for travelers who want to help the effort, including the [Desert Rhino Camp](http://www.wilderness-safaris.com/namibia_kunene/desert_rhino_camp/introduction/), which [Wilderness Safaris](http://www.wilderness-safaris.com/) runs in partnership with the [Save the Rhino Trust](http://www.savetherhinotrust.org/); the camp directly supports the conservancy, which has reversed dwindling rhino populations. In 2014, Wilderness Safaris also plans to open the [Hoanib Skeleton Coast Camp](http://www.wilderness-safaris.com/namibia_kunene/hoanib_skeleton_coast/introduction/), on the Hoanib River in the north. And[Namibia’s Tourism Board](http://www.namibiatourism.com.na/) is introducing three self-drive routes in 2014 to point visitors toward less-visited parts of the country.</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Galapagos</string>
+		<key>Country</key>
+		<string>Ecuador</string>
+		<key>Latitude</key>
+		<real>-0.90221922214113082</real>
+		<key>Locality</key>
+		<string>San Cristobal</string>
+		<key>Longitude</key>
+		<real>-89.611492709200363</real>
+		<key>Place Name</key>
+		<string>Galapagos National Park</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Namibia</string>
+		<string>Travel Planning</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Guatemala</string>
+	<key>UUID</key>
+	<string>1E950A27FAAA4A279DE3BC20459F9824</string>
+</dict>
+</plist>

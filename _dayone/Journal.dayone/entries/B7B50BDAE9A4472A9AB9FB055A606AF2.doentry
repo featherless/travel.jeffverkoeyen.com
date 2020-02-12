@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-03-17T23:42:00Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>Macintosh/MacBookAir4,1</string>
+		<key>Generation Date</key>
+		<date>2014-03-17T23:42:00Z</date>
+		<key>Host Name</key>
+		<string>Jeff’s MacBook Air</string>
+		<key>OS Agent</key>
+		<string>Mac OS X/10.9.2</string>
+		<key>Software Agent</key>
+		<string>Day One Mac/1.9.3</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Travel Planning: Bora Bora, French Polynesia
+
+## Sleep
+
+All will pick up from the airport.
+
+### Pension Noni
+
+- 6,500 for two in a room.
+- Tel.: +689 67 71 48 or +689 73 73 61
+
+### Bora Vaite Lodge
+
+- North side.
+- 8,400 for two in a room.
+- Breakfast included.
+- Tel.: +689 67 55 69 or +689 73 57 71</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>French Polynesia</string>
+		<key>Country</key>
+		<string>French Polynesia</string>
+		<key>Latitude</key>
+		<real>-16.055372069999994</real>
+		<key>Longitude</key>
+		<real>-145.61836284999995</real>
+		<key>Place Name</key>
+		<string>French Polynesia</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Bora Bora</string>
+		<string>French Polynesia</string>
+		<string>Travel Planning</string>
+	</array>
+	<key>Time Zone</key>
+	<string>Pacific/Tahiti</string>
+	<key>UUID</key>
+	<string>B7B50BDAE9A4472A9AB9FB055A606AF2</string>
+</dict>
+</plist>

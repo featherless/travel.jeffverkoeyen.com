@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-03-05T18:34:05Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-03-05T18:34:05Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.6</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Travel Planning: Solomon Islands
+
+From lonelyplanet:
+
+&gt; Arguably one of the wildest destinations in the South Pacific, the Solomon Islands host a traditional Melanesian culture and an ever-lingering WWII history. Guadalcanal, the capital island, is home to numerous historical war sites.
+&gt; 
+&gt; For relaxation head to the New Georgia Islands, particularly Marovo Lagoon for its fish-filled lagoon dotted with small islands. Beaches are few but the kayaking, diving and traditional culture make it a true adventure.</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Santiago</string>
+		<key>Country</key>
+		<string>Chile</string>
+		<key>Latitude</key>
+		<real>-33.44466396854228</real>
+		<key>Locality</key>
+		<string>Santiago</string>
+		<key>Longitude</key>
+		<real>-70.667788386006819</real>
+		<key>Place Name</key>
+		<string>Calle Santa Monica 2305–2397</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Solomon Islands</string>
+		<string>Travel Planning</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Santiago</string>
+	<key>UUID</key>
+	<string>9C55E56673E44249B9CD99EA54EE8914</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>28</string>
+		<key>Description</key>
+		<string>Sunny</string>
+		<key>Fahrenheit</key>
+		<string>82</string>
+		<key>IconName</key>
+		<string>clear.png</string>
+		<key>Pressure MB</key>
+		<integer>1015</integer>
+		<key>Relative Humidity</key>
+		<integer>30</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2014-03-05T10:35:18Z</date>
+		<key>Sunset Date</key>
+		<date>2014-03-05T23:13:26Z</date>
+		<key>Visibility KM</key>
+		<real>11.265408000000001</real>
+		<key>Wind Bearing</key>
+		<integer>150</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>28</integer>
+		<key>Wind Speed KPH</key>
+		<integer>22</integer>
+	</dict>
+</dict>
+</plist>

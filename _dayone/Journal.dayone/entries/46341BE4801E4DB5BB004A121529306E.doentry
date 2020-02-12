@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Activity</key>
+	<string>Walking</string>
+	<key>Creation Date</key>
+	<date>2014-02-19T17:38:50Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-02-20T19:36:02Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>After visiting the salt flats we made our way to the Atacama desert where we would spend the next two days exploring odd rock formations and plenty of seemingly impossible desert lakes. Most of the tour involved driving to a location, getting out to take photos for about twenty minutes, and then being ushered back in to the car and onward to our next photo-op.
+
+We spent two nights staying in small towns where the amenities were incredibly minimal - dorms the first night and no power the second. We’d unload our things from the truck and then wait a few hours while the tour guides prepared everyone dinner. With nothing to do on the second night we ended up picking a direction and walking. Our direction was toward a lake, but the lake seemed to move farther away the closer we got, so after about an hour and a half we walked back to the shanty-town.
+
+On the last day we woke up bright and early at 5:30am so that we could get to the Chilean border in time for…I have no idea. But get up we did and made our way to a bunch of geysers. These things were seriously epic. There were also some hot springs nearby but we didn’t think they were worth jumping in to. At this point our guide informed us that the truck had broken down or something, so we had to switch to another jeep that would take us to the Chilean border.
+
+This turned out to be a great twist of fate! We ended up spending the rest of the ride blasting beats and once we arrived in San Pedro we had a new group of fellow travellers to hang out with.</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Potosí</string>
+		<key>Country</key>
+		<string>Bolivia</string>
+		<key>Latitude</key>
+		<real>-22.052611166666665</real>
+		<key>Longitude</key>
+		<real>-67.883020000000002</real>
+		<key>Region</key>
+		<dict>
+			<key>Center</key>
+			<dict>
+				<key>Latitude</key>
+				<real>-20.374595598635608</real>
+				<key>Longitude</key>
+				<real>-66.758811992553007</real>
+			</dict>
+			<key>Radius</key>
+			<real>349057.01028408506</real>
+		</dict>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Atacama Desert</string>
+		<string>Bolivia</string>
+		<string>Tours</string>
+		<string>Preamble</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Santiago</string>
+	<key>UUID</key>
+	<string>46341BE4801E4DB5BB004A121529306E</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>23</string>
+		<key>Description</key>
+		<string>Sunny</string>
+		<key>Fahrenheit</key>
+		<string>73</string>
+		<key>IconName</key>
+		<string>clear.png</string>
+		<key>Pressure MB</key>
+		<integer>1023</integer>
+		<key>Relative Humidity</key>
+		<integer>12</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2014-02-19T10:27:14Z</date>
+		<key>Sunset Date</key>
+		<date>2014-02-19T23:11:25Z</date>
+		<key>Visibility KM</key>
+		<real>11.265408000000001</real>
+		<key>Wind Bearing</key>
+		<integer>260</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>23</integer>
+		<key>Wind Speed KPH</key>
+		<integer>22</integer>
+	</dict>
+</dict>
+</plist>

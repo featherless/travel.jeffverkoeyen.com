@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-01-15T11:40:53Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-01-15T11:40:53Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Taxi Boats from Isla Isabella to Isla San Cristobal
+
+| Time|Location
+|--------:|:-----------|
+| 5:31AM | In the cab to the docks.
+| 5:38AM | At agriculture inspections.
+| 5:59AM | On a taxi boat.
+| 6:10AM | On board the Neptuno.
+| 8:16AM | Transferred to a taxi boat.
+| 8:19AM | Waiting for bags.
+| 8:29AM | Unloaded at San Cristobal.
+| 1:28PM | On our way to the docks.
+| 2:04PM | On a taxi boat.
+| 2:09PM | On our way to San Cristobal!
+| 4:05PM | Arrived!</string>
+	<key>Location</key>
+	<dict>
+		<key>Latitude</key>
+		<real>-0.96265364278778454</real>
+		<key>Longitude</key>
+		<real>-90.958619763785819</real>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Galapagos Islands</string>
+		<string>Ecuador</string>
+		<string>Isla Isabella</string>
+		<string>Isla San Cristobal</string>
+		<string>Boating</string>
+	</array>
+	<key>Time Zone</key>
+	<string>Pacific/Galapagos</string>
+	<key>UUID</key>
+	<string>C68E5EA1E55F4646A521650A16B7891B</string>
+</dict>
+</plist>

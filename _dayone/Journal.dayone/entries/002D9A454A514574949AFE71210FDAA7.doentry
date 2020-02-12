@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-01-17T03:42:01Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>Macintosh/MacBookAir4,1</string>
+		<key>Generation Date</key>
+		<date>2014-01-17T03:42:01Z</date>
+		<key>Host Name</key>
+		<string>Jeff’s MacBook Air</string>
+		<key>OS Agent</key>
+		<string>Mac OS X/10.9.1</string>
+		<key>Software Agent</key>
+		<string>Day One Mac/1.9</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Yorkshire, England
+
+From the nyt article [52 Places to Go in 2014](http://www.nytimes.com/interactive/2014/01/10/travel/2014-places-to-go.html):
+
+&gt; The sprawling northern county of Yorkshire is becoming a big destination for beer lovers, thanks to a recently published guidebook called [“Great Yorkshire Beer”](http://www.amazon.com/Great-Yorkshire-Beer-Beer-People/dp/0957295154) and a renewed interest in historic breweries like [Samuel Smith](http://www.samuelsmithsbrewery.co.uk/) (founded in 1758) and [Timothy Taylor](http://timothytaylor.co.uk/) (from 1858). Spend an evening crawling through the [Fat Cat](http://www.thefatcat.co.uk/), the Kelham Island Tavern and other award-winning pubs in Sheffield — recently called Britain’s best beer city by the connoisseur Adrian Tierney-Jones — then travel to Leeds, whose compact center is home to the [Victoria Hotel](http://www.nicholsonspubs.co.uk/thevictoriahotelgreatgeorgestreet), the [Cross Keys](http://www.the-crosskeys.com/) and other public houses that pull pints on traditional hand pumps. A final stay in the photogenic city of York offers a Tudor-style pub at the end of every cobbled lane, as well as modern beer temples like [York Tap](http://www.yorktap.com/), [Pivni](http://pivni.co.uk/) and the [House of Trembling Madness](http://www.tremblingmadness.co.uk/).</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Galapagos</string>
+		<key>Country</key>
+		<string>Ecuador</string>
+		<key>Latitude</key>
+		<real>-0.90229098715804823</real>
+		<key>Locality</key>
+		<string>San Cristobal</string>
+		<key>Longitude</key>
+		<real>-89.611516792447176</real>
+		<key>Place Name</key>
+		<string>Galapagos National Park</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>England</string>
+		<string>Yorkshire</string>
+		<string>Travel Planning</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Guatemala</string>
+	<key>UUID</key>
+	<string>002D9A454A514574949AFE71210FDAA7</string>
+</dict>
+</plist>

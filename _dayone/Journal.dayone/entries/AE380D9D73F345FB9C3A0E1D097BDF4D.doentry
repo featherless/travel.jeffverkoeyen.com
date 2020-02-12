@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-04-20T07:47:52Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>Macintosh/MacBookAir4,1</string>
+		<key>Generation Date</key>
+		<date>2014-04-20T07:47:52Z</date>
+		<key>Host Name</key>
+		<string>Jeff’s MacBook Air</string>
+		<key>OS Agent</key>
+		<string>Mac OS X/10.9.2</string>
+		<key>Software Agent</key>
+		<string>Day One Mac/1.9.3</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Travel Planning: Sydney
+
+## Sleep
+
+### Jackaroo Hostel
+
+Jackaroo Hostel Kings Cross, 107-109 Darlinghurst Road, Kings Cross, Sydney, Australia
+Tel: +612 93322244</string>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Travel Planning</string>
+		<string>Sydney</string>
+		<string>Australia</string>
+	</array>
+	<key>Time Zone</key>
+	<string>Australia/Melbourne</string>
+	<key>UUID</key>
+	<string>AE380D9D73F345FB9C3A0E1D097BDF4D</string>
+</dict>
+</plist>

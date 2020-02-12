@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-02-27T18:38:03Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-02-27T18:38:03Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.6</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Features
+
+- Chrome-style loading indicator (moving horizontal line).
+- Status bar notifications.
+- Url navigator.
+- Markdown editor.
+- Markdown editor bar.
+- Photo album.
+- Calendar.
+- Date picker.
+- Navigation bar subtitle.
+- Sticker picker.
+- Photo editor.
+- Search index.
+- NUX screens.
+- Slide-out drawer.
+- Shape-based buttons that can transform to similar buttons (x +, ||| =, rotating gear, etc...)
+- Global interactive gestures
+
+## Skeleton Apps
+
+- Social feed.
+- Messenger.
+- Photo sharing.
+- Calendar.
+- Journal.
+- Alarm clock.
+- Mail.
+- Media player.
+- Tasks.
+- Weather.
+- Stocks.
+- Location.
+
+## Sample applications.
+
+- Twitter.
+- Github.
+- Messaging.
+- Tracker.
+- Event tracking.
+- Social feed.
+
+App icon that's a solid color
+Discrete camera app that shows a black screen
+
+## Other Services
+
+http://www.shinobicontrols.com
+http://pspdfkit.com/</string>
+	<key>Location</key>
+	<dict>
+		<key>Latitude</key>
+		<real>-29.904215396409764</real>
+		<key>Longitude</key>
+		<real>-71.253818152538742</real>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Nimbus</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Santiago</string>
+	<key>UUID</key>
+	<string>F0B33618B389456780576E4ECD25E168</string>
+</dict>
+</plist>

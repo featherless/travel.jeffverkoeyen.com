@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2013-12-06T23:33:25Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>Macintosh/MacBookAir4,1</string>
+		<key>Generation Date</key>
+		<date>2013-12-06T23:33:25Z</date>
+		<key>Host Name</key>
+		<string>Jeff’s MacBook Air</string>
+		<key>OS Agent</key>
+		<string>Mac OS X/10.9</string>
+		<key>Software Agent</key>
+		<string>Day One Mac/1.9</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Travel Planning: Cusco, Peru
+
+http://www.quora.com/South-America/What-are-some-cool-places-to-go-in-South-America
+&gt; Ancient capital of the Inca empire. Must visit mountainous city that you must stop at prior to visiting Machu Picchu.
+
+## Do
+
+### Piso Market
+
+About an hour and a half from Cusco.
+
+## Sleep
+
+### Kokopelli Hostel
+
+- 87% (#14) on [tripadvisor](http://www.tripadvisor.com/Hotel_Review-g294314-d3258704-Reviews-Kokopelli_Hostel-Cusco_Cusco_Region.html)
+- 89% on [hostelworld](http://www.hostelworld.com/hosteldetails.php/Kokopelli-Hostel-Cusco/Cusco/44193)
+- Calle San Andres 260 | Centro de Cusco, Cusco, Peru
+- cusco@hostelkokopelli.com
+- [website](http://www.hostelkokopelli.com/cusco/en/)
+- 24 soles/dorm
+
+### Intro Hostels Cusco
+
+- 100% on [tripadvisor](http://www.tripadvisor.com/Hotel_Review-g294314-d5021858-Reviews-Intro_Hostels_Cusco-Cusco_Cusco_Region.html)
+- 91% on [hostelworld](http://www.hostelworld.com/hosteldetails.php/Intro-Hostels-Cusco/Cusco/79038)
+- Cuesta Santa Ana 515, Cusco, Peru
+- Cooking classes
+- Quiet
+
+### Hostel Kilombo
+
+- 96% on [hostelworld](http://www.hostelworld.com/hosteldetails.php/Hostel-Kilombo/Cusco/37602)
+- #53 of 203 on [tripadvisor](http://www.tripadvisor.com/Hotel_Review-g294314-d1626074-Reviews-Hostel_Kilombo-Cusco_Cusco_Region.html)
+</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Puntarenas</string>
+		<key>Country</key>
+		<string>Costa Rica</string>
+		<key>Latitude</key>
+		<real>10.316340795697688</real>
+		<key>Longitude</key>
+		<real>-84.825527767185676</real>
+		<key>Place Name</key>
+		<string>Highway 145</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Peru</string>
+		<string>Cusco</string>
+		<string>Travel Planning</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Costa_Rica</string>
+	<key>UUID</key>
+	<string>9E48E413505445E5828AECAE2130AA33</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>24</string>
+		<key>Description</key>
+		<string>Mostly Cloudy</string>
+		<key>Fahrenheit</key>
+		<string>75</string>
+		<key>IconName</key>
+		<string>mcloudy.png</string>
+		<key>Pressure MB</key>
+		<integer>1015</integer>
+		<key>Relative Humidity</key>
+		<integer>65</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2013-12-06T11:41:09Z</date>
+		<key>Sunset Date</key>
+		<date>2013-12-06T23:15:06Z</date>
+		<key>Wind Bearing</key>
+		<integer>100</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>24</integer>
+		<key>Wind Speed KPH</key>
+		<integer>19</integer>
+	</dict>
+</dict>
+</plist>

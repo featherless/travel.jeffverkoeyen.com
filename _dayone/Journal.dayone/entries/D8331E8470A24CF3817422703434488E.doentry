@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-01-22T21:30:45Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>Macintosh/MacBookAir4,1</string>
+		<key>Generation Date</key>
+		<date>2014-01-22T21:30:45Z</date>
+		<key>Host Name</key>
+		<string>Jeff’s MacBook Air</string>
+		<key>OS Agent</key>
+		<string>Mac OS X/10.9.1</string>
+		<key>Software Agent</key>
+		<string>Day One Mac/1.9.1</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Paracas, Peru
+
+Paracas is a very popular beach resort destination although the beach in the town itself is small and not clean.
+
+## Do
+
+&gt; Explore the Península de Paracas with a tour or on your own, for example on rented bike (which will cost around S/. 30 per day). Or take a 2h boat tour to the Ballestas Islands for around S/. 35. The Ballestas islands contain huge colonies of seabirds, inclusing penguins. Also sea-lions.
+
+## Getting There
+
+- Book tickets on [Cruz del Sur](http://www.cruzdelsur.com.pe/index/asientos)
+
+## Sleep
+
+### Paracas Backpackers House
+
+- 91% (4 1/2) on [tripadvisor](http://www.tripadvisor.com/Hotel_Review-g445063-d1740228-Reviews-Paracas_Backpackers_House-Paracas_Ica_Region.html)
+- 88% on [hostelworld](http://www.hostelworld.com/hosteldetails.php/Paracas-Backpackers-House/Paracas/48332?dateFrom=2014-01-23&amp;dateTo=2014-01-25&amp;sc_sau=avdc&amp;sc_pos=2)
+- [website](http://www.paracasbackpackershouse.com.pe/newsite/index.php/en)
+- 20 Soles/4 bed dorm
+- 17.50 Soles/8 bed dorm
+- 45 Soles/private twin shared bath
+
+&gt; From Lima: To Paracas, you can take: OLTURSA and CRUZ DEL SUR buses (about S/. 50.00). You can also arrive in Paracas, in a less expensive way, but with a longer trip, with SOYUZ or FLORES buses (about S/. 25.00). With these buses you have to exit the bus in the crossroad to Pisco. From the crossroad you have two alternatives, you can either take a taxi to Paracas (S/. 20.00), or you can take a “colectivo” taxi to Pisco (S/. 1.50 each), and from there, near the market, take another “colectivo” taxi to Paracas (S/.2.50 from monday to saturday and S/. 3.00 on sunday, each).
+
+From [wikitravel](http://wikitravel.org/en/Paracas):
+
+&gt; Extremely basic place with privates and dorms. Popular with very young crowd, that, in combination with paper-thin walls means it can be quite noisy. Friendly and helpful owners who also speak English. S/. 40 for a double with shared bathroom (unfortunately there is just 1 hot shower for 20 people), S/. 70 with private bathroom. Free wifi. No breakfast. Note that there are two other hostels in the same street which are also called 'Backpacker'-something and look very similar.
+
+### Kokopelli Hostel Paracas
+
+- 80% (4) on [tripadvisor](http://www.tripadvisor.com/Hotel_Review-g445063-d5000134-Reviews-Kokopelli_Hostel_Paracas-Paracas_Ica_Region.html)
+- 94% on [hostelworld](http://www.hostelworld.com/hosteldetails.php/Kokopelli-Hostel-Paracas/Paracas/78671?dateFrom=2014-01-23&amp;dateTo=2014-01-25&amp;sc_sau=avdc&amp;sc_pos=1)
+- Terrible staff and no working shower. “Never again.”</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Lima</string>
+		<key>Country</key>
+		<string>Peru</string>
+		<key>Latitude</key>
+		<real>-12.13583274497384</real>
+		<key>Longitude</key>
+		<real>-77.009920625219237</real>
+		<key>Place Name</key>
+		<string>Av. La Merced</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Paracas</string>
+		<string>Peru</string>
+		<string>Travel Planning</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Guayaquil</string>
+	<key>UUID</key>
+	<string>D8331E8470A24CF3817422703434488E</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>27</string>
+		<key>Description</key>
+		<string>Mostly Cloudy</string>
+		<key>Fahrenheit</key>
+		<string>81</string>
+		<key>IconName</key>
+		<string>mcloudy.png</string>
+		<key>Pressure MB</key>
+		<integer>1010</integer>
+		<key>Relative Humidity</key>
+		<integer>70</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2014-01-22T10:59:17Z</date>
+		<key>Sunset Date</key>
+		<date>2014-01-22T23:41:08Z</date>
+		<key>Wind Bearing</key>
+		<integer>180</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>27</integer>
+		<key>Wind Speed KPH</key>
+		<integer>11</integer>
+	</dict>
+</dict>
+</plist>

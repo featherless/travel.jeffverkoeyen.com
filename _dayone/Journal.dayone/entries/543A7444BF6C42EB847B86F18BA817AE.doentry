@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2013-12-07T13:01:26Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2013-12-07T13:01:26Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>### tl;dr
+
+- Owning my content allows me to be more creative and I don’t want to take this for granted.
+- Day One is my client, both on my Mac and my iPhone. Both work offline. The client stores its data in a Dropbox folder, which gets synced automatically to my server. This kicks off a deploy script that regenerates my website with the Day One entries, the final result visible here: [blog.jeffverkoeyen.com](http://blog.jeffverkoeyen.com).
+- The plugin automatically matches Day One entries to Jekyll posts using tags.
+- [Jekyll Day One plugin on Github](https://github.com/jverkoey/jekyll-dayone)
+- [Dropbox command line tools for Linux](https://www.dropbox.com/install?os=lnx)
+
+# My Day One-Written, Dropbox-Deployed, Jekyll-Served Blog
+
+Reflecting on the last few years of tech's impact on creativity and ownership brings me to the following question:
+
+Twenty years from now, do we have any right to expect content that we've created and posted online with free services to still be accessible?
+
+We funnel so much of our lives - our photos, our thoughts, our creativity - into different silos, taking for granted that these services will continue to exist and that our data will still be accessible when our children someday want to see and read about the experiences we had.
+
+It's sobering to remember that, with all of these free services, *we* are the product. When enough of us move on to something shinier, the old service has every right to wipe our data outright and shut down. Any ability to download our content before that would simply be a kind gesture.
+
+These thoughts have led me to phase out free services to catalog my life. Path is gone; I no longer host my photos on Facebook; and all of my writing now lives directly on my devices. I can choose how and where my content is made accessible using servers that I configure and, most importantly, my content is mine and mine alone.^1
+
+With the motivation laid out, let's look at how my blog came to be.
+
+# Writing A Blog While Mobile
+
+When I began my travels in October I was writing everything on my laptop and deploying it with git to my Jekyll blog. This meant many long hours at my laptop fiddling with HTML layouts and no ability to modify posts on my phone.
+
+Fast forward to a few weeks ago when the Day One app was being featured on the App Store. Having heard of it before, I idly checked it out expecting it to be simply another Path app.
+
+Much to my surprise after reading the feature list: Day One doesn't store anything you create on their servers, they don't require online accounts, and all data is yours to play with. Everything you write is on your devices and you can choose how you want to sync between them, e.g. via Dropbox.
+
+A mental path quickly connected to [a post by Joe Hewitt describing how he was using Dropbox to publish his blog](http://joehewitt.com/2011/10/03/dropbox-is-my-publish-button) . Suddenly it was clear: Day One could be a powerful mobile client for managing my blog.
+
+# Day One -&gt; Dropbox -&gt; Jekyll
+
+Day One would be the client that created all of the content. This content would be stored in a Dropbox folder which, on any changes to its contents, would cause a script on my server to rebuild the Jekyll blog.
+
+The beauty of this system is that, barring any layout changes, I never have to use my laptop to write content again. Because Day One automatically syncs when I'm online, I don't even have to hit publish: changes go live as I make them.^2
+
+## Understanding Jekyll Plugins
+
+Jekyll websites are created by running `jekyll build` in a folder with a [specific hierarchy](http://jekyllrb.com/docs/structure/). Within this hierarchy is a `_posts` folder with any number of individual post files. Each of these posts can have [metadata](http://jekyllrb.com/docs/frontmatter/), such as which layout to use or the post's title. Notably, you can attach tags to specific posts.
+
+&gt; Individual pieces of Day One content are called entries, terminology that will soon be important when we discuss the convergence of Jekyll posts and Day One entries.
+
+Jekyll has the ability to build plugins to modify the site creation pipeline. The plugin types affect specific steps in that pipeline. One such type is the Generator.
+
+Generator plugins allow you to insert logic shortly after the posts and their metadata have been loaded into memory, and just before the post templates generate the site's HTML. This allows you to attach additional information to each post - in this case the relevant Day One entries. The post template can then render the information however it chooses.
+
+## Associating Day One Entries With Jekyll Posts
+
+Day One entries have a tendency to be small, focused pieces of information: a place I’ve visited or a photo of something noteworthy. It’s possible to write longer forms of content, as this post exemplifies, but in general I treat entries as smaller parts of a whole.
+
+With this in mind, each Jekyll post could potentially have any number of Day One entries associated with it. A post about Monteverde, Costa Rica might have twenty entries, for example.
+
+It should also be possible to include entries in multiple posts. An entry about traveling between Monteverde and Sámara should be in both the post about Monteverde and the post about Sámara.
+
+### The Naive Algorithm
+
+It's highly likely that, over time, there might grow to be dozens of posts and hundreds, maybe thousands of entries. The naive algorithm would traverse every post, and for each post traverse every entry, adding entries that have the necessary tags to the current post.
+
+Assuming the number of tags per post or entry is always under some constant value, we have O(posts.size * entries.size) complexity, or roughly O( n^2 ). This will start chugging along^3 as the blog ages. We can do better.
+
+### Tag Tree Algorithm
+
+The goal of this algorithm is to reduce the time complexity from n^2 to O(n).
+
+The key to this algorithm is to build a tree using the tags from all of the posts. You can do this in one pass of all posts. This is accomplished via the `build_tag_tree` method in [dayone.rb](https://github.com/jverkoey/jekyll-dayone/blob/master/src/dayone.rb#L44). Given the following posts:
+
+    Monteverde, Costa Rica
+    Puerto Viejo, Costa Rica
+    Alajuela, Costa Rica
+
+The tag tree will be:
+
+    root =&gt; alajuela =&gt; costa rica*
+         =&gt; costa rica =&gt; monteverde*
+                       =&gt; puerto viejo*
+
+&gt; Each node of the tree is a hash that may have a post attached to it. Movement from a parent node to a child happens via tags.
+
+Then, iterate over every entry and walk the tag tree using the entry’s tags. For every touched node in the tree that corresponds to a post, add that entry to the post. This is accomplished via the `get_tag_tree_posts` method in [dayone.rb](https://github.com/jverkoey/jekyll-dayone/blob/master/src/dayone.rb#L60). 
+
+For example, an entry with the tags `Costa Rica, Monteverde` would traverse the above tree first at `costa rica`, then to `monteverde`. At this node we’d see the attached post and add this entry to it.
+
+The runtime of this algorithm is O(posts.size) + O(entries.size), or effectively O(n). Much improved!
+
+The most complex part of this algorithm is the entry tag walk. We need to ensure that if an entry has tags that match multiple posts that each of those posts is given the entry.
+
+To do this we use a filtered breadth-first walk of the tree, only traversing branches that exist in the post tag tree.
+
+    posts = []
+    queue = [tag_tree]
+
+    while queue.length &gt; 0
+      node = queue.shift
+
+      if has_post(node)
+        posts.push(node.post)
+      end
+
+      entry_tags.each do |tag|
+        if node.has_key?(tag)
+          queue.push(node[tag])
+        end
+      end
+    end
+
+## Deploying The Blog Using Dropbox
+
+You can set up Dropbox on a Linux box using their [Linux command line tools](https://www.dropbox.com/install?os=lnx).
+
+Once you have your Dropbox account synchronizing on your server you have at least two options for deploying the changes.
+
+1. Run a daemon that watches for changes in the Day One folder in your Dropbox. When changes are detected, rerun `jekyll build` to regenerate the site.
+2. Run a cron that regenerates your site every n minutes/hours/days.
+
+Each solution has pros/cons that may be more/less applicable to your situation.
+
+# Voila!
+
+These are the basics principals behind my new blog and how it operates under the hood. You can find the source code for my [Jekyll DayOne plugin on Github](https://github.com/jverkoey/jekyll-dayone).
+
+^1 This system isn't perfect, of course. My laptop could be stolen or my hosting provider could suffer from catastrophic data loss. When we own our content we also own the responsibility to protect it. This grants us the privilege of choosing to what degree we do so.
+
+^2 In practice there are mechanisms to keep posts from being published while being written and similar mechanisms to take down posts if necessary
+
+^3 A quick test with 13 posts and 150 entries took 15 seconds to execute on my Macbook Air, a significantly faster machine than my server.</string>
+	<key>Location</key>
+	<dict>
+		<key>Latitude</key>
+		<real>10.214917416957038</real>
+		<key>Longitude</key>
+		<real>-84.854256674066391</real>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Blog Backend</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Costa_Rica</string>
+	<key>UUID</key>
+	<string>543A7444BF6C42EB847B86F18BA817AE</string>
+</dict>
+</plist>

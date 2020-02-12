@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-01-24T20:32:34Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>Macintosh/MacBookAir4,1</string>
+		<key>Generation Date</key>
+		<date>2014-01-24T20:32:34Z</date>
+		<key>Host Name</key>
+		<string>Jeff’s MacBook Air</string>
+		<key>OS Agent</key>
+		<string>Mac OS X/10.9.1</string>
+		<key>Software Agent</key>
+		<string>Day One Mac/1.9.2</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Travel Planning: Andahuaylas, Peru
+
+Population: 30,000.
+2,926m above sea level.
+
+## Do
+
+### Sunday Market
+
+From [wikitravel](http://wikitravel.org/en/Andahuaylas):
+
+&gt; Along the river at the east end of town. Surely one of the largest and most colorful markets in South America. With nearly all of the participants being native Quechua indigenous people, it's a photographer's dream. Every manner of fruit, vegetable, grain, livestock (rabbits, guinea pigs, horses, cows, sheep, goats, pigs), housewares, clothing (shoes, jeans, jackets, etc), snake oil potions for treating all manner of ailments. Both sides of the river for about 1/2 km. Sundays only, early morning until around 5PM.
+
+### The Laguna de Pacucha
+
+From [wikitravel](http://wikitravel.org/en/Andahuaylas):
+
+&gt; At 3,300m is easy to reach during the day. Take a colectivo (3 Soles) or a taxi. Both leave from the same place at the top of the market (ferria). The colectivos run via the village of Pucucha up to the head of the lake (40 minutes). From here, it's a 7 km walk to the ruins of Sondor from the Chanca era. Look for the sign for Sondor on the left side of the lake. If it has been raining, be prepared for a lot of mud. Or take a combi (1-2 sol); the combi drops you off (and returns from)the beginning of the road uphill to Sondor (the smaller, upper road on the left) -- a 15-20 min walk up hill to the entrance to the archeological site (2 soles). Beautiful ruins; spectacular views of the mountains. If you have enough time, walk back to Pacucha on the other side of the laguna (2.30h). It's a beautiful stroll (all flat) and the villagers are quite friendly. The village gives a good impression of campesinos 's life. But be sure to reach Pucucha before dark, otherwise it's going to be difficult to find a colectivo or taxi back to Andahuaylas.
+
+## Getting to Abancay
+
+From [wikitravel](http://wikitravel.org/en/Andahuaylas):
+
+&gt; Luxury combis (minivans) leave for Abancay approximately six times a day for 15 Soles. There are several companies operating this trip, some based out of the bus terminal, one at the base of Jr. Juan Talleres. Don't believe them that it only takes 3 1/2 hours - inevitably there are delays, making the trip 5 hours. Beautiful scenery through a series of hairpin turns and switchbacks.</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Lima</string>
+		<key>Country</key>
+		<string>Peru</string>
+		<key>Latitude</key>
+		<real>-12.135934132349538</real>
+		<key>Longitude</key>
+		<real>-77.009981742780695</real>
+		<key>Place Name</key>
+		<string>Av. La Merced</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Peru</string>
+		<string>Travel Planning</string>
+		<string>Andahuaylas</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Lima</string>
+	<key>UUID</key>
+	<string>61B56C86FB5E4E8C9C026F10A8E63FDA</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>26</string>
+		<key>Description</key>
+		<string>Sunny</string>
+		<key>Fahrenheit</key>
+		<string>79</string>
+		<key>IconName</key>
+		<string>clear.png</string>
+		<key>Pressure MB</key>
+		<integer>1013</integer>
+		<key>Relative Humidity</key>
+		<integer>70</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2014-01-24T11:00:14Z</date>
+		<key>Sunset Date</key>
+		<date>2014-01-24T23:41:08Z</date>
+		<key>Visibility KM</key>
+		<real>11.265408000000001</real>
+		<key>Wind Bearing</key>
+		<integer>170</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>26</integer>
+		<key>Wind Speed KPH</key>
+		<integer>20</integer>
+	</dict>
+</dict>
+</plist>

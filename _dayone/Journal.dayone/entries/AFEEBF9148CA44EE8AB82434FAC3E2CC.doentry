@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Activity</key>
+	<string>Train</string>
+	<key>Creation Date</key>
+	<date>2014-06-27T15:08:56Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-06-27T15:08:56Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.1</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.14.1</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Train from Saigon to Nha Trang
+
+| 10:08PM | In a cab to the train station from the hostel.
+| 10:18PM | At the train station for 53k.
+| 10:40PM | Boarded.
+| 11:00PM | And we're off!
+| 5:38AM | Arrived.
+| 6:00AM | At HQ Cafe.</string>
+	<key>Location</key>
+	<dict>
+		<key>Latitude</key>
+		<real>10.76713529185713</real>
+		<key>Longitude</key>
+		<real>106.68742981561512</real>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Nha Trang</string>
+		<string>Vietnam</string>
+		<string>Train</string>
+	</array>
+	<key>Time Zone</key>
+	<string>Asia/Ho_Chi_Minh</string>
+	<key>UUID</key>
+	<string>AFEEBF9148CA44EE8AB82434FAC3E2CC</string>
+</dict>
+</plist>

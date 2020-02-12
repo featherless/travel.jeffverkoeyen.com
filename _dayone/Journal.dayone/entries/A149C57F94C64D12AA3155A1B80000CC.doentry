@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Activity</key>
+	<string>Stationary</string>
+	<key>Creation Date</key>
+	<date>2013-11-15T18:00:00Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2013-11-26T16:57:49Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Laurence Arrived in Bocas!
+
+Flew in from Panama City on the local plane :)</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Bocas Del Toro</string>
+		<key>Country</key>
+		<string>Panama</string>
+		<key>Latitude</key>
+		<real>9.3409844826300006</real>
+		<key>Locality</key>
+		<string>Bocas Del Toro</string>
+		<key>Longitude</key>
+		<real>-82.251244604899995</real>
+		<key>Region</key>
+		<dict>
+			<key>Center</key>
+			<dict>
+				<key>Latitude</key>
+				<real>9.3411255000000004</real>
+				<key>Longitude</key>
+				<real>-82.251376999999991</real>
+			</dict>
+			<key>Radius</key>
+			<real>906.40201660381445</real>
+		</dict>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Panama</string>
+		<string>Bocas del Toro</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Costa_Rica</string>
+	<key>UUID</key>
+	<string>A149C57F94C64D12AA3155A1B80000CC</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>29</string>
+		<key>Description</key>
+		<string>Mostly Cloudy</string>
+		<key>Fahrenheit</key>
+		<string>85</string>
+		<key>IconName</key>
+		<string>pcloudy.png</string>
+		<key>Pressure MB</key>
+		<real>1007.12</real>
+		<key>Relative Humidity</key>
+		<real>64</real>
+		<key>Service</key>
+		<string>Forecast.io</string>
+		<key>Visibility KM</key>
+		<real>15.58</real>
+		<key>Wind Bearing</key>
+		<integer>349</integer>
+		<key>Wind Speed KPH</key>
+		<real>8.5899999999999999</real>
+	</dict>
+</dict>
+</plist>

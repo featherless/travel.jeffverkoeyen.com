@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Activity</key>
+	<string>Eating</string>
+	<key>Creation Date</key>
+	<date>2014-06-21T12:51:43Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-06-21T12:51:43Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.1</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.14</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Co'm Tâm Hello
+
+Getting some street food. Holy crap it was delicious. The meat wasn't leathery and they marinated it too.</string>
+	<key>Location</key>
+	<dict>
+		<key>Latitude</key>
+		<real>10.766539301255692</real>
+		<key>Longitude</key>
+		<real>106.69113127704399</real>
+	</dict>
+	<key>Starred</key>
+	<true/>
+	<key>Tags</key>
+	<array>
+		<string>Ho Chi Minh</string>
+		<string>Vietnam</string>
+		<string>Restaurants</string>
+	</array>
+	<key>Time Zone</key>
+	<string>Asia/Ho_Chi_Minh</string>
+	<key>UUID</key>
+	<string>73C9477D57BB4550A080EFA2D6452316</string>
+</dict>
+</plist>

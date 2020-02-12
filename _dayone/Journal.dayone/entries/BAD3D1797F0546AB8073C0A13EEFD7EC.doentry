@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Activity</key>
+	<string>Automotive</string>
+	<key>Creation Date</key>
+	<date>2014-01-27T17:16:46Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-01-27T17:16:46Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Bussing from Andahuaylas to Abancay
+
+| Time|Location
+|--------:|:-----------|
+| 12:05PM | Bought a ticket.
+| 12:12PM | Loaded our bags.
+| 12:30PM | Finally leaving.
+| 4:44PM | Arrived!
+
+| Totals | Totals
+|--------:|:---------|
+| Total bus time | 3:46</string>
+	<key>Location</key>
+	<dict>
+		<key>Latitude</key>
+		<real>-13.658058377926849</real>
+		<key>Longitude</key>
+		<real>-73.389384672114048</real>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Peru</string>
+		<string>Andahuaylas</string>
+		<string>Bussing</string>
+		<string>Abancay</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Lima</string>
+	<key>UUID</key>
+	<string>BAD3D1797F0546AB8073C0A13EEFD7EC</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>15</string>
+		<key>Description</key>
+		<string>Showers Nearby</string>
+		<key>Fahrenheit</key>
+		<string>59</string>
+		<key>IconName</key>
+		<string>pcloudy.png</string>
+		<key>Pressure MB</key>
+		<integer>1032</integer>
+		<key>Relative Humidity</key>
+		<integer>77</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2014-01-27T10:44:15Z</date>
+		<key>Sunset Date</key>
+		<date>2014-01-27T23:28:22Z</date>
+		<key>Wind Bearing</key>
+		<integer>340</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>15</integer>
+		<key>Wind Speed KPH</key>
+		<integer>19</integer>
+	</dict>
+</dict>
+</plist>

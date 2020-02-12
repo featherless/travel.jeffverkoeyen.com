@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-03-15T01:28:07Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>Macintosh/MacBookAir4,1</string>
+		<key>Generation Date</key>
+		<date>2014-03-15T01:28:07Z</date>
+		<key>Host Name</key>
+		<string>Jeff’s MacBook Air</string>
+		<key>OS Agent</key>
+		<string>Mac OS X/10.9.2</string>
+		<key>Software Agent</key>
+		<string>Day One Mac/1.9.3</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Travel Planning: Fakarava, French Polynesia
+
+## Getting There
+
+Flight plans:
+
+Tahiti - Tikehau - Manihi - Rangiroa - Fakarava - Tahiti
+
+$580 for PPT -&gt; RGI -&gt; TIH -&gt; PPT
+
+$255 PPT -&gt; RGI  Not Tues
+ $91 RGI -&gt; TIH  Wed, Friday, Sat, Sun
+$236 TIH -&gt; PPT  Every day
+
+$255 PPT -&gt; FAV
+
+## SCUBA
+
+### Fakarava Diving Center
+
+- [website](http://www.fakarava-diving-center.com)
+- Cell number: (689) 73 38 22
+- Phone number: (689) 93 40 75
+
+### Top Dive
+
+- [website](http://www.topdive.com/fakarava-diving.html)
+- Tel. : +689 98 43 76
+- Mobile : +689 29 22 32
+- Two dives is 16,000.
+- One dive is 8,500.
+- Options: reef, slack dive, alibaba
+
+### Spirit Dive
+
+- Tel: +689 98 41 40 or +689 32 79 87
+- One dive 8,000.
+- Two dives 15,000.
+- Six dives 42,000.
+- Ten dive pass that can be split on multiple islands between two people is 63,000.</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>French Polynesia</string>
+		<key>Country</key>
+		<string>French Polynesia</string>
+		<key>Latitude</key>
+		<real>-17.537220428972997</real>
+		<key>Locality</key>
+		<string>Papeete</string>
+		<key>Longitude</key>
+		<real>-149.56841425875669</real>
+		<key>Place Name</key>
+		<string>Boulevard Pomare</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Travel Planning</string>
+		<string>Fakarava</string>
+		<string>French Polynesia</string>
+	</array>
+	<key>Time Zone</key>
+	<string>Pacific/Tahiti</string>
+	<key>UUID</key>
+	<string>C30A9EB337DF4E7E844BEE9123D79ABD</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>26</string>
+		<key>Description</key>
+		<string>Rain</string>
+		<key>Fahrenheit</key>
+		<string>79</string>
+		<key>IconName</key>
+		<string>rain.png</string>
+		<key>Pressure MB</key>
+		<integer>1007</integer>
+		<key>Relative Humidity</key>
+		<integer>84</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2014-03-14T16:01:18Z</date>
+		<key>Sunset Date</key>
+		<date>2014-03-15T04:13:19Z</date>
+		<key>Visibility KM</key>
+		<integer>6</integer>
+		<key>Wind Bearing</key>
+		<integer>70</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>26</integer>
+		<key>Wind Speed KPH</key>
+		<integer>11</integer>
+	</dict>
+</dict>
+</plist>

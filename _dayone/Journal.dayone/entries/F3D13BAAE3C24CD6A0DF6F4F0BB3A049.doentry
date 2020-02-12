@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2013-11-17T18:00:00Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2013-11-26T19:39:37Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Hostal Diamond
+
+Dingy and dark.
+
+$30</string>
+	<key>Location</key>
+	<dict>
+		<key>Country</key>
+		<string>Panama</string>
+		<key>Foursquare ID</key>
+		<string>4f348cfee4b0debe1e3608f8</string>
+		<key>Latitude</key>
+		<real>9.337912276922788</real>
+		<key>Longitude</key>
+		<real>-82.241089855125281</real>
+		<key>Place Name</key>
+		<string>Hostal Diamond</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Panama</string>
+		<string>Bocas del Toro</string>
+		<string>Hostels</string>
+		<string>Would not go back</string>
+		<string>Lodging</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Costa_Rica</string>
+	<key>UUID</key>
+	<string>F3D13BAAE3C24CD6A0DF6F4F0BB3A049</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>28</string>
+		<key>Description</key>
+		<string>Drizzle</string>
+		<key>Fahrenheit</key>
+		<string>83</string>
+		<key>IconName</key>
+		<string>rain.png</string>
+		<key>Pressure MB</key>
+		<real>1008.26</real>
+		<key>Relative Humidity</key>
+		<real>78</real>
+		<key>Service</key>
+		<string>Forecast.io</string>
+		<key>Visibility KM</key>
+		<real>14.869999999999999</real>
+		<key>Wind Bearing</key>
+		<integer>353</integer>
+		<key>Wind Speed KPH</key>
+		<real>10.43</real>
+	</dict>
+</dict>
+</plist>

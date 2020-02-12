@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-01-17T03:30:33Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>Macintosh/MacBookAir4,1</string>
+		<key>Generation Date</key>
+		<date>2014-01-17T03:30:33Z</date>
+		<key>Host Name</key>
+		<string>Jeff’s MacBook Air</string>
+		<key>OS Agent</key>
+		<string>Mac OS X/10.9.1</string>
+		<key>Software Agent</key>
+		<string>Day One Mac/1.9</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Fernando de Noronha, Brazil
+
+From the nyt article [52 Places to Go in 2014](http://www.nytimes.com/interactive/2014/01/10/travel/2014-places-to-go.html):
+
+&gt; The street parties, samba sessions and festive chaos surrounding the World Cup soccer tournament in Brazil this summer are bound to be exhausting for everyone. When the action’s over, escape to Fernando de Noronha, a 21-island archipelago about 330 miles off the coast of one of the host cities, Recife. Here you’ll find 250-foot-high black cliffs muscling against peach-sand beaches, Portuguese hilltop forts and blue coves where humpbacks and spinner dolphins linger. Only one of the islands, Noronha, is inhabited, and the entire chain is protected as a park with just 246 visitors allowed per day. Regulations have kept Noronha relaxed, with only small hotels and roads rough enough to make dune buggies the rental cars of choice. Hike along cliffs to gorgeous beaches like Sancho, dive with sea turtles or climb Morro do Pico, a 1,059-foot-high volcanic pinnacle.</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Galapagos</string>
+		<key>Country</key>
+		<string>Ecuador</string>
+		<key>Latitude</key>
+		<real>-0.90230490757314719</real>
+		<key>Locality</key>
+		<string>San Cristobal</string>
+		<key>Longitude</key>
+		<real>-89.611524419894607</real>
+		<key>Place Name</key>
+		<string>Galapagos National Park</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Travel Planning</string>
+		<string>Fernando de Noronha</string>
+		<string>Brazil</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Guatemala</string>
+	<key>UUID</key>
+	<string>9CC5E300AD3946CCAA41F00C2AD285E1</string>
+</dict>
+</plist>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-05-24T08:18:24Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>Macintosh/MacBookAir4,1</string>
+		<key>Generation Date</key>
+		<date>2014-05-24T08:18:24Z</date>
+		<key>Host Name</key>
+		<string>Jeff’s MacBook Air</string>
+		<key>OS Agent</key>
+		<string>Mac OS X/10.9.2</string>
+		<key>Software Agent</key>
+		<string>Day One Mac/1.9.3</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Travel Planning: Kuala Lumpur, Malaysia
+
+- 6.5 million people
+- Few "sights", the city is best experienced by walking around aimlessly
+- Batu caves
+
+## Tips
+
+From [dirtypawsblog.com](http://dirtypawsblog.com/2014/01/20/8-things-to-know-before-you-go-kuala-lumpur-edition/):
+
+&gt;  Watch the roads, not the traffic lights
+&gt;
+&gt; This may seem simple, but we saw a few tourists step out onto the road when the pedestrian light was green only to be beeped at by a car that’s run a red light or pulled a random u-turn. Watch for cars on both sides and be aggressive when crossing the road. Indecisiveness will see you standing on the sidewalk for hours or getting yelled at by angry drivers screeching to a halt. If in doubt, cross when the locals do.
+&gt;
+&gt; See the Petronas towers at night
+&gt;
+&gt; The Petronas towers are a big tourist destination in Kuala Lumpur. Unfortunately, it’s the first stop for most out-of-towners, making it very difficult to get to the observation deck. We settled for the ground view of the towers, first in the day, the second time at night. I was stunned by the towers at night. The lighting perfectly highlights every feature of the two buildings and helps to create magnificently stark contrasts. It’s infinitely better to see them at night. In addition to this, out the front of the KLCC Shopping. Centre is a vibrant and colourful water fountain. Coloured streams of water coordinate into patterns as they shoot into the sky. It’s quite entertaining and makes for a great photo op.</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Bali</string>
+		<key>Country</key>
+		<string>Indonesia</string>
+		<key>Latitude</key>
+		<real>-8.3350913731335492</real>
+		<key>Locality</key>
+		<string>Karangasem</string>
+		<key>Longitude</key>
+		<real>115.65286343033392</real>
+		<key>Place Name</key>
+		<string>Jalan I Ketut Natih</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Travel Planning</string>
+		<string>Kuala Lumpur</string>
+		<string>Malaysia</string>
+	</array>
+	<key>Time Zone</key>
+	<string>Asia/Makassar</string>
+	<key>UUID</key>
+	<string>9315C6D7C177414C8C3EF95D801D17D4</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>30</string>
+		<key>Description</key>
+		<string>Mostly Sunny</string>
+		<key>Fahrenheit</key>
+		<string>86</string>
+		<key>IconName</key>
+		<string>fair.png</string>
+		<key>Pressure MB</key>
+		<integer>1008</integer>
+		<key>Relative Humidity</key>
+		<integer>75</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2014-05-23T22:25:51Z</date>
+		<key>Sunset Date</key>
+		<date>2014-05-24T10:06:27Z</date>
+		<key>Wind Bearing</key>
+		<integer>120</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>30</integer>
+		<key>Wind Speed KPH</key>
+		<integer>17</integer>
+	</dict>
+</dict>
+</plist>

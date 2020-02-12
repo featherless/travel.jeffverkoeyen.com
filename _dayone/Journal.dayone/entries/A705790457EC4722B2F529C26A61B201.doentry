@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-01-17T03:53:44Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>Macintosh/MacBookAir4,1</string>
+		<key>Generation Date</key>
+		<date>2014-01-17T03:53:44Z</date>
+		<key>Host Name</key>
+		<string>Jeff’s MacBook Air</string>
+		<key>OS Agent</key>
+		<string>Mac OS X/10.9.1</string>
+		<key>Software Agent</key>
+		<string>Day One Mac/1.9</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Siem Reap, Cambodia
+
+From the nyt article [52 Places to Go in 2014](http://www.nytimes.com/interactive/2014/01/10/travel/2014-places-to-go.html):
+
+&gt; If you’ve seen the temple complex of Angkor Wat in Cambodia, then the country’s lost city of Mahendraparvata, its majestic temples on Phnom Kulen and the stone animal carvings at the site of Srah Damrei (elephant pond) should be next on your list. About 30 miles from Siem Reap, Mahendraparvata predates Angkor Wat by about 350 years and was the birthplace of the Khmer Empire in A.D. 802. Although the city has been known about for several decades, researchers in June discovered new temples and a network of roads and dikes that had been concealed under thick mountain vegetation.
+
+## Sleep
+
+### Rosy Guest House
+
+- No 74, Slor Kram VIllage, Slor Kram Commune, Siem Reap, Cambodia
+- 87% on [hostelworld](http://www.hostelworld.com/hosteldetails.php/Rosy-Guest-House/Siem-Reap/15007?dateFrom=2014-06-18&amp;dateTo=2014-06-21&amp;sc_sau=prfs&amp;sc_pos=3)
+- 93% on [tripadvisor](http://www.tripadvisor.com/Hotel_Review-g297390-d1137256-Reviews-Rosy_Guest_House-Siem_Reap_Siem_Reap_Province.html)
+- [website](http://rosyguesthouse.com/)
+- $9/night for a tiny double bed private room
+- Up to $30/night for superior double bed private bathroom
+
+### Siem Reap Holiday Garden
+
+- Steng Thmey Village, Svay Dangkum Commune, Siem Reap, Siem Reap, Cambodia
+- 87% on [hostelworld](http://www.hostelworld.com/hosteldetails.php/Siem-Reap-Holiday-Garden/Siem-Reap/46139?dateFrom=2014-06-18&amp;dateTo=2014-06-21&amp;sc_sau=prfs&amp;sc_pos=4)
+- 75% on [tripadvisor](http://www.tripadvisor.com/Hotel_Review-g297390-d1895595-Reviews-Siem_Reap_Holiday_Garden_Villa-Siem_Reap_Siem_Reap_Province.html)
+- Showers are cold water only
+- Not highly recommended - better options nearby
+
+### European Guesthouse
+
+- #0566, Group 2, Banteay Chas Village, Slorkram Commune, Siem Reap, Cambodia
+- 83% on [hostelworld](http://www.hostelworld.com/hosteldetails.php/European-Guesthouse/Siem-Reap/943?dateFrom=2014-06-18&amp;dateTo=2014-06-21&amp;sc_sau=prfs&amp;sc_pos=2)
+- 85% on [tripadvisor](http://www.tripadvisor.com/Hotel_Review-g297390-d1166044-Reviews-European_Guesthouse-Siem_Reap_Siem_Reap_Province.html)
+- Dorms for ~$5/night
+- $15/night for double bed private
+
+### Downtown Siem Reap Hostel
+
+- Bed bugs
+- Poor reviews
+- Bad wifi
+</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Galapagos</string>
+		<key>Country</key>
+		<string>Ecuador</string>
+		<key>Latitude</key>
+		<real>-0.90215945432765265</real>
+		<key>Locality</key>
+		<string>San Cristobal</string>
+		<key>Longitude</key>
+		<real>-89.611495959975329</real>
+		<key>Place Name</key>
+		<string>Galapagos National Park</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Cambodia</string>
+		<string>Travel Planning</string>
+		<string>Siem Reap</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Guatemala</string>
+	<key>UUID</key>
+	<string>A705790457EC4722B2F529C26A61B201</string>
+</dict>
+</plist>

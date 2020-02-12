@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Activity</key>
+	<string>Automotive</string>
+	<key>Creation Date</key>
+	<date>2014-07-31T06:57:27Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-07-31T06:57:27Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.1</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.14.2</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Bussing from Chiang Mai to Pai
+
+| 1:55PM | In a pickup truck taxi.
+| 2:19PM | At the bus terminal.
+| 2:30PM | Bought tickets for the 3:30pm bus.
+| 3:34PM | On our way!
+| 5:24PM | At a rest stop.
+| 6:57PM | Arrived!</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Chiang Mai</string>
+		<key>Country</key>
+		<string>Thailand</string>
+		<key>Latitude</key>
+		<real>18.779912171202938</real>
+		<key>Locality</key>
+		<string>Haiya</string>
+		<key>Longitude</key>
+		<real>98.984315254687814</real>
+		<key>Place Name</key>
+		<string>Soi Wua Lai 2</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Chiang Mai</string>
+		<string>Thailand</string>
+		<string>Pai</string>
+		<string>Bussing</string>
+	</array>
+	<key>Time Zone</key>
+	<string>Asia/Bangkok</string>
+	<key>UUID</key>
+	<string>BA4F767D0D9143C39AD8ED2EFF479E0F</string>
+</dict>
+</plist>

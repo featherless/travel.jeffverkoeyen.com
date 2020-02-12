@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-05-16T14:10:52Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-05-16T14:32:38Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.1</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.14</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Ayam Goreng Kelapa
+
+Fried chicken katsu in coconut frake clothing stewed in coconut milk with lemonglass and garlic sauce. 20,000 IDR. Was decent.</string>
+	<key>Location</key>
+	<dict>
+		<key>Latitude</key>
+		<real>-8.5212296720912466</real>
+		<key>Longitude</key>
+		<real>115.26367802702744</real>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Bali</string>
+		<string>Indonesia</string>
+		<string>Food</string>
+		<string>Ubud</string>
+	</array>
+	<key>Time Zone</key>
+	<string>Asia/Makassar</string>
+	<key>UUID</key>
+	<string>B0C1F56E55B94C59A4879CD596A4CB28</string>
+</dict>
+</plist>

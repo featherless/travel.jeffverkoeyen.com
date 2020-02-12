@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Activity</key>
+	<string>Flying</string>
+	<key>Creation Date</key>
+	<date>2014-08-06T11:52:15Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-08-06T11:52:15Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.1.2</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.14.2</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Flying from Chiang Rai to Bangkok
+
+| 6:48PM | In a taxi to the airport.
+| 7:01PM | At the airport.
+| 8:15PM | Omg tasty free snacks thanks to Bangkok Airways again.
+| 8:26PM | Boarded.
+| 8:37PM | Take off!
+| 9:38PM | Touch down.
+| 10:28PM | Getting food.
+| 11:22PM | In a cab.
+
+13.5kg J
+14.3kg L</string>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Chiang rai</string>
+		<string>Thailand</string>
+		<string>Bangkok</string>
+		<string>Flights</string>
+	</array>
+	<key>Time Zone</key>
+	<string>Asia/Bangkok</string>
+	<key>UUID</key>
+	<string>DED06A29D0A24AF6B489B1B4E8DDF1BB</string>
+</dict>
+</plist>

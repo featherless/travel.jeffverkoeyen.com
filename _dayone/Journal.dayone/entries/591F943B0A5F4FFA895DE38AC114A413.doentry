@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-02-16T19:02:27Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-02-16T19:35:02Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Sucre was our first stopover on the way to the Uyuni salt flats. It's a colonial-style town with a fairly easy-to-navigate center. We stayed at Hotel San Francisco, which has a gorgeous inner courtyard and not-so-gorgeous rooms.
+
+We spent valentine's day evening at El Tapado and had a delicious dinner by ordering every one of their tapas items.
+
+Our time in Sucre also furthered our negative experiences with Bolivianos. Nearly every single financial transaction we had involved being ripped off and having to argue for real prices, from the taxis to the laundry service to the food we ordered. We also met a backpacker who was violently mugged by a gang of five Bolivianos and had his phone and money stolen.</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Chuquisaca</string>
+		<key>Country</key>
+		<string>Bolivia</string>
+		<key>Latitude</key>
+		<real>-19.0413335</real>
+		<key>Locality</key>
+		<string>Sucre</string>
+		<key>Longitude</key>
+		<real>-65.257932800000006</real>
+		<key>Place Name</key>
+		<string>Le Moine</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Sucre</string>
+		<string>Preamble</string>
+		<string>Bolivia</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/La_Paz</string>
+	<key>UUID</key>
+	<string>591F943B0A5F4FFA895DE38AC114A413</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>17</string>
+		<key>Description</key>
+		<string>Partly Cloudy</string>
+		<key>Fahrenheit</key>
+		<string>63</string>
+		<key>IconName</key>
+		<string>fair.png</string>
+		<key>Pressure MB</key>
+		<integer>1028</integer>
+		<key>Relative Humidity</key>
+		<integer>68</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2014-02-16T10:14:37Z</date>
+		<key>Sunset Date</key>
+		<date>2014-02-16T22:55:31Z</date>
+		<key>Wind Bearing</key>
+		<integer>30</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>17</integer>
+		<key>Wind Speed KPH</key>
+		<integer>20</integer>
+	</dict>
+</dict>
+</plist>

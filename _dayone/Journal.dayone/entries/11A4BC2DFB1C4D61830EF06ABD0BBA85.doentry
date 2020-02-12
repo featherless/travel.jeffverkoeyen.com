@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-03-20T22:46:46Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-03-20T22:46:46Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.1</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.13</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>French Polynesia: frank
+
+The primary currency in French Polynesia is the frank (XPF or CPCF).
+
+## Conversions
+
+- Every unit of 1000 is 12USD
+- Trick: take nnn,000 multiply n by 10 an then add n multiplied by two.
+- 7000 is $70+$14=$84</string>
+	<key>Location</key>
+	<dict>
+		<key>Latitude</key>
+		<real>-16.077025970459054</real>
+		<key>Longitude</key>
+		<real>-145.61325715868324</real>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Currency</string>
+	</array>
+	<key>Time Zone</key>
+	<string>Pacific/Tahiti</string>
+	<key>UUID</key>
+	<string>11A4BC2DFB1C4D61830EF06ABD0BBA85</string>
+</dict>
+</plist>

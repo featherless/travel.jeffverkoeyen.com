@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-01-27T22:34:16Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-01-27T22:45:47Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>We had originally planned to spend an evening in Abancay but once we arrived our plans changed. After jumping out of our sardine shuttle we went straight to an internet cafe to see what Abancay had to offer as far as wonderfully noteworthy things. What we found all included fairly long day hikes and costly tours, so we decided to save a day and book it onward to Cusco where we'd have plenty of day touring and hiking.</string>
+	<key>Location</key>
+	<dict>
+		<key>Latitude</key>
+		<real>-13.636103197944943</real>
+		<key>Longitude</key>
+		<real>-72.88472411229543</real>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Abancay</string>
+		<string>Peru</string>
+		<string>Preamble</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Lima</string>
+	<key>UUID</key>
+	<string>6638A331E7944FC7B2E1EAF17C1F8CD0</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>15</string>
+		<key>Description</key>
+		<string>Clear</string>
+		<key>Fahrenheit</key>
+		<string>60</string>
+		<key>IconName</key>
+		<string>clear.png</string>
+		<key>Relative Humidity</key>
+		<real>68</real>
+		<key>Service</key>
+		<string>Forecast.io</string>
+		<key>Visibility KM</key>
+		<real>9.9800000000000004</real>
+		<key>Wind Bearing</key>
+		<integer>339</integer>
+		<key>Wind Speed KPH</key>
+		<real>8.3800000000000008</real>
+	</dict>
+</dict>
+</plist>

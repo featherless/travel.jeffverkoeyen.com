@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2013-12-24T23:04:07Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2013-12-24T23:04:07Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Calidad House
+
+Just arrived and it's pretty empty here. The room's decent (no seat on the toilet though, haha).
+
+We ended up leaving early though because our room didn't have circulation or hot water and we were paying quite a bit.
+
+My [tripadvisor review](http://www.tripadvisor.com/ShowUserReviews-g297475-d2223973-r188501245-Calidad_House-Cali_Valle_del_Cauca_Department.html) is here:
+
+&gt; We were here for one night when we first arrived in Cali. The staff welcomed us with smiles and showed us around the place. Overall it's a nice home with plenty of space and a decent kitchen. They also have a rooftop deck with a nice view of the city.
+&gt;
+&gt; What made this place average for us though was the room. There wasn't a toilet seat on the toilet in the private bathroom and no hot water in the shower. There also wasn't any circulation in the room at all, making it noticeably warmer in the room than the rest of the house. For the price we were paying we didn't feel it was a very good deal overall, so we decided to move hostels after the first night.
+&gt;
+&gt; Judging by the other reviews it seems like we may have just not had the best room, but given our experience compared to other hostels at similar price-points it was just ok.</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Valle del Cauca</string>
+		<key>Country</key>
+		<string>Colombia</string>
+		<key>Foursquare ID</key>
+		<string>4c7845712d3ba143e96a8ad0</string>
+		<key>Latitude</key>
+		<real>3.4619916140631037</real>
+		<key>Locality</key>
+		<string>Cali</string>
+		<key>Longitude</key>
+		<real>-76.533923324886587</real>
+		<key>Place Name</key>
+		<string>Calidad house</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Would go back if starving</string>
+		<string>Hostels</string>
+		<string>Colombia</string>
+		<string>Cali</string>
+		<string>Lodging</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Bogota</string>
+	<key>UUID</key>
+	<string>9BC534689EF54DE3A1AADFC19A399604</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>27</string>
+		<key>Description</key>
+		<string>Partly Cloudy</string>
+		<key>Fahrenheit</key>
+		<string>81</string>
+		<key>IconName</key>
+		<string>fair.png</string>
+		<key>Pressure MB</key>
+		<integer>1013</integer>
+		<key>Relative Humidity</key>
+		<integer>62</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2013-12-24T11:07:58Z</date>
+		<key>Sunset Date</key>
+		<date>2013-12-24T23:03:11Z</date>
+		<key>Wind Bearing</key>
+		<integer>350</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>27</integer>
+		<key>Wind Speed KPH</key>
+		<integer>6</integer>
+	</dict>
+</dict>
+</plist>

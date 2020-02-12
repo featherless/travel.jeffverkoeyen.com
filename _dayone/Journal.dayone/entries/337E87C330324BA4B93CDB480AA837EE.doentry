@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-02-11T17:59:45Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-02-11T17:59:45Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Bussing from Copacabana to La Paz
+
+| Time|Location
+|--------:|:-----------|
+| 1:59PM | In the bus.
+| 2:08PM | On our way.
+| 2:03PM | At a river of sorts.
+| 2:35PM | Across the river.
+| 5:50PM | In La Paz.
+| 5:55PM | In a collectivo. Holy shit traffic here is bad.
+| 8:12PM | Finally found a hostel.
+
+| Totals | Totals
+|--------:|:---------|
+| Total bus time | 4:10</string>
+	<key>Location</key>
+	<dict>
+		<key>Latitude</key>
+		<real>-16.165547710858441</real>
+		<key>Longitude</key>
+		<real>-69.087999165122483</real>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Copacabana</string>
+		<string>Bolivia</string>
+		<string>La Paz</string>
+		<string>Bussing</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/La_Paz</string>
+	<key>UUID</key>
+	<string>337E87C330324BA4B93CDB480AA837EE</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>8</string>
+		<key>Description</key>
+		<string>Drizzle</string>
+		<key>Fahrenheit</key>
+		<string>46</string>
+		<key>IconName</key>
+		<string>rain.png</string>
+		<key>Pressure MB</key>
+		<real>1009.22</real>
+		<key>Relative Humidity</key>
+		<real>74</real>
+		<key>Service</key>
+		<string>Forecast.io</string>
+		<key>Wind Bearing</key>
+		<integer>37</integer>
+		<key>Wind Speed KPH</key>
+		<real>10.720000000000001</real>
+	</dict>
+</dict>
+</plist>

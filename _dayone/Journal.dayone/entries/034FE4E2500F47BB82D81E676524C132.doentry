@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Activity</key>
+	<string>Eating</string>
+	<key>Creation Date</key>
+	<date>2013-11-25T18:05:41Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2013-11-25T17:45:52Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.3</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Veronica's
+
+When we first arrived in Puerto Viejo we set off for some lunch and Veronica’s caught our eye with its vegan offerings (I’m not vegan, but vegan food is often delicious).
+
+I ordered the [casado](http://en.wikipedia.org/wiki/Casado) (rice, stir-fried vegetables, beans and a salad) and energy shake. The casado was just ok, didn't have much flavor and I was left hungry. On top of that you can get the same plate for half the price at one of the sodas, so I don't recommend getting that here.
+
+They did have dynamite home-made hot sauce though.
+
+Final bill: $23 for two plates and two shakes.</string>
+	<key>Location</key>
+	<dict>
+		<key>Country</key>
+		<string>Costa Rica</string>
+		<key>Foursquare ID</key>
+		<string>5151e903e4b0af5eec69d087</string>
+		<key>Latitude</key>
+		<real>9.6363162994384766</real>
+		<key>Longitude</key>
+		<real>-82.693115234375</real>
+		<key>Place Name</key>
+		<string>Veronica's Place</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Vegan</string>
+		<string>Puerto Viejo</string>
+		<string>Restaurants</string>
+		<string>Costa rica</string>
+		<string>Would not go back</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Costa_Rica</string>
+	<key>UUID</key>
+	<string>034FE4E2500F47BB82D81E676524C132</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>30</string>
+		<key>Description</key>
+		<string>Partly Cloudy</string>
+		<key>Fahrenheit</key>
+		<string>86</string>
+		<key>IconName</key>
+		<string>fair.png</string>
+		<key>Pressure MB</key>
+		<integer>1011</integer>
+		<key>Relative Humidity</key>
+		<integer>70</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2013-11-25T11:31:14Z</date>
+		<key>Sunset Date</key>
+		<date>2013-11-25T23:07:43Z</date>
+		<key>Wind Bearing</key>
+		<integer>30</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>30</integer>
+		<key>Wind Speed KPH</key>
+		<integer>15</integer>
+	</dict>
+</dict>
+</plist>

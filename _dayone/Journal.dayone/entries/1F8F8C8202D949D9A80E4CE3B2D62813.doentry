@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-01-13T02:26:56Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-01-13T02:26:56Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>After having Quito take so much out of us, both in possessions and oxygen, we were highly anticipating the distraction that comes with being in a new place. And what a new place we were heading to!
+
+We started our tour of the Galapagos Islands at Isla Santa Cruz primarily because we didn't know that there was another airport on Isla San Cristobal (which would have been much more convenient) and because we got stuck.
+
+We had originally intended to land on Santa Cruz and then take a boat to Isla San Cristobal but due to our plane being late we couldn't catch the last boat departure at 2PM. With what we know now I'm skeptical that we could possibly have made the boat given that they ask you to meet at the docks a half hour early.
+
+Luck was with us, though, and we found a wonderful local by the name of Joffre who was renting out a set of rooms for $35/night under the title Galapagos’ Native. Given the average price of accommodations everywhere else on the island at about $100/night, this was a steal!
+
+A quick tour of the city revealed that there was a really nice “main drag” along the water where you could find all of the touristy shops. This included at least 15 dive shops! We decided on the spot that we’d aim to get our Advanced Open-Water SCUBA certification while we were here and settled on the Silbestein Dive Shop.
+
+Our certification ended up being quite an adventure. Alex, the head of the operation, liked to be overly-confident and, while making him likeable at first, often didn’t instill much confidence in us as to what it was we were supposed to be doing for our certification.
+
+Our first dive destination was Gordon Rocks because it had been recommended to us by friends and other travelers. We discovered the night before our dive, however, that two divers had died there in 2012 and that the locals called it “the washing machine”. There are five different dive spots at Gordon Rocks and three are ok for beginners. Upon asking Alex which spots we were going to dive he simply waved his hands and said “it’s going to be great”. Hmm.
+
+We thankfully didn’t die and the currents seemed forgiving compared to what we were expecting, so overall our first two dives went pretty well. We also spent about half an hour snorkelling before the dives. This turned out to be even more fun than the dives because we got to play with sea lions in the water - super fun!
+
+For the rest of our stay on Santa Cruz we explored much of the town, saw the tortoise breeding center and nearby iguana beach, and spent many nights watching the sharks swim by the docks while talking with other tourists doing the same.
+
+We had originally intended to go to San Cristobal island next but upon finding out that the airport there had the cheapest flights back to the mainland (SCY -&gt; GYE) we decided it would be cheaper to end our stay there.</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Galapagos</string>
+		<key>Country</key>
+		<string>Ecuador</string>
+		<key>Latitude</key>
+		<real>-0.63092499999999996</real>
+		<key>Locality</key>
+		<string>Santa Cruz</string>
+		<key>Longitude</key>
+		<real>-90.363511299999999</real>
+		<key>Region</key>
+		<dict>
+			<key>Center</key>
+			<dict>
+				<key>Latitude</key>
+				<real>-0.3937642754528099</real>
+				<key>Longitude</key>
+				<real>-90.450402226739101</real>
+			</dict>
+			<key>Radius</key>
+			<real>175441.79656607116</real>
+		</dict>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Isla Santa Cruz</string>
+		<string>Preamble</string>
+		<string>Ecuador</string>
+		<string>Galapagos Islands</string>
+		<string>Island</string>
+	</array>
+	<key>Time Zone</key>
+	<string>Pacific/Galapagos</string>
+	<key>UUID</key>
+	<string>1F8F8C8202D949D9A80E4CE3B2D62813</string>
+</dict>
+</plist>

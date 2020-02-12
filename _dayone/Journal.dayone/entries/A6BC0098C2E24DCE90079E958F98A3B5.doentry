@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Activity</key>
+	<string>Eating</string>
+	<key>Creation Date</key>
+	<date>2013-12-28T04:43:34Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2013-12-28T04:43:34Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Solsticio
+
+My [tripadvisor review](http://www.tripadvisor.com/ShowUserReviews-g297475-d1008409-r189025801-Solsticio-Cali_Valle_del_Cauca_Department.html#REVIEWS):
+
+&gt; This place was a surprise for us because on the outside it looks much more expensive than it is. We ended up eating here twice because the food is so good and the menu is so big.
+&gt;
+&gt; The salmon with passionfruit was super freaking delicious and both of the chicken plates we had on the first night were also good. Our waiter was attentive and the food was served quickly. The smaller serving size (the default) for the chicken plates was a little too small, so it's a good idea to order appetizers and/or the bigger portion.
+&gt;
+&gt; On the second night we ordered one of the salads and were blown away by how delicious it was. It had nuts and apples and a light cream sauce that made us inhale it. It was almost a dessert for how sweet it was, but it was a perfect start to the dinner. I ordered an asian-style plate that was just ok. I would probably choose the chicken or fish over it.
+&gt;
+&gt; We also had drinks the second night that were ok. The mojitos were a bit too sweet and I added tabasco to my bloody mary to give it a bit more bite.
+&gt;
+&gt; Overall the food here is great for the price and the staff are wonderfully friendly, so it's definitely worth a try during a visit to Cali.</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Valle del Cauca</string>
+		<key>Country</key>
+		<string>Colombia</string>
+		<key>Foursquare ID</key>
+		<string>4c957df703413704e1a27cef</string>
+		<key>Latitude</key>
+		<real>3.4585689999999998</real>
+		<key>Locality</key>
+		<string>Cali</string>
+		<key>Longitude</key>
+		<real>-76.534724319999995</real>
+		<key>Place Name</key>
+		<string>Solsticio restaurante</string>
+	</dict>
+	<key>Starred</key>
+	<true/>
+	<key>Tags</key>
+	<array>
+		<string>Mind blown</string>
+		<string>Colombia</string>
+		<string>Cali</string>
+		<string>Restaurants</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Bogota</string>
+	<key>UUID</key>
+	<string>A6BC0098C2E24DCE90079E958F98A3B5</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>21</string>
+		<key>Description</key>
+		<string>Mostly Clear</string>
+		<key>Fahrenheit</key>
+		<string>70</string>
+		<key>IconName</key>
+		<string>cloudyn.png</string>
+		<key>Pressure MB</key>
+		<integer>1015</integer>
+		<key>Relative Humidity</key>
+		<integer>88</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2013-12-27T11:09:25Z</date>
+		<key>Sunset Date</key>
+		<date>2013-12-27T23:04:42Z</date>
+		<key>Wind Bearing</key>
+		<integer>70</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>21</integer>
+		<key>Wind Speed KPH</key>
+		<integer>6</integer>
+	</dict>
+</dict>
+</plist>

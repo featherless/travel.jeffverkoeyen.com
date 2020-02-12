@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Activity</key>
+	<string>Flying</string>
+	<key>Creation Date</key>
+	<date>2014-07-23T06:39:00Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-07-23T06:39:00Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.1</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.14.2</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Flying from Ko Phi Phi to Bangkok
+
+| 1:39PM | Walking to the piers.
+| 1:43PM | At the piers.
+| 1:59PM | Boarded the boat.
+| 2:04PM | And we're off.
+| 4:08PM | Arrived in Phuket.
+| 4:17PM | In a shuttle.
+| 4:22PM | On our way.
+| 5:15PM | At the airport.
+| 5:31PM | Checked in.
+| 5:36PM | Through security.
+| 6:40PM | Take off!
+| 7:45PM | Landed.
+| 8:05PM | Picked up our bags.
+| 8:15PM | On a bus.
+| 8:32PM | At the skytrain?
+| 8:44PM | On the skytrain.
+| 8:58PM | At transfer station.
+| 9:00PM | On the train again.
+| 9:10PM | At Surasat train station.
+| 9:28PM | At our hostel.
+
+17.2kg J
+19.4kg L</string>
+	<key>Location</key>
+	<dict>
+		<key>Latitude</key>
+		<real>7.7387140179125016</real>
+		<key>Longitude</key>
+		<real>98.77311090016623</real>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Bangkok</string>
+		<string>Ko Phi Phi</string>
+		<string>Thailand</string>
+		<string>Flights</string>
+		<string>Boating</string>
+	</array>
+	<key>Time Zone</key>
+	<string>Asia/Bangkok</string>
+	<key>UUID</key>
+	<string>DB8995ED36E84B9DAC5CA64C33E487E5</string>
+</dict>
+</plist>

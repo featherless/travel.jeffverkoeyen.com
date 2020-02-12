@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2013-12-07T23:17:47Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>Macintosh/MacBookAir4,1</string>
+		<key>Generation Date</key>
+		<date>2013-12-07T23:17:47Z</date>
+		<key>Host Name</key>
+		<string>Jeff’s MacBook Air</string>
+		<key>OS Agent</key>
+		<string>Mac OS X/10.9</string>
+		<key>Software Agent</key>
+		<string>Day One Mac/1.9</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Las Mariposas Hostel
+
+- $35/night for a private room. Apparently the rooms are normally $38 though.
+- Ants all around our room.
+- Bed is crazy uncomfortable.
+- No safe.
+- They start running a lawn-mower at 8am.
+- A few blocks from the main street.
+
+This place was over-priced given what it was and compared to similar places in Costa Rica, but the other hostels were full so we camped here for one night.
+
+The staff and people here were incredibly friendly backpackers and we ran into many of them throughout our entire stay in Sámara. Can't recommend sleeping here due to the cost but it's a great place to meet people!</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Guanacaste</string>
+		<key>Country</key>
+		<string>Costa Rica</string>
+		<key>Latitude</key>
+		<real>9.8817711811004152</real>
+		<key>Locality</key>
+		<string>Nicoya</string>
+		<key>Longitude</key>
+		<real>-85.529237965448345</real>
+		<key>Place Name</key>
+		<string>Nicoya</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Samara</string>
+		<string>Hostels</string>
+		<string>Would not go back</string>
+		<string>Costa rica</string>
+		<string>Lodging</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Costa_Rica</string>
+	<key>UUID</key>
+	<string>FB748E01700D4E66B78A3FD5753EA8EF</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>31</string>
+		<key>Description</key>
+		<string>Partly Cloudy</string>
+		<key>Fahrenheit</key>
+		<string>88</string>
+		<key>IconName</key>
+		<string>fair.png</string>
+		<key>Pressure MB</key>
+		<integer>1009</integer>
+		<key>Relative Humidity</key>
+		<integer>55</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2013-12-07T11:48:24Z</date>
+		<key>Sunset Date</key>
+		<date>2013-12-07T23:19:56Z</date>
+		<key>Wind Bearing</key>
+		<integer>60</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>31</integer>
+		<key>Wind Speed KPH</key>
+		<integer>19</integer>
+	</dict>
+</dict>
+</plist>

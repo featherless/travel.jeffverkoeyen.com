@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Activity</key>
+	<string>Flying</string>
+	<key>Creation Date</key>
+	<date>2014-03-15T20:55:21Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-03-15T20:55:21Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.1</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.13</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Flying from Pape'ete to Fakarava
+
+| Time|Location
+|--------:|:-----------|
+| 10:58AM | Leaving the pension by foot.
+| 11:01AM | Getting a ride instead.
+| 11:13AM | At the bus stop.
+| 11:19AM | On a bus.
+| 11:44AM | At the airport.
+| 11:52AM | In line to check our bags.
+| 2:59PM | Plane was delayed due to freak rain, but is now boarding.
+| 3:08PM | Boarded!
+| 3:15PM | Take off!
+| 4:11PM | Landed in Rangiroa.
+| 4:33PM | Take off!
+| 5:08PM | Landed in Fakarava.
+| 5:25PM | In the back of a truck.
+| 5:35PM | At a pension.
+
+L 17.4
+J 16.5
+
+ Totals | Totals
+|--------:|:---------|
+| Total air time | 1:31
+| Total flight legs | 2</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>French Polynesia</string>
+		<key>Country</key>
+		<string>French Polynesia</string>
+		<key>Latitude</key>
+		<real>-17.547728333333332</real>
+		<key>Locality</key>
+		<string>Papeete</string>
+		<key>Longitude</key>
+		<real>-149.59391666666667</real>
+		<key>Place Name</key>
+		<string>Route de Ceinture</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Papeete</string>
+		<string>French Polynesia</string>
+		<string>Fakarava</string>
+	</array>
+	<key>Time Zone</key>
+	<string>Pacific/Tahiti</string>
+	<key>UUID</key>
+	<string>3F4DA9859C9E4F79AE2E2FAFD90B0980</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>25</string>
+		<key>Description</key>
+		<string>Showers</string>
+		<key>Fahrenheit</key>
+		<string>77</string>
+		<key>IconName</key>
+		<string>showers.png</string>
+		<key>Pressure MB</key>
+		<integer>1009</integer>
+		<key>Relative Humidity</key>
+		<integer>94</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2014-03-15T16:01:31Z</date>
+		<key>Sunset Date</key>
+		<date>2014-03-16T04:12:31Z</date>
+		<key>Visibility KM</key>
+		<integer>5</integer>
+		<key>Wind Bearing</key>
+		<integer>360</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>25</integer>
+		<key>Wind Speed KPH</key>
+		<integer>39</integer>
+	</dict>
+</dict>
+</plist>

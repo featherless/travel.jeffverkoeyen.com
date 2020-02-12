@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-07-06T16:13:59Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>Macintosh/MacBookAir4,1</string>
+		<key>Generation Date</key>
+		<date>2014-07-06T16:13:59Z</date>
+		<key>Host Name</key>
+		<string>Jeff’s MacBook Air</string>
+		<key>OS Agent</key>
+		<string>MacOS/10.9.3</string>
+		<key>Software Agent</key>
+		<string>Day One Mac/1.9.5</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Travel Planning: Ko Pha Ngan
+
+## Getting There
+
+&gt; From Ko Samui: There are at least 3 ferries a day from Ko Samui's "Big Buddha" pier directly to Haad Rin. Ferries also leave from Nathon and Mae Nam piers to Thong Sala several times a day. Fast Lomprayah catamaran costs 300 baht (3 times a day), while Songserm Express 200 baht (twice a day).
+Watch out for scammers at Ko Samui airport who try to sell you a bus/boat combo for an exorbitant price. Make sure to walk towards the exit of the airport where there is an Information counter and taxi stands.
+
+</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Thành Phố Hà Nội</string>
+		<key>Country</key>
+		<string>Vietnam</string>
+		<key>Latitude</key>
+		<real>21.029450329153654</real>
+		<key>Locality</key>
+		<string>Hanoi</string>
+		<key>Longitude</key>
+		<real>105.84571827225123</real>
+		<key>Place Name</key>
+		<string>Phố Hàng Bông 145</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Travel Planning</string>
+		<string>Thailand</string>
+		<string>Ko Phangan</string>
+	</array>
+	<key>Time Zone</key>
+	<string>Asia/Phnom_Penh</string>
+	<key>UUID</key>
+	<string>1937C8B8846E4D759FAA90FDF00E8F92</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>29</string>
+		<key>Description</key>
+		<string>Mostly Clear</string>
+		<key>Fahrenheit</key>
+		<string>84</string>
+		<key>IconName</key>
+		<string>cloudyn.png</string>
+		<key>Pressure MB</key>
+		<integer>1003</integer>
+		<key>Relative Humidity</key>
+		<integer>79</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2014-07-05T22:20:13Z</date>
+		<key>Sunset Date</key>
+		<date>2014-07-06T11:42:52Z</date>
+		<key>Visibility KM</key>
+		<real>11.265408000000001</real>
+		<key>Wind Bearing</key>
+		<integer>0</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>29</integer>
+		<key>Wind Speed KPH</key>
+		<integer>6</integer>
+	</dict>
+</dict>
+</plist>

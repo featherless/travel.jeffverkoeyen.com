@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Activity</key>
+	<string>Eating</string>
+	<key>Creation Date</key>
+	<date>2013-12-19T01:40:21Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2013-12-19T01:40:21Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Thaico
+
+This is my [tripadvisor review](http://www.tripadvisor.com/ShowUserReviews-g297478-d1099053-r188011608-Thaico-Medellin_Antioquia_Department.html#REVIEWS):
+
+&gt; This place is hardly worth the time to go to, much less write a review, but I felt it necessary to attempt to further this establishment's drunken stumble down to tripadvisor's gutters.
+&gt; 
+&gt; First off, this place doesn't serve Thai food other than by name. Any of the traditional flavors you're used to expecting from Thai food are conspicuously missing from every plate. To top it off, the flavors they DO have make you want to vomit during, immediately after, and for the duration of the evening following.
+&gt;
+&gt; This terrible experience is compounded by the miserable staff. Don't expect to get any service while you're here without flagging someone down, and, when you do get it, don't expect them to listen to any complaints about the quality of their food. Our waitress, upon being informed of the meat tasting like gutter, simply nodded and walked away.
+&gt;
+&gt; Don't waste your time or money on this place.</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Antioquia</string>
+		<key>Country</key>
+		<string>Colombia</string>
+		<key>Foursquare ID</key>
+		<string>4cc244efbe40a35d3d9b704c</string>
+		<key>Latitude</key>
+		<real>6.2088979640018813</real>
+		<key>Locality</key>
+		<string>Medellin</string>
+		<key>Longitude</key>
+		<real>-75.567188920936559</real>
+		<key>Place Name</key>
+		<string>Thaico</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Colombia</string>
+		<string>Restaurants</string>
+		<string>Would not go back</string>
+		<string>Medellin</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Bogota</string>
+	<key>UUID</key>
+	<string>9C6CD2858B7848D4AB8A96A21FBAD332</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>14</string>
+		<key>Description</key>
+		<string>Clear</string>
+		<key>Fahrenheit</key>
+		<string>58</string>
+		<key>IconName</key>
+		<string>clearn.png</string>
+		<key>Relative Humidity</key>
+		<real>97</real>
+		<key>Service</key>
+		<string>Forecast.io</string>
+		<key>Visibility KM</key>
+		<real>9.9800000000000004</real>
+		<key>Wind Bearing</key>
+		<integer>90</integer>
+		<key>Wind Speed KPH</key>
+		<real>8.0500000000000007</real>
+	</dict>
+</dict>
+</plist>

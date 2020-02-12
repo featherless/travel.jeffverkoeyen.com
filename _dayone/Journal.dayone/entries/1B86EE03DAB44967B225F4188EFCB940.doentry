@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Activity</key>
+	<string>Flying</string>
+	<key>Creation Date</key>
+	<date>2014-04-16T05:45:29Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-04-16T05:45:29Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.1</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.14</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Flying from Christchurch, New Zealand to Melbourne, Australia
+
+| Time|Location
+|--------:|:-----------|
+| 5:36PM | At the airport.
+| 6:20PM | Had issues at check-in - we were told that we could get our Australian visa fee waived at the check-in counter, but apparently this isn’t the case with JetStar who will happily charge you $30 NZD rather than the $20 AUD the visa actually costs. Yay budget airlines.
+| 6:40PM | Grabbing dinner. All of the food here is crap. Just ate a wrap that had plastic eggs in it.
+| 8:09PM | Waiting to board.
+| 8:49PM | Take off!
+| 10:01PM | Touch down! -2 hours to Melbourne time.
+| 10:41PM | Through customs.
+| 11:35PM | On a skybus for $18.
+| 11:58PM | At the train.
+| 12:04AM | In a cab.
+
+ Totals | Totals
+|--------:|:---------|
+| Total air time | 0:00
+| Total flight legs | 1
+
+18.2kg l
+19.1kg j</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Canterbury</string>
+		<key>Country</key>
+		<string>New Zealand</string>
+		<key>Latitude</key>
+		<real>-43.48870960653678</real>
+		<key>Locality</key>
+		<string>Christchurch</string>
+		<key>Longitude</key>
+		<real>172.53981267191787</real>
+		<key>Place Name</key>
+		<string>30 Durey Road</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Christchurch</string>
+		<string>Melbourne</string>
+		<string>New Zealand</string>
+		<string>Australia</string>
+		<string>Flights</string>
+	</array>
+	<key>Time Zone</key>
+	<string>Pacific/Auckland</string>
+	<key>UUID</key>
+	<string>1B86EE03DAB44967B225F4188EFCB940</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>11</string>
+		<key>Description</key>
+		<string>Rain</string>
+		<key>Fahrenheit</key>
+		<string>52</string>
+		<key>IconName</key>
+		<string>rain.png</string>
+		<key>Pressure MB</key>
+		<integer>1018</integer>
+		<key>Relative Humidity</key>
+		<integer>100</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2014-04-15T19:03:30Z</date>
+		<key>Sunset Date</key>
+		<date>2014-04-16T05:55:57Z</date>
+		<key>Visibility KM</key>
+		<integer>4</integer>
+		<key>Wind Bearing</key>
+		<integer>200</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>11</integer>
+		<key>Wind Speed KPH</key>
+		<integer>31</integer>
+	</dict>
+</dict>
+</plist>

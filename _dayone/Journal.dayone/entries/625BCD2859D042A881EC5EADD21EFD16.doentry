@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-03-22T01:52:05Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-03-22T01:52:05Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.1</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.13</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Flying from Fakarava to Papeete
+
+| Time|Location
+|--------:|:-----------|
+| 3:51PM | At the airport.
+| 3:56PM | Checked in.
+| 4:20PM | Boarded.
+| 4:25PM | Take off!
+| 5:29PM | Landed!
+| 6:15PM | No busses, hitchhiking with a cab for free.
+| 6:24PM | Dropped off near town.
+| 7:05PM | At food trucks for dinner.
+| 7:34PM | On our way again.
+| 3:58PM | At the hostel.
+
+
+ Totals | Totals
+|--------:|:---------|
+| Total air time | 0:54
+| Total flight legs | 1
+
+L 17.4
+J 14.9</string>
+	<key>Location</key>
+	<dict>
+		<key>Latitude</key>
+		<real>-16.064306700242611</real>
+		<key>Longitude</key>
+		<real>-145.62321221469062</real>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Papeete</string>
+		<string>Fakarava</string>
+		<string>French Polynesia</string>
+	</array>
+	<key>Time Zone</key>
+	<string>Pacific/Tahiti</string>
+	<key>UUID</key>
+	<string>625BCD2859D042A881EC5EADD21EFD16</string>
+</dict>
+</plist>

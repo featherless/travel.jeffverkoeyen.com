@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-01-17T03:55:06Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>Macintosh/MacBookAir4,1</string>
+		<key>Generation Date</key>
+		<date>2014-01-17T03:55:06Z</date>
+		<key>Host Name</key>
+		<string>Jeff’s MacBook Air</string>
+		<key>OS Agent</key>
+		<string>Mac OS X/10.9.1</string>
+		<key>Software Agent</key>
+		<string>Day One Mac/1.9</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Travel Planning: New Caledonia
+
+From the nyt article [52 Places to Go in 2014](http://www.nytimes.com/interactive/2014/01/10/travel/2014-places-to-go.html):
+
+&gt; This semisecret gem of the South Pacific, a three-hour flight from Sydney, is attracting visitors like never before. Thank infrastructural upgrades like a refurbished international airport, improved roads and bridges, and the arrival of high-profile properties like the new [Hilton Noumea La Promenade Residences](http://www3.hilton.com/en/hotels/new-caledonia-french/hilton-noumea-la-promenade-residences-NOULPHI/index.html) and the [Sheraton New Caledonia Deva Resort &amp; Spa](http://www.starwoodhotels.com/sheraton/property/overview/index.html?propertyID=3501), opening this summer. An island itinerary reads like a fantasy novel: snorkeling and diving in one of the world’s largest lagoons, an aquamarine stunner populated by thousands of coral and marine species and home to the world’s second largest reef (after the Great Barrier); horseback riding through verdant mountains and indigenous Kanak villages; kayaking by moonlight among the submerged forest of the Blue River Provincial Park. The cosmopolitan capital, Nouméa, has its own allures, like [Le Roof](http://www.cuenet.nc/le-roof.html), where you might spot dolphins diving in the distance while savoring the fresh oysters, and the[Tjibaou Cultural Center](http://www.adck.nc/), a Renzo Piano-designed museum housing one of the world’s largest collections of Pacific art.
+
+From lonelyplanet:
+
+&gt; New Caledonia's massive Grande Terre is the third largest island in the Pacific (after Papua New Guinea and New Zealand) and is home to the second largest double barrier coral reef in the world (after Australia's Great Barrier Reef).
+&gt;
+&gt; Beyond the diving, wind sports and sailing in the lagoon, the land supports a mix of Melanesian and French cultures that bring an elegant balance to hospitality, cuisine and accommodation ranging from beach bungalows to very posh resorts.
+&gt;
+&gt; Outlying islands such as Île des Pins and Ouvéa offer more remote escapes with some of the Pacific's best beaches and heaps of delicious seafood.</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Galapagos</string>
+		<key>Country</key>
+		<string>Ecuador</string>
+		<key>Latitude</key>
+		<real>-0.9021609380360176</real>
+		<key>Locality</key>
+		<string>San Cristobal</string>
+		<key>Longitude</key>
+		<real>-89.611494922294952</real>
+		<key>Place Name</key>
+		<string>Galapagos National Park</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Travel Planning</string>
+		<string>New Caledonia</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Guatemala</string>
+	<key>UUID</key>
+	<string>C771DAF59789462D8B124BC327432B91</string>
+</dict>
+</plist>

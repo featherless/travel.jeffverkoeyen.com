@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Activity</key>
+	<string>Walking</string>
+	<key>Creation Date</key>
+	<date>2013-12-04T21:27:33Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2013-12-04T21:27:33Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.4</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Hiking Tres Amigos
+
+This was quite the hike! The trail has a steep incline the entire way up so that what took us half an hour to descend took over an hour to ascend.
+
+Along the way we saw what looked like an entire colony of ants moving down the hill. The entire road was covered and after having just learned about army ants at the Butterfly Gardens we made a careful point to step over and around them quickly!
+
+Once we got to the top I opened the geocaching app out of curiosity and there happened to be a cache ([GC1MKFC](http://coord.info/GC1MKFC)) only 15m from where we were standing! When we found it we realized that it had sadly been vandalized, so we cleaned out the bottle and put new papers inside, replacing the bottle with leaves covering it to protect it.
+
+- Started the trail at 3:05pm.
+- Summited at 4:20pm.
+- Heading down at 4:47pm.
+- 5:28pm back at the bottom.</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Puntarenas</string>
+		<key>Country</key>
+		<string>Costa Rica</string>
+		<key>Foursquare ID</key>
+		<string>4ed3e3b92c5bc3505b08b49c</string>
+		<key>Latitude</key>
+		<real>10.320365846450304</real>
+		<key>Locality</key>
+		<string>Monteverde</string>
+		<key>Longitude</key>
+		<real>-84.794132709503174</real>
+		<key>Place Name</key>
+		<string>Cerro Amigos</string>
+	</dict>
+	<key>Starred</key>
+	<true/>
+	<key>Tags</key>
+	<array>
+		<string>Costa rica</string>
+		<string>Monteverde</string>
+		<string>Hikes</string>
+		<string>Geocaching</string>
+		<string>Mind blown</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Costa_Rica</string>
+	<key>UUID</key>
+	<string>F81918E8AA964E688AC6C3E0BFF37F0D</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>25</string>
+		<key>Description</key>
+		<string>Partly Cloudy</string>
+		<key>Fahrenheit</key>
+		<string>77</string>
+		<key>IconName</key>
+		<string>fair.png</string>
+		<key>Pressure MB</key>
+		<integer>1015</integer>
+		<key>Relative Humidity</key>
+		<integer>54</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2013-12-04T11:40:07Z</date>
+		<key>Sunset Date</key>
+		<date>2013-12-04T23:14:26Z</date>
+		<key>Wind Bearing</key>
+		<integer>80</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>25</integer>
+		<key>Wind Speed KPH</key>
+		<integer>24</integer>
+	</dict>
+</dict>
+</plist>

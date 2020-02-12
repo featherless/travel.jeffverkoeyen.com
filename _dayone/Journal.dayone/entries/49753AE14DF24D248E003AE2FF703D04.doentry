@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-03-03T03:59:04Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>Macintosh/MacBookAir4,1</string>
+		<key>Generation Date</key>
+		<date>2014-03-03T03:59:04Z</date>
+		<key>Host Name</key>
+		<string>Jeff’s MacBook Air</string>
+		<key>OS Agent</key>
+		<string>Mac OS X/10.9.1</string>
+		<key>Software Agent</key>
+		<string>Day One Mac/1.9.3</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Tasmania
+
+From [quora](http://www.quora.com/Tasmania-Australia-1/Whats-it-like-to-visit-Tasmania):
+
+&gt; It's much like visiting countryside England, only with fewer people and stranger animals in it. 
+&gt;
+&gt; The short summer is probably the best time to visit, with long days and fairly pleasant temperatures. You would come for the scenery, not for the cities. Excellent hiking can be had, mainly on the west coast and on or near the Overland Track, a classic 100km route between Cradle Mountain and Lake St Clair through a variety of landscapes. However, the east coast has great sights as well, like the Freycinet Peninsula and the Bay of Fires. Beautiful beaches and lovely stones. (I'm deliberately not mentioning the insanely cold ocean here. But it's crystal clear and clean.)
+&gt;
+&gt; Your only possible problem is transportation. There IS a fairly good network of public transportation bus/mini-bus routes that will take you almost anywhere, but the number of departures is very limited. Having your own transport will save you a lot of time. 
+&gt;
+&gt; Getting to Tasmania is either by ferry from Melbourne or by plane from various places on "mainland" Australia. Look out for specials on the ferry, or else it will cost you about the same as flying, which of course is much quicker. 
+
+From [quora](http://www.quora.com/Tasmania-Australia-1/What-is-the-most-beautiful-forest-to-visit-in-Tasmania-and-why):
+
+&gt; There are so many to choose from it's hard to select just one.  An easily accessible example of Tasmanian temperate beech forest is the Ballroom Forest on the western side of Lake Dove at Cradle Mountain.  As the name suggests, it is like being in a huge ballroom, with a moss and leaf covered floor and huge ancient trees.  It's a gentle 2 hour walk along the lake and includes amazing views of the mountain.
+&gt;
+&gt; A lot less accessible but more unusual is the pencil pine forest at Dixon's Kingdom in the Walls of Jerusalem National Park.  Dixon's Kingdom is on the far eastern side of the Park, about 4-5 hours from the head of the track.  A fit trekker could get there and back in one (long) day, but most would want to overnight there.
+&gt;
+&gt; Pencil pines are unique to the Tasmanian highlands and are usually small and found in clumps or thickets of a few trees.  But a combination of geography and climate means there is a forest of huge, ancient pines on the slopes around Dickson's Kingdom, with massive trees, some of which are over 2000 years old.  The forest also has a wide variety of mosses and lichens with hundreds of small streams and has the appearance of a wild Japanese garden.
+&gt;
+&gt; There are many others, but those two would be my picks.
+
+&gt; This is incredibly difficult to answer, there are so many!  Across the river from the Tahune Airwalk, there is a trail along the rivers edge which features many signposted native species such as Huon Pine and Mountain Pepper, along with lots of fungi.
+&gt;
+&gt; At Mount Field in the Derwent Valley, there are two easily accessed walks to the left and right of the main road.  Both feature waterfalls.
+&gt;
+&gt; In the Picton area you will find a walk to a place called Duck Hole Lake.  It features a trail alongside a meandering stream, and terminates at a lake with sheer sides and black water from the leaf tannins.
+&gt;
+&gt; Just off the edge of pretty much anywhere on the West Coast will put you in dense wet sclerophyl or rainforest.
+All over the highland peaks you will find stands of King Billy Pine, which have a stark beauty of there own, not really forest though.
+It really depends on what you're looking to experience.  If you want something really easy to access, the Pipeline Track at Fern Tree is relatively level and passes through lovely dogwood and wattle areas.</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Valparaíso</string>
+		<key>Country</key>
+		<string>Chile</string>
+		<key>Latitude</key>
+		<real>-33.04100833043281</real>
+		<key>Locality</key>
+		<string>Valparaiso</string>
+		<key>Longitude</key>
+		<real>-71.628027189626437</real>
+		<key>Place Name</key>
+		<string>Historic Quarter of the Seaport City of Valparaíso</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Tasmania</string>
+		<string>Travel Planning</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Santiago</string>
+	<key>UUID</key>
+	<string>49753AE14DF24D248E003AE2FF703D04</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>16</string>
+		<key>Description</key>
+		<string>Clear</string>
+		<key>Fahrenheit</key>
+		<string>61</string>
+		<key>IconName</key>
+		<string>clearn.png</string>
+		<key>Pressure MB</key>
+		<integer>1017</integer>
+		<key>Relative Humidity</key>
+		<integer>68</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2014-03-03T10:33:41Z</date>
+		<key>Sunset Date</key>
+		<date>2014-03-03T23:15:57Z</date>
+		<key>Visibility KM</key>
+		<real>11.265408000000001</real>
+		<key>Wind Bearing</key>
+		<integer>160</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>16</integer>
+		<key>Wind Speed KPH</key>
+		<integer>17</integer>
+	</dict>
+</dict>
+</plist>

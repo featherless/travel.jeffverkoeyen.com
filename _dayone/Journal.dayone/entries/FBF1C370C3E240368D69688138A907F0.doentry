@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Activity</key>
+	<string>Eating</string>
+	<key>Creation Date</key>
+	<date>2014-04-17T05:37:16Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2014-04-17T05:37:17Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.1</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.14</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Gong Cha Bubble Tea
+</string>
+	<key>Location</key>
+	<dict>
+		<key>Latitude</key>
+		<real>-37.812289990173191</real>
+		<key>Longitude</key>
+		<real>144.96499002815182</real>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Melbourne</string>
+		<string>Australia</string>
+		<string>Bubble Tea</string>
+		<string>Restaurants</string>
+	</array>
+	<key>Time Zone</key>
+	<string>Australia/Melbourne</string>
+	<key>UUID</key>
+	<string>FBF1C370C3E240368D69688138A907F0</string>
+</dict>
+</plist>

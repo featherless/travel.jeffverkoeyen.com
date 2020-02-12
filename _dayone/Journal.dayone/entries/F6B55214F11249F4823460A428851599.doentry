@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Activity</key>
+	<string>Automotive</string>
+	<key>Creation Date</key>
+	<date>2013-11-25T16:00:43Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone4,1</string>
+		<key>Generation Date</key>
+		<date>2013-11-25T20:56:43Z</date>
+		<key>Host Name</key>
+		<string>swift</string>
+		<key>OS Agent</key>
+		<string>iOS/7.0.3</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.12</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>The bus to Costa Rica
+
+- Woke up 7am.
+- Caught the boat to Almirante at 8:30.
+- Found out there was a strike on a bridge. Had to transfer shuttles at the bridge.
+- Customs was straightforward, no docs to present.
+- Arrived at 11:30am.
+
+| Totals | Totals
+|--------:|:---------|
+| Total bus time | 3:00</string>
+	<key>Location</key>
+	<dict>
+		<key>Latitude</key>
+		<real>9.6570612285203286</real>
+		<key>Longitude</key>
+		<real>-82.754523917525518</real>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Bussing</string>
+		<string>Panama</string>
+		<string>Puerto Viejo</string>
+		<string>Bocas del Toro</string>
+		<string>Costa rica</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Costa_Rica</string>
+	<key>UUID</key>
+	<string>F6B55214F11249F4823460A428851599</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>28</string>
+		<key>Description</key>
+		<string>Clear</string>
+		<key>Fahrenheit</key>
+		<string>82</string>
+		<key>IconName</key>
+		<string>clear.png</string>
+		<key>Relative Humidity</key>
+		<real>66</real>
+		<key>Service</key>
+		<string>Forecast.io</string>
+		<key>Visibility KM</key>
+		<real>9.9800000000000004</real>
+		<key>Wind Bearing</key>
+		<integer>1</integer>
+		<key>Wind Speed KPH</key>
+		<real>5.75</real>
+	</dict>
+</dict>
+</plist>

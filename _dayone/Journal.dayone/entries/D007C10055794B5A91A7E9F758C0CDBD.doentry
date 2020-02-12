@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-01-17T03:58:20Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>Macintosh/MacBookAir4,1</string>
+		<key>Generation Date</key>
+		<date>2014-01-17T03:58:20Z</date>
+		<key>Host Name</key>
+		<string>Jeff’s MacBook Air</string>
+		<key>OS Agent</key>
+		<string>Mac OS X/10.9.1</string>
+		<key>Software Agent</key>
+		<string>Day One Mac/1.9</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Travel Planning: Guayaquil, Ecuador
+
+## Sleep
+
+### Tangara Guest House
+
+- 86% on [hostelworld](http://www.hostelworld.com/hosteldetails.php/Tangara-Guest-House/Guayaquil/17591)
+- 90% on [tripadvisor](http://www.tripadvisor.com/Hotel_Review-g303845-d626034-Reviews-Tangara_Guest_House-Guayaquil_Guayas_Province.html)
+- [website](http://tangara-ecuador.com/)
+- $50/private double
+- +593 4-228-2828
+
+### RE Bed and Breakfast
+
+- 92% rating on [hostelworld](http://www.hostelworld.com/hosteldetails.php/RE-Bed-and-Breakfast/Guayaquil/75626?dateFrom=2014-02-14&amp;dateTo=2014-02-15&amp;sc_sau=avdc&amp;sc_pos=8)
+- 87% rating on [tripadvisor](http://www.tripadvisor.com/Hotel_Review-g303845-d4196267-Reviews-Re_Bed_And_Breakfast-Guayaquil_Guayas_Province.html)
+- [website](http://www.rebandb.com/)
+
+### Casa de Romero
+
+- 89% on [hostelworld](http://www.hostelworld.com/hosteldetails.php/Casa-de-Romero/Guayaquil/20616?dateFrom=2014-02-14&amp;dateTo=2014-02-15&amp;sc_sau=avdc&amp;sc_pos=3)
+- 86% on [tripadvisor](http://www.tripadvisor.com/Hotel_Review-g303845-d651355-Reviews-Casa_de_Romero-Guayaquil_Guayas_Province.html)
+
+### Dreamkapture Hostal
+
+- 85% rating on [hostelworld](http://www.hostelworld.com/hosteldetails.php/Dreamkapture-Hostal/Guayaquil/12478?dateFrom=2014-01-18&amp;dateTo=2014-01-21&amp;sc_sau=avdc&amp;sc_pos=1)
+- [website](http://www.dreamkapture.com/)
+- 3.0 (52%) rating on [tripadvisor](http://www.tripadvisor.com/Hotel_Review-g303845-d315507-Reviews-DreamKapture_Hostel-Guayaquil_Guayas_Province.html)
+- $25/shared bath
+- $27.50/private bath</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Galapagos</string>
+		<key>Country</key>
+		<string>Ecuador</string>
+		<key>Latitude</key>
+		<real>-0.90216227064506505</real>
+		<key>Locality</key>
+		<string>San Cristobal</string>
+		<key>Longitude</key>
+		<real>-89.611498282648142</real>
+		<key>Place Name</key>
+		<string>Galapagos National Park</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Ecuador</string>
+		<string>Guayaquil</string>
+		<string>Travel Planning</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Guatemala</string>
+	<key>UUID</key>
+	<string>D007C10055794B5A91A7E9F758C0CDBD</string>
+</dict>
+</plist>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-01-12T20:54:30Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>Macintosh/MacBookAir4,1</string>
+		<key>Generation Date</key>
+		<date>2014-01-13T00:56:44Z</date>
+		<key>Host Name</key>
+		<string>Jeff’s MacBook Air</string>
+		<key>OS Agent</key>
+		<string>Mac OS X/10.9.1</string>
+		<key>Software Agent</key>
+		<string>Day One Mac/1.9</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Snorkelling at Concha de Perla
+
+We went snorkelling today in a small lagoon by the dock. Saw a manta ray and tons of fish.</string>
+	<key>Location</key>
+	<dict>
+		<key>Country</key>
+		<string>Ecuador</string>
+		<key>Foursquare ID</key>
+		<string>5098246de4b07ba8c7fc669d</string>
+		<key>Latitude</key>
+		<real>-0.96214384524514374</real>
+		<key>Longitude</key>
+		<real>-90.95883520897199</real>
+		<key>Place Name</key>
+		<string>Concha de Perla</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Snorkelling</string>
+		<string>Isla Isabella</string>
+		<string>Ecuador</string>
+		<string>Galapagos Islands</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Guatemala</string>
+	<key>UUID</key>
+	<string>72790EC8A9B4440FAFA21AD400E75C81</string>
+</dict>
+</plist>

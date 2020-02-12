@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-01-22T21:43:30Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>Macintosh/MacBookAir4,1</string>
+		<key>Generation Date</key>
+		<date>2014-01-22T21:43:30Z</date>
+		<key>Host Name</key>
+		<string>Jeff’s MacBook Air</string>
+		<key>OS Agent</key>
+		<string>Mac OS X/10.9.1</string>
+		<key>Software Agent</key>
+		<string>Day One Mac/1.9.1</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>Nazca, Peru
+
+## Getting Here
+
+### From Lima
+
+- $27 via [Cruz del Sur](http://www.cruzdelsur.com.pe/index/asientos).
+
+## Seeing the Lines
+
+- Shouldn’t cost more than $85 USD.
+- High season is December - March.
+- **Ignore the people trying to sell things at the bus stops.**
+
+&gt; The pilots love banking their small planes hard (for good views of the ground) and motion sickness can occur. Take a motion sickness pill if in doubt.
+
+## Sleep
+
+### Nasca Lodge
+
+- 90% (4 1/2) rating on [tripadvisor](http://www.tripadvisor.com/Hotel_Review-g304044-d4274465-Reviews-Nasca_Lodge-Nazca_Ica_Region.html)
+- 90% rating on [hostelworld](http://www.hostelworld.com/hosteldetails.php/Nasca-Lodge/Nazca/47052?dateFrom=2014-01-24&amp;dateTo=2014-01-25&amp;sc_sau=avdc&amp;sc_pos=2)
+- [website](https://www.facebook.com/NascaLodge)
+
+&gt; Hospedaje Nasca Lodge is located in a safe area and in the middle of the city of Nasca, only three blocks from the main square of Nasca 
+&gt;
+&gt; Our property is situated 5 minutes with a taxi from the bus station. We are only three blocks from the main square. Consult the map below for directions or contact us for further information.
+
+### Sol y Dunas
+
+- 94% (4 1/2) rating on [tripadvisor](http://www.tripadvisor.com/Hotel_Review-g304044-d3746631-Reviews-Hotel_Sol_y_Dunas-Nazca_Ica_Region.html)
+- 91% rating on [hostelworld](http://www.hostelworld.com/hosteldetails.php/Sol-y-Dunas/Nazca/71348?dateFrom=2014-01-24&amp;dateTo=2014-01-25&amp;sc_sau=avdc&amp;sc_pos=3)
+- [website](http://www.solydunas.com/)</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>Lima</string>
+		<key>Country</key>
+		<string>Peru</string>
+		<key>Latitude</key>
+		<real>-12.135969974087816</real>
+		<key>Longitude</key>
+		<real>-77.009983747552354</real>
+		<key>Place Name</key>
+		<string>Av. La Merced</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>Nazca</string>
+		<string>Peru</string>
+		<string>Travel Planning</string>
+	</array>
+	<key>Time Zone</key>
+	<string>America/Guayaquil</string>
+	<key>UUID</key>
+	<string>76D86946C17A46D5BA7B971F72732CB3</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>27</string>
+		<key>Description</key>
+		<string>Mostly Cloudy</string>
+		<key>Fahrenheit</key>
+		<string>81</string>
+		<key>IconName</key>
+		<string>mcloudy.png</string>
+		<key>Pressure MB</key>
+		<integer>1010</integer>
+		<key>Relative Humidity</key>
+		<integer>70</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2014-01-22T10:59:17Z</date>
+		<key>Sunset Date</key>
+		<date>2014-01-22T23:41:08Z</date>
+		<key>Wind Bearing</key>
+		<integer>180</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>27</integer>
+		<key>Wind Speed KPH</key>
+		<integer>11</integer>
+	</dict>
+</dict>
+</plist>
