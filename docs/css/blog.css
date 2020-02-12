@@ -1,0 +1,511 @@
+
+/* Inactive Fonts */
+
+.wf-inactive .masthead .nav-pills > li > a,
+.wf-loading .masthead .nav-pills > li > a {
+  margin-right: 15px;
+}
+
+h1 {
+  line-height: 56px;
+}
+
+/* Blog List */
+
+#bloglist .post {
+  margin-bottom: 30px;
+  position: relative;
+}
+
+#bloglist .post .title {
+  font-family: "museo-sans",sans-serif;
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 40px;
+  padding: 5px;
+  padding-left: 50px;
+  padding-bottom: 30px;
+}
+
+#bloglist .post .text-title {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #FFF;
+}
+
+#bloglist .post .title .date {
+  font-family: "calluna",serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+#bloglist .post .background {
+  min-height: 50px;
+  background-color: #111;
+  text-align: center;
+}
+
+#bloglist .post .background .topshadow,
+#bloglist .post .background .bottomshadow {
+  background-repeat: repeat-x;
+  width: 100%;
+  height: 13px;
+  position: absolute;
+}
+
+#bloglist .post .background .topshadow {
+  background-image: url('/gfx/topshadow.png');
+}
+
+#bloglist .post .background .bottomshadow {
+  background-image: url('/gfx/bottomshadow.png');
+  bottom: -1px;
+}
+
+#bloglist .post .background-title {
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(17, 17, 17, 0.5);
+  margin-left: 50px;
+  margin-bottom: 30px;
+  padding: 10px;
+}
+
+#bloglist .post .background-title .date,
+#bloglist .post .background-title a {
+  color: #FFF;
+  text-shadow: 0px 1px 0px #111;
+}
+
+#bloglist .post .text-title a {
+  padding-left: 50px;
+  background: transparent url('/gfx/feather.svg') no-repeat left top;
+  background-size: 50px 50px;
+}
+
+li {
+  font-family: "calluna",serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+/* Blog Post */
+
+#blogpost iframe {
+  border: 0;
+}
+
+#blogpost p {
+  text-align:justify;
+}
+
+#blogpost .tooltip-inner {
+  font-family: "calluna",serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+#blogpost .photonly_picandcontent {
+  position: relative;
+}
+
+#blogpost .photonly .photonly_content {
+  position: absolute;
+  background-color: rgba(17, 17, 17, 0.5);
+  top: 0;
+  display: none;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+#blogpost .photonly .photo_only_content_wrapper {
+  margin-top: 35%;
+}
+
+#blogpost .photonly .photo_only_content_wrapper_pano {
+  margin-top: 0;
+}
+
+#blogpost .photonly:hover .photonly_content {
+  display: block;
+}
+
+#blogpost .photonly .dayone_title,
+#blogpost .photonly .timestamp {
+  color: #FFF;
+  text-shadow: 0px 1px 0px #111;
+}
+
+#navigation {
+  clear: both;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+#navigation a,
+#post-header .title,
+#post-header .date {
+  font-family: "nimbus-sans",sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+#post-header .title {
+  font-size: 20px;
+  text-align: center;
+}
+
+#post-header .date {
+  font-size: 14px;
+  text-align: center;
+}
+
+#navigation .next {
+  float: right;
+  margin-right: -12px;
+}
+
+#navigation .previous {
+  float: left;
+  margin-left: -12px;
+}
+
+/* TODO: Move to portfolio.css */
+.narrow-top-space {
+  padding-top: 20px;
+}
+
+.opposite-align h1,
+.opposite-align h2,
+.opposite-align h3 {
+  text-align: right;
+}
+
+.lessons_green {
+  background-color: #F2FFF2;
+}
+
+.lessons_orange {
+  background-color: #FFFAF2;
+}
+
+.lessons_grey {
+  background-color: #F5F5F4;
+}
+
+#geomap,
+#travelmap,
+#moneysmap {
+  background: #FFF url('http://jeffverkoeyen.com/gfx/gmm_background_tile.png') repeat left top;
+  background-size: 40px 40px;
+  padding: 0;
+  position: relative;
+  height: 400px;
+}
+
+.geomap-frame,
+#moneysmapframe {
+  width: 100%;
+  height: 400px;
+}
+
+#travelmap .geomap-overlay,
+#geomap .geomap-overlay {
+  position: absolute;
+  top: 0;
+  height: 400px;
+  width: 100%;
+}
+
+#weatherchart,
+#elevationchart {
+  width: 100%;
+  height: 300px;
+}
+
+#dayone_toc {
+  background-image: url('/gfx/dayone_ribbon.png');
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: -10px;
+}
+
+#dayone_toc .toc_header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#dayone_eating .dayone_header {
+  text-align: center;
+  color: #666;
+}
+
+#dayone_eating .row-fluid {
+  margin-bottom: 40px;
+}
+
+#dayone_toc li {
+  list-style-type: none;
+  font-family: "calluna",serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 3px;
+}
+
+#dayone_toc .toc_thumbnail {
+  float: left;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #ddd;
+  margin: 10px;
+  margin-top: -3px;
+  margin-right: 20px;
+  text-align: center;
+}
+
+#dayone_toc .toc_thumbnail svg {
+  margin-top: 9px;
+  margin-left: 2px;
+}
+
+.svg_icon {
+  fill: #666;
+}
+
+.svg_container {
+  width: 30px;
+  height: 30px;
+}
+
+.dayone .default_svg,
+#dayone_toc .default_svg {
+  width: 50px;
+  height: 50px;
+}
+
+#dayone_toc .toc_thumbnail .default_svg {
+  margin: 0;
+}
+
+#dayone_toc ul {
+  margin: 0;
+}
+
+.dayone_icon {
+  margin-top: -45px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.dayone .default_svg {
+  margin-top: -10px;
+  margin-bottom: -10px;
+}
+
+.dayone_icon svg .svg_icon {
+  fill: #999;
+}
+
+#dayone_toc li .toc_thumbnail,
+#dayone_toc li .toc_thumbnail img {
+  -webkit-border-radius: 25px;
+     -moz-border-radius: 25px;
+          border-radius: 25px;
+}
+
+#dayone_toc li .timestamp {
+  color: #999;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+#dayone_toc li .dots {
+  height: 16px;
+  margin-top: -2px;
+  margin-bottom: 8px;
+  background-image: url("/gfx/dot.png");
+  background-repeat: repeat-y;
+  background-position-x: 34px;
+}
+
+.dayone .dayone_pic {
+  text-align: center;
+}
+
+.dayone .dayone_title {
+  text-align: center;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.dayone .timestamp {
+  font-family: "nimbus-sans",sans-serif;
+  font-weight: 300;
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.dayone table {
+  font-family: "nimbus-sans",sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.dayone table thead {
+  border-bottom: 1px solid #DDD;
+}
+
+.dayone table td {
+  border-right: 1px solid #EEE;
+  padding: 5px;
+}
+
+.dayone table tr td:last-child {
+  border-right: none;
+}
+
+#blogpost p.convo-me {
+  text-align: right;
+  margin-left: 10%;
+}
+
+#blogpost p.convo-not-me {
+  text-align: left;
+  margin-right: 10%;
+}
+
+@media (min-width: 900px) {
+  .container, .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container {
+    width: 856px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .container, .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container {
+    width: 956px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container, .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container {
+    width: 1156px;
+  }
+}
+
+@media (max-width: 767px) {
+  #bloglist .post {
+    margin-bottom: 20px;
+  }
+  #bloglist .post .title {
+    font-size: 30px;
+    line-height: 30px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+  }
+  #geomap,
+  #travelmap,
+  #moneysmap,
+  #moneysmapframe,
+  #geomap .geomap-overlay,
+  #travelmap .geomap-overlay,
+  .geomap-frame {
+    height: 300px;
+  }
+
+  #weatherchart,
+  #elevationchart {
+    height: 200px;
+  }
+}
+
+@media (max-width: 480px) {
+  #geomap,
+  #travelmap,
+  #moneysmap,
+  #moneysmapframe,
+  #geomap .geomap-overlay,
+  #travelmap .geomap-overlay,
+  .geomap-frame {
+    height: 200px;
+  }
+
+  #weatherchart,
+  #elevationchart {
+    height: 100px;
+  }
+
+  #blogpost .photonly .dayone_title {
+    font-size: 26px;
+    line-height: 30px;
+  }
+  #blogpost .photonly .timestamp {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+
+@media (max-width: 320px) {
+  #navigation .next {
+    margin-right: 0;
+  }
+
+  #navigation .previous {
+    margin-left: 0;
+  }
+
+}
+
+@media (max-width: 480px) {
+  .page [class*="span"],
+  .page .uneditable-input[class*="span"],
+  .page .row-fluid [class*="span"] {
+    display: block;
+    float: none;
+    width: 100%;
+    margin-left: 0;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  #bloglist .post {
+    margin-bottom: 10px;
+  }
+  #bloglist .post .title {
+    font-size: 20px;
+    line-height: 20px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+  #bloglist .post .background-title .date {
+    font-size: 14px;
+    line-height: 14px;
+  }
+  #bloglist .post .text-title a {
+    padding-left: 30px;
+    background-size: 30px 30px;
+  }
+  #dayone_toc {
+    background-position-y: -30px;
+  }
+  #dayone_toc h1 {
+    margin-bottom: 20px;
+  }
+  #dayone_toc ul {
+    margin-left: 0;
+  }
+  
+  .dayone_icon {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+  }
+}
