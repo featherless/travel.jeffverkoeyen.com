@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>How This Blog Was Built  ~ featherless software design</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="Jeff Verkoeyen">
+
+    <link href="/css/bootstrap.css" rel="stylesheet">
+    <link href="/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="/css/portfolio.css" rel="stylesheet">
+    <link href="/css/pygments.css" rel="stylesheet">
+    <link href="/css/blog.css" rel="stylesheet">
+    
+
+<!--
+    <script type="text/javascript" src="//use.typekit.net/ybc6dhf.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+-->
+    <script type="text/javascript">
+  (function(d) {
+    var config = {
+      kitId: 'ybc6dhf',
+      scriptTimeout: 5000
+    },
+    h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(
+/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement(
+"script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";
+tk.src='//use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadyst
+atechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;
+f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+  })(document);
+</script>
+    
+    <style type="text/css">
+      
+    </style>
+    
+  </head>
+
+  <body>
+
+    <div class="container-narrow">
+
+      <div class="masthead">
+        <a href="http://jeffverkoeyen.com/"><h3 class="pull-right">featherless<br/>software design</h3></a>
+        <ul class="nav nav-pills">
+          <li><a href="http://jeffverkoeyen.com/portfolio">portfolio</a></li>
+          <li class="active"><a href="http://blog.jeffverkoeyen.com">blog</a></li>
+          <li><a href="http://jeffverkoeyen.com/contact">contact</a></li>
+          <li><a href="http://jeffverkoeyen.com/about">about</a></li>
+        </ul>
+      </div>
+
+    </div> <!-- /container-narrow -->
+
+<div id="navigation" class="container-narrow">
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+        
+            
+            <div class="previous">
+            <a href="/2013/12/03/travel-monteverde">&laquo; Costa Rica: Monteverde</a>
+            </div>
+        
+        
+            <div class="next">
+            <a href="/2013/12/07/travel-samara">Costa Rica: Sámara &raquo;</a>
+            </div>
+        
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+<div class="clearfix"></div>
+</div>
+
+<div id="post-header" class="container-narrow">
+  <div class="title">How This Blog Was Built</div>
+  <div class="date">07 Dec 2013</div>
+</div>
+<div id="blogpost">
+
+
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+<!-- state: hasPic:false isLongPost: true isNewRow: true flushThisRow: true isPhotoOnlyPost: false-->
+
+
+  
+
+  
+
+  
+  <div class="dayone page">
+  
+    <div class="container">
+  
+      <div class="dayone_icon"><svg class="svg_container default_svg" xmlns:x="http://ns.adobe.com/Extensibility/1.0/" xmlns:i="http://ns.adobe.com/AdobeIllustrator/10.0/" xmlns:graph="http://ns.adobe.com/Graphs/1.0/" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Livello_1" x="0px" y="0px" width="100.0px" height="100px" viewBox="0 0 156 156" enable-background="new 0 0 156 156" xml:space="preserve">
+<switch>
+	<foreignObject requiredExtensions="http://ns.adobe.com/AdobeIllustrator/10.0/" x="0" y="0" width="1" height="1">
+		</foreignObject>
+	<g i:extraneous="self">
+		<path class="svg_icon" d="M120.225,31.732c-19.529,0.289-38.007,9.201-51.185,23.501c-1.586,1.722-3.088,3.519-4.506,5.381    c-1.15,1.511-1.221,3.34-1.466,5.189c-0.193-0.802-0.373-1.607-0.55-2.413c-4.981,7.397-8.908,15.526-10.515,24.356    c-0.449,2.469-0.721,4.968-0.759,7.478c-0.018,1.163,0.013,2.326,0.085,3.486c0.07,1.129-0.512,1.984-0.967,3.014    c-1.967,4.447-3.555,9.069-4.761,13.78c-1.36,5.311-2.216,10.753-2.496,16.229c1.486-5.579,3.17-11.107,5.186-16.519    c0.985-2.646,2.063-5.257,3.224-7.829c0.588-1.305,1.221-2.587,1.844-3.874c0.291-0.601,0.559-1.487,1.016-1.979    c0.339-0.364-0.102-0.289,0.557-0.337c0.432-0.031,0.949,0.116,1.396,0.12c5.48,0.045,11.249-1.233,16.47-2.806    c3.749-1.129,7.21-2.836,10.704-4.252c2.368-0.959,4.735-1.92,7.102-2.88c-3.711,0.229-7.456,0.631-11.175,0.611    c2.443-0.535,4.888-1.091,7.324-1.663c1.211-0.285,2.424-0.58,3.63-0.885c1.631-0.411,2.621-0.958,3.951-1.969    c5.474-4.162,9.936-9.709,13.68-15.433c3.715-5.678,6.709-11.865,8.821-18.314C119.172,46.587,120.244,39.233,120.225,31.732    L120.225,31.732z M91.079,86.476C91.062,86.486,91.049,86.494,91.079,86.476L91.079,86.476z M114.742,53.207    c-2.449,7.087-5.983,13.812-10.392,19.873c-2.247,3.09-4.712,6.03-7.457,8.688c-1.352,1.309-2.775,2.572-4.298,3.676    c-0.806,0.585-1.361,0.974-2.307,1.219c-5.535,1.438-11.412,2.52-17.129,3.705c-2.792,0.579-5.583,1.159-8.376,1.742    c2.676,0.793,5.344,1.712,8.092,2.224c-5.235,1.252-10.532,2.028-15.899,2.388c6.733-11.705,15.505-22.208,25.812-30.933    c2.875-2.433,5.854-4.739,8.997-6.818c-6.537,2.481-12.574,6.627-17.88,11.128c-5.12,4.344-9.726,9.261-13.718,14.66    c-2.349,3.176-4.47,6.512-6.373,9.974c-0.609-10.128,2.947-20.097,8.225-28.612c0.433,1.742,0.946,3.46,1.448,5.183    c0.121-1.082,0.24-2.164,0.367-3.243c0.147-1.263,0.303-2.525,0.495-3.781c0.137-0.894,0.186-1.843,0.701-2.599    c2.481-3.643,5.703-6.943,8.92-9.932c7.457-6.927,16.327-12.262,26.042-15.346c5.898-1.873,12.131-2.834,18.32-2.788    C118.181,40.281,116.914,46.907,114.742,53.207C112.462,59.805,116.915,46.903,114.742,53.207z"/>
+	</g>
+</switch>
+</svg></div>
+  
+      <div class="row-fluid">
+
+
+
+  
+        <div class="container-narrow">
+          <div id="dayone_543A7444BF6C42EB847B86F18BA817AE" class="span12">
+    
+
+  
+
+    
+<h3 id="tldr">tl;dr</h3>
+
+<ul>
+<li>Owning my content allows me to be more creative and I don’t want to take this for granted.</li>
+
+<li>Day One is my client, both on my Mac and my iPhone. Both work offline. The client stores its data in a Dropbox folder, which gets synced automatically to my server. This kicks off a deploy script that regenerates my website with the Day One entries, the final result visible here: <a href="http://blog.jeffverkoeyen.com">blog.jeffverkoeyen.com</a>.</li>
+
+<li>The plugin automatically matches Day One entries to Jekyll posts using tags.</li>
+
+<li><a href="https://github.com/jverkoey/jekyll-dayone">Jekyll Day One plugin on Github</a></li>
+
+<li><a href="https://www.dropbox.com/install?os=lnx">Dropbox command line tools for Linux</a></li>
+</ul>
+
+<h1 id="my_day_onewritten_dropboxdeployed_jekyllserved_blog">My Day One-Written, Dropbox-Deployed, Jekyll-Served Blog</h1>
+
+<p>Reflecting on the last few years of tech’s impact on creativity and ownership brings me to the following question:</p>
+
+<p>Twenty years from now, do we have any right to expect content that we’ve created and posted online with free services to still be accessible?</p>
+
+<p>We funnel so much of our lives - our photos, our thoughts, our creativity - into different silos, taking for granted that these services will continue to exist and that our data will still be accessible when our children someday want to see and read about the experiences we had.</p>
+
+<p>It’s sobering to remember that, with all of these free services, <em>we</em> are the product. When enough of us move on to something shinier, the old service has every right to wipe our data outright and shut down. Any ability to download our content before that would simply be a kind gesture.</p>
+
+<p>These thoughts have led me to phase out free services to catalog my life. Path is gone; I no longer host my photos on Facebook; and all of my writing now lives directly on my devices. I can choose how and where my content is made accessible using servers that I configure and, most importantly, my content is mine and mine alone.^1</p>
+
+<p>With the motivation laid out, let’s look at how my blog came to be.</p>
+
+<h1 id="writing_a_blog_while_mobile">Writing A Blog While Mobile</h1>
+
+<p>When I began my travels in October I was writing everything on my laptop and deploying it with git to my Jekyll blog. This meant many long hours at my laptop fiddling with HTML layouts and no ability to modify posts on my phone.</p>
+
+<p>Fast forward to a few weeks ago when the Day One app was being featured on the App Store. Having heard of it before, I idly checked it out expecting it to be simply another Path app.</p>
+
+<p>Much to my surprise after reading the feature list: Day One doesn’t store anything you create on their servers, they don’t require online accounts, and all data is yours to play with. Everything you write is on your devices and you can choose how you want to sync between them, e.g. via Dropbox.</p>
+
+<p>A mental path quickly connected to <a href="http://joehewitt.com/2011/10/03/dropbox-is-my-publish-button">a post by Joe Hewitt describing how he was using Dropbox to publish his blog</a> . Suddenly it was clear: Day One could be a powerful mobile client for managing my blog.</p>
+
+<h1 id="day_one__dropbox__jekyll">Day One -&gt; Dropbox -&gt; Jekyll</h1>
+
+<p>Day One would be the client that created all of the content. This content would be stored in a Dropbox folder which, on any changes to its contents, would cause a script on my server to rebuild the Jekyll blog.</p>
+
+<p>The beauty of this system is that, barring any layout changes, I never have to use my laptop to write content again. Because Day One automatically syncs when I’m online, I don’t even have to hit publish: changes go live as I make them.^2</p>
+
+<h2 id="understanding_jekyll_plugins">Understanding Jekyll Plugins</h2>
+
+<p>Jekyll websites are created by running <code>jekyll build</code> in a folder with a <a href="http://jekyllrb.com/docs/structure/">specific hierarchy</a>. Within this hierarchy is a <code>_posts</code> folder with any number of individual post files. Each of these posts can have <a href="http://jekyllrb.com/docs/frontmatter/">metadata</a>, such as which layout to use or the post’s title. Notably, you can attach tags to specific posts.</p>
+
+<blockquote>
+<p>Individual pieces of Day One content are called entries, terminology that will soon be important when we discuss the convergence of Jekyll posts and Day One entries.</p>
+</blockquote>
+
+<p>Jekyll has the ability to build plugins to modify the site creation pipeline. The plugin types affect specific steps in that pipeline. One such type is the Generator.</p>
+
+<p>Generator plugins allow you to insert logic shortly after the posts and their metadata have been loaded into memory, and just before the post templates generate the site’s HTML. This allows you to attach additional information to each post - in this case the relevant Day One entries. The post template can then render the information however it chooses.</p>
+
+<h2 id="associating_day_one_entries_with_jekyll_posts">Associating Day One Entries With Jekyll Posts</h2>
+
+<p>Day One entries have a tendency to be small, focused pieces of information: a place I’ve visited or a photo of something noteworthy. It’s possible to write longer forms of content, as this post exemplifies, but in general I treat entries as smaller parts of a whole.</p>
+
+<p>With this in mind, each Jekyll post could potentially have any number of Day One entries associated with it. A post about Monteverde, Costa Rica might have twenty entries, for example.</p>
+
+<p>It should also be possible to include entries in multiple posts. An entry about traveling between Monteverde and Sámara should be in both the post about Monteverde and the post about Sámara.</p>
+
+<h3 id="the_naive_algorithm">The Naive Algorithm</h3>
+
+<p>It’s highly likely that, over time, there might grow to be dozens of posts and hundreds, maybe thousands of entries. The naive algorithm would traverse every post, and for each post traverse every entry, adding entries that have the necessary tags to the current post.</p>
+
+<p>Assuming the number of tags per post or entry is always under some constant value, we have O(posts.size * entries.size) complexity, or roughly O( n^2 ). This will start chugging along^3 as the blog ages. We can do better.</p>
+
+<h3 id="tag_tree_algorithm">Tag Tree Algorithm</h3>
+
+<p>The goal of this algorithm is to reduce the time complexity from n^2 to O(n).</p>
+
+<p>The key to this algorithm is to build a tree using the tags from all of the posts. You can do this in one pass of all posts. This is accomplished via the <code>build_tag_tree</code> method in <a href="https://github.com/jverkoey/jekyll-dayone/blob/master/src/dayone.rb#L44">dayone.rb</a>. Given the following posts:</p>
+
+<pre><code>Monteverde, Costa Rica
+Puerto Viejo, Costa Rica
+Alajuela, Costa Rica</code></pre>
+
+<p>The tag tree will be:</p>
+
+<pre><code>root =&gt; alajuela =&gt; costa rica*
+     =&gt; costa rica =&gt; monteverde*
+                   =&gt; puerto viejo*</code></pre>
+
+<blockquote>
+<p>Each node of the tree is a hash that may have a post attached to it. Movement from a parent node to a child happens via tags.</p>
+</blockquote>
+
+<p>Then, iterate over every entry and walk the tag tree using the entry’s tags. For every touched node in the tree that corresponds to a post, add that entry to the post. This is accomplished via the <code>get_tag_tree_posts</code> method in <a href="https://github.com/jverkoey/jekyll-dayone/blob/master/src/dayone.rb#L60">dayone.rb</a>.</p>
+
+<p>For example, an entry with the tags <code>Costa Rica, Monteverde</code> would traverse the above tree first at <code>costa rica</code>, then to <code>monteverde</code>. At this node we’d see the attached post and add this entry to it.</p>
+
+<p>The runtime of this algorithm is O(posts.size) + O(entries.size), or effectively O(n). Much improved!</p>
+
+<p>The most complex part of this algorithm is the entry tag walk. We need to ensure that if an entry has tags that match multiple posts that each of those posts is given the entry.</p>
+
+<p>To do this we use a filtered breadth-first walk of the tree, only traversing branches that exist in the post tag tree.</p>
+
+<pre><code>posts = []
+queue = [tag_tree]
+
+while queue.length &gt; 0
+  node = queue.shift
+
+  if has_post(node)
+    posts.push(node.post)
+  end
+
+  entry_tags.each do |tag|
+    if node.has_key?(tag)
+      queue.push(node[tag])
+    end
+  end
+end</code></pre>
+
+<h2 id="deploying_the_blog_using_dropbox">Deploying The Blog Using Dropbox</h2>
+
+<p>You can set up Dropbox on a Linux box using their <a href="https://www.dropbox.com/install?os=lnx">Linux command line tools</a>.</p>
+
+<p>Once you have your Dropbox account synchronizing on your server you have at least two options for deploying the changes.</p>
+
+<ol>
+<li>Run a daemon that watches for changes in the Day One folder in your Dropbox. When changes are detected, rerun <code>jekyll build</code> to regenerate the site.</li>
+
+<li>Run a cron that regenerates your site every n minutes/hours/days.</li>
+</ol>
+
+<p>Each solution has pros/cons that may be more/less applicable to your situation.</p>
+
+<h1 id="voila">Voila!</h1>
+
+<p>These are the basics principals behind my new blog and how it operates under the hood. You can find the source code for my <a href="https://github.com/jverkoey/jekyll-dayone">Jekyll DayOne plugin on Github</a>.</p>
+
+<p>^1 This system isn’t perfect, of course. My laptop could be stolen or my hosting provider could suffer from catastrophic data loss. When we own our content we also own the responsibility to protect it. This grants us the privilege of choosing to what degree we do so.</p>
+
+<p>^2 In practice there are mechanisms to keep posts from being published while being written and similar mechanisms to take down posts if necessary</p>
+
+<p>^3 A quick test with 13 posts and 150 entries took 15 seconds to execute on my Macbook Air, a significantly faster machine than my server.</p>
+        </div>
+  
+  
+        </div> <!-- .container-narrow -->
+  
+
+  
+  
+
+
+
+
+    </div> <!-- /row-fluid -->
+  </div> <!-- /container -->
+</div> <!-- /dayones -->
+
+
+
+</div>
+
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/post.js"></script>
+    
+    <script type="text/javascript">
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-8961075-1']);
+      _gaq.push(['_setDomainName', 'jeffverkoeyen.com']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+    </script>
+  </body>
+</html>
+

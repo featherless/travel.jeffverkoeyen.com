@@ -1,0 +1,3311 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>What's Blowing Our Minds?  ~ featherless software design</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="Jeff Verkoeyen">
+
+    <link href="/css/bootstrap.css" rel="stylesheet">
+    <link href="/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="/css/portfolio.css" rel="stylesheet">
+    <link href="/css/pygments.css" rel="stylesheet">
+    <link href="/css/blog.css" rel="stylesheet">
+    
+
+<!--
+    <script type="text/javascript" src="//use.typekit.net/ybc6dhf.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+-->
+    <script type="text/javascript">
+  (function(d) {
+    var config = {
+      kitId: 'ybc6dhf',
+      scriptTimeout: 5000
+    },
+    h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(
+/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement(
+"script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";
+tk.src='//use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadyst
+atechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;
+f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+  })(document);
+</script>
+    
+    <style type="text/css">
+      @media (min-width: 1000px) { #dayone_F094F6DF8F314A99B613C0D552076496 img { content:url("/gfx/dayone/F094F6DF8F314A99B613C0D552076496.jpg"); } }
+@media (min-width: 1000px) { #dayone_2A6E796025F64BE588FD26F2E2D80E2B img { content:url("/gfx/dayone/2A6E796025F64BE588FD26F2E2D80E2B.jpg"); } }
+@media (min-width: 1000px) { #dayone_A6C22919AE294A8A8FB928300949708C img { content:url("/gfx/dayone/A6C22919AE294A8A8FB928300949708C.jpg"); } }
+@media (min-width: 1000px) { #dayone_D9BDC7EC4072440B9525A9F7A8A811D0 img { content:url("/gfx/dayone/D9BDC7EC4072440B9525A9F7A8A811D0.jpg"); } }
+@media (min-width: 1000px) { #dayone_44FE7E42E4C246DB96D3788386AAA373 img { content:url("/gfx/dayone/44FE7E42E4C246DB96D3788386AAA373.jpg"); } }
+@media (min-width: 1000px) { #dayone_52E24614FA8C42B4968A063C16310DF7 img { content:url("/gfx/dayone/52E24614FA8C42B4968A063C16310DF7.jpg"); } }
+@media (min-width: 1000px) { #dayone_F81918E8AA964E688AC6C3E0BFF37F0D img { content:url("/gfx/dayone/F81918E8AA964E688AC6C3E0BFF37F0D.jpg"); } }
+@media (min-width: 1000px) { #dayone_C13D979FFF754188B2F3610547BAC272 img { content:url("/gfx/dayone/C13D979FFF754188B2F3610547BAC272.jpg"); } }
+@media (min-width: 1000px) { #dayone_B8F27999D9714E93A0C80D416F7BABA8 img { content:url("/gfx/dayone/B8F27999D9714E93A0C80D416F7BABA8.jpg"); } }
+@media (min-width: 1000px) { #dayone_13ECC5812BD34214A24F9FCEAC0C1AE7 img { content:url("/gfx/dayone/13ECC5812BD34214A24F9FCEAC0C1AE7.jpg"); } }
+@media (min-width: 1000px) { #dayone_2147F1E033E94AAF86CC5E05765DCD85 img { content:url("/gfx/dayone/2147F1E033E94AAF86CC5E05765DCD85.jpg"); } }
+@media (min-width: 1000px) { #dayone_E239FFD9E5D94907BA5BA949E33634B0 img { content:url("/gfx/dayone/E239FFD9E5D94907BA5BA949E33634B0.jpg"); } }
+@media (min-width: 1000px) { #dayone_A91129D5A6284948A47589B85B21A213 img { content:url("/gfx/dayone/A91129D5A6284948A47589B85B21A213.jpg"); } }
+@media (min-width: 1000px) { #dayone_6B93A4258D504E39A42C7EBF6CA9152B img { content:url("/gfx/dayone/6B93A4258D504E39A42C7EBF6CA9152B.jpg"); } }
+@media (min-width: 1000px) { #dayone_12FA7A1203084CD89FC36A460495809F img { content:url("/gfx/dayone/12FA7A1203084CD89FC36A460495809F.jpg"); } }
+@media (min-width: 1000px) { #dayone_8C02FE31A62F494FABC5B0AA6FEAAC40 img { content:url("/gfx/dayone/8C02FE31A62F494FABC5B0AA6FEAAC40.jpg"); } }
+@media (min-width: 1000px) { #dayone_81C77D3E6B8644F6B75874FC8EC8E192 img { content:url("/gfx/dayone/81C77D3E6B8644F6B75874FC8EC8E192.jpg"); } }
+@media (min-width: 1000px) { #dayone_1CAE1B8B99434FAA9836C2E0D1D2A55B img { content:url("/gfx/dayone/1CAE1B8B99434FAA9836C2E0D1D2A55B.jpg"); } }
+@media (min-width: 1000px) { #dayone_3993CDA3A63E44BA8BB83EB64AC9DA16 img { content:url("/gfx/dayone/3993CDA3A63E44BA8BB83EB64AC9DA16.jpg"); } }
+
+    </style>
+    
+  </head>
+
+  <body>
+
+    <div class="container-narrow">
+
+      <div class="masthead">
+        <a href="http://jeffverkoeyen.com/"><h3 class="pull-right">featherless<br/>software design</h3></a>
+        <ul class="nav nav-pills">
+          <li><a href="http://jeffverkoeyen.com/portfolio">portfolio</a></li>
+          <li class="active"><a href="http://blog.jeffverkoeyen.com">blog</a></li>
+          <li><a href="http://jeffverkoeyen.com/contact">contact</a></li>
+          <li><a href="http://jeffverkoeyen.com/about">about</a></li>
+        </ul>
+      </div>
+
+    </div> <!-- /container-narrow -->
+
+<div id="navigation" class="container-narrow">
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+        
+            
+            <div class="previous">
+            <a href="/2013/12/19/currencies">&laquo; International Currencies</a>
+            </div>
+        
+        
+            <div class="next">
+            <a href="/2013/12/19/would-never-go-back">We'll Never Go Back... &raquo;</a>
+            </div>
+        
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+<div class="clearfix"></div>
+</div>
+
+<div id="post-header" class="container-narrow">
+  <div class="title">What's Blowing Our Minds?</div>
+  <div class="date">19 Dec 2013</div>
+</div>
+<div id="blogpost">
+<div class="page narrow-top-space">
+<p style="text-align:center"><img src="" /></p>
+<div class="container-narrow">
+<p>Some places stand out as truly unforgettable experiences. It might be an evening enjoyed with tears in our eyes from laughter keeling us over, or it might be as simple as a delicious snack that we simply can’t resist.</p>
+
+<p>These are the things that rocked our world.</p>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+
+
+<!-- state: hasPic:true isLongPost: true isNewRow: true flushThisRow: true isPhotoOnlyPost: false-->
+
+
+  
+
+  
+
+  
+  <div class="dayone page">
+  
+    <div class="container">
+  
+      <div class="dayone_icon"><svg class="svg_container default_svg" xmlns:x="http://ns.adobe.com/Extensibility/1.0/" xmlns:i="http://ns.adobe.com/AdobeIllustrator/10.0/" xmlns:graph="http://ns.adobe.com/Graphs/1.0/" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Livello_1" x="0px" y="0px" width="100.0px" height="100px" viewBox="0 0 156 156" enable-background="new 0 0 156 156" xml:space="preserve">
+<switch>
+	<foreignObject requiredExtensions="http://ns.adobe.com/AdobeIllustrator/10.0/" x="0" y="0" width="1" height="1">
+		</foreignObject>
+	<g i:extraneous="self">
+		<path class="svg_icon" d="M120.225,31.732c-19.529,0.289-38.007,9.201-51.185,23.501c-1.586,1.722-3.088,3.519-4.506,5.381    c-1.15,1.511-1.221,3.34-1.466,5.189c-0.193-0.802-0.373-1.607-0.55-2.413c-4.981,7.397-8.908,15.526-10.515,24.356    c-0.449,2.469-0.721,4.968-0.759,7.478c-0.018,1.163,0.013,2.326,0.085,3.486c0.07,1.129-0.512,1.984-0.967,3.014    c-1.967,4.447-3.555,9.069-4.761,13.78c-1.36,5.311-2.216,10.753-2.496,16.229c1.486-5.579,3.17-11.107,5.186-16.519    c0.985-2.646,2.063-5.257,3.224-7.829c0.588-1.305,1.221-2.587,1.844-3.874c0.291-0.601,0.559-1.487,1.016-1.979    c0.339-0.364-0.102-0.289,0.557-0.337c0.432-0.031,0.949,0.116,1.396,0.12c5.48,0.045,11.249-1.233,16.47-2.806    c3.749-1.129,7.21-2.836,10.704-4.252c2.368-0.959,4.735-1.92,7.102-2.88c-3.711,0.229-7.456,0.631-11.175,0.611    c2.443-0.535,4.888-1.091,7.324-1.663c1.211-0.285,2.424-0.58,3.63-0.885c1.631-0.411,2.621-0.958,3.951-1.969    c5.474-4.162,9.936-9.709,13.68-15.433c3.715-5.678,6.709-11.865,8.821-18.314C119.172,46.587,120.244,39.233,120.225,31.732    L120.225,31.732z M91.079,86.476C91.062,86.486,91.049,86.494,91.079,86.476L91.079,86.476z M114.742,53.207    c-2.449,7.087-5.983,13.812-10.392,19.873c-2.247,3.09-4.712,6.03-7.457,8.688c-1.352,1.309-2.775,2.572-4.298,3.676    c-0.806,0.585-1.361,0.974-2.307,1.219c-5.535,1.438-11.412,2.52-17.129,3.705c-2.792,0.579-5.583,1.159-8.376,1.742    c2.676,0.793,5.344,1.712,8.092,2.224c-5.235,1.252-10.532,2.028-15.899,2.388c6.733-11.705,15.505-22.208,25.812-30.933    c2.875-2.433,5.854-4.739,8.997-6.818c-6.537,2.481-12.574,6.627-17.88,11.128c-5.12,4.344-9.726,9.261-13.718,14.66    c-2.349,3.176-4.47,6.512-6.373,9.974c-0.609-10.128,2.947-20.097,8.225-28.612c0.433,1.742,0.946,3.46,1.448,5.183    c0.121-1.082,0.24-2.164,0.367-3.243c0.147-1.263,0.303-2.525,0.495-3.781c0.137-0.894,0.186-1.843,0.701-2.599    c2.481-3.643,5.703-6.943,8.92-9.932c7.457-6.927,16.327-12.262,26.042-15.346c5.898-1.873,12.131-2.834,18.32-2.788    C118.181,40.281,116.914,46.907,114.742,53.207C112.462,59.805,116.915,46.903,114.742,53.207z"/>
+	</g>
+</switch>
+</svg></div>
+  
+      <div class="row-fluid">
+
+
+
+  
+    
+          <div class="container-narrow">
+            <div id="dayone_F094F6DF8F314A99B613C0D552076496" class="span12">
+    
+
+            
+  <h1 class="dayone_title">Bahia del Sol</h1>
+  <div class="timestamp">Friday, November 15, 2013 20:00</div>
+
+<p>What a surprise this was! From the moment I set foot in Bahia del Sol’s ocean-view room I knew it was going to be an unforgettable stay.</p>
+
+<p>The first thing you notice when entering the ocean-front room is the enormous draped bed. From there your eyes sweep to the balcony complete with outdoor shower and jacuzzi, both adjacent to a hammock and reclining chairs for watching the sun set over the water. This place is right out of a romance novel.</p>
+
+<p>To top it off, the owners - Jack and Lee - are the most heart-warming people I’ve had the privilege of meeting thus far on my travels. They happily sat with us on the porch as the water lazily lapped against the docks and shot the breeze as they shared stories of lives-well-lived and curiously explored our own adventures.</p>
+
+<p>After sleeping in the next morning until noon, we were completely surprised to find that Jack had left portions of the morning breakfast aside for us! We were delighted to enjoy delicious eggs and sausage with slices of fresh fruit and tea. Jack’s thoughtfulness was wonderfully appreciated after Laurence’s long multi-day trek from Montreal.</p>
+
+<p>We left Bahia del Sol reluctantly, though relaxed and rejuvenated, and fully intend to return may our paths take us through Bocas del Toro again.</p>
+
+<blockquote>
+<p>For booking Bahia del Sol I highly recommend doing so directly through <a href="http://www.bocasbahiadelsol.com/">the Bahia del Sol website</a> as it will allow Jack and Lee to contact you directly in the event of any changes to their bookings. Photos are from <a href="http://www.bocasbahiadelsol.com/photos">Bahia del Sol’s photo album</a>.</p>
+</blockquote>
+
+    
+            </div> <!-- .span12 -->
+          </div> <!-- .container-narrow -->  
+      
+      
+          <div class="dayone_pic">
+            <img src="/gfx/dayone_large/F094F6DF8F314A99B613C0D552076496.jpg" />
+          </div>
+      
+      
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+
+
+
+  
+    
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<!-- state: hasPic:true isLongPost: false isNewRow: true flushThisRow: true isPhotoOnlyPost: false-->
+
+
+  
+
+  
+      </div> <!-- .row -->
+    </div> <!-- .container -->
+  </div> <!-- .dayone -->
+  
+
+  
+  <div class="dayone page">
+  
+    <div class="container">
+  
+      <div class="dayone_icon"><svg class="svg_container" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" width="40px" height="40px" viewBox="0 0 99.883 100" overflow="visible" enable-background="new 0 0 99.883 100" xml:space="preserve">
+<path class="svg_icon" d="M0,66.828v4.428C1.098,78.679,25.121,100,30.618,100h38.647c5.496,0,29.52-21.321,30.617-28.745v-4.428H0z"/>
+<g>
+	<path class="svg_icon" d="M71.614,43.042c0.178-0.138,4.363-3.416,4.585-7.457l0,0c0.038-0.689-0.49-1.279-1.18-1.317   s-1.278,0.49-1.316,1.179l0,0c-0.159,2.894-3.585,5.59-3.619,5.617c0.068-0.054,0.142-0.099,0.221-0.137l-0.22,0.136   c-0.546,0.422-0.646,1.207-0.225,1.753S71.067,43.463,71.614,43.042L71.614,43.042z"/>
+</g>
+<g>
+	<path class="svg_icon" d="M73.628,59.742c-1.531-0.398-4.713-0.451-5.791,2.199l0,0c-0.26,0.64,0.048,1.368,0.688,1.629   c0.64,0.26,1.368-0.048,1.629-0.688l0,0c0.522-1.285,2.822-0.727,2.846-0.721l0,0c0.668,0.174,1.351-0.228,1.524-0.896   S74.296,59.916,73.628,59.742L73.628,59.742z"/>
+</g>
+<path class="svg_icon" d="M97.637,54.542c-4.474,2.049-9.854,7.622-7.916,8.641c1.937,1.019,4.706-0.634,7.666-2.979  C100.347,57.858,100.969,53.014,97.637,54.542z"/>
+<g>
+	<path class="svg_icon" d="M61.918,38.932c-1.984,0.083-4.756,0.5-5.922,3.162c-0.001,0.001-0.179,0.4-0.179,0.4   c-0.428,0.95-0.87,1.933-0.446,2.971c0.418,1.026,1.509,1.563,2.412,1.917c2.985,1.168,6.558,0.515,8.132-1.489   c0.867-1.103,0.915-2.818,0.121-4.369C65.182,39.854,63.604,38.862,61.918,38.932z M63.95,44.347c-0.785,1-3.138,1.535-5.257,0.706   c-0.858-0.336-1.015-0.549-1.021-0.558c0.013,0.018,0.026,0.06,0.026,0.082c-0.004-0.166,0.229-0.681,0.397-1.057l0.189-0.424   c0.333-0.76,1.038-1.554,3.735-1.666c1.052-0.044,1.635,0.932,1.789,1.232C64.172,43.368,64.165,44.073,63.95,44.347z"/>
+</g>
+<g>
+	<path class="svg_icon" d="M45.879,40.212c-2.1-0.233-3.716,1.188-5.191,2.664c-0.718,0.718-1.805,1.804-1.741,3.219   c0.043,0.942,0.568,1.821,1.605,2.685c0,0,0.433,0.365,0.433,0.365c1.905,1.614,3.228,2.514,6.265,0.742   c2.726-1.59,2.892-2.827,2.829-4.401c-0.007-0.168-0.014-0.343-0.014-0.52C50.065,42.755,47.455,40.388,45.879,40.212z    M47.565,44.966c0,0.227,0.008,0.436,0.016,0.62c0.038,0.935,0.048,1.186-1.59,2.142c-1.665,0.971-1.828,0.833-3.389-0.49   l-0.448-0.378c-0.513-0.427-0.702-0.74-0.708-0.877c-0.014-0.313,0.731-1.058,1.011-1.338c1.275-1.276,2.247-2.047,3.148-1.947   c-0.013-0.001-0.02-0.003-0.02-0.003C46.129,42.814,47.565,44.152,47.565,44.966z"/>
+</g>
+<path class="svg_icon" d="M56.561,53.749c-2.514-1.143-8.519-3.468-9.985-0.387c-0.312,0.652-0.946,1.363-1.505,1.991  c-0.972,1.09-1.891,2.119-1.584,3.334c0.178,0.704,0.714,1.224,1.596,1.544c2.937,1.067,6.611,2.107,8.979,0.66  c1.943-1.187,2.591-3.593,2.939-4.885c0.06-0.222,0.134-0.497,0.168-0.579C57.433,54.804,57.177,54.029,56.561,53.749z   M52.759,58.758c-1.567,0.957-5.169-0.279-6.616-0.802c0.218-0.291,0.543-0.66,0.793-0.939c0.667-0.748,1.421-1.596,1.887-2.563  c0.468-0.384,2.977,0.054,5.699,1.143C54.238,56.63,53.771,58.14,52.759,58.758z M93.276,46.731  c-0.113-2.714-0.481-3.339-1.594-4.566l-0.152-0.169c-0.955-1.061-2.239-1.506-3.617-1.254c-2.114,0.387-3.903,2.264-4.513,3.833  c-0.162,0.416-0.369,0.821-0.569,1.212c-0.708,1.388-1.59,3.115-0.028,5.157c2.014,2.633,4.144,2.804,7.122,0.571  c0.692-0.52,1.203-0.82,1.614-1.062C93.092,49.538,93.368,48.946,93.276,46.731z M53.9,29.78c-1.739-0.263-5.884-0.635-6.811,1.589  c-0.745,1.788-0.512,5.102-0.483,5.473c0.045,0.583,0.489,1.057,1.068,1.14c0.56,0.081,5.534,0.75,7.9-0.432  c1.425-0.713,2.113-2.375,1.756-4.234C56.95,31.341,55.539,29.916,53.9,29.78z"/>
+<path class="svg_icon" d="M12.602,38.844L12.602,38.844l0.034-0.005c-0.534-3.589-0.841-5.708-1.377-8.776  C8.242,12.813,5.494-0.235,3.57,0.003c-0.01,0-0.018,0-0.023,0.003c-0.005,0-0.011,0.001-0.015,0.001  C3.527,0.009,3.522,0.009,3.517,0.01C3.511,0.011,3.503,0.012,3.494,0.014C1.574,0.28,3.063,15.05,5.883,32  c0.511,3.074,0.816,4.243,1.438,7.875c0,0-5.53,4.177-4.374,9.492c0.861,3.958,5.42,14.332,5.897,14.928  c-1.103-6.002-1.398-13.729,0.102-13.729c1-0.25,3.438,8,4.875,13.063c0,0-0.313-13.813,0.875-13.875  c1.517-0.08,2.989,7.23,3.477,13.313c0.307-0.7,2.024-11.899,1.832-15.946C19.745,41.688,12.602,38.844,12.602,38.844z"/>
+<path class="svg_icon" d="M83.373,56.922c-0.315-0.737-1.683-2.813-6.615-1.704c0.046-1.517-0.463-2.974-1.506-4.083  c-1.335-1.42-3.201-1.956-4.87-1.399c-1.011,0.337-2.653,1.342-3.415,4.284c-1.672-0.634-3.307-0.628-4.577,0.064  c-1.169,0.638-1.877,1.803-1.895,3.115c-0.025,1.972,1.443,3.963,4.03,5.462c0.598,0.347,1.362,0.144,1.708-0.454  c0.347-0.598,0.144-1.362-0.454-1.708c-2.068-1.199-2.794-2.474-2.784-3.267c0.007-0.525,0.325-0.808,0.592-0.953  c0.672-0.366,1.982-0.387,3.646,0.654c0.364,0.229,0.82,0.253,1.207,0.065c0.388-0.187,0.651-0.56,0.698-0.987  c0.236-2.129,0.978-3.553,2.034-3.904c0.723-0.241,1.608,0.049,2.258,0.739c0.887,0.944,1.092,2.311,0.549,3.656  c-0.183,0.452-0.085,0.971,0.25,1.325c0.335,0.355,0.847,0.483,1.309,0.327c3.688-1.245,5.347-0.692,5.537-0.249  c0.213,0.496-0.568,2.099-3.336,3.555c-0.611,0.322-0.846,1.078-0.524,1.688c0.322,0.611,1.078,0.846,1.688,0.524  C82.497,61.783,84.293,59.069,83.373,56.922z M36.481,56.146c1.012-1.692,1.121-3.712,0.675-5.244  c-0.505-1.736-1.662-2.902-3.094-3.118c-0.93-0.14-2.246,0.08-3.703,1.567c-0.794-1.249-1.797-2.044-2.898-2.234  c-1.053-0.182-2.059,0.205-2.759,1.062c-1.244,1.521-1.286,4.226-0.113,7.235c0.25,0.643,0.975,0.961,1.619,0.711  c0.643-0.251,0.961-0.976,0.71-1.619c-1.06-2.719-0.675-4.262-0.28-4.745c0.156-0.191,0.283-0.199,0.397-0.18  c0.394,0.068,1.234,0.674,1.892,2.514c0.16,0.445,0.558,0.764,1.028,0.82s0.933-0.158,1.193-0.554  c1.1-1.668,2.034-2.181,2.542-2.104c0.429,0.064,0.848,0.592,1.066,1.344c0.363,1.246,0.153,3.005-1.133,4.123  c-0.337,0.294-0.492,0.746-0.405,1.186c0.086,0.439,0.401,0.799,0.826,0.942c2.981,1.008,3.832,2.374,3.676,3.047  c-0.163,0.704-1.434,1.311-3.469,1.048c-0.685-0.089-1.312,0.395-1.4,1.079s0.395,1.312,1.08,1.399  c3.716,0.48,5.804-1.142,6.226-2.963C40.531,59.834,39.698,57.695,36.481,56.146z"/>
+<g>
+	<path class="svg_icon" d="M32.489,58.288c-0.138-0.196-1.4-1.92-3.115-2.129c-0.814-0.1-1.591,0.147-2.246,0.715l0,0   c-0.522,0.452-0.579,1.241-0.127,1.764c0.452,0.521,1.241,0.578,1.763,0.127l0,0c0.163-0.141,0.249-0.131,0.306-0.124   c0.424,0.05,1.074,0.667,1.38,1.093l-0.003-0.004c0.398,0.564,1.178,0.698,1.742,0.301C32.752,59.631,32.887,58.851,32.489,58.288   L32.489,58.288z"/>
+</g>
+</svg></div>
+  
+      <div class="row-fluid">
+
+
+
+  
+    
+      
+          <div class="span7">
+            <img src="/gfx/dayone_large/2A6E796025F64BE588FD26F2E2D80E2B.jpg" />
+          </div>
+      
+          <div id="dayone_2A6E796025F64BE588FD26F2E2D80E2B" class="span5">
+    
+
+            
+  <h1 class="dayone_title">First tasty coconut!</h1>
+  <div class="timestamp">Tuesday, November 26, 2013 14:44</div>
+
+<p>While biking to Manzanillo a man waving a machete in the air with a patch on one eye called out to us. At first I was a bit apprehensive but then I saw the massive pile of coconuts beside him and called a decisive halt! I’d never eaten a coconut before and I was definitely not going to miss a chance to have one cut up for us by a pirate.</p>
+
+    
+          </div> <!-- .span6 -->
+      
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+
+
+
+  
+    
+      
+    
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+
+
+<!-- state: hasPic:true isLongPost: true isNewRow: true flushThisRow: true isPhotoOnlyPost: false-->
+
+
+  
+
+  
+      </div> <!-- .row -->
+    </div> <!-- .container -->
+  </div> <!-- .dayone -->
+  
+
+  
+  <div class="dayone page">
+  
+    <div class="container">
+  
+      <div class="dayone_icon"><svg class="svg_container" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="40px" height="40px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+<g id="Captions">
+</g>
+<g id="Your_Icon">
+	<path class="svg_icon" fill-rule="evenodd" clip-rule="evenodd" d="M82.64,91.498L53.633,48.559l5.971-11.093h7.677c0.562,0,1.134-0.571,1.705-1.143   l14.226-24.732c1.126-2.562-1.998-3.703-3.133-1.713L67.28,30.646c-1.705,2.562-5.686,0.571-3.418-2.854L76.098,6.746   c1.134-1.99-1.713-3.98-3.41-1.42L60.452,25.801c-1.99,3.426-5.399,0.293-3.98-1.697L68.414,3.059   c1.42-2.562-1.42-4.274-2.562-1.99L50.786,24.952c-0.571,1.142-0.571,1.713-0.285,1.99l3.98,7.113l-5.122,7.684l-5.115-7.406   c0,0,7.398-8.81-2.847-20.475C31.445,1.917,22.913-1.771,18.933,1.068c-3.132,2.268-4.266,13.361,2.276,25.874   C27.75,39.749,36.846,38.036,39.13,37.759l5.971,10.522L17.514,91.221c-2.562,3.98,0,6.819,1.704,7.668   c1.705,0.864,5.408,1.99,7.962-2.839l22.18-40.101L73.822,97.47c1.419,2.283,4.544,3.409,6.827,1.712   C81.783,98.333,85.201,95.479,82.64,91.498"/>
+</g>
+</svg></div>
+  
+      <div class="row-fluid">
+
+
+
+  
+    
+          <div class="container-narrow">
+            <div id="dayone_A6C22919AE294A8A8FB928300949708C" class="span12">
+    
+
+            
+  <h1 class="dayone_title">Bread and Chocolate</h1>
+  <div class="timestamp">Wednesday, November 27, 2013 11:29</div>
+
+<p>This restaurant should not be skipped on a visit to Puerto Viejo. Just off the main road, it’s easy to miss. Don’t be afraid to ask for directions. You’ll be delighted to have found it once you take your first bite.</p>
+
+<p>We’ve had two meals there so far and are planning a third before we leave Puerto Viejo.</p>
+
+<p>Our first meal was a breakfast (which they serve all day!) that had us reeling at their cinnamon and oatmeal-infused pancakes drizzled with home-made melted chocolate. And though they sound simple, their scrambled eggs are another must-try.</p>
+
+<p>That same day we went back for more! For dinner we had their sandwiches, the jerk chicken sandwich notably being absolutely scrumptious. We walked away content and with a slice of chocolate cake in tow.</p>
+
+    
+            </div> <!-- .span12 -->
+          </div> <!-- .container-narrow -->  
+      
+      
+          <div class="dayone_pic">
+            <img src="/gfx/dayone_large/A6C22919AE294A8A8FB928300949708C.jpg" />
+          </div>
+      
+      
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+
+
+
+  
+    
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+<!-- state: hasPic:false isLongPost: true isNewRow: true flushThisRow: true isPhotoOnlyPost: false-->
+
+
+  
+
+  
+      </div> <!-- .row -->
+    </div> <!-- .container -->
+  </div> <!-- .dayone -->
+  
+
+  
+  <div class="dayone page">
+  
+    <div class="container">
+  
+      <div class="dayone_icon"><svg class="svg_container" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="40px" height="40px" viewBox="0 0 100 99.375" enable-background="new 0 0 100 99.375" xml:space="preserve">
+<path class="svg_icon" d="M10.924,84.883v14.492H3.333V46.328c0-2.096,1.699-3.815,3.795-3.815l0,0c2.123,0,3.795,1.719,3.795,3.815v31.367H96.55  v21.68h-7.656V84.883H10.924z"/>
+<path class="svg_icon" d="M22.624,61.614c3.796,0,6.869-3.072,6.869-6.888c0-3.789-3.073-6.862-6.869-6.862c-3.815,0-6.888,3.073-6.888,6.862  C15.736,58.542,18.809,61.614,22.624,61.614z"/>
+<path class="svg_icon" d="M96.667,71.992l-0.026-9.466c-0.026-3.008-2.552-5.078-5.481-5.443l-54.05-5.377c-0.117-0.026-0.208-0.078-0.306-0.078  c-1.862,0-3.379,1.523-3.379,3.372v10.208H19.284c-1.888,0-3.398,1.537-3.398,3.398c0,1.875,1.511,3.386,3.398,3.386H96.667z"/>
+<polygon class="svg_icon" points="100,24.883 50.065,0.065 50.045,0 50,0.026 49.955,0 49.935,0.065 0,24.883 4.16,33.255 50,10.469 95.84,33.255 "/>
+</svg></div>
+  
+      <div class="row-fluid">
+
+
+
+  
+        <div class="container-narrow">
+          <div id="dayone_2013D361EC634D699636CA39018618C1" class="span12">
+    
+
+  
+
+    
+  <h1 class="dayone_title">Pagalu Hostel</h1>
+  <div class="timestamp">Thursday, November 28, 2013 11:37</div>
+
+<ul>
+<li>$26/night</li>
+
+<li>Hot showers</li>
+
+<li>Clean water for C100/500mL</li>
+
+<li>Clean kitchen/bathrooms/rooms</li>
+
+<li>Central location</li>
+</ul>
+
+<p>The right place to sleep can turn a desire to evacuate a location into an additional 48 hours of adventures and laughs.</p>
+
+<p>We were becoming increasingly exhausted by Puerto Viejo’s more rickety establishments. Each day we’d wake up and beeline to Pagalu, having heard amazing things about it, and each day we were told that they were completely booked.</p>
+
+<p>We decided to leave Puerto Viejo one night after not finding the joy in Puerto Viejo we were looking for and so we made plans to leave the next morning. When we woke up, we decided to try one last time to see if Pagalu had availability. A call via Google Voice was made and suddenly, our fate changed! A single room was available.</p>
+
+<p>We hoofed ourselves and our bags to the hostel through the rain (so freaking happy we have rain gear) and were absolutely delighted by the room, the kitchen, and the bathrooms.</p>
+
+<p>The room, like everything else at Pagalu, was incredibly clean, with a powerful ceiling fan and bug screens completely covering the windows (no holes here!). The bed was also an incredibly comfy queen bed and there was a safe in the room.</p>
+
+<p>The kitchen is in the common area which was mostly open air and well-lit during the day. It had all of the basic cooking tools and a stove where every element worked and well, at that! They also empty the fridge once a week so we had room to leave our leftovers each day. They provided water at crazy cheap rate of C100/500mL (about 0.40/liter) so we didn’t have to keep buying bottled water while we were there.</p>
+
+<p>The bathrooms were also a nice treat because they were well-lit and the showers had adjustable temperature settings. Consistently hot showers were very much appreciated!</p>
+
+<p>All of this, combined with Pagalu’s central location, made this hostel our favorite of Puerto Viejo by far.</p>
+        </div>
+  
+  
+        </div> <!-- .container-narrow -->
+  
+
+  
+  
+
+
+
+
+
+  
+    
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<!-- state: hasPic:true isLongPost: false isNewRow: true flushThisRow: true isPhotoOnlyPost: false-->
+
+
+  
+
+  
+      </div> <!-- .row -->
+    </div> <!-- .container -->
+  </div> <!-- .dayone -->
+  
+
+  
+  <div class="dayone page">
+  
+    <div class="container">
+  
+      <div class="dayone_icon"><svg class="svg_container" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="40px" height="40px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+<g id="Captions">
+</g>
+<g id="Your_Icon">
+	<path class="svg_icon" fill-rule="evenodd" clip-rule="evenodd" d="M82.64,91.498L53.633,48.559l5.971-11.093h7.677c0.562,0,1.134-0.571,1.705-1.143   l14.226-24.732c1.126-2.562-1.998-3.703-3.133-1.713L67.28,30.646c-1.705,2.562-5.686,0.571-3.418-2.854L76.098,6.746   c1.134-1.99-1.713-3.98-3.41-1.42L60.452,25.801c-1.99,3.426-5.399,0.293-3.98-1.697L68.414,3.059   c1.42-2.562-1.42-4.274-2.562-1.99L50.786,24.952c-0.571,1.142-0.571,1.713-0.285,1.99l3.98,7.113l-5.122,7.684l-5.115-7.406   c0,0,7.398-8.81-2.847-20.475C31.445,1.917,22.913-1.771,18.933,1.068c-3.132,2.268-4.266,13.361,2.276,25.874   C27.75,39.749,36.846,38.036,39.13,37.759l5.971,10.522L17.514,91.221c-2.562,3.98,0,6.819,1.704,7.668   c1.705,0.864,5.408,1.99,7.962-2.839l22.18-40.101L73.822,97.47c1.419,2.283,4.544,3.409,6.827,1.712   C81.783,98.333,85.201,95.479,82.64,91.498"/>
+</g>
+</svg></div>
+  
+      <div class="row-fluid">
+
+
+
+  
+    
+      
+          <div class="span7">
+            <img src="/gfx/dayone_large/D9BDC7EC4072440B9525A9F7A8A811D0.jpg" />
+          </div>
+      
+          <div id="dayone_D9BDC7EC4072440B9525A9F7A8A811D0" class="span5">
+    
+
+            
+  <h1 class="dayone_title">Stashu's con Fusion</h1>
+  <div class="timestamp">Thursday, November 28, 2013 18:30</div>
+
+<p>Thai/caribbean fusion.</p>
+
+<p>The food here was absolutely delicious. Much of it blended sweet and spicy in a tasty way. We also had piña coladas and a ginger version of the piña colada that was delicious. Staff was friendly and the place was busy the whole time we were there.</p>
+
+<p>They played a lot on the pun in the name, with “loco” hidden subtly in various ways and places throughout the restaurant.</p>
+
+    
+          </div> <!-- .span6 -->
+      
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+
+
+
+  
+    
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+
+
+<!-- state: hasPic:true isLongPost: true isNewRow: true flushThisRow: true isPhotoOnlyPost: false-->
+
+
+  
+
+  
+      </div> <!-- .row -->
+    </div> <!-- .container -->
+  </div> <!-- .dayone -->
+  
+
+  
+  <div class="dayone page">
+  
+    <div class="container">
+  
+      <div class="dayone_icon"><svg class="svg_container" version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="40px" height="40px" viewBox="0 0 55.74 100" enable-background="new 0 0 55.74 100" xml:space="preserve">
+<path class="svg_icon" d="M31.269,13.769c3.862,0,6.884-3.025,6.884-6.885C38.153,3.022,35.131,0,31.269,0c-3.86,0-6.885,3.022-6.885,6.884
+	C24.384,10.744,27.409,13.769,31.269,13.769z"/>
+<path class="svg_icon" d="M1.249,51.724l4.512-0.421L5.863,35.25l8.224-5.204c0,0-1.333,10.545-1.333,16.085c0,4.831-0.172,8.736-0.172,8.736
+	L2.054,96.918L9.489,100L21.28,61.549l8.195,10.424l9.339,26.337l8.394-3.355l-9.425-27.965L27.446,50.665l2.901-21.399l6.46,13.544
+	l16.622,5.708l2.311-4.199l-15.234-8.887c0,0-3.691-9.819-6.711-15.962c-1.027-2.091-5.196-2.774-6.894-2.901
+	c-4.896-0.362-7.428,1.296-11.488,3.432C11.358,22.131,0,30.728,0,30.728L1.249,51.724z"/>
+</svg>
+</div>
+  
+      <div class="row-fluid">
+
+
+
+  
+    
+          <div class="container-narrow">
+            <div id="dayone_44FE7E42E4C246DB96D3788386AAA373" class="span12">
+    
+
+            
+  <h1 class="dayone_title">Butterfly Gardens</h1>
+  <div class="timestamp">Wednesday, December 04, 2013 13:17</div>
+
+<p>We’ve been geeking out on all of the ants and spiders we’ve seen in Costa Rica and this place was exactly what we needed to satisfy our curiosities.</p>
+
+<p>We were really lucky to get a nearly-private tour of the gardens the day we visited (there was only one other girl). Our guide started the tour by showing us the various beetles and spiders they had collected. We got to see a tarantula and its newly-shed exoskeleton, rhino and elephant beetles, a praying mantis, and I had a stick bug walk along my hands! It was a super fun way to start the tour because we were only expecting to see butterflies.</p>
+
+<p>The tour of the butterfly gardens was a really pleasant walk through various structures with different groups of butterfly species in each structure. The guide was knowledgeable and had a quiet but clear passion for the insects that kept us wide-eyed and amazed throughout.</p>
+
+<p>At the end of the tour we had a big surprise: he had his own leaf-cutter ant colony! We got to see the inside of a hive and learned how their colonies were divided into different castes. Our curiosity that had been accumulating was immensely satisfied by this last stretch of the tour.</p>
+
+    
+            </div> <!-- .span12 -->
+          </div> <!-- .container-narrow -->  
+      
+      
+          <div class="dayone_pic">
+            <img src="/gfx/dayone_large/44FE7E42E4C246DB96D3788386AAA373.jpg" />
+          </div>
+      
+      
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+
+
+
+  
+    
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<!-- state: hasPic:true isLongPost: false isNewRow: true flushThisRow: true isPhotoOnlyPost: false-->
+
+
+  
+
+  
+      </div> <!-- .row -->
+    </div> <!-- .container -->
+  </div> <!-- .dayone -->
+  
+
+  
+  <div class="dayone page">
+  
+    <div class="container">
+  
+      <div class="dayone_icon"><svg class="svg_container default_svg" xmlns:x="http://ns.adobe.com/Extensibility/1.0/" xmlns:i="http://ns.adobe.com/AdobeIllustrator/10.0/" xmlns:graph="http://ns.adobe.com/Graphs/1.0/" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Livello_1" x="0px" y="0px" width="100.0px" height="100px" viewBox="0 0 156 156" enable-background="new 0 0 156 156" xml:space="preserve">
+<switch>
+	<foreignObject requiredExtensions="http://ns.adobe.com/AdobeIllustrator/10.0/" x="0" y="0" width="1" height="1">
+		</foreignObject>
+	<g i:extraneous="self">
+		<path class="svg_icon" d="M120.225,31.732c-19.529,0.289-38.007,9.201-51.185,23.501c-1.586,1.722-3.088,3.519-4.506,5.381    c-1.15,1.511-1.221,3.34-1.466,5.189c-0.193-0.802-0.373-1.607-0.55-2.413c-4.981,7.397-8.908,15.526-10.515,24.356    c-0.449,2.469-0.721,4.968-0.759,7.478c-0.018,1.163,0.013,2.326,0.085,3.486c0.07,1.129-0.512,1.984-0.967,3.014    c-1.967,4.447-3.555,9.069-4.761,13.78c-1.36,5.311-2.216,10.753-2.496,16.229c1.486-5.579,3.17-11.107,5.186-16.519    c0.985-2.646,2.063-5.257,3.224-7.829c0.588-1.305,1.221-2.587,1.844-3.874c0.291-0.601,0.559-1.487,1.016-1.979    c0.339-0.364-0.102-0.289,0.557-0.337c0.432-0.031,0.949,0.116,1.396,0.12c5.48,0.045,11.249-1.233,16.47-2.806    c3.749-1.129,7.21-2.836,10.704-4.252c2.368-0.959,4.735-1.92,7.102-2.88c-3.711,0.229-7.456,0.631-11.175,0.611    c2.443-0.535,4.888-1.091,7.324-1.663c1.211-0.285,2.424-0.58,3.63-0.885c1.631-0.411,2.621-0.958,3.951-1.969    c5.474-4.162,9.936-9.709,13.68-15.433c3.715-5.678,6.709-11.865,8.821-18.314C119.172,46.587,120.244,39.233,120.225,31.732    L120.225,31.732z M91.079,86.476C91.062,86.486,91.049,86.494,91.079,86.476L91.079,86.476z M114.742,53.207    c-2.449,7.087-5.983,13.812-10.392,19.873c-2.247,3.09-4.712,6.03-7.457,8.688c-1.352,1.309-2.775,2.572-4.298,3.676    c-0.806,0.585-1.361,0.974-2.307,1.219c-5.535,1.438-11.412,2.52-17.129,3.705c-2.792,0.579-5.583,1.159-8.376,1.742    c2.676,0.793,5.344,1.712,8.092,2.224c-5.235,1.252-10.532,2.028-15.899,2.388c6.733-11.705,15.505-22.208,25.812-30.933    c2.875-2.433,5.854-4.739,8.997-6.818c-6.537,2.481-12.574,6.627-17.88,11.128c-5.12,4.344-9.726,9.261-13.718,14.66    c-2.349,3.176-4.47,6.512-6.373,9.974c-0.609-10.128,2.947-20.097,8.225-28.612c0.433,1.742,0.946,3.46,1.448,5.183    c0.121-1.082,0.24-2.164,0.367-3.243c0.147-1.263,0.303-2.525,0.495-3.781c0.137-0.894,0.186-1.843,0.701-2.599    c2.481-3.643,5.703-6.943,8.92-9.932c7.457-6.927,16.327-12.262,26.042-15.346c5.898-1.873,12.131-2.834,18.32-2.788    C118.181,40.281,116.914,46.907,114.742,53.207C112.462,59.805,116.915,46.903,114.742,53.207z"/>
+	</g>
+</switch>
+</svg></div>
+  
+      <div class="row-fluid">
+
+
+
+  
+    
+      
+          <div class="span7">
+            <img src="/gfx/dayone_large/52E24614FA8C42B4968A063C16310DF7.jpg" />
+          </div>
+      
+          <div id="dayone_52E24614FA8C42B4968A063C16310DF7" class="span5">
+    
+
+            
+  <h1 class="dayone_title">Leaf-Cutter Ants</h1>
+  <div class="timestamp">Wednesday, December 04, 2013 13:52</div>
+
+<p>These ants are all over La Fortuna and Monteverde. At the Monteverde butterfly garden our guide showed us his colony! He had built a glass covered case to be able to house the fungus and leaves that the ants collected.</p>
+
+<p>The picture attached to this post shows one of the ants carrying a leaf back to the colony. There is also a bigger ant on the right-hand side. These are the soldier ants and they protect the gatherers by patrolling the path to the leaves.</p>
+
+    
+          </div> <!-- .span6 -->
+      
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+
+
+
+  
+    
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+
+
+<!-- state: hasPic:true isLongPost: true isNewRow: true flushThisRow: true isPhotoOnlyPost: false-->
+
+
+  
+
+  
+      </div> <!-- .row -->
+    </div> <!-- .container -->
+  </div> <!-- .dayone -->
+  
+
+  
+  <div class="dayone page">
+  
+    <div class="container">
+  
+      <div class="dayone_icon"><svg class="svg_container" version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="40px" height="40px" viewBox="0 0 55.74 100" enable-background="new 0 0 55.74 100" xml:space="preserve">
+<path class="svg_icon" d="M31.269,13.769c3.862,0,6.884-3.025,6.884-6.885C38.153,3.022,35.131,0,31.269,0c-3.86,0-6.885,3.022-6.885,6.884
+	C24.384,10.744,27.409,13.769,31.269,13.769z"/>
+<path class="svg_icon" d="M1.249,51.724l4.512-0.421L5.863,35.25l8.224-5.204c0,0-1.333,10.545-1.333,16.085c0,4.831-0.172,8.736-0.172,8.736
+	L2.054,96.918L9.489,100L21.28,61.549l8.195,10.424l9.339,26.337l8.394-3.355l-9.425-27.965L27.446,50.665l2.901-21.399l6.46,13.544
+	l16.622,5.708l2.311-4.199l-15.234-8.887c0,0-3.691-9.819-6.711-15.962c-1.027-2.091-5.196-2.774-6.894-2.901
+	c-4.896-0.362-7.428,1.296-11.488,3.432C11.358,22.131,0,30.728,0,30.728L1.249,51.724z"/>
+</svg>
+</div>
+  
+      <div class="row-fluid">
+
+
+
+  
+    
+          <div class="container-narrow">
+            <div id="dayone_F81918E8AA964E688AC6C3E0BFF37F0D" class="span12">
+    
+
+            
+  <h1 class="dayone_title">Hiking Tres Amigos</h1>
+  <div class="timestamp">Wednesday, December 04, 2013 15:27</div>
+
+<p>This was quite the hike! The trail has a steep incline the entire way up so that what took us half an hour to descend took over an hour to ascend.</p>
+
+<p>Along the way we saw what looked like an entire colony of ants moving down the hill. The entire road was covered and after having just learned about army ants at the Butterfly Gardens we made a careful point to step over and around them quickly!</p>
+
+<p>Once we got to the top I opened the geocaching app out of curiosity and there happened to be a cache (<a href="http://coord.info/GC1MKFC">GC1MKFC</a>) only 15m from where we were standing! When we found it we realized that it had sadly been vandalized, so we cleaned out the bottle and put new papers inside, replacing the bottle with leaves covering it to protect it.</p>
+
+<ul>
+<li>Started the trail at 3:05pm.</li>
+
+<li>Summited at 4:20pm.</li>
+
+<li>Heading down at 4:47pm.</li>
+
+<li>5:28pm back at the bottom.</li>
+</ul>
+
+    
+            </div> <!-- .span12 -->
+          </div> <!-- .container-narrow -->  
+      
+      
+          <div class="dayone_pic">
+            <img src="/gfx/dayone_large/F81918E8AA964E688AC6C3E0BFF37F0D.jpg" />
+          </div>
+      
+      
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+
+
+
+  
+    
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+
+
+<!-- state: hasPic:true isLongPost: true isNewRow: true flushThisRow: true isPhotoOnlyPost: false-->
+
+
+  
+
+  
+      </div> <!-- .row -->
+    </div> <!-- .container -->
+  </div> <!-- .dayone -->
+  
+
+  
+  <div class="dayone page">
+  
+    <div class="container">
+  
+      <div class="dayone_icon"><svg class="svg_container" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="40px" height="40px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+<g id="Captions">
+</g>
+<g id="Your_Icon">
+	<path class="svg_icon" fill-rule="evenodd" clip-rule="evenodd" d="M82.64,91.498L53.633,48.559l5.971-11.093h7.677c0.562,0,1.134-0.571,1.705-1.143   l14.226-24.732c1.126-2.562-1.998-3.703-3.133-1.713L67.28,30.646c-1.705,2.562-5.686,0.571-3.418-2.854L76.098,6.746   c1.134-1.99-1.713-3.98-3.41-1.42L60.452,25.801c-1.99,3.426-5.399,0.293-3.98-1.697L68.414,3.059   c1.42-2.562-1.42-4.274-2.562-1.99L50.786,24.952c-0.571,1.142-0.571,1.713-0.285,1.99l3.98,7.113l-5.122,7.684l-5.115-7.406   c0,0,7.398-8.81-2.847-20.475C31.445,1.917,22.913-1.771,18.933,1.068c-3.132,2.268-4.266,13.361,2.276,25.874   C27.75,39.749,36.846,38.036,39.13,37.759l5.971,10.522L17.514,91.221c-2.562,3.98,0,6.819,1.704,7.668   c1.705,0.864,5.408,1.99,7.962-2.839l22.18-40.101L73.822,97.47c1.419,2.283,4.544,3.409,6.827,1.712   C81.783,98.333,85.201,95.479,82.64,91.498"/>
+</g>
+</svg></div>
+  
+      <div class="row-fluid">
+
+
+
+  
+    
+          <div class="container-narrow">
+            <div id="dayone_C13D979FFF754188B2F3610547BAC272" class="span12">
+    
+
+            
+  <h1 class="dayone_title">Cafe Carola</h1>
+  <div class="timestamp">Sunday, December 08, 2013 12:44</div>
+
+<p>Holy cats, mind blown. We started late today after a crappy sleep at Mariposa’s made us quicken the process of finding a new place to stay. By the time we left to find breakfast it was 11am and we were famished.</p>
+
+<p>It took about an hour to make our way to Cafe Carola after meandering across the beach, up a trail, through a small neighborhood, back down the trail and finally across a dirt path to the correct location. (Pro tip: don’t try to shortcut along the beach!) We were hungry, tired, and generally not content.</p>
+
+<p>But the day was about to take a radical turn for the better.</p>
+
+<p>Immediately after sitting down, we were given menus and the German breakfast jumped out: meat, cheese, eggs, homemade bread, homemade jam, and butter. There was also a champagne version which I couldn’t resist (tip of the hat to many San Francisco mornings).</p>
+
+<p>Our blended juices were quickly brought out, followed by a plate of fresh, cold fruit. As soon as we finished the fruit we were given orange juice and my champagne arrived; this lady knows how to kick off breakfast! When the meat, cheese, eggs, jam and bread arrived only a few minutes later we had built a solid momentum and devoured the food.</p>
+
+<p>The breads were delicious and allowed us to blend the four different types of home-made jam (banana, pineapple, and two other flavors I didn’t know) with different meats and cheeses, making for an amazing collection of flavors compared to the simple sodas we’d been eating for weeks now.</p>
+
+<p>Our plates clean, we still had half of the bread left over when they took it away. Hugely to our surprise, they brought the bread back in a bag so that we could take it away! Many delicious peanut butter and banana sandwiches were to be had because of this.</p>
+
+<p>We were blown away, stuffed, and delighted with that familiar mimosa fuzz, ready for the rest of the day :)</p>
+
+    
+            </div> <!-- .span12 -->
+          </div> <!-- .container-narrow -->  
+      
+      
+          <div class="dayone_pic">
+            <img src="/gfx/dayone_large/C13D979FFF754188B2F3610547BAC272.jpg" />
+          </div>
+      
+      
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+
+
+
+  
+    
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<!-- state: hasPic:true isLongPost: false isNewRow: true flushThisRow: true isPhotoOnlyPost: false-->
+
+
+  
+
+  
+      </div> <!-- .row -->
+    </div> <!-- .container -->
+  </div> <!-- .dayone -->
+  
+
+  
+  <div class="dayone page">
+  
+    <div class="container">
+  
+      <div class="dayone_icon"><svg class="svg_container default_svg" xmlns:x="http://ns.adobe.com/Extensibility/1.0/" xmlns:i="http://ns.adobe.com/AdobeIllustrator/10.0/" xmlns:graph="http://ns.adobe.com/Graphs/1.0/" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Livello_1" x="0px" y="0px" width="100.0px" height="100px" viewBox="0 0 156 156" enable-background="new 0 0 156 156" xml:space="preserve">
+<switch>
+	<foreignObject requiredExtensions="http://ns.adobe.com/AdobeIllustrator/10.0/" x="0" y="0" width="1" height="1">
+		</foreignObject>
+	<g i:extraneous="self">
+		<path class="svg_icon" d="M120.225,31.732c-19.529,0.289-38.007,9.201-51.185,23.501c-1.586,1.722-3.088,3.519-4.506,5.381    c-1.15,1.511-1.221,3.34-1.466,5.189c-0.193-0.802-0.373-1.607-0.55-2.413c-4.981,7.397-8.908,15.526-10.515,24.356    c-0.449,2.469-0.721,4.968-0.759,7.478c-0.018,1.163,0.013,2.326,0.085,3.486c0.07,1.129-0.512,1.984-0.967,3.014    c-1.967,4.447-3.555,9.069-4.761,13.78c-1.36,5.311-2.216,10.753-2.496,16.229c1.486-5.579,3.17-11.107,5.186-16.519    c0.985-2.646,2.063-5.257,3.224-7.829c0.588-1.305,1.221-2.587,1.844-3.874c0.291-0.601,0.559-1.487,1.016-1.979    c0.339-0.364-0.102-0.289,0.557-0.337c0.432-0.031,0.949,0.116,1.396,0.12c5.48,0.045,11.249-1.233,16.47-2.806    c3.749-1.129,7.21-2.836,10.704-4.252c2.368-0.959,4.735-1.92,7.102-2.88c-3.711,0.229-7.456,0.631-11.175,0.611    c2.443-0.535,4.888-1.091,7.324-1.663c1.211-0.285,2.424-0.58,3.63-0.885c1.631-0.411,2.621-0.958,3.951-1.969    c5.474-4.162,9.936-9.709,13.68-15.433c3.715-5.678,6.709-11.865,8.821-18.314C119.172,46.587,120.244,39.233,120.225,31.732    L120.225,31.732z M91.079,86.476C91.062,86.486,91.049,86.494,91.079,86.476L91.079,86.476z M114.742,53.207    c-2.449,7.087-5.983,13.812-10.392,19.873c-2.247,3.09-4.712,6.03-7.457,8.688c-1.352,1.309-2.775,2.572-4.298,3.676    c-0.806,0.585-1.361,0.974-2.307,1.219c-5.535,1.438-11.412,2.52-17.129,3.705c-2.792,0.579-5.583,1.159-8.376,1.742    c2.676,0.793,5.344,1.712,8.092,2.224c-5.235,1.252-10.532,2.028-15.899,2.388c6.733-11.705,15.505-22.208,25.812-30.933    c2.875-2.433,5.854-4.739,8.997-6.818c-6.537,2.481-12.574,6.627-17.88,11.128c-5.12,4.344-9.726,9.261-13.718,14.66    c-2.349,3.176-4.47,6.512-6.373,9.974c-0.609-10.128,2.947-20.097,8.225-28.612c0.433,1.742,0.946,3.46,1.448,5.183    c0.121-1.082,0.24-2.164,0.367-3.243c0.147-1.263,0.303-2.525,0.495-3.781c0.137-0.894,0.186-1.843,0.701-2.599    c2.481-3.643,5.703-6.943,8.92-9.932c7.457-6.927,16.327-12.262,26.042-15.346c5.898-1.873,12.131-2.834,18.32-2.788    C118.181,40.281,116.914,46.907,114.742,53.207C112.462,59.805,116.915,46.903,114.742,53.207z"/>
+	</g>
+</switch>
+</svg></div>
+  
+      <div class="row-fluid">
+
+
+
+  
+    
+      
+          <div id="dayone_B8F27999D9714E93A0C80D416F7BABA8" class="span5">
+    
+
+            
+  <h1 class="dayone_title">Delicious Kombucha</h1>
+  <div class="timestamp">Monday, December 09, 2013 12:33</div>
+
+<p>They make dynamite kombucha here, my favorite being the pineapple mint. For $3 a bottle it’s a pricey treat but so worth it :)</p>
+
+    
+          </div> <!-- .span6 -->
+      
+          <div class="span7">
+            <img src="/gfx/dayone_large/B8F27999D9714E93A0C80D416F7BABA8.jpg" />
+          </div>
+      
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+
+
+
+  
+    
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<!-- state: hasPic:true isLongPost: false isNewRow: true flushThisRow: true isPhotoOnlyPost: false-->
+
+
+  
+
+  
+      </div> <!-- .row -->
+    </div> <!-- .container -->
+  </div> <!-- .dayone -->
+  
+
+  
+  <div class="dayone page">
+  
+    <div class="container">
+  
+      <div class="dayone_icon"><svg class="svg_container default_svg" xmlns:x="http://ns.adobe.com/Extensibility/1.0/" xmlns:i="http://ns.adobe.com/AdobeIllustrator/10.0/" xmlns:graph="http://ns.adobe.com/Graphs/1.0/" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Livello_1" x="0px" y="0px" width="100.0px" height="100px" viewBox="0 0 156 156" enable-background="new 0 0 156 156" xml:space="preserve">
+<switch>
+	<foreignObject requiredExtensions="http://ns.adobe.com/AdobeIllustrator/10.0/" x="0" y="0" width="1" height="1">
+		</foreignObject>
+	<g i:extraneous="self">
+		<path class="svg_icon" d="M120.225,31.732c-19.529,0.289-38.007,9.201-51.185,23.501c-1.586,1.722-3.088,3.519-4.506,5.381    c-1.15,1.511-1.221,3.34-1.466,5.189c-0.193-0.802-0.373-1.607-0.55-2.413c-4.981,7.397-8.908,15.526-10.515,24.356    c-0.449,2.469-0.721,4.968-0.759,7.478c-0.018,1.163,0.013,2.326,0.085,3.486c0.07,1.129-0.512,1.984-0.967,3.014    c-1.967,4.447-3.555,9.069-4.761,13.78c-1.36,5.311-2.216,10.753-2.496,16.229c1.486-5.579,3.17-11.107,5.186-16.519    c0.985-2.646,2.063-5.257,3.224-7.829c0.588-1.305,1.221-2.587,1.844-3.874c0.291-0.601,0.559-1.487,1.016-1.979    c0.339-0.364-0.102-0.289,0.557-0.337c0.432-0.031,0.949,0.116,1.396,0.12c5.48,0.045,11.249-1.233,16.47-2.806    c3.749-1.129,7.21-2.836,10.704-4.252c2.368-0.959,4.735-1.92,7.102-2.88c-3.711,0.229-7.456,0.631-11.175,0.611    c2.443-0.535,4.888-1.091,7.324-1.663c1.211-0.285,2.424-0.58,3.63-0.885c1.631-0.411,2.621-0.958,3.951-1.969    c5.474-4.162,9.936-9.709,13.68-15.433c3.715-5.678,6.709-11.865,8.821-18.314C119.172,46.587,120.244,39.233,120.225,31.732    L120.225,31.732z M91.079,86.476C91.062,86.486,91.049,86.494,91.079,86.476L91.079,86.476z M114.742,53.207    c-2.449,7.087-5.983,13.812-10.392,19.873c-2.247,3.09-4.712,6.03-7.457,8.688c-1.352,1.309-2.775,2.572-4.298,3.676    c-0.806,0.585-1.361,0.974-2.307,1.219c-5.535,1.438-11.412,2.52-17.129,3.705c-2.792,0.579-5.583,1.159-8.376,1.742    c2.676,0.793,5.344,1.712,8.092,2.224c-5.235,1.252-10.532,2.028-15.899,2.388c6.733-11.705,15.505-22.208,25.812-30.933    c2.875-2.433,5.854-4.739,8.997-6.818c-6.537,2.481-12.574,6.627-17.88,11.128c-5.12,4.344-9.726,9.261-13.718,14.66    c-2.349,3.176-4.47,6.512-6.373,9.974c-0.609-10.128,2.947-20.097,8.225-28.612c0.433,1.742,0.946,3.46,1.448,5.183    c0.121-1.082,0.24-2.164,0.367-3.243c0.147-1.263,0.303-2.525,0.495-3.781c0.137-0.894,0.186-1.843,0.701-2.599    c2.481-3.643,5.703-6.943,8.92-9.932c7.457-6.927,16.327-12.262,26.042-15.346c5.898-1.873,12.131-2.834,18.32-2.788    C118.181,40.281,116.914,46.907,114.742,53.207C112.462,59.805,116.915,46.903,114.742,53.207z"/>
+	</g>
+</switch>
+</svg></div>
+  
+      <div class="row-fluid">
+
+
+
+  
+    
+      
+          <div class="span7">
+            <img src="/gfx/dayone_large/13ECC5812BD34214A24F9FCEAC0C1AE7.jpg" />
+          </div>
+      
+          <div id="dayone_13ECC5812BD34214A24F9FCEAC0C1AE7" class="span5">
+    
+
+            
+  <h1 class="dayone_title">Sand Snail Art</h1>
+  <div class="timestamp">Monday, December 09, 2013 14:39</div>
+
+<p>These intricate patterns in the sand are created, as best we can tell, from dozens of snails searching for food noms!</p>
+
+    
+          </div> <!-- .span6 -->
+      
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+
+
+
+  
+    
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+
+
+<!-- state: hasPic:true isLongPost: true isNewRow: true flushThisRow: true isPhotoOnlyPost: false-->
+
+
+  
+
+  
+      </div> <!-- .row -->
+    </div> <!-- .container -->
+  </div> <!-- .dayone -->
+  
+
+  
+  <div class="dayone page">
+  
+    <div class="container">
+  
+      <div class="dayone_icon"><svg class="svg_container default_svg" xmlns:x="http://ns.adobe.com/Extensibility/1.0/" xmlns:i="http://ns.adobe.com/AdobeIllustrator/10.0/" xmlns:graph="http://ns.adobe.com/Graphs/1.0/" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Livello_1" x="0px" y="0px" width="100.0px" height="100px" viewBox="0 0 156 156" enable-background="new 0 0 156 156" xml:space="preserve">
+<switch>
+	<foreignObject requiredExtensions="http://ns.adobe.com/AdobeIllustrator/10.0/" x="0" y="0" width="1" height="1">
+		</foreignObject>
+	<g i:extraneous="self">
+		<path class="svg_icon" d="M120.225,31.732c-19.529,0.289-38.007,9.201-51.185,23.501c-1.586,1.722-3.088,3.519-4.506,5.381    c-1.15,1.511-1.221,3.34-1.466,5.189c-0.193-0.802-0.373-1.607-0.55-2.413c-4.981,7.397-8.908,15.526-10.515,24.356    c-0.449,2.469-0.721,4.968-0.759,7.478c-0.018,1.163,0.013,2.326,0.085,3.486c0.07,1.129-0.512,1.984-0.967,3.014    c-1.967,4.447-3.555,9.069-4.761,13.78c-1.36,5.311-2.216,10.753-2.496,16.229c1.486-5.579,3.17-11.107,5.186-16.519    c0.985-2.646,2.063-5.257,3.224-7.829c0.588-1.305,1.221-2.587,1.844-3.874c0.291-0.601,0.559-1.487,1.016-1.979    c0.339-0.364-0.102-0.289,0.557-0.337c0.432-0.031,0.949,0.116,1.396,0.12c5.48,0.045,11.249-1.233,16.47-2.806    c3.749-1.129,7.21-2.836,10.704-4.252c2.368-0.959,4.735-1.92,7.102-2.88c-3.711,0.229-7.456,0.631-11.175,0.611    c2.443-0.535,4.888-1.091,7.324-1.663c1.211-0.285,2.424-0.58,3.63-0.885c1.631-0.411,2.621-0.958,3.951-1.969    c5.474-4.162,9.936-9.709,13.68-15.433c3.715-5.678,6.709-11.865,8.821-18.314C119.172,46.587,120.244,39.233,120.225,31.732    L120.225,31.732z M91.079,86.476C91.062,86.486,91.049,86.494,91.079,86.476L91.079,86.476z M114.742,53.207    c-2.449,7.087-5.983,13.812-10.392,19.873c-2.247,3.09-4.712,6.03-7.457,8.688c-1.352,1.309-2.775,2.572-4.298,3.676    c-0.806,0.585-1.361,0.974-2.307,1.219c-5.535,1.438-11.412,2.52-17.129,3.705c-2.792,0.579-5.583,1.159-8.376,1.742    c2.676,0.793,5.344,1.712,8.092,2.224c-5.235,1.252-10.532,2.028-15.899,2.388c6.733-11.705,15.505-22.208,25.812-30.933    c2.875-2.433,5.854-4.739,8.997-6.818c-6.537,2.481-12.574,6.627-17.88,11.128c-5.12,4.344-9.726,9.261-13.718,14.66    c-2.349,3.176-4.47,6.512-6.373,9.974c-0.609-10.128,2.947-20.097,8.225-28.612c0.433,1.742,0.946,3.46,1.448,5.183    c0.121-1.082,0.24-2.164,0.367-3.243c0.147-1.263,0.303-2.525,0.495-3.781c0.137-0.894,0.186-1.843,0.701-2.599    c2.481-3.643,5.703-6.943,8.92-9.932c7.457-6.927,16.327-12.262,26.042-15.346c5.898-1.873,12.131-2.834,18.32-2.788    C118.181,40.281,116.914,46.907,114.742,53.207C112.462,59.805,116.915,46.903,114.742,53.207z"/>
+	</g>
+</switch>
+</svg></div>
+  
+      <div class="row-fluid">
+
+
+
+  
+    
+          <div class="container-narrow">
+            <div id="dayone_2147F1E033E94AAF86CC5E05765DCD85" class="span12">
+    
+
+            
+  <h1 class="dayone_title">Geocaching the Pacific Beaches</h1>
+  <div class="timestamp">Monday, December 09, 2013 15:43</div>
+
+<p>We were excited to find that there were two geocaches near Sámara and both of them take you to incredible beaches!</p>
+
+<p>After yoga in the morning we rented bikes from downtown for only $5 each because it was a half day. After our experience in Puerto Viejo we were relieved to see that the bikes were in really good shape.</p>
+
+<p>The bike ride to our first geocache (<a href="http://coord.info/GC2C53E">GC2C53E</a>) took us across Sámara’s beach on our cruisers. We were easily entertained as we rode our bikes on the beach with perfect sunny weather, watched crabs shuffle side to side and stopped to watch snails carve intricate patterns in the sand.</p>
+
+<p>Once we clambered over the rocks and short road leading to the cache we were rewarded with another massive beach with long stretches of sand in every direction. To be honest, this beach was similar to Sámara’s so it wasn’t as shocking as when we first saw Sámara’s.</p>
+
+<p>The cache was incredibly well hidden and we might not have found it were it not for a nearby coconut lady who knew what we were doing and gleefully came over to expose the cache.</p>
+
+<p>The second cache (<a href="http://coord.info/GC4N7GD">GC4N7GD</a>) was a whole other adventure. It was on the other side of Sámara so we biked back, this time along the road. This involved some huffing as we pushed our bikes up some of the steeper hills.</p>
+
+<p>Once we got to roughly where the geocache was located we had to identify the correct “private property” trail that would lead us to the beach.</p>
+
+<p>The first trail we took brought us along a rocky path with monkeys jumping overhead to a family’s driveway just as they were leaving. “Daddy look at their horsies!” Kids are adorbs.</p>
+
+<p>The second trail was a solid adrenaline rush. About halfway up the trail we passed a driveway. Suddenly, I hear growling and snarling as a massive guard dog (and side-kick, tiny dog) bounded toward me, spit flying in every direction. Attempting to keep calm I dismounted my bike and stared the dogs down. There was a pretty decent chance they’d take a solid chunk out of my like so it was a bit of a gamble, but much safer odds than trying to run.</p>
+
+<p>The owner slowly ambled along, clad only in his underwear and a wife-beater, and called the dogs off. Thankfully it seemed these dogs were more bark than bite.</p>
+
+<p>Back-tracking to the main road we decided to try the next private property: a resort in the middle of the jungle. After biking past one, two, three “Private property: no entry!” signs, we finally saw a sign that was quite a bit more welcoming: “playa, this way”.</p>
+
+<p>A short hike through the forest later, we found the cache! We had never found a travel bug before, but this cache had two! We took both of them and plan to bring them to South America with us. We proceeded onwards to a winding stone staircase that descended to the beach.</p>
+
+<p>The beach was completely deserted and the sand was rocky, making the water much clearer than the previous beaches. There were also hundreds of hermit crabs running along the beach! We stayed for just long enough to watch the sun set and then made our way back home.</p>
+
+<p>All-in-all ‘twas a great day of yoga, biking, and treasure-hunting.</p>
+
+    
+            </div> <!-- .span12 -->
+          </div> <!-- .container-narrow -->  
+      
+      
+          <div class="dayone_pic">
+            <img src="/gfx/dayone_large/2147F1E033E94AAF86CC5E05765DCD85.jpg" />
+          </div>
+      
+      
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+
+
+
+  
+    
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<!-- state: hasPic:true isLongPost: false isNewRow: true flushThisRow: true isPhotoOnlyPost: false-->
+
+
+  
+
+  
+      </div> <!-- .row -->
+    </div> <!-- .container -->
+  </div> <!-- .dayone -->
+  
+
+  
+  <div class="dayone page">
+  
+    <div class="container">
+  
+      <div class="dayone_icon"><svg class="svg_container" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" width="40px" height="40px" viewBox="0 0 99.883 100" overflow="visible" enable-background="new 0 0 99.883 100" xml:space="preserve">
+<path class="svg_icon" d="M0,66.828v4.428C1.098,78.679,25.121,100,30.618,100h38.647c5.496,0,29.52-21.321,30.617-28.745v-4.428H0z"/>
+<g>
+	<path class="svg_icon" d="M71.614,43.042c0.178-0.138,4.363-3.416,4.585-7.457l0,0c0.038-0.689-0.49-1.279-1.18-1.317   s-1.278,0.49-1.316,1.179l0,0c-0.159,2.894-3.585,5.59-3.619,5.617c0.068-0.054,0.142-0.099,0.221-0.137l-0.22,0.136   c-0.546,0.422-0.646,1.207-0.225,1.753S71.067,43.463,71.614,43.042L71.614,43.042z"/>
+</g>
+<g>
+	<path class="svg_icon" d="M73.628,59.742c-1.531-0.398-4.713-0.451-5.791,2.199l0,0c-0.26,0.64,0.048,1.368,0.688,1.629   c0.64,0.26,1.368-0.048,1.629-0.688l0,0c0.522-1.285,2.822-0.727,2.846-0.721l0,0c0.668,0.174,1.351-0.228,1.524-0.896   S74.296,59.916,73.628,59.742L73.628,59.742z"/>
+</g>
+<path class="svg_icon" d="M97.637,54.542c-4.474,2.049-9.854,7.622-7.916,8.641c1.937,1.019,4.706-0.634,7.666-2.979  C100.347,57.858,100.969,53.014,97.637,54.542z"/>
+<g>
+	<path class="svg_icon" d="M61.918,38.932c-1.984,0.083-4.756,0.5-5.922,3.162c-0.001,0.001-0.179,0.4-0.179,0.4   c-0.428,0.95-0.87,1.933-0.446,2.971c0.418,1.026,1.509,1.563,2.412,1.917c2.985,1.168,6.558,0.515,8.132-1.489   c0.867-1.103,0.915-2.818,0.121-4.369C65.182,39.854,63.604,38.862,61.918,38.932z M63.95,44.347c-0.785,1-3.138,1.535-5.257,0.706   c-0.858-0.336-1.015-0.549-1.021-0.558c0.013,0.018,0.026,0.06,0.026,0.082c-0.004-0.166,0.229-0.681,0.397-1.057l0.189-0.424   c0.333-0.76,1.038-1.554,3.735-1.666c1.052-0.044,1.635,0.932,1.789,1.232C64.172,43.368,64.165,44.073,63.95,44.347z"/>
+</g>
+<g>
+	<path class="svg_icon" d="M45.879,40.212c-2.1-0.233-3.716,1.188-5.191,2.664c-0.718,0.718-1.805,1.804-1.741,3.219   c0.043,0.942,0.568,1.821,1.605,2.685c0,0,0.433,0.365,0.433,0.365c1.905,1.614,3.228,2.514,6.265,0.742   c2.726-1.59,2.892-2.827,2.829-4.401c-0.007-0.168-0.014-0.343-0.014-0.52C50.065,42.755,47.455,40.388,45.879,40.212z    M47.565,44.966c0,0.227,0.008,0.436,0.016,0.62c0.038,0.935,0.048,1.186-1.59,2.142c-1.665,0.971-1.828,0.833-3.389-0.49   l-0.448-0.378c-0.513-0.427-0.702-0.74-0.708-0.877c-0.014-0.313,0.731-1.058,1.011-1.338c1.275-1.276,2.247-2.047,3.148-1.947   c-0.013-0.001-0.02-0.003-0.02-0.003C46.129,42.814,47.565,44.152,47.565,44.966z"/>
+</g>
+<path class="svg_icon" d="M56.561,53.749c-2.514-1.143-8.519-3.468-9.985-0.387c-0.312,0.652-0.946,1.363-1.505,1.991  c-0.972,1.09-1.891,2.119-1.584,3.334c0.178,0.704,0.714,1.224,1.596,1.544c2.937,1.067,6.611,2.107,8.979,0.66  c1.943-1.187,2.591-3.593,2.939-4.885c0.06-0.222,0.134-0.497,0.168-0.579C57.433,54.804,57.177,54.029,56.561,53.749z   M52.759,58.758c-1.567,0.957-5.169-0.279-6.616-0.802c0.218-0.291,0.543-0.66,0.793-0.939c0.667-0.748,1.421-1.596,1.887-2.563  c0.468-0.384,2.977,0.054,5.699,1.143C54.238,56.63,53.771,58.14,52.759,58.758z M93.276,46.731  c-0.113-2.714-0.481-3.339-1.594-4.566l-0.152-0.169c-0.955-1.061-2.239-1.506-3.617-1.254c-2.114,0.387-3.903,2.264-4.513,3.833  c-0.162,0.416-0.369,0.821-0.569,1.212c-0.708,1.388-1.59,3.115-0.028,5.157c2.014,2.633,4.144,2.804,7.122,0.571  c0.692-0.52,1.203-0.82,1.614-1.062C93.092,49.538,93.368,48.946,93.276,46.731z M53.9,29.78c-1.739-0.263-5.884-0.635-6.811,1.589  c-0.745,1.788-0.512,5.102-0.483,5.473c0.045,0.583,0.489,1.057,1.068,1.14c0.56,0.081,5.534,0.75,7.9-0.432  c1.425-0.713,2.113-2.375,1.756-4.234C56.95,31.341,55.539,29.916,53.9,29.78z"/>
+<path class="svg_icon" d="M12.602,38.844L12.602,38.844l0.034-0.005c-0.534-3.589-0.841-5.708-1.377-8.776  C8.242,12.813,5.494-0.235,3.57,0.003c-0.01,0-0.018,0-0.023,0.003c-0.005,0-0.011,0.001-0.015,0.001  C3.527,0.009,3.522,0.009,3.517,0.01C3.511,0.011,3.503,0.012,3.494,0.014C1.574,0.28,3.063,15.05,5.883,32  c0.511,3.074,0.816,4.243,1.438,7.875c0,0-5.53,4.177-4.374,9.492c0.861,3.958,5.42,14.332,5.897,14.928  c-1.103-6.002-1.398-13.729,0.102-13.729c1-0.25,3.438,8,4.875,13.063c0,0-0.313-13.813,0.875-13.875  c1.517-0.08,2.989,7.23,3.477,13.313c0.307-0.7,2.024-11.899,1.832-15.946C19.745,41.688,12.602,38.844,12.602,38.844z"/>
+<path class="svg_icon" d="M83.373,56.922c-0.315-0.737-1.683-2.813-6.615-1.704c0.046-1.517-0.463-2.974-1.506-4.083  c-1.335-1.42-3.201-1.956-4.87-1.399c-1.011,0.337-2.653,1.342-3.415,4.284c-1.672-0.634-3.307-0.628-4.577,0.064  c-1.169,0.638-1.877,1.803-1.895,3.115c-0.025,1.972,1.443,3.963,4.03,5.462c0.598,0.347,1.362,0.144,1.708-0.454  c0.347-0.598,0.144-1.362-0.454-1.708c-2.068-1.199-2.794-2.474-2.784-3.267c0.007-0.525,0.325-0.808,0.592-0.953  c0.672-0.366,1.982-0.387,3.646,0.654c0.364,0.229,0.82,0.253,1.207,0.065c0.388-0.187,0.651-0.56,0.698-0.987  c0.236-2.129,0.978-3.553,2.034-3.904c0.723-0.241,1.608,0.049,2.258,0.739c0.887,0.944,1.092,2.311,0.549,3.656  c-0.183,0.452-0.085,0.971,0.25,1.325c0.335,0.355,0.847,0.483,1.309,0.327c3.688-1.245,5.347-0.692,5.537-0.249  c0.213,0.496-0.568,2.099-3.336,3.555c-0.611,0.322-0.846,1.078-0.524,1.688c0.322,0.611,1.078,0.846,1.688,0.524  C82.497,61.783,84.293,59.069,83.373,56.922z M36.481,56.146c1.012-1.692,1.121-3.712,0.675-5.244  c-0.505-1.736-1.662-2.902-3.094-3.118c-0.93-0.14-2.246,0.08-3.703,1.567c-0.794-1.249-1.797-2.044-2.898-2.234  c-1.053-0.182-2.059,0.205-2.759,1.062c-1.244,1.521-1.286,4.226-0.113,7.235c0.25,0.643,0.975,0.961,1.619,0.711  c0.643-0.251,0.961-0.976,0.71-1.619c-1.06-2.719-0.675-4.262-0.28-4.745c0.156-0.191,0.283-0.199,0.397-0.18  c0.394,0.068,1.234,0.674,1.892,2.514c0.16,0.445,0.558,0.764,1.028,0.82s0.933-0.158,1.193-0.554  c1.1-1.668,2.034-2.181,2.542-2.104c0.429,0.064,0.848,0.592,1.066,1.344c0.363,1.246,0.153,3.005-1.133,4.123  c-0.337,0.294-0.492,0.746-0.405,1.186c0.086,0.439,0.401,0.799,0.826,0.942c2.981,1.008,3.832,2.374,3.676,3.047  c-0.163,0.704-1.434,1.311-3.469,1.048c-0.685-0.089-1.312,0.395-1.4,1.079s0.395,1.312,1.08,1.399  c3.716,0.48,5.804-1.142,6.226-2.963C40.531,59.834,39.698,57.695,36.481,56.146z"/>
+<g>
+	<path class="svg_icon" d="M32.489,58.288c-0.138-0.196-1.4-1.92-3.115-2.129c-0.814-0.1-1.591,0.147-2.246,0.715l0,0   c-0.522,0.452-0.579,1.241-0.127,1.764c0.452,0.521,1.241,0.578,1.763,0.127l0,0c0.163-0.141,0.249-0.131,0.306-0.124   c0.424,0.05,1.074,0.667,1.38,1.093l-0.003-0.004c0.398,0.564,1.178,0.698,1.742,0.301C32.752,59.631,32.887,58.851,32.489,58.288   L32.489,58.288z"/>
+</g>
+</svg></div>
+  
+      <div class="row-fluid">
+
+
+
+  
+    
+      
+          <div class="span7">
+            <img src="/gfx/dayone_large/E239FFD9E5D94907BA5BA949E33634B0.jpg" />
+          </div>
+      
+          <div id="dayone_E239FFD9E5D94907BA5BA949E33634B0" class="span5">
+    
+
+            
+  <h1 class="dayone_title">El Pandequeso</h1>
+  <div class="timestamp">Friday, December 13, 2013 16:51</div>
+
+<p>I really like the pastries here. The bocaqueso tastes like pretzel and has a jam filling. Best part is they’re just $0.40!</p>
+
+<p>Not open on weekends sadly.</p>
+
+    
+          </div> <!-- .span6 -->
+      
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+
+
+
+  
+    
+      
+    
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<!-- state: hasPic:true isLongPost: false isNewRow: true flushThisRow: true isPhotoOnlyPost: false-->
+
+
+  
+
+  
+      </div> <!-- .row -->
+    </div> <!-- .container -->
+  </div> <!-- .dayone -->
+  
+
+  
+  <div class="dayone page">
+  
+    <div class="container">
+  
+      <div class="dayone_icon"><svg class="svg_container" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="40px" height="40px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+<g id="Captions">
+</g>
+<g id="Your_Icon">
+	<path class="svg_icon" fill-rule="evenodd" clip-rule="evenodd" d="M82.64,91.498L53.633,48.559l5.971-11.093h7.677c0.562,0,1.134-0.571,1.705-1.143   l14.226-24.732c1.126-2.562-1.998-3.703-3.133-1.713L67.28,30.646c-1.705,2.562-5.686,0.571-3.418-2.854L76.098,6.746   c1.134-1.99-1.713-3.98-3.41-1.42L60.452,25.801c-1.99,3.426-5.399,0.293-3.98-1.697L68.414,3.059   c1.42-2.562-1.42-4.274-2.562-1.99L50.786,24.952c-0.571,1.142-0.571,1.713-0.285,1.99l3.98,7.113l-5.122,7.684l-5.115-7.406   c0,0,7.398-8.81-2.847-20.475C31.445,1.917,22.913-1.771,18.933,1.068c-3.132,2.268-4.266,13.361,2.276,25.874   C27.75,39.749,36.846,38.036,39.13,37.759l5.971,10.522L17.514,91.221c-2.562,3.98,0,6.819,1.704,7.668   c1.705,0.864,5.408,1.99,7.962-2.839l22.18-40.101L73.822,97.47c1.419,2.283,4.544,3.409,6.827,1.712   C81.783,98.333,85.201,95.479,82.64,91.498"/>
+</g>
+</svg></div>
+  
+      <div class="row-fluid">
+
+
+
+  
+    
+      
+          <div id="dayone_A91129D5A6284948A47589B85B21A213" class="span5">
+    
+
+            
+  <h1 class="dayone_title">Restaurante 1595</h1>
+  <div class="timestamp">Saturday, December 14, 2013 11:57</div>
+
+<p>Stumbled on this literal hole in the wall restaurant while searching for lunch. Prices are really good here ($5/plate + soup and $1/lemonade). It’s got an ancient colonial vibe going on, fitting with the feel of Cartagena so far.</p>
+
+<p>The food was really good! The lemonade was huge, the soup tasty, and the plate included a meat, potato wedges, rice, and a cucumber salad!</p>
+
+    
+          </div> <!-- .span6 -->
+      
+          <div class="span7">
+            <img src="/gfx/dayone_large/A91129D5A6284948A47589B85B21A213.jpg" />
+          </div>
+      
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+
+
+
+  
+    
+      
+    
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+<!-- state: hasPic:false isLongPost: true isNewRow: true flushThisRow: true isPhotoOnlyPost: false-->
+
+
+  
+
+  
+      </div> <!-- .row -->
+    </div> <!-- .container -->
+  </div> <!-- .dayone -->
+  
+
+  
+  <div class="dayone page">
+  
+    <div class="container">
+  
+      <div class="dayone_icon"><svg class="svg_container" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="40px" height="40px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+<g id="Captions">
+</g>
+<g id="Your_Icon">
+	<path class="svg_icon" fill-rule="evenodd" clip-rule="evenodd" d="M82.64,91.498L53.633,48.559l5.971-11.093h7.677c0.562,0,1.134-0.571,1.705-1.143   l14.226-24.732c1.126-2.562-1.998-3.703-3.133-1.713L67.28,30.646c-1.705,2.562-5.686,0.571-3.418-2.854L76.098,6.746   c1.134-1.99-1.713-3.98-3.41-1.42L60.452,25.801c-1.99,3.426-5.399,0.293-3.98-1.697L68.414,3.059   c1.42-2.562-1.42-4.274-2.562-1.99L50.786,24.952c-0.571,1.142-0.571,1.713-0.285,1.99l3.98,7.113l-5.122,7.684l-5.115-7.406   c0,0,7.398-8.81-2.847-20.475C31.445,1.917,22.913-1.771,18.933,1.068c-3.132,2.268-4.266,13.361,2.276,25.874   C27.75,39.749,36.846,38.036,39.13,37.759l5.971,10.522L17.514,91.221c-2.562,3.98,0,6.819,1.704,7.668   c1.705,0.864,5.408,1.99,7.962-2.839l22.18-40.101L73.822,97.47c1.419,2.283,4.544,3.409,6.827,1.712   C81.783,98.333,85.201,95.479,82.64,91.498"/>
+</g>
+</svg></div>
+  
+      <div class="row-fluid">
+
+
+
+  
+        <div class="container-narrow">
+          <div id="dayone_3176C22F1B2B43478B24FB7A285506BE" class="span12">
+    
+
+  
+
+    
+  <h1 class="dayone_title">Tabetai</h1>
+  <div class="timestamp">Tuesday, December 17, 2013 22:54</div>
+
+<p>Hell yes to good food and great cocktails.</p>
+
+<p>There are two Tabetai locations, one in the colonial part of Cartagena and another, newer one, built in a shipping container out by the beaches on the peninsula. We went to the latter one and damn was it a good idea because it turned out the shipping container Tabetai had just opened within the last thirty days. The staff were all incredibly eager to please.</p>
+
+<p>The restaurant is built inside and on top of a shipping container. They have a DJ playing a mix of indie and dance music all night, adding to the cool beach-front ambience. They’re primarily a sushi house so we ordered five plates of sushi and a seaweed salad accompanied by two drinks.</p>
+
+<p>The food was ok overall - we’ve definitely had better sushi elsewhere - but the friendliness of the staff and the genuine way in which they sought our opinions made the experience memorable. At the end of the night the head chef came by and offered us free drinks (“whatever you like”) and asked us how we were enjoying the place before sitting down and mingling with the other clientele.</p>
+
+<p>By the time we got the bill we had a slight buzz and were really enjoying sitting on the roof of the container listening to the music. It felt <em>almost</em> like we were back home on the playa; if only the shipping container had wheels and was moving through the city. For the price we had an amazing time and a lot of sushi, making Tabetai one of our favourite restaurant experiences of Cartagena.</p>
+        </div>
+  
+  
+        </div> <!-- .container-narrow -->
+  
+
+  
+  
+
+
+
+
+
+  
+    
+      
+    
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- state: hasPic:false isLongPost: false isNewRow: true flushThisRow: true isPhotoOnlyPost: false-->
+
+
+  
+
+  
+      </div> <!-- .row -->
+    </div> <!-- .container -->
+  </div> <!-- .dayone -->
+  
+
+  
+  <div class="dayone page">
+  
+    <div class="container">
+  
+      <div class="dayone_icon"><svg class="svg_container" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="40px" height="40px" viewBox="0 0 100 99.375" enable-background="new 0 0 100 99.375" xml:space="preserve">
+<path class="svg_icon" d="M10.924,84.883v14.492H3.333V46.328c0-2.096,1.699-3.815,3.795-3.815l0,0c2.123,0,3.795,1.719,3.795,3.815v31.367H96.55  v21.68h-7.656V84.883H10.924z"/>
+<path class="svg_icon" d="M22.624,61.614c3.796,0,6.869-3.072,6.869-6.888c0-3.789-3.073-6.862-6.869-6.862c-3.815,0-6.888,3.073-6.888,6.862  C15.736,58.542,18.809,61.614,22.624,61.614z"/>
+<path class="svg_icon" d="M96.667,71.992l-0.026-9.466c-0.026-3.008-2.552-5.078-5.481-5.443l-54.05-5.377c-0.117-0.026-0.208-0.078-0.306-0.078  c-1.862,0-3.379,1.523-3.379,3.372v10.208H19.284c-1.888,0-3.398,1.537-3.398,3.398c0,1.875,1.511,3.386,3.398,3.386H96.667z"/>
+<polygon class="svg_icon" points="100,24.883 50.065,0.065 50.045,0 50,0.026 49.955,0 49.935,0.065 0,24.883 4.16,33.255 50,10.469 95.84,33.255 "/>
+</svg></div>
+  
+      <div class="row-fluid">
+
+
+
+  
+        <div class="container-narrow">
+          <div id="dayone_81BCBDE004C44151B98F37B7F57A56F5" class="span12">
+    
+
+  
+
+    
+  <h1 class="dayone_title">Iguana Hostel</h1>
+  <div class="timestamp">Wednesday, December 25, 2013 11:21</div>
+
+<p>Moved here today from Calidad and liking it waaay better. We’re in dorms here for 25,000 COP. Roman makes the place feel like home and is incredibly friendly. On our third night we moved to a private room for 60,000 COP.</p>
+        </div>
+  
+  
+        </div> <!-- .container-narrow -->
+  
+
+  
+  
+
+
+
+
+
+  
+    
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+<!-- state: hasPic:false isLongPost: true isNewRow: true flushThisRow: true isPhotoOnlyPost: false-->
+
+
+  
+
+  
+      </div> <!-- .row -->
+    </div> <!-- .container -->
+  </div> <!-- .dayone -->
+  
+
+  
+  <div class="dayone page">
+  
+    <div class="container">
+  
+      <div class="dayone_icon"><svg class="svg_container" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="40px" height="40px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+<g id="Captions">
+</g>
+<g id="Your_Icon">
+	<path class="svg_icon" fill-rule="evenodd" clip-rule="evenodd" d="M82.64,91.498L53.633,48.559l5.971-11.093h7.677c0.562,0,1.134-0.571,1.705-1.143   l14.226-24.732c1.126-2.562-1.998-3.703-3.133-1.713L67.28,30.646c-1.705,2.562-5.686,0.571-3.418-2.854L76.098,6.746   c1.134-1.99-1.713-3.98-3.41-1.42L60.452,25.801c-1.99,3.426-5.399,0.293-3.98-1.697L68.414,3.059   c1.42-2.562-1.42-4.274-2.562-1.99L50.786,24.952c-0.571,1.142-0.571,1.713-0.285,1.99l3.98,7.113l-5.122,7.684l-5.115-7.406   c0,0,7.398-8.81-2.847-20.475C31.445,1.917,22.913-1.771,18.933,1.068c-3.132,2.268-4.266,13.361,2.276,25.874   C27.75,39.749,36.846,38.036,39.13,37.759l5.971,10.522L17.514,91.221c-2.562,3.98,0,6.819,1.704,7.668   c1.705,0.864,5.408,1.99,7.962-2.839l22.18-40.101L73.822,97.47c1.419,2.283,4.544,3.409,6.827,1.712   C81.783,98.333,85.201,95.479,82.64,91.498"/>
+</g>
+</svg></div>
+  
+      <div class="row-fluid">
+
+
+
+  
+        <div class="container-narrow">
+          <div id="dayone_A6BC0098C2E24DCE90079E958F98A3B5" class="span12">
+    
+
+  
+
+    
+  <h1 class="dayone_title">Solsticio</h1>
+  <div class="timestamp">Friday, December 27, 2013 23:43</div>
+
+<p>My <a href="http://www.tripadvisor.com/ShowUserReviews-g297475-d1008409-r189025801-Solsticio-Cali_Valle_del_Cauca_Department.html#REVIEWS">tripadvisor review</a>:</p>
+
+<blockquote>
+<p>This place was a surprise for us because on the outside it looks much more expensive than it is. We ended up eating here twice because the food is so good and the menu is so big.</p>
+
+<p>The salmon with passionfruit was super freaking delicious and both of the chicken plates we had on the first night were also good. Our waiter was attentive and the food was served quickly. The smaller serving size (the default) for the chicken plates was a little too small, so it’s a good idea to order appetizers and/or the bigger portion.</p>
+
+<p>On the second night we ordered one of the salads and were blown away by how delicious it was. It had nuts and apples and a light cream sauce that made us inhale it. It was almost a dessert for how sweet it was, but it was a perfect start to the dinner. I ordered an asian-style plate that was just ok. I would probably choose the chicken or fish over it.</p>
+
+<p>We also had drinks the second night that were ok. The mojitos were a bit too sweet and I added tabasco to my bloody mary to give it a bit more bite.</p>
+
+<p>Overall the food here is great for the price and the staff are wonderfully friendly, so it’s definitely worth a try during a visit to Cali.</p>
+</blockquote>
+        </div>
+  
+  
+        </div> <!-- .container-narrow -->
+  
+
+  
+  
+
+
+
+
+
+  
+    
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+
+
+<!-- state: hasPic:true isLongPost: true isNewRow: true flushThisRow: true isPhotoOnlyPost: false-->
+
+
+  
+
+  
+      </div> <!-- .row -->
+    </div> <!-- .container -->
+  </div> <!-- .dayone -->
+  
+
+  
+  <div class="dayone page">
+  
+    <div class="container">
+  
+      <div class="dayone_icon"><svg class="svg_container" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="40px" height="40px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+<g id="Captions">
+</g>
+<g id="Your_Icon">
+	<path class="svg_icon" fill-rule="evenodd" clip-rule="evenodd" d="M82.64,91.498L53.633,48.559l5.971-11.093h7.677c0.562,0,1.134-0.571,1.705-1.143   l14.226-24.732c1.126-2.562-1.998-3.703-3.133-1.713L67.28,30.646c-1.705,2.562-5.686,0.571-3.418-2.854L76.098,6.746   c1.134-1.99-1.713-3.98-3.41-1.42L60.452,25.801c-1.99,3.426-5.399,0.293-3.98-1.697L68.414,3.059   c1.42-2.562-1.42-4.274-2.562-1.99L50.786,24.952c-0.571,1.142-0.571,1.713-0.285,1.99l3.98,7.113l-5.122,7.684l-5.115-7.406   c0,0,7.398-8.81-2.847-20.475C31.445,1.917,22.913-1.771,18.933,1.068c-3.132,2.268-4.266,13.361,2.276,25.874   C27.75,39.749,36.846,38.036,39.13,37.759l5.971,10.522L17.514,91.221c-2.562,3.98,0,6.819,1.704,7.668   c1.705,0.864,5.408,1.99,7.962-2.839l22.18-40.101L73.822,97.47c1.419,2.283,4.544,3.409,6.827,1.712   C81.783,98.333,85.201,95.479,82.64,91.498"/>
+</g>
+</svg></div>
+  
+      <div class="row-fluid">
+
+
+
+  
+    
+          <div class="container-narrow">
+            <div id="dayone_6B93A4258D504E39A42C7EBF6CA9152B" class="span12">
+    
+
+            
+  <h1 class="dayone_title">Cafe de la Trinidad</h1>
+  <div class="timestamp">Friday, January 03, 2014 01:13</div>
+
+<p>This little cafe sits unassumingly to the side of the plaza in Getsemani with only a few tables and chairs set out to watch the nightly antics. We wanted a drink one night while hanging out here and stepped in to look at the menu. It turned out they also had food so we came back for dinner.</p>
+
+<p>Holy crap is their food good. Everything we ordered was delicious and reasonably priced. I had the lasagna, apple pizza, and salad, each of which completely surprised me with both their presentation and flavor.</p>
+
+<p>Definitely not the cheapest food we’ve found in Cartagena, but for the price this place was one of the best meals we had in town.</p>
+
+    
+            </div> <!-- .span12 -->
+          </div> <!-- .container-narrow -->  
+      
+      
+          <div class="dayone_pic">
+            <img src="/gfx/dayone_large/6B93A4258D504E39A42C7EBF6CA9152B.jpg" />
+          </div>
+      
+      
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+
+
+
+  
+    
+      
+        
+      
+    
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<!-- state: hasPic:true isLongPost: false isNewRow: true flushThisRow: false isPhotoOnlyPost: false-->
+
+
+  
+
+  
+      </div> <!-- .row -->
+    </div> <!-- .container -->
+  </div> <!-- .dayone -->
+  
+
+  
+  <div class="dayone page">
+  
+    <div class="container">
+  
+      <div class="dayone_icon"><svg class="svg_container" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="40px" height="40px" viewBox="0 0 100 99.375" enable-background="new 0 0 100 99.375" xml:space="preserve">
+<path class="svg_icon" d="M10.924,84.883v14.492H3.333V46.328c0-2.096,1.699-3.815,3.795-3.815l0,0c2.123,0,3.795,1.719,3.795,3.815v31.367H96.55  v21.68h-7.656V84.883H10.924z"/>
+<path class="svg_icon" d="M22.624,61.614c3.796,0,6.869-3.072,6.869-6.888c0-3.789-3.073-6.862-6.869-6.862c-3.815,0-6.888,3.073-6.888,6.862  C15.736,58.542,18.809,61.614,22.624,61.614z"/>
+<path class="svg_icon" d="M96.667,71.992l-0.026-9.466c-0.026-3.008-2.552-5.078-5.481-5.443l-54.05-5.377c-0.117-0.026-0.208-0.078-0.306-0.078  c-1.862,0-3.379,1.523-3.379,3.372v10.208H19.284c-1.888,0-3.398,1.537-3.398,3.398c0,1.875,1.511,3.386,3.398,3.386H96.667z"/>
+<polygon class="svg_icon" points="100,24.883 50.065,0.065 50.045,0 50,0.026 49.955,0 49.935,0.065 0,24.883 4.16,33.255 50,10.469 95.84,33.255 "/>
+</svg></div>
+  
+      <div class="row-fluid">
+
+
+
+  
+    
+      
+          <div id="dayone_12FA7A1203084CD89FC36A460495809F" class="span5">
+    
+
+            
+  <h1 class="dayone_title">Community Hostel</h1>
+  <div class="timestamp">Saturday, January 04, 2014 20:56</div>
+
+<p>We arrived at Community Hostel after a long day of travel. It’s a couple flights of stairs up on the third floor and we nearly died climbing them: definitely noticing the altitude!</p>
+
+<p>The staff and people here were super friendly and we really loved our stay here overall. The neighbourhood that the hostel is located in doesn’t feel the safest overall, but it’s super close to the red line bus making it a pretty good location for getting around.</p>
+
+    
+          </div> <!-- .span6 -->
+      
+          <div class="span7">
+            <img src="/gfx/dayone_large/12FA7A1203084CD89FC36A460495809F.jpg" />
+          </div>
+      
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+
+
+
+  
+    
+      
+        
+      
+    
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- state: hasPic:false isLongPost: false isNewRow: true flushThisRow: false isPhotoOnlyPost: false-->
+
+
+  
+
+  
+      </div> <!-- .row -->
+    </div> <!-- .container -->
+  </div> <!-- .dayone -->
+  
+
+  
+  <div class="dayone page">
+  
+    <div class="container">
+  
+      <div class="row-fluid">
+
+
+
+  
+        <div id="dayone_9EDBAEAE861C4BA29C2EAA832507F389" class="span6">
+          <div class="dayone_icon"><svg class="svg_container" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="40px" height="40px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+<g id="Captions">
+</g>
+<g id="Your_Icon">
+	<path class="svg_icon" fill-rule="evenodd" clip-rule="evenodd" d="M82.64,91.498L53.633,48.559l5.971-11.093h7.677c0.562,0,1.134-0.571,1.705-1.143   l14.226-24.732c1.126-2.562-1.998-3.703-3.133-1.713L67.28,30.646c-1.705,2.562-5.686,0.571-3.418-2.854L76.098,6.746   c1.134-1.99-1.713-3.98-3.41-1.42L60.452,25.801c-1.99,3.426-5.399,0.293-3.98-1.697L68.414,3.059   c1.42-2.562-1.42-4.274-2.562-1.99L50.786,24.952c-0.571,1.142-0.571,1.713-0.285,1.99l3.98,7.113l-5.122,7.684l-5.115-7.406   c0,0,7.398-8.81-2.847-20.475C31.445,1.917,22.913-1.771,18.933,1.068c-3.132,2.268-4.266,13.361,2.276,25.874   C27.75,39.749,36.846,38.036,39.13,37.759l5.971,10.522L17.514,91.221c-2.562,3.98,0,6.819,1.704,7.668   c1.705,0.864,5.408,1.99,7.962-2.839l22.18-40.101L73.822,97.47c1.419,2.283,4.544,3.409,6.827,1.712   C81.783,98.333,85.201,95.479,82.64,91.498"/>
+</g>
+</svg></div>
+  
+
+    
+  <h1 class="dayone_title">El Guaytambo</h1>
+  <div class="timestamp">Saturday, January 04, 2014 21:23</div>
+
+<p>We had quarter-chicken combo plates here for $4 and they were absolutely delicious. The combo included soup, a quarter chicken, fries, and a salad and everything was really good.</p>
+        </div>
+  
+  
+
+  
+  
+
+
+
+
+
+  
+    
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- state: hasPic:false isLongPost: false isNewRow: false flushThisRow: true isPhotoOnlyPost: false-->
+
+
+
+
+  
+        <div id="dayone_029F2FE421F644008D9ACC6411F38C1F" class="span6">
+          <div class="dayone_icon"><svg class="svg_container" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="40px" height="40px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+<g id="Captions">
+</g>
+<g id="Your_Icon">
+	<path class="svg_icon" fill-rule="evenodd" clip-rule="evenodd" d="M82.64,91.498L53.633,48.559l5.971-11.093h7.677c0.562,0,1.134-0.571,1.705-1.143   l14.226-24.732c1.126-2.562-1.998-3.703-3.133-1.713L67.28,30.646c-1.705,2.562-5.686,0.571-3.418-2.854L76.098,6.746   c1.134-1.99-1.713-3.98-3.41-1.42L60.452,25.801c-1.99,3.426-5.399,0.293-3.98-1.697L68.414,3.059   c1.42-2.562-1.42-4.274-2.562-1.99L50.786,24.952c-0.571,1.142-0.571,1.713-0.285,1.99l3.98,7.113l-5.122,7.684l-5.115-7.406   c0,0,7.398-8.81-2.847-20.475C31.445,1.917,22.913-1.771,18.933,1.068c-3.132,2.268-4.266,13.361,2.276,25.874   C27.75,39.749,36.846,38.036,39.13,37.759l5.971,10.522L17.514,91.221c-2.562,3.98,0,6.819,1.704,7.668   c1.705,0.864,5.408,1.99,7.962-2.839l22.18-40.101L73.822,97.47c1.419,2.283,4.544,3.409,6.827,1.712   C81.783,98.333,85.201,95.479,82.64,91.498"/>
+</g>
+</svg></div>
+  
+
+    
+  <h1 class="dayone_title">Hotel Silbestein</h1>
+  <div class="timestamp">Wednesday, January 08, 2014 17:00</div>
+
+<p>We had an awesome dinner at Hotel Silbestein with two friends we made while diving Gordon Rocks. The food was delicious and reasonably priced and we spent hours cracking jokes about everything from internet cats to our newly acquired “citation needed” fun from New Years.</p>
+
+<p>I had a coco chicken plate which was served with plantains and rice. I completely devoured it after a day of diving. We ended the dinner with a lava cake and ice cream and were completely satisfied.</p>
+        </div>
+  
+  
+
+  
+  
+
+
+
+
+
+  
+    
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<!-- state: hasPic:true isLongPost: false isNewRow: true flushThisRow: true isPhotoOnlyPost: false-->
+
+
+  
+
+  
+      </div> <!-- .row -->
+    </div> <!-- .container -->
+  </div> <!-- .dayone -->
+  
+
+  
+  <div class="dayone page">
+  
+    <div class="container">
+  
+      <div class="dayone_icon"><svg class="svg_container" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="40px" height="40px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+<g id="Captions">
+</g>
+<g id="Your_Icon">
+	<path class="svg_icon" fill-rule="evenodd" clip-rule="evenodd" d="M82.64,91.498L53.633,48.559l5.971-11.093h7.677c0.562,0,1.134-0.571,1.705-1.143   l14.226-24.732c1.126-2.562-1.998-3.703-3.133-1.713L67.28,30.646c-1.705,2.562-5.686,0.571-3.418-2.854L76.098,6.746   c1.134-1.99-1.713-3.98-3.41-1.42L60.452,25.801c-1.99,3.426-5.399,0.293-3.98-1.697L68.414,3.059   c1.42-2.562-1.42-4.274-2.562-1.99L50.786,24.952c-0.571,1.142-0.571,1.713-0.285,1.99l3.98,7.113l-5.122,7.684l-5.115-7.406   c0,0,7.398-8.81-2.847-20.475C31.445,1.917,22.913-1.771,18.933,1.068c-3.132,2.268-4.266,13.361,2.276,25.874   C27.75,39.749,36.846,38.036,39.13,37.759l5.971,10.522L17.514,91.221c-2.562,3.98,0,6.819,1.704,7.668   c1.705,0.864,5.408,1.99,7.962-2.839l22.18-40.101L73.822,97.47c1.419,2.283,4.544,3.409,6.827,1.712   C81.783,98.333,85.201,95.479,82.64,91.498"/>
+</g>
+</svg></div>
+  
+      <div class="row-fluid">
+
+
+
+  
+    
+      
+          <div class="span7">
+            <img src="/gfx/dayone_large/8C02FE31A62F494FABC5B0AA6FEAAC40.jpg" />
+          </div>
+      
+          <div id="dayone_8C02FE31A62F494FABC5B0AA6FEAAC40" class="span5">
+    
+
+            
+<p>Rest. Pizzeria Playa Sol y Mar</p>
+
+<p>Amazing casado dinner. Really good sauce with the meat and the beans were super tasty. They had a solid ají hot sauce which went well in the rice and beans.</p>
+
+    
+          </div> <!-- .span6 -->
+      
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+
+
+
+  
+    
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+
+
+<!-- state: hasPic:true isLongPost: true isNewRow: true flushThisRow: true isPhotoOnlyPost: false-->
+
+
+  
+
+  
+      </div> <!-- .row -->
+    </div> <!-- .container -->
+  </div> <!-- .dayone -->
+  
+
+  
+  <div class="dayone page">
+  
+    <div class="container">
+  
+      <div class="dayone_icon"><svg class="svg_container" version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="40px" height="40px" viewBox="0 0 100 83.101" enable-background="new 0 0 100 83.101" xml:space="preserve">
+<polygon class="svg_icon" points="0,0 15.868,16.397 21.961,10.867 16.444,0.05 "/>
+<path class="svg_icon" d="M71.534,45.935c3,0.834,6.223-0.882,7.079-3.962c0.822-3.032-0.929-6.218-3.951-7.076l-2.354-0.662l-3.046,11.019
+	L71.534,45.935z"/>
+<path class="svg_icon" d="M69.687,33.533l-18.995-5.412c-1.249-0.329-2.503,0.429-2.847,1.692l-1.785,6.42c-0.351,1.261,0.329,2.555,1.609,2.934
+	l18.996,5.354L69.687,33.533z"/>
+<path class="svg_icon" d="M72.687,51.773c-1.448-1.393-3.249-2.499-5.35-3.083l-23.028-6.515l0,0L30.16,16.802c-0.745-1.311-1.944-2.354-3.496-2.783
+	c-3.103-0.882-6.327,0.961-7.174,4.098c-0.423,1.489-0.223,3.009,0.448,4.295l17.701,31.38c0,0,1.448,2.353,5.095,3.563l32.178,9.12
+	l14.922,15.315c0.496,0.524,1.145,0.93,1.92,1.155c2.247,0.63,4.599-0.728,5.256-2.975c0.425-1.594-0.081-3.267-1.201-4.302
+	L72.687,51.773z"/>
+<path class="svg_icon" d="M89.857,58.11l3.345,4.423L100,55.03l-5.741-3.233c0.541-4.067-1.952-8.005-5.951-9.146
+	c-4.399-1.236-8.973,1.342-10.196,5.79c-1.249,4.471,1.326,9.071,5.728,10.309C85.93,59.355,88.059,59.025,89.857,58.11z"/>
+</svg>
+</div>
+  
+      <div class="row-fluid">
+
+
+
+  
+    
+          <div class="container-narrow">
+            <div id="dayone_81C77D3E6B8644F6B75874FC8EC8E192" class="span12">
+    
+
+            
+  <h1 class="dayone_title">SCUBA Diving at Kicker Rock</h1>
+  <div class="timestamp">Thursday, January 16, 2014 08:21</div>
+
+<p>Holy shit Kicker Rock you don’t hold back!</p>
+
+<p>We met up with the crew at 8:30AM on the pier and the boat was ready to go. We boarded and then cruised north along the coast of San Cristobal, checking out the port where Darwin first landed as we went. We did our check dive in a small bay and everything was good to go!</p>
+
+<p>The ride to Kicker Rock was quick - less than half an hour. Once we arrived our dive master gave us a breakdown of how the dive would go. He taught us a bunch of hand signals to identify fish with which should have been a sign for what was to come.</p>
+
+<p>For the first dive we crossed the gap between the two rocks. The first half of the dive was pretty basic and we saw plenty of puffer fish and other small fish swimming around. Shortly after letting a current push us further along we saw our first shark of the day: a white tip! This was immediately followed by a second, and a third, and then I decided to stop counting and just watch as we swam under, beside, and around too many sharks to count.</p>
+
+    
+            </div> <!-- .span12 -->
+          </div> <!-- .container-narrow -->  
+      
+      
+          <div class="dayone_pic">
+            <img src="/gfx/dayone_large/81C77D3E6B8644F6B75874FC8EC8E192.jpg" />
+          </div>
+      
+      
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+
+
+
+  
+    
+      
+    
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<!-- state: hasPic:true isLongPost: false isNewRow: true flushThisRow: true isPhotoOnlyPost: false-->
+
+
+  
+
+  
+      </div> <!-- .row -->
+    </div> <!-- .container -->
+  </div> <!-- .dayone -->
+  
+
+  
+  <div class="dayone page">
+  
+    <div class="container">
+  
+      <div class="dayone_icon"><svg class="svg_container default_svg" xmlns:x="http://ns.adobe.com/Extensibility/1.0/" xmlns:i="http://ns.adobe.com/AdobeIllustrator/10.0/" xmlns:graph="http://ns.adobe.com/Graphs/1.0/" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Livello_1" x="0px" y="0px" width="100.0px" height="100px" viewBox="0 0 156 156" enable-background="new 0 0 156 156" xml:space="preserve">
+<switch>
+	<foreignObject requiredExtensions="http://ns.adobe.com/AdobeIllustrator/10.0/" x="0" y="0" width="1" height="1">
+		</foreignObject>
+	<g i:extraneous="self">
+		<path class="svg_icon" d="M120.225,31.732c-19.529,0.289-38.007,9.201-51.185,23.501c-1.586,1.722-3.088,3.519-4.506,5.381    c-1.15,1.511-1.221,3.34-1.466,5.189c-0.193-0.802-0.373-1.607-0.55-2.413c-4.981,7.397-8.908,15.526-10.515,24.356    c-0.449,2.469-0.721,4.968-0.759,7.478c-0.018,1.163,0.013,2.326,0.085,3.486c0.07,1.129-0.512,1.984-0.967,3.014    c-1.967,4.447-3.555,9.069-4.761,13.78c-1.36,5.311-2.216,10.753-2.496,16.229c1.486-5.579,3.17-11.107,5.186-16.519    c0.985-2.646,2.063-5.257,3.224-7.829c0.588-1.305,1.221-2.587,1.844-3.874c0.291-0.601,0.559-1.487,1.016-1.979    c0.339-0.364-0.102-0.289,0.557-0.337c0.432-0.031,0.949,0.116,1.396,0.12c5.48,0.045,11.249-1.233,16.47-2.806    c3.749-1.129,7.21-2.836,10.704-4.252c2.368-0.959,4.735-1.92,7.102-2.88c-3.711,0.229-7.456,0.631-11.175,0.611    c2.443-0.535,4.888-1.091,7.324-1.663c1.211-0.285,2.424-0.58,3.63-0.885c1.631-0.411,2.621-0.958,3.951-1.969    c5.474-4.162,9.936-9.709,13.68-15.433c3.715-5.678,6.709-11.865,8.821-18.314C119.172,46.587,120.244,39.233,120.225,31.732    L120.225,31.732z M91.079,86.476C91.062,86.486,91.049,86.494,91.079,86.476L91.079,86.476z M114.742,53.207    c-2.449,7.087-5.983,13.812-10.392,19.873c-2.247,3.09-4.712,6.03-7.457,8.688c-1.352,1.309-2.775,2.572-4.298,3.676    c-0.806,0.585-1.361,0.974-2.307,1.219c-5.535,1.438-11.412,2.52-17.129,3.705c-2.792,0.579-5.583,1.159-8.376,1.742    c2.676,0.793,5.344,1.712,8.092,2.224c-5.235,1.252-10.532,2.028-15.899,2.388c6.733-11.705,15.505-22.208,25.812-30.933    c2.875-2.433,5.854-4.739,8.997-6.818c-6.537,2.481-12.574,6.627-17.88,11.128c-5.12,4.344-9.726,9.261-13.718,14.66    c-2.349,3.176-4.47,6.512-6.373,9.974c-0.609-10.128,2.947-20.097,8.225-28.612c0.433,1.742,0.946,3.46,1.448,5.183    c0.121-1.082,0.24-2.164,0.367-3.243c0.147-1.263,0.303-2.525,0.495-3.781c0.137-0.894,0.186-1.843,0.701-2.599    c2.481-3.643,5.703-6.943,8.92-9.932c7.457-6.927,16.327-12.262,26.042-15.346c5.898-1.873,12.131-2.834,18.32-2.788    C118.181,40.281,116.914,46.907,114.742,53.207C112.462,59.805,116.915,46.903,114.742,53.207z"/>
+	</g>
+</switch>
+</svg></div>
+  
+      <div class="row-fluid">
+
+
+
+  
+    
+      
+          <div class="span7">
+            <img src="/gfx/dayone_large/1CAE1B8B99434FAA9836C2E0D1D2A55B.jpg" />
+          </div>
+      
+          <div id="dayone_1CAE1B8B99434FAA9836C2E0D1D2A55B" class="span5">
+    
+
+            
+  <h1 class="dayone_title">As If In A Dream</h1>
+  <div class="timestamp">Thursday, January 23, 2014 20:25</div>
+
+<p>We’d heard that there would be lasers at this park, but nothing prepared us for the breath-taking massive holographic display they had on show, with dancers from every culture floating ephemerally in the air as they demonstrated their talents.</p>
+
+    
+          </div> <!-- .span6 -->
+      
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+
+
+
+  
+    
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+<!-- state: hasPic:false isLongPost: true isNewRow: true flushThisRow: true isPhotoOnlyPost: false-->
+
+
+  
+
+  
+      </div> <!-- .row -->
+    </div> <!-- .container -->
+  </div> <!-- .dayone -->
+  
+
+  
+  <div class="dayone page">
+  
+    <div class="container">
+  
+      <div class="dayone_icon"><svg class="svg_container default_svg" xmlns:x="http://ns.adobe.com/Extensibility/1.0/" xmlns:i="http://ns.adobe.com/AdobeIllustrator/10.0/" xmlns:graph="http://ns.adobe.com/Graphs/1.0/" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Livello_1" x="0px" y="0px" width="100.0px" height="100px" viewBox="0 0 156 156" enable-background="new 0 0 156 156" xml:space="preserve">
+<switch>
+	<foreignObject requiredExtensions="http://ns.adobe.com/AdobeIllustrator/10.0/" x="0" y="0" width="1" height="1">
+		</foreignObject>
+	<g i:extraneous="self">
+		<path class="svg_icon" d="M120.225,31.732c-19.529,0.289-38.007,9.201-51.185,23.501c-1.586,1.722-3.088,3.519-4.506,5.381    c-1.15,1.511-1.221,3.34-1.466,5.189c-0.193-0.802-0.373-1.607-0.55-2.413c-4.981,7.397-8.908,15.526-10.515,24.356    c-0.449,2.469-0.721,4.968-0.759,7.478c-0.018,1.163,0.013,2.326,0.085,3.486c0.07,1.129-0.512,1.984-0.967,3.014    c-1.967,4.447-3.555,9.069-4.761,13.78c-1.36,5.311-2.216,10.753-2.496,16.229c1.486-5.579,3.17-11.107,5.186-16.519    c0.985-2.646,2.063-5.257,3.224-7.829c0.588-1.305,1.221-2.587,1.844-3.874c0.291-0.601,0.559-1.487,1.016-1.979    c0.339-0.364-0.102-0.289,0.557-0.337c0.432-0.031,0.949,0.116,1.396,0.12c5.48,0.045,11.249-1.233,16.47-2.806    c3.749-1.129,7.21-2.836,10.704-4.252c2.368-0.959,4.735-1.92,7.102-2.88c-3.711,0.229-7.456,0.631-11.175,0.611    c2.443-0.535,4.888-1.091,7.324-1.663c1.211-0.285,2.424-0.58,3.63-0.885c1.631-0.411,2.621-0.958,3.951-1.969    c5.474-4.162,9.936-9.709,13.68-15.433c3.715-5.678,6.709-11.865,8.821-18.314C119.172,46.587,120.244,39.233,120.225,31.732    L120.225,31.732z M91.079,86.476C91.062,86.486,91.049,86.494,91.079,86.476L91.079,86.476z M114.742,53.207    c-2.449,7.087-5.983,13.812-10.392,19.873c-2.247,3.09-4.712,6.03-7.457,8.688c-1.352,1.309-2.775,2.572-4.298,3.676    c-0.806,0.585-1.361,0.974-2.307,1.219c-5.535,1.438-11.412,2.52-17.129,3.705c-2.792,0.579-5.583,1.159-8.376,1.742    c2.676,0.793,5.344,1.712,8.092,2.224c-5.235,1.252-10.532,2.028-15.899,2.388c6.733-11.705,15.505-22.208,25.812-30.933    c2.875-2.433,5.854-4.739,8.997-6.818c-6.537,2.481-12.574,6.627-17.88,11.128c-5.12,4.344-9.726,9.261-13.718,14.66    c-2.349,3.176-4.47,6.512-6.373,9.974c-0.609-10.128,2.947-20.097,8.225-28.612c0.433,1.742,0.946,3.46,1.448,5.183    c0.121-1.082,0.24-2.164,0.367-3.243c0.147-1.263,0.303-2.525,0.495-3.781c0.137-0.894,0.186-1.843,0.701-2.599    c2.481-3.643,5.703-6.943,8.92-9.932c7.457-6.927,16.327-12.262,26.042-15.346c5.898-1.873,12.131-2.834,18.32-2.788    C118.181,40.281,116.914,46.907,114.742,53.207C112.462,59.805,116.915,46.903,114.742,53.207z"/>
+	</g>
+</switch>
+</svg></div>
+  
+      <div class="row-fluid">
+
+
+
+  
+        <div class="container-narrow">
+          <div id="dayone_220C984304804C969FBA9EBAEA2C69DC" class="span12">
+    
+
+  
+
+    
+  <h1 class="dayone_title">Good Hope Hospital</h1>
+  <div class="timestamp">Friday, January 24, 2014 12:37</div>
+
+<p>We dropped in here to get a checkup due to some ear issues post-diving in the Galapagos. Found out there was some congestion in one of the ears and we got a short prescription of decongestants. It was fast, cheap, and informative, something we’re definitely not used to in Canada!</p>
+
+<p>The doctor we had was also super friendly. He asked us about our trip and gave us tips on routes to Cusco, basically acting as our travel planner for the next few weeks in Peru! He even gave us his card specifically so that we could contact him if we have any questions about Peru and places to see.</p>
+        </div>
+  
+  
+        </div> <!-- .container-narrow -->
+  
+
+  
+  
+
+
+
+
+
+  
+    
+      
+        
+      
+    
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<!-- state: hasPic:true isLongPost: false isNewRow: true flushThisRow: false isPhotoOnlyPost: false-->
+
+
+  
+
+  
+      </div> <!-- .row -->
+    </div> <!-- .container -->
+  </div> <!-- .dayone -->
+  
+
+  
+  <div class="dayone page">
+  
+    <div class="container">
+  
+      <div class="dayone_icon"><svg class="svg_container" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="40px" height="40px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+<g id="Captions">
+</g>
+<g id="Your_Icon">
+	<path class="svg_icon" fill-rule="evenodd" clip-rule="evenodd" d="M82.64,91.498L53.633,48.559l5.971-11.093h7.677c0.562,0,1.134-0.571,1.705-1.143   l14.226-24.732c1.126-2.562-1.998-3.703-3.133-1.713L67.28,30.646c-1.705,2.562-5.686,0.571-3.418-2.854L76.098,6.746   c1.134-1.99-1.713-3.98-3.41-1.42L60.452,25.801c-1.99,3.426-5.399,0.293-3.98-1.697L68.414,3.059   c1.42-2.562-1.42-4.274-2.562-1.99L50.786,24.952c-0.571,1.142-0.571,1.713-0.285,1.99l3.98,7.113l-5.122,7.684l-5.115-7.406   c0,0,7.398-8.81-2.847-20.475C31.445,1.917,22.913-1.771,18.933,1.068c-3.132,2.268-4.266,13.361,2.276,25.874   C27.75,39.749,36.846,38.036,39.13,37.759l5.971,10.522L17.514,91.221c-2.562,3.98,0,6.819,1.704,7.668   c1.705,0.864,5.408,1.99,7.962-2.839l22.18-40.101L73.822,97.47c1.419,2.283,4.544,3.409,6.827,1.712   C81.783,98.333,85.201,95.479,82.64,91.498"/>
+</g>
+</svg></div>
+  
+      <div class="row-fluid">
+
+
+
+  
+    
+      
+          <div id="dayone_3993CDA3A63E44BA8BB83EB64AC9DA16" class="span5">
+    
+
+            
+  <h1 class="dayone_title">Cafe del Mundo</h1>
+  <div class="timestamp">Wednesday, February 12, 2014 13:50</div>
+
+<p>Holy shit tasty breakfast for cheap.</p>
+
+    
+          </div> <!-- .span6 -->
+      
+          <div class="span7">
+            <img src="/gfx/dayone_large/3993CDA3A63E44BA8BB83EB64AC9DA16.jpg" />
+          </div>
+      
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- state: hasPic:false isLongPost: false isNewRow: true flushThisRow: true isPhotoOnlyPost: false-->
+
+
+  
+
+  
+      </div> <!-- .row -->
+    </div> <!-- .container -->
+  </div> <!-- .dayone -->
+  
+
+  
+  <div class="dayone page">
+  
+    <div class="container">
+  
+      <div class="dayone_icon"><svg class="svg_container" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="40px" height="40px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+<g id="Captions">
+</g>
+<g id="Your_Icon">
+	<path class="svg_icon" fill-rule="evenodd" clip-rule="evenodd" d="M82.64,91.498L53.633,48.559l5.971-11.093h7.677c0.562,0,1.134-0.571,1.705-1.143   l14.226-24.732c1.126-2.562-1.998-3.703-3.133-1.713L67.28,30.646c-1.705,2.562-5.686,0.571-3.418-2.854L76.098,6.746   c1.134-1.99-1.713-3.98-3.41-1.42L60.452,25.801c-1.99,3.426-5.399,0.293-3.98-1.697L68.414,3.059   c1.42-2.562-1.42-4.274-2.562-1.99L50.786,24.952c-0.571,1.142-0.571,1.713-0.285,1.99l3.98,7.113l-5.122,7.684l-5.115-7.406   c0,0,7.398-8.81-2.847-20.475C31.445,1.917,22.913-1.771,18.933,1.068c-3.132,2.268-4.266,13.361,2.276,25.874   C27.75,39.749,36.846,38.036,39.13,37.759l5.971,10.522L17.514,91.221c-2.562,3.98,0,6.819,1.704,7.668   c1.705,0.864,5.408,1.99,7.962-2.839l22.18-40.101L73.822,97.47c1.419,2.283,4.544,3.409,6.827,1.712   C81.783,98.333,85.201,95.479,82.64,91.498"/>
+</g>
+</svg></div>
+  
+      <div class="row-fluid">
+
+
+
+  
+        <div class="container-narrow">
+          <div id="dayone_E794CE85641A45EC9E92056760B4708D" class="span12">
+    
+
+  
+
+    
+  <h1 class="dayone_title">Chat Thai</h1>
+  <div class="timestamp">Wednesday, April 23, 2014 18:56</div>
+
+<p>Quite the line but omg food porn. Sooooo good.</p>
+        </div>
+  
+  
+        </div> <!-- .container-narrow -->
+  
+
+  
+  
+
+
+
+
+    </div> <!-- /row-fluid -->
+  </div> <!-- /container -->
+</div> <!-- /dayones -->
+
+
+
+
+</div>
+
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/post.js"></script>
+    
+    <script type="text/javascript">
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-8961075-1']);
+      _gaq.push(['_setDomainName', 'jeffverkoeyen.com']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+    </script>
+  </body>
+</html>
+
